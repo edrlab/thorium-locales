@@ -1,0 +1,92 @@
+{
+	"publication": {
+    "metadata": {
+      "title": "title",
+      "subtitle": "subtitle",
+      "identifier": {
+        "one": "identifier",
+        "other": "identifiers"
+      },
+      "altIdentifier": {
+        "one": "alternate identifier",
+        "other": "alternate identifiers"
+      },
+      "published": "publication date",
+      "modified": "modification date",
+      "language": {
+        "one": "language",
+        "other": "languages"
+      },
+      "author": {
+        "one": "author",
+        "other": "authors"
+      },
+      "translator": {
+        "one": "translator",
+        "other": "translators"
+      },
+      "editor": {
+        "one": "editor",
+        "other": "editors"
+      },
+      "artist": {
+        "one": "artist",
+        "other": "artists"
+      },
+      "illustrator": {
+        "one": "illustrator",
+        "other": "illustrators"
+      },
+      "letterer": {
+        "one": "letterer",
+        "other": "letterers"
+      },
+      "penciler": {
+        "one": "penciler",
+        "other": "pencilers"
+      },
+      "colorist": {
+        "one": "colorist",
+        "other": "colorists"
+      },
+      "inker": {
+        "one": "inker",
+        "other": "inkers"
+      },
+      "narrator": {
+        "one": "narrator",
+        "other": "narrators"
+      },
+      "contributor": {
+        "one": "contributor",
+        "other": "contributors"
+      },
+      "publisher": {
+        "one": "publisher",
+        "other": "publishers"
+      },
+      "imprint": {
+        "one": "imprint",
+        "other": "imprints"
+      },
+      "subject": {
+        "one": "subject",
+        "other": "subjects"
+      },
+      "description": "description",
+      "duration": "duration",
+      "numberOfPages": "print length",
+      "collection": {
+        "one": "editorial collection",
+        "other": "editorial collections"
+      },
+      "series": {
+        "one": "series",
+        "other": "series"
+      },
+      "accessibility": {
+        "displayGuide": {}
+      }
+    }
+  }
+}
