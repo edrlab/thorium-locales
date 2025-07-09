@@ -275,10 +275,7 @@
           "accessibility-summary": {
             "title": "Accessibility summary",
             "no-metadata": "No information is available",
-            "publisher-contact": {
-              "compact": "For more information about the accessibility of this product, please contact the publisher: ",
-              "descriptive": "For more information about the accessibility of this product, please contact the publisher: "
-            }
+            "publisher-contact": "For more information about the accessibility of this product, please contact the publisher: ",
           },
           "legal-considerations": {
             "title": "Legal considerations",
