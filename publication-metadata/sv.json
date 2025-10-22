@@ -1,1 +1,12 @@
-{}
+{
+    "publication": {
+        "metadata": {
+            "title": "titel",
+            "subtitle": "Undertext",
+            "identifier": {
+                "one": "identifierare",
+                "other": "identifierare"
+            }
+        }
+    }
+}
