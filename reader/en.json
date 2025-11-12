@@ -1,0 +1,220 @@
+{
+  "reader": {
+    "actions": {
+      "goToPosition": {
+        "compact": "Go to…",
+        "descriptive": "Go to position"
+      }
+    },
+    "navigation": {
+      "chapter": "Chapter",
+      "next": {
+        "compact": "Next",
+        "descriptive": "Next {{ x }}"
+      },
+      "page": "Page",
+      "previous": {
+        "compact": "Previous",
+        "descriptive": "Previous {{ x }}"
+      }
+    },
+    "progression": {
+      "percentage": "{{ x }}%",
+      "positionsLeft": {
+        "compact": "{{ x }} positions left",
+        "descriptive": "{{ x }} positions left in {{ y }}"
+      },
+      "range": "{{ x }}–{{ y }}",
+      "xOfY": {
+        "compact": "{{ x }} of {{ y }}",
+        "descriptive": "{{ x }} of {{ y }} ({{ z }})"
+      }
+    },
+    "preferences": {
+      "title": "Display Settings",
+      "columns": {
+        "title": "Columns",
+        "auto": "Auto",
+        "one": {
+          "compact": "1 col",
+          "descriptive": "Single column"
+        },
+        "two": {
+          "compact": "2 cols",
+          "descriptive": "Two columns"
+        }
+      },
+      "fontFamily": {
+        "title": "Font family",
+        "publisher": "Publisher’s font",
+        "oldStyle": {
+          "compact": "Old style",
+          "descriptive": "Old style serif"
+        },
+        "modern": {
+          "compact": "Modern",
+          "descriptive": "Modern serif"
+        },
+        "sans": "Sans-serif",
+        "humanist": {
+          "compact": "Humanist",
+          "descriptive": "Humanist sans-serif"
+        },
+        "monospace": "Monospace"
+      }
+    },
+    "fontSize": "Font size",
+    "fontWeight": {
+      "title": "Font weight",
+      "normal": "Normal",
+      "bold": "Bolder"
+    },
+    "hyphens": {
+      "title": "Hyphenation",
+      "label": "Enable hyphens"
+    },
+    "layout": {
+      "title": "Layout",
+      "scrolled": "Scrollable",
+      "paginated": "Paginated"
+    },
+    "letterSpacing": "Letter spacing",
+    "lineHeight": {
+      "title": "Line height",
+      "default": "Default",
+      "small": "Tight",
+      "medium": "Balanced",
+      "large": "Loose"
+    },
+    "paragraphIndent": "Paragraph indent",
+    "paragraphSpacing": "Paragraph spacing",
+    "publisherStyles": {
+      "title": "Publisher styles",
+      "label": "Use original formatting"
+    },
+    "spacing": {
+      "title": "Spacing",
+      "presets": {
+        "title": "Presets",
+        "accessible": "Accessible",
+        "balanced": "Balanced",
+        "custom": "Custom",
+        "default": "Default",
+        "loose": "Loose",
+        "tight": "Tight"
+      }
+    },
+    "text": "Text",
+    "textAlign": {
+      "title": "Text alignment",
+      "default": "Default",
+      "left": "Left",
+      "right": "Right",
+      "justify": "Justify"
+    },
+    "textNormalization": {
+      "title": "Text normalization",
+      "label": "Remove all text formatting"
+    },
+    "themes": {
+      "title": "Themes",
+      "auto": "Auto",
+      "dark": "Dark",
+      "light": "Light",
+      "paper": "Paper",
+      "sepia": "Sepia",
+      "contrast1": "Contrast 1",
+      "contrast2": "Contrast 2",
+      "contrast3": "Contrast 3"
+    },
+    "wordSpacing": "Word spacing",
+    "zoom": "Zoom"
+  },
+  "tableOfContents": {
+    "title": "Table of contents",
+    "emptyState": {
+      "title": "No table of contents",
+      "description": "The table of contents was not provided for this publication."
+    }
+  },
+  "common": {
+    "actions": {
+      "cancel": {
+        "compact": "Cancel",
+        "descriptive": "Cancel {{ x }}"
+      },
+      "clear": {
+        "compact": "Clear",
+        "descriptive": "Clear {{ x }}"
+      },
+      "close": {
+        "compact": "Close",
+        "descriptive": "Close {{ x }}"
+      },
+      "collapse": {
+        "compact": "Collapse",
+        "descriptive": "Collapse {{ x }}"
+      },
+      "collapseAll": "Collapse all",
+      "decrease": {
+        "compact": "Decrease",
+        "descriptive": "Decrease {{ x }}"
+      },
+      "disable": {
+        "compact": "Disable",
+        "descriptive": "Disable {{ x }}"
+      },
+      "enable": {
+        "compact": "Enable",
+        "descriptive": "Enable {{ x }}"
+      },
+      "exit": {
+        "compact": "Exit",
+        "descriptive": "Exit {{ x }}"
+      },
+      "expand": {
+        "compact": "Expand",
+        "descriptive": "Expand {{ x }}"
+      },
+      "expandAll": "Expand all",
+      "filter": {
+        "compact": "Filter",
+        "descriptive": "Filter {{ x }}"
+      },
+      "hide": {
+        "compact": "Hide",
+        "descriptive": "Hide {{ x }}"
+      },
+      "hideAll": "Hide all",
+      "increase": {
+        "compact": "Increase",
+        "descriptive": "Increase {{ x }}"
+      },
+      "open": {
+        "compact": "Open",
+        "descriptive": "Open {{ x }}"
+      },
+      "reset": {
+        "compact": "Reset",
+        "descriptive": "Reset {{ x }}"
+      },
+      "search": {
+        "compact": "Search",
+        "descriptive": "Search {{ x }}"
+      },
+      "show": {
+        "compact": "Show",
+        "descriptive": "Show {{ x }}"
+      },
+      "showAll": "Show all",
+      "sortBy": {
+        "compact": "Sort by",
+        "descriptive": "Sort by {{ x }}"
+      },
+      "toggle": {
+        "compact": "Toggle",
+        "descriptive": "Toggle {{ x }}"
+      }
+    }
+  }
+}
