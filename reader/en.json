@@ -61,80 +61,80 @@
           "descriptive": "Humanist sans-serif"
         },
         "monospace": "Monospace"
-      }
-    },
-    "fontSize": "Font size",
-    "fontWeight": {
-      "title": "Font weight",
-      "normal": "Normal",
-      "bold": "Bolder"
-    },
-    "hyphens": {
-      "title": "Hyphenation",
-      "label": "Enable hyphens"
-    },
-    "layout": {
-      "title": "Layout",
-      "scrolled": "Scrollable",
-      "paginated": "Paginated"
-    },
-    "letterSpacing": "Letter spacing",
-    "lineHeight": {
-      "title": "Line height",
-      "default": "Default",
-      "small": "Tight",
-      "medium": "Balanced",
-      "large": "Loose"
-    },
-    "paragraphIndent": "Paragraph indent",
-    "paragraphSpacing": "Paragraph spacing",
-    "publisherStyles": {
-      "title": "Publisher styles",
-      "label": "Use original formatting"
-    },
-    "spacing": {
-      "title": "Spacing",
-      "presets": {
-        "title": "Presets",
-        "accessible": "Accessible",
-        "balanced": "Balanced",
-        "custom": "Custom",
+      },
+      "fontSize": "Font size",
+      "fontWeight": {
+        "title": "Font weight",
+        "normal": "Normal",
+        "bold": "Bolder"
+      },
+      "hyphens": {
+        "title": "Hyphenation",
+        "label": "Enable hyphens"
+      },
+      "layout": {
+        "title": "Layout",
+        "scrolled": "Scrollable",
+        "paginated": "Paginated"
+      },
+      "letterSpacing": "Letter spacing",
+      "lineHeight": {
+        "title": "Line height",
         "default": "Default",
-        "loose": "Loose",
-        "tight": "Tight"
+        "small": "Tight",
+        "medium": "Balanced",
+        "large": "Loose"
+      },
+      "paragraphIndent": "Paragraph indent",
+      "paragraphSpacing": "Paragraph spacing",
+      "publisherStyles": {
+        "title": "Publisher styles",
+        "label": "Use original formatting"
+      },
+      "spacing": {
+        "title": "Spacing",
+        "presets": {
+          "title": "Presets",
+          "accessible": "Accessible",
+          "balanced": "Balanced",
+          "custom": "Custom",
+          "default": "Default",
+          "loose": "Loose",
+          "tight": "Tight"
+        }
+      },
+      "text": "Text",
+      "textAlign": {
+        "title": "Text alignment",
+        "default": "Default",
+        "left": "Left",
+        "right": "Right",
+        "justify": "Justify"
+      },
+      "textNormalization": {
+        "title": "Text normalization",
+        "label": "Remove all text formatting"
+      },
+      "themes": {
+        "title": "Themes",
+        "auto": "Auto",
+        "dark": "Dark",
+        "light": "Light",
+        "paper": "Paper",
+        "sepia": "Sepia",
+        "contrast1": "Contrast 1",
+        "contrast2": "Contrast 2",
+        "contrast3": "Contrast 3"
+      },
+      "wordSpacing": "Word spacing",
+      "zoom": "Zoom"
+    },
+    "tableOfContents": {
+      "title": "Table of contents",
+      "emptyState": {
+        "title": "No table of contents",
+        "description": "The table of contents was not provided for this publication."
       }
-    },
-    "text": "Text",
-    "textAlign": {
-      "title": "Text alignment",
-      "default": "Default",
-      "left": "Left",
-      "right": "Right",
-      "justify": "Justify"
-    },
-    "textNormalization": {
-      "title": "Text normalization",
-      "label": "Remove all text formatting"
-    },
-    "themes": {
-      "title": "Themes",
-      "auto": "Auto",
-      "dark": "Dark",
-      "light": "Light",
-      "paper": "Paper",
-      "sepia": "Sepia",
-      "contrast1": "Contrast 1",
-      "contrast2": "Contrast 2",
-      "contrast3": "Contrast 3"
-    },
-    "wordSpacing": "Word spacing",
-    "zoom": "Zoom"
-  },
-  "tableOfContents": {
-    "title": "Table of contents",
-    "emptyState": {
-      "title": "No table of contents",
-      "description": "The table of contents was not provided for this publication."
     }
   },
   "common": {
