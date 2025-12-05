@@ -8,9 +8,6 @@ We're gradually moving to shared locales between Thorium products, which include
 
 This repository is meant to host these locales, made available to our translators [through Weblate](https://hosted.weblate.org/projects/thorium-reader).
 
-## Hints
+## Best Practices
 
-* Prefer strings in shared components over platform/product-specific strings
-* Plural forms should be handled using an object and the following key names: `zero`, `one` and `other`
-* Use interpolated strings rather than substrings
-* Sentence and title case should be avoided when unnecessary as we can handle them with code and in context
+A document listing best practices for translators and developers can be found [in guides](Guides/BestPractices.md).

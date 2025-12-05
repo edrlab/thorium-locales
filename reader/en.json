@@ -1,28 +1,52 @@
 {
   "reader": {
     "actions": {
+      "goToNextChapter": {
+        "compact": "Next",
+        "descriptive": "Next chapter"
+      },
+      "goToNextPage": {
+        "compact": "Next",
+        "descriptive": "Next page"
+      },
       "goToPosition": {
         "compact": "Go to…",
         "descriptive": "Go to position"
-      }
-    },
-    "navigation": {
-      "chapter": "Chapter",
-      "next": {
-        "compact": "Next",
-        "descriptive": "Next {{ x }}"
       },
-      "page": "Page",
-      "previous": {
+      "goToPreviousChapter": {
         "compact": "Previous",
-        "descriptive": "Previous {{ x }}"
+        "descriptive": "Previous chapter"
+      },
+      "goToPreviousPage": {
+        "compact": "Previous",
+        "descriptive": "Previous page"
       }
     },
     "progression": {
+      "pagesLeft": {
+        "one": "{{ x }} page left",
+        "other": "{{ x }} pages left"
+      },
+      "pagesLeftInChapter": {
+        "one": "{{ x }} page left in chapter",
+        "other": "{{ x }} pages left in chapter"
+      },
+      "pagesLeftInPublication": {
+        "one": "{{ x }} page left in publication",
+        "other": "{{ x }} pages left in publication"
+      },
       "percentage": "{{ x }}%",
       "positionsLeft": {
-        "compact": "{{ x }} positions left",
-        "descriptive": "{{ x }} positions left in {{ y }}"
+        "one": "{{ x }} position left",
+        "other": "{{ x }} positions left"
+      },
+      "positionsLeftInChapter": {
+        "one": "{{ x }} position left in chapter",
+        "other": "{{ x }} positions left in chapter"
+      },
+      "positionsLeftInPublication": {
+        "one": "{{ x }} position left in publication",
+        "other": "{{ x }} positions left in publication"
       },
       "range": "{{ x }}–{{ y }}",
       "xOfY": {
@@ -139,82 +163,28 @@
   },
   "common": {
     "actions": {
-      "cancel": {
-        "compact": "Cancel",
-        "descriptive": "Cancel {{ x }}"
-      },
-      "clear": {
-        "compact": "Clear",
-        "descriptive": "Clear {{ x }}"
-      },
-      "close": {
-        "compact": "Close",
-        "descriptive": "Close {{ x }}"
-      },
-      "collapse": {
-        "compact": "Collapse",
-        "descriptive": "Collapse {{ x }}"
-      },
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "close": "Close",
+      "collapse": "Collapse",
       "collapseAll": "Collapse all",
-      "decrease": {
-        "compact": "Decrease",
-        "descriptive": "Decrease {{ x }}"
-      },
-      "disable": {
-        "compact": "Disable",
-        "descriptive": "Disable {{ x }}"
-      },
-      "enable": {
-        "compact": "Enable",
-        "descriptive": "Enable {{ x }}"
-      },
-      "exit": {
-        "compact": "Exit",
-        "descriptive": "Exit {{ x }}"
-      },
-      "expand": {
-        "compact": "Expand",
-        "descriptive": "Expand {{ x }}"
-      },
+      "decrease": "Decrease",
+      "disable": "Disable",
+      "enable": "Enable",
+      "exit": "Exit",
+      "expand": "Expand",
       "expandAll": "Expand all",
-      "filter": {
-        "compact": "Filter",
-        "descriptive": "Filter {{ x }}"
-      },
-      "hide": {
-        "compact": "Hide",
-        "descriptive": "Hide {{ x }}"
-      },
+      "filter": "Filter",
+      "hide": "Hide",
       "hideAll": "Hide all",
-      "increase": {
-        "compact": "Increase",
-        "descriptive": "Increase {{ x }}"
-      },
-      "open": {
-        "compact": "Open",
-        "descriptive": "Open {{ x }}"
-      },
-      "reset": {
-        "compact": "Reset",
-        "descriptive": "Reset {{ x }}"
-      },
-      "search": {
-        "compact": "Search",
-        "descriptive": "Search {{ x }}"
-      },
-      "show": {
-        "compact": "Show",
-        "descriptive": "Show {{ x }}"
-      },
+      "increase": "Increase",
+      "open": "Open",
+      "reset": "Reset",
+      "search": "Search",
+      "show": "Show",
       "showAll": "Show all",
-      "sortBy": {
-        "compact": "Sort by",
-        "descriptive": "Sort by {{ x }}"
-      },
-      "toggle": {
-        "compact": "Toggle",
-        "descriptive": "Toggle {{ x }}"
-      }
+      "sortBy": "Sort by",
+      "toggle": "Toggle"
     }
   }
 }
