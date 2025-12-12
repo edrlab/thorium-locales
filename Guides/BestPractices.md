@@ -14,7 +14,7 @@ Use interpolation for dynamic data (names, numbers, dates), but to not use it to
 
 Example:
 
-**DO:** `{{ x }} positions left`
+**DO:** `{{ count }} positions left`
 **DON’T:** `Next {{ x }}` (`page`, `chapter`, `resource`, etc.)
 
 ## String Variants
@@ -37,11 +37,14 @@ Plural forms should be handled using an object and the following key names:
 - `one`
 - `other`
 
+> [!IMPORTANT]
+> For plurals, the placeholder name **must** be `count`.
+
 Example: 
 
 ```json
 "positionsLeft": {
-  "one": "{{ x }} position left",
-  "other": "{{ x }} positions left"
+  "one": "{{ count }} position left",
+  "other": "{{ count }} positions left"
 }
 ```
