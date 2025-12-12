@@ -24,29 +24,29 @@
     },
     "progression": {
       "pagesLeft": {
-        "one": "{{ x }} page left",
-        "other": "{{ x }} pages left"
+        "one": "{{ count }} page left",
+        "other": "{{ count }} pages left"
       },
       "pagesLeftInChapter": {
-        "one": "{{ x }} page left in chapter",
-        "other": "{{ x }} pages left in chapter"
+        "one": "{{ count }} page left in chapter",
+        "other": "{{ count }} pages left in chapter"
       },
       "pagesLeftInPublication": {
-        "one": "{{ x }} page left in publication",
-        "other": "{{ x }} pages left in publication"
+        "one": "{{ count }} page left in publication",
+        "other": "{{ count }} pages left in publication"
       },
       "percentage": "{{ x }}%",
       "positionsLeft": {
-        "one": "{{ x }} position left",
-        "other": "{{ x }} positions left"
+        "one": "{{ count }} position left",
+        "other": "{{ count }} positions left"
       },
       "positionsLeftInChapter": {
-        "one": "{{ x }} position left in chapter",
-        "other": "{{ x }} positions left in chapter"
+        "one": "{{ count }} position left in chapter",
+        "other": "{{ count }} positions left in chapter"
       },
       "positionsLeftInPublication": {
-        "one": "{{ x }} position left in publication",
-        "other": "{{ x }} positions left in publication"
+        "one": "{{ count }} position left in publication",
+        "other": "{{ count }} positions left in publication"
       },
       "range": "{{ x }}–{{ y }}",
       "xOfY": {
