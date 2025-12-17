@@ -14,7 +14,11 @@ In particular, the following i18next features are excluded:
 - formatting
 - nesting
 - context
-- objects and arrays
+- arrays
+- arbitrary objects
+
+> [!IMPORTANT]
+> Only [string variants](#string-variants) and [plural forms](#plural-forms) can use objects.
 
 ## General Rules
 
