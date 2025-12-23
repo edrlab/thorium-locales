@@ -34,7 +34,10 @@ Example:
 
 ```json
 "xOfY": "{{ p1 }} of {{ p2 }}",
-"positionsLeft": "{{ count }} positions left"
+"positionsLeft": {
+  "one": "{{ count }} position left",
+  "other": "{{ count }} positions left"
+}
 ```
 
 ## Interpolation
