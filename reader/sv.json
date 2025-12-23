@@ -14,10 +14,10 @@
         "other": "{{ count }} kvar"
       },
       "positionsLeftInChapter": {
-        "other": "{{ count }} kvar i aktuellt kapitel"
+        "other": "{{ count }} kvar i nuvarande kapitel"
       },
       "positionsLeftInPublication": {
-        "other": "{{ count }} kvar i publikationen"
+        "other": "{{ count }} kvar i boken"
       },
       "range": "{{ p1 }}–{{ p2 }}",
       "xOfY": {
@@ -57,20 +57,20 @@
       },
       "fontSize": "Teckenstorlek",
       "fontWeight": {
-        "title": "Teckentjocklek",
+        "title": "Teckenvikt",
         "normal": "Normal",
         "bold": "Fetare"
       },
       "hyphens": {
         "title": "Avstavning",
-        "label": "Aktivera bindestreck"
+        "label": "Aktivera avstavning"
       },
       "layout": {
         "title": "Layout",
-        "scrolled": "Bläddringsbar",
-        "paginated": "Sidnumrerad"
+        "scrolled": "Rullningsbar",
+        "paginated": "Sidindelad"
       },
-      "letterSpacing": "Bokstavsavstånd",
+      "letterSpacing": "Teckenavstånd",
       "lineHeight": {
         "title": "Radavstånd",
         "default": "Standard",
@@ -81,7 +81,7 @@
       "paragraphIndent": "Styckeindrag",
       "paragraphSpacing": "Styckeavstånd",
       "publisherStyles": {
-        "label": "Använd ursprunglig formatering"
+        "label": "Använd originalformat"
       },
       "spacing": {
         "title": "Avstånd",
@@ -97,21 +97,21 @@
       },
       "text": "Text",
       "textAlign": {
-        "title": "Textjustering",
+        "title": "Justering",
         "default": "Standard",
         "left": "Vänster",
         "right": "Höger",
         "justify": "Justera"
       },
       "textNormalization": {
-        "title": "Textnormalisering",
+        "title": "Textformatering",
         "label": "Ta bort all textformatering"
       },
       "themes": {
         "title": "Teman",
         "auto": "Auto",
-        "dark": "Mörk",
-        "light": "Ljus",
+        "dark": "Mörkt",
+        "light": "Ljust",
         "paper": "Papper",
         "sepia": "Sepia",
         "contrast1": "Kontrast 1",
@@ -124,7 +124,7 @@
     "tableOfContents": {
       "title": "Innehållsförteckning",
       "emptyState": {
-        "description": "Ingen innehållsförteckning har tillhandahållits för den här publikationen."
+        "description": "Den här boken saknar innehållsförteckning."
       }
     }
   },
