@@ -1,6 +1,8 @@
 {
   "reader": {
     "actions": {
+      "goBackward": "பின்னோக்கிச் செல்லுங்கள்",
+      "goForward": "முன்னோக்கிச் செல்லுங்கள்",
       "goToPosition": {
         "compact": "குதிக்கவும்…",
         "descriptive": "நிலைக்குச் செல்"

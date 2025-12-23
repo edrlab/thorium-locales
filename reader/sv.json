@@ -1,6 +1,8 @@
 {
   "reader": {
     "actions": {
+      "goBackward": "Gå bakåt",
+      "goForward": "Gå framåt",
       "goToPosition": {
         "compact": "Hoppa till…",
         "descriptive": "Hoppa till position"

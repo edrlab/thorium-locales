@@ -1,6 +1,8 @@
 {
   "reader": {
     "actions": {
+      "goBackward": "Eiti atgal",
+      "goForward": "Eiti pirmyn",
       "goToPosition": {
         "compact": "Peršokti į…",
         "descriptive": "Peršokti į poziciją"

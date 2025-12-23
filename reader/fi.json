@@ -1,6 +1,8 @@
 {
   "reader": {
     "actions": {
+      "goBackward": "Siirry taaksepäin",
+      "goForward": "Siirry eteenpäin",
       "goToPosition": {
         "compact": "Siirry…",
         "descriptive": "Siirry kohtaan"

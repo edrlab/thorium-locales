@@ -1,6 +1,8 @@
 {
   "reader": {
     "actions": {
+      "goBackward": "Voltar",
+      "goForward": "Avançar",
       "goToPosition": {
         "compact": "Ir para…",
         "descriptive": "Ir para a posição"
