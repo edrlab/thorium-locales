@@ -1,0 +1,120 @@
+{
+  "reader": {
+    "actions": {
+      "goToPosition": {
+        "compact": "Przejdź do…",
+        "descriptive": "Przejdź do pozycji"
+      }
+    },
+    "progression": {
+      "percentage": "{{ p1 }}%",
+      "range": "{{ p1 }}–{{ p2 }}",
+      "xOfY": {
+        "compact": "{{ p1 }} z {{ p2 }}",
+        "descriptive": "{{ p1 }} z {{ p2 }} ({{ p3 }})"
+      }
+    },
+    "preferences": {
+      "title": "Ustawienia wyświetlania",
+      "columns": {
+        "title": "Kolumny",
+        "auto": "Automatycznie",
+        "one": {
+          "compact": "1 kol"
+        },
+        "two": {
+          "compact": "2 kol"
+        }
+      },
+      "fontFamily": {
+        "title": "Wybór czcionek",
+        "publisher": "Czcionka wydawcy",
+        "oldStyle": {
+          "compact": "Old style",
+          "descriptive": "Old style serif"
+        },
+        "modern": {
+          "compact": "Modern",
+          "descriptive": "Modern serif"
+        },
+        "sans": "Sans-serif",
+        "humanist": {
+          "compact": "Humanist",
+          "descriptive": "Humanist sans-serif"
+        },
+        "monospace": "O stałej szerokości"
+      },
+      "fontSize": "Rozmiar czcionki",
+      "fontWeight": {
+        "title": "Grubość kroju",
+        "normal": "Normalus",
+        "bold": "Ryškesnis"
+      },
+      "hyphens": {
+        "title": "Dzielenie wyrazów",
+        "label": "Włącz dzielenie wyrazów"
+      },
+      "layout": {
+        "title": "Układ",
+        "scrolled": "Ciągły",
+        "paginated": "Stronicowany"
+      },
+      "letterSpacing": "Odstępy między literami",
+      "lineHeight": {
+        "title": "Interlinia",
+        "default": "Domyślna",
+        "small": "Ciasna",
+        "medium": "Zbalansowana",
+        "large": "Luźna"
+      },
+      "paragraphIndent": "Wcięcie akapitu",
+      "paragraphSpacing": "Odstęp między akapitami",
+      "publisherStyles": {
+        "label": "Użyj oryginalnego formatowania"
+      },
+      "spacing": {
+        "title": "Odstępy"
+      },
+      "text": "Tekst",
+      "textAlign": {
+        "title": "Wyrównanie tekstu",
+        "default": "Domyślne",
+        "left": "Do lewej",
+        "right": "Do prawej",
+        "justify": "Wyjustuj"
+      },
+      "textNormalization": {
+        "title": "Normalizacja tekstu",
+        "label": "Usuń całe formatowanie tekstu"
+      },
+      "themes": {
+        "title": "Motywy",
+        "auto": "Automatyczny",
+        "dark": "Ciemny",
+        "light": "Jasny",
+        "paper": "Papier",
+        "sepia": "Sepia",
+        "contrast1": "Kontrast 1",
+        "contrast2": "Kontrast 2",
+        "contrast3": "Kontrast 3"
+      },
+      "wordSpacing": "Odstępy między wyrazami",
+      "zoom": "Powiększenie"
+    },
+    "tableOfContents": {
+      "title": "Spis treści",
+      "emptyState": {
+        "description": "Spis treści nie został dostarczony dla tej publikacji."
+      }
+    }
+  },
+  "common": {
+    "actions": {
+      "clear": "Wyczyść",
+      "close": "Zamknij",
+      "decrease": "Zmniejsz",
+      "increase": "Zwiększ",
+      "search": "Szukaj"
+    }
+  }
+}

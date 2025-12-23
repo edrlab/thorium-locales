@@ -1,0 +1,142 @@
+{
+  "reader": {
+    "actions": {
+      "goToPosition": {
+        "compact": "Hoppa till…",
+        "descriptive": "Hoppa till position"
+      }
+    },
+    "progression": {
+      "percentage": "{{ p1 }}%",
+      "positionsLeft": {
+        "other": "{{ count }} kvar"
+      },
+      "positionsLeftInChapter": {
+        "other": "{{ count }} kvar i aktuellt kapitel"
+      },
+      "positionsLeftInPublication": {
+        "other": "{{ count }} kvar i publikationen"
+      },
+      "range": "{{ p1 }}–{{ p2 }}",
+      "xOfY": {
+        "compact": "{{ p1 }} av {{ p2 }}",
+        "descriptive": "{{ p1 }} av {{ p2 }} ({{ p3 }})"
+      }
+    },
+    "preferences": {
+      "title": "Visningsinställningar",
+      "columns": {
+        "title": "Kolumner",
+        "auto": "Auto",
+        "one": {
+          "descriptive": "1 kolumn"
+        },
+        "two": {
+          "descriptive": "2 kolumner"
+        }
+      },
+      "fontFamily": {
+        "title": "Teckensnittsfamilj",
+        "publisher": "Utgivarens teckensnitt",
+        "oldStyle": {
+          "compact": "Old style",
+          "descriptive": "Old style serif"
+        },
+        "modern": {
+          "compact": "Modern",
+          "descriptive": "Modern serif"
+        },
+        "sans": "Sans-serif",
+        "humanist": {
+          "compact": "Humanist",
+          "descriptive": "Humanist sans-serif"
+        },
+        "monospace": "Monospace"
+      },
+      "fontSize": "Teckenstorlek",
+      "fontWeight": {
+        "title": "Teckentjocklek",
+        "normal": "Normal",
+        "bold": "Fetare"
+      },
+      "hyphens": {
+        "title": "Avstavning",
+        "label": "Aktivera bindestreck"
+      },
+      "layout": {
+        "title": "Layout",
+        "scrolled": "Bläddringsbar",
+        "paginated": "Sidnumrerad"
+      },
+      "letterSpacing": "Bokstavsavstånd",
+      "lineHeight": {
+        "title": "Radavstånd",
+        "default": "Standard",
+        "small": "Tätt",
+        "medium": "Balanserat",
+        "large": "Luftigt"
+      },
+      "paragraphIndent": "Styckeindrag",
+      "paragraphSpacing": "Styckeavstånd",
+      "publisherStyles": {
+        "label": "Använd ursprunglig formatering"
+      },
+      "spacing": {
+        "title": "Avstånd",
+        "presets": {
+          "title": "Förinställningar",
+          "accessible": "Tillgänglig",
+          "balanced": "Balanserad",
+          "custom": "Anpassad",
+          "default": "Standard",
+          "loose": "Lös",
+          "tight": "Tät"
+        }
+      },
+      "text": "Text",
+      "textAlign": {
+        "title": "Textjustering",
+        "default": "Standard",
+        "left": "Vänster",
+        "right": "Höger",
+        "justify": "Justera"
+      },
+      "textNormalization": {
+        "title": "Textnormalisering",
+        "label": "Ta bort all textformatering"
+      },
+      "themes": {
+        "title": "Teman",
+        "auto": "Auto",
+        "dark": "Mörk",
+        "light": "Ljus",
+        "paper": "Papper",
+        "sepia": "Sepia",
+        "contrast1": "Kontrast 1",
+        "contrast2": "Kontrast 2",
+        "contrast3": "Kontrast 3"
+      },
+      "wordSpacing": "Ordavstånd",
+      "zoom": "Zooma"
+    },
+    "tableOfContents": {
+      "title": "Innehållsförteckning",
+      "emptyState": {
+        "description": "Ingen innehållsförteckning har tillhandahållits för den här publikationen."
+      }
+    }
+  },
+  "common": {
+    "actions": {
+      "clear": "Rensa",
+      "close": "Avsluta",
+      "decrease": "Minska",
+      "enable": "Aktivera",
+      "exit": "Exit",
+      "increase": "Öka",
+      "reset": "Återställ",
+      "search": "Sök",
+      "toggle": "Växla"
+    }
+  }
+}
