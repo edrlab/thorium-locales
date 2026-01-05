@@ -28,7 +28,7 @@ In particular, the following i18next features are excluded:
 ## Naming Placeholder Variables
 
 - It is expected that placeholder variables use pattern `p1`, `p2`, etc., which corresponds to the position of the placeholder in the string.
-- The only exception to this rule is the `count` placeholder, which is used for plurals, as it is required by the i18n format.
+- The only exception to this rule is the `count` placeholder, which is used for plurals, as it is required by the i18next format.
 
 Example:
 
