@@ -128,10 +128,10 @@
       "zoom": "Zoom"
     },
     "tableOfContents": {
-      "title": "Table of contents",
+      "title": "Table des matières",
       "emptyState": {
-        "title": "No table of contents",
-        "description": "The table of contents was not provided for this publication."
+        "title": "Aucune table des matières",
+        "description": "La table des matières n’est pas disponible pour cette publication."
       }
     }
   },
