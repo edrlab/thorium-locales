@@ -12,15 +12,15 @@
       "percentage": "{{ p1 }}%",
       "positionsLeft": {
         "one": "{{ count }} position restante",
-        "other": "{{ count }} positions restates"
+        "other": "{{ count }} positions restantes"
       },
       "positionsLeftInChapter": {
         "one": "{{ count }} position restante dans le chapitre",
-        "other": "{{ count }} positions left dans le chapitre"
+        "other": "{{ count }} positions restantes dans le chapitre"
       },
       "positionsLeftInPublication": {
         "one": "{{ count }} position restante dans la publication",
-        "other": "{{ count }} positions left dans la publication"
+        "other": "{{ count }} positions restantes dans la publication"
       },
       "range": "{{ p1 }}–{{ p2 }}",
       "xOfY": {
