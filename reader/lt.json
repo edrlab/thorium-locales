@@ -1,0 +1,141 @@
+{
+  "reader": {
+    "actions": {
+      "goBackward": "Eiti atgal",
+      "goForward": "Eiti pirmyn",
+      "goToPosition": {
+        "compact": "Peršokti į…",
+        "descriptive": "Peršokti į poziciją"
+      }
+    },
+    "progression": {
+      "percentage": "{{ p1 }}%",
+      "positionsLeft": {
+        "other": "{{ count }} positions left"
+      },
+      "positionsLeftInChapter": {
+        "other": "Dabartinis skyrius liko {{ count }}"
+      },
+      "positionsLeftInPublication": {
+        "other": "Leidinys liko {{ count }}"
+      },
+      "range": "{{ p1 }}–{{ p2 }}",
+      "xOfY": {
+        "compact": "{{ p1 }} iš {{ p2 }}",
+        "descriptive": "{{ p1 }} iš {{ p2 }} ({{ p3 }})"
+      }
+    },
+    "preferences": {
+      "title": "Atvaizdavimo nuostatos",
+      "columns": {
+        "title": "Stulpeliai",
+        "auto": "Auto",
+        "one": {
+          "descriptive": "1 stulpelis"
+        },
+        "two": {
+          "descriptive": "2 stulpeliai"
+        }
+      },
+      "fontFamily": {
+        "title": "Šriftų šeima",
+        "publisher": "Leidėjo šriftas",
+        "oldStyle": {
+          "compact": "Seno stiliaus",
+          "descriptive": "Seno stiliaus su užraitais"
+        },
+        "modern": {
+          "compact": "Modernus",
+          "descriptive": "Modernus su užraitais"
+        },
+        "sans": "Be užraitų",
+        "humanist": {
+          "compact": "Humanistinis",
+          "descriptive": "Humanistinis be užraitų"
+        },
+        "monospace": "Lygiaplotis"
+      },
+      "fontSize": "Šrifto dydis",
+      "fontWeight": {
+        "title": "Šrifto storis",
+        "normal": "Normalus",
+        "bold": "Ryškesnis"
+      },
+      "hyphens": {
+        "title": "Skiemenavimas",
+        "label": "Įgalinti brūkšnelius"
+      },
+      "layout": {
+        "title": "Išdėstymas",
+        "scrolled": "Slenkamasis",
+        "paginated": "Puslapiuotas"
+      },
+      "letterSpacing": "Raidžių išretinimas",
+      "lineHeight": {
+        "title": "Eilutės aukštis",
+        "default": "Numatytasis",
+        "small": "Glaudus",
+        "medium": "Subalansuotas",
+        "large": "Erdvus"
+      },
+      "paragraphIndent": "Pastraipos įtrauka",
+      "paragraphSpacing": "Tarpas tarp pastraipų",
+      "publisherStyles": {
+        "label": "Naudoti originalų formatavimą"
+      },
+      "spacing": {
+        "title": "Išretinimas",
+        "presets": {
+          "title": "Išankstiniai",
+          "accessible": "Prieinamas",
+          "balanced": "Subalansuotas",
+          "custom": "Tinkintas",
+          "default": "Numatytasis",
+          "loose": "Erdvus",
+          "tight": "Glaustas"
+        }
+      },
+      "text": "Tekstas",
+      "textAlign": {
+        "title": "Teksto lygiuotė",
+        "default": "Numatytoji",
+        "left": "Kairinė",
+        "right": "Dešininė",
+        "justify": "Abipusė"
+      },
+      "textNormalization": {
+        "title": "Teksto normalizavimas",
+        "label": "Šalinti visą teksto formatavimą"
+      },
+      "themes": {
+        "title": "Temos",
+        "auto": "Auto",
+        "dark": "Tamsi",
+        "light": "Šviesi",
+        "paper": "Popierius",
+        "sepia": "Sepija",
+        "contrast1": "Kontrastas 1",
+        "contrast2": "Kontrastas 2",
+        "contrast3": "Kontrastas 3"
+      },
+      "wordSpacing": "Protarpis tarp žodžių",
+      "zoom": "Mastelis"
+    },
+    "tableOfContents": {
+      "title": "Turinys",
+      "emptyState": {
+        "description": "Šiam leidiniui nebuvo pateiktas turinys."
+      }
+    }
+  },
+  "common": {
+    "actions": {
+      "clear": "Išvalyti",
+      "close": "Užverti",
+      "decrease": "Mažinti",
+      "increase": "Didinti",
+      "reset": "Atkurti",
+      "search": "Paieška"
+    }
+  }
+}

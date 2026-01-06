@@ -1,0 +1,152 @@
+{
+  "reader": {
+    "actions": {
+      "goBackward": "Reculer",
+      "goForward": "Avancer",
+      "goToPosition": {
+        "compact": "Aller à …",
+        "descriptive": "Aller à la position"
+      }
+    },
+    "progression": {
+      "percentage": "{{ p1 }}%",
+      "positionsLeft": {
+        "one": "{{ count }} position restante",
+        "other": "{{ count }} positions restantes"
+      },
+      "positionsLeftInChapter": {
+        "one": "{{ count }} position restante dans le chapitre",
+        "other": "{{ count }} positions restantes dans le chapitre"
+      },
+      "positionsLeftInPublication": {
+        "one": "{{ count }} position restante dans la publication",
+        "other": "{{ count }} positions restantes dans la publication"
+      },
+      "range": "{{ p1 }}–{{ p2 }}",
+      "xOfY": {
+        "compact": "{{ p1 }} de {{ p2 }}",
+        "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
+      }
+    },
+    "preferences": {
+      "title": "Préférences d’affichage",
+      "columns": {
+        "title": "Colonnes",
+        "auto": "Auto",
+        "one": {
+          "compact": "1 col",
+          "descriptive": "1 colonne"
+        },
+        "two": {
+          "compact": "2 cols",
+          "descriptive": "2 colonnes"
+        }
+      },
+      "fontFamily": {
+        "title": "Police de caractères",
+        "publisher": "Police par défaut",
+        "oldStyle": {
+          "compact": "Classique",
+          "descriptive": "Sérif classique"
+        },
+        "modern": {
+          "compact": "Moderne",
+          "descriptive": "Sérif moderne"
+        },
+        "sans": "Sans sérif",
+        "humanist": {
+          "compact": "Humaniste",
+          "descriptive": "Sans sérif humaniste"
+        },
+        "monospace": "Chasse fixe"
+      },
+      "fontSize": "Taille de police",
+      "fontWeight": {
+        "title": "Graisse",
+        "normal": "Normal",
+        "bold": "Gras"
+      },
+      "hyphens": {
+        "title": "Césures",
+        "label": "Activer la césure du texte"
+      },
+      "layout": {
+        "title": "Mise en page",
+        "scrolled": "Scrollé",
+        "paginated": "Paginé"
+      },
+      "letterSpacing": "Espacement interlettre",
+      "lineHeight": {
+        "title": "Interligne",
+        "default": "Par défaut",
+        "small": "Resserré",
+        "medium": "Équilibré",
+        "large": "Élargi"
+      },
+      "paragraphIndent": "Indentation du texte",
+      "paragraphSpacing": "Espacement des paragraphes",
+      "publisherStyles": {
+        "title": "Styles éditeur",
+        "label": "Utiliser le formatage original"
+      },
+      "spacing": {
+        "title": "Espacement",
+        "presets": {
+          "title": "Préréglages",
+          "accessible": "Accessible",
+          "balanced": "Équilibré",
+          "custom": "Personnalisé",
+          "default": "Par défaut",
+          "loose": "Élargi",
+          "tight": "Resserré"
+        }
+      },
+      "text": "Texte",
+      "textAlign": {
+        "title": "Alignement du texte",
+        "default": "Par défaut",
+        "left": "Ferré à gauche",
+        "right": "Ferré à droite",
+        "justify": "Justifié"
+      },
+      "textNormalization": {
+        "title": "Styles du texte",
+        "label": "Désactiver le formatage du texte"
+      },
+      "themes": {
+        "title": "Thèmes",
+        "auto": "Auto",
+        "dark": "Sombre",
+        "light": "Clair",
+        "paper": "Papier",
+        "sepia": "Sépia",
+        "contrast1": "Contraste 1",
+        "contrast2": "Contraste 2",
+        "contrast3": "Contraste 3"
+      },
+      "wordSpacing": "Espacement des mots",
+      "zoom": "Zoom"
+    },
+    "tableOfContents": {
+      "title": "Table des matières",
+      "emptyState": {
+        "title": "Aucune table des matières",
+        "description": "La table des matières n’est pas disponible pour cette publication."
+      }
+    }
+  },
+  "common": {
+    "actions": {
+      "clear": "Effacer",
+      "close": "Fermer",
+      "decrease": "Diminuer",
+      "disable": "Désactiver",
+      "enable": "Activer",
+      "exit": "Quitter",
+      "increase": "Augmenter",
+      "reset": "Réinitialiser",
+      "search": "Chercher",
+      "toggle": "Basculer"
+    }
+  }
+}

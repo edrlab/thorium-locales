@@ -1,0 +1,144 @@
+{
+  "reader": {
+    "actions": {
+      "goBackward": "Naviger tilbage",
+      "goForward": "Naviger frem",
+      "goToPosition": {
+        "compact": "Gå til…",
+        "descriptive": "Gå til position"
+      }
+    },
+    "progression": {
+      "percentage": "{{ p1 }}%",
+      "positionsLeft": {
+        "other": "{{ count }} tilbage"
+      },
+      "positionsLeftInChapter": {
+        "other": "{{ count }} tilbage i nuværende kapitel"
+      },
+      "positionsLeftInPublication": {
+        "other": "{{ count }} tilbage i bogen"
+      },
+      "range": "{{ p1 }}–{{ p2 }}",
+      "xOfY": {
+        "compact": "{{ p1 }} af {{ p2 }}",
+        "descriptive": "{{ p1 }} af {{ p2 }} ({{ p3 }})"
+      }
+    },
+    "preferences": {
+      "title": "Visningsindstillinger",
+      "columns": {
+        "title": "Kolonner",
+        "auto": "Auto",
+        "one": {
+          "descriptive": "1 kolonne"
+        },
+        "two": {
+          "descriptive": "2 kolonner"
+        }
+      },
+      "fontFamily": {
+        "title": "Skrifttype",
+        "publisher": "Bogens Skrifttype",
+        "oldStyle": {
+          "compact": "Gammeldags",
+          "descriptive": "Gammeldags serif"
+        },
+        "modern": {
+          "compact": "Moderne",
+          "descriptive": "Moderne serif"
+        },
+        "sans": "Sans-serif",
+        "humanist": {
+          "compact": "Humanist",
+          "descriptive": "Humanist sans-serif"
+        },
+        "monospace": "Monospace"
+      },
+      "fontSize": "Skriftstørrelse",
+      "fontWeight": {
+        "title": "Skrift tykkelse",
+        "normal": "Normal",
+        "bold": "Federe"
+      },
+      "hyphens": {
+        "title": "Bindestreg",
+        "label": "Aktiver bindestreger"
+      },
+      "layout": {
+        "title": "Layout",
+        "scrolled": "Scrollbar",
+        "paginated": "Sideopdelt"
+      },
+      "letterSpacing": "Tegn afstand",
+      "lineHeight": {
+        "title": "Linjehøjde",
+        "default": "Normal",
+        "small": "Tæt",
+        "medium": "Balanceret",
+        "large": "Løs"
+      },
+      "paragraphIndent": "Afsnitsindrykning",
+      "paragraphSpacing": "Afsnitsafstand",
+      "publisherStyles": {
+        "label": "Brug original formatering"
+      },
+      "spacing": {
+        "title": "Afstande",
+        "presets": {
+          "title": "Forudindstillinger",
+          "accessible": "Tilgængelig",
+          "balanced": "Balanceret",
+          "custom": "Brugerdefineret",
+          "default": "Normal",
+          "loose": "Løs",
+          "tight": "Tæt"
+        }
+      },
+      "text": "Tekst",
+      "textAlign": {
+        "title": "Tekst justering",
+        "default": "Normal",
+        "left": "Venstre",
+        "right": "Højre",
+        "justify": "Udfyld"
+      },
+      "textNormalization": {
+        "title": "Normalisering af tekst",
+        "label": "Fjern al tekstformatering"
+      },
+      "themes": {
+        "title": "Temaer",
+        "auto": "Automatisk",
+        "dark": "Mørk",
+        "light": "Lys",
+        "paper": "Papir",
+        "sepia": "Sepia",
+        "contrast1": "Kontrast 1",
+        "contrast2": "Kontrast 2",
+        "contrast3": "Kontrast 3"
+      },
+      "wordSpacing": "Ordafstand",
+      "zoom": "Zoom"
+    },
+    "tableOfContents": {
+      "title": "Indholdsfortegnelse",
+      "emptyState": {
+        "description": "Der blev ikke fundet nogen indholdsfortegnelse for denne bog."
+      }
+    }
+  },
+  "common": {
+    "actions": {
+      "clear": "Nulstil",
+      "close": "Luk",
+      "decrease": "Reducer",
+      "enable": "Aktiver",
+      "exit": "Afslut",
+      "increase": "Forøg",
+      "reset": "Nulstil",
+      "search": "Søg",
+      "toggle": "Vis"
+    }
+  }
+}
