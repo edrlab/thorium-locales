@@ -1,1 +1,19 @@
-{}
+{
+    "reader": {
+        "actions": {
+            "goBackward": "Geri git",
+            "goForward": "İleri git",
+            "goToNextChapter": {
+                "compact": "Sonraki",
+                "descriptive": "Sonraki bölüm"
+            },
+            "goToNextPage": {
+                "compact": "Sonraki",
+                "descriptive": "Sonraki sayfa"
+            },
+            "goToPosition": {
+                "compact": "Şuraya git…"
+            }
+        }
+    }
+}
