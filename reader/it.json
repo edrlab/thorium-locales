@@ -1,1 +1,173 @@
-{}
+{
+    "reader": {
+        "actions": {
+            "goBackward": "Indietro",
+            "goForward": "Avanti",
+            "goToNextChapter": {
+                "compact": "Successivo",
+                "descriptive": "Capitolo successivo"
+            },
+            "goToNextPage": {
+                "compact": "Successivo",
+                "descriptive": "Pagina successiva"
+            },
+            "goToPosition": {
+                "compact": "Vai a…",
+                "descriptive": "Vai alla posizione"
+            },
+            "goToPreviousChapter": {
+                "compact": "Precedente",
+                "descriptive": "Capitolo precedente"
+            },
+            "goToPreviousPage": {
+                "compact": "Precedente",
+                "descriptive": "Pagina precedente"
+            }
+        },
+        "progression": {
+            "pagesLeft": {
+                "one": "{{ count }} pagina rimanente",
+                "other": "{{ count }} pagine rimanenti"
+            },
+            "pagesLeftInChapter": {
+                "one": "{{ count }} pagina rimasta nel capitolo",
+                "other": "{{ count }} pagine rimaste nel capitolo"
+            },
+            "pagesLeftInPublication": {
+                "one": "{{ count }} pagina rimasta nella pubblicazione",
+                "other": "{{ count }} pagine rimaste nella pubblicazione"
+            },
+            "percentage": "{{ p1 }}%",
+            "positionsLeft": {
+                "one": "{{ count }} posizione rimasta",
+                "other": "{{ count }} posizioni rimaste"
+            },
+            "positionsLeftInChapter": {
+                "one": "{{ count }} posizione rimasta nel capitolo",
+                "other": "{{ count }} posizioni rimaste nel capitolo"
+            },
+            "positionsLeftInPublication": {
+                "one": "{{ count }} posizione rimasta nella pubblicazione",
+                "other": "{{ count }} posizioni rimaste nella pubblicazione"
+            },
+            "range": "{{ p1 }}–{{ p2 }}",
+            "xOfY": {
+                "compact": "{{ p1 }} di {{ p2 }}",
+                "descriptive": "{{ p1 }} di {{ p2 }} ({{ p3 }})"
+            }
+        },
+        "preferences": {
+            "title": "Impostazioni dello schermo",
+            "columns": {
+                "title": "Colonne",
+                "auto": "Auto",
+                "one": {
+                    "compact": "1 col",
+                    "descriptive": "1 colonna"
+                },
+                "two": {
+                    "compact": "2 col",
+                    "descriptive": "2 colonne"
+                }
+            },
+            "fontFamily": {
+                "title": "Famiglia di caratteri",
+                "publisher": "Font dell'editore",
+                "oldStyle": {
+                    "compact": "Old style",
+                    "descriptive": "Old style serif"
+                },
+                "modern": {
+                    "compact": "Modern",
+                    "descriptive": "Modern serif"
+                },
+                "sans": "Sans-serif",
+                "humanist": {
+                    "compact": "Humanist",
+                    "descriptive": "Humanist sans-serif"
+                },
+                "monospace": "Monospace"
+            },
+            "fontSize": "Dimensione dei caratteri",
+            "fontWeight": {
+                "title": "Peso del carattere",
+                "normal": "Normale",
+                "bold": "Grassetto"
+            },
+            "hyphens": {
+                "title": "Uso del trattino",
+                "label": "Attivare l'uso del trattino"
+            },
+            "layout": {
+                "title": "Impaginazione",
+                "scrolled": "Scrollabile",
+                "paginated": "Impaginato"
+            },
+            "letterSpacing": "Spaziatura caratteri",
+            "lineHeight": {
+                "title": "Interlinea",
+                "default": "Predefinita",
+                "small": "Stretta",
+                "medium": "Bilanciata",
+                "large": "Allargata"
+            },
+            "paragraphIndent": "Rientro del paragrafo",
+            "paragraphSpacing": "Spazio tra i paragrafi",
+            "publisherStyles": {
+                "title": "Stile dell'editore",
+                "label": "Usare la formattazione originale"
+            },
+            "spacing": {
+                "title": "Spaziatura",
+                "presets": {
+                    "title": "Preimpostazioni",
+                    "accessible": "Accessibile",
+                    "balanced": "Bilanciato",
+                    "custom": "Personalizzato",
+                    "default": "Predefinito",
+                    "loose": "Allargato",
+                    "tight": "Stretto"
+                }
+            },
+            "text": "Testo",
+            "textAlign": {
+                "title": "Allineamento del testo",
+                "default": "Predefinito",
+                "left": "Sinistra",
+                "right": "Destra",
+                "justify": "Giustificato"
+            },
+            "textNormalization": {
+                "title": "Stile del testo",
+                "label": "Disattivare la formattazione del testo"
+            },
+            "themes": {
+                "title": "Temi",
+                "auto": "Auto",
+                "dark": "Scuro",
+                "light": "Chiaro",
+                "paper": "Carta",
+                "sepia": "Seppia",
+                "contrast1": "Contrasto 1",
+                "contrast2": "Contrasto 2",
+                "contrast3": "Contrasto 3"
+            },
+            "wordSpacing": "Spaziatura delle parole",
+            "zoom": "Zoom"
+        },
+        "tableOfContents": {
+            "title": "Sommario",
+            "emptyState": {
+                "title": "Nessun sommario",
+                "description": "Il sommario non è disponibile per questa pubblicazione."
+            }
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Annulla",
+            "clear": "Elimina",
+            "close": "Chiudere"
+        }
+    }
+}
