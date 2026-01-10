@@ -6,6 +6,36 @@
             "identifier": {
                 "one": "identifierare",
                 "other": "identifierare"
+            },
+            "altIdentifier": {
+                "one": "alternativ identifierare",
+                "other": "alternativa identifierare"
+            },
+            "published": "publikationsdatum",
+            "modified": "ändringsdatum",
+            "language": {
+                "one": "språk",
+                "other": "språk"
+            },
+            "author": {
+                "one": "författare",
+                "other": "författare"
+            },
+            "translator": {
+                "one": "översättare",
+                "other": "översättare"
+            },
+            "editor": {
+                "one": "redaktör",
+                "other": "redaktörer"
+            },
+            "artist": {
+                "one": "konstnär",
+                "other": "artister"
+            },
+            "illustrator": {
+                "one": "illustratör",
+                "other": "illustratörer"
             }
         }
     }
