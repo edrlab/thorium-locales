@@ -167,7 +167,24 @@
         "actions": {
             "cancel": "Annulla",
             "clear": "Elimina",
-            "close": "Chiudere"
+            "close": "Chiudere",
+            "decrease": "Diminuisci",
+            "disable": "Disattiva",
+            "enable": "Attiva",
+            "exit": "Esci",
+            "expand": "Espandi",
+            "expandAll": "Espandi tutto",
+            "filter": "Filtra",
+            "hide": "Nascondi",
+            "hideAll": "Nascondi tutto",
+            "increase": "Aumenta",
+            "open": "Apri",
+            "reset": "Reset",
+            "search": "Cerca",
+            "show": "Mostra",
+            "showAll": "Mostra tutto",
+            "sortBy": "Ordina per",
+            "toggle": "Passa a"
         }
     }
 }
