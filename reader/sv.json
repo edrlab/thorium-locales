@@ -180,7 +180,11 @@
             "hideAll": "Dölj alla",
             "show": "Visa",
             "showAll": "Visa alla",
-            "sortBy": "Sortera efter"
+            "sortBy": "Sortera efter",
+            "exit": "Lämna",
+            "expandAll": "Expandera alla",
+            "filter": "Filter",
+            "open": "Öppna"
         }
     }
 }
