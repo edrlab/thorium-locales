@@ -299,7 +299,9 @@
                         },
                         "tactile-objects": "Oggetti 3D tattili",
                         "text-to-speech-hinting": "Pronuncia migliorata per la sintesi vocale",
-                        "ultra-high-contrast-between-text-and-background": "Contrasto molto elevato tra testo e sfondo"
+                        "ultra-high-contrast-between-text-and-background": "Contrasto molto elevato tra testo e sfondo",
+                        "visible-page-numbering": "Numerazione delle pagine visibile",
+                        "without-background-sounds": "Nessun suono in sottofondo"
                     }
                 }
             }
