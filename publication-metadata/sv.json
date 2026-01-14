@@ -82,7 +82,8 @@
                             },
                             "unknown": "Information om möjlighet att justera utseende saknas",
                             "unmodifiable": {
-                                "compact": "Utseendet kan inte justeras"
+                                "compact": "Utseendet kan inte justeras",
+                                "descriptive": "Text- och sidlayout kan inte ändras eftersom läsupplevelsen är nära en utskriftsversion, men lässystem kan fortfarande ge zoomningsalternativ"
                             }
                         }
                     },
@@ -122,8 +123,11 @@
                             "wcag-2-2": {
                                 "compact": "WCAG 2.2",
                                 "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.2"
-                            }
-                        }
+                            },
+                            "certification-info": "Publiceringen certifierades på "
+                        },
+                        "details-title": "Detaljerad information om överensstämmelse",
+                        "unknown-standard": "Överensstämmelse med accepterade standarder för tillgänglighet av denna publikation kan inte fastställas"
                     },
                     "navigation": {
                         "title": "Navigering",
@@ -183,20 +187,24 @@
                             "descriptive": "Publikationen har blinkande innehåll som kan vara skadligt för ljuskänsliga personer"
                         },
                         "flashing-none": {
-                            "descriptive": "Publikationen har inget blinkande innehåll som kan vara skadligt för ljuskänsliga personer"
+                            "descriptive": "Publikationen har inget blinkande innehåll som kan vara skadligt för ljuskänsliga personer",
+                            "compact": "Ingen risk för blinkande ljus"
                         },
                         "flashing-unknown": {
-                            "descriptive": "Det går inte att avgöra om publikationen innehåller blinkande innehåll som skulle kunna orsaka illamående"
+                            "descriptive": "Det går inte att avgöra om publikationen innehåller blinkande innehåll som skulle kunna orsaka illamående",
+                            "compact": "Okänd risk för blinkande ljus"
                         },
                         "motion": {
                             "compact": "Rörelsesimulering",
                             "descriptive": "Publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående"
                         },
                         "motion-none": {
-                            "descriptive": "Publikationen innehåller ingen rörelsesimulering som skulle kunna orsaka illamående"
+                            "descriptive": "Publikationen innehåller ingen rörelsesimulering som skulle kunna orsaka illamående",
+                            "compact": "Inga rörelsesimuleringrisker"
                         },
                         "motion-unknown": {
-                            "descriptive": "Det går inte att avgöra om publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående"
+                            "descriptive": "Det går inte att avgöra om publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående",
+                            "compact": "Okänd risk för rörelsesimulering"
                         },
                         "no-metadata": "Information saknas",
                         "none": {
@@ -204,16 +212,31 @@
                             "descriptive": "Publikationen innehåller inga risker"
                         },
                         "sound": {
-                            "compact": "Ljud"
+                            "compact": "Ljud",
+                            "descriptive": "Publiceringen innehåller ljud som kan orsaka problem för känsliga"
                         },
-                        "unknown": "Förekomst av risker är okänd"
+                        "unknown": "Förekomst av risker är okänd",
+                        "sound-none": {
+                            "compact": "Inga ljudrisker",
+                            "descriptive": "Publiceringen innehåller inte ljud som kan orsaka problem för känsliga"
+                        },
+                        "sound-unknown": {
+                            "compact": "Okänd risk för ljudfaror",
+                            "descriptive": "Närvaron av ljud som kan orsaka problem för känsliga kan inte bestämmas"
+                        }
                     },
                     "accessibility-summary": {
                         "title": "Kompletterande information om tillgänglighet",
-                        "no-metadata": "Information saknas"
+                        "no-metadata": "Information saknas",
+                        "publisher-contact": "För mer information om tillgängligheten av denna produkt, vänligen kontakta förlaget: "
                     },
                     "legal-considerations": {
-                        "no-metadata": "Information saknas"
+                        "no-metadata": "Information saknas",
+                        "title": "Juridiska överväganden",
+                        "exempt": {
+                            "compact": "Hävdar undantag för tillgänglighet i vissa jurisdiktioner",
+                            "descriptive": "Denna publikation hävdar ett tillgänglighetsundantag i vissa jurisdiktioner"
+                        }
                     },
                     "additional-accessibility-information": {
                         "title": "Ytterligare tillgänglighetsinformation",
@@ -238,9 +261,40 @@
                             "descriptive": "Taktila bilder har lagts till för att tillgängliggöra visuella element för personer med synnedsättning"
                         },
                         "tactile-objects": "Taktila 3D-objekt",
-                        "text-to-speech-hinting": "Innehåller uttalsinstruktioner för talsyntes"
+                        "text-to-speech-hinting": "Innehåller uttalsinstruktioner för talsyntes",
+                        "color-not-sole-means-of-conveying-information": "Färg är inte det enda sättet att förmedla information",
+                        "dyslexia-readability": "Dyslexiläsbarhet",
+                        "ultra-high-contrast-between-text-and-background": "Ultra hög kontrast mellan text och bakgrund",
+                        "visible-page-numbering": "Synlig sidnumrering",
+                        "without-background-sounds": "Utan bakgrundsljud"
                     }
                 }
+            },
+            "narrator": {
+                "one": "berättare",
+                "other": "berättare"
+            },
+            "contributor": {
+                "one": "bidragsgivare",
+                "other": "bidragsgivare"
+            },
+            "publisher": {
+                "one": "utgivare",
+                "other": "utgivare"
+            },
+            "subject": {
+                "one": "ämne",
+                "other": "ämnen"
+            },
+            "description": "beskrivning",
+            "duration": "längd",
+            "collection": {
+                "one": "redaktionell samling",
+                "other": "redaktionella samlingar"
+            },
+            "series": {
+                "one": "serie",
+                "other": "serier"
             }
         }
     }
