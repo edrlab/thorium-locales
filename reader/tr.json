@@ -12,8 +12,173 @@
                 "descriptive": "Sonraki sayfa"
             },
             "goToPosition": {
-                "compact": "Şuraya git…"
+                "compact": "Şuraya git…",
+                "descriptive": ""
+            },
+            "goToPreviousChapter": {
+                "compact": "",
+                "descriptive": ""
+            },
+            "goToPreviousPage": {
+                "descriptive": "",
+                "compact": ""
             }
+        },
+        "preferences": {
+            "themes": {
+                "dark": "",
+                "paper": "",
+                "sepia": "",
+                "title": "",
+                "light": "",
+                "contrast1": "",
+                "auto": "",
+                "contrast3": "",
+                "contrast2": ""
+            },
+            "fontFamily": {
+                "oldStyle": {
+                    "descriptive": "",
+                    "compact": ""
+                },
+                "modern": {
+                    "descriptive": "",
+                    "compact": ""
+                },
+                "title": "",
+                "humanist": {
+                    "compact": "",
+                    "descriptive": ""
+                },
+                "monospace": "",
+                "publisher": "",
+                "sans": ""
+            },
+            "fontWeight": {
+                "title": "",
+                "bold": "",
+                "normal": ""
+            },
+            "hyphens": {
+                "title": "",
+                "label": ""
+            },
+            "textAlign": {
+                "right": "",
+                "default": "",
+                "left": "",
+                "title": "",
+                "justify": ""
+            },
+            "spacing": {
+                "presets": {
+                    "custom": "",
+                    "balanced": "",
+                    "default": "",
+                    "tight": "",
+                    "title": "",
+                    "loose": "",
+                    "accessible": ""
+                },
+                "title": ""
+            },
+            "paragraphSpacing": "",
+            "publisherStyles": {
+                "title": "",
+                "label": ""
+            },
+            "text": "",
+            "lineHeight": {
+                "medium": "",
+                "default": "",
+                "title": "",
+                "small": "",
+                "large": ""
+            },
+            "paragraphIndent": "",
+            "columns": {
+                "auto": "",
+                "title": ""
+            },
+            "layout": {
+                "paginated": "",
+                "title": "",
+                "scrolled": ""
+            },
+            "letterSpacing": "",
+            "fontSize": "",
+            "textNormalization": {
+                "label": "",
+                "title": ""
+            },
+            "title": "",
+            "zoom": "",
+            "wordSpacing": ""
+        },
+        "progression": {
+            "positionsLeft": {
+                "other": "",
+                "one": ""
+            },
+            "pagesLeftInPublication": {
+                "one": "",
+                "other": ""
+            },
+            "positionsLeftInPublication": {
+                "one": "",
+                "other": ""
+            },
+            "range": "",
+            "positionsLeftInChapter": {
+                "other": "",
+                "one": ""
+            },
+            "pagesLeft": {
+                "one": "",
+                "other": ""
+            },
+            "pagesLeftInChapter": {
+                "other": "",
+                "one": ""
+            },
+            "xOfY": {
+                "descriptive": "",
+                "compact": ""
+            },
+            "percentage": ""
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "",
+                "title": ""
+            },
+            "title": ""
+        }
+    },
+    "common": {
+        "actions": {
+            "filter": "",
+            "exit": "",
+            "hide": "",
+            "clear": "",
+            "expandAll": "",
+            "increase": "",
+            "cancel": "",
+            "collapseAll": "",
+            "sortBy": "",
+            "hideAll": "",
+            "collapse": "",
+            "enable": "",
+            "disable": "",
+            "reset": "",
+            "toggle": "",
+            "showAll": "",
+            "expand": "",
+            "decrease": "",
+            "show": "",
+            "search": "",
+            "open": "",
+            "close": ""
         }
     }
 }
