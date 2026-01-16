@@ -12,7 +12,16 @@
                 "descriptive": "Järgmine leht"
             },
             "goToPreviousPage": {
-                "descriptive": "Eelmine leht"
+                "descriptive": "Eelmine leht",
+                "compact": ""
+            },
+            "goToPreviousChapter": {
+                "compact": "",
+                "descriptive": ""
+            },
+            "goToPosition": {
+                "descriptive": "",
+                "compact": ""
             }
         },
         "progression": {
@@ -27,7 +36,149 @@
             "pagesLeftInPublication": {
                 "one": "Köites on jäänud {{ count }} leht",
                 "other": "Köites on jäänud {{ count }} lehte"
-            }
+            },
+            "positionsLeft": {
+                "other": "",
+                "one": ""
+            },
+            "positionsLeftInPublication": {
+                "one": "",
+                "other": ""
+            },
+            "range": "",
+            "positionsLeftInChapter": {
+                "other": "",
+                "one": ""
+            },
+            "xOfY": {
+                "descriptive": "",
+                "compact": ""
+            },
+            "percentage": ""
+        },
+        "preferences": {
+            "themes": {
+                "dark": "",
+                "paper": "",
+                "sepia": "",
+                "title": "",
+                "light": "",
+                "contrast1": "",
+                "auto": "",
+                "contrast3": "",
+                "contrast2": ""
+            },
+            "fontFamily": {
+                "oldStyle": {
+                    "descriptive": "",
+                    "compact": ""
+                },
+                "modern": {
+                    "descriptive": "",
+                    "compact": ""
+                },
+                "title": "",
+                "humanist": {
+                    "compact": "",
+                    "descriptive": ""
+                },
+                "monospace": "",
+                "publisher": "",
+                "sans": ""
+            },
+            "fontWeight": {
+                "title": "",
+                "bold": "",
+                "normal": ""
+            },
+            "hyphens": {
+                "title": "",
+                "label": ""
+            },
+            "textAlign": {
+                "right": "",
+                "default": "",
+                "left": "",
+                "title": "",
+                "justify": ""
+            },
+            "spacing": {
+                "presets": {
+                    "custom": "",
+                    "balanced": "",
+                    "default": "",
+                    "tight": "",
+                    "title": "",
+                    "loose": "",
+                    "accessible": ""
+                },
+                "title": ""
+            },
+            "paragraphSpacing": "",
+            "publisherStyles": {
+                "title": "",
+                "label": ""
+            },
+            "text": "",
+            "lineHeight": {
+                "medium": "",
+                "default": "",
+                "title": "",
+                "small": "",
+                "large": ""
+            },
+            "paragraphIndent": "",
+            "columns": {
+                "auto": "",
+                "title": ""
+            },
+            "layout": {
+                "paginated": "",
+                "title": "",
+                "scrolled": ""
+            },
+            "letterSpacing": "",
+            "fontSize": "",
+            "textNormalization": {
+                "label": "",
+                "title": ""
+            },
+            "title": "",
+            "zoom": "",
+            "wordSpacing": ""
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "",
+                "title": ""
+            },
+            "title": ""
+        }
+    },
+    "common": {
+        "actions": {
+            "filter": "",
+            "exit": "",
+            "hide": "",
+            "clear": "",
+            "expandAll": "",
+            "increase": "",
+            "cancel": "",
+            "collapseAll": "",
+            "sortBy": "",
+            "hideAll": "",
+            "collapse": "",
+            "enable": "",
+            "disable": "",
+            "reset": "",
+            "toggle": "",
+            "showAll": "",
+            "expand": "",
+            "decrease": "",
+            "show": "",
+            "search": "",
+            "open": "",
+            "close": ""
         }
     }
 }
