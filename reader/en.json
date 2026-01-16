@@ -61,11 +61,11 @@
       "columns": {
         "title": "Columns",
         "auto": "Auto",
-        "one": {
+        "single": {
           "compact": "1 col",
           "descriptive": "Single column"
         },
-        "two": {
+        "dual": {
           "compact": "2 cols",
           "descriptive": "Two columns"
         }

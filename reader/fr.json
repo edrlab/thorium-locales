@@ -33,11 +33,11 @@
       "columns": {
         "title": "Colonnes",
         "auto": "Auto",
-        "one": {
+        "single": {
           "compact": "1 col",
           "descriptive": "1 colonne"
         },
-        "two": {
+        "dual": {
           "compact": "2 cols",
           "descriptive": "2 colonnes"
         }

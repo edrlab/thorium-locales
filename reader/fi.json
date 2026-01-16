@@ -27,10 +27,10 @@
       "columns": {
         "title": "Sarakkeet",
         "auto": "Automaattinen",
-        "one": {
+        "single": {
           "descriptive": "1 sarake"
         },
-        "two": {
+        "dual": {
           "descriptive": "2 saraketta"
         }
       },

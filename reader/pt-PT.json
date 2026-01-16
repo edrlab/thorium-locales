@@ -30,10 +30,10 @@
       "columns": {
         "title": "Colunas",
         "auto": "Auto",
-        "one": {
+        "single": {
           "compact": "1 col."
         },
-        "two": {
+        "dual": {
           "compact": "2 col."
         }
       },
