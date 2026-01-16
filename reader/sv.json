@@ -61,19 +61,11 @@
             "columns": {
                 "title": "Kolumner",
                 "auto": "Auto",
-<<<<<<< HEAD
                 "single": {
                     "descriptive": "1 kolumn",
                     "compact": "1 kol"
                 },
                 "dual": {
-=======
-                "one": {
-                    "descriptive": "1 kolumn",
-                    "compact": "1 kol"
-                },
-                "two": {
->>>>>>> f6f4b32 (Translated using Weblate (Swedish))
                     "descriptive": "2 kolumner",
                     "compact": "2 kol"
                 }
