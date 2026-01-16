@@ -30,10 +30,10 @@
       "columns": {
         "title": "Kolumner",
         "auto": "Auto",
-        "one": {
+        "single": {
           "descriptive": "1 kolumn"
         },
-        "two": {
+        "dual": {
           "descriptive": "2 kolumner"
         }
       },

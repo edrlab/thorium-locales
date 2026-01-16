@@ -30,10 +30,10 @@
       "columns": {
         "title": "Stulpeliai",
         "auto": "Auto",
-        "one": {
+        "single": {
           "descriptive": "1 stulpelis"
         },
-        "two": {
+        "dual": {
           "descriptive": "2 stulpeliai"
         }
       },

@@ -21,10 +21,10 @@
       "columns": {
         "title": "Colunas",
         "auto": "Automático",
-        "one": {
+        "single": {
           "compact": "1 col."
         },
-        "two": {
+        "dual": {
           "compact": "2 cols."
         }
       },

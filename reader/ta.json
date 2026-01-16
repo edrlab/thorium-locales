@@ -21,10 +21,10 @@
       "columns": {
         "title": "நெடுவரிசைகள்",
         "auto": "தானி",
-        "one": {
+        "single": {
           "descriptive": "1 கோல்"
         },
-        "two": {
+        "dual": {
           "descriptive": "2 கோல்ச்"
         }
       },
