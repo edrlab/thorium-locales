@@ -184,7 +184,9 @@
             "show": "Mostra",
             "showAll": "Mostra tutto",
             "sortBy": "Ordina per",
-            "toggle": "Passa a"
+            "toggle": "Passa a",
+            "collapseAll": "",
+            "collapse": ""
         }
     }
 }
