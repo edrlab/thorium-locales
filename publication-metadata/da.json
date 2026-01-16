@@ -1,0 +1,322 @@
+{
+    "publication": {
+        "metadata": {
+            "title": "titel",
+            "subtitle": "undertitel",
+            "identifier": {
+                "one": "ID",
+                "other": "ID'er"
+            },
+            "altIdentifier": {
+                "one": "alternativt ID",
+                "other": "alternative ID'er"
+            },
+            "published": "udgivelsesdato",
+            "modified": "rettet dato",
+            "language": {
+                "one": "sprog",
+                "other": "sprog"
+            },
+            "author": {
+                "one": "forfatter",
+                "other": "forfattere"
+            },
+            "translator": {
+                "one": "oversætter",
+                "other": "oversættere"
+            },
+            "editor": {
+                "one": "redaktør",
+                "other": "redaktører"
+            },
+            "artist": {
+                "one": "kunstner",
+                "other": "kunstnere"
+            },
+            "illustrator": {
+                "one": "illustrator",
+                "other": "illustratorer"
+            },
+            "numberOfPages": "printbare sider",
+            "collection": {
+                "one": "redaktionel samling",
+                "other": "redaktionelle samlinger"
+            },
+            "series": {
+                "one": "serie",
+                "other": "serier"
+            },
+            "accessibility": {
+                "display-guide": {
+                    "ways-of-reading": {
+                        "title": "Læseformer",
+                        "nonvisual-reading": {
+                            "alt-text": {
+                                "compact": "Har alternativ tekst",
+                                "descriptive": "Har billedbeskrivelser"
+                            },
+                            "no-metadata": "Ingen information omkring ikke-visuel læsning",
+                            "none": {
+                                "compact": "Ikke læsbar med oplæsning eller dynamisk punktskrift",
+                                "descriptive": "Dette indhold er ikke læsbart med oplæsning eller dynamisk punktskrift"
+                            },
+                            "not-fully": {
+                                "compact": "Ikke fuldt læsbar med oplæsning eller dynamisk punktskrift",
+                                "descriptive": "Alt indholdet er ikke fuldt læsbart med oplæsning eller dynamisk punktskrift"
+                            },
+                            "readable": {
+                                "compact": "Læsbar med oplæsning eller dynamisk punktskrift",
+                                "descriptive": "Alt indholdet er læsbart med oplæsning eller dynamisk punktskrift"
+                            }
+                        },
+                        "prerecorded-audio": {
+                            "complementary": {
+                                "compact": "Indlæste lydklip",
+                                "descriptive": "Indlæste lydklip er indlejret i indholdet"
+                            },
+                            "no-metadata": "Ingen information om indlæst lyd",
+                            "only": {
+                                "compact": "Kun indlæst lyd",
+                                "descriptive": "Lydbog uden tekst alternativer"
+                            },
+                            "synchronized": {
+                                "compact": "Indlæst lyd med synkroniseret tekst",
+                                "descriptive": "Alt indholdet er tilgængeligt med indlæst lyd og synkroniseret tekst"
+                            }
+                        },
+                        "visual-adjustments": {
+                            "modifiable": {
+                                "compact": "Udseende kan ændres",
+                                "descriptive": "Udseende af tekst og sidelayout kan ændres, så vidt muligt i læsesystemet (skrifttype, skriftstørrelse, afstand mellem afsnit, sætninger, ord og bogstaver, samt farven på tekst og baggrund)"
+                            },
+                            "unknown": "Ingen information om mulighed for ændring af udseende",
+                            "unmodifiable": {
+                                "compact": "Udseende kan ikke ændres",
+                                "descriptive": "Tekst og sidelayout kan ikke ændres, da læseoplevelsen afspejler den trykte version af materialet. Læsesystemet kan dog stadig give mulighed for zoom"
+                            }
+                        }
+                    },
+                    "conformance": {
+                        "title": "Overholdelse",
+                        "details-title": "Detaljeret overholdelses-information",
+                        "a": {
+                            "compact": "Denne bog overholder minimum-tilgængelighedskravene",
+                            "descriptive": "Denne bog en overensstemmelseserklæring om, at den opfylder EPUB Tilgængelighedskrav og WCAG 2 standarden på niveau A"
+                        },
+                        "aa": {
+                            "compact": "Denne bog lever op til de accepterede tilgængelighedskrav",
+                            "descriptive": "Denne bog en overensstemmelseserklæring om, at den opfylder EPUB Tilgængelighedskrav og WCAG 2 standarden på niveau AA"
+                        },
+                        "aaa": {
+                            "compact": "Denne bog mere end opfylder de accepterede tilgængelighedskrav",
+                            "descriptive": "Denne bog en overensstemmelseserklæring om, at den opfylder EPUB Tilgængelighedskrav og WCAG 2 standarden på niveau AAA"
+                        },
+                        "no": "Ingen information tilgængelig",
+                        "unknown-standard": "Overholdelse af de accepterede tilgængelighedskrav kan ikke vurderes for denne bog",
+                        "certifier": "Denne bog blev certificeret af ",
+                        "certifier-credentials": "Certificeringsorganets legitimationsoplysninger er ",
+                        "details": {
+                            "certification-info": "Bogen blev certificeret den ",
+                            "certifier-report": "Se certificeringsorganets rapport for mere information",
+                            "claim": "Denne bog hævder at opfylde",
+                            "epub-accessibility-1-0": "EPUB Tilgængelighed 1.0",
+                            "epub-accessibility-1-1": "EPUB Tilgængelighed 1.1",
+                            "level-a": "Niveau A",
+                            "level-aa": "Niveau AA",
+                            "level-aaa": "Niveau AAA",
+                            "wcag-2-0": {
+                                "compact": "WCAG 2.0",
+                                "descriptive": "Retningslinjer for tilgængeligt webindhold (WCAG) 2.0"
+                            },
+                            "wcag-2-1": {
+                                "compact": "WCAG 2.1",
+                                "descriptive": "Retningslinjer for tilgængeligt webindhold (WCAG) 2.1"
+                            },
+                            "wcag-2-2": {
+                                "compact": "WCAG 2.2",
+                                "descriptive": "Retningslinjer for tilgængeligt webindhold (WCAG) 2.2"
+                            }
+                        }
+                    },
+                    "navigation": {
+                        "title": "Navigation",
+                        "index": {
+                            "compact": "Indholdsfortegnelse",
+                            "descriptive": "Indholdsfortegnelse med links til referencer"
+                        },
+                        "no-metadata": "Ingen information tilgængelig",
+                        "page-navigation": {
+                            "compact": "Gå til side",
+                            "descriptive": "Sideliste for at gå til sider fra den trykte kildeversion"
+                        },
+                        "structural": {
+                            "compact": "Overskrifter",
+                            "descriptive": "Elementer så som overskrifter og tabeller til struktureret navigation"
+                        },
+                        "toc": {
+                            "compact": "Indholdsfortegnelse",
+                            "descriptive": "Indholdsfortegnelse med links til alle kapitler"
+                        }
+                    },
+                    "rich-content": {
+                        "title": "Komplekst indhold",
+                        "accessible-chemistry-as-latex": {
+                            "compact": "Kemiske formularer i LaTeX",
+                            "descriptive": "Kemiske formularer i tilgængeligt format (LaTeX)"
+                        },
+                        "accessible-chemistry-as-mathml": {
+                            "compact": "Kemiske formularer i MathML notation",
+                            "descriptive": "Kemiske formularer i tilgængeligt format (MathML)"
+                        },
+                        "accessible-math-as-latex": {
+                            "compact": "Matematik som LaTeX",
+                            "descriptive": "Matematikformler i tilgængeligt format (LaTeX)"
+                        },
+                        "math-as-mathml": {
+                            "compact": "Matematik som MathML",
+                            "descriptive": "Matematiske formler i tilgængeligt format (MathML)"
+                        },
+                        "accessible-math-described": "Tekstbeskrivelser til matematiske formler",
+                        "closed-captions": {
+                            "compact": "Videoer har undertekster",
+                            "descriptive": "Videoer der optræder i bogen har undertekster"
+                        },
+                        "extended-descriptions": "Informationsrige billeder beskrives med udvidede beskrivelser",
+                        "open-captions": {
+                            "compact": "Videoer har indlejrede undertekster",
+                            "descriptive": "Videoer der optræder i bogen har indlejrede undertekster"
+                        },
+                        "transcript": "Indeholder transskription(er)",
+                        "unknown": "Ingen information tilgængelig"
+                    },
+                    "hazards": {
+                        "title": "Farer",
+                        "flashing": {
+                            "compact": "Blinkende indhold",
+                            "descriptive": "Bogen indeholder blinkende indhold der kan forårsage epileptiske anfald"
+                        },
+                        "flashing-none": {
+                            "compact": "Ingen blinkende indhold",
+                            "descriptive": "Bogen indeholder ikke noget blinkende indhold, der kunne forårsage epileptiske anfald"
+                        },
+                        "flashing-unknown": {
+                            "compact": "Ingen information om bogen har blinkende indhold",
+                            "descriptive": "Det kunne ikke afgøres om bogen indeholder blinkende indhold der kan lede til epileptiske anfald"
+                        },
+                        "motion": {
+                            "compact": "Simuleret bevægelse",
+                            "descriptive": "Bogen indeholder simuleret bevægelse, der kan forårsage en følelse af køresyge"
+                        },
+                        "motion-none": {
+                            "compact": "Indeholder ikke simuleret bevægelse",
+                            "descriptive": "Denne bog indeholder ikke noget indhold med simuleret bevægelse, der kunne lede til en følelse af køresyge"
+                        },
+                        "motion-unknown": {
+                            "compact": "Ingen information om simuleret bevægelse",
+                            "descriptive": "Det kunne ikke vurderes om bogen indeholder simuleret bevægelse, der kan lede til en følelse af køresyge"
+                        },
+                        "no-metadata": "Ingen information tilgængelig",
+                        "none": {
+                            "compact": "Ingen farer",
+                            "descriptive": "Bogen indeholder ikke noget indhold der kategoriseres som farligt"
+                        },
+                        "sound": {
+                            "compact": "Lyde",
+                            "descriptive": "Bogen indeholder lyde der kan være ubehagelige hvis man er sensitiv overfor lyde"
+                        },
+                        "sound-none": {
+                            "compact": "Ingen ubehagelige lyde",
+                            "descriptive": "Bogen indeholder ikke lyde der kunne opleves som ubehagelige hvis man er sensitiv overfor lyde"
+                        },
+                        "sound-unknown": {
+                            "compact": "Ingen information om ubehagelige lyde",
+                            "descriptive": "Det kunne ikke afgøres om bogen indeholder ubehagelige lyde"
+                        },
+                        "unknown": "Ingen information om farligt indhold"
+                    },
+                    "accessibility-summary": {
+                        "title": "Tilgængeligheds-oversigt",
+                        "no-metadata": "Ingen information tilgængelig",
+                        "publisher-contact": "For mere information om tilgængeligheden af denne bog, kontakt venligst udgiveren: "
+                    },
+                    "legal-considerations": {
+                        "title": "Juridiske overvejelser",
+                        "exempt": {
+                            "compact": "Gør krav på undtagelser fra tilgængelighedskrav",
+                            "descriptive": "Denne bog gør krav på en tilgængelighedsundtagelse i en eller flere jurisdiktioner"
+                        },
+                        "no-metadata": "Ingen information tilgængelig"
+                    },
+                    "additional-accessibility-information": {
+                        "title": "Yderligere information om tilgængelighed",
+                        "aria": {
+                            "compact": "Indeholder ARIA roller",
+                            "descriptive": "Indhold forbedres med ARIA-roller for at optimere organisering og gøre navigation lettere"
+                        },
+                        "audio-descriptions": "Lydbeskrivelser",
+                        "braille": "Punktskrift (braille)",
+                        "color-not-sole-means-of-conveying-information": "Information gives ikke udelukkende via farver",
+                        "dyslexia-readability": "Læsbarhed for ordblinde",
+                        "full-ruby-annotations": "Indeholder såkalde \"ruby\" notationer (til asiatiske sprog)",
+                        "high-contrast-between-foreground-and-background-audio": "Høj kontrast imellem forgrunds- og baggrunds-lyd",
+                        "high-contrast-between-text-and-background": "Høj kontrast imellem tekst og baggrunden",
+                        "large-print": "Forstørret tekst",
+                        "page-breaks": {
+                            "compact": "Indeholder sideskift",
+                            "descriptive": "Indeholder sideskift fra den trykte version af bogen"
+                        },
+                        "ruby-annotations": "Nogle \"ruby\" annotationer (til asiatiske sprog)",
+                        "sign-language": "Tegnsprog",
+                        "tactile-graphics": {
+                            "compact": "Indeholder taktil grafik",
+                            "descriptive": "Indeholder taktil grafik for at muliggøre adgang til visuel information for blinde"
+                        },
+                        "tactile-objects": "Taktile 3D objekter",
+                        "text-to-speech-hinting": "Udtaleforbedringer til syntetisk tale",
+                        "ultra-high-contrast-between-text-and-background": "Ultra høj kontrast imellem tekst og baggrund",
+                        "visible-page-numbering": "Synlige sidenumre",
+                        "without-background-sounds": "Uden baggrundslyd"
+                    }
+                }
+            },
+            "letterer": {
+                "one": "taleboble-forfatter",
+                "other": "taleboble-forfattere"
+            },
+            "penciler": {
+                "one": "tegneseriekunstner",
+                "other": "tegneseriekunstnere"
+            },
+            "colorist": {
+                "one": "farvelægger",
+                "other": "farvelæggere"
+            },
+            "inker": {
+                "one": "tegner",
+                "other": "tegnere"
+            },
+            "narrator": {
+                "one": "indlæser",
+                "other": "indlæsere"
+            },
+            "contributor": {
+                "one": "bidragsyder",
+                "other": "bidragsydere"
+            },
+            "publisher": {
+                "one": "udgiver",
+                "other": "udgivere"
+            },
+            "imprint": {
+                "one": "trykkeri",
+                "other": "trykkerier"
+            },
+            "subject": {
+                "one": "emne",
+                "other": "emner"
+            },
+            "description": "beskrivelse",
+            "duration": "varighed"
+        }
+    }
+}
