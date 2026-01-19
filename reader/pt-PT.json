@@ -1,144 +1,192 @@
 {
-  "reader": {
-    "actions": {
-      "goBackward": "Recuar",
-      "goForward": "Avançar",
-      "goToPosition": {
-        "compact": "Saltar para…",
-        "descriptive": "Saltar para a posição"
-      }
-    },
-    "progression": {
-      "percentage": "{{ p1 }}%",
-      "positionsLeft": {
-        "other": "{{ count }} restantes"
-      },
-      "positionsLeftInChapter": {
-        "other": "{{ count }} restantes em capítulo atual"
-      },
-      "positionsLeftInPublication": {
-        "other": "{{ count }} restantes em a publicação"
-      },
-      "range": "{{ p1 }}–{{ p2 }}",
-      "xOfY": {
-        "compact": "{{ p1 }} de {{ p2 }}",
-        "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
-      }
-    },
-    "preferences": {
-      "title": "Configurações de visualização",
-      "columns": {
-        "title": "Colunas",
-        "auto": "Auto",
-        "single": {
-          "compact": "1 col."
+    "reader": {
+        "actions": {
+            "goBackward": "Recuar",
+            "goForward": "Avançar",
+            "goToPosition": {
+                "compact": "Saltar para…",
+                "descriptive": "Saltar para a posição"
+            },
+            "goToNextChapter": {
+                "compact": "Seguinte",
+                "descriptive": "Capítulo seguinte"
+            },
+            "goToNextPage": {
+                "compact": "Seguinte",
+                "descriptive": "Página seguinte"
+            },
+            "goToPreviousChapter": {
+                "compact": "Anterior",
+                "descriptive": "Capítulo anterior"
+            },
+            "goToPreviousPage": {
+                "compact": "Anterior",
+                "descriptive": "Página anterior"
+            }
         },
-        "dual": {
-          "compact": "2 col."
+        "progression": {
+            "percentage": "{{ p1 }}%",
+            "positionsLeft": {
+                "other": "{{ count }} posições restantes",
+                "one": "{{ count }} posição restante"
+            },
+            "positionsLeftInChapter": {
+                "other": "{{ count }} posições restantes no capítulo",
+                "one": "{{ count }} posição restante no capítulo"
+            },
+            "positionsLeftInPublication": {
+                "other": "{{ count }} posições restantes na publicação",
+                "one": "{{ count }} posição restante na publicação"
+            },
+            "range": "{{ p1 }}–{{ p2 }}",
+            "xOfY": {
+                "compact": "{{ p1 }} de {{ p2 }}",
+                "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
+            },
+            "pagesLeft": {
+                "one": "{{ count }} página restante",
+                "other": "{{ count }} páginas restantes"
+            },
+            "pagesLeftInChapter": {
+                "one": "{{ count }} página restante no capítulo",
+                "other": "{{ count }} páginas restantes no capítulo"
+            },
+            "pagesLeftInPublication": {
+                "one": "{{ count }} página restante na publicação",
+                "other": "{{ count }} páginas restantes na publicação"
+            }
+        },
+        "preferences": {
+            "title": "Configurações de visualização",
+            "columns": {
+                "title": "Colunas",
+                "auto": "Auto",
+                "single": {
+                    "compact": "1 col.",
+                    "descriptive": "Uma coluna"
+                },
+                "dual": {
+                    "compact": "2 cols.",
+                    "descriptive": "Duas colunas"
+                }
+            },
+            "fontFamily": {
+                "title": "Tipo de letra",
+                "publisher": "Fonte do editor",
+                "oldStyle": {
+                    "compact": "Clássica",
+                    "descriptive": "Serifa clássica"
+                },
+                "modern": {
+                    "compact": "Moderna",
+                    "descriptive": "Serifa moderna"
+                },
+                "sans": "Sem serifa",
+                "humanist": {
+                    "compact": "Humanista",
+                    "descriptive": "Humanista sem serifa"
+                },
+                "monospace": "Monoespaçado"
+            },
+            "fontSize": "Tamanho do tipo de letra",
+            "fontWeight": {
+                "title": "Espessura do tipo de letra",
+                "normal": "Normal",
+                "bold": "Negrito"
+            },
+            "hyphens": {
+                "title": "Hifenização",
+                "label": "Ativar hífenes"
+            },
+            "layout": {
+                "title": "Esquema",
+                "scrolled": "Com rolagem",
+                "paginated": "Paginado"
+            },
+            "letterSpacing": "Espaçamento entre letras",
+            "lineHeight": {
+                "title": "Altura da linha",
+                "default": "Predefinição",
+                "small": "Apertada",
+                "medium": "Equilibrada",
+                "large": "Solta"
+            },
+            "paragraphIndent": "Indentação do parágrafo",
+            "paragraphSpacing": "Espaçamento entre parágrafos",
+            "publisherStyles": {
+                "label": "Utilizar formatação original",
+                "title": "Estilos do editor"
+            },
+            "spacing": {
+                "title": "Espaçamento",
+                "presets": {
+                    "title": "Predefinições",
+                    "accessible": "Acessível",
+                    "balanced": "Equilibrado",
+                    "custom": "Personalizado",
+                    "default": "Predefinição",
+                    "loose": "Solto",
+                    "tight": "Apertado"
+                }
+            },
+            "text": "Texto",
+            "textAlign": {
+                "title": "Alinhamento do texto",
+                "default": "Padrão",
+                "left": "Esquerda",
+                "right": "Direita",
+                "justify": "Justificar"
+            },
+            "textNormalization": {
+                "title": "Normalização do texto",
+                "label": "Remover toda a formatação do texto"
+            },
+            "themes": {
+                "title": "Temas",
+                "auto": "Automático",
+                "dark": "Escuro",
+                "light": "Claro",
+                "paper": "Papel",
+                "sepia": "Sépia",
+                "contrast1": "Contraste 1",
+                "contrast2": "Contraste 2",
+                "contrast3": "Contraste 3"
+            },
+            "wordSpacing": "Espaçamento entre palavras",
+            "zoom": "Ampliação"
+        },
+        "tableOfContents": {
+            "title": "Índice",
+            "emptyState": {
+                "description": "O índice não foi fornecido para esta publicação.",
+                "title": "Sem índice"
+            }
         }
-      },
-      "fontFamily": {
-        "title": "Tipo de letra",
-        "publisher": "Fonte do editor",
-        "oldStyle": {
-          "compact": "Clássica",
-          "descriptive": "Serifa clássica"
-        },
-        "modern": {
-          "compact": "Moderna",
-          "descriptive": "Serifa moderna"
-        },
-        "sans": "Sem serifa",
-        "humanist": {
-          "compact": "Humanista",
-          "descriptive": "Humanista sem serifa"
-        },
-        "monospace": "Monoespaçado"
-      },
-      "fontSize": "Tamanho do tipo de letra",
-      "fontWeight": {
-        "title": "Espessura do tipo de letra",
-        "normal": "Normal",
-        "bold": "Negrito"
-      },
-      "hyphens": {
-        "title": "Hifenização",
-        "label": "Ativar hífenes"
-      },
-      "layout": {
-        "title": "Esquema",
-        "scrolled": "Com rolagem",
-        "paginated": "Paginado"
-      },
-      "letterSpacing": "Espaçamento entre letras",
-      "lineHeight": {
-        "title": "Altura da linha",
-        "default": "Predefinição",
-        "small": "Apertada",
-        "medium": "Equilibrada",
-        "large": "Solta"
-      },
-      "paragraphIndent": "Indentação do parágrafo",
-      "paragraphSpacing": "Espaçamento entre parágrafos",
-      "publisherStyles": {
-        "label": "Utilizar formatação original"
-      },
-      "spacing": {
-        "title": "Espaçamento",
-        "presets": {
-          "title": "Predefinições",
-          "accessible": "Acessível",
-          "balanced": "Equilibrado",
-          "custom": "Personalizado",
-          "default": "Predefinição",
-          "loose": "Solto",
-          "tight": "Apertado"
-        }
-      },
-      "text": "Texto",
-      "textAlign": {
-        "title": "Alinhamento do texto",
-        "default": "Padrão",
-        "left": "Esquerda",
-        "right": "Direita",
-        "justify": "Justificar"
-      },
-      "textNormalization": {
-        "title": "Normalização do texto",
-        "label": "Remover toda a formatação do texto"
-      },
-      "themes": {
-        "title": "Temas",
-        "auto": "Automático",
-        "dark": "Escuro",
-        "light": "Claro",
-        "paper": "Papel",
-        "sepia": "Sépia",
-        "contrast1": "Contraste 1",
-        "contrast2": "Contraste 2",
-        "contrast3": "Contraste 3"
-      },
-      "wordSpacing": "Espaçamento entre palavras",
-      "zoom": "Ampliação"
     },
-    "tableOfContents": {
-      "title": "Índice",
-      "emptyState": {
-        "description": "O índice não foi fornecido para esta publicação."
-      }
+    "common": {
+        "actions": {
+            "clear": "Limpar",
+            "close": "Fechar",
+            "decrease": "Reduzir",
+            "enable": "Ativar",
+            "exit": "Sair",
+            "increase": "Aumentar",
+            "reset": "Repor",
+            "search": "Pesquisar",
+            "toggle": "Alternar",
+            "sortBy": "Ordenar por",
+            "disable": "Desativar",
+            "expand": "Expandir",
+            "expandAll": "Expandir tudo",
+            "filter": "Filtro",
+            "hide": "Ocultar",
+            "hideAll": "Ocultar tudo",
+            "open": "Abrir",
+            "show": "Exibir",
+            "showAll": "Exibir tudo",
+            "cancel": "Cancelar",
+            "collapse": "Contrair",
+            "collapseAll": "Contrair todos"
+        }
     }
-  },
-  "common": {
-    "actions": {
-      "clear": "Limpar",
-      "close": "Fechar",
-      "decrease": "Reduzir",
-      "enable": "Ativar",
-      "exit": "Sair",
-      "increase": "Aumentar",
-      "reset": "Repor",
-      "search": "Pesquisar",
-      "toggle": "Alternar"
-    }
-  }
 }
