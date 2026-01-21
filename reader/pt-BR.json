@@ -32,7 +32,7 @@
                 "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
             },
             "pagesLeft": {
-                "one": "{{ count }}  página restante",
+                "one": "{{ count }} página restante",
                 "other": "{{ count }} páginas restantes"
             },
             "pagesLeftInChapter": {
@@ -50,6 +50,10 @@
             "positionsLeftInChapter": {
                 "one": "{{ count }} posição restante no capítulo",
                 "other": "{{ count }} posições restantes no capítulo"
+            },
+            "positionsLeftInPublication": {
+                "one": "{{ count }} posição restante na publicação",
+                "other": "{{ count }} posições restantes na publicação"
             }
         },
         "preferences": {
@@ -58,10 +62,12 @@
                 "title": "Colunas",
                 "auto": "Automático",
                 "single": {
-                    "compact": "1 col."
+                    "compact": "1 coluna",
+                    "descriptive": "Coluna única"
                 },
                 "dual": {
-                    "compact": "2 cols."
+                    "compact": "2 colunas",
+                    "descriptive": "Duas colunas"
                 }
             },
             "fontFamily": {
@@ -84,7 +90,9 @@
             },
             "fontSize": "Tamanho da fonte",
             "fontWeight": {
-                "title": "Peso da fonte"
+                "title": "Peso da fonte",
+                "normal": "Normal",
+                "bold": "Negrito"
             },
             "hyphens": {
                 "title": "Hifenização",
@@ -106,10 +114,20 @@
             "paragraphIndent": "Recuo de parágrafo",
             "paragraphSpacing": "Espaçamento entre parágrafos",
             "publisherStyles": {
-                "label": "Usar a formatação original"
+                "label": "Usar a formatação original",
+                "title": "Estilos do Editor"
             },
             "spacing": {
-                "title": "Espaçamento"
+                "title": "Espaçamento",
+                "presets": {
+                    "custom": "Personalizado",
+                    "default": "Padrão",
+                    "loose": "Larga",
+                    "tight": "Apertada",
+                    "title": "Predefinições",
+                    "accessible": "Acessível",
+                    "balanced": "Equilibrado"
+                }
             },
             "text": "Texto",
             "textAlign": {
@@ -140,7 +158,8 @@
         "tableOfContents": {
             "title": "Sumário",
             "emptyState": {
-                "description": "O sumário não foi fornecido para esta publicação."
+                "description": "O sumário não foi fornecido para esta publicação.",
+                "title": "Sem índice"
             }
         }
     },
@@ -153,7 +172,21 @@
             "exit": "Sair",
             "increase": "Aumentar",
             "search": "Pesquisar",
-            "toggle": "Alternar"
+            "toggle": "Alternar",
+            "cancel": "Cancelar",
+            "collapse": "Contrair",
+            "collapseAll": "Contrair todos",
+            "disable": "Desativar",
+            "expand": "Expandir",
+            "expandAll": "Expandir tudo",
+            "filter": "Filtro",
+            "hide": "Ocultar",
+            "hideAll": "Esconder tudo",
+            "open": "Abrir",
+            "reset": "Redefinir",
+            "show": "Mostrar",
+            "showAll": "Mostrar tudo",
+            "sortBy": "Ordenar por"
         }
     }
 }
