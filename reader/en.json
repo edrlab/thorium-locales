@@ -11,6 +11,10 @@
         "compact": "Next",
         "descriptive": "Next page"
       },
+      "goToNextSentence": {
+        "compact": "Next",
+        "descriptive": "Next sentence"
+      },
       "goToPosition": {
         "compact": "Go to…",
         "descriptive": "Go to position"
@@ -22,6 +26,10 @@
       "goToPreviousPage": {
         "compact": "Previous",
         "descriptive": "Previous page"
+      },
+      "goToPreviousSentence": {
+        "compact": "Previous",
+        "descriptive": "Previous sentence"
       }
     },
     "progression": {
@@ -58,6 +66,7 @@
     },
     "preferences": {
       "title": "Display Settings",
+      "brightness": "Brightness",
       "columns": {
         "title": "Columns",
         "auto": "Auto",
@@ -145,12 +154,53 @@
         "title": "Themes",
         "auto": "Auto",
         "dark": "Dark",
+        "gray": "Gray",
         "light": "Light",
         "paper": "Paper",
         "sepia": "Sepia",
         "contrast1": "Contrast 1",
         "contrast2": "Contrast 2",
         "contrast3": "Contrast 3"
+      },
+      "fit": {
+        "title": "Fit",
+        "auto": {
+          "compact": "Auto"
+        },
+        "page": {
+          "compact": "Page"
+        },
+        "width": {
+          "compact": "Width"
+        }
+      },
+      "spread": {
+        "title": "Spread",
+        "auto": {
+          "compact": "Auto"
+        },
+        "never": {
+          "compact": "Single page"
+        },
+        "always": {
+          "compact": "Dual page"
+        }
+      },
+      "offsetFirstPage": "Display first page on its own",
+      "readingDirection": {
+        "title": "Reading direction",
+        "default": {
+          "compact": "Default",
+          "descriptive": "Use original reading direction"
+        },
+        "ltr": {
+          "compact": "Right",
+          "descriptive": "Left to right"
+        },
+        "rtl": {
+          "compact": "Left",
+          "descriptive": "Right to left"
+        }
       },
       "wordSpacing": "Word spacing",
       "zoom": "Zoom"

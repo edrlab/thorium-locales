@@ -1,0 +1,229 @@
+{
+  "about": {
+    "title": "About",
+    "version": "Version {{ p1 }} ({{ p2 }})",
+    "copyright": "Copyright {{ p1 }} European Digital Reading Lab.\nAll rights reserved.",
+    "acknowledgments": {
+      "title": "Third-party software",
+      "actions": {
+        "openWebsite": {
+          "compact": "Website"
+        }
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "systemSettings": "System settings",
+    "theme": {
+      "title": "Theme",
+      "system": "System default",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "miniPlayer": {
+      "title": "Mini audio player",
+      "always": "Always displayed",
+      "whenPlaying": "Show when playing",
+      "hidden": "Hidden"
+    }
+  },
+  "home": {
+    "title": "Home"
+  },
+  "bookshelf": {
+    "title": "Bookshelf",
+    "sidebar": {
+      "section": {
+        "explore": "Explore"
+      }
+    },
+    "view": {
+      "title": "Display view",
+      "grid": "Grid",
+      "list": "List"
+    },
+    "filter": {
+      "all": "All",
+      "currentlyReading": "Currently reading",
+      "recentlyAdded": "Recently added",
+      "notStartedYet": "Not started yet",
+      "finished": "Finished",
+      "type": "Type",
+      "samples": "Samples"
+    },
+    "sort": {
+      "title": "Title",
+      "author": "Author",
+      "lastRead": "Last read",
+      "lastAdded": "Last added",
+      "finished": "Completion date"
+    },
+    "emptyState": {
+      "title": "No publications found",
+      "description": {
+        "bookshelf": "Your bookshelf is empty. Start by adding your first book, audiobook, or comic to begin reading.",
+        "filter": "No publications match this filter. Show your entire bookshelf to see all your titles.",
+        "kind": "No publications match the selected type. Try showing all types to see more from your bookshelf."
+      }
+    },
+    "actions": {
+      "filter": {
+        "compact": "Filter"
+      },
+      "sort": {
+        "compact": "Sort by"
+      }
+    }
+  },
+  "publication": {
+    "actions": {
+      "add": {
+        "compact": "Import"
+      },
+      "listen": {
+        "compact": "Listen"
+      },
+      "markAsFinished": {
+        "compact": "Mark as finished"
+      },
+      "markAsNotStarted": {
+        "compact": "Mark as not started"
+      },
+      "markAsUnfinished": {
+        "compact": "Mark as unfinished"
+      },
+      "read": {
+        "compact": "Read"
+      },
+      "remove": {
+        "compact": "Remove",
+        "descriptive": "Remove publication",
+        "confirmation": "Are you sure you want to remove \"{{ p1 }}\"? This action cannot be undone."
+      },
+      "rename": {
+        "compact": "Rename",
+        "descriptive": "Rename publication"
+      }
+    },
+    "labels": {
+      "sample": "Sample",
+      "unknownTitle": "Unknown title",
+      "emptyContributors": "None"
+    }
+  },
+  "lcp": {
+    "actions": {
+      "return": {
+        "compact": "Return",
+        "descriptive": "Return publication",
+        "confirmation": "Are you sure you want to return \"{{ p1 }}\"? This action cannot be undone."
+      },
+      "renew": {
+        "compact": "Renew",
+        "descriptive": "Renew loan"
+      }
+    },
+    "labels": {
+      "expired": "Expired",
+      "expiresIn": {
+        "minutes": {
+          "descriptive": {
+            "one": "Due in {{ count }} minute",
+            "other": "Due in {{ count }} minutes"
+          }
+        },
+        "hours": {
+          "descriptive": {
+            "one": "Due in {{ count }} hour",
+            "other": "Due in {{ count }} hours"
+          }
+        },
+        "days": {
+          "descriptive": {
+            "one": "Due in {{ count }} day",
+            "other": "Due in {{ count }} days"
+          }
+        },
+        "months": {
+          "descriptive": {
+            "one": "Due in {{ count }} month",
+            "other": "Due in {{ count }} months"
+          }
+        }
+      }
+    },
+    "errors": {
+      "missingPassphrase": "A passphrase is required to open this publication. Contact your license provider to get the passphrase.",
+      "invalidLicense": "We couldn't validate the license for this publication. Please contact your license provider for assistance.",
+      "statusCancelled": "You cancelled access to this publication on {{ p1 }}. Contact your license provider if you'd like to restore access.",
+      "statusReturned": "You returned this publication on {{ p1 }}. Contact your library to borrow it again.",
+      "statusExpiredStart": "This publication will be available on {{ p1 }}.",
+      "statusExpiredEnd": "Your loan for this publication expired on {{ p1 }}. Contact your library to borrow it again.",
+      "statusRevoked": {
+        "one": "Access to this publication was revoked by your provider on {{ p1 }}. It was accessed on {{ count }} device. Contact your provider for more information.",
+        "other": "Access to this publication was revoked by your provider on {{ p1 }}. It was accessed on {{ count }} devices. Contact your provider for more information."
+      },
+      "renewFailed": "Your publication could not be renewed. Contact your provider for assistance.",
+      "invalidRenewalPeriod": "This publication can't be renewed for the selected date. Please try a different date.",
+      "returnFailed": "Your publication could not be returned. Contact your provider for assistance.",
+      "alreadyReturnedOrExpired": "This publication has already been returned or has expired.",
+      "copyForbidden": "You've exceeded the maximum number of characters allowed for copying."
+    }
+  },
+  "intents": {
+    "openBookshelf": {
+      "title": "Open Bookshelf",
+      "description": "Opens the app to your bookshelf."
+    },
+    "openBook": {
+      "title": "Open Book"
+    }
+  },
+  "common": {
+    "actions": {
+      "cancel": "Cancel",
+      "close": "Close",
+      "collapse": "Collapse",
+      "collapseAll": "Collapse all",
+      "expand": "Expand",
+      "expandAll": "Expand all",
+      "search": "Search",
+      "showMoreOptions": "More options"
+    },
+    "error": {
+      "title": "Error",
+      "cancelled": "Operation cancelled.",
+      "unexpected": "Something went wrong. Please try again.",
+      "actions": {
+        "showDetails": {
+          "compact": "Details"
+        }
+      }
+    },
+    "file": {
+      "errors": {
+        "corrupted": "We couldn't open this content. The file might be corrupted or use a format we don't support. Please try with a different file.",
+        "forbidden": "Cannot open file. Access denied.",
+        "formatNotSupported": "Unsupported file type. Please try a different file.",
+        "insufficientSpace": "There's not enough disk space to download or import this file. Please free up some space and try again.",
+        "protocolNotSupported": "This publication can't be opened from its current location. Try downloading it first or contact the book store for support.",
+        "notFound": "Couldn't open file. The file was not found."
+      }
+    },
+    "http": {
+      "errors": {
+        "default": "Something went wrong. Please check your internet connection or try again later.",
+        "forbidden": "You don't have permission to access this content.",
+        "offline": "You're offline. Check your internet connection.",
+        "malformedResponse": "Cannot load this content. There's a problem with the server. Please try again later.",
+        "methodNotSupported": "The server doesn't support the required loading method.",
+        "notFound": "Content not found.",
+        "security": "Secure connection failed. Please try again later.",
+        "timeout": "Connection timed out. Please try again.",
+        "unreachable": "Could not connect to the server.",
+        "unauthorized": "You need to be signed in to access this content."
+      }
+    }
+  }
+}
