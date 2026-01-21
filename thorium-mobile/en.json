@@ -1,8 +1,8 @@
 {
   "about": {
     "title": "About",
-    "version": "Version {{ p1 }} ({{ p2 }})",
-    "copyright": "Copyright {{ p1 }} European Digital Reading Lab.\nAll rights reserved.",
+    "version": "Version {{ version }} ({{ build }})",
+    "copyright": "Copyright {{ year }} European Digital Reading Lab.\nAll rights reserved.",
     "acknowledgments": {
       "title": "Third-party software",
       "actions": {
@@ -99,7 +99,7 @@
       "remove": {
         "compact": "Remove",
         "descriptive": "Remove publication",
-        "confirmation": "Are you sure you want to remove \"{{ p1 }}\"? This action cannot be undone."
+        "confirmation": "Are you sure you want to remove \"{{ title }}\"? This action cannot be undone."
       },
       "rename": {
         "compact": "Rename",
