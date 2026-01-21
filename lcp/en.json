@@ -1,0 +1,61 @@
+{
+  "lcp": {
+    "actions": {
+      "return": {
+        "compact": "Return",
+        "descriptive": "Return publication",
+        "confirmation": "Are you sure you want to return \"{{ p1 }}\"? This action cannot be undone."
+      },
+      "renew": {
+        "compact": "Renew",
+        "descriptive": "Renew loan"
+      }
+    },
+    "labels": {
+      "expired": "Expired",
+      "expiresIn": {
+        "minutes": {
+          "descriptive": {
+            "one": "Due in {{ count }} minute",
+            "other": "Due in {{ count }} minutes"
+          }
+        },
+        "hours": {
+          "descriptive": {
+            "one": "Due in {{ count }} hour",
+            "other": "Due in {{ count }} hours"
+          }
+        },
+        "days": {
+          "descriptive": {
+            "one": "Due in {{ count }} day",
+            "other": "Due in {{ count }} days"
+          }
+        },
+        "months": {
+          "descriptive": {
+            "one": "Due in {{ count }} month",
+            "other": "Due in {{ count }} months"
+          }
+        }
+      }
+    },
+    "errors": {
+      "missingPassphrase": "A passphrase is required to open this publication. Contact your license provider to get the passphrase.",
+      "invalidLicense": "We couldn't validate the license for this publication. Please contact your license provider for assistance.",
+      "statusCancelled": "You cancelled access to this publication on {{ p1 }}. Contact your license provider if you'd like to restore access.",
+      "statusReturned": "You returned this publication on {{ p1 }}. Contact your library to borrow it again.",
+      "statusExpiredStart": "This publication will be available on {{ p1 }}.",
+      "statusExpiredEnd": "Your loan for this publication expired on {{ p1 }}. Contact your library to borrow it again.",
+      "statusRevoked": {
+        "one": "Access to this publication was revoked by your provider on {{ p1 }}. It was accessed on {{ count }} device. Contact your provider for more information.",
+        "other": "Access to this publication was revoked by your provider on {{ p1 }}. It was accessed on {{ count }} devices. Contact your provider for more information."
+      },
+      "renewFailed": "Your publication could not be renewed. Contact your provider for assistance.",
+      "invalidRenewalPeriod": "This publication can't be renewed for the selected date. Please try a different date.",
+      "returnFailed": "Your publication could not be returned. Contact your provider for assistance.",
+      "alreadyReturnedOrExpired": "This publication has already been returned or has expired.",
+      "copyForbidden": "You've exceeded the maximum number of characters allowed for copying."
+    }
+  }
+}
