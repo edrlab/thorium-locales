@@ -103,11 +103,11 @@
             "zoom": "பெரிதாக்கு"
         },
         "progression": {
-            "percentage": "{{ p1 }}%",
-            "range": "{{ p1 }}–{{ p2 }}",
+            "percentage": "{{ percentage }}%",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} இன் {{ p2 }}",
-                "descriptive": "{{ p1 }} இன் {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} இன் {{ y }}",
+                "descriptive": "{{ x }} இன் {{ y }} ({{ z }})"
             }
         },
         "tableOfContents": {

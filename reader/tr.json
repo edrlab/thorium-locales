@@ -56,7 +56,7 @@
                 "one": "Eserde, {{ count }} sayfa kaldı",
                 "other": "Eserde, {{ count }} sayfa kaldı"
             },
-            "percentage": "%{{ p1 }}",
+            "percentage": "%{{ percentage }}",
             "positionsLeft": {
                 "one": "Geriye {{ count }} kaldı",
                 "other": "Geriye {{ count }} kaldı"
@@ -69,10 +69,10 @@
                 "one": "Eserde, geriye {{ count }} kaldı",
                 "other": "Eserde, geriye {{ count }} kaldı"
             },
-            "range": "{{ p1 }}–{{ p2 }}",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} / {{ p2 }}",
-                "descriptive": "{{ p1 }} / {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} / {{ y }}",
+                "descriptive": "{{ x }} / {{ y }} ({{ z }})"
             }
         }
     }

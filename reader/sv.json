@@ -53,11 +53,11 @@
                 "auto": "Auto",
                 "dual": {
                     "compact": "2 kol",
-                    "descriptive": "2 kolumner"
+                    "descriptive": "2 kolumner"
                 },
                 "single": {
                     "compact": "1 kol",
-                    "descriptive": "1 kolumn"
+                    "descriptive": "1 kolumn"
                 },
                 "title": "Kolumner"
             },
@@ -160,7 +160,7 @@
                 "one": "{{ count }} sida kvar i publikationen",
                 "other": "{{ count }} sidor kvar i publikationen"
             },
-            "percentage": "{{ p1 }}%",
+            "percentage": "{{ percentage }}%",
             "positionsLeft": {
                 "one": "{{ count }} position kvar",
                 "other": "{{ count }} positioner kvar"
@@ -173,10 +173,10 @@
                 "one": "{{ count }} position kvar i publikation",
                 "other": "{{ count }} kvar i boken"
             },
-            "range": "{{ p1 }}–{{ p2 }}",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} av {{ p2 }}",
-                "descriptive": "{{ p1 }} av {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} av {{ y }}",
+                "descriptive": "{{ x }} av {{ y }} ({{ z }})"
             }
         },
         "tableOfContents": {

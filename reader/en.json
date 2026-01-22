@@ -77,7 +77,7 @@
                     "compact": "Old style",
                     "descriptive": "Old style serif"
                 },
-                "publisher": "Publisher’s font",
+                "publisher": "Publisher's font",
                 "sans": "Sans-serif",
                 "title": "Font family"
             },
@@ -162,7 +162,7 @@
                 "one": "{{ count }} page left in publication",
                 "other": "{{ count }} pages left in publication"
             },
-            "percentage": "{{ p1 }}%",
+            "percentage": "{{ percentage }}%",
             "positionsLeft": {
                 "one": "{{ count }} position left",
                 "other": "{{ count }} positions left"
@@ -175,10 +175,10 @@
                 "one": "{{ count }} position left in publication",
                 "other": "{{ count }} positions left in publication"
             },
-            "range": "{{ p1 }}–{{ p2 }}",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} of {{ p2 }}",
-                "descriptive": "{{ p1 }} of {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} of {{ y }}",
+                "descriptive": "{{ x }} of {{ y }} ({{ z }})"
             }
         },
         "tableOfContents": {

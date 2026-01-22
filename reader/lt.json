@@ -162,7 +162,7 @@
                 "one": "Leidinyje liko {{ count }} puslapis",
                 "other": "Leidinyje liko {{ count }} puslapiai (-ių)"
             },
-            "percentage": "{{ p1 }}%",
+            "percentage": "{{ percentage }}%",
             "positionsLeft": {
                 "one": "Liko {{ count }} pozicija",
                 "other": "{{ count }} positions left"
@@ -175,10 +175,10 @@
                 "one": "Leidinyje liko {{ count }} pozicija",
                 "other": "Leidinyje liko {{ count }} pozicijos (-ų)"
             },
-            "range": "{{ p1 }}–{{ p2 }}",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} iš {{ p2 }}",
-                "descriptive": "{{ p1 }} iš {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} iš {{ y }}",
+                "descriptive": "{{ x }} iš {{ y }} ({{ z }})"
             }
         },
         "tableOfContents": {

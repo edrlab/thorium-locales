@@ -117,12 +117,12 @@
                 "sepia": "Sépia",
                 "title": "Thèmes"
             },
-            "title": "Préférences d’affichage",
+            "title": "Préférences d'affichage",
             "wordSpacing": "Espacement des mots",
             "zoom": "Zoom"
         },
         "progression": {
-            "percentage": "{{ p1 }}%",
+            "percentage": "{{ percentage }}%",
             "positionsLeft": {
                 "one": "{{ count }} position restante",
                 "other": "{{ count }} positions restantes"
@@ -135,15 +135,15 @@
                 "one": "{{ count }} position restante dans la publication",
                 "other": "{{ count }} positions restantes dans la publication"
             },
-            "range": "{{ p1 }}–{{ p2 }}",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} de {{ p2 }}",
-                "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} de {{ y }}",
+                "descriptive": "{{ x }} de {{ y }} ({{ z }})"
             }
         },
         "tableOfContents": {
             "emptyState": {
-                "description": "La table des matières n’est pas disponible pour cette publication.",
+                "description": "La table des matières n'est pas disponible pour cette publication.",
                 "title": "Aucune table des matières"
             },
             "title": "Table des matières"

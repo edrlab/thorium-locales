@@ -105,11 +105,11 @@
             "zoom": "Powiększenie"
         },
         "progression": {
-            "percentage": "{{ p1 }}%",
-            "range": "{{ p1 }}–{{ p2 }}",
+            "percentage": "{{ percentage }}%",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} z {{ p2 }}",
-                "descriptive": "{{ p1 }} z {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} z {{ y }}",
+                "descriptive": "{{ x }} z {{ y }} ({{ z }})"
             }
         },
         "tableOfContents": {

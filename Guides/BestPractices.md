@@ -27,13 +27,15 @@ In particular, the following i18next features are excluded:
 
 ## Naming Placeholder Variables
 
-- It is expected that placeholder variables use pattern `p1`, `p2`, etc., which corresponds to the position of the placeholder in the string.
-- The only exception to this rule is the `count` placeholder, which is used for plurals, as it is required by the i18next format.
+- Naming things is hard, so do not overcomplicate placeholder names; you can add descriptions and screenshots in Weblate to help translators understand the context.
+- Placeholder names should be short and descriptive and stay consistent with their key.
+- The only exception to this rule is the `count` placeholder, which is used for plurals and is required by the i18next format.
+- A named placeholder should **never** be updated unless the string is being completely rewritten and all the translations must be dropped.
 
 Example:
 
 ```json
-"xOfY": "{{ p1 }} of {{ p2 }}",
+"xOfY": "{{ x }} of {{ y }}",
 "positionsLeft": {
   "one": "{{ count }} position left",
   "other": "{{ count }} positions left"
@@ -47,7 +49,7 @@ Use interpolation for dynamic data (names, numbers, dates), but [do not use it t
 Example:
 
 **DO:** `{{ count }} positions left`
-**DON’T:** `Next {{ p1 }}` (`page`, `chapter`, `resource`, etc.)
+**DON’T:** `Next {{ item }}` (`page`, `chapter`, `resource`, etc.)
 
 ## String Variants
 

@@ -162,7 +162,7 @@
                 "one": "{{ count }} página restante na publicação",
                 "other": "{{ count }} páginas restantes na publicação"
             },
-            "percentage": "{{ p1 }}%",
+            "percentage": "{{ percentage }}%",
             "positionsLeft": {
                 "one": "{{ count }} posição restante",
                 "other": "{{ count }} posições restantes"
@@ -175,10 +175,10 @@
                 "one": "{{ count }} posição restante na publicação",
                 "other": "{{ count }} posições restantes na publicação"
             },
-            "range": "{{ p1 }}–{{ p2 }}",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} de {{ p2 }}",
-                "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} de {{ y }}",
+                "descriptive": "{{ x }} de {{ y }} ({{ z }})"
             }
         },
         "tableOfContents": {
