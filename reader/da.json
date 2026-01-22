@@ -9,7 +9,7 @@
       }
     },
     "progression": {
-      "percentage": "{{ p1 }}%",
+      "percentage": "{{ percentage }}%",
       "positionsLeft": {
         "other": "{{ count }} tilbage"
       },
@@ -19,10 +19,10 @@
       "positionsLeftInPublication": {
         "other": "{{ count }} tilbage i bogen"
       },
-      "range": "{{ p1 }}–{{ p2 }}",
+      "range": "{{ start }}–{{ end }}",
       "xOfY": {
-        "compact": "{{ p1 }} af {{ p2 }}",
-        "descriptive": "{{ p1 }} af {{ p2 }} ({{ p3 }})"
+        "compact": "{{ x }} af {{ y }}",
+        "descriptive": "{{ x }} af {{ y }} ({{ z }})"
       }
     },
     "preferences": {

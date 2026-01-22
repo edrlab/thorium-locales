@@ -9,11 +9,11 @@
       }
     },
     "progression": {
-      "percentage": "{{ p1 }}%",
-      "range": "{{ p1 }}–{{ p2 }}",
+      "percentage": "{{ percentage }}%",
+      "range": "{{ start }}–{{ end }}",
       "xOfY": {
-        "compact": "{{ p1 }} de {{ p2 }}",
-        "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
+        "compact": "{{ x }} de {{ y }}",
+        "descriptive": "{{ x }} de {{ y }} ({{ z }})"
       }
     },
     "preferences": {

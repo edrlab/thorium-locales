@@ -25,7 +25,7 @@
             }
         },
         "progression": {
-            "percentage": "{{ p1 }}%",
+            "percentage": "{{ percentage }}%",
             "positionsLeft": {
                 "other": "{{ count }} positions left",
                 "one": "Liko {{ count }} pozicija"
@@ -38,10 +38,10 @@
                 "other": "Leidinyje liko {{ count }} pozicijos (-ų)",
                 "one": "Leidinyje liko {{ count }} pozicija"
             },
-            "range": "{{ p1 }}–{{ p2 }}",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} iš {{ p2 }}",
-                "descriptive": "{{ p1 }} iš {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} iš {{ y }}",
+                "descriptive": "{{ x }} iš {{ y }} ({{ z }})"
             },
             "pagesLeftInPublication": {
                 "one": "Leidinyje liko {{ count }} puslapis",

@@ -9,7 +9,7 @@
       }
     },
     "progression": {
-      "percentage": "{{ p1 }}%",
+      "percentage": "{{ percentage }}%",
       "positionsLeft": {
         "other": "{{ count }} restantes"
       },
@@ -19,10 +19,10 @@
       "positionsLeftInPublication": {
         "other": "{{ count }} restantes em a publicação"
       },
-      "range": "{{ p1 }}–{{ p2 }}",
+      "range": "{{ start }}–{{ end }}",
       "xOfY": {
-        "compact": "{{ p1 }} de {{ p2 }}",
-        "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
+        "compact": "{{ x }} de {{ y }}",
+        "descriptive": "{{ x }} de {{ y }} ({{ z }})"
       }
     },
     "preferences": {

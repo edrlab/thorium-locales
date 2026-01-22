@@ -9,17 +9,17 @@
       }
     },
     "progression": {
-      "percentage": "{{ p1 }}%",
+      "percentage": "{{ percentage }}%",
       "positionsLeftInChapter": {
         "other": "{{ count }} jäljellä kohdassa nykyinen luku"
       },
       "positionsLeftInPublication": {
         "other": "{{ count }} jäljellä kohdassa julkaisu"
       },
-      "range": "{{ p1 }}–{{ p2 }}",
+      "range": "{{ start }}–{{ end }}",
       "xOfY": {
-        "compact": "{{ p1 }} / {{ p2 }}",
-        "descriptive": "{{ p1 }} / {{ p2 }} ({{ p3 }})"
+        "compact": "{{ x }} / {{ y }}",
+        "descriptive": "{{ x }} / {{ y }} ({{ z }})"
       }
     },
     "preferences": {

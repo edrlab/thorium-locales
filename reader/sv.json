@@ -25,7 +25,7 @@
             }
         },
         "progression": {
-            "percentage": "{{ p1 }}%",
+            "percentage": "{{ percentage }}%",
             "positionsLeft": {
                 "other": "{{ count }} positioner kvar",
                 "one": "{{ count }} position kvar"
@@ -38,10 +38,10 @@
                 "other": "{{ count }} kvar i boken",
                 "one": "{{ count }} position kvar i publikation"
             },
-            "range": "{{ p1 }}–{{ p2 }}",
+            "range": "{{ start }}–{{ end }}",
             "xOfY": {
-                "compact": "{{ p1 }} av {{ p2 }}",
-                "descriptive": "{{ p1 }} av {{ p2 }} ({{ p3 }})"
+                "compact": "{{ x }} av {{ y }}",
+                "descriptive": "{{ x }} av {{ y }} ({{ z }})"
             },
             "pagesLeft": {
                 "one": "{{ count }} sida kvar",
