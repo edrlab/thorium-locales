@@ -1,0 +1,12 @@
+{
+    "name": "thorium-locales",
+    "private": true,
+    "scripts": {
+        "format": "prettier --write \"**/*.json\"",
+        "format:check": "prettier --check \"**/*.json\""
+    },
+    "devDependencies": {
+        "prettier": "^3.4.2",
+        "prettier-plugin-sort-json": "^4.1.1"
+    }
+}

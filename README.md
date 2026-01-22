@@ -11,3 +11,28 @@ This repository is meant to host these locales, made available to our translator
 ## Best Practices
 
 A document listing best practices for translators and developers can be found [in guides](Guides/BestPractices.md).
+
+## Formatting
+
+All JSON locale files are formatted using [Prettier](https://prettier.io/) with alphabetically sorted keys. This ensures consistent formatting and reduces merge conflicts.
+
+### Setup
+
+```bash
+npm install
+```
+
+### Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm run format` | Format all JSON files |
+| `npm run format:check` | Check if files are properly formatted (used in CI) |
+
+### Formatting Rules
+
+- Keys are sorted alphabetically
+- 4-space indentation
+
+> [!NOTE]
+> The CI will fail if JSON files are not properly formatted. Run `npm run format` before committing.

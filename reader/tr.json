@@ -26,22 +26,22 @@
         },
         "preferences": {
             "columns": {
-                "dual": {
-                    "descriptive": "İki sütun",
-                    "compact": "2 sütun"
-                },
-                "title": "Sütunlar",
                 "auto": "Otomatik",
+                "dual": {
+                    "compact": "2 sütun",
+                    "descriptive": "İki sütun"
+                },
                 "single": {
                     "compact": "1 sütun",
                     "descriptive": "Tek sütun"
-                }
+                },
+                "title": "Sütunlar"
             },
-            "title": "Görüntüleme Ayarları",
             "fontFamily": {
-                "title": "Yazı biçimi ailesi",
-                "publisher": "Yayımcının yazı biçimi"
-            }
+                "publisher": "Yayımcının yazı biçimi",
+                "title": "Yazı biçimi ailesi"
+            },
+            "title": "Görüntüleme Ayarları"
         },
         "progression": {
             "pagesLeft": {
