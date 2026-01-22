@@ -12,23 +12,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate JSON files
-        run: |
-          set -o pipefail
-          echo "Validating JSON files..."
-          errors=0
-          while IFS= read -r -d '' file; do
-            if ! python3 -m json.tool "$file" > /dev/null 2>&1; then
-              echo "❌ Invalid JSON: $file"
-              python3 -m json.tool "$file" 2>&1 || true
-              errors=$((errors + 1))
-            else
-              echo "✓ $file"
-            fi
-          done < <(find . -path ./.git -prune -o -path ./node_modules -prune -o -name "*.json" -type f -print0)
-          if [ "$errors" -gt 0 ]; then
-            echo ""
-            echo "Found $errors invalid JSON file(s)."
-            exit 1
-          fi
-          echo "All JSON files are valid."
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check JSON formatting
+        run: npm run format:check
