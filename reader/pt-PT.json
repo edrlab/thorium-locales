@@ -1,14 +1,27 @@
 {
     "common": {
         "actions": {
+            "cancel": "Cancelar",
             "clear": "Limpar",
             "close": "Fechar",
+            "collapse": "Contrair",
+            "collapseAll": "Contrair todos",
             "decrease": "Reduzir",
+            "disable": "Desativar",
             "enable": "Ativar",
             "exit": "Sair",
+            "expand": "Expandir",
+            "expandAll": "Expandir tudo",
+            "filter": "Filtro",
+            "hide": "Ocultar",
+            "hideAll": "Ocultar tudo",
             "increase": "Aumentar",
+            "open": "Abrir",
             "reset": "Repor",
             "search": "Pesquisar",
+            "show": "Exibir",
+            "showAll": "Exibir tudo",
+            "sortBy": "Ordenar por",
             "toggle": "Alternar"
         }
     },
@@ -16,19 +29,37 @@
         "actions": {
             "goBackward": "Recuar",
             "goForward": "Avançar",
+            "goToNextChapter": {
+                "compact": "Seguinte",
+                "descriptive": "Capítulo seguinte"
+            },
+            "goToNextPage": {
+                "compact": "Seguinte",
+                "descriptive": "Página seguinte"
+            },
             "goToPosition": {
                 "compact": "Saltar para…",
                 "descriptive": "Saltar para a posição"
+            },
+            "goToPreviousChapter": {
+                "compact": "Anterior",
+                "descriptive": "Capítulo anterior"
+            },
+            "goToPreviousPage": {
+                "compact": "Anterior",
+                "descriptive": "Página anterior"
             }
         },
         "preferences": {
             "columns": {
                 "auto": "Auto",
                 "dual": {
-                    "compact": "2 col."
+                    "compact": "2 cols.",
+                    "descriptive": "Duas colunas"
                 },
                 "single": {
-                    "compact": "1 col."
+                    "compact": "1 col.",
+                    "descriptive": "Uma coluna"
                 },
                 "title": "Colunas"
             },
@@ -76,7 +107,8 @@
             "paragraphIndent": "Indentação do parágrafo",
             "paragraphSpacing": "Espaçamento entre parágrafos",
             "publisherStyles": {
-                "label": "Utilizar formatação original"
+                "label": "Utilizar formatação original",
+                "title": "Estilos do editor"
             },
             "spacing": {
                 "presets": {
@@ -118,15 +150,30 @@
             "zoom": "Ampliação"
         },
         "progression": {
+            "pagesLeft": {
+                "one": "{{ count }} página restante",
+                "other": "{{ count }} páginas restantes"
+            },
+            "pagesLeftInChapter": {
+                "one": "{{ count }} página restante no capítulo",
+                "other": "{{ count }} páginas restantes no capítulo"
+            },
+            "pagesLeftInPublication": {
+                "one": "{{ count }} página restante na publicação",
+                "other": "{{ count }} páginas restantes na publicação"
+            },
             "percentage": "{{ p1 }}%",
             "positionsLeft": {
-                "other": "{{ count }} restantes"
+                "one": "{{ count }} posição restante",
+                "other": "{{ count }} posições restantes"
             },
             "positionsLeftInChapter": {
-                "other": "{{ count }} restantes em capítulo atual"
+                "one": "{{ count }} posição restante no capítulo",
+                "other": "{{ count }} posições restantes no capítulo"
             },
             "positionsLeftInPublication": {
-                "other": "{{ count }} restantes em a publicação"
+                "one": "{{ count }} posição restante na publicação",
+                "other": "{{ count }} posições restantes na publicação"
             },
             "range": "{{ p1 }}–{{ p2 }}",
             "xOfY": {
@@ -136,7 +183,8 @@
         },
         "tableOfContents": {
             "emptyState": {
-                "description": "O índice não foi fornecido para esta publicação."
+                "description": "O índice não foi fornecido para esta publicação.",
+                "title": "Sem índice"
             },
             "title": "Índice"
         }
