@@ -1,142 +1,44 @@
 {
     "publication": {
         "metadata": {
-            "title": "العنوان",
-            "subtitle": "عنوان فرعي",
-            "identifier": {
-                "one": "رمز تعريفي",
-                "other": "رموز تعريفية"
-            },
-            "altIdentifier": {
-                "one": "رمز تعريفي بديل",
-                "other": "رموز تعريفية بديلة"
-            },
-            "published": "تاريخ النشر",
-            "modified": "تاريخ التعديل",
-            "language": {
-                "one": "اللغة",
-                "other": "اللغات"
-            },
-            "author": {
-                "one": "مؤلف",
-                "other": "مؤلفون"
-            },
-            "translator": {
-                "one": "مترجم",
-                "other": "مترجمون"
-            },
-            "editor": {
-                "one": "محرر",
-                "other": "محررون"
-            },
-            "artist": {
-                "one": "فنان",
-                "other": "فنانون"
-            },
-            "illustrator": {
-                "one": "رسًام",
-                "other": "رسامون"
-            },
-            "letterer": {
-                "one": "خطّاط",
-                "other": "خطّاطون"
-            },
-            "penciler": {
-                "one": "رسّام أولي",
-                "other": "رسّامون أوّليون"
-            },
-            "colorist": {
-                "one": "ملوّن الألوان",
-                "other": "ملوّنو الألوان"
-            },
-            "inker": {
-                "one": "مُحَبِّر",
-                "other": "مُحَبِّرون"
-            },
-            "narrator": {
-                "one": "قارئ صوتي",
-                "other": "قرّاء صوتيون"
-            },
-            "contributor": {
-                "one": "مساهم",
-                "other": "مساهمون"
-            },
-            "publisher": {
-                "one": "ناشر",
-                "other": "ناشرون"
-            },
-            "imprint": {
-                "one": "العلامة التجارية للنشر",
-                "other": "العلامات التجارية للنشر"
-            },
-            "subject": {
-                "one": "موضوع",
-                "other": "مواضيع"
-            },
-            "description": "وصف",
-            "duration": "مدة",
-            "numberOfPages": "عدد الصفحات في النسخة المطبوعة",
-            "collection": {
-                "one": "سلسلة تحريرية",
-                "other": "سلاسل تحريرية"
-            },
-            "series": {
-                "one": "سلسلة",
-                "other": "سلاسل"
-            },
             "accessibility": {
                 "display-guide": {
-                    "ways-of-reading": {
-                        "title": "طرق القراءة",
-                        "nonvisual-reading": {
-                            "alt-text": {
-                                "compact": "يحتوي على نص بديل",
-                                "descriptive": "يحتوي على أوصاف نصية بديلة للصور"
-                            },
-                            "no-metadata": "لا تتوفر معلومات عن القراءة غير البصرية",
-                            "none": {
-                                "compact": "غير قابل للقراءة بصوتٍ عالٍ أو بطريقة برايل الديناميكية",
-                                "descriptive": "المحتوى غير قابل للقراءة بصوتٍ عالٍ أو بطريقة برايل الديناميكية"
-                            },
-                            "not-fully": {
-                                "compact": "غير قابل للقراءة بالكامل بصوتٍ عالٍ أو بطريقة برايل الديناميكية",
-                                "descriptive": "لن يكون كل المحتوى قابلًا للقراءة بصوتٍ عالٍ أو بطريقة برايل الديناميكية"
-                            },
-                            "readable": {
-                                "compact": "قابل للقراءة بصوتٍ عالٍ أو بطريقة برايل الديناميكية",
-                                "descriptive": "يمكن قراءة كل المحتوى بصوتٍ عالٍ أو بطريقة برايل الديناميكية"
-                            }
+                    "accessibility-summary": {
+                        "no-metadata": "لا تتوفر أي معلومات",
+                        "publisher-contact": "لمزيد من المعلومات حول إمكانية الوصول إلى هذا المنتج، يُرجى التواصل مع الناشر: ",
+                        "title": "ملخص إمكانية الوصول"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "أدوار ARIA مدرَجة",
+                            "descriptive": "يتم تعزيز المحتوى باستخدام أدوار ARIA لتحسين التنظيم وتيسير التنقّل"
                         },
-                        "prerecorded-audio": {
-                            "complementary": {
-                                "compact": "مقاطع الصوت المسجّلة مسبقًا",
-                                "descriptive": "مقاطع الصوت المسجّلة مسبقًا مدمجة في المحتوى"
-                            },
-                            "no-metadata": "لا توجد معلومات عن الصوت المسجّل مسبقًا",
-                            "only": {
-                                "compact": "الصوت المسجّل مسبقًا فقط",
-                                "descriptive": "كتاب صوتي بدون بديل نصي"
-                            },
-                            "synchronized": {
-                                "compact": "صوت مسجّل مسبقًا متزامن مع النص",
-                                "descriptive": "كل المحتوى متوفر كصوت مسجّل مسبقًا متزامن مع النص"
-                            }
+                        "audio-descriptions": "الوصف الصوتي",
+                        "braille": "برايل",
+                        "color-not-sole-means-of-conveying-information": "اللون ليس الوسيلة الوحيدة لنقل المعلومات",
+                        "dyslexia-readability": "سهولة القراءة لذوي عُسر القراءة",
+                        "full-ruby-annotations": "شروح روبي كاملة",
+                        "high-contrast-between-foreground-and-background-audio": "تباين عالٍ بين الصوت الرئيسي وصوت الخلفية",
+                        "high-contrast-between-text-and-background": "تباين عالٍ بين النص والخلفية",
+                        "large-print": "خط كبير",
+                        "page-breaks": {
+                            "compact": "فواصل الصفحات متضمَّنة",
+                            "descriptive": "فواصل الصفحات متضمَّنة من المصدر المطبوع الأصلي"
                         },
-                        "visual-adjustments": {
-                            "modifiable": {
-                                "compact": "يمكن تعديل المظهر",
-                                "descriptive": "يمكن تعديل مظهر النص وتخطيط الصفحة وفقاً لإمكانات نظام القراءة (اسم الخط وحجمه، والمسافات بين الفقرات والجمل والكلمات والأحرف، بالإضافة إلى لون الخلفية والنص)"
-                            },
-                            "unknown": "لا توجد معلومات عن إمكانية تعديل المظهر",
-                            "unmodifiable": {
-                                "compact": "لا يمكن تعديل المظهر",
-                                "descriptive": "لا يمكن تعديل مظهر النص وتخطيط الصفحات لأن تجربة القراءة قريبة من النسخة المطبوعة، ولكن تطبيقات القراءة ما زالت تتيح خيارات التكبير"
-                            }
-                        }
+                        "ruby-annotations": "بعض شروح الروبي",
+                        "sign-language": "لغة الإشارة",
+                        "tactile-graphics": {
+                            "compact": "الرسوم اللمسية مدرجة",
+                            "descriptive": "تم دمج الرسوم اللمسية لتيسير الوصول إلى العناصر البصرية للأشخاص المكفوفين"
+                        },
+                        "tactile-objects": "مجسمات لمسية ثلاثية الأبعاد",
+                        "text-to-speech-hinting": "إرشادات تحويل النص إلى كلام (TTS)متوفرة",
+                        "title": "معلومات إضافية عن إمكانية الوصول",
+                        "ultra-high-contrast-between-text-and-background": "تباين عالٍ جدًا بين النص والخلفية",
+                        "visible-page-numbering": "ترقيم صفحات مرئي",
+                        "without-background-sounds": "من دون أصوات في خلفية"
                     },
                     "conformance": {
-                        "title": "المطابقة",
-                        "details-title": "معلومات تفصيلية عن مدى المطابقة",
                         "a": {
                             "compact": "هذا المنشور يفي بالمعايير الدنيا لإمكانية الوصول",
                             "descriptive": "يحتوي هذا المنشور على بيان مطابقة يفيد بأنه يفي بمعيار إمكانية الوصول في EPUB وبمستوى A من معيار WCAG 2"
@@ -149,8 +51,6 @@
                             "compact": "هذا المنشور يفوق المعايير المقبولة لإمكانية الوصول",
                             "descriptive": "يحتوي هذا المنشور على بيان مطابقة يفيد بأنه يفي بمعيار إمكانية الوصول في EPUB وبمستوى AAA من معيار WCAG 2"
                         },
-                        "no": "لا تتوفر أي معلومات",
-                        "unknown-standard": "لا يمكن التأكد من مدى مطابقة هذا المنشور للمعايير المقبولة لإمكانية الوصول",
                         "certifier": "تم اعتماد هذا المنشور من قبل ",
                         "certifier-credentials": "بيانات اعتماد جهة التصديق ",
                         "details": {
@@ -174,61 +74,13 @@
                                 "compact": "WCAG 2.2",
                                 "descriptive": "مبادئ النفاذ إلى محتوى الويب (WCAG) 2.2"
                             }
-                        }
-                    },
-                    "navigation": {
-                        "title": "التنقل",
-                        "index": {
-                            "compact": "كشاف",
-                            "descriptive": "كشاف يحتوي على روابط إلى الإدخالات المشار إليها"
                         },
-                        "no-metadata": "لا تتوفر أي معلومات",
-                        "page-navigation": {
-                            "compact": "الانتقال إلى صفحة",
-                            "descriptive": "قائمة الصفحات للانتقال إلى صفحات من النسخة المطبوعة الأصلية"
-                        },
-                        "structural": {
-                            "compact": "العناوين",
-                            "descriptive": "عناصر مثل العناوين والجداول وغيرها للتنقل المنظّم"
-                        },
-                        "toc": {
-                            "compact": "جدول المحتويات",
-                            "descriptive": "جدول المحتويات لكل فصول النص عبر روابط"
-                        }
-                    },
-                    "rich-content": {
-                        "title": "محتوى غني",
-                        "accessible-chemistry-as-latex": {
-                            "compact": "الصيغ الكيميائية بصيغة LaTeX",
-                            "descriptive": "الصيغ الكيميائية بشكل ميسر (LaTeX)"
-                        },
-                        "accessible-chemistry-as-mathml": {
-                            "compact": "الصيغ الكيميائية بصيغة MathML",
-                            "descriptive": "الصيغ الكيميائية بشكل ميسر (MathML)"
-                        },
-                        "accessible-math-as-latex": {
-                            "compact": "الرياضيات بصيغة LaTeX",
-                            "descriptive": "الصيغ الرياضية بشكل ميسر (LaTeX)"
-                        },
-                        "math-as-mathml": {
-                            "compact": "الرياضيات بصيغة MathML",
-                            "descriptive": "الصيغ الرياضية بشكل ميسر(MathML)"
-                        },
-                        "accessible-math-described": "تتوفر أوصاف نصية للصيغ الرياضية",
-                        "closed-captions": {
-                            "compact": "تحتوي الفيديوهات على شروح مغلقة",
-                            "descriptive": "الفيديوهات الموجودة في المنشورات تحتوي على شروح مغلقة"
-                        },
-                        "extended-descriptions": "يتم وصف الصور الغنية بالمعلومات بأوصاف مفصّلة",
-                        "open-captions": {
-                            "compact": "تحتوي الفيديوهات على شروح مدمجة",
-                            "descriptive": "الفيديوهات الموجودة في المنشورات تحتوي على شروح مدمجة"
-                        },
-                        "transcript": "يتوفر نص(نصوص)",
-                        "unknown": "لا تتوفر أي معلومات"
+                        "details-title": "معلومات تفصيلية عن مدى المطابقة",
+                        "no": "لا تتوفر أي معلومات",
+                        "title": "المطابقة",
+                        "unknown-standard": "لا يمكن التأكد من مدى مطابقة هذا المنشور للمعايير المقبولة لإمكانية الوصول"
                     },
                     "hazards": {
-                        "title": "مخاطر",
                         "flashing": {
                             "compact": "محتوى وامض",
                             "descriptive": "يحتوي هذا المنشور على محتوى وامض قد يسبب نوبات حساسة للضوء"
@@ -270,52 +122,200 @@
                             "compact": "مخاطر الصوت غير معروفة",
                             "descriptive": "تعذّر تحديد ما إذا كانت هناك أصوات قد تُسبب مشكلات في الحساسية"
                         },
+                        "title": "مخاطر",
                         "unknown": "وجود المخاطر غير معروف"
                     },
-                    "accessibility-summary": {
-                        "title": "ملخص إمكانية الوصول",
-                        "no-metadata": "لا تتوفر أي معلومات",
-                        "publisher-contact": "لمزيد من المعلومات حول إمكانية الوصول إلى هذا المنتج، يُرجى التواصل مع الناشر: "
-                    },
                     "legal-considerations": {
-                        "title": "اعتبارات قانونية",
                         "exempt": {
                             "compact": "يُعلن عن استثناء من متطلبات إمكانية الوصول من بعض السلطات القضائية",
                             "descriptive": "يُصرّح هذا المنشور بوجود استثناء من متطلبات إمكانية الوصول من بعض السلطات القضائية"
                         },
-                        "no-metadata": "لا تتوفر أي معلومات"
+                        "no-metadata": "لا تتوفر أي معلومات",
+                        "title": "اعتبارات قانونية"
                     },
-                    "additional-accessibility-information": {
-                        "title": "معلومات إضافية عن إمكانية الوصول",
-                        "aria": {
-                            "compact": "أدوار ARIA مدرَجة",
-                            "descriptive": "يتم تعزيز المحتوى باستخدام أدوار ARIA لتحسين التنظيم وتيسير التنقّل"
+                    "navigation": {
+                        "index": {
+                            "compact": "كشاف",
+                            "descriptive": "كشاف يحتوي على روابط إلى الإدخالات المشار إليها"
                         },
-                        "audio-descriptions": "الوصف الصوتي",
-                        "braille": "برايل",
-                        "color-not-sole-means-of-conveying-information": "اللون ليس الوسيلة الوحيدة لنقل المعلومات",
-                        "dyslexia-readability": "سهولة القراءة لذوي عُسر القراءة",
-                        "full-ruby-annotations": "شروح روبي كاملة",
-                        "high-contrast-between-foreground-and-background-audio": "تباين عالٍ بين الصوت الرئيسي وصوت الخلفية",
-                        "high-contrast-between-text-and-background": "تباين عالٍ بين النص والخلفية",
-                        "large-print": "خط كبير",
-                        "page-breaks": {
-                            "compact": "فواصل الصفحات متضمَّنة",
-                            "descriptive": "فواصل الصفحات متضمَّنة من المصدر المطبوع الأصلي"
+                        "no-metadata": "لا تتوفر أي معلومات",
+                        "page-navigation": {
+                            "compact": "الانتقال إلى صفحة",
+                            "descriptive": "قائمة الصفحات للانتقال إلى صفحات من النسخة المطبوعة الأصلية"
                         },
-                        "ruby-annotations": "بعض شروح الروبي",
-                        "sign-language": "لغة الإشارة",
-                        "tactile-graphics": {
-                            "compact": "الرسوم اللمسية مدرجة",
-                            "descriptive": "تم دمج الرسوم اللمسية لتيسير الوصول إلى العناصر البصرية للأشخاص المكفوفين"
+                        "structural": {
+                            "compact": "العناوين",
+                            "descriptive": "عناصر مثل العناوين والجداول وغيرها للتنقل المنظّم"
                         },
-                        "tactile-objects": "مجسمات لمسية ثلاثية الأبعاد",
-                        "text-to-speech-hinting": "إرشادات تحويل النص إلى كلام (TTS)متوفرة",
-                        "ultra-high-contrast-between-text-and-background": "تباين عالٍ جدًا بين النص والخلفية",
-                        "visible-page-numbering": "ترقيم صفحات مرئي",
-                        "without-background-sounds": "من دون أصوات في خلفية"
+                        "title": "التنقل",
+                        "toc": {
+                            "compact": "جدول المحتويات",
+                            "descriptive": "جدول المحتويات لكل فصول النص عبر روابط"
+                        }
+                    },
+                    "rich-content": {
+                        "accessible-chemistry-as-latex": {
+                            "compact": "الصيغ الكيميائية بصيغة LaTeX",
+                            "descriptive": "الصيغ الكيميائية بشكل ميسر (LaTeX)"
+                        },
+                        "accessible-chemistry-as-mathml": {
+                            "compact": "الصيغ الكيميائية بصيغة MathML",
+                            "descriptive": "الصيغ الكيميائية بشكل ميسر (MathML)"
+                        },
+                        "accessible-math-as-latex": {
+                            "compact": "الرياضيات بصيغة LaTeX",
+                            "descriptive": "الصيغ الرياضية بشكل ميسر (LaTeX)"
+                        },
+                        "accessible-math-described": "تتوفر أوصاف نصية للصيغ الرياضية",
+                        "closed-captions": {
+                            "compact": "تحتوي الفيديوهات على شروح مغلقة",
+                            "descriptive": "الفيديوهات الموجودة في المنشورات تحتوي على شروح مغلقة"
+                        },
+                        "extended-descriptions": "يتم وصف الصور الغنية بالمعلومات بأوصاف مفصّلة",
+                        "math-as-mathml": {
+                            "compact": "الرياضيات بصيغة MathML",
+                            "descriptive": "الصيغ الرياضية بشكل ميسر(MathML)"
+                        },
+                        "open-captions": {
+                            "compact": "تحتوي الفيديوهات على شروح مدمجة",
+                            "descriptive": "الفيديوهات الموجودة في المنشورات تحتوي على شروح مدمجة"
+                        },
+                        "title": "محتوى غني",
+                        "transcript": "يتوفر نص(نصوص)",
+                        "unknown": "لا تتوفر أي معلومات"
+                    },
+                    "ways-of-reading": {
+                        "nonvisual-reading": {
+                            "alt-text": {
+                                "compact": "يحتوي على نص بديل",
+                                "descriptive": "يحتوي على أوصاف نصية بديلة للصور"
+                            },
+                            "no-metadata": "لا تتوفر معلومات عن القراءة غير البصرية",
+                            "none": {
+                                "compact": "غير قابل للقراءة بصوتٍ عالٍ أو بطريقة برايل الديناميكية",
+                                "descriptive": "المحتوى غير قابل للقراءة بصوتٍ عالٍ أو بطريقة برايل الديناميكية"
+                            },
+                            "not-fully": {
+                                "compact": "غير قابل للقراءة بالكامل بصوتٍ عالٍ أو بطريقة برايل الديناميكية",
+                                "descriptive": "لن يكون كل المحتوى قابلًا للقراءة بصوتٍ عالٍ أو بطريقة برايل الديناميكية"
+                            },
+                            "readable": {
+                                "compact": "قابل للقراءة بصوتٍ عالٍ أو بطريقة برايل الديناميكية",
+                                "descriptive": "يمكن قراءة كل المحتوى بصوتٍ عالٍ أو بطريقة برايل الديناميكية"
+                            }
+                        },
+                        "prerecorded-audio": {
+                            "complementary": {
+                                "compact": "مقاطع الصوت المسجّلة مسبقًا",
+                                "descriptive": "مقاطع الصوت المسجّلة مسبقًا مدمجة في المحتوى"
+                            },
+                            "no-metadata": "لا توجد معلومات عن الصوت المسجّل مسبقًا",
+                            "only": {
+                                "compact": "الصوت المسجّل مسبقًا فقط",
+                                "descriptive": "كتاب صوتي بدون بديل نصي"
+                            },
+                            "synchronized": {
+                                "compact": "صوت مسجّل مسبقًا متزامن مع النص",
+                                "descriptive": "كل المحتوى متوفر كصوت مسجّل مسبقًا متزامن مع النص"
+                            }
+                        },
+                        "title": "طرق القراءة",
+                        "visual-adjustments": {
+                            "modifiable": {
+                                "compact": "يمكن تعديل المظهر",
+                                "descriptive": "يمكن تعديل مظهر النص وتخطيط الصفحة وفقاً لإمكانات نظام القراءة (اسم الخط وحجمه، والمسافات بين الفقرات والجمل والكلمات والأحرف، بالإضافة إلى لون الخلفية والنص)"
+                            },
+                            "unknown": "لا توجد معلومات عن إمكانية تعديل المظهر",
+                            "unmodifiable": {
+                                "compact": "لا يمكن تعديل المظهر",
+                                "descriptive": "لا يمكن تعديل مظهر النص وتخطيط الصفحات لأن تجربة القراءة قريبة من النسخة المطبوعة، ولكن تطبيقات القراءة ما زالت تتيح خيارات التكبير"
+                            }
+                        }
                     }
                 }
+            },
+            "altIdentifier": {
+                "one": "رمز تعريفي بديل",
+                "other": "رموز تعريفية بديلة"
+            },
+            "artist": {
+                "one": "فنان",
+                "other": "فنانون"
+            },
+            "author": {
+                "one": "مؤلف",
+                "other": "مؤلفون"
+            },
+            "collection": {
+                "one": "سلسلة تحريرية",
+                "other": "سلاسل تحريرية"
+            },
+            "colorist": {
+                "one": "ملوّن الألوان",
+                "other": "ملوّنو الألوان"
+            },
+            "contributor": {
+                "one": "مساهم",
+                "other": "مساهمون"
+            },
+            "description": "وصف",
+            "duration": "مدة",
+            "editor": {
+                "one": "محرر",
+                "other": "محررون"
+            },
+            "identifier": {
+                "one": "رمز تعريفي",
+                "other": "رموز تعريفية"
+            },
+            "illustrator": {
+                "one": "رسًام",
+                "other": "رسامون"
+            },
+            "imprint": {
+                "one": "العلامة التجارية للنشر",
+                "other": "العلامات التجارية للنشر"
+            },
+            "inker": {
+                "one": "مُحَبِّر",
+                "other": "مُحَبِّرون"
+            },
+            "language": {
+                "one": "اللغة",
+                "other": "اللغات"
+            },
+            "letterer": {
+                "one": "خطّاط",
+                "other": "خطّاطون"
+            },
+            "modified": "تاريخ التعديل",
+            "narrator": {
+                "one": "قارئ صوتي",
+                "other": "قرّاء صوتيون"
+            },
+            "numberOfPages": "عدد الصفحات في النسخة المطبوعة",
+            "penciler": {
+                "one": "رسّام أولي",
+                "other": "رسّامون أوّليون"
+            },
+            "published": "تاريخ النشر",
+            "publisher": {
+                "one": "ناشر",
+                "other": "ناشرون"
+            },
+            "series": {
+                "one": "سلسلة",
+                "other": "سلاسل"
+            },
+            "subject": {
+                "one": "موضوع",
+                "other": "مواضيع"
+            },
+            "subtitle": "عنوان فرعي",
+            "title": "العنوان",
+            "translator": {
+                "one": "مترجم",
+                "other": "مترجمون"
             }
         }
     }

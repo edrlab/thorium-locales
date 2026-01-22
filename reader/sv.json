@@ -1,12 +1,32 @@
 {
+    "common": {
+        "actions": {
+            "cancel": "Avbryt",
+            "clear": "Rensa",
+            "close": "Avsluta",
+            "decrease": "Minska",
+            "disable": "Inaktivera",
+            "enable": "Aktivera",
+            "exit": "Lämna",
+            "expand": "Utvidga",
+            "expandAll": "Expandera alla",
+            "filter": "Filter",
+            "hide": "Dölj",
+            "hideAll": "Dölj alla",
+            "increase": "Öka",
+            "open": "Öppna",
+            "reset": "Återställ",
+            "search": "Sök",
+            "show": "Visa",
+            "showAll": "Visa alla",
+            "sortBy": "Sortera efter",
+            "toggle": "Växla"
+        }
+    },
     "reader": {
         "actions": {
             "goBackward": "Gå bakåt",
             "goForward": "Gå framåt",
-            "goToPosition": {
-                "compact": "Hoppa till…",
-                "descriptive": "Hoppa till position"
-            },
             "goToNextChapter": {
                 "compact": "Nästa",
                 "descriptive": "Nästa kapitel"
@@ -14,6 +34,10 @@
             "goToNextPage": {
                 "compact": "Nästa",
                 "descriptive": "Nästa sida"
+            },
+            "goToPosition": {
+                "compact": "Hoppa till…",
+                "descriptive": "Hoppa till position"
             },
             "goToPreviousChapter": {
                 "compact": "Föregående",
@@ -24,25 +48,106 @@
                 "descriptive": "Föregående sida"
             }
         },
+        "preferences": {
+            "columns": {
+                "auto": "Auto",
+                "dual": {
+                    "compact": "2 kol",
+                    "descriptive": "2 kolumner"
+                },
+                "single": {
+                    "compact": "1 kol",
+                    "descriptive": "1 kolumn"
+                },
+                "title": "Kolumner"
+            },
+            "fontFamily": {
+                "humanist": {
+                    "compact": "Humanist",
+                    "descriptive": "Humanist sans-serif"
+                },
+                "modern": {
+                    "compact": "Modern",
+                    "descriptive": "Modern serif"
+                },
+                "monospace": "Monospace",
+                "oldStyle": {
+                    "compact": "Old style",
+                    "descriptive": "Old style serif"
+                },
+                "publisher": "Utgivarens teckensnitt",
+                "sans": "Sans-serif",
+                "title": "Teckensnittsfamilj"
+            },
+            "fontSize": "Teckenstorlek",
+            "fontWeight": {
+                "bold": "Fetare",
+                "normal": "Normal",
+                "title": "Teckenvikt"
+            },
+            "hyphens": {
+                "label": "Aktivera avstavning",
+                "title": "Avstavning"
+            },
+            "layout": {
+                "paginated": "Sidindelad",
+                "scrolled": "Rullningsbar",
+                "title": "Layout"
+            },
+            "letterSpacing": "Teckenavstånd",
+            "lineHeight": {
+                "default": "Standard",
+                "large": "Luftigt",
+                "medium": "Balanserat",
+                "small": "Tätt",
+                "title": "Radavstånd"
+            },
+            "paragraphIndent": "Styckeindrag",
+            "paragraphSpacing": "Styckeavstånd",
+            "publisherStyles": {
+                "label": "Använd originalformat",
+                "title": "Utgivarens stilar"
+            },
+            "spacing": {
+                "presets": {
+                    "accessible": "Tillgänglig",
+                    "balanced": "Balanserad",
+                    "custom": "Anpassad",
+                    "default": "Standard",
+                    "loose": "Lös",
+                    "tight": "Tät",
+                    "title": "Förinställningar"
+                },
+                "title": "Avstånd"
+            },
+            "text": "Text",
+            "textAlign": {
+                "default": "Standard",
+                "justify": "Justera",
+                "left": "Vänster",
+                "right": "Höger",
+                "title": "Justering"
+            },
+            "textNormalization": {
+                "label": "Ta bort all textformatering",
+                "title": "Textformatering"
+            },
+            "themes": {
+                "auto": "Auto",
+                "contrast1": "Kontrast 1",
+                "contrast2": "Kontrast 2",
+                "contrast3": "Kontrast 3",
+                "dark": "Mörkt",
+                "light": "Ljust",
+                "paper": "Papper",
+                "sepia": "Sepia",
+                "title": "Teman"
+            },
+            "title": "Visningsinställningar",
+            "wordSpacing": "Ordavstånd",
+            "zoom": "Zooma"
+        },
         "progression": {
-            "percentage": "{{ p1 }}%",
-            "positionsLeft": {
-                "other": "{{ count }} positioner kvar",
-                "one": "{{ count }} position kvar"
-            },
-            "positionsLeftInChapter": {
-                "other": "{{ count }} positioner kvar i nuvarande kapitel",
-                "one": "{{ count }} position kvar i kapitlet"
-            },
-            "positionsLeftInPublication": {
-                "other": "{{ count }} kvar i boken",
-                "one": "{{ count }} position kvar i publikation"
-            },
-            "range": "{{ p1 }}–{{ p2 }}",
-            "xOfY": {
-                "compact": "{{ p1 }} av {{ p2 }}",
-                "descriptive": "{{ p1 }} av {{ p2 }} ({{ p3 }})"
-            },
             "pagesLeft": {
                 "one": "{{ count }} sida kvar",
                 "other": "{{ count }} sidor kvar"
@@ -54,137 +159,32 @@
             "pagesLeftInPublication": {
                 "one": "{{ count }} sida kvar i publikationen",
                 "other": "{{ count }} sidor kvar i publikationen"
+            },
+            "percentage": "{{ p1 }}%",
+            "positionsLeft": {
+                "one": "{{ count }} position kvar",
+                "other": "{{ count }} positioner kvar"
+            },
+            "positionsLeftInChapter": {
+                "one": "{{ count }} position kvar i kapitlet",
+                "other": "{{ count }} positioner kvar i nuvarande kapitel"
+            },
+            "positionsLeftInPublication": {
+                "one": "{{ count }} position kvar i publikation",
+                "other": "{{ count }} kvar i boken"
+            },
+            "range": "{{ p1 }}–{{ p2 }}",
+            "xOfY": {
+                "compact": "{{ p1 }} av {{ p2 }}",
+                "descriptive": "{{ p1 }} av {{ p2 }} ({{ p3 }})"
             }
         },
-        "preferences": {
-            "title": "Visningsinställningar",
-            "columns": {
-                "title": "Kolumner",
-                "auto": "Auto",
-                "single": {
-                    "descriptive": "1 kolumn",
-                    "compact": "1 kol"
-                },
-                "dual": {
-                    "descriptive": "2 kolumner",
-                    "compact": "2 kol"
-                }
-            },
-            "fontFamily": {
-                "title": "Teckensnittsfamilj",
-                "publisher": "Utgivarens teckensnitt",
-                "oldStyle": {
-                    "compact": "Old style",
-                    "descriptive": "Old style serif"
-                },
-                "modern": {
-                    "compact": "Modern",
-                    "descriptive": "Modern serif"
-                },
-                "sans": "Sans-serif",
-                "humanist": {
-                    "compact": "Humanist",
-                    "descriptive": "Humanist sans-serif"
-                },
-                "monospace": "Monospace"
-            },
-            "fontSize": "Teckenstorlek",
-            "fontWeight": {
-                "title": "Teckenvikt",
-                "normal": "Normal",
-                "bold": "Fetare"
-            },
-            "hyphens": {
-                "title": "Avstavning",
-                "label": "Aktivera avstavning"
-            },
-            "layout": {
-                "title": "Layout",
-                "scrolled": "Rullningsbar",
-                "paginated": "Sidindelad"
-            },
-            "letterSpacing": "Teckenavstånd",
-            "lineHeight": {
-                "title": "Radavstånd",
-                "default": "Standard",
-                "small": "Tätt",
-                "medium": "Balanserat",
-                "large": "Luftigt"
-            },
-            "paragraphIndent": "Styckeindrag",
-            "paragraphSpacing": "Styckeavstånd",
-            "publisherStyles": {
-                "label": "Använd originalformat",
-                "title": "Utgivarens stilar"
-            },
-            "spacing": {
-                "title": "Avstånd",
-                "presets": {
-                    "title": "Förinställningar",
-                    "accessible": "Tillgänglig",
-                    "balanced": "Balanserad",
-                    "custom": "Anpassad",
-                    "default": "Standard",
-                    "loose": "Lös",
-                    "tight": "Tät"
-                }
-            },
-            "text": "Text",
-            "textAlign": {
-                "title": "Justering",
-                "default": "Standard",
-                "left": "Vänster",
-                "right": "Höger",
-                "justify": "Justera"
-            },
-            "textNormalization": {
-                "title": "Textformatering",
-                "label": "Ta bort all textformatering"
-            },
-            "themes": {
-                "title": "Teman",
-                "auto": "Auto",
-                "dark": "Mörkt",
-                "light": "Ljust",
-                "paper": "Papper",
-                "sepia": "Sepia",
-                "contrast1": "Kontrast 1",
-                "contrast2": "Kontrast 2",
-                "contrast3": "Kontrast 3"
-            },
-            "wordSpacing": "Ordavstånd",
-            "zoom": "Zooma"
-        },
         "tableOfContents": {
-            "title": "Innehållsförteckning",
             "emptyState": {
                 "description": "Den här boken saknar innehållsförteckning.",
                 "title": "Ingen innehållsförteckning"
-            }
-        }
-    },
-    "common": {
-        "actions": {
-            "clear": "Rensa",
-            "close": "Avsluta",
-            "decrease": "Minska",
-            "enable": "Aktivera",
-            "increase": "Öka",
-            "reset": "Återställ",
-            "search": "Sök",
-            "toggle": "Växla",
-            "cancel": "Avbryt",
-            "disable": "Inaktivera",
-            "expand": "Utvidga",
-            "hide": "Dölj",
-            "hideAll": "Dölj alla",
-            "show": "Visa",
-            "showAll": "Visa alla",
-            "sortBy": "Sortera efter",
-            "exit": "Lämna",
-            "expandAll": "Expandera alla",
-            "filter": "Filter",
-            "open": "Öppna"
+            },
+            "title": "Innehållsförteckning"
         }
     }
 }
