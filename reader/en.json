@@ -1,242 +1,242 @@
 {
-  "reader": {
-    "actions": {
-      "goBackward": "Go backward",
-      "goForward": "Go forward",
-      "goToNextChapter": {
-        "compact": "Next",
-        "descriptive": "Next chapter"
-      },
-      "goToNextPage": {
-        "compact": "Next",
-        "descriptive": "Next page"
-      },
-      "goToNextSentence": {
-        "compact": "Next",
-        "descriptive": "Next sentence"
-      },
-      "goToPosition": {
-        "compact": "Go to…",
-        "descriptive": "Go to position"
-      },
-      "goToPreviousChapter": {
-        "compact": "Previous",
-        "descriptive": "Previous chapter"
-      },
-      "goToPreviousPage": {
-        "compact": "Previous",
-        "descriptive": "Previous page"
-      },
-      "goToPreviousSentence": {
-        "compact": "Previous",
-        "descriptive": "Previous sentence"
-      }
+    "common": {
+        "actions": {
+            "cancel": "Cancel",
+            "clear": "Clear",
+            "close": "Close",
+            "collapse": "Collapse",
+            "collapseAll": "Collapse all",
+            "decrease": "Decrease",
+            "disable": "Disable",
+            "enable": "Enable",
+            "exit": "Exit",
+            "expand": "Expand",
+            "expandAll": "Expand all",
+            "filter": "Filter",
+            "hide": "Hide",
+            "hideAll": "Hide all",
+            "increase": "Increase",
+            "open": "Open",
+            "reset": "Reset",
+            "search": "Search",
+            "show": "Show",
+            "showAll": "Show all",
+            "sortBy": "Sort by",
+            "toggle": "Toggle"
+        }
     },
-    "progression": {
-      "pagesLeft": {
-        "one": "{{ count }} page left",
-        "other": "{{ count }} pages left"
-      },
-      "pagesLeftInChapter": {
-        "one": "{{ count }} page left in chapter",
-        "other": "{{ count }} pages left in chapter"
-      },
-      "pagesLeftInPublication": {
-        "one": "{{ count }} page left in publication",
-        "other": "{{ count }} pages left in publication"
-      },
-      "percentage": "{{ p1 }}%",
-      "positionsLeft": {
-        "one": "{{ count }} position left",
-        "other": "{{ count }} positions left"
-      },
-      "positionsLeftInChapter": {
-        "one": "{{ count }} position left in chapter",
-        "other": "{{ count }} positions left in chapter"
-      },
-      "positionsLeftInPublication": {
-        "one": "{{ count }} position left in publication",
-        "other": "{{ count }} positions left in publication"
-      },
-      "range": "{{ p1 }}–{{ p2 }}",
-      "xOfY": {
-        "compact": "{{ p1 }} of {{ p2 }}",
-        "descriptive": "{{ p1 }} of {{ p2 }} ({{ p3 }})"
-      }
-    },
-    "preferences": {
-      "title": "Display Settings",
-      "brightness": "Brightness",
-      "columns": {
-        "title": "Columns",
-        "auto": "Auto",
-        "single": {
-          "compact": "1 col",
-          "descriptive": "Single column"
+    "reader": {
+        "actions": {
+            "goBackward": "Go backward",
+            "goForward": "Go forward",
+            "goToNextChapter": {
+                "compact": "Next",
+                "descriptive": "Next chapter"
+            },
+            "goToNextPage": {
+                "compact": "Next",
+                "descriptive": "Next page"
+            },
+            "goToNextSentence": {
+                "compact": "Next",
+                "descriptive": "Next sentence"
+            },
+            "goToPosition": {
+                "compact": "Go to…",
+                "descriptive": "Go to position"
+            },
+            "goToPreviousChapter": {
+                "compact": "Previous",
+                "descriptive": "Previous chapter"
+            },
+            "goToPreviousPage": {
+                "compact": "Previous",
+                "descriptive": "Previous page"
+            },
+            "goToPreviousSentence": {
+                "compact": "Previous",
+                "descriptive": "Previous sentence"
+            }
         },
-        "dual": {
-          "compact": "2 cols",
-          "descriptive": "Two columns"
+        "preferences": {
+            "brightness": "Brightness",
+            "columns": {
+                "auto": "Auto",
+                "dual": {
+                    "compact": "2 cols",
+                    "descriptive": "Two columns"
+                },
+                "single": {
+                    "compact": "1 col",
+                    "descriptive": "Single column"
+                },
+                "title": "Columns"
+            },
+            "fit": {
+                "auto": {
+                    "compact": "Auto"
+                },
+                "page": {
+                    "compact": "Page"
+                },
+                "title": "Fit",
+                "width": {
+                    "compact": "Width"
+                }
+            },
+            "fontFamily": {
+                "humanist": {
+                    "compact": "Humanist",
+                    "descriptive": "Humanist sans-serif"
+                },
+                "modern": {
+                    "compact": "Modern",
+                    "descriptive": "Modern serif"
+                },
+                "monospace": "Monospace",
+                "oldStyle": {
+                    "compact": "Old style",
+                    "descriptive": "Old style serif"
+                },
+                "publisher": "Publisher's font",
+                "sans": "Sans-serif",
+                "title": "Font family"
+            },
+            "fontSize": "Font size",
+            "fontWeight": {
+                "bold": "Bolder",
+                "normal": "Normal",
+                "title": "Font weight"
+            },
+            "hyphens": {
+                "label": "Enable hyphens",
+                "title": "Hyphenation"
+            },
+            "layout": {
+                "paginated": "Paginated",
+                "scrolled": "Scrollable",
+                "title": "Layout"
+            },
+            "letterSpacing": "Letter spacing",
+            "lineHeight": {
+                "default": "Default",
+                "large": "Loose",
+                "medium": "Balanced",
+                "small": "Tight",
+                "title": "Line height"
+            },
+            "offsetFirstPage": "Display first page on its own",
+            "paragraphIndent": "Paragraph indent",
+            "paragraphSpacing": "Paragraph spacing",
+            "publisherStyles": {
+                "label": "Use original formatting",
+                "title": "Publisher styles"
+            },
+            "readingDirection": {
+                "default": {
+                    "compact": "Default",
+                    "descriptive": "Use original reading direction"
+                },
+                "ltr": {
+                    "compact": "Right",
+                    "descriptive": "Left to right"
+                },
+                "rtl": {
+                    "compact": "Left",
+                    "descriptive": "Right to left"
+                },
+                "title": "Reading direction"
+            },
+            "spacing": {
+                "presets": {
+                    "accessible": "Accessible",
+                    "balanced": "Balanced",
+                    "custom": "Custom",
+                    "default": "Default",
+                    "loose": "Loose",
+                    "tight": "Tight",
+                    "title": "Presets"
+                },
+                "title": "Spacing"
+            },
+            "spread": {
+                "always": {
+                    "compact": "Dual page"
+                },
+                "auto": {
+                    "compact": "Auto"
+                },
+                "never": {
+                    "compact": "Single page"
+                },
+                "title": "Spread"
+            },
+            "text": "Text",
+            "textAlign": {
+                "default": "Default",
+                "justify": "Justify",
+                "left": "Left",
+                "right": "Right",
+                "title": "Text alignment"
+            },
+            "textNormalization": {
+                "label": "Remove all text formatting",
+                "title": "Text normalization"
+            },
+            "themes": {
+                "auto": "Auto",
+                "contrast1": "Contrast 1",
+                "contrast2": "Contrast 2",
+                "contrast3": "Contrast 3",
+                "dark": "Dark",
+                "gray": "Gray",
+                "light": "Light",
+                "paper": "Paper",
+                "sepia": "Sepia",
+                "title": "Themes"
+            },
+            "title": "Display Settings",
+            "wordSpacing": "Word spacing",
+            "zoom": "Zoom"
+        },
+        "progression": {
+            "pagesLeft": {
+                "one": "{{ count }} page left",
+                "other": "{{ count }} pages left"
+            },
+            "pagesLeftInChapter": {
+                "one": "{{ count }} page left in chapter",
+                "other": "{{ count }} pages left in chapter"
+            },
+            "pagesLeftInPublication": {
+                "one": "{{ count }} page left in publication",
+                "other": "{{ count }} pages left in publication"
+            },
+            "percentage": "{{ percentage }}%",
+            "positionsLeft": {
+                "one": "{{ count }} position left",
+                "other": "{{ count }} positions left"
+            },
+            "positionsLeftInChapter": {
+                "one": "{{ count }} position left in chapter",
+                "other": "{{ count }} positions left in chapter"
+            },
+            "positionsLeftInPublication": {
+                "one": "{{ count }} position left in publication",
+                "other": "{{ count }} positions left in publication"
+            },
+            "range": "{{ start }}–{{ end }}",
+            "xOfY": {
+                "compact": "{{ x }} of {{ y }}",
+                "descriptive": "{{ x }} of {{ y }} ({{ z }})"
+            }
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "The table of contents was not provided for this publication.",
+                "title": "No table of contents"
+            },
+            "title": "Table of contents"
         }
-      },
-      "fontFamily": {
-        "title": "Font family",
-        "publisher": "Publisher’s font",
-        "oldStyle": {
-          "compact": "Old style",
-          "descriptive": "Old style serif"
-        },
-        "modern": {
-          "compact": "Modern",
-          "descriptive": "Modern serif"
-        },
-        "sans": "Sans-serif",
-        "humanist": {
-          "compact": "Humanist",
-          "descriptive": "Humanist sans-serif"
-        },
-        "monospace": "Monospace"
-      },
-      "fontSize": "Font size",
-      "fontWeight": {
-        "title": "Font weight",
-        "normal": "Normal",
-        "bold": "Bolder"
-      },
-      "hyphens": {
-        "title": "Hyphenation",
-        "label": "Enable hyphens"
-      },
-      "layout": {
-        "title": "Layout",
-        "scrolled": "Scrollable",
-        "paginated": "Paginated"
-      },
-      "letterSpacing": "Letter spacing",
-      "lineHeight": {
-        "title": "Line height",
-        "default": "Default",
-        "small": "Tight",
-        "medium": "Balanced",
-        "large": "Loose"
-      },
-      "paragraphIndent": "Paragraph indent",
-      "paragraphSpacing": "Paragraph spacing",
-      "publisherStyles": {
-        "title": "Publisher styles",
-        "label": "Use original formatting"
-      },
-      "spacing": {
-        "title": "Spacing",
-        "presets": {
-          "title": "Presets",
-          "accessible": "Accessible",
-          "balanced": "Balanced",
-          "custom": "Custom",
-          "default": "Default",
-          "loose": "Loose",
-          "tight": "Tight"
-        }
-      },
-      "text": "Text",
-      "textAlign": {
-        "title": "Text alignment",
-        "default": "Default",
-        "left": "Left",
-        "right": "Right",
-        "justify": "Justify"
-      },
-      "textNormalization": {
-        "title": "Text normalization",
-        "label": "Remove all text formatting"
-      },
-      "themes": {
-        "title": "Themes",
-        "auto": "Auto",
-        "dark": "Dark",
-        "gray": "Gray",
-        "light": "Light",
-        "paper": "Paper",
-        "sepia": "Sepia",
-        "contrast1": "Contrast 1",
-        "contrast2": "Contrast 2",
-        "contrast3": "Contrast 3"
-      },
-      "fit": {
-        "title": "Fit",
-        "auto": {
-          "compact": "Auto"
-        },
-        "page": {
-          "compact": "Page"
-        },
-        "width": {
-          "compact": "Width"
-        }
-      },
-      "spread": {
-        "title": "Spread",
-        "auto": {
-          "compact": "Auto"
-        },
-        "never": {
-          "compact": "Single page"
-        },
-        "always": {
-          "compact": "Dual page"
-        }
-      },
-      "offsetFirstPage": "Display first page on its own",
-      "readingDirection": {
-        "title": "Reading direction",
-        "default": {
-          "compact": "Default",
-          "descriptive": "Use original reading direction"
-        },
-        "ltr": {
-          "compact": "Right",
-          "descriptive": "Left to right"
-        },
-        "rtl": {
-          "compact": "Left",
-          "descriptive": "Right to left"
-        }
-      },
-      "wordSpacing": "Word spacing",
-      "zoom": "Zoom"
-    },
-    "tableOfContents": {
-      "title": "Table of contents",
-      "emptyState": {
-        "title": "No table of contents",
-        "description": "The table of contents was not provided for this publication."
-      }
     }
-  },
-  "common": {
-    "actions": {
-      "cancel": "Cancel",
-      "clear": "Clear",
-      "close": "Close",
-      "collapse": "Collapse",
-      "collapseAll": "Collapse all",
-      "decrease": "Decrease",
-      "disable": "Disable",
-      "enable": "Enable",
-      "exit": "Exit",
-      "expand": "Expand",
-      "expandAll": "Expand all",
-      "filter": "Filter",
-      "hide": "Hide",
-      "hideAll": "Hide all",
-      "increase": "Increase",
-      "open": "Open",
-      "reset": "Reset",
-      "search": "Search",
-      "show": "Show",
-      "showAll": "Show all",
-      "sortBy": "Sort by",
-      "toggle": "Toggle"
-    }
-  }
 }
