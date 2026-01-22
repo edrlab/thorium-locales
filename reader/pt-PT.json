@@ -1,144 +1,144 @@
 {
-  "reader": {
-    "actions": {
-      "goBackward": "Recuar",
-      "goForward": "Avançar",
-      "goToPosition": {
-        "compact": "Saltar para…",
-        "descriptive": "Saltar para a posição"
-      }
-    },
-    "progression": {
-      "percentage": "{{ percentage }}%",
-      "positionsLeft": {
-        "other": "{{ count }} restantes"
-      },
-      "positionsLeftInChapter": {
-        "other": "{{ count }} restantes em capítulo atual"
-      },
-      "positionsLeftInPublication": {
-        "other": "{{ count }} restantes em a publicação"
-      },
-      "range": "{{ start }}–{{ end }}",
-      "xOfY": {
-        "compact": "{{ x }} de {{ y }}",
-        "descriptive": "{{ x }} de {{ y }} ({{ z }})"
-      }
-    },
-    "preferences": {
-      "title": "Configurações de visualização",
-      "columns": {
-        "title": "Colunas",
-        "auto": "Auto",
-        "single": {
-          "compact": "1 col."
-        },
-        "dual": {
-          "compact": "2 col."
+    "common": {
+        "actions": {
+            "clear": "Limpar",
+            "close": "Fechar",
+            "decrease": "Reduzir",
+            "enable": "Ativar",
+            "exit": "Sair",
+            "increase": "Aumentar",
+            "reset": "Repor",
+            "search": "Pesquisar",
+            "toggle": "Alternar"
         }
-      },
-      "fontFamily": {
-        "title": "Tipo de letra",
-        "publisher": "Fonte do editor",
-        "oldStyle": {
-          "compact": "Clássica",
-          "descriptive": "Serifa clássica"
-        },
-        "modern": {
-          "compact": "Moderna",
-          "descriptive": "Serifa moderna"
-        },
-        "sans": "Sem serifa",
-        "humanist": {
-          "compact": "Humanista",
-          "descriptive": "Humanista sem serifa"
-        },
-        "monospace": "Monoespaçado"
-      },
-      "fontSize": "Tamanho do tipo de letra",
-      "fontWeight": {
-        "title": "Espessura do tipo de letra",
-        "normal": "Normal",
-        "bold": "Negrito"
-      },
-      "hyphens": {
-        "title": "Hifenização",
-        "label": "Ativar hífenes"
-      },
-      "layout": {
-        "title": "Esquema",
-        "scrolled": "Com rolagem",
-        "paginated": "Paginado"
-      },
-      "letterSpacing": "Espaçamento entre letras",
-      "lineHeight": {
-        "title": "Altura da linha",
-        "default": "Predefinição",
-        "small": "Apertada",
-        "medium": "Equilibrada",
-        "large": "Solta"
-      },
-      "paragraphIndent": "Indentação do parágrafo",
-      "paragraphSpacing": "Espaçamento entre parágrafos",
-      "publisherStyles": {
-        "label": "Utilizar formatação original"
-      },
-      "spacing": {
-        "title": "Espaçamento",
-        "presets": {
-          "title": "Predefinições",
-          "accessible": "Acessível",
-          "balanced": "Equilibrado",
-          "custom": "Personalizado",
-          "default": "Predefinição",
-          "loose": "Solto",
-          "tight": "Apertado"
-        }
-      },
-      "text": "Texto",
-      "textAlign": {
-        "title": "Alinhamento do texto",
-        "default": "Padrão",
-        "left": "Esquerda",
-        "right": "Direita",
-        "justify": "Justificar"
-      },
-      "textNormalization": {
-        "title": "Normalização do texto",
-        "label": "Remover toda a formatação do texto"
-      },
-      "themes": {
-        "title": "Temas",
-        "auto": "Automático",
-        "dark": "Escuro",
-        "light": "Claro",
-        "paper": "Papel",
-        "sepia": "Sépia",
-        "contrast1": "Contraste 1",
-        "contrast2": "Contraste 2",
-        "contrast3": "Contraste 3"
-      },
-      "wordSpacing": "Espaçamento entre palavras",
-      "zoom": "Ampliação"
     },
-    "tableOfContents": {
-      "title": "Índice",
-      "emptyState": {
-        "description": "O índice não foi fornecido para esta publicação."
-      }
+    "reader": {
+        "actions": {
+            "goBackward": "Recuar",
+            "goForward": "Avançar",
+            "goToPosition": {
+                "compact": "Saltar para…",
+                "descriptive": "Saltar para a posição"
+            }
+        },
+        "preferences": {
+            "columns": {
+                "auto": "Auto",
+                "dual": {
+                    "compact": "2 col."
+                },
+                "single": {
+                    "compact": "1 col."
+                },
+                "title": "Colunas"
+            },
+            "fontFamily": {
+                "humanist": {
+                    "compact": "Humanista",
+                    "descriptive": "Humanista sem serifa"
+                },
+                "modern": {
+                    "compact": "Moderna",
+                    "descriptive": "Serifa moderna"
+                },
+                "monospace": "Monoespaçado",
+                "oldStyle": {
+                    "compact": "Clássica",
+                    "descriptive": "Serifa clássica"
+                },
+                "publisher": "Fonte do editor",
+                "sans": "Sem serifa",
+                "title": "Tipo de letra"
+            },
+            "fontSize": "Tamanho do tipo de letra",
+            "fontWeight": {
+                "bold": "Negrito",
+                "normal": "Normal",
+                "title": "Espessura do tipo de letra"
+            },
+            "hyphens": {
+                "label": "Ativar hífenes",
+                "title": "Hifenização"
+            },
+            "layout": {
+                "paginated": "Paginado",
+                "scrolled": "Com rolagem",
+                "title": "Esquema"
+            },
+            "letterSpacing": "Espaçamento entre letras",
+            "lineHeight": {
+                "default": "Predefinição",
+                "large": "Solta",
+                "medium": "Equilibrada",
+                "small": "Apertada",
+                "title": "Altura da linha"
+            },
+            "paragraphIndent": "Indentação do parágrafo",
+            "paragraphSpacing": "Espaçamento entre parágrafos",
+            "publisherStyles": {
+                "label": "Utilizar formatação original"
+            },
+            "spacing": {
+                "presets": {
+                    "accessible": "Acessível",
+                    "balanced": "Equilibrado",
+                    "custom": "Personalizado",
+                    "default": "Predefinição",
+                    "loose": "Solto",
+                    "tight": "Apertado",
+                    "title": "Predefinições"
+                },
+                "title": "Espaçamento"
+            },
+            "text": "Texto",
+            "textAlign": {
+                "default": "Padrão",
+                "justify": "Justificar",
+                "left": "Esquerda",
+                "right": "Direita",
+                "title": "Alinhamento do texto"
+            },
+            "textNormalization": {
+                "label": "Remover toda a formatação do texto",
+                "title": "Normalização do texto"
+            },
+            "themes": {
+                "auto": "Automático",
+                "contrast1": "Contraste 1",
+                "contrast2": "Contraste 2",
+                "contrast3": "Contraste 3",
+                "dark": "Escuro",
+                "light": "Claro",
+                "paper": "Papel",
+                "sepia": "Sépia",
+                "title": "Temas"
+            },
+            "title": "Configurações de visualização",
+            "wordSpacing": "Espaçamento entre palavras",
+            "zoom": "Ampliação"
+        },
+        "progression": {
+            "percentage": "{{ percentage }}%",
+            "positionsLeft": {
+                "other": "{{ count }} restantes"
+            },
+            "positionsLeftInChapter": {
+                "other": "{{ count }} restantes em capítulo atual"
+            },
+            "positionsLeftInPublication": {
+                "other": "{{ count }} restantes em a publicação"
+            },
+            "range": "{{ start }}–{{ end }}",
+            "xOfY": {
+                "compact": "{{ x }} de {{ y }}",
+                "descriptive": "{{ x }} de {{ y }} ({{ z }})"
+            }
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "O índice não foi fornecido para esta publicação."
+            },
+            "title": "Índice"
+        }
     }
-  },
-  "common": {
-    "actions": {
-      "clear": "Limpar",
-      "close": "Fechar",
-      "decrease": "Reduzir",
-      "enable": "Ativar",
-      "exit": "Sair",
-      "increase": "Aumentar",
-      "reset": "Repor",
-      "search": "Pesquisar",
-      "toggle": "Alternar"
-    }
-  }
 }

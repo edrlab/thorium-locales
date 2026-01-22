@@ -1,12 +1,34 @@
 {
+    "common": {
+        "actions": {
+            "cancel": "Atšaukti",
+            "clear": "Išvalyti",
+            "close": "Užverti",
+            "collapse": "Suskleisti",
+            "collapseAll": "Suskleisti visus",
+            "decrease": "Mažinti",
+            "disable": "Išjungti",
+            "enable": "Įjungti",
+            "exit": "Išeiti",
+            "expand": "Išskleisti",
+            "expandAll": "Išskleisti visus",
+            "filter": "Filtruoti",
+            "hide": "Slėpti",
+            "hideAll": "Slėpti visus",
+            "increase": "Didinti",
+            "open": "Atverti",
+            "reset": "Atkurti",
+            "search": "Paieška",
+            "show": "Rodyti",
+            "showAll": "Rodyti visus",
+            "sortBy": "Rikiuoti pagal",
+            "toggle": "Perjungti"
+        }
+    },
     "reader": {
         "actions": {
             "goBackward": "Eiti atgal",
             "goForward": "Eiti pirmyn",
-            "goToPosition": {
-                "compact": "Peršokti į…",
-                "descriptive": "Peršokti į poziciją"
-            },
             "goToNextChapter": {
                 "compact": "Kitas",
                 "descriptive": "Kitas skyrius"
@@ -14,6 +36,10 @@
             "goToNextPage": {
                 "compact": "Kitas",
                 "descriptive": "Kitas puslapis"
+            },
+            "goToPosition": {
+                "compact": "Peršokti į…",
+                "descriptive": "Peršokti į poziciją"
             },
             "goToPreviousChapter": {
                 "compact": "Ankstesnis",
@@ -24,92 +50,59 @@
                 "descriptive": "Ankstesnis puslapis"
             }
         },
-        "progression": {
-            "percentage": "{{ percentage }}%",
-            "positionsLeft": {
-                "other": "{{ count }} positions left",
-                "one": "Liko {{ count }} pozicija"
-            },
-            "positionsLeftInChapter": {
-                "other": "Skyriuje liko {{ count }} pozicijos (-ų)",
-                "one": "Skyriuje liko {{ count }} pozicija"
-            },
-            "positionsLeftInPublication": {
-                "other": "Leidinyje liko {{ count }} pozicijos (-ų)",
-                "one": "Leidinyje liko {{ count }} pozicija"
-            },
-            "range": "{{ start }}–{{ end }}",
-            "xOfY": {
-                "compact": "{{ x }} iš {{ y }}",
-                "descriptive": "{{ x }} iš {{ y }} ({{ z }})"
-            },
-            "pagesLeftInPublication": {
-                "one": "Leidinyje liko {{ count }} puslapis",
-                "other": "Leidinyje liko {{ count }} puslapiai (-ių)"
-            },
-            "pagesLeft": {
-                "one": "Liko {{ count }} puslapis",
-                "other": "Liko {{ count }} puslapiai (-ių)"
-            },
-            "pagesLeftInChapter": {
-                "one": "Skyriuje liko {{ count }} puslapis",
-                "other": "Skyriuje liko {{ count }} puslapiai"
-            }
-        },
         "preferences": {
-            "title": "Atvaizdavimo nuostatos",
             "columns": {
-                "title": "Stulpeliai",
                 "auto": "Auto",
-                "single": {
-                    "descriptive": "1 stulpelis",
-                    "compact": "1 stulpelis"
-                },
                 "dual": {
-                    "descriptive": "2 stulpeliai",
-                    "compact": "2 stulpeliai"
-                }
+                    "compact": "2 stulpeliai",
+                    "descriptive": "2 stulpeliai"
+                },
+                "single": {
+                    "compact": "1 stulpelis",
+                    "descriptive": "1 stulpelis"
+                },
+                "title": "Stulpeliai"
             },
             "fontFamily": {
-                "title": "Šriftų šeima",
-                "publisher": "Leidėjo šriftas",
-                "oldStyle": {
-                    "compact": "Seno stiliaus",
-                    "descriptive": "Seno stiliaus su užraitais"
+                "humanist": {
+                    "compact": "Humanistinis",
+                    "descriptive": "Humanistinis be užraitų"
                 },
                 "modern": {
                     "compact": "Modernus",
                     "descriptive": "Modernus su užraitais"
                 },
-                "sans": "Be užraitų",
-                "humanist": {
-                    "compact": "Humanistinis",
-                    "descriptive": "Humanistinis be užraitų"
+                "monospace": "Lygiaplotis",
+                "oldStyle": {
+                    "compact": "Seno stiliaus",
+                    "descriptive": "Seno stiliaus su užraitais"
                 },
-                "monospace": "Lygiaplotis"
+                "publisher": "Leidėjo šriftas",
+                "sans": "Be užraitų",
+                "title": "Šriftų šeima"
             },
             "fontSize": "Šrifto dydis",
             "fontWeight": {
-                "title": "Šrifto storis",
+                "bold": "Ryškesnis",
                 "normal": "Normalus",
-                "bold": "Ryškesnis"
+                "title": "Šrifto storis"
             },
             "hyphens": {
-                "title": "Skiemenavimas",
-                "label": "Įgalinti brūkšnelius"
+                "label": "Įgalinti brūkšnelius",
+                "title": "Skiemenavimas"
             },
             "layout": {
-                "title": "Išdėstymas",
+                "paginated": "Puslapiuotas",
                 "scrolled": "Slenkamasis",
-                "paginated": "Puslapiuotas"
+                "title": "Išdėstymas"
             },
             "letterSpacing": "Raidžių išretinimas",
             "lineHeight": {
-                "title": "Eilutės aukštis",
                 "default": "Numatytasis",
-                "small": "Glaudus",
+                "large": "Erdvus",
                 "medium": "Subalansuotas",
-                "large": "Erdvus"
+                "small": "Glaudus",
+                "title": "Eilutės aukštis"
             },
             "paragraphIndent": "Pastraipos įtrauka",
             "paragraphSpacing": "Tarpas tarp pastraipų",
@@ -118,75 +111,82 @@
                 "title": "Leidėjo stiliai"
             },
             "spacing": {
-                "title": "Išretinimas",
                 "presets": {
-                    "title": "Išankstiniai",
                     "accessible": "Prieinamas",
                     "balanced": "Subalansuotas",
                     "custom": "Tinkintas",
                     "default": "Numatytasis",
                     "loose": "Erdvus",
-                    "tight": "Glaustas"
-                }
+                    "tight": "Glaustas",
+                    "title": "Išankstiniai"
+                },
+                "title": "Išretinimas"
             },
             "text": "Tekstas",
             "textAlign": {
-                "title": "Teksto lygiuotė",
                 "default": "Numatytoji",
+                "justify": "Abipusė",
                 "left": "Kairinė",
                 "right": "Dešininė",
-                "justify": "Abipusė"
+                "title": "Teksto lygiuotė"
             },
             "textNormalization": {
-                "title": "Teksto normalizavimas",
-                "label": "Šalinti visą teksto formatavimą"
+                "label": "Šalinti visą teksto formatavimą",
+                "title": "Teksto normalizavimas"
             },
             "themes": {
-                "title": "Temos",
                 "auto": "Auto",
+                "contrast1": "Kontrastas 1",
+                "contrast2": "Kontrastas 2",
+                "contrast3": "Kontrastas 3",
                 "dark": "Tamsi",
                 "light": "Šviesi",
                 "paper": "Popierius",
                 "sepia": "Sepija",
-                "contrast1": "Kontrastas 1",
-                "contrast2": "Kontrastas 2",
-                "contrast3": "Kontrastas 3"
+                "title": "Temos"
             },
+            "title": "Atvaizdavimo nuostatos",
             "wordSpacing": "Protarpis tarp žodžių",
             "zoom": "Mastelis"
         },
+        "progression": {
+            "pagesLeft": {
+                "one": "Liko {{ count }} puslapis",
+                "other": "Liko {{ count }} puslapiai (-ių)"
+            },
+            "pagesLeftInChapter": {
+                "one": "Skyriuje liko {{ count }} puslapis",
+                "other": "Skyriuje liko {{ count }} puslapiai"
+            },
+            "pagesLeftInPublication": {
+                "one": "Leidinyje liko {{ count }} puslapis",
+                "other": "Leidinyje liko {{ count }} puslapiai (-ių)"
+            },
+            "percentage": "{{ percentage }}%",
+            "positionsLeft": {
+                "one": "Liko {{ count }} pozicija",
+                "other": "{{ count }} positions left"
+            },
+            "positionsLeftInChapter": {
+                "one": "Skyriuje liko {{ count }} pozicija",
+                "other": "Skyriuje liko {{ count }} pozicijos (-ų)"
+            },
+            "positionsLeftInPublication": {
+                "one": "Leidinyje liko {{ count }} pozicija",
+                "other": "Leidinyje liko {{ count }} pozicijos (-ų)"
+            },
+            "range": "{{ start }}–{{ end }}",
+            "xOfY": {
+                "compact": "{{ x }} iš {{ y }}",
+                "descriptive": "{{ x }} iš {{ y }} ({{ z }})"
+            }
+        },
         "tableOfContents": {
-            "title": "Turinys",
             "emptyState": {
                 "description": "Šiam leidiniui nebuvo pateiktas turinys.",
                 "title": "Nėra turinio"
-            }
-        }
-    },
-    "common": {
-        "actions": {
-            "clear": "Išvalyti",
-            "close": "Užverti",
-            "decrease": "Mažinti",
-            "increase": "Didinti",
-            "reset": "Atkurti",
-            "search": "Paieška",
-            "cancel": "Atšaukti",
-            "collapse": "Suskleisti",
-            "collapseAll": "Suskleisti visus",
-            "disable": "Išjungti",
-            "enable": "Įjungti",
-            "exit": "Išeiti",
-            "expand": "Išskleisti",
-            "expandAll": "Išskleisti visus",
-            "filter": "Filtruoti",
-            "hide": "Slėpti",
-            "hideAll": "Slėpti visus",
-            "open": "Atverti",
-            "show": "Rodyti",
-            "showAll": "Rodyti visus",
-            "sortBy": "Rikiuoti pagal",
-            "toggle": "Perjungti"
+            },
+            "title": "Turinys"
         }
     }
 }
