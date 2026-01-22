@@ -27,10 +27,10 @@ In particular, the following i18next features are excluded:
 
 ## Naming Placeholder Variables
 
-- It is expected naming things is hard and we should not overcomplicate named placeholders as we can add descriptions and screenshots in Weblate to help translators understand the context
-- Names placeholders should be short and descriptive, and stay consistent with their key
-- The only exception to this rule is the `count` placeholder, which is used for plurals, as it is required by the i18next format
-- A named placeholder should **never be** updated unless the string is being completely rewritten and all the translations must be dropped
+- Naming things is hard, so do not overcomplicate placeholder names; you can add descriptions and screenshots in Weblate to help translators understand the context.
+- Placeholder names should be short and descriptive and stay consistent with their key.
+- The only exception to this rule is the `count` placeholder, which is used for plurals and is required by the i18next format.
+- A named placeholder should **never** be updated unless the string is being completely rewritten and all the translations must be dropped.
 
 Example:
 
