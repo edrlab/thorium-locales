@@ -1,10 +1,10 @@
 {
-  "reader": {
-    "preferences": {
-      "lineHeight": {
-        "large": "واسع"
-      },
-      "paragraphSpacing": "تباعد الفقرات"
+    "reader": {
+        "preferences": {
+            "lineHeight": {
+                "large": "واسع"
+            },
+            "paragraphSpacing": "تباعد الفقرات"
+        }
     }
-  }
 }

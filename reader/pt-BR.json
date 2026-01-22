@@ -1,123 +1,192 @@
 {
-  "reader": {
-    "actions": {
-      "goBackward": "Voltar",
-      "goForward": "Avançar",
-      "goToPosition": {
-        "compact": "Ir para…",
-        "descriptive": "Ir para a posição"
-      }
-    },
-    "progression": {
-      "percentage": "{{ p1 }}%",
-      "range": "{{ p1 }}–{{ p2 }}",
-      "xOfY": {
-        "compact": "{{ p1 }} de {{ p2 }}",
-        "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
-      }
-    },
-    "preferences": {
-      "title": "Configurações de exibição",
-      "columns": {
-        "title": "Colunas",
-        "auto": "Automático",
-        "single": {
-          "compact": "1 col."
-        },
-        "dual": {
-          "compact": "2 cols."
+    "common": {
+        "actions": {
+            "cancel": "Cancelar",
+            "clear": "Limpar",
+            "close": "Fechar",
+            "collapse": "Contrair",
+            "collapseAll": "Contrair todos",
+            "decrease": "Diminuir",
+            "disable": "Desativar",
+            "enable": "Ativar",
+            "exit": "Sair",
+            "expand": "Expandir",
+            "expandAll": "Expandir tudo",
+            "filter": "Filtro",
+            "hide": "Ocultar",
+            "hideAll": "Esconder tudo",
+            "increase": "Aumentar",
+            "open": "Abrir",
+            "reset": "Redefinir",
+            "search": "Pesquisar",
+            "show": "Mostrar",
+            "showAll": "Mostrar tudo",
+            "sortBy": "Ordenar por",
+            "toggle": "Alternar"
         }
-      },
-      "fontFamily": {
-        "title": "Família da fonte",
-        "publisher": "Fonte do editor",
-        "oldStyle": {
-          "compact": "Clássica",
-          "descriptive": "Serifa clássica"
-        },
-        "modern": {
-          "compact": "Moderna",
-          "descriptive": "Serifa moderna"
-        },
-        "sans": "Sem serifa",
-        "humanist": {
-          "compact": "Humanista",
-          "descriptive": "Sem serifa humanista"
-        },
-        "monospace": "Monoespaçada"
-      },
-      "fontSize": "Tamanho da fonte",
-      "fontWeight": {
-        "title": "Peso da fonte"
-      },
-      "hyphens": {
-        "title": "Hifenização",
-        "label": "Ativar hifenização"
-      },
-      "layout": {
-        "title": "Layout",
-        "scrolled": "Rolável",
-        "paginated": "Paginado"
-      },
-      "letterSpacing": "Espaçamento entre letras",
-      "lineHeight": {
-        "title": "Altura da linha",
-        "default": "Padrão",
-        "small": "Apertada",
-        "medium": "Equilibrada",
-        "large": "Solta"
-      },
-      "paragraphIndent": "Recuo de parágrafo",
-      "paragraphSpacing": "Espaçamento entre parágrafos",
-      "publisherStyles": {
-        "label": "Usar a formatação original"
-      },
-      "spacing": {
-        "title": "Espaçamento"
-      },
-      "text": "Texto",
-      "textAlign": {
-        "title": "Alinhamento do texto",
-        "default": "Padrão",
-        "left": "Esquerda",
-        "right": "Direita",
-        "justify": "Justificar"
-      },
-      "textNormalization": {
-        "title": "Normalização do texto",
-        "label": "Remover toda a formatação do texto"
-      },
-      "themes": {
-        "title": "Temas",
-        "auto": "Automático",
-        "dark": "Escuro",
-        "light": "Claro",
-        "paper": "Papel",
-        "sepia": "Sépia",
-        "contrast1": "Contraste 1",
-        "contrast2": "Contraste 2",
-        "contrast3": "Contraste 3"
-      },
-      "wordSpacing": "Espaçamento entre palavras",
-      "zoom": "Zoom"
     },
-    "tableOfContents": {
-      "title": "Sumário",
-      "emptyState": {
-        "description": "O sumário não foi fornecido para esta publicação."
-      }
+    "reader": {
+        "actions": {
+            "goBackward": "Voltar",
+            "goForward": "Avançar",
+            "goToNextChapter": {
+                "compact": "Próximo",
+                "descriptive": "Próximo capítulo"
+            },
+            "goToNextPage": {
+                "compact": "Próximo",
+                "descriptive": "Próxima página"
+            },
+            "goToPosition": {
+                "compact": "Ir para…",
+                "descriptive": "Ir para a posição"
+            },
+            "goToPreviousChapter": {
+                "compact": "Anterior",
+                "descriptive": "Capítulo anterior"
+            },
+            "goToPreviousPage": {
+                "compact": "Anterior",
+                "descriptive": "Página anterior"
+            }
+        },
+        "preferences": {
+            "columns": {
+                "auto": "Automático",
+                "dual": {
+                    "compact": "2 colunas",
+                    "descriptive": "Duas colunas"
+                },
+                "single": {
+                    "compact": "1 coluna",
+                    "descriptive": "Coluna única"
+                },
+                "title": "Colunas"
+            },
+            "fontFamily": {
+                "humanist": {
+                    "compact": "Humanista",
+                    "descriptive": "Sem serifa humanista"
+                },
+                "modern": {
+                    "compact": "Moderna",
+                    "descriptive": "Serifa moderna"
+                },
+                "monospace": "Monoespaçada",
+                "oldStyle": {
+                    "compact": "Clássica",
+                    "descriptive": "Serifa clássica"
+                },
+                "publisher": "Fonte do editor",
+                "sans": "Sem serifa",
+                "title": "Família da fonte"
+            },
+            "fontSize": "Tamanho da fonte",
+            "fontWeight": {
+                "bold": "Negrito",
+                "normal": "Normal",
+                "title": "Peso da fonte"
+            },
+            "hyphens": {
+                "label": "Ativar hifenização",
+                "title": "Hifenização"
+            },
+            "layout": {
+                "paginated": "Paginado",
+                "scrolled": "Rolável",
+                "title": "Layout"
+            },
+            "letterSpacing": "Espaçamento entre letras",
+            "lineHeight": {
+                "default": "Padrão",
+                "large": "Solta",
+                "medium": "Equilibrada",
+                "small": "Apertada",
+                "title": "Altura da linha"
+            },
+            "paragraphIndent": "Recuo de parágrafo",
+            "paragraphSpacing": "Espaçamento entre parágrafos",
+            "publisherStyles": {
+                "label": "Usar a formatação original",
+                "title": "Estilos do Editor"
+            },
+            "spacing": {
+                "presets": {
+                    "accessible": "Acessível",
+                    "balanced": "Equilibrado",
+                    "custom": "Personalizado",
+                    "default": "Padrão",
+                    "loose": "Larga",
+                    "tight": "Apertada",
+                    "title": "Predefinições"
+                },
+                "title": "Espaçamento"
+            },
+            "text": "Texto",
+            "textAlign": {
+                "default": "Padrão",
+                "justify": "Justificar",
+                "left": "Esquerda",
+                "right": "Direita",
+                "title": "Alinhamento do texto"
+            },
+            "textNormalization": {
+                "label": "Remover toda a formatação do texto",
+                "title": "Normalização do texto"
+            },
+            "themes": {
+                "auto": "Automático",
+                "contrast1": "Contraste 1",
+                "contrast2": "Contraste 2",
+                "contrast3": "Contraste 3",
+                "dark": "Escuro",
+                "light": "Claro",
+                "paper": "Papel",
+                "sepia": "Sépia",
+                "title": "Temas"
+            },
+            "title": "Configurações de exibição",
+            "wordSpacing": "Espaçamento entre palavras",
+            "zoom": "Zoom"
+        },
+        "progression": {
+            "pagesLeft": {
+                "one": "{{ count }} página restante",
+                "other": "{{ count }} páginas restantes"
+            },
+            "pagesLeftInChapter": {
+                "one": "{{ count }} página restante no capítulo",
+                "other": "{{ count }} páginas restantes no capítulo"
+            },
+            "pagesLeftInPublication": {
+                "one": "{{ count }} página restante em publicação",
+                "other": "{{ count }} páginas restantes em publicação"
+            },
+            "percentage": "{{ p1 }}%",
+            "positionsLeft": {
+                "one": "{{ count }} posição restante",
+                "other": "{{ count }} posições restantes"
+            },
+            "positionsLeftInChapter": {
+                "one": "{{ count }} posição restante no capítulo",
+                "other": "{{ count }} posições restantes no capítulo"
+            },
+            "positionsLeftInPublication": {
+                "one": "{{ count }} posição restante na publicação",
+                "other": "{{ count }} posições restantes na publicação"
+            },
+            "range": "{{ p1 }}–{{ p2 }}",
+            "xOfY": {
+                "compact": "{{ p1 }} de {{ p2 }}",
+                "descriptive": "{{ p1 }} de {{ p2 }} ({{ p3 }})"
+            }
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "O sumário não foi fornecido para esta publicação.",
+                "title": "Sem índice"
+            },
+            "title": "Sumário"
+        }
     }
-  },
-  "common": {
-    "actions": {
-      "clear": "Limpar",
-      "close": "Fechar",
-      "decrease": "Diminuir",
-      "enable": "Ativar",
-      "exit": "Sair",
-      "increase": "Aumentar",
-      "search": "Pesquisar",
-      "toggle": "Alternar"
-    }
-  }
 }

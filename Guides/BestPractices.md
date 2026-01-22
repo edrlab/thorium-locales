@@ -80,12 +80,3 @@ Example:
   "other": "{{ count }} positions left"
 }
 ```
-
-For arabic, the following key names are used:
-
-- `zero`
-- `one`
-- `two`
-- `few`
-- `many`
-- `other`
