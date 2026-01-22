@@ -13,7 +13,8 @@
             "pdf": "PDF",
             "rwp": "Readium Web Publication",
             "rwpm": "Readium Web Publication Manifest",
-            "zab": "Audiobook Archive"
+            "zab": "Audiobook Archive",
+            "zip": "ZIP Archive"
         },
         "kind": {
             "audiobook": {

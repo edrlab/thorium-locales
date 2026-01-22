@@ -68,6 +68,9 @@
             "search": "Search",
             "showMoreOptions": "More options"
         },
+        "confirmation": {
+            "title": "Are you sure?"
+        },
         "error": {
             "actions": {
                 "showDetails": {
@@ -137,8 +140,7 @@
             },
             "remove": {
                 "compact": "Remove",
-                "confirmation": "Are you sure you want to remove \"{{ title }}\"? This action cannot be undone.",
-                "descriptive": "Remove publication"
+                "confirmation": "Are you sure you want to remove \"{{ title }}\"? This action cannot be undone."
             },
             "rename": {
                 "compact": "Rename",
