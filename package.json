@@ -1,6 +1,34 @@
 {
     "name": "thorium-locales",
+    "version": "1.0.0",
+    "description": "Localization files for Thorium Reader",
+    "author": "EDRLab",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "i18n",
+        "l10n",
+        "localization",
+        "thorium",
+        "reader"
+    ],
     "private": true,
+    "type": "module",
+    "exports": {
+        "./publication-metadata/*.json": "./publication-metadata/*.json",
+        "./reader/*.json": "./reader/*.json"
+    },
+    "files": [
+        "publication-metadata/*.json",
+        "reader/*.json"
+    ],
+    "homepage": "https://github.com/edrlab/thorium-locales#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/edrlab/thorium-locales.git"
+    },
+    "bugs": {
+        "url": "https://github.com/edrlab/thorium-locales/issues"
+    },
     "scripts": {
         "format": "prettier --write \"**/*.json\"",
         "format:check": "prettier --check \"**/*.json\""
