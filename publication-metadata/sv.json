@@ -1,46 +1,190 @@
 {
     "publication": {
         "metadata": {
-            "title": "titel",
-            "subtitle": "Undertext",
-            "identifier": {
-                "one": "identifierare",
-                "other": "identifierare"
-            },
-            "altIdentifier": {
-                "one": "alternativ identifierare",
-                "other": "alternativa identifierare"
-            },
-            "published": "publikationsdatum",
-            "modified": "ändringsdatum",
-            "language": {
-                "one": "språk",
-                "other": "språk"
-            },
-            "author": {
-                "one": "författare",
-                "other": "författare"
-            },
-            "translator": {
-                "one": "översättare",
-                "other": "översättare"
-            },
-            "editor": {
-                "one": "redaktör",
-                "other": "redaktörer"
-            },
-            "artist": {
-                "one": "konstnär",
-                "other": "artister"
-            },
-            "illustrator": {
-                "one": "illustratör",
-                "other": "illustratörer"
-            },
             "accessibility": {
                 "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Information saknas",
+                        "publisher-contact": "För mer information om tillgängligheten av denna produkt, vänligen kontakta förlaget: ",
+                        "title": "Kompletterande information om tillgänglighet"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "Innehåller ARIA-roller",
+                            "descriptive": "Innehållet har försetts med ARIA-roller för att tydliggöra strukturen och underlätta navigering"
+                        },
+                        "audio-descriptions": "Syntolkning",
+                        "braille": "Punktskrift",
+                        "color-not-sole-means-of-conveying-information": "Färg är inte det enda sättet att förmedla information",
+                        "dyslexia-readability": "Dyslexiläsbarhet",
+                        "full-ruby-annotations": "Fullständig ruby-annotering",
+                        "high-contrast-between-foreground-and-background-audio": "Hög kontrast mellan förgrundsljud och bakgrundsljud",
+                        "high-contrast-between-text-and-background": "Hög kontrast mellan text och bakgrund",
+                        "large-print": "Storstil",
+                        "page-breaks": {
+                            "compact": "Innehåller sidnummer",
+                            "descriptive": "Innehåller sidnummer från tryckt förlaga"
+                        },
+                        "ruby-annotations": "Viss ruby-annotering",
+                        "sign-language": "Teckenspråk",
+                        "tactile-graphics": {
+                            "compact": "Innehåller taktila bilder",
+                            "descriptive": "Taktila bilder har lagts till för att tillgängliggöra visuella element för personer med synnedsättning"
+                        },
+                        "tactile-objects": "Taktila 3D-objekt",
+                        "text-to-speech-hinting": "Innehåller uttalsinstruktioner för talsyntes",
+                        "title": "Ytterligare tillgänglighetsinformation",
+                        "ultra-high-contrast-between-text-and-background": "Ultra hög kontrast mellan text och bakgrund",
+                        "visible-page-numbering": "Synlig sidnumrering",
+                        "without-background-sounds": "Utan bakgrundsljud"
+                    },
+                    "conformance": {
+                        "a": {
+                            "compact": "Publikationen uppfyller tillgänglighetskrav på en grundläggande nivå",
+                            "descriptive": "Publikationen anger att den uppfyller standarderna EPUB Accessibility och WCAG 2 nivå A"
+                        },
+                        "aa": {
+                            "compact": "Publikationen uppfyller tillgänglighetskrav på en vedertagen nivå",
+                            "descriptive": "Publikationen anger att den uppfyller standarderna EPUB Accessibility och WCAG 2 nivå AA"
+                        },
+                        "aaa": {
+                            "compact": "Publikationen uppfyller tillgänglighetskrav utöver en vedertagen nivå",
+                            "descriptive": "Publikationen anger att den uppfyller standarderna EPUB Accessibility och WCAG 2 nivå AAA"
+                        },
+                        "certifier": "Publikationen är certifierad av ",
+                        "certifier-credentials": "Certifierarens märkning är ",
+                        "details": {
+                            "certification-info": "Publiceringen certifierades på ",
+                            "certifier-report": "Se certifieringsrapporten för mer information",
+                            "claim": "Publikationen anger att den uppfyller kraven enligt",
+                            "epub-accessibility-1-0": "EPUB Accessibility 1.0",
+                            "epub-accessibility-1-1": "EPUB Accessibility 1.1",
+                            "level-a": "nivå A",
+                            "level-aa": "nivå AA",
+                            "level-aaa": "nivå AAA",
+                            "wcag-2-0": {
+                                "compact": "WCAG 2.0",
+                                "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.0"
+                            },
+                            "wcag-2-1": {
+                                "compact": "WCAG 2.1",
+                                "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.1"
+                            },
+                            "wcag-2-2": {
+                                "compact": "WCAG 2.2",
+                                "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.2"
+                            }
+                        },
+                        "details-title": "Detaljerad information om överensstämmelse",
+                        "no": "Information saknas",
+                        "title": "Tillgänglighetskrav",
+                        "unknown-standard": "Överensstämmelse med accepterade standarder för tillgänglighet av denna publikation kan inte fastställas"
+                    },
+                    "hazards": {
+                        "flashing": {
+                            "compact": "Blinkande innehåll",
+                            "descriptive": "Publikationen har blinkande innehåll som kan vara skadligt för ljuskänsliga personer"
+                        },
+                        "flashing-none": {
+                            "compact": "Ingen risk för blinkande ljus",
+                            "descriptive": "Publikationen har inget blinkande innehåll som kan vara skadligt för ljuskänsliga personer"
+                        },
+                        "flashing-unknown": {
+                            "compact": "Okänd risk för blinkande ljus",
+                            "descriptive": "Det går inte att avgöra om publikationen innehåller blinkande innehåll som skulle kunna orsaka illamående"
+                        },
+                        "motion": {
+                            "compact": "Rörelsesimulering",
+                            "descriptive": "Publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående"
+                        },
+                        "motion-none": {
+                            "compact": "Inga rörelsesimuleringrisker",
+                            "descriptive": "Publikationen innehåller ingen rörelsesimulering som skulle kunna orsaka illamående"
+                        },
+                        "motion-unknown": {
+                            "compact": "Okänd risk för rörelsesimulering",
+                            "descriptive": "Det går inte att avgöra om publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående"
+                        },
+                        "no-metadata": "Information saknas",
+                        "none": {
+                            "compact": "Inga risker",
+                            "descriptive": "Publikationen innehåller inga risker"
+                        },
+                        "sound": {
+                            "compact": "Ljud",
+                            "descriptive": "Publiceringen innehåller ljud som kan orsaka problem för känsliga"
+                        },
+                        "sound-none": {
+                            "compact": "Inga ljudrisker",
+                            "descriptive": "Publiceringen innehåller inte ljud som kan orsaka problem för känsliga"
+                        },
+                        "sound-unknown": {
+                            "compact": "Okänd risk för ljudfaror",
+                            "descriptive": "Närvaron av ljud som kan orsaka problem för känsliga kan inte bestämmas"
+                        },
+                        "title": "Risker",
+                        "unknown": "Förekomst av risker är okänd"
+                    },
+                    "legal-considerations": {
+                        "exempt": {
+                            "compact": "Hävdar undantag för tillgänglighet i vissa jurisdiktioner",
+                            "descriptive": "Denna publikation hävdar ett tillgänglighetsundantag i vissa jurisdiktioner"
+                        },
+                        "no-metadata": "Information saknas",
+                        "title": "Juridiska överväganden"
+                    },
+                    "navigation": {
+                        "index": {
+                            "compact": "Register",
+                            "descriptive": "Register med länkar till innehållet"
+                        },
+                        "no-metadata": "Information saknas",
+                        "page-navigation": {
+                            "compact": "Gå till sida",
+                            "descriptive": "Sidindelning för navigering enligt sidnummer i tryckt förlaga"
+                        },
+                        "structural": {
+                            "compact": "Rubriker",
+                            "descriptive": "Navigerbara element såsom rubriker eller tabeller"
+                        },
+                        "title": "Navigering",
+                        "toc": {
+                            "compact": "Innehållsförteckning",
+                            "descriptive": "Innehållsförteckning med länkar till alla kapitel"
+                        }
+                    },
+                    "rich-content": {
+                        "accessible-chemistry-as-latex": {
+                            "compact": "Kemiska formler i LaTeX",
+                            "descriptive": "Kemiska formler i tillgängligt format (LaTeX)"
+                        },
+                        "accessible-chemistry-as-mathml": {
+                            "compact": "Kemiska formler i MathML",
+                            "descriptive": "Kemiska formler i tillgängligt format (MathML)"
+                        },
+                        "accessible-math-as-latex": {
+                            "compact": "Matematik som LaTeX",
+                            "descriptive": "Matematiska formler i tillgängligt format (LaTeX)"
+                        },
+                        "accessible-math-described": "Innehåller textbeskrivningar av matematik",
+                        "closed-captions": {
+                            "compact": "Videoklipp har undertext som kan sättas på/stängas av",
+                            "descriptive": "Videoklipp som ingår i publikationen har undertext som kan sättas på och stängas av (stängda undertexter)"
+                        },
+                        "extended-descriptions": "Informationsrika bilder har utökade bildbeskrivningar",
+                        "math-as-mathml": {
+                            "compact": "Matematik som MathML",
+                            "descriptive": "Matematiska formler i tillgängligt format (MathML)"
+                        },
+                        "open-captions": {
+                            "compact": "Videoklipp har undertext som inte kan stängas av",
+                            "descriptive": "Videoklipp som ingår i publikationen har undertext som inte kan stängas av (öppna undertexter)"
+                        },
+                        "title": "Berikat innehåll",
+                        "transcript": "Innehåller transkriptioner",
+                        "unknown": "Information saknas"
+                    },
                     "ways-of-reading": {
-                        "title": "Olika sätt att läsa",
                         "nonvisual-reading": {
                             "alt-text": {
                                 "compact": "Har textalternativ (alt-texter)",
@@ -75,6 +219,7 @@
                                 "descriptive": "Hela innehållet finns tillgängligt som förinspelat ljud synkroniserat med texten"
                             }
                         },
+                        "title": "Olika sätt att läsa",
                         "visual-adjustments": {
                             "modifiable": {
                                 "compact": "Utseendet kan justeras",
@@ -86,215 +231,70 @@
                                 "descriptive": "Text- och sidlayout kan inte ändras eftersom läsupplevelsen är nära en utskriftsversion, men lässystem kan fortfarande ge zoomningsalternativ"
                             }
                         }
-                    },
-                    "conformance": {
-                        "title": "Tillgänglighetskrav",
-                        "a": {
-                            "compact": "Publikationen uppfyller tillgänglighetskrav på en grundläggande nivå",
-                            "descriptive": "Publikationen anger att den uppfyller standarderna EPUB Accessibility och WCAG 2 nivå A"
-                        },
-                        "aa": {
-                            "compact": "Publikationen uppfyller tillgänglighetskrav på en vedertagen nivå",
-                            "descriptive": "Publikationen anger att den uppfyller standarderna EPUB Accessibility och WCAG 2 nivå AA"
-                        },
-                        "aaa": {
-                            "compact": "Publikationen uppfyller tillgänglighetskrav utöver en vedertagen nivå",
-                            "descriptive": "Publikationen anger att den uppfyller standarderna EPUB Accessibility och WCAG 2 nivå AAA"
-                        },
-                        "no": "Information saknas",
-                        "certifier": "Publikationen är certifierad av ",
-                        "certifier-credentials": "Certifierarens märkning är ",
-                        "details": {
-                            "certifier-report": "Se certifieringsrapporten för mer information",
-                            "claim": "Publikationen anger att den uppfyller kraven enligt",
-                            "epub-accessibility-1-0": "EPUB Accessibility 1.0",
-                            "epub-accessibility-1-1": "EPUB Accessibility 1.1",
-                            "level-a": "nivå A",
-                            "level-aa": "nivå AA",
-                            "level-aaa": "nivå AAA",
-                            "wcag-2-0": {
-                                "compact": "WCAG 2.0",
-                                "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.0"
-                            },
-                            "wcag-2-1": {
-                                "compact": "WCAG 2.1",
-                                "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.1"
-                            },
-                            "wcag-2-2": {
-                                "compact": "WCAG 2.2",
-                                "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.2"
-                            },
-                            "certification-info": "Publiceringen certifierades på "
-                        },
-                        "details-title": "Detaljerad information om överensstämmelse",
-                        "unknown-standard": "Överensstämmelse med accepterade standarder för tillgänglighet av denna publikation kan inte fastställas"
-                    },
-                    "navigation": {
-                        "title": "Navigering",
-                        "index": {
-                            "compact": "Register",
-                            "descriptive": "Register med länkar till innehållet"
-                        },
-                        "no-metadata": "Information saknas",
-                        "page-navigation": {
-                            "compact": "Gå till sida",
-                            "descriptive": "Sidindelning för navigering enligt sidnummer i tryckt förlaga"
-                        },
-                        "structural": {
-                            "compact": "Rubriker",
-                            "descriptive": "Navigerbara element såsom rubriker eller tabeller"
-                        },
-                        "toc": {
-                            "compact": "Innehållsförteckning",
-                            "descriptive": "Innehållsförteckning med länkar till alla kapitel"
-                        }
-                    },
-                    "rich-content": {
-                        "title": "Berikat innehåll",
-                        "accessible-chemistry-as-latex": {
-                            "compact": "Kemiska formler i LaTeX",
-                            "descriptive": "Kemiska formler i tillgängligt format (LaTeX)"
-                        },
-                        "accessible-chemistry-as-mathml": {
-                            "compact": "Kemiska formler i MathML",
-                            "descriptive": "Kemiska formler i tillgängligt format (MathML)"
-                        },
-                        "accessible-math-as-latex": {
-                            "compact": "Matematik som LaTeX",
-                            "descriptive": "Matematiska formler i tillgängligt format (LaTeX)"
-                        },
-                        "math-as-mathml": {
-                            "compact": "Matematik som MathML",
-                            "descriptive": "Matematiska formler i tillgängligt format (MathML)"
-                        },
-                        "accessible-math-described": "Innehåller textbeskrivningar av matematik",
-                        "closed-captions": {
-                            "compact": "Videoklipp har undertext som kan sättas på/stängas av",
-                            "descriptive": "Videoklipp som ingår i publikationen har undertext som kan sättas på och stängas av (stängda undertexter)"
-                        },
-                        "extended-descriptions": "Informationsrika bilder har utökade bildbeskrivningar",
-                        "open-captions": {
-                            "compact": "Videoklipp har undertext som inte kan stängas av",
-                            "descriptive": "Videoklipp som ingår i publikationen har undertext som inte kan stängas av (öppna undertexter)"
-                        },
-                        "transcript": "Innehåller transkriptioner",
-                        "unknown": "Information saknas"
-                    },
-                    "hazards": {
-                        "title": "Risker",
-                        "flashing": {
-                            "compact": "Blinkande innehåll",
-                            "descriptive": "Publikationen har blinkande innehåll som kan vara skadligt för ljuskänsliga personer"
-                        },
-                        "flashing-none": {
-                            "descriptive": "Publikationen har inget blinkande innehåll som kan vara skadligt för ljuskänsliga personer",
-                            "compact": "Ingen risk för blinkande ljus"
-                        },
-                        "flashing-unknown": {
-                            "descriptive": "Det går inte att avgöra om publikationen innehåller blinkande innehåll som skulle kunna orsaka illamående",
-                            "compact": "Okänd risk för blinkande ljus"
-                        },
-                        "motion": {
-                            "compact": "Rörelsesimulering",
-                            "descriptive": "Publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående"
-                        },
-                        "motion-none": {
-                            "descriptive": "Publikationen innehåller ingen rörelsesimulering som skulle kunna orsaka illamående",
-                            "compact": "Inga rörelsesimuleringrisker"
-                        },
-                        "motion-unknown": {
-                            "descriptive": "Det går inte att avgöra om publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående",
-                            "compact": "Okänd risk för rörelsesimulering"
-                        },
-                        "no-metadata": "Information saknas",
-                        "none": {
-                            "compact": "Inga risker",
-                            "descriptive": "Publikationen innehåller inga risker"
-                        },
-                        "sound": {
-                            "compact": "Ljud",
-                            "descriptive": "Publiceringen innehåller ljud som kan orsaka problem för känsliga"
-                        },
-                        "unknown": "Förekomst av risker är okänd",
-                        "sound-none": {
-                            "compact": "Inga ljudrisker",
-                            "descriptive": "Publiceringen innehåller inte ljud som kan orsaka problem för känsliga"
-                        },
-                        "sound-unknown": {
-                            "compact": "Okänd risk för ljudfaror",
-                            "descriptive": "Närvaron av ljud som kan orsaka problem för känsliga kan inte bestämmas"
-                        }
-                    },
-                    "accessibility-summary": {
-                        "title": "Kompletterande information om tillgänglighet",
-                        "no-metadata": "Information saknas",
-                        "publisher-contact": "För mer information om tillgängligheten av denna produkt, vänligen kontakta förlaget: "
-                    },
-                    "legal-considerations": {
-                        "no-metadata": "Information saknas",
-                        "title": "Juridiska överväganden",
-                        "exempt": {
-                            "compact": "Hävdar undantag för tillgänglighet i vissa jurisdiktioner",
-                            "descriptive": "Denna publikation hävdar ett tillgänglighetsundantag i vissa jurisdiktioner"
-                        }
-                    },
-                    "additional-accessibility-information": {
-                        "title": "Ytterligare tillgänglighetsinformation",
-                        "aria": {
-                            "compact": "Innehåller ARIA-roller",
-                            "descriptive": "Innehållet har försetts med ARIA-roller för att tydliggöra strukturen och underlätta navigering"
-                        },
-                        "audio-descriptions": "Syntolkning",
-                        "braille": "Punktskrift",
-                        "full-ruby-annotations": "Fullständig ruby-annotering",
-                        "high-contrast-between-foreground-and-background-audio": "Hög kontrast mellan förgrundsljud och bakgrundsljud",
-                        "high-contrast-between-text-and-background": "Hög kontrast mellan text och bakgrund",
-                        "large-print": "Storstil",
-                        "page-breaks": {
-                            "compact": "Innehåller sidnummer",
-                            "descriptive": "Innehåller sidnummer från tryckt förlaga"
-                        },
-                        "ruby-annotations": "Viss ruby-annotering",
-                        "sign-language": "Teckenspråk",
-                        "tactile-graphics": {
-                            "compact": "Innehåller taktila bilder",
-                            "descriptive": "Taktila bilder har lagts till för att tillgängliggöra visuella element för personer med synnedsättning"
-                        },
-                        "tactile-objects": "Taktila 3D-objekt",
-                        "text-to-speech-hinting": "Innehåller uttalsinstruktioner för talsyntes",
-                        "color-not-sole-means-of-conveying-information": "Färg är inte det enda sättet att förmedla information",
-                        "dyslexia-readability": "Dyslexiläsbarhet",
-                        "ultra-high-contrast-between-text-and-background": "Ultra hög kontrast mellan text och bakgrund",
-                        "visible-page-numbering": "Synlig sidnumrering",
-                        "without-background-sounds": "Utan bakgrundsljud"
                     }
                 }
             },
-            "narrator": {
-                "one": "berättare",
-                "other": "berättare"
+            "altIdentifier": {
+                "one": "alternativ identifierare",
+                "other": "alternativa identifierare"
+            },
+            "artist": {
+                "one": "konstnär",
+                "other": "artister"
+            },
+            "author": {
+                "one": "författare",
+                "other": "författare"
+            },
+            "collection": {
+                "one": "redaktionell samling",
+                "other": "redaktionella samlingar"
             },
             "contributor": {
                 "one": "bidragsgivare",
                 "other": "bidragsgivare"
             },
+            "description": "beskrivning",
+            "duration": "längd",
+            "editor": {
+                "one": "redaktör",
+                "other": "redaktörer"
+            },
+            "identifier": {
+                "one": "identifierare",
+                "other": "identifierare"
+            },
+            "illustrator": {
+                "one": "illustratör",
+                "other": "illustratörer"
+            },
+            "language": {
+                "one": "språk",
+                "other": "språk"
+            },
+            "modified": "ändringsdatum",
+            "narrator": {
+                "one": "berättare",
+                "other": "berättare"
+            },
+            "published": "publikationsdatum",
             "publisher": {
                 "one": "utgivare",
                 "other": "utgivare"
+            },
+            "series": {
+                "one": "serie",
+                "other": "serier"
             },
             "subject": {
                 "one": "ämne",
                 "other": "ämnen"
             },
-            "description": "beskrivning",
-            "duration": "längd",
-            "collection": {
-                "one": "redaktionell samling",
-                "other": "redaktionella samlingar"
-            },
-            "series": {
-                "one": "serie",
-                "other": "serier"
+            "subtitle": "Undertext",
+            "title": "titel",
+            "translator": {
+                "one": "översättare",
+                "other": "översättare"
             }
         }
     }

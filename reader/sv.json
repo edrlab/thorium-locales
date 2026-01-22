@@ -53,11 +53,11 @@
                 "auto": "Auto",
                 "dual": {
                     "compact": "2 kol",
-                    "descriptive": "2 kolumner"
+                    "descriptive": "2 kolumner"
                 },
                 "single": {
                     "compact": "1 kol",
-                    "descriptive": "1 kolumn"
+                    "descriptive": "1 kolumn"
                 },
                 "title": "Kolumner"
             },
