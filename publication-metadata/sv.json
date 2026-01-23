@@ -54,7 +54,7 @@
                         "certifier": "Publikationen är certifierad av ",
                         "certifier-credentials": "Certifierarens märkning är ",
                         "details": {
-                            "certification-info": "Publiceringen certifierades ",
+                            "certification-info": "Publikationen certifierades ",
                             "certifier-report": "Se certifieringsrapporten för mer information",
                             "claim": "Publikationen anger att den uppfyller kraven enligt",
                             "epub-accessibility-1-0": "EPUB Accessibility 1.0",
@@ -75,10 +75,10 @@
                                 "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.2"
                             }
                         },
-                        "details-title": "Detaljerad information om tillgänglighet",
+                        "details-title": "Detaljerad information om tillgänglighetskrav",
                         "no": "Information saknas",
                         "title": "Tillgänglighetskrav",
-                        "unknown-standard": "Det går inte att avgöra om denna publikation uppfyller tillgänglighetskrav på en vedertagen nivå"
+                        "unknown-standard": "Det går inte att avgöra om publikationen uppfyller vedertagna tillgänglighetskrav"
                     },
                     "hazards": {
                         "flashing": {
