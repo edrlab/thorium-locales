@@ -1,15 +1,20 @@
 {
     "common": {
         "actions": {
+            "cancel": "Annuler",
             "clear": "Effacer",
             "close": "Fermer",
+            "collapse": "Réduire",
+            "collapseAll": "Tout réduire",
             "decrease": "Diminuer",
             "disable": "Désactiver",
             "enable": "Activer",
             "exit": "Quitter",
+            "expand": "Développer",
+            "expandAll": "Tout développer",
             "increase": "Augmenter",
             "reset": "Réinitialiser",
-            "search": "Chercher",
+            "search": "Rechercher",
             "toggle": "Basculer"
         }
     },
