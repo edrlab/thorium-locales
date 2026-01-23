@@ -23,37 +23,27 @@
             "statusExpiredEnd": "Your loan for this publication expired on {{ date }}. Contact your library to borrow it again.",
             "statusExpiredStart": "This publication will be available on {{ date }}.",
             "statusReturned": "You returned this publication on {{ date }}. Contact your library to borrow it again.",
-            "statusRevoked": {
-                "one": "Access to this publication was revoked by your provider on {{ date }}. It was accessed on {{ count }} device. Contact your provider for more information.",
-                "other": "Access to this publication was revoked by your provider on {{ date }}. It was accessed on {{ count }} devices. Contact your provider for more information."
-            }
+            "statusRevoked_one": "Access to this publication was revoked by your provider on {{ date }}. It was accessed on {{ count }} device. Contact your provider for more information.",
+            "statusRevoked_other": "Access to this publication was revoked by your provider on {{ date }}. It was accessed on {{ count }} devices. Contact your provider for more information."
         },
         "labels": {
             "expired": "Expired",
             "expiresIn": {
                 "days": {
-                    "descriptive": {
-                        "one": "Due in {{ count }} day",
-                        "other": "Due in {{ count }} days"
-                    }
+                    "descriptive_one": "Due in {{ count }} day",
+                    "descriptive_other": "Due in {{ count }} days"
                 },
                 "hours": {
-                    "descriptive": {
-                        "one": "Due in {{ count }} hour",
-                        "other": "Due in {{ count }} hours"
-                    }
+                    "descriptive_one": "Due in {{ count }} hour",
+                    "descriptive_other": "Due in {{ count }} hours"
                 },
                 "minutes": {
-                    "descriptive": {
-                        "one": "Due in {{ count }} minute",
-                        "other": "Due in {{ count }} minutes"
-                    }
+                    "descriptive_one": "Due in {{ count }} minute",
+                    "descriptive_other": "Due in {{ count }} minutes"
                 },
                 "months": {
-                    "descriptive": {
-                        "one": "Due in {{ count }} month",
-                        "other": "Due in {{ count }} months"
-                    }
+                    "descriptive_one": "Due in {{ count }} month",
+                    "descriptive_other": "Due in {{ count }} months"
                 }
             }
         }

@@ -234,77 +234,45 @@
                     }
                 }
             },
-            "artist": {
-                "one": "artista",
-                "other": "artisti"
-            },
-            "author": {
-                "one": "autore",
-                "other": "autori"
-            },
-            "collection": {
-                "one": "collana",
-                "other": "collane"
-            },
-            "colorist": {
-                "one": "colorista",
-                "other": "coloristi"
-            },
-            "contributor": {
-                "one": "contributore",
-                "other": "contributori"
-            },
+            "artist_one": "artista",
+            "artist_other": "artisti",
+            "author_one": "autore",
+            "author_other": "autori",
+            "collection_one": "collana",
+            "collection_other": "collane",
+            "colorist_one": "colorista",
+            "colorist_other": "coloristi",
+            "contributor_one": "contributore",
+            "contributor_other": "contributori",
             "description": "descrizione",
             "duration": "durata",
-            "editor": {
-                "one": "editor",
-                "other": "editori"
-            },
-            "illustrator": {
-                "one": "illustratore",
-                "other": "illustratori"
-            },
-            "imprint": {
-                "one": "marca editoriale",
-                "other": "marche editoriali"
-            },
-            "inker": {
-                "one": "inchiostratore",
-                "other": "inchiostratori"
-            },
-            "language": {
-                "one": "lingua",
-                "other": "lingue"
-            },
+            "editor_one": "editor",
+            "editor_other": "editori",
+            "illustrator_one": "illustratore",
+            "illustrator_other": "illustratori",
+            "imprint_one": "marca editoriale",
+            "imprint_other": "marche editoriali",
+            "inker_one": "inchiostratore",
+            "inker_other": "inchiostratori",
+            "language_one": "lingua",
+            "language_other": "lingue",
             "modified": "Data di modifica",
-            "narrator": {
-                "one": "narratore",
-                "other": "narratori"
-            },
+            "narrator_one": "narratore",
+            "narrator_other": "narratori",
             "numberOfPages": "impaginazione versione cartacea",
-            "penciler": {
-                "one": "disegnatore",
-                "other": "disegnatori"
-            },
+            "penciler_one": "disegnatore",
+            "penciler_other": "disegnatori",
             "published": "Data di pubblicazione",
-            "publisher": {
-                "one": "editore",
-                "other": "editori"
-            },
-            "series": {
-                "one": "serie",
-                "other": "serie"
-            },
-            "subject": {
-                "one": "categoria",
-                "other": "categorie"
-            },
+            "publisher_one": "editore",
+            "publisher_other": "editori",
+            "series_one": "serie",
+            "series_other": "serie",
+            "subject_one": "categoria",
+            "subject_other": "categorie",
             "subtitle": "sottotitolo",
             "title": "titolo",
-            "translator": {
-                "one": "traduttore",
-                "other": "traduttori"
-            }
+            "translator_one": "traduttore",
+            "translator_other": "traduttori"
         }
     }
 }

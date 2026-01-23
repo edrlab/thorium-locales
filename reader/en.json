@@ -200,31 +200,19 @@
             "zoom": "Zoom"
         },
         "progression": {
-            "pagesLeft": {
-                "one": "{{ count }} page left",
-                "other": "{{ count }} pages left"
-            },
-            "pagesLeftInChapter": {
-                "one": "{{ count }} page left in chapter",
-                "other": "{{ count }} pages left in chapter"
-            },
-            "pagesLeftInPublication": {
-                "one": "{{ count }} page left in publication",
-                "other": "{{ count }} pages left in publication"
-            },
+            "pagesLeftInChapter_one": "{{ count }} page left in chapter",
+            "pagesLeftInChapter_other": "{{ count }} pages left in chapter",
+            "pagesLeftInPublication_one": "{{ count }} page left in publication",
+            "pagesLeftInPublication_other": "{{ count }} pages left in publication",
+            "pagesLeft_one": "{{ count }} page left",
+            "pagesLeft_other": "{{ count }} pages left",
             "percentage": "{{ percentage }}%",
-            "positionsLeft": {
-                "one": "{{ count }} position left",
-                "other": "{{ count }} positions left"
-            },
-            "positionsLeftInChapter": {
-                "one": "{{ count }} position left in chapter",
-                "other": "{{ count }} positions left in chapter"
-            },
-            "positionsLeftInPublication": {
-                "one": "{{ count }} position left in publication",
-                "other": "{{ count }} positions left in publication"
-            },
+            "positionsLeftInChapter_one": "{{ count }} position left in chapter",
+            "positionsLeftInChapter_other": "{{ count }} positions left in chapter",
+            "positionsLeftInPublication_one": "{{ count }} position left in publication",
+            "positionsLeftInPublication_other": "{{ count }} positions left in publication",
+            "positionsLeft_one": "{{ count }} position left",
+            "positionsLeft_other": "{{ count }} positions left",
             "range": "{{ start }}–{{ end }}",
             "xOfY": {
                 "compact": "{{ x }} of {{ y }}",

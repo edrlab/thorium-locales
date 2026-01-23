@@ -234,89 +234,51 @@
                     }
                 }
             },
-            "altIdentifier": {
-                "one": "identificador alternativo",
-                "other": "identificadores alternativos"
-            },
-            "artist": {
-                "one": "artista",
-                "other": "artistas"
-            },
-            "author": {
-                "one": "autor",
-                "other": "autores"
-            },
-            "collection": {
-                "one": "coleção",
-                "other": "coleções"
-            },
-            "colorist": {
-                "one": "colorista",
-                "other": "coloristas"
-            },
-            "contributor": {
-                "one": "colaborador",
-                "other": "colaboradores"
-            },
+            "altIdentifier_one": "identificador alternativo",
+            "altIdentifier_other": "identificadores alternativos",
+            "artist_one": "artista",
+            "artist_other": "artistas",
+            "author_one": "autor",
+            "author_other": "autores",
+            "collection_one": "coleção",
+            "collection_other": "coleções",
+            "colorist_one": "colorista",
+            "colorist_other": "coloristas",
+            "contributor_one": "colaborador",
+            "contributor_other": "colaboradores",
             "description": "descrição",
             "duration": "duração",
-            "editor": {
-                "one": "editor",
-                "other": "editores"
-            },
-            "identifier": {
-                "one": "identificador",
-                "other": "identificadores"
-            },
-            "illustrator": {
-                "one": "ilustrador",
-                "other": "ilustradores"
-            },
-            "imprint": {
-                "one": "selo editorial",
-                "other": "selos editoriais"
-            },
-            "inker": {
-                "one": "arte-finalista",
-                "other": "arte-finalistas"
-            },
-            "language": {
-                "one": "idioma",
-                "other": "idiomas"
-            },
-            "letterer": {
-                "one": "letrista",
-                "other": "letristas"
-            },
+            "editor_one": "editor",
+            "editor_other": "editores",
+            "identifier_one": "identificador",
+            "identifier_other": "identificadores",
+            "illustrator_one": "ilustrador",
+            "illustrator_other": "ilustradores",
+            "imprint_one": "selo editorial",
+            "imprint_other": "selos editoriais",
+            "inker_one": "arte-finalista",
+            "inker_other": "arte-finalistas",
+            "language_one": "idioma",
+            "language_other": "idiomas",
+            "letterer_one": "letrista",
+            "letterer_other": "letristas",
             "modified": "data de modificação",
-            "narrator": {
-                "one": "narrador",
-                "other": "narradores"
-            },
+            "narrator_one": "narrador",
+            "narrator_other": "narradores",
             "numberOfPages": "número de páginas",
-            "penciler": {
-                "one": "desenhador",
-                "other": "desenhadores"
-            },
+            "penciler_one": "desenhador",
+            "penciler_other": "desenhadores",
             "published": "data de publicação",
-            "publisher": {
-                "one": "editora",
-                "other": "editoras"
-            },
-            "series": {
-                "one": "série",
-                "other": "séries"
-            },
-            "subject": {
-                "one": "tema",
-                "other": "temas"
-            },
+            "publisher_one": "editora",
+            "publisher_other": "editoras",
+            "series_one": "série",
+            "series_other": "séries",
+            "subject_one": "tema",
+            "subject_other": "temas",
             "subtitle": "subtítulo",
             "title": "título",
-            "translator": {
-                "one": "tradutor",
-                "other": "tradutores"
-            }
+            "translator_one": "tradutor",
+            "translator_other": "tradutores"
         }
     }
 }

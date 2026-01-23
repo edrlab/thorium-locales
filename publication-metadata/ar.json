@@ -234,89 +234,51 @@
                     }
                 }
             },
-            "altIdentifier": {
-                "one": "رمز تعريفي بديل",
-                "other": "رموز تعريفية بديلة"
-            },
-            "artist": {
-                "one": "فنان",
-                "other": "فنانون"
-            },
-            "author": {
-                "one": "مؤلف",
-                "other": "مؤلفون"
-            },
-            "collection": {
-                "one": "سلسلة تحريرية",
-                "other": "سلاسل تحريرية"
-            },
-            "colorist": {
-                "one": "ملوّن الألوان",
-                "other": "ملوّنو الألوان"
-            },
-            "contributor": {
-                "one": "مساهم",
-                "other": "مساهمون"
-            },
+            "altIdentifier_one": "رمز تعريفي بديل",
+            "altIdentifier_other": "رموز تعريفية بديلة",
+            "artist_one": "فنان",
+            "artist_other": "فنانون",
+            "author_one": "مؤلف",
+            "author_other": "مؤلفون",
+            "collection_one": "سلسلة تحريرية",
+            "collection_other": "سلاسل تحريرية",
+            "colorist_one": "ملوّن الألوان",
+            "colorist_other": "ملوّنو الألوان",
+            "contributor_one": "مساهم",
+            "contributor_other": "مساهمون",
             "description": "وصف",
             "duration": "مدة",
-            "editor": {
-                "one": "محرر",
-                "other": "محررون"
-            },
-            "identifier": {
-                "one": "رمز تعريفي",
-                "other": "رموز تعريفية"
-            },
-            "illustrator": {
-                "one": "رسًام",
-                "other": "رسامون"
-            },
-            "imprint": {
-                "one": "العلامة التجارية للنشر",
-                "other": "العلامات التجارية للنشر"
-            },
-            "inker": {
-                "one": "مُحَبِّر",
-                "other": "مُحَبِّرون"
-            },
-            "language": {
-                "one": "اللغة",
-                "other": "اللغات"
-            },
-            "letterer": {
-                "one": "خطّاط",
-                "other": "خطّاطون"
-            },
+            "editor_one": "محرر",
+            "editor_other": "محررون",
+            "identifier_one": "رمز تعريفي",
+            "identifier_other": "رموز تعريفية",
+            "illustrator_one": "رسًام",
+            "illustrator_other": "رسامون",
+            "imprint_one": "العلامة التجارية للنشر",
+            "imprint_other": "العلامات التجارية للنشر",
+            "inker_one": "مُحَبِّر",
+            "inker_other": "مُحَبِّرون",
+            "language_one": "اللغة",
+            "language_other": "اللغات",
+            "letterer_one": "خطّاط",
+            "letterer_other": "خطّاطون",
             "modified": "تاريخ التعديل",
-            "narrator": {
-                "one": "قارئ صوتي",
-                "other": "قرّاء صوتيون"
-            },
+            "narrator_one": "قارئ صوتي",
+            "narrator_other": "قرّاء صوتيون",
             "numberOfPages": "عدد الصفحات في النسخة المطبوعة",
-            "penciler": {
-                "one": "رسّام أولي",
-                "other": "رسّامون أوّليون"
-            },
+            "penciler_one": "رسّام أولي",
+            "penciler_other": "رسّامون أوّليون",
             "published": "تاريخ النشر",
-            "publisher": {
-                "one": "ناشر",
-                "other": "ناشرون"
-            },
-            "series": {
-                "one": "سلسلة",
-                "other": "سلاسل"
-            },
-            "subject": {
-                "one": "موضوع",
-                "other": "مواضيع"
-            },
+            "publisher_one": "ناشر",
+            "publisher_other": "ناشرون",
+            "series_one": "سلسلة",
+            "series_other": "سلاسل",
+            "subject_one": "موضوع",
+            "subject_other": "مواضيع",
             "subtitle": "عنوان فرعي",
             "title": "العنوان",
-            "translator": {
-                "one": "مترجم",
-                "other": "مترجمون"
-            }
+            "translator_one": "مترجم",
+            "translator_other": "مترجمون"
         }
     }
 }

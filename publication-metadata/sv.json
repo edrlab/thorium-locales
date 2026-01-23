@@ -234,89 +234,51 @@
                     }
                 }
             },
-            "altIdentifier": {
-                "one": "alternativ identifierare",
-                "other": "alternativa identifierare"
-            },
-            "artist": {
-                "one": "konstnär",
-                "other": "konstnärer"
-            },
-            "author": {
-                "one": "författare",
-                "other": "författare"
-            },
-            "collection": {
-                "one": "samling",
-                "other": "samlingar"
-            },
-            "colorist": {
-                "one": "kolorist",
-                "other": "kolorister"
-            },
-            "contributor": {
-                "one": "medverkande",
-                "other": "medverkande"
-            },
+            "altIdentifier_one": "alternativ identifierare",
+            "altIdentifier_other": "alternativa identifierare",
+            "artist_one": "konstnär",
+            "artist_other": "konstnärer",
+            "author_one": "författare",
+            "author_other": "författare",
+            "collection_one": "samling",
+            "collection_other": "samlingar",
+            "colorist_one": "kolorist",
+            "colorist_other": "kolorister",
+            "contributor_one": "medverkande",
+            "contributor_other": "medverkande",
             "description": "beskrivning",
             "duration": "speltid",
-            "editor": {
-                "one": "redaktör",
-                "other": "redaktörer"
-            },
-            "identifier": {
-                "one": "identifierare",
-                "other": "identifierare"
-            },
-            "illustrator": {
-                "one": "illustratör",
-                "other": "illustratörer"
-            },
-            "imprint": {
-                "one": "imprint",
-                "other": "imprint"
-            },
-            "inker": {
-                "one": "tuschare",
-                "other": "tuschare"
-            },
-            "language": {
-                "one": "språk",
-                "other": "språk"
-            },
-            "letterer": {
-                "one": "textare",
-                "other": "textare"
-            },
+            "editor_one": "redaktör",
+            "editor_other": "redaktörer",
+            "identifier_one": "identifierare",
+            "identifier_other": "identifierare",
+            "illustrator_one": "illustratör",
+            "illustrator_other": "illustratörer",
+            "imprint_one": "imprint",
+            "imprint_other": "imprint",
+            "inker_one": "tuschare",
+            "inker_other": "tuschare",
+            "language_one": "språk",
+            "language_other": "språk",
+            "letterer_one": "textare",
+            "letterer_other": "textare",
             "modified": "ändringsdatum",
-            "narrator": {
-                "one": "berättarröst",
-                "other": "berättarröster"
-            },
+            "narrator_one": "berättarröst",
+            "narrator_other": "berättarröster",
             "numberOfPages": "sidantal",
-            "penciler": {
-                "one": "tecknare",
-                "other": "tecknare"
-            },
+            "penciler_one": "tecknare",
+            "penciler_other": "tecknare",
             "published": "publikationsdatum",
-            "publisher": {
-                "one": "förlag",
-                "other": "förlag"
-            },
-            "series": {
-                "one": "serie",
-                "other": "serier"
-            },
-            "subject": {
-                "one": "ämne",
-                "other": "ämnen"
-            },
+            "publisher_one": "förlag",
+            "publisher_other": "förlag",
+            "series_one": "serie",
+            "series_other": "serier",
+            "subject_one": "ämne",
+            "subject_other": "ämnen",
             "subtitle": "undertitel",
             "title": "titel",
-            "translator": {
-                "one": "översättare",
-                "other": "översättare"
-            }
+            "translator_one": "översättare",
+            "translator_other": "översättare"
         }
     }
 }

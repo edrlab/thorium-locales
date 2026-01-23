@@ -17,22 +17,14 @@
             "zip": "ZIP Arşivi"
         },
         "kind": {
-            "audiobook": {
-                "one": "Sesli Kitap",
-                "other": "Sesli Kitaplar"
-            },
-            "book": {
-                "one": "kitap",
-                "other": "kitaplar"
-            },
-            "comic": {
-                "one": "çizgi roman",
-                "other": "çizgi romanlar"
-            },
-            "document": {
-                "one": "belge",
-                "other": "belgeler"
-            }
+            "audiobook_one": "Sesli Kitap",
+            "audiobook_other": "Sesli Kitaplar",
+            "book_one": "kitap",
+            "book_other": "kitaplar",
+            "comic_one": "çizgi roman",
+            "comic_other": "çizgi romanlar",
+            "document_one": "belge",
+            "document_other": "belgeler"
         }
     }
 }

@@ -150,31 +150,19 @@
             "zoom": "Tarkennus"
         },
         "progression": {
-            "pagesLeft": {
-                "one": "{{ count }} sivu jäljellä",
-                "other": "{{ count }} sivua jäljellä"
-            },
-            "pagesLeftInChapter": {
-                "one": "{{ count }} sivu jäljellä luvussa",
-                "other": "{{ count }} sivua jäljellä luvussa"
-            },
-            "pagesLeftInPublication": {
-                "one": "{{ count }} sivu jäljellä julkaisussa",
-                "other": "{{ count }} sivua jäljellä julkaisussa"
-            },
+            "pagesLeftInChapter_one": "{{ count }} sivu jäljellä luvussa",
+            "pagesLeftInChapter_other": "{{ count }} sivua jäljellä luvussa",
+            "pagesLeftInPublication_one": "{{ count }} sivu jäljellä julkaisussa",
+            "pagesLeftInPublication_other": "{{ count }} sivua jäljellä julkaisussa",
+            "pagesLeft_one": "{{ count }} sivu jäljellä",
+            "pagesLeft_other": "{{ count }} sivua jäljellä",
             "percentage": "{{ percentage }}%",
-            "positionsLeft": {
-                "one": "{{ count }} sijainti jäljellä",
-                "other": "{{ count }} sijaintia jäljellä"
-            },
-            "positionsLeftInChapter": {
-                "one": "{{ count }} sijainti jäljellä luvussa",
-                "other": "{{ count }} jäljellä kohdassa nykyinen luku"
-            },
-            "positionsLeftInPublication": {
-                "one": "{{ count }} sijaintia jäljellä luvussa",
-                "other": "{{ count }} jäljellä kohdassa julkaisu"
-            },
+            "positionsLeftInChapter_one": "{{ count }} sijainti jäljellä luvussa",
+            "positionsLeftInChapter_other": "{{ count }} jäljellä kohdassa nykyinen luku",
+            "positionsLeftInPublication_one": "{{ count }} sijaintia jäljellä luvussa",
+            "positionsLeftInPublication_other": "{{ count }} jäljellä kohdassa julkaisu",
+            "positionsLeft_one": "{{ count }} sijainti jäljellä",
+            "positionsLeft_other": "{{ count }} sijaintia jäljellä",
             "range": "{{ start }}–{{ end }}",
             "xOfY": {
                 "compact": "{{ x }} / {{ y }}",

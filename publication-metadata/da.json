@@ -234,89 +234,51 @@
                     }
                 }
             },
-            "altIdentifier": {
-                "one": "alternativt ID",
-                "other": "alternative ID'er"
-            },
-            "artist": {
-                "one": "kunstner",
-                "other": "kunstnere"
-            },
-            "author": {
-                "one": "forfatter",
-                "other": "forfattere"
-            },
-            "collection": {
-                "one": "redaktionel samling",
-                "other": "redaktionelle samlinger"
-            },
-            "colorist": {
-                "one": "farvelægger",
-                "other": "farvelæggere"
-            },
-            "contributor": {
-                "one": "bidragsyder",
-                "other": "bidragsydere"
-            },
+            "altIdentifier_one": "alternativt ID",
+            "altIdentifier_other": "alternative ID'er",
+            "artist_one": "kunstner",
+            "artist_other": "kunstnere",
+            "author_one": "forfatter",
+            "author_other": "forfattere",
+            "collection_one": "redaktionel samling",
+            "collection_other": "redaktionelle samlinger",
+            "colorist_one": "farvelægger",
+            "colorist_other": "farvelæggere",
+            "contributor_one": "bidragsyder",
+            "contributor_other": "bidragsydere",
             "description": "beskrivelse",
             "duration": "varighed",
-            "editor": {
-                "one": "redaktør",
-                "other": "redaktører"
-            },
-            "identifier": {
-                "one": "ID",
-                "other": "ID'er"
-            },
-            "illustrator": {
-                "one": "illustrator",
-                "other": "illustratorer"
-            },
-            "imprint": {
-                "one": "trykkeri",
-                "other": "trykkerier"
-            },
-            "inker": {
-                "one": "tegner",
-                "other": "tegnere"
-            },
-            "language": {
-                "one": "sprog",
-                "other": "sprog"
-            },
-            "letterer": {
-                "one": "taleboble-forfatter",
-                "other": "taleboble-forfattere"
-            },
+            "editor_one": "redaktør",
+            "editor_other": "redaktører",
+            "identifier_one": "ID",
+            "identifier_other": "ID'er",
+            "illustrator_one": "illustrator",
+            "illustrator_other": "illustratorer",
+            "imprint_one": "trykkeri",
+            "imprint_other": "trykkerier",
+            "inker_one": "tegner",
+            "inker_other": "tegnere",
+            "language_one": "sprog",
+            "language_other": "sprog",
+            "letterer_one": "taleboble-forfatter",
+            "letterer_other": "taleboble-forfattere",
             "modified": "rettet dato",
-            "narrator": {
-                "one": "indlæser",
-                "other": "indlæsere"
-            },
+            "narrator_one": "indlæser",
+            "narrator_other": "indlæsere",
             "numberOfPages": "printbare sider",
-            "penciler": {
-                "one": "tegneseriekunstner",
-                "other": "tegneseriekunstnere"
-            },
+            "penciler_one": "tegneseriekunstner",
+            "penciler_other": "tegneseriekunstnere",
             "published": "udgivelsesdato",
-            "publisher": {
-                "one": "udgiver",
-                "other": "udgivere"
-            },
-            "series": {
-                "one": "serie",
-                "other": "serier"
-            },
-            "subject": {
-                "one": "emne",
-                "other": "emner"
-            },
+            "publisher_one": "udgiver",
+            "publisher_other": "udgivere",
+            "series_one": "serie",
+            "series_other": "serier",
+            "subject_one": "emne",
+            "subject_other": "emner",
             "subtitle": "undertitel",
             "title": "titel",
-            "translator": {
-                "one": "oversætter",
-                "other": "oversættere"
-            }
+            "translator_one": "oversætter",
+            "translator_other": "oversættere"
         }
     }
 }
