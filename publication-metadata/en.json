@@ -17,22 +17,14 @@
             "zip": "ZIP Archive"
         },
         "kind": {
-            "audiobook": {
-                "one": "audiobook",
-                "other": "audiobooks"
-            },
-            "book": {
-                "one": "book",
-                "other": "books"
-            },
-            "comic": {
-                "one": "comic",
-                "other": "comics"
-            },
-            "document": {
-                "one": "document",
-                "other": "documents"
-            }
+            "audiobook_one": "audiobook",
+            "audiobook_other": "audiobooks",
+            "book_one": "book",
+            "book_other": "books",
+            "comic_one": "comic",
+            "comic_other": "comics",
+            "document_one": "document",
+            "document_other": "documents"
         },
         "metadata": {
             "accessibility": {
@@ -268,89 +260,51 @@
                     }
                 }
             },
-            "altIdentifier": {
-                "one": "alternate identifier",
-                "other": "alternate identifiers"
-            },
-            "artist": {
-                "one": "artist",
-                "other": "artists"
-            },
-            "author": {
-                "one": "author",
-                "other": "authors"
-            },
-            "collection": {
-                "one": "editorial collection",
-                "other": "editorial collections"
-            },
-            "colorist": {
-                "one": "colorist",
-                "other": "colorists"
-            },
-            "contributor": {
-                "one": "contributor",
-                "other": "contributors"
-            },
+            "altIdentifier_one": "alternate identifier",
+            "altIdentifier_other": "alternate identifiers",
+            "artist_one": "artist",
+            "artist_other": "artists",
+            "author_one": "author",
+            "author_other": "authors",
+            "collection_one": "editorial collection",
+            "collection_other": "editorial collections",
+            "colorist_one": "colorist",
+            "colorist_other": "colorists",
+            "contributor_one": "contributor",
+            "contributor_other": "contributors",
             "description": "description",
             "duration": "duration",
-            "editor": {
-                "one": "editor",
-                "other": "editors"
-            },
-            "identifier": {
-                "one": "identifier",
-                "other": "identifiers"
-            },
-            "illustrator": {
-                "one": "illustrator",
-                "other": "illustrators"
-            },
-            "imprint": {
-                "one": "imprint",
-                "other": "imprints"
-            },
-            "inker": {
-                "one": "inker",
-                "other": "inkers"
-            },
-            "language": {
-                "one": "language",
-                "other": "languages"
-            },
-            "letterer": {
-                "one": "letterer",
-                "other": "letterers"
-            },
+            "editor_one": "editor",
+            "editor_other": "editors",
+            "identifier_one": "identifier",
+            "identifier_other": "identifiers",
+            "illustrator_one": "illustrator",
+            "illustrator_other": "illustrators",
+            "imprint_one": "imprint",
+            "imprint_other": "imprints",
+            "inker_one": "inker",
+            "inker_other": "inkers",
+            "language_one": "language",
+            "language_other": "languages",
+            "letterer_one": "letterer",
+            "letterer_other": "letterers",
             "modified": "modification date",
-            "narrator": {
-                "one": "narrator",
-                "other": "narrators"
-            },
+            "narrator_one": "narrator",
+            "narrator_other": "narrators",
             "numberOfPages": "print length",
-            "penciler": {
-                "one": "penciler",
-                "other": "pencilers"
-            },
+            "penciler_one": "penciler",
+            "penciler_other": "pencilers",
             "published": "publication date",
-            "publisher": {
-                "one": "publisher",
-                "other": "publishers"
-            },
-            "series": {
-                "one": "series",
-                "other": "series"
-            },
-            "subject": {
-                "one": "subject",
-                "other": "subjects"
-            },
+            "publisher_one": "publisher",
+            "publisher_other": "publishers",
+            "series_one": "series",
+            "series_other": "series",
+            "subject_one": "subject",
+            "subject_other": "subjects",
             "subtitle": "subtitle",
             "title": "title",
-            "translator": {
-                "one": "translator",
-                "other": "translators"
-            }
+            "translator_one": "translator",
+            "translator_other": "translators"
         }
     }
 }

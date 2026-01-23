@@ -234,89 +234,51 @@
                     }
                 }
             },
-            "altIdentifier": {
-                "one": "identifiant alternatif",
-                "other": "identifiants alternatifs"
-            },
-            "artist": {
-                "one": "artiste",
-                "other": "artiste"
-            },
-            "author": {
-                "one": "auteur",
-                "other": "auteurs"
-            },
-            "collection": {
-                "one": "collection éditoriale",
-                "other": "collections éditoriales"
-            },
-            "colorist": {
-                "one": "coloriste",
-                "other": "coloristes"
-            },
-            "contributor": {
-                "one": "contributeur",
-                "other": "contributeurs"
-            },
+            "altIdentifier_one": "identifiant alternatif",
+            "altIdentifier_other": "identifiants alternatifs",
+            "artist_one": "artiste",
+            "artist_other": "artiste",
+            "author_one": "auteur",
+            "author_other": "auteurs",
+            "collection_one": "collection éditoriale",
+            "collection_other": "collections éditoriales",
+            "colorist_one": "coloriste",
+            "colorist_other": "coloristes",
+            "contributor_one": "contributeur",
+            "contributor_other": "contributeurs",
             "description": "description",
             "duration": "durée",
-            "editor": {
-                "one": "éditeur",
-                "other": "éditeurs"
-            },
-            "identifier": {
-                "one": "identifiant",
-                "other": "identifiants"
-            },
-            "illustrator": {
-                "one": "illustrateur",
-                "other": "illustrateurs"
-            },
-            "imprint": {
-                "one": "marque éditoriale",
-                "other": "marques éditoriales"
-            },
-            "inker": {
-                "one": "encreur",
-                "other": "encreurs"
-            },
-            "language": {
-                "one": "langue",
-                "other": "langues"
-            },
-            "letterer": {
-                "one": "lettreur",
-                "other": "lettreurs"
-            },
+            "editor_one": "éditeur",
+            "editor_other": "éditeurs",
+            "identifier_one": "identifiant",
+            "identifier_other": "identifiants",
+            "illustrator_one": "illustrateur",
+            "illustrator_other": "illustrateurs",
+            "imprint_one": "marque éditoriale",
+            "imprint_other": "marques éditoriales",
+            "inker_one": "encreur",
+            "inker_other": "encreurs",
+            "language_one": "langue",
+            "language_other": "langues",
+            "letterer_one": "lettreur",
+            "letterer_other": "lettreurs",
             "modified": "date de modification",
-            "narrator": {
-                "one": "narrateur",
-                "other": "narrateurs"
-            },
+            "narrator_one": "narrateur",
+            "narrator_other": "narrateurs",
             "numberOfPages": "pagination papier",
-            "penciler": {
-                "one": "dessinateur",
-                "other": "dessinateurs"
-            },
+            "penciler_one": "dessinateur",
+            "penciler_other": "dessinateurs",
             "published": "date de publication",
-            "publisher": {
-                "one": "éditeur",
-                "other": "éditeurs"
-            },
-            "series": {
-                "one": "série",
-                "other": "séries"
-            },
-            "subject": {
-                "one": "catégorie",
-                "other": "catégories"
-            },
+            "publisher_one": "éditeur",
+            "publisher_other": "éditeurs",
+            "series_one": "série",
+            "series_other": "séries",
+            "subject_one": "catégorie",
+            "subject_other": "catégories",
             "subtitle": "sous-titre",
             "title": "titre",
-            "translator": {
-                "one": "traducteur",
-                "other": "traducteurs"
-            }
+            "translator_one": "traducteur",
+            "translator_other": "traducteurs"
         }
     }
 }
