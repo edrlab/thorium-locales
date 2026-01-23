@@ -1,1 +1,38 @@
-{}
+{
+    "publication": {
+        "format": {
+            "audiobook": "Sesli Kitap",
+            "audiobookJSON": "Sesli Kitap Manifest Dosyası",
+            "cbz": "Çizgi Roman Arşivi",
+            "divina": "Divina Yayını",
+            "divinaJSON": "Divina Yayını Manifest Dosyası",
+            "epub": "EPUB",
+            "lcpa": "LCP Korumalı Sesli Kitap",
+            "lcpdf": "LCP Korumalı PDF",
+            "lcpl": "LCP Lisans Belgesi",
+            "pdf": "PDF",
+            "rwp": "Readium Web Yayını",
+            "rwpm": "Readium Web Yayını Manifest Dosyası",
+            "zab": "Sesli Kitap Arşivi",
+            "zip": "ZIP Arşivi"
+        },
+        "kind": {
+            "audiobook": {
+                "one": "Sesli Kitap",
+                "other": "Sesli Kitaplar"
+            },
+            "book": {
+                "one": "kitap",
+                "other": "kitaplar"
+            },
+            "comic": {
+                "one": "çizgi roman",
+                "other": "çizgi romanlar"
+            },
+            "document": {
+                "one": "belge",
+                "other": "belgeler"
+            }
+        }
+    }
+}
