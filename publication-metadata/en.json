@@ -1,5 +1,39 @@
 {
     "publication": {
+        "format": {
+            "audiobook": "Audiobook",
+            "audiobookJSON": "Audiobook Manifest",
+            "cbz": "Comic Book Archive",
+            "divina": "Divina Publication",
+            "divinaJSON": "Divina Publication Manifest",
+            "epub": "EPUB",
+            "lcpa": "LCP Protected Audiobook",
+            "lcpdf": "LCP Protected PDF",
+            "lcpl": "LCP License Document",
+            "pdf": "PDF",
+            "rwp": "Readium Web Publication",
+            "rwpm": "Readium Web Publication Manifest",
+            "zab": "Audiobook Archive",
+            "zip": "ZIP Archive"
+        },
+        "kind": {
+            "audiobook": {
+                "one": "audiobook",
+                "other": "audiobooks"
+            },
+            "book": {
+                "one": "book",
+                "other": "books"
+            },
+            "comic": {
+                "one": "comic",
+                "other": "comics"
+            },
+            "document": {
+                "one": "document",
+                "other": "documents"
+            }
+        },
         "metadata": {
             "accessibility": {
                 "display-guide": {

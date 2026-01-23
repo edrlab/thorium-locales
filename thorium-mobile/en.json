@@ -1,0 +1,172 @@
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Website"
+                }
+            },
+            "title": "Third-party software"
+        },
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\nAll rights reserved.",
+        "title": "About",
+        "version": "Version {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filter"
+            },
+            "sort": {
+                "compact": "Sort by"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Your bookshelf is empty. Start by adding your first book, audiobook, or comic to begin reading.",
+                "filter": "No publications match this filter. Show your entire bookshelf to see all your titles.",
+                "kind": "No publications match the selected type. Try showing all types to see more from your bookshelf."
+            },
+            "title": "No publications found"
+        },
+        "filter": {
+            "all": "All",
+            "currentlyReading": "Currently reading",
+            "finished": "Finished",
+            "notStartedYet": "Not started yet",
+            "recentlyAdded": "Recently added",
+            "samples": "Samples",
+            "type": "Type"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Explore"
+            }
+        },
+        "sort": {
+            "author": "Author",
+            "finished": "Completion date",
+            "lastAdded": "Last added",
+            "lastRead": "Last read",
+            "title": "Title"
+        },
+        "title": "Bookshelf",
+        "view": {
+            "grid": "Grid",
+            "list": "List",
+            "title": "Display view"
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Cancel",
+            "close": "Close",
+            "collapse": "Collapse",
+            "collapseAll": "Collapse all",
+            "expand": "Expand",
+            "expandAll": "Expand all",
+            "search": "Search",
+            "showMoreOptions": "More options"
+        },
+        "confirmation": {
+            "title": "Are you sure?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Details"
+                }
+            },
+            "cancelled": "Operation cancelled.",
+            "title": "Error",
+            "unexpected": "Something went wrong. Please try again."
+        },
+        "file": {
+            "errors": {
+                "corrupted": "We couldn't open this content. The file might be corrupted or use a format we don't support. Please try with a different file.",
+                "forbidden": "Cannot open file. Access denied.",
+                "formatNotSupported": "Unsupported file type. Please try a different file.",
+                "insufficientSpace": "There's not enough disk space to download or import this file. Please free up some space and try again.",
+                "notFound": "Couldn't open file. The file was not found.",
+                "protocolNotSupported": "This publication can't be opened from its current location. Try downloading it first or contact the book store for support."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Something went wrong. Please check your internet connection or try again later.",
+                "forbidden": "You don't have permission to access this content.",
+                "malformedResponse": "Cannot load this content. There's a problem with the server. Please try again later.",
+                "methodNotSupported": "The server doesn't support the required loading method.",
+                "notFound": "Content not found.",
+                "offline": "You're offline. Check your internet connection.",
+                "security": "Secure connection failed. Please try again later.",
+                "timeout": "Connection timed out. Please try again.",
+                "unauthorized": "You need to be signed in to access this content.",
+                "unreachable": "Could not connect to the server."
+            }
+        }
+    },
+    "home": {
+        "title": "Home"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Open Book"
+        },
+        "openBookshelf": {
+            "description": "Opens the app to your bookshelf.",
+            "title": "Open Bookshelf"
+        }
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Import"
+            },
+            "listen": {
+                "compact": "Listen"
+            },
+            "markAsFinished": {
+                "compact": "Mark as finished"
+            },
+            "markAsNotStarted": {
+                "compact": "Mark as not started"
+            },
+            "markAsUnfinished": {
+                "compact": "Mark as unfinished"
+            },
+            "read": {
+                "compact": "Read"
+            },
+            "remove": {
+                "compact": "Remove",
+                "confirmation": "Are you sure you want to remove \"{{ title }}\"? This action cannot be undone."
+            },
+            "rename": {
+                "compact": "Rename",
+                "descriptive": "Rename publication"
+            }
+        },
+        "labels": {
+            "emptyContributors": "None",
+            "sample": "Sample",
+            "unknownTitle": "Unknown title"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Always displayed",
+            "hidden": "Hidden",
+            "title": "Mini audio player",
+            "whenPlaying": "Show when playing"
+        },
+        "systemSettings": "System settings",
+        "theme": {
+            "dark": "Dark",
+            "light": "Light",
+            "system": "System default",
+            "title": "Theme"
+        },
+        "title": "Settings"
+    }
+}
