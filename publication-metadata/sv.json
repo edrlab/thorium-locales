@@ -5,7 +5,7 @@
                 "display-guide": {
                     "accessibility-summary": {
                         "no-metadata": "Information saknas",
-                        "publisher-contact": "För mer information om tillgängligheten av denna produkt, vänligen kontakta förlaget: ",
+                        "publisher-contact": "För mer information om den här publikationens tillgänglighet, kontakta utgivaren: ",
                         "title": "Kompletterande information om tillgänglighet"
                     },
                     "additional-accessibility-information": {
@@ -15,8 +15,8 @@
                         },
                         "audio-descriptions": "Syntolkning",
                         "braille": "Punktskrift",
-                        "color-not-sole-means-of-conveying-information": "Färg är inte det enda sättet att förmedla information",
-                        "dyslexia-readability": "Dyslexiläsbarhet",
+                        "color-not-sole-means-of-conveying-information": "Betydelse uttrycks aldrig enbart med färg",
+                        "dyslexia-readability": "Förbättrad läsbarhet för personer med dyslexi",
                         "full-ruby-annotations": "Fullständig ruby-annotering",
                         "high-contrast-between-foreground-and-background-audio": "Hög kontrast mellan förgrundsljud och bakgrundsljud",
                         "high-contrast-between-text-and-background": "Hög kontrast mellan text och bakgrund",
@@ -34,7 +34,7 @@
                         "tactile-objects": "Taktila 3D-objekt",
                         "text-to-speech-hinting": "Innehåller uttalsinstruktioner för talsyntes",
                         "title": "Ytterligare tillgänglighetsinformation",
-                        "ultra-high-contrast-between-text-and-background": "Ultra hög kontrast mellan text och bakgrund",
+                        "ultra-high-contrast-between-text-and-background": "Extra hög kontrast mellan text och bakgrund",
                         "visible-page-numbering": "Synlig sidnumrering",
                         "without-background-sounds": "Utan bakgrundsljud"
                     },
@@ -54,7 +54,7 @@
                         "certifier": "Publikationen är certifierad av ",
                         "certifier-credentials": "Certifierarens märkning är ",
                         "details": {
-                            "certification-info": "Publiceringen certifierades på ",
+                            "certification-info": "Publiceringen certifierades ",
                             "certifier-report": "Se certifieringsrapporten för mer information",
                             "claim": "Publikationen anger att den uppfyller kraven enligt",
                             "epub-accessibility-1-0": "EPUB Accessibility 1.0",
@@ -75,10 +75,10 @@
                                 "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.2"
                             }
                         },
-                        "details-title": "Detaljerad information om överensstämmelse",
+                        "details-title": "Detaljerad information om tillgänglighet",
                         "no": "Information saknas",
                         "title": "Tillgänglighetskrav",
-                        "unknown-standard": "Överensstämmelse med accepterade standarder för tillgänglighet av denna publikation kan inte fastställas"
+                        "unknown-standard": "Det går inte att avgöra om denna publikation uppfyller tillgänglighetskrav på en vedertagen nivå"
                     },
                     "hazards": {
                         "flashing": {
@@ -86,24 +86,24 @@
                             "descriptive": "Publikationen har blinkande innehåll som kan vara skadligt för ljuskänsliga personer"
                         },
                         "flashing-none": {
-                            "compact": "Ingen risk för blinkande ljus",
-                            "descriptive": "Publikationen har inget blinkande innehåll som kan vara skadligt för ljuskänsliga personer"
+                            "compact": "Inget blinkande innehåll",
+                            "descriptive": "Publikationen har inget blinkande innehåll"
                         },
                         "flashing-unknown": {
-                            "compact": "Okänd risk för blinkande ljus",
-                            "descriptive": "Det går inte att avgöra om publikationen innehåller blinkande innehåll som skulle kunna orsaka illamående"
+                            "compact": "Förekomst av blinkande innehåll är okänd",
+                            "descriptive": "Förekomst av blinkande innehåll är okänd"
                         },
                         "motion": {
                             "compact": "Rörelsesimulering",
                             "descriptive": "Publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående"
                         },
                         "motion-none": {
-                            "compact": "Inga rörelsesimuleringrisker",
-                            "descriptive": "Publikationen innehåller ingen rörelsesimulering som skulle kunna orsaka illamående"
+                            "compact": "Ingen rörelsesimulering",
+                            "descriptive": "Publikationen innehåller ingen rörelsesimulering"
                         },
                         "motion-unknown": {
-                            "compact": "Okänd risk för rörelsesimulering",
-                            "descriptive": "Det går inte att avgöra om publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående"
+                            "compact": "Förekomst av rörelsesimulering är okänd",
+                            "descriptive": "Förekomst av rörelsesimulering är okänd"
                         },
                         "no-metadata": "Information saknas",
                         "none": {
@@ -112,26 +112,26 @@
                         },
                         "sound": {
                             "compact": "Ljud",
-                            "descriptive": "Publiceringen innehåller ljud som kan orsaka problem för känsliga"
+                            "descriptive": "Publikationen innehåller ljud som kan orsaka obehag"
                         },
                         "sound-none": {
-                            "compact": "Inga ljudrisker",
-                            "descriptive": "Publiceringen innehåller inte ljud som kan orsaka problem för känsliga"
+                            "compact": "Inget ljud som kan orsaka obehag",
+                            "descriptive": "Publikationen innehåller inget ljud som kan orsaka obehag"
                         },
                         "sound-unknown": {
-                            "compact": "Okänd risk för ljudfaror",
-                            "descriptive": "Närvaron av ljud som kan orsaka problem för känsliga kan inte bestämmas"
+                            "compact": "Förekomst av ljud som kan orsaka obehag är okänd",
+                            "descriptive": "Förekomst av ljud som kan orsaka obehag är okänd"
                         },
                         "title": "Risker",
                         "unknown": "Förekomst av risker är okänd"
                     },
                     "legal-considerations": {
                         "exempt": {
-                            "compact": "Hävdar undantag för tillgänglighet i vissa jurisdiktioner",
-                            "descriptive": "Denna publikation hävdar ett tillgänglighetsundantag i vissa jurisdiktioner"
+                            "compact": "Åberopar ett undantag från vissa lagstadgade tillgänglighetskrav",
+                            "descriptive": "Publikationen åberopar ett undantag från vissa lagstadgade tillgänglighetskrav"
                         },
                         "no-metadata": "Information saknas",
-                        "title": "Juridiska överväganden"
+                        "title": "Juridiska aspekter"
                     },
                     "navigation": {
                         "index": {
@@ -228,7 +228,7 @@
                             "unknown": "Information om möjlighet att justera utseende saknas",
                             "unmodifiable": {
                                 "compact": "Utseendet kan inte justeras",
-                                "descriptive": "Text- och sidlayout kan inte ändras eftersom läsupplevelsen är nära en utskriftsversion, men lässystem kan fortfarande ge zoomningsalternativ"
+                                "descriptive": "Text- och sidlayout kan inte justeras eftersom presentationen liknar en tryckt version, men läsprogram kan ha funktioner för att zooma in"
                             }
                         }
                     }
@@ -240,22 +240,26 @@
             },
             "artist": {
                 "one": "konstnär",
-                "other": "artister"
+                "other": "konstnärer"
             },
             "author": {
                 "one": "författare",
                 "other": "författare"
             },
             "collection": {
-                "one": "redaktionell samling",
-                "other": "redaktionella samlingar"
+                "one": "samling",
+                "other": "samlingar"
+            },
+            "colorist": {
+                "one": "kolorist",
+                "other": "kolorister"
             },
             "contributor": {
-                "one": "bidragsgivare",
-                "other": "bidragsgivare"
+                "one": "medverkande",
+                "other": "medverkande"
             },
             "description": "beskrivning",
-            "duration": "längd",
+            "duration": "speltid",
             "editor": {
                 "one": "redaktör",
                 "other": "redaktörer"
@@ -268,19 +272,36 @@
                 "one": "illustratör",
                 "other": "illustratörer"
             },
+            "imprint": {
+                "one": "imprint",
+                "other": "imprint"
+            },
+            "inker": {
+                "one": "tuschare",
+                "other": "tuschare"
+            },
             "language": {
                 "one": "språk",
                 "other": "språk"
             },
+            "letterer": {
+                "one": "textare",
+                "other": "textare"
+            },
             "modified": "ändringsdatum",
             "narrator": {
-                "one": "berättare",
-                "other": "berättare"
+                "one": "berättarröst",
+                "other": "berättarröster"
+            },
+            "numberOfPages": "sidantal",
+            "penciler": {
+                "one": "tecknare",
+                "other": "tecknare"
             },
             "published": "publikationsdatum",
             "publisher": {
-                "one": "utgivare",
-                "other": "utgivare"
+                "one": "förlag",
+                "other": "förlag"
             },
             "series": {
                 "one": "serie",
@@ -290,7 +311,7 @@
                 "one": "ämne",
                 "other": "ämnen"
             },
-            "subtitle": "Undertext",
+            "subtitle": "undertitel",
             "title": "titel",
             "translator": {
                 "one": "översättare",

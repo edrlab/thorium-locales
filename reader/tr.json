@@ -39,8 +39,10 @@
             },
             "fontFamily": {
                 "publisher": "Yayımcının yazı biçimi",
+                "sans": "Sans-serif",
                 "title": "Yazı biçimi ailesi"
             },
+            "fontSize": "Yazı tipi boyutu",
             "title": "Görüntüleme Ayarları"
         },
         "progression": {
