@@ -1,4 +1,15 @@
 {
+    "common": {
+        "actions": {
+            "cancel": "Katkesta",
+            "close": "Sulge",
+            "collapse": "Ahenda vaadet",
+            "collapseAll": "Ahenda kõik",
+            "expand": "Laienda vaadet",
+            "expandAll": "Laienda kõik",
+            "search": "Otsi"
+        }
+    },
     "reader": {
         "actions": {
             "goBackward": "Mine tagasi",
