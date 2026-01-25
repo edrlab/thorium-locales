@@ -1,1 +1,47 @@
-{}
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Veebisait"
+                }
+            },
+            "title": "Kolmandate osapoolte loodud tarkvara"
+        },
+        "copyright": "Autoriõigused {{ year }} European Digital Reading Lab.\nKõik õigused kaitstud.",
+        "title": "Rakenduse teave",
+        "version": "Versioon {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filter"
+            },
+            "sort": {
+                "compact": "Järjestus"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Sinu raamaturiiul on tühi. Alustamiseks lisa mõni raamat, heliraamat või koomiks ja saadki soovitut lugeda.",
+                "filter": "Sellele filtrile ei vasta mitte mingit sisu. Pigem vaata kõike, mis raamaturiiulis leidub.",
+                "kind": "Sellele filtrile ei vasta antud tüüpi sisu. Pigem vaata kõiki tüüpe, mis raamaturiiulis leidub."
+            },
+            "title": "Sisu ei leidu"
+        },
+        "filter": {
+            "all": "Kõik",
+            "currentlyReading": "Hetkel lugemisel",
+            "finished": "Loetud",
+            "notStartedYet": "Pole veel alustanud",
+            "recentlyAdded": "Hiljuti lisatud",
+            "samples": "Näidised",
+            "type": "Tüüp"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Uuri ja avasta"
+            }
+        }
+    }
+}
