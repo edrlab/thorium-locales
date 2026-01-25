@@ -42,6 +42,78 @@
             "section": {
                 "explore": "Uuri ja avasta"
             }
+        },
+        "sort": {
+            "author": "Autor",
+            "finished": "Lõpunilugemise kuupäev",
+            "lastAdded": "Viimati lisatud",
+            "lastRead": "Viimatiloetud",
+            "title": "Pealkiri"
+        },
+        "title": "Raamaturiiul",
+        "view": {
+            "grid": "Ruudustik",
+            "list": "Loend",
+            "title": "Kuvamisrežiim"
         }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Katkesta",
+            "close": "Sulge",
+            "collapse": "Ahenda vaadet",
+            "collapseAll": "Ahenda kõik",
+            "expand": "Laienda vaadet",
+            "expandAll": "Laienda kõik",
+            "search": "Otsi",
+            "showMoreOptions": "Lisavalikud"
+        },
+        "confirmation": {
+            "title": "Kas oled kindel?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Üksikasjad"
+                }
+            },
+            "cancelled": "Tegevus on katkestatud.",
+            "title": "Viga",
+            "unexpected": "Midagi läks valesti. Palun proovi uuesti."
+        },
+        "file": {
+            "errors": {
+                "corrupted": "Selle sisu avamine ei õnnestunud. Fail võib olla katkine või kasutab vorming, mis veel pole toetatud. Palun proovi mõne muu failiga."
+            }
+        }
+    },
+    "publication": {
+        "actions": {
+            "rename": {
+                "compact": "Muuda nime",
+                "descriptive": "Muuda teose nime"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Puudub",
+            "sample": "Näidis",
+            "unknownTitle": "Teadmata pealkiri"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Alati kuvatud",
+            "hidden": "Peidetud",
+            "title": "Väike meediaesitaja",
+            "whenPlaying": "Näita esitamise ajal"
+        },
+        "systemSettings": "Süsteemi seadistused",
+        "theme": {
+            "dark": "Tume kujundus",
+            "light": "Hele kujundus",
+            "system": "Süsteemi kujundus",
+            "title": "Kujundus"
+        },
+        "title": "Seadistused"
     }
 }
