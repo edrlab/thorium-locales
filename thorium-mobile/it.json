@@ -1,1 +1,172 @@
-{}
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Sito web"
+                }
+            },
+            "title": "Software di terze parti"
+        },
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\nTutti i diritti riservati.",
+        "title": "Chi siamo",
+        "version": "Versione {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filtro"
+            },
+            "sort": {
+                "compact": "Filtra per"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "La tua biblioteca è vuota. Aggiungi il tuo primo libro, audiolibro o fumetto per iniziare a leggere.",
+                "filter": "Nessuna pubblicazione corrisponde a questo filtro. Visualizza tutta la biblioteca per vedere tutti i titoli.",
+                "kind": "Nessuna pubblicazione corrisponde alla tipologia selezionata. Prova a visualizzare tutte le tipologie per vedere più elementi della tua biblioteca."
+            },
+            "title": "Nessuna pubblicazione trovata"
+        },
+        "filter": {
+            "all": "Tutti",
+            "currentlyReading": "In corso di lettura",
+            "finished": "Finiti",
+            "notStartedYet": "Non ancora iniziati",
+            "recentlyAdded": "Aggiunti di recente",
+            "samples": "Estratti",
+            "type": "Tipologia"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Esplora"
+            }
+        },
+        "sort": {
+            "author": "Autore",
+            "finished": "Data di fine lettura",
+            "lastAdded": "Ultimo aggiunto",
+            "lastRead": "Ultima lettura",
+            "title": "Titolo"
+        },
+        "title": "Biblioteca",
+        "view": {
+            "grid": "Griglia",
+            "list": "Elenco",
+            "title": "Visualizzazione dello schermo"
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Annulla",
+            "close": "Chiudi",
+            "collapse": "Riduci",
+            "collapseAll": "Riduci tutto",
+            "expand": "Espandi",
+            "expandAll": "Espandi tutto",
+            "search": "Cerca",
+            "showMoreOptions": "Più opzioni"
+        },
+        "confirmation": {
+            "title": "Sei sicuro?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Dettagli"
+                }
+            },
+            "cancelled": "Azione annullata.",
+            "title": "Errore",
+            "unexpected": "Si è verificato un problema. Si prega di riprovare."
+        },
+        "file": {
+            "errors": {
+                "corrupted": "Impossibile aprire il contenuto. Il file potrebbe essere corrotto o avere un formato non supportato.. Si prega di provare con un altro file.",
+                "forbidden": "Impossibile aprire il file. Accesso negato.",
+                "formatNotSupported": "Tipologia di file non supportata. Si prega di provare con un altro file.",
+                "insufficientSpace": "Non c'è spazio sufficiente per scaricare o importare questo file. Si prega di liberare dello spazio e riprovare.",
+                "notFound": "Impossibile aprire il file. File non trovato.",
+                "protocolNotSupported": "Questo libro non può essere aperto nella sua localizzazione attuale. Prova a effettuare il download o a contattare la libreria online per avere assistenza."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Si è verificato un problema. Si prega di verificare la connessione internet o di riprovare più tardi.",
+                "forbidden": "Non hai l'autorizzazione per accedere a questo contenuto.",
+                "malformedResponse": "Impossibile caricare questo contenuto. C'è un problema con il server. Si prega di riprovare più tardi.",
+                "methodNotSupported": "Il server non supporta la modalità di caricamento richiesto.",
+                "notFound": "Contenuto introvabile.",
+                "offline": "Non sei connesso. Verifica la tua connessione internet.",
+                "security": "Connessione sicura non riuscita. Si prega di riprovare più tardi.",
+                "timeout": "Timeout di connessione. Si prega di riprovare.",
+                "unauthorized": "Per accedere a questo contenuto bisogna essere connessi.",
+                "unreachable": "La connessione al server è impossibile."
+            }
+        }
+    },
+    "home": {
+        "title": "Pagina principale"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Aprire un libro"
+        },
+        "openBookshelf": {
+            "description": "Apri l'app direttamente alla tua biblioteca.",
+            "title": "Apri la biblioteca"
+        }
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Importa"
+            },
+            "listen": {
+                "compact": "Ascolta"
+            },
+            "markAsFinished": {
+                "compact": "Segna come finito"
+            },
+            "markAsNotStarted": {
+                "compact": "Segna come non iniziato"
+            },
+            "markAsUnfinished": {
+                "compact": "Segna come non terminato"
+            },
+            "read": {
+                "compact": "Leggi"
+            },
+            "remove": {
+                "compact": "Rimuovi",
+                "confirmation": "Sei sicuro di voler rimuovere \"{{ title }}\"? Questa azione è irreversibile."
+            },
+            "rename": {
+                "compact": "Rinomina",
+                "descriptive": "Rinomina la pubblicazione"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Nessuno",
+            "sample": "Estratto",
+            "unknownTitle": "Titolo sconosciuto"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Visualizza sempre",
+            "hidden": "Nascondi",
+            "title": "Mini audio player",
+            "whenPlaying": "Visualizza quando è in uso"
+        },
+        "systemSettings": "Impostazioni",
+        "theme": {
+            "dark": "Scuro",
+            "light": "Chiaro",
+            "system": "Impostazioni predefinite",
+            "title": "Tema"
+        },
+        "title": "Impostazioni"
+    }
+}
