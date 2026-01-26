@@ -1,1 +1,28 @@
-{}
+{
+    "publication": {
+        "format": {
+            "audiobook": "Heliraamat"
+        },
+        "kind": {
+            "audiobook_one": "heliraamat",
+            "audiobook_other": "heliraamatud",
+            "book_one": "raamat",
+            "book_other": "raamatud",
+            "comic_one": "koomiks",
+            "comic_other": "koomiksid",
+            "document_one": "dokument",
+            "document_other": "dokumendid"
+        },
+        "metadata": {
+            "accessibility": {
+                "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Teavet pole saadaval",
+                        "publisher-contact": "Selle toote saadavause osas palun küsi lisateavet kirjastusest: ",
+                        "title": "Saadavuse kokkuvõte"
+                    }
+                }
+            }
+        }
+    }
+}
