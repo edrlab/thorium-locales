@@ -37,6 +37,9 @@
                 "compact": "Seuraava",
                 "descriptive": "Seuraava sivu"
             },
+            "goToNextSentence": {
+                "compact": "Seuraava"
+            },
             "goToPosition": {
                 "compact": "Siirry…",
                 "descriptive": "Siirry kohtaan"
