@@ -83,7 +83,9 @@
         },
         "file": {
             "errors": {
-                "corrupted": "Selle sisu avamine ei õnnestunud. Fail võib olla katkine või kasutab vorming, mis veel pole toetatud. Palun proovi mõne muu failiga."
+                "corrupted": "Selle sisu avamine ei õnnestunud. Fail võib olla katkine või kasutab vormingut, mis veel pole toetatud. Palun proovi mõne muu failiga.",
+                "forbidden": "Faili avamine ei õnnestu. Ligipääs puudub.",
+                "formatNotSupported": "Failitüüp pole toetatud. Palun proovi mõne muu failiga."
             }
         }
     },
