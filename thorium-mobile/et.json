@@ -1,0 +1,172 @@
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Veebisait"
+                }
+            },
+            "title": "Kolmandate osapoolte loodud tarkvara"
+        },
+        "copyright": "Autoriõigused {{ year }} European Digital Reading Lab.\nKõik õigused kaitstud.",
+        "title": "Rakenduse teave",
+        "version": "Versioon {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filter"
+            },
+            "sort": {
+                "compact": "Järjestus"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Sinu raamaturiiul on tühi. Alustamiseks lisa mõni raamat, heliraamat või koomiks ja saadki soovitut lugeda.",
+                "filter": "Sellele filtrile ei vasta mitte mingit sisu. Pigem vaata kõike, mis raamaturiiulis leidub.",
+                "kind": "Sellele filtrile ei vasta antud tüüpi sisu. Pigem vaata kõiki tüüpe, mis raamaturiiulis leidub."
+            },
+            "title": "Sisu ei leidu"
+        },
+        "filter": {
+            "all": "Kõik",
+            "currentlyReading": "Hetkel lugemisel",
+            "finished": "Loetud",
+            "notStartedYet": "Pole veel alustanud",
+            "recentlyAdded": "Hiljuti lisatud",
+            "samples": "Näidised",
+            "type": "Tüüp"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Uuri ja avasta"
+            }
+        },
+        "sort": {
+            "author": "Autor",
+            "finished": "Lõpunilugemise kuupäev",
+            "lastAdded": "Viimati lisatud",
+            "lastRead": "Viimatiloetud",
+            "title": "Pealkiri"
+        },
+        "title": "Raamaturiiul",
+        "view": {
+            "grid": "Ruudustik",
+            "list": "Loend",
+            "title": "Kuvamisrežiim"
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Katkesta",
+            "close": "Sulge",
+            "collapse": "Ahenda vaadet",
+            "collapseAll": "Ahenda kõik",
+            "expand": "Laienda vaadet",
+            "expandAll": "Laienda kõik",
+            "search": "Otsi",
+            "showMoreOptions": "Lisavalikud"
+        },
+        "confirmation": {
+            "title": "Kas oled kindel?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Üksikasjad"
+                }
+            },
+            "cancelled": "Tegevus on katkestatud.",
+            "title": "Viga",
+            "unexpected": "Midagi läks valesti. Palun proovi uuesti."
+        },
+        "file": {
+            "errors": {
+                "corrupted": "Selle sisu avamine ei õnnestunud. Fail võib olla katkine või kasutab vormingut, mis veel pole toetatud. Palun proovi mõne muu failiga.",
+                "forbidden": "Faili avamine ei õnnestu. Ligipääs puudub.",
+                "formatNotSupported": "Failitüüp pole toetatud. Palun proovi mõne muu failiga.",
+                "insufficientSpace": "Selle faili allalaadimiseks või importimiseks pole piisavalt andmeruumi. Palun kustuta mittevajalikke faile ja proovi uuesti.",
+                "notFound": "Kuna faili ei leidu, siis tema avamine ei õnnestu.",
+                "protocolNotSupported": "Seda raamatut ei saa avada tema praegusest asukohast. Proovi ta esmalt alla laadida või küsi abi raamatupoe klienditeenindusest."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Midagi läks valesti. Palun kontrolli, kas sinu nutiseadme internetiühendus toimib.",
+                "forbidden": "Sul pole õigusi selle sisu vaatamiseks.",
+                "malformedResponse": "Selle sisu laadimine ei õnnestu. Serveris on mingit sorti viga. Palun proovi hiljem uuesti.",
+                "methodNotSupported": "Server ei toeta soovitud laadimismeetodit.",
+                "notFound": "Sisu ei leidu.",
+                "offline": "Sinu nutiseadmes pole võrguühendust. Palun vaata, et internetiühendus toimiks.",
+                "security": "Turvalise ühenduse loomine ei õnnestunud. Palun proovi hiljem uuesti.",
+                "timeout": "Ühendus aegus. Palun proovi hiljem uuesti.",
+                "unauthorized": "Ligipääsuks sellele sisule pead olema loginud sisse.",
+                "unreachable": "Ühenduse loomine serveriga ei õnnestunud."
+            }
+        }
+    },
+    "home": {
+        "title": "Avaleht"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Ava raamat"
+        },
+        "openBookshelf": {
+            "description": "Ava rakenduse sinu raamaturiiuli vaatega.",
+            "title": "Ava raamaturiiul"
+        }
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Impordi"
+            },
+            "listen": {
+                "compact": "Kuula"
+            },
+            "markAsFinished": {
+                "compact": "Märgi loetuks"
+            },
+            "markAsNotStarted": {
+                "compact": "Märgi mittealustatuks"
+            },
+            "markAsUnfinished": {
+                "compact": "Märgi mittelõpetatuks"
+            },
+            "read": {
+                "compact": "Loe"
+            },
+            "remove": {
+                "compact": "Eemalda",
+                "confirmation": "Kas oled kindel, et soovid „{{ title }}“ raamatu eemaldada? Seda tegevust ei saa tagasi pöörata."
+            },
+            "rename": {
+                "compact": "Muuda nime",
+                "descriptive": "Muuda teose nime"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Puudub",
+            "sample": "Näidis",
+            "unknownTitle": "Teadmata pealkiri"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Alati kuvatud",
+            "hidden": "Peidetud",
+            "title": "Väike meediaesitaja",
+            "whenPlaying": "Näita esitamise ajal"
+        },
+        "systemSettings": "Süsteemi seadistused",
+        "theme": {
+            "dark": "Tume kujundus",
+            "light": "Hele kujundus",
+            "system": "Süsteemi kujundus",
+            "title": "Kujundus"
+        },
+        "title": "Seadistused"
+    }
+}

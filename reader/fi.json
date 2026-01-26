@@ -37,6 +37,10 @@
                 "compact": "Seuraava",
                 "descriptive": "Seuraava sivu"
             },
+            "goToNextSentence": {
+                "compact": "Seuraava",
+                "descriptive": "Seuraava lause"
+            },
             "goToPosition": {
                 "compact": "Siirry…",
                 "descriptive": "Siirry kohtaan"
@@ -48,9 +52,14 @@
             "goToPreviousPage": {
                 "compact": "Edellinen",
                 "descriptive": "Edellinen sivu"
+            },
+            "goToPreviousSentence": {
+                "compact": "Edellinen",
+                "descriptive": "Edellinen lause"
             }
         },
         "preferences": {
+            "brightness": "Kirkkaus",
             "columns": {
                 "auto": "Automaattinen",
                 "dual": {

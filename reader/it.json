@@ -3,7 +3,9 @@
         "actions": {
             "cancel": "Annulla",
             "clear": "Elimina",
-            "close": "Chiudere",
+            "close": "Chiudi",
+            "collapse": "Riduci",
+            "collapseAll": "Riduci tutto",
             "decrease": "Diminuisci",
             "disable": "Disattiva",
             "enable": "Attiva",

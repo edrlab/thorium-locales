@@ -1,0 +1,39 @@
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Uuenda laenutust",
+                "descriptive": "Uuenda laenutust"
+            },
+            "return": {
+                "compact": "Tagasta",
+                "confirmation": "Kas oled kindel, et soovid tagastada raamatu „{{ title }}“? Seda tegevust ei saa tagasi pöörata.",
+                "descriptive": "Tagasta raamat"
+            }
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "See raamat on juba tagastatud või on laenutuse tähtaeg möödunud."
+        },
+        "labels": {
+            "expired": "Tähtaeg on ületatud",
+            "expiresIn": {
+                "days": {
+                    "descriptive_one": "Tähtaeg on {{ count }} päeva pärast",
+                    "descriptive_other": "Tähtaeg on {{ count }} päeva pärast"
+                },
+                "hours": {
+                    "descriptive_one": "Tähtaeg on {{ count }} tunni pärast",
+                    "descriptive_other": "Tähtaeg on {{ count }} tunni pärast"
+                },
+                "minutes": {
+                    "descriptive_one": "Tähtaeg on {{ count }} minuti pärast",
+                    "descriptive_other": "Tähtaeg on {{ count }} minuti pärast"
+                },
+                "months": {
+                    "descriptive_one": "Tähtaeg on {{ count }} kuu pärast",
+                    "descriptive_other": "Tähtaeg on {{ count }} kuu pärast"
+                }
+            }
+        }
+    }
+}
