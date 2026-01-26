@@ -85,12 +85,63 @@
             "errors": {
                 "corrupted": "Selle sisu avamine ei õnnestunud. Fail võib olla katkine või kasutab vormingut, mis veel pole toetatud. Palun proovi mõne muu failiga.",
                 "forbidden": "Faili avamine ei õnnestu. Ligipääs puudub.",
-                "formatNotSupported": "Failitüüp pole toetatud. Palun proovi mõne muu failiga."
+                "formatNotSupported": "Failitüüp pole toetatud. Palun proovi mõne muu failiga.",
+                "insufficientSpace": "Selle faili allalaadimiseks või importimiseks pole piisavalt andmeruumi. Palun kustuta mittevajalikke faile ja proovi uuesti.",
+                "notFound": "Kuna faili ei leidu, siis tema avamine ei õnnestu.",
+                "protocolNotSupported": "Seda raamatut ei saa avada tema praegusest asukohast. Proovi ta esmalt alla laadida või küsi abi raamatupoe klienditeenindusest."
             }
+        },
+        "http": {
+            "errors": {
+                "default": "Midagi läks valesti. Palun kontrolli, kas sinu nutiseadme internetiühendus toimib.",
+                "forbidden": "Sul pole õigusi selle sisu vaatamiseks.",
+                "malformedResponse": "Selle sisu laadimine ei õnnestu. Serveris on mingit sorti viga. Palun proovi hiljem uuesti.",
+                "methodNotSupported": "Server ei toeta soovitud laadimismeetodit.",
+                "notFound": "Sisu ei leidu.",
+                "offline": "Sinu nutiseadmes pole võrguühendust. Palun vaata, et internetiühendus toimiks.",
+                "security": "Turvalise ühenduse loomine ei õnnestunud. Palun proovi hiljem uuesti.",
+                "timeout": "Ühendus aegus. Palun proovi hiljem uuesti.",
+                "unauthorized": "Ligipääsuks sellele sisule pead olema loginud sisse.",
+                "unreachable": "Ühenduse loomine serveriga ei õnnestunud."
+            }
+        }
+    },
+    "home": {
+        "title": "Avaleht"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Ava raamat"
+        },
+        "openBookshelf": {
+            "description": "Ava rakenduse sinu raamaturiiuli vaatega.",
+            "title": "Ava raamaturiiul"
         }
     },
     "publication": {
         "actions": {
+            "add": {
+                "compact": "Impordi"
+            },
+            "listen": {
+                "compact": "Kuula"
+            },
+            "markAsFinished": {
+                "compact": "Märgi loetuks"
+            },
+            "markAsNotStarted": {
+                "compact": "Märgi mittealustatuks"
+            },
+            "markAsUnfinished": {
+                "compact": "Märgi mittelõpetatuks"
+            },
+            "read": {
+                "compact": "Loe"
+            },
+            "remove": {
+                "compact": "Eemalda",
+                "confirmation": "Kas oled kindel, et soovid „{{ title }}“ raamatu eemaldada? Seda tegevust ei saa tagasi pöörata."
+            },
             "rename": {
                 "compact": "Muuda nime",
                 "descriptive": "Muuda teose nime"
