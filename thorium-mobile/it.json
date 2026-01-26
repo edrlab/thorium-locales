@@ -83,7 +83,7 @@
         },
         "file": {
             "errors": {
-                "corrupted": "Impossibile aprire il contenuto. Il file potrebbe essere corrotto o avere un formato non supportato.. Si prega di provare con un altro file.",
+                "corrupted": "Impossibile aprire il contenuto. Il file potrebbe essere corrotto o avere un formato non supportato. Si prega di provare con un altro file.",
                 "forbidden": "Impossibile aprire il file. Accesso negato.",
                 "formatNotSupported": "Tipologia di file non supportata. Si prega di provare con un altro file.",
                 "insufficientSpace": "Non c'è spazio sufficiente per scaricare o importare questo file. Si prega di liberare dello spazio e riprovare.",
