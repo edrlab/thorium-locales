@@ -1,1 +1,8 @@
-{}
+{
+    "publication": {
+        "format": {
+            "audiobook": "Ακουστικό βιβλίο",
+            "audiobookJSON": "Έκδοση ακουστικού βιβλίου"
+        }
+    }
+}
