@@ -107,7 +107,7 @@
         }
     },
     "home": {
-        "title": "Pagina principale"
+        "title": "Home"
     },
     "intents": {
         "openBook": {
