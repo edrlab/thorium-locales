@@ -1,1 +1,28 @@
-{}
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Rinnova",
+                "descriptive": "Rinnova il prestito"
+            },
+            "return": {
+                "compact": "Ritorna",
+                "confirmation": "Sei sicuro di voler ritornare \"{{ title }}\"? Questa azione è irreversibile.",
+                "descriptive": "Ritorna la pubblicazione"
+            }
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Questa pubblicazione è già stata restituita o è scaduta.",
+            "copyForbidden": "Hai superato il numero massimo di caratteri consentito per copiare.",
+            "invalidLicense": "Non è stato possibile autorizzare la licenza di questo libro. Si prega di contattare il fornitore per assistenza.",
+            "invalidRenewalPeriod": "Questa pubblicazione non puo essere rinnovata alla data selezionata. Si prega di provare con una data diversa.",
+            "missingPassphrase": "È richiesta una passphrase per aprire questa pubblicazione. Si prega di contattare il fornitore per ottenere la passphrase.",
+            "renewFailed": "La pubblicazione non può essere rinnovata. Si prega di contattare il fornitore per ottenere assistenza.",
+            "returnFailed": "La pubblicazione non può essere restituita. Si prega di contattare il fornitore per ottenere assistenza.",
+            "statusCancelled": "Hai cancellato l'accesso a questa pubblicazione il {{ date }}. Si prega di contattare il fornitore per ripristinare l'accesso.",
+            "statusExpiredEnd": "Il prestito per questa pubblicazione scade il {{ date }}. Contatta la tua biblioteca per prenderla nuovamente in prestito.",
+            "statusExpiredStart": "Questa pubblicazione sarà disponibile il {{ date }}.",
+            "statusReturned": "Hai restituito questa pubblicazione il {{ date }}. Contatta la tua biblioteca per prenderla nuovamente in prestito."
+        }
+    }
+}
