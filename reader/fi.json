@@ -74,12 +74,12 @@
             },
             "fit": {
                 "auto": {
-                    "compact": "Auto"
+                    "compact": "Automaattinen"
                 },
                 "page": {
                     "compact": "Sivu"
                 },
-                "title": "Sovitus",
+                "title": "Sovita",
                 "width": {
                     "compact": "Leveys"
                 }
@@ -99,7 +99,7 @@
                     "descriptive": "Old style serif"
                 },
                 "publisher": "Julkaisijan fontti",
-                "sans": "Sans-serif",
+                "sans": "Sans serif",
                 "title": "Kirjasintyyppi"
             },
             "fontSize": "Tekstin koko",
@@ -130,7 +130,7 @@
             "paragraphSpacing": "Kappaleväli",
             "publisherStyles": {
                 "label": "Käytä alkuperäistä muotoilua",
-                "title": "Kustantajan tyylit"
+                "title": "Kustantajan muotoilut"
             },
             "readingDirection": {
                 "default": {
@@ -164,7 +164,7 @@
                     "compact": "Kaksi sivua"
                 },
                 "auto": {
-                    "compact": "Auto"
+                    "compact": "Automaattinen"
                 },
                 "never": {
                     "compact": "Yksi sivu"
@@ -224,7 +224,7 @@
                 "description": "Tässä julkaisussa ei ole sisällysluetteloa.",
                 "title": "Ei sisällysluetteloa"
             },
-            "title": "TSisällysluettelo"
+            "title": "Sisällysluettelo"
         }
     }
 }
