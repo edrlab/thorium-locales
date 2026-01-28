@@ -161,7 +161,7 @@
             },
             "spread": {
                 "always": {
-                    "compact": "Kaksi sivua"
+                    "compact": "Aukeama"
                 },
                 "auto": {
                     "compact": "Automaattinen"
@@ -169,7 +169,7 @@
                 "never": {
                     "compact": "Yksi sivu"
                 },
-                "title": "Aukeama"
+                "title": "Sivut"
             },
             "text": "Teksti",
             "textAlign": {
