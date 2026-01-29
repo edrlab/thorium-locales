@@ -72,6 +72,18 @@
                 },
                 "title": "Sarakkeet"
             },
+            "fit": {
+                "auto": {
+                    "compact": "Automaattinen"
+                },
+                "page": {
+                    "compact": "Sivu"
+                },
+                "title": "Sovita",
+                "width": {
+                    "compact": "Leveys"
+                }
+            },
             "fontFamily": {
                 "humanist": {
                     "compact": "Humanist",
@@ -87,7 +99,7 @@
                     "descriptive": "Old style serif"
                 },
                 "publisher": "Julkaisijan fontti",
-                "sans": "Sans-serif",
+                "sans": "Sans serif",
                 "title": "Kirjasintyyppi"
             },
             "fontSize": "Tekstin koko",
@@ -113,11 +125,27 @@
                 "small": "Tiivis",
                 "title": "Riviväli"
             },
+            "offsetFirstPage": "Näytä ensimmäinen sivu erikseen",
             "paragraphIndent": "Kappaleiden sisennys",
             "paragraphSpacing": "Kappaleväli",
             "publisherStyles": {
                 "label": "Käytä alkuperäistä muotoilua",
-                "title": "Kustantajan tyylit"
+                "title": "Kustantajan muotoilut"
+            },
+            "readingDirection": {
+                "default": {
+                    "compact": "Oletus",
+                    "descriptive": "Käytä alkuperäistä lukusuuntaa"
+                },
+                "ltr": {
+                    "compact": "Oikealle",
+                    "descriptive": "Vasemmalta oikealle"
+                },
+                "rtl": {
+                    "compact": "Vasemmalle",
+                    "descriptive": "Oikealta vasemmalle"
+                },
+                "title": "Lukusuunta"
             },
             "spacing": {
                 "presets": {
@@ -130,6 +158,18 @@
                     "title": "Esiasetukset"
                 },
                 "title": "Välistys"
+            },
+            "spread": {
+                "always": {
+                    "compact": "Aukeama"
+                },
+                "auto": {
+                    "compact": "Automaattinen"
+                },
+                "never": {
+                    "compact": "Yksi sivu"
+                },
+                "title": "Sivut"
             },
             "text": "Teksti",
             "textAlign": {
@@ -149,6 +189,7 @@
                 "contrast2": "Kontrasti 2",
                 "contrast3": "Kontrasti 3",
                 "dark": "Tumma",
+                "gray": "Harmaa",
                 "light": "Vaalea",
                 "paper": "Paperi",
                 "sepia": "Seepia",
@@ -183,7 +224,7 @@
                 "description": "Tässä julkaisussa ei ole sisällysluetteloa.",
                 "title": "Ei sisällysluetteloa"
             },
-            "title": "TSisällysluettelo"
+            "title": "Sisällysluettelo"
         }
     }
 }
