@@ -11,12 +11,33 @@
                 "descriptive": "Return publication"
             }
         },
+        "dialog": {
+            "actions": {
+                "cancel": "Cancel",
+                "continue": "Continue",
+                "recoverPassphrase": "Forgot Your Password?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Incorrect password."
+            },
+            "info": {
+                "body": "This publication is protected by LCP (Licensed Content Protection), a DRM technology that prevents unauthorized copying while keeping your reading experience simple. LCP is an open standard that balances user-friendliness with the needs of publishers.",
+                "more": "Learn more…",
+                "title": "What is LCP?"
+            },
+            "message": "This publication requires an LCP password to open, which is provided by your library or bookstore. Enter it once, and you're all set to read on this device.",
+            "passphrase": {
+                "hint": "**Hint:** {{ hint }}",
+                "placeholder": "Password"
+            },
+            "title": "Enter Password"
+        },
         "errors": {
             "alreadyReturnedOrExpired": "This publication has already been returned or has expired.",
             "copyForbidden": "You've exceeded the maximum number of characters allowed for copying.",
             "invalidLicense": "We couldn't validate the license for this publication. Please contact your license provider for assistance.",
             "invalidRenewalPeriod": "This publication can't be renewed for the selected date. Please try a different date.",
-            "missingPassphrase": "A passphrase is required to open this publication. Contact your license provider to get the passphrase.",
+            "missingPassphrase": "A password is required to open this publication. Contact your license provider to get the password.",
             "renewFailed": "Your publication could not be renewed. Contact your provider for assistance.",
             "returnFailed": "Your publication could not be returned. Contact your provider for assistance.",
             "statusCancelled": "You cancelled access to this publication on {{ date }}. Contact your license provider if you'd like to restore access.",
