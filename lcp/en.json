@@ -37,7 +37,7 @@
             "copyForbidden": "You've exceeded the maximum number of characters allowed for copying.",
             "invalidLicense": "We couldn't validate the license for this publication. Please contact your license provider for assistance.",
             "invalidRenewalPeriod": "This publication can't be renewed for the selected date. Please try a different date.",
-            "missingPassphrase": "A password is required to open this publication. Contact your license provider to get the passphrase.",
+            "missingPassphrase": "A password is required to open this publication. Contact your license provider to get the password.",
             "renewFailed": "Your publication could not be renewed. Contact your provider for assistance.",
             "returnFailed": "Your publication could not be returned. Contact your provider for assistance.",
             "statusCancelled": "You cancelled access to this publication on {{ date }}. Contact your license provider if you'd like to restore access.",
