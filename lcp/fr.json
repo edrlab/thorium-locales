@@ -23,6 +23,7 @@
             "statusExpiredEnd": "Votre prêt pour cette publication a expiré le {{ date }}. Contactez votre bibliothèque pour l'emprunter à nouveau.",
             "statusExpiredStart": "Cette publication sera disponible le {{ date }}.",
             "statusReturned": "Vous avez rendu cette publication le {{ date }}. Contactez votre bibliothèque pour l'emprunter à nouveau.",
+            "statusRevoked_many": "",
             "statusRevoked_one": "L'accès à cette publication a été révoqué par votre fournisseur le {{ date }}. Il a été consulté sur {{ count }} appareil. Contactez votre fournisseur pour plus d'informations.",
             "statusRevoked_other": "L'accès à cette publication a été révoqué par votre fournisseur le {{ date }}. Il a été consulté sur {{ count }} appareils. Contactez votre fournisseur pour plus d'informations."
         },
@@ -30,18 +31,22 @@
             "expired": "Expiré",
             "expiresIn": {
                 "days": {
+                    "descriptive_many": "",
                     "descriptive_one": "Expire dans {{ count }} jour",
                     "descriptive_other": "Expire dans {{ count }} jours"
                 },
                 "hours": {
+                    "descriptive_many": "",
                     "descriptive_one": "Expire dans {{ count }} heure",
                     "descriptive_other": "Expire dans {{ count }} heures"
                 },
                 "minutes": {
+                    "descriptive_many": "",
                     "descriptive_one": "Expire dans {{ count }} minute",
                     "descriptive_other": "Expire dans {{ count }} minutes"
                 },
                 "months": {
+                    "descriptive_many": "",
                     "descriptive_one": "Expire dans {{ count }} mois",
                     "descriptive_other": "Expire dans {{ count }} mois"
                 }

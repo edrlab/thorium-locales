@@ -218,7 +218,7 @@
             "positionsLeftInPublication_other": "Leidinyje liko {{ count }} pozicijos (-ų)",
             "positionsLeft_few": "",
             "positionsLeft_one": "Liko {{ count }} pozicija",
-            "positionsLeft_other": "{{ count }} positions left",
+            "positionsLeft_other": "",
             "range": "{{ start }}–{{ end }}",
             "xOfY": {
                 "compact": "{{ x }} iš {{ y }}",
