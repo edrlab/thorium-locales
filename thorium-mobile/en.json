@@ -153,6 +153,34 @@
             "unknownTitle": "Unknown title"
         }
     },
+    "reader": {
+        "settings": {
+            "progression": {
+                "displayCurrentProgression": {
+                    "compact": "Display current progression"
+                },
+                "displayPrintPagination": {
+                    "compact": "Display print pagination"
+                },
+                "progressionStyle": {
+                    "compact": "Progression style"
+                },
+                "title": "Progression"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Always show status bar"
+                },
+                "displayOrientationLock": {
+                    "compact": "Display orientation lock button on rotation"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Prevent screen timeout"
+                }
+            },
+            "title": "Reading options"
+        }
+    },
     "settings": {
         "miniPlayer": {
             "always": "Always displayed",
