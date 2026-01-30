@@ -153,6 +153,34 @@
             "unknownTitle": "Unknown title"
         }
     },
+    "reader": {
+        "settings": {
+            "position": {
+                "displayCurrentPosition": {
+                    "compact": "Display current position"
+                },
+                "displayPrintPagination": {
+                    "compact": "Display print pagination"
+                },
+                "displayStyle": {
+                    "compact": "Position display style"
+                },
+                "title": "Position"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Always show status bar"
+                },
+                "displayOrientationLock": {
+                    "compact": "Display orientation lock button on rotation"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Prevent screen timeout"
+                }
+            },
+            "title": "Reading options"
+        }
+    },
     "settings": {
         "miniPlayer": {
             "always": "Always displayed",
