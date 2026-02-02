@@ -113,12 +113,18 @@
             }
         },
         "progression": {
-            "pagesLeftInChapter_one": "Peatükis on jäänud {{ count }} leht",
-            "pagesLeftInChapter_other": "Peatükis on jäänud {{ count }} lehte",
-            "pagesLeftInPublication_one": "Köites on jäänud {{ count }} leht",
-            "pagesLeftInPublication_other": "Köites on jäänud {{ count }} lehte",
-            "pagesLeft_one": "Jäänud on {{ count }} leht",
-            "pagesLeft_other": "Jäänud on {{ count }} lehte"
+            "pagesLeft": {
+                "descriptive_one": "Jäänud on {{ count }} leht",
+                "descriptive_other": "Jäänud on {{ count }} lehte"
+            },
+            "pagesLeftInChapter": {
+                "descriptive_one": "Peatükis on jäänud {{ count }} leht",
+                "descriptive_other": "Peatükis on jäänud {{ count }} lehte"
+            },
+            "pagesLeftInPublication": {
+                "descriptive_one": "Köites on jäänud {{ count }} leht",
+                "descriptive_other": "Köites on jäänud {{ count }} lehte"
+            }
         }
     }
 }

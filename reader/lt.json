@@ -200,25 +200,37 @@
             "zoom": "Mastelis"
         },
         "progression": {
-            "pagesLeftInChapter_few": "",
-            "pagesLeftInChapter_one": "Skyriuje liko {{ count }} puslapis",
-            "pagesLeftInChapter_other": "Skyriuje liko {{ count }} puslapiai",
-            "pagesLeftInPublication_few": "",
-            "pagesLeftInPublication_one": "Leidinyje liko {{ count }} puslapis",
-            "pagesLeftInPublication_other": "Leidinyje liko {{ count }} puslapiai (-ių)",
-            "pagesLeft_few": "",
-            "pagesLeft_one": "Liko {{ count }} puslapis",
-            "pagesLeft_other": "Liko {{ count }} puslapiai (-ių)",
+            "pagesLeft": {
+                "descriptive_few": "",
+                "descriptive_one": "Liko {{ count }} puslapis",
+                "descriptive_other": "Liko {{ count }} puslapiai (-ių)"
+            },
+            "pagesLeftInChapter": {
+                "descriptive_few": "",
+                "descriptive_one": "Skyriuje liko {{ count }} puslapis",
+                "descriptive_other": "Skyriuje liko {{ count }} puslapiai"
+            },
+            "pagesLeftInPublication": {
+                "descriptive_few": "",
+                "descriptive_one": "Leidinyje liko {{ count }} puslapis",
+                "descriptive_other": "Leidinyje liko {{ count }} puslapiai (-ių)"
+            },
             "percentage": "{{ percentage }}%",
-            "positionsLeftInChapter_few": "",
-            "positionsLeftInChapter_one": "Skyriuje liko {{ count }} pozicija",
-            "positionsLeftInChapter_other": "Skyriuje liko {{ count }} pozicijos (-ų)",
-            "positionsLeftInPublication_few": "",
-            "positionsLeftInPublication_one": "Leidinyje liko {{ count }} pozicija",
-            "positionsLeftInPublication_other": "Leidinyje liko {{ count }} pozicijos (-ų)",
-            "positionsLeft_few": "",
-            "positionsLeft_one": "Liko {{ count }} pozicija",
-            "positionsLeft_other": "",
+            "positionsLeft": {
+                "descriptive_few": "",
+                "descriptive_one": "Liko {{ count }} pozicija",
+                "descriptive_other": ""
+            },
+            "positionsLeftInChapter": {
+                "descriptive_few": "",
+                "descriptive_one": "Skyriuje liko {{ count }} pozicija",
+                "descriptive_other": "Skyriuje liko {{ count }} pozicijos (-ų)"
+            },
+            "positionsLeftInPublication": {
+                "descriptive_few": "",
+                "descriptive_one": "Leidinyje liko {{ count }} pozicija",
+                "descriptive_other": "Leidinyje liko {{ count }} pozicijos (-ų)"
+            },
             "range": "{{ start }}–{{ end }}",
             "xOfY": {
                 "compact": "{{ x }} iš {{ y }}",
