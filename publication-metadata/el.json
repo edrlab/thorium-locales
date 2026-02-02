@@ -2,7 +2,53 @@
     "publication": {
         "format": {
             "audiobook": "Ακουστικό βιβλίο",
-            "audiobookJSON": "Έκδοση ακουστικού βιβλίου"
+            "audiobookJSON": "Έκδοση ακουστικού βιβλίου",
+            "cbz": "Αρχείο βιβλίων κόμικς",
+            "divina": "Divina έκδοση",
+            "divinaJSON": "Διακήρυξη έκδοσης Divina",
+            "epub": "Μορφή EPUB",
+            "lcpa": "LCP προστατευμένο ακουστικό βιβλίο",
+            "lcpdf": "LCP προστατευμένο PDF",
+            "lcpl": "LCP Έγγραφο άδειας",
+            "pdf": "Έκδοση PDF",
+            "rwp": "Readium Web έκδοσης",
+            "rwpm": "Διακήρυξη Readium Web έκδοσης",
+            "zab": "Αρχείο ακουστικών βιβλίων",
+            "zip": "Αρχείο ZIP"
+        },
+        "kind": {
+            "audiobook_one": "ακουστικό βιβλίο",
+            "audiobook_other": "ακουστικά βιβλίας",
+            "book_one": "βιβλίο",
+            "book_other": "βιβλία",
+            "comic_one": "κόμικ",
+            "comic_other": "κόμικς",
+            "document_one": "έγγραφο",
+            "document_other": "έγγραφα"
+        },
+        "metadata": {
+            "accessibility": {
+                "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Καμιά πληροφορία διαθέσιμη",
+                        "publisher-contact": "Για περισσότερες πληροφορίες σχετικά με αυτό τοτ προϊόν, παρακαλούμε επικοινωνήστε με τον εκδότη: ",
+                        "title": "Σύνοψη προσβασιμότητας"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "ARIA roles περιέχονται",
+                            "descriptive": "Το περιεχόμενο έχει εμπλουτιστεί με ARIA roles για τη βελτιστοποίηση της οργάνωσης και τη διευκόλυνση της πλοήγησης"
+                        },
+                        "audio-descriptions": "Ακουστική περιγραφή",
+                        "braille": "Braille μορφή",
+                        "color-not-sole-means-of-conveying-information": "Το χρώμα δεν είναι το μόνο μέσο για τη διαβίβαση της πληροφορίας",
+                        "dyslexia-readability": "Αναγνωσιμότητα προσαρμοσμένη σε άτομα με δυσλεξία",
+                        "full-ruby-annotations": "Πλήρεις σχολιασμοί σε μορφή ruby",
+                        "high-contrast-between-foreground-and-background-audio": "Υψηλή αντίθεση μεταξύ ήχου μπροστά και πίσω",
+                        "high-contrast-between-text-and-background": "Υψηλή αντίθεση μεταξύ κείμενο πρώτου πλάνου και φόντου"
+                    }
+                }
+            }
         }
     }
 }
