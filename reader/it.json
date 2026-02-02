@@ -200,25 +200,37 @@
             "zoom": "Zoom"
         },
         "progression": {
-            "pagesLeftInChapter_many": "{{ count }} pagine rimaste nel capitolo",
-            "pagesLeftInChapter_one": "{{ count }} pagina rimasta nel capitolo",
-            "pagesLeftInChapter_other": "{{ count }} pagine rimaste nel capitolo",
-            "pagesLeftInPublication_many": "{{ count }} pagine rimaste nella pubblicazione",
-            "pagesLeftInPublication_one": "{{ count }} pagina rimasta nella pubblicazione",
-            "pagesLeftInPublication_other": "{{ count }} pagine rimaste nella pubblicazione",
-            "pagesLeft_many": "{{ count }} pagine rimanenti",
-            "pagesLeft_one": "{{ count }} pagina rimanente",
-            "pagesLeft_other": "{{ count }} pagine rimanenti",
+            "pagesLeft": {
+                "descriptive_many": "{{ count }} pagine rimanenti",
+                "descriptive_one": "{{ count }} pagina rimanente",
+                "descriptive_other": "{{ count }} pagine rimanenti"
+            },
+            "pagesLeftInChapter": {
+                "descriptive_many": "{{ count }} pagine rimaste nel capitolo",
+                "descriptive_one": "{{ count }} pagina rimasta nel capitolo",
+                "descriptive_other": "{{ count }} pagine rimaste nel capitolo"
+            },
+            "pagesLeftInPublication": {
+                "descriptive_many": "{{ count }} pagine rimaste nella pubblicazione",
+                "descriptive_one": "{{ count }} pagina rimasta nella pubblicazione",
+                "descriptive_other": "{{ count }} pagine rimaste nella pubblicazione"
+            },
             "percentage": "{{ percentage }}%",
-            "positionsLeftInChapter_many": "{{ count }} posizioni rimaste nel capitolo",
-            "positionsLeftInChapter_one": "{{ count }} posizione rimasta nel capitolo",
-            "positionsLeftInChapter_other": "{{ count }} posizioni rimaste nel capitolo",
-            "positionsLeftInPublication_many": "{{ count }} posizioni rimaste nella pubblicazione",
-            "positionsLeftInPublication_one": "{{ count }} posizione rimasta nella pubblicazione",
-            "positionsLeftInPublication_other": "{{ count }} posizioni rimaste nella pubblicazione",
-            "positionsLeft_many": "{{ count }} posizioni rimaste",
-            "positionsLeft_one": "{{ count }} posizione rimasta",
-            "positionsLeft_other": "{{ count }} posizioni rimaste",
+            "positionsLeft": {
+                "descriptive_many": "{{ count }} posizioni rimaste",
+                "descriptive_one": "{{ count }} posizione rimasta",
+                "descriptive_other": "{{ count }} posizioni rimaste"
+            },
+            "positionsLeftInChapter": {
+                "descriptive_many": "{{ count }} posizioni rimaste nel capitolo",
+                "descriptive_one": "{{ count }} posizione rimasta nel capitolo",
+                "descriptive_other": "{{ count }} posizioni rimaste nel capitolo"
+            },
+            "positionsLeftInPublication": {
+                "descriptive_many": "{{ count }} posizioni rimaste nella pubblicazione",
+                "descriptive_one": "{{ count }} posizione rimasta nella pubblicazione",
+                "descriptive_other": "{{ count }} posizioni rimaste nella pubblicazione"
+            },
             "range": "{{ start }}–{{ end }}",
             "xOfY": {
                 "compact": "{{ x }} di {{ y }}",

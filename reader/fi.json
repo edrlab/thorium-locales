@@ -200,19 +200,31 @@
             "zoom": "Tarkennus"
         },
         "progression": {
-            "pagesLeftInChapter_one": "{{ count }} sivu jäljellä luvussa",
-            "pagesLeftInChapter_other": "{{ count }} sivua jäljellä luvussa",
-            "pagesLeftInPublication_one": "{{ count }} sivu jäljellä julkaisussa",
-            "pagesLeftInPublication_other": "{{ count }} sivua jäljellä julkaisussa",
-            "pagesLeft_one": "{{ count }} sivu jäljellä",
-            "pagesLeft_other": "{{ count }} sivua jäljellä",
+            "pagesLeft": {
+                "descriptive_one": "{{ count }} sivu jäljellä",
+                "descriptive_other": "{{ count }} sivua jäljellä"
+            },
+            "pagesLeftInChapter": {
+                "descriptive_one": "{{ count }} sivu jäljellä luvussa",
+                "descriptive_other": "{{ count }} sivua jäljellä luvussa"
+            },
+            "pagesLeftInPublication": {
+                "descriptive_one": "{{ count }} sivu jäljellä julkaisussa",
+                "descriptive_other": "{{ count }} sivua jäljellä julkaisussa"
+            },
             "percentage": "{{ percentage }}%",
-            "positionsLeftInChapter_one": "{{ count }} sijainti jäljellä luvussa",
-            "positionsLeftInChapter_other": "{{ count }} jäljellä kohdassa nykyinen luku",
-            "positionsLeftInPublication_one": "{{ count }} sijaintia jäljellä luvussa",
-            "positionsLeftInPublication_other": "{{ count }} jäljellä kohdassa julkaisu",
-            "positionsLeft_one": "{{ count }} sijainti jäljellä",
-            "positionsLeft_other": "{{ count }} sijaintia jäljellä",
+            "positionsLeft": {
+                "descriptive_one": "{{ count }} sijainti jäljellä",
+                "descriptive_other": "{{ count }} sijaintia jäljellä"
+            },
+            "positionsLeftInChapter": {
+                "descriptive_one": "{{ count }} sijainti jäljellä luvussa",
+                "descriptive_other": "{{ count }} jäljellä kohdassa nykyinen luku"
+            },
+            "positionsLeftInPublication": {
+                "descriptive_one": "{{ count }} sijaintia jäljellä luvussa",
+                "descriptive_other": "{{ count }} jäljellä kohdassa julkaisu"
+            },
             "range": "{{ start }}–{{ end }}",
             "xOfY": {
                 "compact": "{{ x }} / {{ y }}",
