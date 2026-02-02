@@ -217,16 +217,25 @@
             },
             "percentage": "{{ percentage }}%",
             "positionsLeft": {
+                "compact_few": "Liko {{ count }}",
+                "compact_one": "Liko {{ count }}",
+                "compact_other": "Liko {{ count }}",
                 "descriptive_few": "",
                 "descriptive_one": "Liko {{ count }} pozicija",
                 "descriptive_other": ""
             },
             "positionsLeftInChapter": {
+                "compact_few": "Skyriuje lijo {{ count }}",
+                "compact_one": "Skyriuje lijo {{ count }}",
+                "compact_other": "Skyriuje lijo {{ count }}",
                 "descriptive_few": "",
                 "descriptive_one": "Skyriuje liko {{ count }} pozicija",
                 "descriptive_other": "Skyriuje liko {{ count }} pozicijos (-ų)"
             },
             "positionsLeftInPublication": {
+                "compact_few": "Leidinyje liko {{ count }}",
+                "compact_one": "Leidinyje liko {{ count }}",
+                "compact_other": "Leidinyje liko {{ count }}",
                 "descriptive_few": "",
                 "descriptive_one": "Leidinyje liko {{ count }} pozicija",
                 "descriptive_other": "Leidinyje liko {{ count }} pozicijos (-ų)"
