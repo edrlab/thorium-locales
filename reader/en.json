@@ -214,14 +214,20 @@
             },
             "percentage": "{{ percentage }}%",
             "positionsLeft": {
+                "compact_one": "{{ count }} left",
+                "compact_other": "{{ count }} left",
                 "descriptive_one": "{{ count }} position left",
                 "descriptive_other": "{{ count }} positions left"
             },
             "positionsLeftInChapter": {
+                "compact_one": "{{ count }} left in chapter",
+                "compact_other": "{{ count }} left in chapter",
                 "descriptive_one": "{{ count }} position left in chapter",
                 "descriptive_other": "{{ count }} positions left in chapter"
             },
             "positionsLeftInPublication": {
+                "compact_one": "{{ count }} left in publication",
+                "compact_other": "{{ count }} left in publication",
                 "descriptive_one": "{{ count }} position left in publication",
                 "descriptive_other": "{{ count }} positions left in publication"
             },
