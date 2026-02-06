@@ -1,5 +1,16 @@
 {
     "publication": {
+        "format": {
+            "audiobook": "Ljudbok",
+            "audiobookJSON": "Ljudboksmanifest",
+            "cbz": "Serieboksarkiv",
+            "divina": "Divina publikation",
+            "epub": "EPUB",
+            "lcpa": "LCP-skyddad ljudbok",
+            "lcpdf": "LCP-skyddad PDF",
+            "lcpl": "LCP Licensdokument",
+            "pdf": "PDF"
+        },
         "metadata": {
             "accessibility": {
                 "display-guide": {
@@ -57,8 +68,8 @@
                             "certification-info": "Publikationen certifierades ",
                             "certifier-report": "Se certifieringsrapporten för mer information",
                             "claim": "Publikationen anger att den uppfyller kraven enligt",
-                            "epub-accessibility-1-0": "EPUB Accessibility 1.0",
-                            "epub-accessibility-1-1": "EPUB Accessibility 1.1",
+                            "epub-accessibility-1-0": "EPUB Tillgänglighet 1.0",
+                            "epub-accessibility-1-1": "EPUB Tillgänglighet 1.1",
                             "level-a": "nivå A",
                             "level-aa": "nivå AA",
                             "level-aaa": "nivå AAA",
