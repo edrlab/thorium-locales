@@ -5,11 +5,26 @@
             "audiobookJSON": "Ljudboksmanifest",
             "cbz": "Serieboksarkiv",
             "divina": "Divina publikation",
+            "divinaJSON": "Divina Publication Manifest",
             "epub": "EPUB",
             "lcpa": "LCP-skyddad ljudbok",
             "lcpdf": "LCP-skyddad PDF",
             "lcpl": "LCP Licensdokument",
-            "pdf": "PDF"
+            "pdf": "PDF",
+            "rwp": "Readium Web Publication",
+            "rwpm": "Readium Web Publication Manifest",
+            "zab": "Ljudboksarkiv",
+            "zip": "ZIP-arkiv"
+        },
+        "kind": {
+            "audiobook_one": "ljudbook",
+            "audiobook_other": "ljudböcker",
+            "book_one": "bok",
+            "book_other": "böcker",
+            "comic_one": "serietidning",
+            "comic_other": "serietidningar",
+            "document_one": "dokument",
+            "document_other": "dokument"
         },
         "metadata": {
             "accessibility": {
@@ -265,8 +280,8 @@
             "identifier_other": "identifierare",
             "illustrator_one": "illustratör",
             "illustrator_other": "illustratörer",
-            "imprint_one": "imprint",
-            "imprint_other": "imprint",
+            "imprint_one": "förlagsetikett",
+            "imprint_other": "förlagsetiketter",
             "inker_one": "tuschare",
             "inker_other": "tuschare",
             "language_one": "språk",
