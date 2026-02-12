@@ -153,6 +153,34 @@
             "unknownTitle": "Titre inconnu"
         }
     },
+    "reader": {
+        "settings": {
+            "progression": {
+                "displayCurrentProgression": {
+                    "compact": "Afficher la progression actuelle"
+                },
+                "displayPrintPagination": {
+                    "compact": "Afficher la pagination imprimée"
+                },
+                "progressionStyle": {
+                    "compact": "Format de la progression"
+                },
+                "title": "Progression"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Toujours afficher la barre d'état"
+                },
+                "displayOrientationLock": {
+                    "compact": "Afficher le bouton de verrouillage d'orientation lors d'une rotation"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Empêcher la mise en veille de l'écran"
+                }
+            },
+            "title": "Options de lecture"
+        }
+    },
     "settings": {
         "miniPlayer": {
             "always": "Toujours affiché",
