@@ -214,6 +214,8 @@
             },
             "percentage": "{{ percentage }}%",
             "positionsLeft": {
+                "compact_one": "{{ count }} jäljellä",
+                "compact_other": "{{ count }} jäljellä",
                 "descriptive_one": "{{ count }} sijainti jäljellä",
                 "descriptive_other": "{{ count }} sijaintia jäljellä"
             },
@@ -222,7 +224,7 @@
                 "descriptive_other": "{{ count }} jäljellä kohdassa nykyinen luku"
             },
             "positionsLeftInPublication": {
-                "descriptive_one": "{{ count }} sijaintia jäljellä luvussa",
+                "descriptive_one": "{{ count }} sijaintia jäljellä julkaisussa",
                 "descriptive_other": "{{ count }} jäljellä kohdassa julkaisu"
             },
             "range": "{{ start }}–{{ end }}",

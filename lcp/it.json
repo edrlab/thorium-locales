@@ -11,12 +11,33 @@
                 "descriptive": "Ritorna la pubblicazione"
             }
         },
+        "dialog": {
+            "actions": {
+                "cancel": "Annulla",
+                "continue": "Continua",
+                "recoverPassphrase": "Hai dimenticato la password?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Password errata."
+            },
+            "info": {
+                "body": "Questa pubblicazione è protetta con LCP (Licensed Content Protection), una tecnologia DRM che impedisce la riproduzione non autorizzata mantenendo semplice la tua esperienza di lettura. LCP è uno standard aperto che coniuga la facilità d'uso con le esigenze degli editori.",
+                "more": "Per saperne di più…",
+                "title": "Che cos'è LCP?"
+            },
+            "message": "Questa pubblicazione richiede una password LCP per essere aperta, fornita dalla tua biblioteca o dalla tua libreria online. Inseriscila e potrai iniziare a leggere su questa periferica.",
+            "passphrase": {
+                "hint": "**Indizio:** {{ hint }}",
+                "placeholder": "Password"
+            },
+            "title": "Inserisci la password"
+        },
         "errors": {
             "alreadyReturnedOrExpired": "Questa pubblicazione è già stata restituita o è scaduta.",
             "copyForbidden": "Hai superato il numero massimo di caratteri consentito per copiare.",
             "invalidLicense": "Non è stato possibile autorizzare la licenza di questo libro. Si prega di contattare il fornitore per assistenza.",
             "invalidRenewalPeriod": "Questa pubblicazione non puo essere rinnovata alla data selezionata. Si prega di provare con una data diversa.",
-            "missingPassphrase": "È richiesta una passphrase per aprire questa pubblicazione. Si prega di contattare il fornitore per ottenere la passphrase.",
+            "missingPassphrase": "È richiesta una password per aprire questa pubblicazione. Si prega di contattare il fornitore per ottenere la password.",
             "renewFailed": "La pubblicazione non può essere rinnovata. Si prega di contattare il fornitore per ottenere assistenza.",
             "returnFailed": "La pubblicazione non può essere restituita. Si prega di contattare il fornitore per ottenere assistenza.",
             "statusCancelled": "Hai cancellato l'accesso a questa pubblicazione il {{ date }}. Si prega di contattare il fornitore per ripristinare l'accesso.",
