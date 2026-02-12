@@ -153,6 +153,34 @@
             "unknownTitle": "Titolo sconosciuto"
         }
     },
+    "reader": {
+        "settings": {
+            "progression": {
+                "displayCurrentProgression": {
+                    "compact": "Visualizza la progressione attuale"
+                },
+                "displayPrintPagination": {
+                    "compact": "Visualizza la versione a stampa"
+                },
+                "progressionStyle": {
+                    "compact": "Formato della progressione"
+                },
+                "title": "Progressione"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Visualizza sempre la barra di stato"
+                },
+                "displayOrientationLock": {
+                    "compact": "Visualizza il pulsante di blocco dell'orientazione durante la rotazione"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Sospendi il timeout dello schermo"
+                }
+            },
+            "title": "Opzioni di lettura"
+        }
+    },
     "settings": {
         "miniPlayer": {
             "always": "Visualizza sempre",
