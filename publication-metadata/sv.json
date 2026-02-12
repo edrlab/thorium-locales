@@ -17,7 +17,7 @@
             "zip": "ZIP-arkiv"
         },
         "kind": {
-            "audiobook_one": "ljudbook",
+            "audiobook_one": "ljudbok",
             "audiobook_other": "ljudböcker",
             "book_one": "bok",
             "book_other": "böcker",
