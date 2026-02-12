@@ -2,7 +2,80 @@
     "publication": {
         "format": {
             "audiobook": "Ακουστικό βιβλίο",
-            "audiobookJSON": "Έκδοση ακουστικού βιβλίου"
+            "audiobookJSON": "Έκδοση ακουστικού βιβλίου",
+            "cbz": "Αρχείο βιβλίων κόμικς",
+            "divina": "Divina έκδοση",
+            "divinaJSON": "Διακήρυξη έκδοσης Divina",
+            "epub": "Μορφή EPUB",
+            "lcpa": "LCP προστατευμένο ακουστικό βιβλίο",
+            "lcpdf": "LCP προστατευμένο PDF",
+            "lcpl": "LCP Έγγραφο άδειας",
+            "pdf": "Έκδοση PDF",
+            "rwp": "Readium Web έκδοσης",
+            "rwpm": "Διακήρυξη Readium Web έκδοσης",
+            "zab": "Αρχείο ακουστικών βιβλίων",
+            "zip": "Αρχείο ZIP"
+        },
+        "kind": {
+            "audiobook_one": "ακουστικό βιβλίο",
+            "audiobook_other": "ακουστικά βιβλίας",
+            "book_one": "βιβλίο",
+            "book_other": "βιβλία",
+            "comic_one": "κόμικ",
+            "comic_other": "κόμικς",
+            "document_one": "έγγραφο",
+            "document_other": "έγγραφα"
+        },
+        "metadata": {
+            "accessibility": {
+                "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Καμιά πληροφορία διαθέσιμη",
+                        "publisher-contact": "Για περισσότερες πληροφορίες σχετικά με αυτό τοτ προϊόν, παρακαλούμε επικοινωνήστε με τον εκδότη: ",
+                        "title": "Σύνοψη προσβασιμότητας"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "ARIA roles περιέχονται",
+                            "descriptive": "Το περιεχόμενο έχει εμπλουτιστεί με ARIA roles για τη βελτιστοποίηση της οργάνωσης και τη διευκόλυνση της πλοήγησης"
+                        },
+                        "audio-descriptions": "Ακουστική περιγραφή",
+                        "braille": "Braille μορφή",
+                        "color-not-sole-means-of-conveying-information": "Το χρώμα δεν είναι το μόνο μέσο για τη διαβίβαση της πληροφορίας",
+                        "dyslexia-readability": "Αναγνωσιμότητα προσαρμοσμένη σε άτομα με δυσλεξία",
+                        "full-ruby-annotations": "Πλήρεις σχολιασμοί σε μορφή ruby",
+                        "high-contrast-between-foreground-and-background-audio": "Υψηλή αντίθεση μεταξύ ήχου μπροστά και πίσω",
+                        "high-contrast-between-text-and-background": "Υψηλή αντίθεση μεταξύ κείμενο πρώτου πλάνου και φόντου",
+                        "large-print": "Μεγάλα στοιχεία",
+                        "page-breaks": {
+                            "compact": "Περιλαμβάνονται αλλαγές σελίδας",
+                            "descriptive": "Περιλαμβάνονται αλλαγές σελίδας από την πρωτότυπη έντυπη έκδοση"
+                        },
+                        "ruby-annotations": "Μερικά Ruby σχόλια",
+                        "sign-language": "Νοηματική γλώσσα",
+                        "tactile-graphics": {
+                            "compact": "Περιλαμβάνονται απτικά γραφικά",
+                            "descriptive": "Έχουν ενσωματωθεί απτικές γραφικές παραστάσεις για να διευκολύνουν την πρόσβαση των τυφλών σε οπτικά στοιχεία"
+                        },
+                        "tactile-objects": "Απτικά 3D αντικείμενα",
+                        "text-to-speech-hinting": "Παρέχεται υπόδειξη για βελτίωση απόδοσης κειμένου με συνθετική φωνή",
+                        "title": "Πρόσθετες πληροφορίες προσβασιμότητας",
+                        "ultra-high-contrast-between-text-and-background": "Εξαιρετικά υψηλή αντίθεση μεταξύ κειμένου και φόντου",
+                        "visible-page-numbering": "Ορατή αρίθμηση σελίδων",
+                        "without-background-sounds": "Χωρίς ήχους φόντου"
+                    },
+                    "conformance": {
+                        "a": {
+                            "compact": "Η παρούσα έκδοση πληροί τα ελάχιστα πρότυπα προσβασιμότητας",
+                            "descriptive": "Η έκδοση περιέχει δήλωση συμμόρφωσης ότι πληροί τα πρότυπα EPUB Accessibility και WCAG 2 Level A"
+                        },
+                        "aa": {
+                            "compact": "Η παρούσα έκδοση πληροί τα αποδεκτά πρότυπα προσβασιμότητας",
+                            "descriptive": "Η έκδοση περιέχει δήλωση συμμόρφωσης ότι πληροί τα πρότυπα EPUB Accessibility και WCAG 2 Level AA"
+                        }
+                    }
+                }
+            }
         }
     }
 }
