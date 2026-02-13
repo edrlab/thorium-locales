@@ -153,6 +153,34 @@
             "unknownTitle": "Teadmata pealkiri"
         }
     },
+    "reader": {
+        "settings": {
+            "progression": {
+                "displayCurrentProgression": {
+                    "compact": "Näita senist edenemist"
+                },
+                "displayPrintPagination": {
+                    "compact": "Näita lehtede korraldust"
+                },
+                "progressionStyle": {
+                    "compact": "Edenemise viis"
+                },
+                "title": "Edenemine"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Näita alati olekuriba"
+                },
+                "displayOrientationLock": {
+                    "compact": "Näita pööramisel paigutuse lukustamise nuppu"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Keela ekraani väljalülitamine"
+                }
+            },
+            "title": "Lugemiseelistused"
+        }
+    },
     "settings": {
         "miniPlayer": {
             "always": "Alati kuvatud",

@@ -2,14 +2,25 @@
     "publication": {
         "format": {
             "audiobook": "Audiobook",
+            "audiobookJSON": "Manifesto do livro áudio",
+            "cbz": "Banda desenhada",
+            "divina": "Publicação Divina",
+            "divinaJSON": "Manifesto de publicação Divina",
             "epub": "EPUB",
             "pdf": "PDF",
+            "zab": "Ficheiro Audiobook",
             "zip": "Ficheiro ZIP"
         },
         "kind": {
+            "audiobook_many": "Livros áudio",
+            "audiobook_one": "Livro áudio",
+            "audiobook_other": "Livros áudio",
             "book_many": "livros",
             "book_one": "livro",
             "book_other": "livros",
+            "comic_many": "Bandas desenhadas",
+            "comic_one": "Banda desenhada",
+            "comic_other": "Bandas desenhadas",
             "document_many": "documentos",
             "document_one": "documento",
             "document_other": "documentos"
