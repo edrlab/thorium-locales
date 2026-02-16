@@ -1,1 +1,26 @@
-{}
+{
+    "publication": {
+        "format": {
+            "audiobook": "Äänikirja",
+            "audiobookJSON": "Äänikirjan manifest",
+            "cbz": "Sarjakuvat",
+            "divina": "Divina-sarjakuva",
+            "divinaJSON": "Divina-julkaisun manifest",
+            "epub": "EPUB",
+            "lcpa": "LCP-suojattu äänikirja",
+            "lcpdf": "LCP-suojattu PDF",
+            "lcpl": "LCP-lisenssi.",
+            "pdf": "PDF",
+            "rwp": "Readium-verkkojulkaisu",
+            "rwpm": "Readium-verkkojulkaisun manifest",
+            "zab": "Äänikirjat",
+            "zip": "ZIP-arkisto"
+        },
+        "kind": {
+            "audiobook_one": "äänikirja",
+            "audiobook_other": "äänikirjaa",
+            "book_one": "kirja",
+            "book_other": "kirjaa"
+        }
+    }
+}
