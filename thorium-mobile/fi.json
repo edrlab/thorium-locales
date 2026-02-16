@@ -1,1 +1,40 @@
-{}
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Verkkosivu"
+                }
+            },
+            "title": "Kolmannen osapuolen ohjelmat"
+        },
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\nKaikki oikeudet pidätetään.",
+        "title": "Tietoja",
+        "version": "Versio {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Suodata"
+            },
+            "sort": {
+                "compact": "Lajittele"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Kirjahyllysi on tyhjä. Lisää ensimmäinen kirja, äänikirja tai sarjakuva ja ryhdy lukemaan.",
+                "filter": "Ei suodatusta vastaavia julkaisuja. Näytä koko kirjahylly, jotta näet kaikki julkaisusi.",
+                "kind": "Valittua tyyppiä vastaavia julkaisuja ei löydy. Näytä kaikki tyypit, jotta näet enemmän kirjahyllysi sisältöä."
+            },
+            "title": "Julkaisuja ei löytynyt"
+        },
+        "filter": {
+            "all": "Kaikki",
+            "currentlyReading": "Parhaillaan kesken",
+            "finished": "Luetut",
+            "notStartedYet": "Ei vielä aloitettu",
+            "recentlyAdded": "Äskettäin lisätty"
+        }
+    }
+}
