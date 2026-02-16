@@ -59,6 +59,7 @@
             }
         },
         "preferences": {
+            "brightness": "Brilho",
             "columns": {
                 "auto": "Auto",
                 "dual": {
@@ -165,7 +166,8 @@
                 },
                 "never": {
                     "compact": "Página única"
-                }
+                },
+                "title": "Espelhamento"
             },
             "text": "Texto",
             "textAlign": {

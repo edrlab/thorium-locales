@@ -11,6 +11,27 @@
                 "descriptive": "Retourner la publication"
             }
         },
+        "dialog": {
+            "actions": {
+                "cancel": "Annuler",
+                "continue": "Continuer",
+                "recoverPassphrase": "Mot de passe oublié ?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Mot de passe incorrect."
+            },
+            "info": {
+                "body": "Cette publication est protégée par LCP (Licensed Content Protection), une technologie DRM qui empêche la copie non autorisée tout en simplifiant votre expérience de lecture. LCP est un standard ouvert qui équilibre la facilité d'utilisation et les besoins des éditeurs.",
+                "more": "En savoir plus…",
+                "title": "Qu'est-ce que LCP ?"
+            },
+            "message": "Cette publication est protégée par LCP. Veuillez saisir le mot de passe fourni par votre bibliothèque ou votre libraire pour l'ouvrir.",
+            "passphrase": {
+                "hint": "**Indice :** {{ hint }}",
+                "placeholder": "Mot de passe"
+            },
+            "title": "Saisir le mot de passe"
+        },
         "errors": {
             "alreadyReturnedOrExpired": "Cette publication a déjà été rendue ou a expiré.",
             "copyForbidden": "Vous avez dépassé le nombre maximum de caractères autorisés pour la copie.",

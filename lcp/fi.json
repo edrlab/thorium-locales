@@ -1,1 +1,39 @@
-{}
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Uusi laina",
+                "descriptive": "Uusi laina"
+            },
+            "return": {
+                "compact": "Palauta",
+                "confirmation": "Haluatko varmasti palauttaa \"{{ title }}\"? Toimintoa ei voi perua.",
+                "descriptive": "Palauta laina"
+            }
+        },
+        "dialog": {
+            "actions": {
+                "cancel": "Peruuta",
+                "continue": "Jatka",
+                "recoverPassphrase": "Unohditko salasanasi?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Virheellinen salasana."
+            },
+            "info": {
+                "body": "Tämä julkaisu on suojattu LCP:llä (Licensed Content Protection), suojaustekniikalla, joka estää luvattoman kopioinnin mutta ei häiritse lukukokemusta. LCP on avoin standardi, joka yhdistää käyttäjäystävällisyyden ja kustantajien tarpeet.",
+                "more": "Lue lisää…",
+                "title": "Mikä LCP on?"
+            },
+            "message": "Tämän julkaisun avaaminen vaatii LCP-salasanan, joka saat kirjastostasi tai kirjakaupastasi. Kun olet antanut salasanan kerran, voit alkaa lukea tällä laitteella.",
+            "passphrase": {
+                "hint": "**Vinkki:** {{ hint }}",
+                "placeholder": "Salasana"
+            },
+            "title": "Anna salasana"
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Tämä julkaisu on jo palautettu tai vanhentunut."
+        }
+    }
+}
