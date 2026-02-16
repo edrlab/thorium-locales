@@ -18,7 +18,7 @@
                 "recoverPassphrase": "Unohditko salasanasi?"
             },
             "errors": {
-                "incorrectPassphrase": "Virheellinen salasana"
+                "incorrectPassphrase": "Virheellinen salasana."
             },
             "info": {
                 "body": "Tämä julkaisu on suojattu LCP:llä (Licensed Content Protection), suojaustekniikalla, joka estää luvattoman kopioinnin mutta ei häiritse lukukokemusta. LCP on avoin standardi, joka yhdistää käyttäjäystävällisyyden ja kustantajien tarpeet.",
