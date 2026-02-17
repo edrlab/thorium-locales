@@ -33,7 +33,13 @@
             "title": "Anna salasana"
         },
         "errors": {
-            "alreadyReturnedOrExpired": "Tämä julkaisu on jo palautettu tai vanhentunut."
+            "alreadyReturnedOrExpired": "Tämä julkaisu on jo palautettu tai vanhentunut.",
+            "copyForbidden": "Olet ylittänyt suurimman sallitun merkkimäärän kopionnissa.",
+            "invalidLicense": "Julkaisun lisenssin validointi epäonnistui. Ota yhteyttä palveluntarjoajaan saadaksesi apua.",
+            "invalidRenewalPeriod": "Julkaisun uusiminen ei onnistunut valitulla päivämäärällä. Yritä toista päivämäärää.",
+            "missingPassphrase": "Tämän julkaisun avaamiseen vaaditaan sanasana. Ota yhteyttä lisenssin tarjoajaan saadaksesi salasanan.",
+            "renewFailed": "Julkaisun lainaa ei voitu uusia. Ota yhteyttä palveluntarjoajaan saadaksesi apua.",
+            "returnFailed": "Julkaisun palauttaminen ei onnistunut. Ota yhteyttä palveluntarjoajaan saadaksesi apua."
         }
     }
 }
