@@ -34,7 +34,20 @@
             "currentlyReading": "Parhaillaan kesken",
             "finished": "Luetut",
             "notStartedYet": "Ei vielä aloitettu",
-            "recentlyAdded": "Äskettäin lisätty"
+            "recentlyAdded": "Äskettäin lisätty",
+            "samples": "Näytteet",
+            "type": "Tyyppi"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Tutki"
+            }
+        },
+        "sort": {
+            "author": "Kirjailija",
+            "finished": "Valmistumispäivä",
+            "lastAdded": "Viimeksi lisätty",
+            "lastRead": "Viimeksi luettu"
         }
     }
 }
