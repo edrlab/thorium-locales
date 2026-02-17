@@ -20,7 +20,28 @@
             "audiobook_one": "äänikirja",
             "audiobook_other": "äänikirjaa",
             "book_one": "kirja",
-            "book_other": "kirjaa"
+            "book_other": "kirjaa",
+            "comic_one": "sarjakuva",
+            "comic_other": "sarjakuvaa",
+            "document_one": "tiedosto",
+            "document_other": "tiedostoa"
+        },
+        "metadata": {
+            "accessibility": {
+                "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Tietoa ei saatavilla",
+                        "publisher-contact": "Saadaksesi lisätietoa tämän julkaisun saavutettavuudesta ota yhteyttä kustantajaan. ",
+                        "title": "Saavutettavuuden lisätiedot"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "ARIA-rooleja on käytetty",
+                            "descriptive": "Sisältöön on lisätty ARIA-rooleja, jotka selkeyttävät rakennetta ja voivat helpottaa navigaatiota"
+                        }
+                    }
+                }
+            }
         }
     }
 }
