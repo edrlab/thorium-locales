@@ -38,6 +38,65 @@
                         "aria": {
                             "compact": "ARIA-rooleja on käytetty",
                             "descriptive": "Sisältöön on lisätty ARIA-rooleja, jotka selkeyttävät rakennetta ja voivat helpottaa navigaatiota"
+                        },
+                        "audio-descriptions": "Kuvailutulkkaus",
+                        "braille": "Pistekirjoitus",
+                        "color-not-sole-means-of-conveying-information": "Väri ei ole ainoa keino välittää tietoa",
+                        "dyslexia-readability": "Soveltuu henkilöille, joilla on lukivaikeus",
+                        "full-ruby-annotations": "Kattavat rubi-merkinnät",
+                        "high-contrast-between-foreground-and-background-audio": "Korkea kontrasti äänisisältöjen edusta- ja taustaäänen tasoissa",
+                        "high-contrast-between-text-and-background": "Korkea kontrasti tekstin ja taustan välillä",
+                        "large-print": "Isotekstinen",
+                        "page-breaks": {
+                            "compact": "Sivunvaihtokohdat on merkitty",
+                            "descriptive": "Painetun julkaisun sivunvaihtokohdat on merkitty"
+                        },
+                        "ruby-annotations": "Sisältää rubi-merkintöjä",
+                        "sign-language": "Viittomakielinen",
+                        "tactile-graphics": {
+                            "compact": "Sisältää kohokuvia",
+                            "descriptive": "Sisältää kohokuvia sokeille henkilöille"
+                        },
+                        "tactile-objects": "Kolmiulotteisia taktiiliosia",
+                        "text-to-speech-hinting": "Tekstistä puheeksi -vihjeitä",
+                        "title": "Lisätietoa saavutettavuudesta",
+                        "ultra-high-contrast-between-text-and-background": "Erittäin korkea kontrasti tekstin ja taustan välillä",
+                        "visible-page-numbering": "Näkyvä sivunumerointi",
+                        "without-background-sounds": "Ei taustaääniä"
+                    },
+                    "conformance": {
+                        "a": {
+                            "compact": "Tämä julkaisu noudattaa saavutettavuusstandardien alinta tasoa",
+                            "descriptive": "Tämä julkaisu ilmoittaa, että se noudattaa standardeja EPUB Accessibility ja WCAG 2, taso A"
+                        },
+                        "aa": {
+                            "compact": "Tämä julkaisu noudattaa saavutettavuusstandardien yleisesti hyväksyttyä tasoa",
+                            "descriptive": "Tämä julkaisu ilmoittaa, että se noudattaa standardeja EPUB Accessibility ja WCAG 2, taso AA"
+                        },
+                        "aaa": {
+                            "compact": "Tämä julkaisu ylittää saavutettavuusstandardien yleisesti hyväksytyn tason",
+                            "descriptive": "Tämä julkaisu ilmoittaa, että se noudattaa standardeja EPUB Accessibility ja WCAG 2, taso AAA"
+                        },
+                        "certifier": "Julkaisun saavutettavuuden on arvioinut ",
+                        "certifier-credentials": "Arvioijan sertifiointitunnus on ",
+                        "details": {
+                            "certification-info": "Julkaisu on arvioitu ",
+                            "certifier-report": "Lisätietoja arvioijan raportissa",
+                            "claim": "Tämän julkaisun ilmoitetaan noudattavan standardia",
+                            "epub-accessibility-1-0": "EPUB Accessibility 1.0",
+                            "epub-accessibility-1-1": "EPUB Accessibility 1.1",
+                            "level-a": "Taso A",
+                            "level-aa": "Taso AA",
+                            "level-aaa": "Taso AAA"
+                        }
+                    },
+                    "hazards": {
+                        "flashing-none": {
+                            "descriptive": "Julkaisussa ei ole välkkyvää sisältöä, joka voi olla haitallista valoherkille"
+                        },
+                        "flashing-unknown": {
+                            "compact": "Ei tietoa välkkyvästä sisällöstä",
+                            "descriptive": "Ei ole tietoa, onko julkaisussa välkkyvää sisältöä"
                         }
                     }
                 }
