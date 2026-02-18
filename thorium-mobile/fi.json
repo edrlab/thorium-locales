@@ -47,7 +47,77 @@
             "author": "Kirjailija",
             "finished": "Valmistumispäivä",
             "lastAdded": "Viimeksi lisätty",
-            "lastRead": "Viimeksi luettu"
+            "lastRead": "Viimeksi luettu",
+            "title": "Kirjan nimi"
+        },
+        "title": "Kirjahylly",
+        "view": {
+            "grid": "Ruudukko",
+            "list": "Luettelo",
+            "title": "Näyttötila"
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Peru",
+            "close": "Sulje",
+            "collapse": "Kutista",
+            "collapseAll": "Kutista kaikki",
+            "expand": "Laajenna",
+            "expandAll": "Laajenna kaikki",
+            "search": "Hae",
+            "showMoreOptions": "Lisää vaihtoehtoja"
+        },
+        "confirmation": {
+            "title": "Haluatko varmasti jatkaa?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Yksityiskohdat"
+                }
+            },
+            "cancelled": "Toiminto peruttu.",
+            "title": "Virhe",
+            "unexpected": "Jotain meni pieleen. Yritä uudelleen."
+        },
+        "file": {
+            "errors": {
+                "corrupted": "Sisältöä ei voi avata. Tiedosto saattaa olla vahingoittunut tai käyttää tiedostomuotoa, jota ei tueta. Kokeile toista tiedostoa.",
+                "forbidden": "Tiedostoa ei voi avata. Käyttöoikeus evätty.",
+                "formatNotSupported": "Tiedostotyyppiä ei tueta. Kokeile toista tiedostoa.",
+                "insufficientSpace": "Levytilaa ei ole riittävästi tämän tiedoston lataamisen tai tuontiin. Vapauta tilaa ja yritä uudelleen.",
+                "notFound": "Tiedostoa ei voitu avata. Tiedostoa ei löytynyt.",
+                "protocolNotSupported": "Tätä julkaisua ei voida avata sen nykyisestä sijainnista. Yritä ladata se tai ota yhteyttä kirjakauppaan saadaksesi tukea."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Jokin meni pieleen. Tarkista internetyhteytesi tai yritä myöhemmin uudelleen.",
+                "forbidden": "Sinulla ei ole oikeutta käyttää tätä sisältöä.",
+                "malformedResponse": "Sisältöä ei voi ladata. Palvelimessa on ongelma. Yritä myöhemmin uudelleen.",
+                "methodNotSupported": "Palvelin ei tue vaadittua latausmenetelmää.",
+                "notFound": "Sisältöä ei löydy.",
+                "offline": "Olet offline-tilassa. Tarkista internetyhteytesi.",
+                "security": "Suojattu yhteys epäonnistui. Yritä myöhemmin uudelleen.",
+                "timeout": "Yhteys aikakatkaistiin. Yritä uudelleen.",
+                "unauthorized": "Kirjaudu sisään, jotta voit käyttää tätä sisältöä.",
+                "unreachable": "Palvelimeen ei saatu yhteyttä."
+            }
+        }
+    },
+    "home": {
+        "title": "Koti"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Avaa kirja"
+        }
+    },
+    "publication": {
+        "labels": {
+            "sample": "Näyte",
+            "unknownTitle": "Tuntematon"
         }
     }
 }
