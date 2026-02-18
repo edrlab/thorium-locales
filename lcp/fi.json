@@ -39,7 +39,34 @@
             "invalidRenewalPeriod": "Julkaisun uusiminen ei onnistunut valitulla päivämäärällä. Yritä toista päivämäärää.",
             "missingPassphrase": "Tämän julkaisun avaamiseen vaaditaan sanasana. Ota yhteyttä lisenssin tarjoajaan saadaksesi salasanan.",
             "renewFailed": "Julkaisun lainaa ei voitu uusia. Ota yhteyttä palveluntarjoajaan saadaksesi apua.",
-            "returnFailed": "Julkaisun palauttaminen ei onnistunut. Ota yhteyttä palveluntarjoajaan saadaksesi apua."
+            "returnFailed": "Julkaisun palauttaminen ei onnistunut. Ota yhteyttä palveluntarjoajaan saadaksesi apua.",
+            "statusCancelled": "Olet perunut pääsyn tähän julkaisuun {{ date }}. Ota yhteyttä palveluntarjoajaan, jos haluat uusia pääsyoikeuden.",
+            "statusExpiredEnd": "Tämän julkaisun laina-aika päättyi {{ date }}. Ota yhteyttä kirjastoosi, jos haluat lainata sen uudelleen.",
+            "statusExpiredStart": "Julkaisu on saatavilla {{ date }}.",
+            "statusReturned": "Palautit tämän julkaisun {{ date }}. Ota yhteyttä kirjastoosi lainataksesi sen uudelleen.",
+            "statusRevoked_one": "Palveluntarjoaja peruutti tämän julkaisun käyttöoikeuden {{ date }}. Sitä käytettiin  {{ count }} laitteella. Ota yhteyttä palveluntarjoajaan saadaksesi lisätietoja.",
+            "statusRevoked_other": "Palveluntarjoaja peruutti tämän julkaisun käyttöoikeuden {{ date }}. Sitä käytettiin  {{ count }} laitteella. Ota yhteyttä palveluntarjoajaan saadaksesi lisätietoja."
+        },
+        "labels": {
+            "expired": "Erääntynyt",
+            "expiresIn": {
+                "days": {
+                    "descriptive_one": "Erääntyy {{ count }} päivän kuluttua",
+                    "descriptive_other": "Erääntyy {{ count }} päivän kuluttua"
+                },
+                "hours": {
+                    "descriptive_one": "Erääntyy {{ count }} tunnin kuluttua",
+                    "descriptive_other": "Erääntyy {{ count }} tunnin kuluttua"
+                },
+                "minutes": {
+                    "descriptive_one": "Erääntyy {{ count }} minuutin kuluttua",
+                    "descriptive_other": "Erääntyy {{ count }} minuutin kuluttua"
+                },
+                "months": {
+                    "descriptive_one": "Erääntyy {{ count }} kuukauden kuluttua",
+                    "descriptive_other": "Erääntyy {{ count }} kuukauden kuluttua"
+                }
+            }
         }
     }
 }
