@@ -2,18 +2,18 @@
     "publication": {
         "format": {
             "audiobook": "Äänikirja",
-            "audiobookJSON": "Äänikirjan manifest",
-            "cbz": "Sarjakuvat",
-            "divina": "Divina-sarjakuva",
-            "divinaJSON": "Divina-julkaisun manifest",
+            "audiobookJSON": "Äänikirjaluettelo",
+            "cbz": "Sarjakuva-arkisto",
+            "divina": "Divina-julkaisu",
+            "divinaJSON": "Divina-julkaisuluettelo",
             "epub": "EPUB",
             "lcpa": "LCP-suojattu äänikirja",
             "lcpdf": "LCP-suojattu PDF",
             "lcpl": "LCP-lisenssi",
             "pdf": "PDF",
-            "rwp": "Readium-verkkojulkaisu",
-            "rwpm": "Readium-verkkojulkaisun manifest",
-            "zab": "Äänikirjat",
+            "rwp": "Readium Web -julkaisu",
+            "rwpm": "Readium Web -julkaisuluettelo",
+            "zab": "Äänikirja-arkisto",
             "zip": "ZIP-arkisto"
         },
         "kind": {
@@ -31,12 +31,12 @@
                 "display-guide": {
                     "accessibility-summary": {
                         "no-metadata": "Tietoa ei saatavilla",
-                        "publisher-contact": "Saadaksesi lisätietoa tämän julkaisun saavutettavuudesta ota yhteyttä kustantajaan. ",
-                        "title": "Saavutettavuuden lisätiedot"
+                        "publisher-contact": "Lisätietoja tämän tuotteen saavutettavuudesta saat ottamalla yhteyttä kustantajaan: ",
+                        "title": "Saavutettavuuden yhteenveto"
                     },
                     "additional-accessibility-information": {
                         "aria": {
-                            "compact": "ARIA-rooleja on käytetty",
+                            "compact": "ARIA-roolit sisältyvät",
                             "descriptive": "Sisältöön on lisätty ARIA-rooleja, jotka selkeyttävät rakennetta ja voivat helpottaa navigaatiota"
                         },
                         "audio-descriptions": "Kuvailutulkkaus",
@@ -87,20 +87,224 @@
                             "epub-accessibility-1-1": "EPUB Accessibility 1.1",
                             "level-a": "Taso A",
                             "level-aa": "Taso AA",
-                            "level-aaa": "Taso AAA"
-                        }
+                            "level-aaa": "Taso AAA",
+                            "wcag-2-0": {
+                                "compact": "WCAG 2.0",
+                                "descriptive": "Verkkosisällön saavutettavuusohjeet (WCAG) 2.0"
+                            },
+                            "wcag-2-1": {
+                                "compact": "WCAG 2.1",
+                                "descriptive": "Verkkosisällön saavutettavuusohjeet (WCAG) 2.1"
+                            },
+                            "wcag-2-2": {
+                                "compact": "WCAG 2.2",
+                                "descriptive": "Verkkosisällön saavutettavuusohjeet (WCAG) 2.2"
+                            }
+                        },
+                        "details-title": "Yksityiskohtaiset vaatimustenmukaisuustiedot",
+                        "no": "Tietoja ei ole saatavilla",
+                        "title": "Vaatimustenmukaisuus",
+                        "unknown-standard": "Tämän julkaisun osalta ei voida määrittää, täyttääkö se hyväksytyt saavutettavuusvaatimukset"
                     },
                     "hazards": {
+                        "flashing": {
+                            "compact": "Vilkkuva sisältö",
+                            "descriptive": "Julkaisu sisältää vilkkuvaa sisältöä, joka voi aiheuttaa valoherkille henkilöille kohtauksia"
+                        },
                         "flashing-none": {
+                            "compact": "Ei vilkkuvan sisällön aiheuttamia vaaroja",
                             "descriptive": "Julkaisussa ei ole välkkyvää sisältöä, joka voi olla haitallista valoherkille"
                         },
                         "flashing-unknown": {
                             "compact": "Ei tietoa välkkyvästä sisällöstä",
                             "descriptive": "Ei ole tietoa, onko julkaisussa välkkyvää sisältöä"
+                        },
+                        "motion": {
+                            "compact": "Liikesimulointi",
+                            "descriptive": "Julkaisu sisältää liikesimulaatioita, jotka voivat aiheuttaa matkapahoinvointia"
+                        },
+                        "motion-none": {
+                            "compact": "Ei liikesimuloinnin aiheuttamia vaaroja",
+                            "descriptive": "Julkaisu ei sisällä liikesimulaatioita, jotka voivat aiheuttaa matkapahoinvointia"
+                        },
+                        "motion-unknown": {
+                            "compact": "Liikesimuloinnin aiheuttamia vaaroja ei tunneta",
+                            "descriptive": "Matkapahoinvointia mahdollisesti aiheuttavien liikesimulaatioiden esiintymistä ei voitu määrittää"
+                        },
+                        "no-metadata": "Tietoja ei ole saatavilla",
+                        "none": {
+                            "compact": "Ei vaaroja",
+                            "descriptive": "Julkaisu ei sisällä vaaroja"
+                        },
+                        "sound": {
+                            "compact": "Äänet",
+                            "descriptive": "Julkaisu sisältää ääniä, jotka voivat aiheuttaa herkkyysongelmia"
+                        },
+                        "sound-none": {
+                            "compact": "Ei äänten aiheuttamia vaaroja",
+                            "descriptive": "Julkaisu ei sisällä ääniä, jotka voivat aiheuttaa herkkyysongelmia"
+                        },
+                        "sound-unknown": {
+                            "compact": "Äänten aiheuttamia vaaroja ei tunneta",
+                            "descriptive": "Herkkyysongelmia mahdollisesti aiheuttavien äänten esiintymistä ei voitu määrittää"
+                        },
+                        "title": "Vaarat",
+                        "unknown": "Vaarojen esiintyminen on tuntematon"
+                    },
+                    "legal-considerations": {
+                        "exempt": {
+                            "compact": "Hakee saavutettavuusvapautusta joillakin lainkäyttöalueilla",
+                            "descriptive": "Tämä julkaisu hakee saavutettavuusvapautusta joillakin lainkäyttöalueilla"
+                        },
+                        "no-metadata": "Tietoja ei ole saatavilla",
+                        "title": "Oikeudelliset näkökohdat"
+                    },
+                    "navigation": {
+                        "index": {
+                            "compact": "Hakemisto",
+                            "descriptive": "Hakemisto, jossa on linkkejä viitattuihin merkintöihin"
+                        },
+                        "no-metadata": "Tietoja ei ole saatavilla",
+                        "page-navigation": {
+                            "compact": "Siirry sivulle",
+                            "descriptive": "Sivuluettelo, josta siirrytään printtiversion sivuille"
+                        },
+                        "structural": {
+                            "compact": "Otsikot",
+                            "descriptive": "Jäsennellyn siirtymisen elementit, kuten otsikot, taulukot jne."
+                        },
+                        "title": "Siirtyminen",
+                        "toc": {
+                            "compact": "Sisällysluettelo",
+                            "descriptive": "Sisällysluettelo kaikkiin tekstin lukuihin linkkien kautta"
+                        }
+                    },
+                    "rich-content": {
+                        "accessible-chemistry-as-latex": {
+                            "compact": "Kemialliset kaavat LaTeX-muodossa",
+                            "descriptive": "Kemialliset kaavat saavutettavassa muodossa (LaTeX)"
+                        },
+                        "accessible-chemistry-as-mathml": {
+                            "compact": "Kemialliset kaavat MathML-muodossa",
+                            "descriptive": "Kemialliset kaavat saavutettavassa muodossa (MathML)"
+                        },
+                        "accessible-math-as-latex": {
+                            "compact": "Matematiikka LaTeX-muodossa",
+                            "descriptive": "Matemaattiset kaavat saavutettavassa muodossa (LaTeX)"
+                        },
+                        "accessible-math-described": "Matematiikan tekstikuvaukset on annettu",
+                        "closed-captions": {
+                            "compact": "Videoissa on tekstitys",
+                            "descriptive": "Julkaisuihin sisältyvissä videoissa on tekstitys"
+                        },
+                        "extended-descriptions": "Tietoa sisältäviä kuvia kuvataan laajennetuilla kuvauksilla",
+                        "math-as-mathml": {
+                            "compact": "Matematiikka MathML-muodossa",
+                            "descriptive": "Matemaattiset kaavat saavutettavassa muodossa (MathML)"
+                        },
+                        "open-captions": {
+                            "compact": "Videoissa on kiinteä tekstitys",
+                            "descriptive": "Julkaisuihin sisältyvissä videoissa on kiinteä tekstitys"
+                        },
+                        "title": "Rikastettu sisältö",
+                        "transcript": "Transkriptio(t) annettu",
+                        "unknown": "Tietoja ei ole saatavilla"
+                    },
+                    "ways-of-reading": {
+                        "nonvisual-reading": {
+                            "alt-text": {
+                                "compact": "Sisältää vaihtoehtoista tekstiä",
+                                "descriptive": "Kuville on vaihtoehtoiset tekstikuvaukset"
+                            },
+                            "no-metadata": "Ei-visuaalisesta lukemisesta ei ole tietoja saatavilla",
+                            "none": {
+                                "compact": "Ei luettavissa teksti puheeksi -toiminnolla tai dynaamisella pistekirjoituksella",
+                                "descriptive": "Sisältö ei ole luettavissa teksti puheeksi -toiminnolla tai dynaamisella pistekirjoituksella"
+                            },
+                            "not-fully": {
+                                "compact": "Ei kokonaan luettavissa teksti puheeksi -toiminnolla tai dynaamisella pistekirjoituksella",
+                                "descriptive": "Kaikki sisältö ei ole luettavissa teksti puheeksi -toiminnolla tai dynaamisella pistekirjoituksella"
+                            },
+                            "readable": {
+                                "compact": "Luettavissa teksti puheeksi -toiminnolla tai dynaamisella pistekirjoituksella",
+                                "descriptive": "Kaikki sisältö on luettavissa teksti puheeksi -toiminnolla tai dynaamisella pistekirjoituksella"
+                            }
+                        },
+                        "prerecorded-audio": {
+                            "complementary": {
+                                "compact": "Ennalta nauhoitetut äänileikkeet",
+                                "descriptive": "Ennalta nauhoitetut äänileikkeet on upotettu sisältöön"
+                            },
+                            "no-metadata": "Ennalta nauhoitetusta äänestä ei ole tietoja saatavilla",
+                            "only": {
+                                "compact": "Vain ennalta nauhoitettu ääni",
+                                "descriptive": "Äänikirja ilman tekstivaihtoehtoa"
+                            },
+                            "synchronized": {
+                                "compact": "Ennalta nauhoitettu ääni synkronoitu tekstin kanssa",
+                                "descriptive": "Kaikki sisältö on käytettävissä ennalta nauhoitettuna äänenä, joka on synkronoitu tekstin kanssa"
+                            }
+                        },
+                        "title": "Lukutavat",
+                        "visual-adjustments": {
+                            "modifiable": {
+                                "compact": "Ulkoasua voidaan muokata",
+                                "descriptive": "Tekstin ja sivun asettelun ulkoasua voidaan muokata lukujärjestelmän ominaisuuksien mukaan (fonttiperhe ja fonttikoko, kappaleiden, virkkeiden, sanojen ja kirjainten välit sekä taustan ja tekstin väri)"
+                            },
+                            "unknown": "Ulkoasun muokattavuudesta ei ole tietoja saatavilla",
+                            "unmodifiable": {
+                                "compact": "Ulkoasua ei voi muokata",
+                                "descriptive": "Tekstiä ja sivun asettelua ei voi muokata, koska lukukokemus on lähellä printtiversiota, mutta lukujärjestelmissä voi silti olla zoomausvaihtoehtoja"
+                            }
                         }
                     }
                 }
-            }
+            },
+            "altIdentifier_one": "vaihtoehtoinen tunniste",
+            "altIdentifier_other": "vaihtoehtoiset tunnisteet",
+            "artist_one": "taiteilija",
+            "artist_other": "taiteilijat",
+            "author_one": "kirjailija",
+            "author_other": "kirjailijat",
+            "collection_one": "toimituksellinen kokoelma",
+            "collection_other": "toimitukselliset kokoelmat",
+            "colorist_one": "värittäjä",
+            "colorist_other": "värittäjät",
+            "contributor_one": "avustaja",
+            "contributor_other": "avustajat",
+            "description": "kuvaus",
+            "duration": "kesto",
+            "editor_one": "toimittaja",
+            "editor_other": "toimittajat",
+            "identifier_one": "tunniste",
+            "identifier_other": "tunnisteet",
+            "illustrator_one": "kuvittaja",
+            "illustrator_other": "kuvittajat",
+            "imprint_one": "leima",
+            "imprint_other": "leimat",
+            "inker_one": "puhtaaksipiirtäjä",
+            "inker_other": "puhtaaksipiirtäjät",
+            "language_one": "kieli",
+            "language_other": "kielet",
+            "letterer_one": "tekstaaja",
+            "letterer_other": "tekstaajat",
+            "modified": "muokkauspäivämäärä",
+            "narrator_one": "lukija",
+            "narrator_other": "lukijat",
+            "numberOfPages": "printtiversion pituus",
+            "penciler_one": "piirtäjä",
+            "penciler_other": "piirtäjät",
+            "published": "julkaisupäivä",
+            "publisher_one": "kustantaja",
+            "publisher_other": "kustantajat",
+            "series_one": "sarja",
+            "series_other": "sarjat",
+            "subject_one": "aihe",
+            "subject_other": "aiheet",
+            "subtitle": "alaotsikko",
+            "title": "nimi",
+            "translator_one": "kääntäjä",
+            "translator_other": "kääntäjät"
         }
     }
 }
