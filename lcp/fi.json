@@ -2,13 +2,13 @@
     "lcp": {
         "actions": {
             "renew": {
-                "compact": "Uusi laina",
+                "compact": "Uusi",
                 "descriptive": "Uusi laina"
             },
             "return": {
                 "compact": "Palauta",
-                "confirmation": "Haluatko varmasti palauttaa \"{{ title }}\"? Toimintoa ei voi perua.",
-                "descriptive": "Palauta laina"
+                "confirmation": "Haluatko varmasti palauttaa kohteen {{ title }}? Tätä toimintoa ei voi kumota.",
+                "descriptive": "Palauta julkaisu"
             }
         },
         "dialog": {
@@ -21,11 +21,11 @@
                 "incorrectPassphrase": "Virheellinen salasana."
             },
             "info": {
-                "body": "Tämä julkaisu on suojattu LCP:llä (Licensed Content Protection), suojaustekniikalla, joka estää luvattoman kopioinnin mutta ei häiritse lukukokemusta. LCP on avoin standardi, joka yhdistää käyttäjäystävällisyyden ja kustantajien tarpeet.",
+                "body": "Tämä julkaisu on suojattu lisensoidun sisällön suojauksella (Licensed Content Protection, LCP). Se on DRM-teknologia, joka estää luvattoman kopioinnin ja pitää lukukokemuksen yksinkertaisena. LCP on avoin standardi, joka parantaa käyttäjäystävällisyyttä huomioiden samalla kustantajien tarpeet.",
                 "more": "Lue lisää…",
-                "title": "Mikä LCP on?"
+                "title": "Mikä on LCP?"
             },
-            "message": "Tämän julkaisun avaaminen vaatii LCP-salasanan, joka saat kirjastostasi tai kirjakaupastasi. Kun olet antanut salasanan kerran, voit alkaa lukea tällä laitteella.",
+            "message": "Tämän julkaisun avaamiseen tarvitaan LCP-salasana, jonka saat kirjastosta tai kirjakaupasta. Kirjoita se kerran, niin voit lukea tällä laitteella.",
             "passphrase": {
                 "hint": "**Vinkki:** {{ hint }}",
                 "placeholder": "Salasana"
@@ -33,22 +33,22 @@
             "title": "Anna salasana"
         },
         "errors": {
-            "alreadyReturnedOrExpired": "Tämä julkaisu on jo palautettu tai vanhentunut.",
-            "copyForbidden": "Olet ylittänyt suurimman sallitun merkkimäärän kopionnissa.",
-            "invalidLicense": "Julkaisun lisenssin validointi epäonnistui. Ota yhteyttä palveluntarjoajaan saadaksesi apua.",
-            "invalidRenewalPeriod": "Julkaisun uusiminen ei onnistunut valitulla päivämäärällä. Yritä toista päivämäärää.",
-            "missingPassphrase": "Tämän julkaisun avaamiseen vaaditaan sanasana. Ota yhteyttä lisenssin tarjoajaan saadaksesi salasanan.",
-            "renewFailed": "Julkaisun lainaa ei voitu uusia. Ota yhteyttä palveluntarjoajaan saadaksesi apua.",
-            "returnFailed": "Julkaisun palauttaminen ei onnistunut. Ota yhteyttä palveluntarjoajaan saadaksesi apua.",
-            "statusCancelled": "Olet perunut pääsyn tähän julkaisuun {{ date }}. Ota yhteyttä palveluntarjoajaan, jos haluat uusia pääsyoikeuden.",
-            "statusExpiredEnd": "Tämän julkaisun laina-aika päättyi {{ date }}. Ota yhteyttä kirjastoosi, jos haluat lainata sen uudelleen.",
+            "alreadyReturnedOrExpired": "Tämä julkaisu on jo palautettu tai se on vanhentunut.",
+            "copyForbidden": "Olet ylittänyt kopiointiin sallitun merkkien enimmäismäärän.",
+            "invalidLicense": "Tämän julkaisun lisenssiä ei voitu vahvistaa. Pyydä apua lisenssin tarjoajalta.",
+            "invalidRenewalPeriod": "Tätä julkaisua ei voi uusia valitulle päivämäärälle. Kokeile toista päivämäärää.",
+            "missingPassphrase": "Tämän julkaisun avaamiseen vaaditaan salasana. Pyydä salasana lisenssin tarjoajalta.",
+            "renewFailed": "Julkaisuasi ei voitu uusia. Pyydä apua palveluntarjoajalta.",
+            "returnFailed": "Julkaisuasi ei voitu palauttaa. Pyydä apua palveluntarjoajalta.",
+            "statusCancelled": "Peruutit tämän julkaisun käyttöoikeuden {{ date }}. Ota yhteyttä lisenssin tarjoajaan, jos haluat palauttaa käyttöoikeuden.",
+            "statusExpiredEnd": "Tämän julkaisun laina-aika päättyi {{ date }}. Ota yhteyttä kirjastoon, jos haluat lainata sen uudelleen.",
             "statusExpiredStart": "Julkaisu on saatavilla {{ date }}.",
-            "statusReturned": "Palautit tämän julkaisun {{ date }}. Ota yhteyttä kirjastoosi lainataksesi sen uudelleen.",
-            "statusRevoked_one": "Palveluntarjoaja peruutti tämän julkaisun käyttöoikeuden {{ date }}. Sitä käytettiin  {{ count }} laitteella. Ota yhteyttä palveluntarjoajaan saadaksesi lisätietoja.",
-            "statusRevoked_other": "Palveluntarjoaja peruutti tämän julkaisun käyttöoikeuden {{ date }}. Sitä käytettiin  {{ count }} laitteella. Ota yhteyttä palveluntarjoajaan saadaksesi lisätietoja."
+            "statusReturned": "Palautit tämän julkaisun {{ date }}. Ota yhteyttä kirjastoon, jos haluat lainata sen uudelleen.",
+            "statusRevoked_one": "Palveluntarjoaja peruutti tämän julkaisun käyttöoikeuden {{ date }}. Sitä käytettiin {{ count }} laitteessa. Pyydä lisätietoja palveluntarjoajaltasi.",
+            "statusRevoked_other": "Palveluntarjoaja peruutti tämän julkaisun käyttöoikeuden {{ date }}. Sitä käytettiin {{ count }} laitteessa. Pyydä lisätietoja palveluntarjoajaltasi."
         },
         "labels": {
-            "expired": "Erääntynyt",
+            "expired": "Vanhentunut",
             "expiresIn": {
                 "days": {
                     "descriptive_one": "Erääntyy {{ count }} päivän kuluttua",
