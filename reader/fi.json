@@ -220,10 +220,14 @@
                 "descriptive_other": "{{ count }} sijaintia jäljellä"
             },
             "positionsLeftInChapter": {
+                "compact_one": "{{ count }} jäljellä luvussa",
+                "compact_other": "{{ count }} jäljellä luvussa",
                 "descriptive_one": "{{ count }} sijainti jäljellä luvussa",
                 "descriptive_other": "{{ count }} jäljellä kohdassa nykyinen luku"
             },
             "positionsLeftInPublication": {
+                "compact_one": "{{ count }} jäljellä julkaisussa",
+                "compact_other": "{{ count }} jäljellä julkaisussa",
                 "descriptive_one": "{{ count }} sijaintia jäljellä julkaisussa",
                 "descriptive_other": "{{ count }} jäljellä kohdassa julkaisu"
             },
