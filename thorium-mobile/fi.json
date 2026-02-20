@@ -54,7 +54,7 @@
         "view": {
             "grid": "Ruudukko",
             "list": "Luettelo",
-            "title": "Näyttönäkymä"
+            "title": "Näkymä"
         }
     },
     "common": {
@@ -74,7 +74,7 @@
         "error": {
             "actions": {
                 "showDetails": {
-                    "compact": "Tiedot"
+                    "compact": "Lisätietoja"
                 }
             },
             "cancelled": "Toiminto peruutettu.",
@@ -140,7 +140,7 @@
             },
             "remove": {
                 "compact": "Poista",
-                "confirmation": "Haluatko varmasti poistaa kohteen {{ title }}? Tätä toimintoa ei voi kumota."
+                "confirmation": "Haluatko varmasti poistaa kohteen \"{{ title }}\"? Tätä toimintoa ei voi kumota."
             },
             "rename": {
                 "compact": "Nimeä uudelleen",
