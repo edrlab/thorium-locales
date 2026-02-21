@@ -1,1 +1,72 @@
-{}
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Låna om",
+                "descriptive": "Förnya lån"
+            },
+            "return": {
+                "compact": "Lämna tillbaka",
+                "confirmation": "Är du säker på att du vill återlämna \"{{ title }}\"? Denna åtgärd kan inte ångras.",
+                "descriptive": "Återlämna publikation"
+            }
+        },
+        "dialog": {
+            "actions": {
+                "cancel": "Avbryt",
+                "continue": "Fortsätt",
+                "recoverPassphrase": "Glömt ditt lösenord?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Felaktigt lösenord."
+            },
+            "info": {
+                "body": "Denna publikation skyddas av LCP (licensierat innehållsskydd), en DRM-teknik som förhindrar obehörig kopiering samtidigt som du håller din läsupplevelse enkel. LCP är en öppen standard som balanserar användarvänlighet med förlagens behov.",
+                "more": "Lär dig mer…",
+                "title": "Vad är LCP?"
+            },
+            "message": "Denna publikation kräver ett LCP-lösenord att öppna. Detta tillhandahålls av ditt bibliotek eller bokhandel. Ange det en gång så är du redo att läsa på den här enheten.",
+            "passphrase": {
+                "hint": "**Tips:** {{ hint }}",
+                "placeholder": "Lösenord"
+            },
+            "title": "Ange lösenord"
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Denna publikation har redan återlämnats eller har gått ut.",
+            "copyForbidden": "Du har överskridit det maximala antalet tecken som är tillåtna vid kopiering.",
+            "invalidLicense": "Vi kunde inte validera licensen för denna publikation. Vänligen kontakta din licensleverantör för hjälp.",
+            "invalidRenewalPeriod": "Denna publikation kan inte förnyas för valt datum. Prova ett annat datum.",
+            "missingPassphrase": "Ett lösenord krävs för att öppna denna publikation. Kontakta din licensleverantör för att få lösenordet.",
+            "renewFailed": "Din publikation kan inte förnyas. Kontakta din leverantör för hjälp.",
+            "returnFailed": "Din publikation kunde inte återlämnas. Kontakta din leverantör för hjälp.",
+            "statusCancelled": "Du annullerade tillgång till denna publikation på {{ date }}. Kontakta din licensleverantör om du vill återställa åtkomsten.",
+            "statusExpiredEnd": "Ditt lån för denna publikation löpte ut på {{ date }}. Kontakta ditt bibliotek för att låna det igen.",
+            "statusExpiredStart": "Denna publikation kommer att finnas tillgänglig {{ date }}.",
+            "statusReturned": "Du återvände denna publikation {{ date }}. Kontakta ditt bibliotek för att låna den igen.",
+            "statusRevoked_one": "Tillgång till denna publikation återkallades av din leverantör {{ date }}. Den var tillgänglig på {{ count }} enheter. Kontakta din leverantör för mer information.",
+            "statusRevoked_other": "Tillgång till dessa publikationer återkallades av din leverantör {{ date }}. De var tillgängliga på {{ count }} enheter. Kontakta din leverantör för mer information."
+        },
+        "labels": {
+            "expired": "Förfallna",
+            "expiresIn": {
+                "days": {
+                    "descriptive_one": "Inlämnas senast om {{ count }} dag",
+                    "descriptive_other": "Inlämnas senast om {{ count }} dagar"
+                },
+                "hours": {
+                    "descriptive_one": "Inlämnas om {{ count }} timma",
+                    "descriptive_other": "Inlämnas om {{ count }} timmar"
+                },
+                "minutes": {
+                    "descriptive_one": "Inlämnas om {{ count }} minut",
+                    "descriptive_other": "Inlämnas om {{ count }} minuter"
+                },
+                "months": {
+                    "descriptive_one": "Inlämnas om {{ count }} månad",
+                    "descriptive_other": "Inlämnas om {{ count }} månader"
+                }
+            }
+        }
+    }
+}
