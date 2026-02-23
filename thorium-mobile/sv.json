@@ -31,11 +31,11 @@
         },
         "filter": {
             "all": "Alla",
-            "currentlyReading": "Läser för närvarande",
-            "finished": "Färdigläst",
+            "currentlyReading": "Läser just nu",
+            "finished": "Avslutade",
             "notStartedYet": "Inte påbörjad ännu",
-            "recentlyAdded": "Nyligen tillagt",
-            "samples": "Provexemplar",
+            "recentlyAdded": "Nyligen tillagda",
+            "samples": "Smakprov",
             "type": "Typ"
         },
         "sidebar": {
@@ -45,7 +45,7 @@
         },
         "sort": {
             "author": "Författare",
-            "finished": "Slutdatum",
+            "finished": "Slutförandedatum",
             "lastAdded": "Senast tillagd",
             "lastRead": "Senast läst",
             "title": "Titel"
@@ -54,17 +54,17 @@
         "view": {
             "grid": "Gallerivy",
             "list": "Lista",
-            "title": "Visa vy"
+            "title": "Visningsvy"
         }
     },
     "common": {
         "actions": {
             "cancel": "Avbryt",
             "close": "Stäng",
-            "collapse": "Dölj alla",
-            "collapseAll": "Dölj alla",
-            "expand": "Visa",
-            "expandAll": "Visa alla",
+            "collapse": "Minimera",
+            "collapseAll": "Minimera alla",
+            "expand": "Utöka",
+            "expandAll": "Utöka alla",
             "search": "Sök",
             "showMoreOptions": "Fler alternativ"
         },
@@ -77,16 +77,16 @@
                     "compact": "Detaljer"
                 }
             },
-            "cancelled": "Åtgärd avbruten.",
+            "cancelled": "Åtgärden avbröts.",
             "title": "Fel",
             "unexpected": "Något gick fel. Försök igen."
         },
         "file": {
             "errors": {
                 "corrupted": "Vi kunde inte öppna detta innehåll. Filen kan vara skadad eller använda ett format som vi inte stöder. Försök med en annan fil.",
-                "forbidden": "Kan inte öppna filen. Åtkomst nekas.",
-                "formatNotSupported": "Filtyp som inte stöds. Prova en annan fil.",
-                "insufficientSpace": "Det finns inte tillräckligt med diskutrymme för att ladda ner eller importera filen. Vänligen frigöra lite utrymme och försök igen.",
+                "forbidden": "Det går inte att öppna filen. Åtkomst nekad.",
+                "formatNotSupported": "Filtypen stöds inte. Försök med en annan fil.",
+                "insufficientSpace": "Det finns inte tillräckligt med diskutrymme för att ladda ner eller importera filen. Vänligen frigöra utrymme och försök igen.",
                 "notFound": "Kunde inte öppna fil. Filen hittades inte.",
                 "protocolNotSupported": "Denna publikation kan inte öppnas från sin nuvarande plats. Försök att ladda ner den först eller kontakta bokaffären för support."
             }
@@ -97,11 +97,11 @@
                 "forbidden": "Du har inte tillstånd att komma åt detta innehåll.",
                 "malformedResponse": "Kan inte ladda detta innehåll. Det finns ett problem med servern. Försök igen senare.",
                 "methodNotSupported": "Servern stöder inte den nödvändiga laddningsmetoden.",
-                "notFound": "Innehåll ej funnet.",
+                "notFound": "Innehållet hittades inte.",
                 "offline": "Du är offline. Kontrollera din internetanslutning.",
                 "security": "Säker anslutning misslyckades. Försök igen senare.",
-                "timeout": "Anslutningstiden överskreds. Försök igen.",
-                "unauthorized": "Du måste vara inloggad för att komma åt detta innehåll.",
+                "timeout": "Tidsgränsen för anslutningen uppnåddes. Försök igen.",
+                "unauthorized": "Du måste vara inloggad för att få åtkomst till det här innehållet.",
                 "unreachable": "Kunde inte ansluta till servern."
             }
         }
@@ -127,13 +127,13 @@
                 "compact": "Lyssna"
             },
             "markAsFinished": {
-                "compact": "Markera som färdig"
+                "compact": "Markera som avslutad"
             },
             "markAsNotStarted": {
-                "compact": "Markera som inte startade"
+                "compact": "Markera som ej påbörjad"
             },
             "markAsUnfinished": {
-                "compact": "Markera som oavslutad"
+                "compact": "Markera som ej avslutad"
             },
             "read": {
                 "compact": "Läs"
@@ -144,12 +144,12 @@
             },
             "rename": {
                 "compact": "Byt namn",
-                "descriptive": "Byt namn på publikation"
+                "descriptive": "Byt namn på publikationen"
             }
         },
         "labels": {
             "emptyContributors": "Ingen",
-            "sample": "Prov",
+            "sample": "Smakprov",
             "unknownTitle": "Okänd titel"
         }
     },
@@ -186,7 +186,7 @@
             "always": "Visas alltid",
             "hidden": "Dold",
             "title": "Miniljudspelare",
-            "whenPlaying": "Visa när du spelar"
+            "whenPlaying": "Visa vid uppspelning"
         },
         "systemSettings": "Systeminställningar",
         "theme": {
