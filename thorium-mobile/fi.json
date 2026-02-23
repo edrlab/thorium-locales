@@ -6,7 +6,7 @@
                     "compact": "Verkkosivu"
                 }
             },
-            "title": "Kolmannen osapuolen ohjelmat"
+            "title": "Kolmannen osapuolen ohjelmisto"
         },
         "copyright": "Copyright {{ year }} European Digital Reading Lab.\nKaikki oikeudet pidätetään.",
         "title": "Tietoja",
@@ -18,23 +18,183 @@
                 "compact": "Suodata"
             },
             "sort": {
-                "compact": "Lajittele"
+                "compact": "Lajitteluperuste"
             }
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Kirjahyllysi on tyhjä. Lisää ensimmäinen kirja, äänikirja tai sarjakuva ja ryhdy lukemaan.",
-                "filter": "Ei suodatusta vastaavia julkaisuja. Näytä koko kirjahylly, jotta näet kaikki julkaisusi.",
-                "kind": "Valittua tyyppiä vastaavia julkaisuja ei löydy. Näytä kaikki tyypit, jotta näet enemmän kirjahyllysi sisältöä."
+                "bookshelf": "Kirjahyllysi on tyhjä. Aloita lukeminen lisäämällä ensimmäinen kirja, äänikirja tai sarjakuva.",
+                "filter": "Mikään julkaisu ei vastaa tätä suodatinta. Näytä koko kirjahyllysi, jos haluat nähdä kaikki kirjasi.",
+                "kind": "Mikään julkaisu ei vastaa valittua tyyppiä. Kokeile näyttää kaikki tyypit, jotta näet enemmän teoksia kirjahyllyssä."
             },
             "title": "Julkaisuja ei löytynyt"
         },
         "filter": {
             "all": "Kaikki",
-            "currentlyReading": "Parhaillaan kesken",
+            "currentlyReading": "Luetaan parhaillaan",
             "finished": "Luetut",
             "notStartedYet": "Ei vielä aloitettu",
-            "recentlyAdded": "Äskettäin lisätty"
+            "recentlyAdded": "Viimeksi lisätyt",
+            "samples": "Näytteet",
+            "type": "Tyyppi"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Tutustu"
+            }
+        },
+        "sort": {
+            "author": "Kirjailija",
+            "finished": "Lukemispäivä",
+            "lastAdded": "Viimeksi lisätty",
+            "lastRead": "Viimeksi luettu",
+            "title": "Nimi"
+        },
+        "title": "Kirjahylly",
+        "view": {
+            "grid": "Ruudukko",
+            "list": "Luettelo",
+            "title": "Näkymä"
         }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Peru",
+            "close": "Sulje",
+            "collapse": "Kutista",
+            "collapseAll": "Kutista kaikki",
+            "expand": "Laajenna",
+            "expandAll": "Laajenna kaikki",
+            "search": "Hae",
+            "showMoreOptions": "Lisää vaihtoehtoja"
+        },
+        "confirmation": {
+            "title": "Oletko varma?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Lisätietoja"
+                }
+            },
+            "cancelled": "Toiminto peruutettu.",
+            "title": "Virhe",
+            "unexpected": "Jotain meni pieleen. Yritä uudelleen."
+        },
+        "file": {
+            "errors": {
+                "corrupted": "Tätä sisältöä ei voitu avata. Tiedosto saattaa olla vioittunut tai sen muotoa ei tueta. Kokeile toista tiedostoa.",
+                "forbidden": "Tiedostoa ei voi avata. Käyttö estetty.",
+                "formatNotSupported": "Tiedostotyyppiä ei tueta. Kokeile toista tiedostoa.",
+                "insufficientSpace": "Levytila ei riitä tämän tiedoston lataamiseen tai tuomiseen. Vapauta tilaa ja yritä uudelleen.",
+                "notFound": "Tiedostoa ei voitu avata. Tiedostoa ei löytynyt.",
+                "protocolNotSupported": "Tätä julkaisua ei voi avata sen nykyisestä sijainnista. Kokeile ladata se ensin tai pyydä tukea kirjakaupasta."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Jokin meni pieleen. Tarkista internetyhteys tai yritä myöhemmin uudelleen.",
+                "forbidden": "Sinulla ei ole oikeutta käyttää tätä sisältöä.",
+                "malformedResponse": "Tätä sisältöä ei voi ladata. Palvelimessa on ongelma. Yritä myöhemmin uudelleen.",
+                "methodNotSupported": "Palvelin ei tue vaadittua lataustapaa.",
+                "notFound": "Sisältöä ei löydy.",
+                "offline": "Olet offline-tilassa. Tarkista internetyhteytesi.",
+                "security": "Suojattu yhteys epäonnistui. Yritä myöhemmin uudelleen.",
+                "timeout": "Yhteys aikakatkaistiin. Yritä uudelleen.",
+                "unauthorized": "Sinun on oltava kirjautuneena sisään, jotta voit käyttää tätä sisältöä.",
+                "unreachable": "Yhteyttä palvelimeen ei voitu muodostaa."
+            }
+        }
+    },
+    "home": {
+        "title": "Koti"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Avaa kirja"
+        },
+        "openBookshelf": {
+            "description": "Avaa sovelluksen kirjahyllyysi.",
+            "title": "Avaa kirjahylly"
+        }
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Tuo"
+            },
+            "listen": {
+                "compact": "Kuuntele"
+            },
+            "markAsFinished": {
+                "compact": "Merkitse luetuksi"
+            },
+            "markAsNotStarted": {
+                "compact": "Merkitse aloittamattomaksi"
+            },
+            "markAsUnfinished": {
+                "compact": "Merkitse keskeneräiseksi"
+            },
+            "read": {
+                "compact": "Lue"
+            },
+            "remove": {
+                "compact": "Poista",
+                "confirmation": "Haluatko varmasti poistaa kohteen \"{{ title }}\"? Tätä toimintoa ei voi kumota."
+            },
+            "rename": {
+                "compact": "Nimeä uudelleen",
+                "descriptive": "Nimeä julkaisu uudelleen"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Ei mitään",
+            "sample": "Näyte",
+            "unknownTitle": "Tuntematon teos"
+        }
+    },
+    "reader": {
+        "settings": {
+            "progression": {
+                "displayCurrentProgression": {
+                    "compact": "Näytä eteneminen"
+                },
+                "displayPrintPagination": {
+                    "compact": "Näytä painetun kirjan sivunumerointi"
+                },
+                "progressionStyle": {
+                    "compact": "Etenemisen näyttötapa"
+                },
+                "title": "Eteneminen"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Näytä aina tilapalkki"
+                },
+                "displayOrientationLock": {
+                    "compact": "Näytä kiertosuunnan lukituspainike käännettäessä"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Estä näytön sammuminen"
+                }
+            },
+            "title": "Lukuasetukset"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Aina näkyvissä",
+            "hidden": "Piilotettu",
+            "title": "Miniäänisoitin",
+            "whenPlaying": "Näytä toiston aikana"
+        },
+        "systemSettings": "Järjestelmäasetukset",
+        "theme": {
+            "dark": "Tumma",
+            "light": "Vaalea",
+            "system": "Järjestelmän oletus",
+            "title": "Teema"
+        },
+        "title": "Asetukset"
     }
 }

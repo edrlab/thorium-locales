@@ -1,1 +1,200 @@
-{}
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Webbsida"
+                }
+            },
+            "title": "Tredjepartsprogram"
+        },
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\nAlla rättigheter förbehållna.",
+        "title": "Om",
+        "version": "Version {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filter"
+            },
+            "sort": {
+                "compact": "Sortera efter"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Din bokhylla är tom. Börja med att lägga till din första bok, ljudbok eller serietidning för att börja läsa.",
+                "filter": "Inga publikationer matchar detta filter. Visa hela din bokhylla för att se alla dina titlar.",
+                "kind": "Inga publikationer matchar den valda typen. Försök att visa alla typer för att se mer från din bokhylla."
+            },
+            "title": "Inga publikationer hittades"
+        },
+        "filter": {
+            "all": "Alla",
+            "currentlyReading": "Läser just nu",
+            "finished": "Avslutade",
+            "notStartedYet": "Inte påbörjad ännu",
+            "recentlyAdded": "Nyligen tillagda",
+            "samples": "Smakprov",
+            "type": "Typ"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Utforska"
+            }
+        },
+        "sort": {
+            "author": "Författare",
+            "finished": "Slutförandedatum",
+            "lastAdded": "Senast tillagd",
+            "lastRead": "Senast läst",
+            "title": "Titel"
+        },
+        "title": "Bokhylla",
+        "view": {
+            "grid": "Gallerivy",
+            "list": "Lista",
+            "title": "Visningsvy"
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Avbryt",
+            "close": "Stäng",
+            "collapse": "Minimera",
+            "collapseAll": "Minimera alla",
+            "expand": "Utöka",
+            "expandAll": "Utöka alla",
+            "search": "Sök",
+            "showMoreOptions": "Fler alternativ"
+        },
+        "confirmation": {
+            "title": "Är du säker?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Detaljer"
+                }
+            },
+            "cancelled": "Åtgärden avbröts.",
+            "title": "Fel",
+            "unexpected": "Något gick fel. Försök igen."
+        },
+        "file": {
+            "errors": {
+                "corrupted": "Vi kunde inte öppna detta innehåll. Filen kan vara skadad eller använda ett format som vi inte stöder. Försök med en annan fil.",
+                "forbidden": "Det går inte att öppna filen. Åtkomst nekad.",
+                "formatNotSupported": "Filtypen stöds inte. Försök med en annan fil.",
+                "insufficientSpace": "Det finns inte tillräckligt med diskutrymme för att ladda ner eller importera filen. Vänligen frigöra utrymme och försök igen.",
+                "notFound": "Kunde inte öppna fil. Filen hittades inte.",
+                "protocolNotSupported": "Denna publikation kan inte öppnas från sin nuvarande plats. Försök att ladda ner den först eller kontakta bokaffären för support."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Något gick fel. Kontrollera din internetanslutning eller försök igen senare.",
+                "forbidden": "Du har inte tillstånd att komma åt detta innehåll.",
+                "malformedResponse": "Kan inte ladda detta innehåll. Det finns ett problem med servern. Försök igen senare.",
+                "methodNotSupported": "Servern stöder inte den nödvändiga laddningsmetoden.",
+                "notFound": "Innehållet hittades inte.",
+                "offline": "Du är offline. Kontrollera din internetanslutning.",
+                "security": "Säker anslutning misslyckades. Försök igen senare.",
+                "timeout": "Tidsgränsen för anslutningen uppnåddes. Försök igen.",
+                "unauthorized": "Du måste vara inloggad för att få åtkomst till det här innehållet.",
+                "unreachable": "Kunde inte ansluta till servern."
+            }
+        }
+    },
+    "home": {
+        "title": "Hem"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Öppna bok"
+        },
+        "openBookshelf": {
+            "description": "Öppnar appen till din bokhylla.",
+            "title": "Öppna Bokhylla"
+        }
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Importera"
+            },
+            "listen": {
+                "compact": "Lyssna"
+            },
+            "markAsFinished": {
+                "compact": "Markera som avslutad"
+            },
+            "markAsNotStarted": {
+                "compact": "Markera som ej påbörjad"
+            },
+            "markAsUnfinished": {
+                "compact": "Markera som ej avslutad"
+            },
+            "read": {
+                "compact": "Läs"
+            },
+            "remove": {
+                "compact": "Ta bort",
+                "confirmation": "Är du säker på att du vill ta bort \"{{ title }}\"? Denna åtgärd kan inte ångras."
+            },
+            "rename": {
+                "compact": "Byt namn",
+                "descriptive": "Byt namn på publikationen"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Ingen",
+            "sample": "Smakprov",
+            "unknownTitle": "Okänd titel"
+        }
+    },
+    "reader": {
+        "settings": {
+            "progression": {
+                "displayCurrentProgression": {
+                    "compact": "Visa aktuella framsteg"
+                },
+                "displayPrintPagination": {
+                    "compact": "Visa sidnumrering för utskrift"
+                },
+                "progressionStyle": {
+                    "compact": "Progressionsstil"
+                },
+                "title": "Progression"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Visa alltid statusfält"
+                },
+                "displayOrientationLock": {
+                    "compact": "Visa låsknappen för orientering vid rotation"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Förhindra att skärmen släcks"
+                }
+            },
+            "title": "Läsalternativ"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Visas alltid",
+            "hidden": "Dold",
+            "title": "Miniljudspelare",
+            "whenPlaying": "Visa vid uppspelning"
+        },
+        "systemSettings": "Systeminställningar",
+        "theme": {
+            "dark": "Mörkt",
+            "light": "Ljust",
+            "system": "Systemstandard",
+            "title": "Tema"
+        },
+        "title": "Inställningar"
+    }
+}
