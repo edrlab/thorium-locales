@@ -10,7 +10,7 @@
         },
         "copyright": "Copyright {{ year }} European Digital Reading Lab.\nKaikki oikeudet pidätetään.",
         "title": "Tietoja",
-        "version": "Versio {{ version }} {{ build }}"
+        "version": "Versio {{ version }} ({{ build }})"
     },
     "bookshelf": {
         "actions": {
