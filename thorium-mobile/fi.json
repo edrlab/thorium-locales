@@ -157,15 +157,15 @@
         "settings": {
             "progression": {
                 "displayCurrentProgression": {
-                    "compact": "Näytä eteneminen"
+                    "compact": "Näytä edistyminen"
                 },
                 "displayPrintPagination": {
                     "compact": "Näytä painetun kirjan sivunumerointi"
                 },
                 "progressionStyle": {
-                    "compact": "Etenemisen näyttötapa"
+                    "compact": "Edistymisen näyttötapa"
                 },
-                "title": "Eteneminen"
+                "title": "Edistyminen"
             },
             "screen": {
                 "alwaysShowStatusBar": {
