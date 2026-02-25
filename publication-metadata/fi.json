@@ -254,7 +254,7 @@
                             "unknown": "Ei tietoa siitä, voiko ulkoasua mukauttaa",
                             "unmodifiable": {
                                 "compact": "Ulkoasua ei voi mukauttaa",
-                                "descriptive": "Tekstiä ja sivun asettelua ei voi muokata, koska lukukokemus on lähellä printtiversiota, mutta lukujärjestelmissä voi silti olla zoomausvaihtoehtoja"
+                                "descriptive": "Tekstin ja sivujen ulkoasu mukailee painettua versiota eikä ulkoasua voi mukauttaa. Lukuohjelmassa voi kuitenkin olla mahdollista zoomata."
                             }
                         }
                     }
