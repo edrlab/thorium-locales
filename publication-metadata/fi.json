@@ -109,7 +109,7 @@
                     "hazards": {
                         "flashing": {
                             "compact": "Välkkyvää sisältöä",
-                            "descriptive": "Julkaisu sisältää vilkkuvaa sisältöä, joka voi aiheuttaa valoherkille henkilöille kohtauksia"
+                            "descriptive": "Julkaisussa on välkkyvää sisältöä, joka voi olla haitallista valoherkille"
                         },
                         "flashing-none": {
                             "compact": "Ei välkkyvää sisältöä",
