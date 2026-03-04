@@ -86,7 +86,7 @@
                 "corrupted": "Selle sisu avamine ei õnnestunud. Fail võib olla katkine või kasutab vormingut, mis veel pole toetatud. Palun proovi mõne muu failiga.",
                 "forbidden": "Faili avamine ei õnnestu. Ligipääs puudub.",
                 "formatNotSupported": "Failitüüp pole toetatud. Palun proovi mõne muu failiga.",
-                "insufficientSpace": "Selle faili allalaadimiseks või importimiseks pole piisavalt andmeruumi. Palun kustuta mittevajalikke faile ja proovi uuesti.",
+                "insufficientSpace": "Jätkamiseks pole piisavalt andmeruumi. Palun kustuta mittevajalikke faile ja proovi uuesti.",
                 "notFound": "Kuna faili ei leidu, siis tema avamine ei õnnestu.",
                 "protocolNotSupported": "Seda raamatut ei saa avada tema praegusest asukohast. Proovi ta esmalt alla laadida või küsi abi raamatupoe klienditeenindusest."
             }
