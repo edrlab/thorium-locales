@@ -86,7 +86,7 @@
                 "corrupted": "Tätä sisältöä ei voitu avata. Tiedosto saattaa olla vioittunut tai sen muotoa ei tueta. Kokeile toista tiedostoa.",
                 "forbidden": "Tiedostoa ei voi avata. Käyttö estetty.",
                 "formatNotSupported": "Tiedostotyyppiä ei tueta. Kokeile toista tiedostoa.",
-                "insufficientSpace": "Levytila ei riitä tämän tiedoston lataamiseen tai tuomiseen. Vapauta tilaa ja yritä uudelleen.",
+                "insufficientSpace": "Levytila ei riitä jatkamiseen. Vapauta tilaa ja yritä uudelleen.",
                 "notFound": "Tiedostoa ei voitu avata. Tiedostoa ei löytynyt.",
                 "protocolNotSupported": "Tätä julkaisua ei voi avata sen nykyisestä sijainnista. Kokeile ladata se ensin tai pyydä tukea kirjakaupasta."
             }
@@ -157,15 +157,15 @@
         "settings": {
             "progression": {
                 "displayCurrentProgression": {
-                    "compact": "Näytä eteneminen"
+                    "compact": "Näytä edistyminen"
                 },
                 "displayPrintPagination": {
                     "compact": "Näytä painetun kirjan sivunumerointi"
                 },
                 "progressionStyle": {
-                    "compact": "Etenemisen näyttötapa"
+                    "compact": "Edistymisen näyttötapa"
                 },
-                "title": "Eteneminen"
+                "title": "Edistyminen"
             },
             "screen": {
                 "alwaysShowStatusBar": {
