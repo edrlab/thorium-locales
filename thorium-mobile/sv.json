@@ -86,7 +86,7 @@
                 "corrupted": "Vi kunde inte öppna detta innehåll. Filen kan vara skadad eller använda ett format som vi inte stöder. Försök med en annan fil.",
                 "forbidden": "Det går inte att öppna filen. Åtkomst nekad.",
                 "formatNotSupported": "Filtypen stöds inte. Försök med en annan fil.",
-                "insufficientSpace": "Det finns inte tillräckligt med diskutrymme för att ladda ner eller importera filen. Vänligen frigöra utrymme och försök igen.",
+                "insufficientSpace": "Det finns inte tillräckligt med diskutrymme för att fortsätta. Vänligen frigör lite utrymme och försök igen.",
                 "notFound": "Kunde inte öppna fil. Filen hittades inte.",
                 "protocolNotSupported": "Denna publikation kan inte öppnas från sin nuvarande plats. Försök att ladda ner den först eller kontakta bokaffären för support."
             }
