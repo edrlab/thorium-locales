@@ -80,19 +80,21 @@
                 }
             },
             "preferences": {
-                "autoPlay": {
-                    "label": "Continuous play",
-                    "title": "Autoplay"
-                },
-                "playbackRate": {
-                    "compact": "Speed",
-                    "descriptive": "Playback rate"
-                },
-                "skipBackwardInterval": "Skip backward interval",
-                "skipForwardInterval": "Skip forward interval",
-                "skipInterval": "Skip interval",
-                "title": "Audio Settings",
-                "volume": "Volume"
+                "audio": {
+                    "autoPlay": {
+                        "label": "Continuous play",
+                        "title": "Autoplay"
+                    },
+                    "playbackRate": {
+                        "compact": "Speed",
+                        "descriptive": "Playback rate"
+                    },
+                    "skipBackwardInterval": "Skip backward interval",
+                    "skipForwardInterval": "Skip forward interval",
+                    "skipInterval": "Skip interval",
+                    "title": "Audio Settings",
+                    "volume": "Volume"
+                }
             }
         },
         "preferences": {
