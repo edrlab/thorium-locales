@@ -71,7 +71,7 @@
                 "pause": "Pause",
                 "play": "Play",
                 "skipBackward": {
-                    "compact": "Replay",
+                    "compact": "Backward",
                     "descriptive": "Skip backward"
                 },
                 "skipForward": {
