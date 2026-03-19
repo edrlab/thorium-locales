@@ -75,7 +75,7 @@
                     "descriptive": "Skip backward"
                 },
                 "skipForward": {
-                    "compact": "Forwards",
+                    "compact": "Forward",
                     "descriptive": "Skip forward"
                 }
             },
