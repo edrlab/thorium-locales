@@ -81,3 +81,44 @@ Example:
 "positionsLeft_one": "{{ count }} position left",
 "positionsLeft_other": "{{ count }} positions left"
 ```
+
+## Organizational Patterns
+
+### Empty States
+
+Use an `emptyState` object to describe UI states where a list or section has no content to display. It is placed as a child of the feature key it belongs to.
+
+An `emptyState` object always contains:
+
+- **`title`**: Short heading shown to the user (e.g. "No bookmarks")
+- **`description`**: Explanatory text. Can be a plain string or an object with named context variants when the reason for the empty state depends on the active filter or view mode.
+
+### Simple empty state
+
+Used when there is a single reason for the empty state:
+
+```json
+"bookmarks": {
+    "emptyState": {
+        "description": "No bookmarks added yet.",
+        "title": "No bookmarks"
+    }
+}
+```
+
+### Empty state with context variants
+
+Used when the empty state message changes depending on context (e.g. no filter applied vs. an active filter returning no results). Each variant is a named key under `description`:
+
+```json
+"bookshelf": {
+    "emptyState": {
+        "description": {
+            "bookshelf": "Your bookshelf is empty. Start by adding your first book, audiobook, or comic to begin reading.",
+            "filter": "No publications match this filter. Show your entire bookshelf to see all your titles.",
+            "kind": "No publications match the selected type. Try showing all types to see more from your bookshelf."
+        },
+        "title": "No publications found"
+    }
+}
+```
