@@ -84,6 +84,27 @@ Example:
 
 ## Organizational Patterns
 
+### Actions
+
+Strings that trigger user actions (button labels, menu items, interactive controls) must always be structured as an object with `compact` and/or `descriptive` variants, even when only one variant is needed at the moment.
+
+This ensures future-proofness: adding a missing variant later is a non-breaking change, whereas migrating a plain string to an object requires dropping all existing translations.
+
+```json
+"nextChapter": {
+    "compact": "Next",
+    "descriptive": "Next chapter"
+}
+```
+
+If only one variant is currently needed, still use the object form:
+
+```json
+"addBookmark": {
+    "compact": "Add bookmark"
+}
+```
+
 ### Empty States
 
 Use an `emptyState` object to describe UI states where a list or section has no content to display. It is placed as a child of the feature key it belongs to.
