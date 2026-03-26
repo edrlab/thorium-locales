@@ -58,37 +58,6 @@
                 "descriptive": "Previous sentence"
             }
         },
-        "playback": {
-            "actions": {
-                "pause": "Pause",
-                "play": "Play",
-                "skipBackward": {
-                    "compact": "Rewind",
-                    "descriptive": "Skip backward"
-                },
-                "skipForward": {
-                    "compact": "Forward",
-                    "descriptive": "Skip forward"
-                }
-            },
-            "preferences": {
-                "audio": {
-                    "autoPlay": {
-                        "label": "Continuous play",
-                        "title": "Autoplay"
-                    },
-                    "playbackRate": {
-                        "compact": "Speed",
-                        "descriptive": "Playback rate"
-                    },
-                    "skipBackwardInterval": "Skip backward interval",
-                    "skipForwardInterval": "Skip forward interval",
-                    "skipInterval": "Skip interval",
-                    "title": "Audio Settings",
-                    "volume": "Volume"
-                }
-            }
-        },
         "annotations": {
             "actions": {
                 "editNote": {
@@ -123,6 +92,37 @@
                 },
                 "progression": {
                     "compact": "Progression"
+                }
+            }
+        },
+        "playback": {
+            "actions": {
+                "pause": "Pause",
+                "play": "Play",
+                "skipBackward": {
+                    "compact": "Rewind",
+                    "descriptive": "Skip backward"
+                },
+                "skipForward": {
+                    "compact": "Forward",
+                    "descriptive": "Skip forward"
+                }
+            },
+            "preferences": {
+                "audio": {
+                    "autoPlay": {
+                        "label": "Continuous play",
+                        "title": "Autoplay"
+                    },
+                    "playbackRate": {
+                        "compact": "Speed",
+                        "descriptive": "Playback rate"
+                    },
+                    "skipBackwardInterval": "Skip backward interval",
+                    "skipForwardInterval": "Skip forward interval",
+                    "skipInterval": "Skip interval",
+                    "title": "Audio Settings",
+                    "volume": "Volume"
                 }
             }
         },
