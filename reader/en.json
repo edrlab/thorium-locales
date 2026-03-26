@@ -60,14 +60,6 @@
         },
         "playback": {
             "actions": {
-                "goToNextTrack": {
-                    "compact": "Next",
-                    "descriptive": "Next track"
-                },
-                "goToPreviousTrack": {
-                    "compact": "Previous",
-                    "descriptive": "Previous track"
-                },
                 "pause": "Pause",
                 "play": "Play",
                 "skipBackward": {
