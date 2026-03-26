@@ -32,9 +32,9 @@
         "filter": {
             "all": "Alla",
             "currentlyReading": "Läser just nu",
-            "finished": "Avslutade",
-            "notStartedYet": "Inte påbörjad ännu",
-            "recentlyAdded": "Nyligen tillagda",
+            "finished": "Avslutad",
+            "notStartedYet": "Oläst",
+            "recentlyAdded": "Nyligen tillagd",
             "samples": "Smakprov",
             "type": "Typ"
         },
@@ -86,7 +86,7 @@
                 "corrupted": "Vi kunde inte öppna detta innehåll. Filen kan vara skadad eller använda ett format som vi inte stöder. Försök med en annan fil.",
                 "forbidden": "Det går inte att öppna filen. Åtkomst nekad.",
                 "formatNotSupported": "Filtypen stöds inte. Försök med en annan fil.",
-                "insufficientSpace": "Det finns inte tillräckligt med diskutrymme för att ladda ner eller importera filen. Vänligen frigöra utrymme och försök igen.",
+                "insufficientSpace": "Det finns inte tillräckligt med diskutrymme för att fortsätta. Vänligen frigör lite utrymme och försök igen.",
                 "notFound": "Kunde inte öppna fil. Filen hittades inte.",
                 "protocolNotSupported": "Denna publikation kan inte öppnas från sin nuvarande plats. Försök att ladda ner den först eller kontakta bokaffären för support."
             }
@@ -101,7 +101,7 @@
                 "offline": "Du är offline. Kontrollera din internetanslutning.",
                 "security": "Säker anslutning misslyckades. Försök igen senare.",
                 "timeout": "Tidsgränsen för anslutningen uppnåddes. Försök igen.",
-                "unauthorized": "Du måste vara inloggad för att få åtkomst till det här innehållet.",
+                "unauthorized": "Du måste vara inloggad för att komma åt det här innehållet.",
                 "unreachable": "Kunde inte ansluta till servern."
             }
         }
@@ -157,19 +157,19 @@
         "settings": {
             "progression": {
                 "displayCurrentProgression": {
-                    "compact": "Visa aktuella framsteg"
+                    "compact": "Visa läsposition"
                 },
                 "displayPrintPagination": {
-                    "compact": "Visa sidnumrering för utskrift"
+                    "compact": "Visa sidnummer för utskrift"
                 },
                 "progressionStyle": {
-                    "compact": "Progressionsstil"
+                    "compact": "Format"
                 },
-                "title": "Progression"
+                "title": "Läsposition"
             },
             "screen": {
                 "alwaysShowStatusBar": {
-                    "compact": "Visa alltid statusfält"
+                    "compact": "Visa alltid statusfältet"
                 },
                 "displayOrientationLock": {
                     "compact": "Visa låsknappen för orientering vid rotation"
@@ -178,13 +178,13 @@
                     "compact": "Förhindra att skärmen släcks"
                 }
             },
-            "title": "Läsalternativ"
+            "title": "Läsinställningar"
         }
     },
     "settings": {
         "miniPlayer": {
-            "always": "Visas alltid",
-            "hidden": "Dold",
+            "always": "Visa alltid",
+            "hidden": "Dölj",
             "title": "Miniljudspelare",
             "whenPlaying": "Visa vid uppspelning"
         },
