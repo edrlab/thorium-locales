@@ -18,7 +18,7 @@ In particular, the following i18next features are excluded:
 - arbitrary objects
 
 > [!IMPORTANT]
-> Only [string variants](#string-variants) and [plural forms](#plural-forms) can use objects.
+> Only [string variants](#string-variants) can use objects.
 
 ## General Rules
 
@@ -36,10 +36,8 @@ Example:
 
 ```json
 "xOfY": "{{ x }} of {{ y }}",
-"positionsLeft": {
-  "one": "{{ count }} position left",
-  "other": "{{ count }} positions left"
-}
+"positionsLeft_one": "{{ count }} position left",
+"positionsLeft_other": "{{ count }} positions left"
 ```
 
 ## Interpolation
@@ -49,7 +47,7 @@ Use interpolation for dynamic data (names, numbers, dates), but [do not use it t
 Example:
 
 **DO:** `{{ count }} positions left`
-**DON’T:** `Next {{ item }}` (`page`, `chapter`, `resource`, etc.)
+**DON’T:** `Next {{ item }}` (where `item` is a translatable word like `page`, `chapter`, `resource`, etc.)
 
 ## String Variants
 
@@ -65,10 +63,13 @@ Example:
 
 ## Plural Forms
 
-Plural forms should be handled using an object and the following key names: 
+Plural forms should be handled using the appropriate suffixes for the target language: 
 
 - `zero` 
 - `one`
+- `two`
+- `few`
+- `many`
 - `other`
 
 > [!IMPORTANT]
@@ -77,8 +78,68 @@ Plural forms should be handled using an object and the following key names:
 Example: 
 
 ```json
-"positionsLeft": {
-  "one": "{{ count }} position left",
-  "other": "{{ count }} positions left"
+"positionsLeft_one": "{{ count }} position left",
+"positionsLeft_other": "{{ count }} positions left"
+```
+
+## Organizational Patterns
+
+### Actions
+
+Strings that trigger user actions (button labels, menu items, interactive controls) must always be structured as an object with `compact` and/or `descriptive` variants, even when only one variant is needed at the moment.
+
+This ensures future-proofness: adding a missing variant later is a non-breaking change, whereas migrating a plain string to an object requires dropping all existing translations.
+
+```json
+"nextChapter": {
+    "compact": "Next",
+    "descriptive": "Next chapter"
+}
+```
+
+If only one variant is currently needed, still use the object form:
+
+```json
+"addBookmark": {
+    "compact": "Add bookmark"
+}
+```
+
+### Empty States
+
+Use an `emptyState` object to describe UI states where a list or section has no content to display. It is placed as a child of the feature key it belongs to.
+
+An `emptyState` object always contains:
+
+- **`title`**: Short heading shown to the user (e.g. "No bookmarks")
+- **`description`**: Explanatory text. Can be a plain string or an object with named context variants when the reason for the empty state depends on the active filter or view mode.
+
+### Simple empty state
+
+Used when there is a single reason for the empty state:
+
+```json
+"bookmarks": {
+    "emptyState": {
+        "description": "No bookmarks added yet.",
+        "title": "No bookmarks"
+    }
+}
+```
+
+### Empty state with context variants
+
+Used when the empty state message changes depending on context (e.g. no filter applied vs. an active filter returning no results). Each variant is a named key under `description`:
+
+```json
+"bookshelf": {
+    "emptyState": {
+        "description": {
+            "bookshelf": "Your bookshelf is empty. Start by adding your first book, audiobook, or comic to begin reading.",
+            "filter": "No publications match this filter. Show your entire bookshelf to see all your titles.",
+            "kind": "No publications match the selected type. Try showing all types to see more from your bookshelf."
+        },
+        "title": "No publications found"
+    }
 }
 ```

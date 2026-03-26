@@ -89,6 +89,43 @@
                 }
             }
         },
+        "annotations": {
+            "actions": {
+                "editNote": {
+                    "compact": "Edit note"
+                }
+            },
+            "bookmarks": {
+                "actions": {
+                    "add": {
+                        "compact": "Add bookmark"
+                    },
+                    "delete": {
+                        "compact": "Delete bookmark",
+                        "confirmation": "Are you sure you want to delete this bookmark?"
+                    }
+                },
+                "emptyState": {
+                    "description": "No bookmarks added yet.",
+                    "title": "No bookmarks"
+                },
+                "title": "Bookmarks"
+            },
+            "note": {
+                "title": "Note"
+            },
+            "sort": {
+                "lastAdded": {
+                    "compact": "Last added"
+                },
+                "lastEdited": {
+                    "compact": "Last edited"
+                },
+                "progression": {
+                    "compact": "Progression"
+                }
+            }
+        },
         "preferences": {
             "brightness": "Brightness",
             "columns": {

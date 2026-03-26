@@ -63,10 +63,13 @@
             "close": "Close",
             "collapse": "Collapse",
             "collapseAll": "Collapse all",
+            "delete": "Delete",
             "expand": "Expand",
             "expandAll": "Expand all",
+            "filter": "Filter",
             "search": "Search",
-            "showMoreOptions": "More options"
+            "showMoreOptions": "More options",
+            "sortBy": "Sort by"
         },
         "confirmation": {
             "title": "Are you sure?"
@@ -86,7 +89,7 @@
                 "corrupted": "We couldn't open this content. The file might be corrupted or use a format we don't support. Please try with a different file.",
                 "forbidden": "Cannot open file. Access denied.",
                 "formatNotSupported": "Unsupported file type. Please try a different file.",
-                "insufficientSpace": "There's not enough disk space to download or import this file. Please free up some space and try again.",
+                "insufficientSpace": "There's not enough disk space to proceed. Please free up some space and try again.",
                 "notFound": "Couldn't open file. The file was not found.",
                 "protocolNotSupported": "This publication can't be opened from its current location. Try downloading it first or contact the book store for support."
             }

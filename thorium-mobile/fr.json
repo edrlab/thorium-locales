@@ -86,7 +86,7 @@
                 "corrupted": "Impossible d'ouvrir ce contenu. Le fichier pourrait être corrompu ou utiliser un format que nous ne prenons pas en charge. Veuillez essayer avec un autre fichier.",
                 "forbidden": "Impossible d'ouvrir le fichier. Accès refusé.",
                 "formatNotSupported": "Type de fichier non pris en charge. Veuillez essayer un autre fichier.",
-                "insufficientSpace": "Il n'y a pas assez d'espace disque pour télécharger ou importer ce fichier. Veuillez libérer de l'espace et réessayer.",
+                "insufficientSpace": "Il n'y a pas assez d'espace disque pour continuer. Veuillez libérer de l'espace et réessayer.",
                 "notFound": "Impossible d'ouvrir le fichier. Fichier non trouvé.",
                 "protocolNotSupported": "Ce livre ne peut pas être ouvert depuis son emplacement actuel. Essayez de le télécharger d'abord ou contactez la librairie pour obtenir de l'aide."
             }
