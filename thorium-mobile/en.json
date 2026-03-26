@@ -63,10 +63,13 @@
             "close": "Close",
             "collapse": "Collapse",
             "collapseAll": "Collapse all",
+            "delete": "Delete",
             "expand": "Expand",
             "expandAll": "Expand all",
+            "filter": "Filter",
             "search": "Search",
-            "showMoreOptions": "More options"
+            "showMoreOptions": "More options",
+            "sortBy": "Sort by"
         },
         "confirmation": {
             "title": "Are you sure?"
