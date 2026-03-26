@@ -95,6 +95,37 @@
                 }
             }
         },
+        "playback": {
+            "actions": {
+                "pause": "Pause",
+                "play": "Play",
+                "skipBackward": {
+                    "compact": "Rewind",
+                    "descriptive": "Skip backward"
+                },
+                "skipForward": {
+                    "compact": "Forward",
+                    "descriptive": "Skip forward"
+                }
+            },
+            "preferences": {
+                "audio": {
+                    "skipBackwardInterval": "Skip backward interval",
+                    "skipForwardInterval": "Skip forward interval",
+                    "skipInterval": "Skip interval",
+                    "title": "Audio Settings",
+                    "volume": "Volume"
+                },
+                "autoPlay": {
+                    "label": "Continuous play",
+                    "title": "Autoplay"
+                },
+                "playbackRate": {
+                    "compact": "Speed",
+                    "descriptive": "Playback rate"
+                }
+            }
+        },
         "preferences": {
             "brightness": "Brightness",
             "columns": {
