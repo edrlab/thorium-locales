@@ -63,10 +63,13 @@
             "close": "Sulge",
             "collapse": "Ahenda vaadet",
             "collapseAll": "Ahenda kõik",
+            "delete": "Kustuta",
             "expand": "Laienda vaadet",
             "expandAll": "Laienda kõik",
+            "filter": "Filtreeri",
             "search": "Otsi",
-            "showMoreOptions": "Lisavalikud"
+            "showMoreOptions": "Lisavalikud",
+            "sortBy": "Järjestus"
         },
         "confirmation": {
             "title": "Kas oled kindel?"
@@ -155,7 +158,16 @@
     },
     "reader": {
         "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Uue järjehoidja puhul näita märkuse vormi"
+                },
+                "title": "Järjehoidjad ja esiletõstmised"
+            },
             "progression": {
+                "animatePageTurns": {
+                    "compact": "Animeeri lehepööramisi"
+                },
                 "displayCurrentProgression": {
                     "compact": "Näita senist edenemist"
                 },
@@ -176,7 +188,8 @@
                 },
                 "preventScreenTimeout": {
                     "compact": "Keela ekraani väljalülitamine"
-                }
+                },
+                "title": "Ekraan"
             },
             "title": "Lugemiseelistused"
         }
