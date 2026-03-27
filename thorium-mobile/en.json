@@ -158,7 +158,16 @@
     },
     "reader": {
         "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Show note dialog on new bookmark"
+                },
+                "title": "Bookmarks and Highlights"
+            },
             "progression": {
+                "animatePageTurns": {
+                    "compact": "Animate page turns"
+                },
                 "displayCurrentProgression": {
                     "compact": "Display current progression"
                 },
@@ -175,11 +184,12 @@
                     "compact": "Always show status bar"
                 },
                 "displayOrientationLock": {
-                    "compact": "Display orientation lock button on rotation"
+                    "compact": "Show orientation lock button on rotation"
                 },
                 "preventScreenTimeout": {
                     "compact": "Prevent screen timeout"
-                }
+                },
+                "title": "Screen"
             },
             "title": "Reading options"
         }
