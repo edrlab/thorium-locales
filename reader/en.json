@@ -131,6 +131,13 @@
                 "playbackRate": {
                     "compact": "Speed",
                     "descriptive": "Playback rate"
+                },
+                "sleepTimer": {
+                    "compact": "Timer",
+                    "descriptive": "Sleep timer",
+                    "presets": {
+                        "endOfResource": "End of resource"
+                    }
                 }
             }
         },
