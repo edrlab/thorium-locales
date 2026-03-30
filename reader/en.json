@@ -136,6 +136,7 @@
                     "compact": "Timer",
                     "descriptive": "Sleep timer",
                     "presets": {
+                        "endOfChapter": "End of chapter",
                         "endOfResource": "End of resource"
                     }
                 }
