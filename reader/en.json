@@ -37,6 +37,10 @@
                 "compact": "Next",
                 "descriptive": "Next page"
             },
+            "goToNextResource": {
+                "compact": "Next",
+                "descriptive": "Next resource"
+            },
             "goToNextSentence": {
                 "compact": "Next",
                 "descriptive": "Next sentence"
@@ -52,6 +56,10 @@
             "goToPreviousPage": {
                 "compact": "Previous",
                 "descriptive": "Previous page"
+            },
+            "goToPreviousResource": {
+                "compact": "Previous",
+                "descriptive": "Previous resource"
             },
             "goToPreviousSentence": {
                 "compact": "Previous",
