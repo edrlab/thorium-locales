@@ -63,10 +63,13 @@
             "close": "Sulje",
             "collapse": "Kutista",
             "collapseAll": "Kutista kaikki",
+            "delete": "Poista",
             "expand": "Laajenna",
             "expandAll": "Laajenna kaikki",
+            "filter": "Suodata",
             "search": "Hae",
-            "showMoreOptions": "Lisää vaihtoehtoja"
+            "showMoreOptions": "Lisää vaihtoehtoja",
+            "sortBy": "Luokittele"
         },
         "confirmation": {
             "title": "Oletko varma?"

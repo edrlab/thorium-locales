@@ -63,10 +63,13 @@
             "close": "Chiudi",
             "collapse": "Riduci",
             "collapseAll": "Riduci tutto",
+            "delete": "Elimina",
             "expand": "Espandi",
             "expandAll": "Espandi tutto",
+            "filter": "Filtra",
             "search": "Cerca",
-            "showMoreOptions": "Più opzioni"
+            "showMoreOptions": "Più opzioni",
+            "sortBy": "Ordina per"
         },
         "confirmation": {
             "title": "Sei sicuro?"
@@ -155,7 +158,16 @@
     },
     "reader": {
         "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Visualizza l'annotazione su un nuovo segnalibro"
+                },
+                "title": "Segnalibri e evidenziazioni"
+            },
             "progression": {
+                "animatePageTurns": {
+                    "compact": "Voltapagina animata"
+                },
                 "displayCurrentProgression": {
                     "compact": "Visualizza la progressione attuale"
                 },
@@ -172,11 +184,12 @@
                     "compact": "Visualizza sempre la barra di stato"
                 },
                 "displayOrientationLock": {
-                    "compact": "Visualizza il pulsante di blocco dell'orientazione durante la rotazione"
+                    "compact": "Mostra il pulsante di blocco dell'orientazione durante la rotazione"
                 },
                 "preventScreenTimeout": {
                     "compact": "Sospendi il timeout dello schermo"
-                }
+                },
+                "title": "Schermo"
             },
             "title": "Opzioni di lettura"
         }

@@ -1,7 +1,8 @@
 {
     "publication": {
         "format": {
-            "audiobook": "Heliraamat"
+            "audiobook": "Heliraamat",
+            "audiobookJSON": "Heliraamatu manifest"
         },
         "kind": {
             "audiobook_one": "heliraamat",

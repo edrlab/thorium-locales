@@ -11,6 +11,16 @@
                 "descriptive": "Tagasta raamat"
             }
         },
+        "dialog": {
+            "actions": {
+                "cancel": "Katkesta",
+                "continue": "Jätka",
+                "recoverPassphrase": "Kas unustasid oma salasõna?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Vigane salasõna."
+            }
+        },
         "errors": {
             "alreadyReturnedOrExpired": "See raamat on juba tagastatud või on laenutuse tähtaeg möödunud."
         },
