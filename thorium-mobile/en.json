@@ -84,6 +84,7 @@
             "title": "Error",
             "unexpected": "Something went wrong. Please try again."
         },
+        "estimatedNumber": "~{{ number }}",
         "file": {
             "errors": {
                 "corrupted": "We couldn't open this content. The file might be corrupted or use a format we don't support. Please try with a different file.",
@@ -107,6 +108,10 @@
                 "unauthorized": "You need to be signed in to access this content.",
                 "unreachable": "Could not connect to the server."
             }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
         }
     },
     "home": {
