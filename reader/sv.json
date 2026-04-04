@@ -37,6 +37,10 @@
                 "compact": "Nästa",
                 "descriptive": "Nästa sida"
             },
+            "goToNextResource": {
+                "compact": "Nästa",
+                "descriptive": "Nästa resurs"
+            },
             "goToNextSentence": {
                 "compact": "Nästa",
                 "descriptive": "Nästa mening"
@@ -53,9 +57,86 @@
                 "compact": "Föregående",
                 "descriptive": "Föregående sida"
             },
+            "goToPreviousResource": {
+                "compact": "Föregående",
+                "descriptive": "Föregående resurs"
+            },
             "goToPreviousSentence": {
                 "compact": "Föregående",
                 "descriptive": "Föregående mening"
+            }
+        },
+        "annotations": {
+            "actions": {
+                "editNote": {
+                    "compact": "Redigera anteckning"
+                }
+            },
+            "bookmarks": {
+                "actions": {
+                    "add": {
+                        "compact": "Lägg till bokmärke"
+                    },
+                    "delete": {
+                        "compact": "Radera bokmärke",
+                        "confirmation": "Är du säker på att du vill ta bort detta bokmärke?"
+                    }
+                },
+                "emptyState": {
+                    "description": "Inga bokmärken tillagda ännu.",
+                    "title": "Inga bokmärken"
+                },
+                "title": "Bokmärken"
+            },
+            "note": {
+                "title": "Anteckning"
+            },
+            "sort": {
+                "lastAdded": {
+                    "compact": "Senast tillagd"
+                },
+                "lastEdited": {
+                    "compact": "Senast redigerad"
+                },
+                "progression": {
+                    "compact": "Framsteg"
+                }
+            }
+        },
+        "playback": {
+            "actions": {
+                "pause": "Paus",
+                "play": "Spela",
+                "skipBackward": {
+                    "compact": "Spola tillbaka",
+                    "descriptive": "Hoppa bakåt"
+                },
+                "skipForward": {
+                    "compact": "Framåt",
+                    "descriptive": "Hoppa framåt"
+                }
+            },
+            "preferences": {
+                "audio": {
+                    "title": "Ljudinställningar",
+                    "volume": "Volym"
+                },
+                "autoPlay": {
+                    "label": "Kontinuerlig uppspelning",
+                    "title": "Autoplay"
+                },
+                "playbackRate": {
+                    "compact": "Hastighet",
+                    "descriptive": "Uppspelningshastighet"
+                },
+                "sleepTimer": {
+                    "compact": "Timer",
+                    "descriptive": "Sovtimer",
+                    "presets": {
+                        "endOfChapter": "Kapitlets slut",
+                        "endOfResource": "Slut på resurs"
+                    }
+                }
             }
         },
         "preferences": {
