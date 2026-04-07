@@ -321,6 +321,20 @@
                 "descriptive": "{{ x }} of {{ y }} ({{ z }})"
             }
         },
+        "search": {
+            "actions": {
+                "next": {
+                    "compact": "Next result"
+                },
+                "previous": {
+                    "compact": "Previous result"
+                }
+            },
+            "placeholder": "Search for keywords or phrases",
+            "result_one": "{{ current }} of {{ count }} result",
+            "result_other": "{{ current }} of {{ count }} results",
+            "title": "Search"
+        },
         "tableOfContents": {
             "emptyState": {
                 "description": "The table of contents was not provided for this publication.",
