@@ -331,7 +331,6 @@
                 }
             },
             "placeholder": "Search for keywords or phrases",
-            "resultOfMany": "{{ current }} of {{ total }}+ results",
             "result_one": "{{ current }} of {{ count }} result",
             "result_other": "{{ current }} of {{ count }} results",
             "title": "Search"
