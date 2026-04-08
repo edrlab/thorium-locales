@@ -37,6 +37,9 @@
                 "compact": "Seuraava",
                 "descriptive": "Seuraava sivu"
             },
+            "goToNextResource": {
+                "compact": "Seuraava"
+            },
             "goToNextSentence": {
                 "compact": "Seuraava",
                 "descriptive": "Seuraava lause"
