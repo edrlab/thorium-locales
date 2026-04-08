@@ -79,7 +79,7 @@
                     },
                     "delete": {
                         "compact": "Supprimer un marque-page",
-                        "confirmation": "Êtes-vous certain(e) de vouloir supprimer ce marque-page ?"
+                        "confirmation": "Êtes-vous certain·e de vouloir supprimer ce marque-page ?"
                     }
                 },
                 "emptyState": {
@@ -136,7 +136,7 @@
                     "compact": "Minuteur",
                     "descriptive": "Minuteur de sommeil",
                     "presets": {
-                        "endOfChapter": "Fin du chapite",
+                        "endOfChapter": "Fin du chapitre",
                         "endOfResource": "Fin de la ressource"
                     }
                 }
@@ -333,10 +333,10 @@
         "search": {
             "actions": {
                 "next": {
-                    "compact": "Prochain résultat"
+                    "compact": "Résultat suivant"
                 },
                 "previous": {
-                    "compact": "Précédent résultat"
+                    "compact": "Résultat précédent"
                 }
             },
             "placeholder": "Rechercher des mots clés ou une phrase",
