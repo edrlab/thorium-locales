@@ -1,1 +1,15 @@
-{}
+{
+    "common": {
+        "actions": {
+            "cancel": "Cancelar",
+            "close": "Cerrar",
+            "collapse": "Contraer",
+            "collapseAll": "Contraer todo",
+            "expand": "Despliegar",
+            "expandAll": "Desplegar todo",
+            "filter": "Filtrar",
+            "search": "Buscar",
+            "sortBy": "Ordenar por"
+        }
+    }
+}
