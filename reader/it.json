@@ -330,6 +330,21 @@
                 "descriptive": "{{ x }} di {{ y }} ({{ z }})"
             }
         },
+        "search": {
+            "actions": {
+                "next": {
+                    "compact": "Risultato successivo"
+                },
+                "previous": {
+                    "compact": "Risultato precedente"
+                }
+            },
+            "placeholder": "Cerca parole chiave o una frase",
+            "result_many": "{{ current }} di {{ count }} risultati",
+            "result_one": "{{ current }} di {{ count }} risultato",
+            "result_other": "{{ current }} di {{ count }} risultati",
+            "title": "Cerca"
+        },
         "tableOfContents": {
             "emptyState": {
                 "description": "Il sommario non è disponibile per questa pubblicazione.",
