@@ -84,6 +84,7 @@
             "title": "Errore",
             "unexpected": "Si è verificato un problema. Si prega di riprovare."
         },
+        "estimatedNumber": "~{{ number }}",
         "file": {
             "errors": {
                 "corrupted": "Impossibile aprire il contenuto. Il file potrebbe essere corrotto o avere un formato non supportato. Si prega di provare con un altro file.",
@@ -107,6 +108,10 @@
                 "unauthorized": "Per accedere a questo contenuto bisogna essere connessi.",
                 "unreachable": "La connessione al server è impossibile."
             }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
         }
     },
     "home": {

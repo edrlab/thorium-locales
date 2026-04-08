@@ -63,10 +63,13 @@
             "close": "Fermer",
             "collapse": "Réduire",
             "collapseAll": "Tout réduire",
+            "delete": "Supprimer",
             "expand": "Développer",
             "expandAll": "Tout développer",
+            "filter": "Filtrer",
             "search": "Rechercher",
-            "showMoreOptions": "Plus d'options"
+            "showMoreOptions": "Plus d'options",
+            "sortBy": "Trier par"
         },
         "confirmation": {
             "title": "Êtes-vous sûr·e ?"
@@ -81,6 +84,7 @@
             "title": "Erreur",
             "unexpected": "Un problème est survenu. Veuillez réessayer."
         },
+        "estimatedNumber": "~{{ number }}",
         "file": {
             "errors": {
                 "corrupted": "Impossible d'ouvrir ce contenu. Le fichier pourrait être corrompu ou utiliser un format que nous ne prenons pas en charge. Veuillez essayer avec un autre fichier.",
@@ -104,6 +108,10 @@
                 "unauthorized": "Vous devez être connecté·e pour accéder à ce contenu.",
                 "unreachable": "Impossible de se connecter au serveur."
             }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
         }
     },
     "home": {
@@ -155,7 +163,16 @@
     },
     "reader": {
         "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Afficher le dialogue de prise de note à l'ajout d'un marque-page"
+                },
+                "title": "Marque-pages et surlignages"
+            },
             "progression": {
+                "animatePageTurns": {
+                    "compact": "Utiliser une animation lors du changement de page"
+                },
                 "displayCurrentProgression": {
                     "compact": "Afficher la progression actuelle"
                 },
@@ -176,7 +193,8 @@
                 },
                 "preventScreenTimeout": {
                     "compact": "Empêcher la mise en veille de l'écran"
-                }
+                },
+                "title": "Écran"
             },
             "title": "Options de lecture"
         }

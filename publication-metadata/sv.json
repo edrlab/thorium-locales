@@ -112,24 +112,24 @@
                             "descriptive": "Publikationen har blinkande innehåll som kan vara skadligt för ljuskänsliga personer"
                         },
                         "flashing-none": {
-                            "compact": "Inget blinkande innehåll",
-                            "descriptive": "Publikationen har inget blinkande innehåll"
+                            "compact": "Inga risker med blinkande innehåll",
+                            "descriptive": "Publikationen har inget blinkande innehåll som kan vara skadligt för ljuskänsliga personer"
                         },
                         "flashing-unknown": {
-                            "compact": "Förekomst av blinkande innehåll är okänd",
-                            "descriptive": "Förekomst av blinkande innehåll är okänd"
+                            "compact": "Inga kända risker med blinkande innehåll",
+                            "descriptive": "Förekomst av blinkande innehåll som kan vara skadligt för ljuskänsliga personer är okänd"
                         },
                         "motion": {
                             "compact": "Rörelsesimulering",
                             "descriptive": "Publikationen innehåller rörelsesimulering som skulle kunna orsaka illamående"
                         },
                         "motion-none": {
-                            "compact": "Ingen rörelsesimulering",
-                            "descriptive": "Publikationen innehåller ingen rörelsesimulering"
+                            "compact": "Inga risker med rörelsesimulering",
+                            "descriptive": "Publikationen innehåller ingen rörelsesimulering som skulle kunna orsaka illamående"
                         },
                         "motion-unknown": {
-                            "compact": "Förekomst av rörelsesimulering är okänd",
-                            "descriptive": "Förekomst av rörelsesimulering är okänd"
+                            "compact": "Inga kända risker med rörelsesimulering",
+                            "descriptive": "Förekomst av rörelsesimulering som skulle kunna orsaka illamående är okänd"
                         },
                         "no-metadata": "Information saknas",
                         "none": {
@@ -141,11 +141,11 @@
                             "descriptive": "Publikationen innehåller ljud som kan orsaka obehag"
                         },
                         "sound-none": {
-                            "compact": "Inget ljud som kan orsaka obehag",
+                            "compact": "Inga ljudrelaterade risker",
                             "descriptive": "Publikationen innehåller inget ljud som kan orsaka obehag"
                         },
                         "sound-unknown": {
-                            "compact": "Förekomst av ljud som kan orsaka obehag är okänd",
+                            "compact": "Inga kända ljudrelaterade risker",
                             "descriptive": "Förekomst av ljud som kan orsaka obehag är okänd"
                         },
                         "title": "Risker",

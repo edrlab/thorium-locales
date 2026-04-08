@@ -63,10 +63,13 @@
             "close": "Stäng",
             "collapse": "Minimera",
             "collapseAll": "Minimera alla",
+            "delete": "Radera",
             "expand": "Utöka",
             "expandAll": "Utöka alla",
+            "filter": "Filter",
             "search": "Sök",
-            "showMoreOptions": "Fler alternativ"
+            "showMoreOptions": "Fler alternativ",
+            "sortBy": "Sortera efter"
         },
         "confirmation": {
             "title": "Är du säker?"
@@ -155,7 +158,16 @@
     },
     "reader": {
         "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Visa anteckningsdialog på nytt bokmärke"
+                },
+                "title": "Bokmärken och höjdpunkter"
+            },
             "progression": {
+                "animatePageTurns": {
+                    "compact": "Animera sidbläddringar"
+                },
                 "displayCurrentProgression": {
                     "compact": "Visa läsposition"
                 },
@@ -176,7 +188,8 @@
                 },
                 "preventScreenTimeout": {
                     "compact": "Förhindra att skärmen släcks"
-                }
+                },
+                "title": "Skärm"
             },
             "title": "Läsinställningar"
         }
