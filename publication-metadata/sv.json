@@ -2,18 +2,18 @@
     "publication": {
         "format": {
             "audiobook": "Ljudbok",
-            "audiobookJSON": "Ljudboksmanifest",
-            "cbz": "Serieboksarkiv",
-            "divina": "Divina publikation",
-            "divinaJSON": "Divina Publication Manifest",
+            "audiobookJSON": "Ljudbok (manifest)",
+            "cbz": "Serietidning (CBZ-arkiv)",
+            "divina": "Divina-publikation",
+            "divinaJSON": "Divina (manifest)",
             "epub": "EPUB",
             "lcpa": "LCP-skyddad ljudbok",
             "lcpdf": "LCP-skyddad PDF",
-            "lcpl": "LCP Licensdokument",
+            "lcpl": "LCP-licensdokument",
             "pdf": "PDF",
-            "rwp": "Readium Web Publication",
-            "rwpm": "Readium Web Publication Manifest",
-            "zab": "Ljudboksarkiv",
+            "rwp": "Readium webbpublikation",
+            "rwpm": "Readium webbpublikation (manifest)",
+            "zab": "Ljudbok (arkiv)",
             "zip": "ZIP-arkiv"
         },
         "kind": {
