@@ -84,6 +84,7 @@
             "title": "Virhe",
             "unexpected": "Jotain meni pieleen. Yritä uudelleen."
         },
+        "estimatedNumber": "~{{ number }}",
         "file": {
             "errors": {
                 "corrupted": "Tätä sisältöä ei voitu avata. Tiedosto saattaa olla vioittunut tai sen muotoa ei tueta. Kokeile toista tiedostoa.",
@@ -107,6 +108,10 @@
                 "unauthorized": "Sinun on oltava kirjautuneena sisään, jotta voit käyttää tätä sisältöä.",
                 "unreachable": "Yhteyttä palvelimeen ei voitu muodostaa."
             }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
         }
     },
     "home": {
@@ -158,7 +163,16 @@
     },
     "reader": {
         "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Näytä muistiinpanojen valintaikkuna, kun luodaan kirjanmerkki"
+                },
+                "title": "Kirjanmerkit ja korostukset"
+            },
             "progression": {
+                "animatePageTurns": {
+                    "compact": "Animoi sivun kääntyminen"
+                },
                 "displayCurrentProgression": {
                     "compact": "Näytä edistyminen"
                 },
@@ -179,7 +193,8 @@
                 },
                 "preventScreenTimeout": {
                     "compact": "Estä näytön sammuminen"
-                }
+                },
+                "title": "Näyttö"
             },
             "title": "Lukuasetukset"
         }
