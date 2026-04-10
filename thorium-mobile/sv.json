@@ -32,7 +32,7 @@
         "filter": {
             "all": "Alla",
             "currentlyReading": "Läser just nu",
-            "finished": "Avslutad",
+            "finished": "Läst",
             "notStartedYet": "Oläst",
             "recentlyAdded": "Nyligen tillagd",
             "samples": "Smakprov",
@@ -45,7 +45,7 @@
         },
         "sort": {
             "author": "Författare",
-            "finished": "Slutförandedatum",
+            "finished": "Datum läst",
             "lastAdded": "Senast tillagd",
             "lastRead": "Senast läst",
             "title": "Titel"
@@ -84,12 +84,13 @@
             "title": "Fel",
             "unexpected": "Något gick fel. Försök igen."
         },
+        "estimatedNumber": "~{{ number }}",
         "file": {
             "errors": {
                 "corrupted": "Vi kunde inte öppna detta innehåll. Filen kan vara skadad eller använda ett format som vi inte stöder. Försök med en annan fil.",
                 "forbidden": "Det går inte att öppna filen. Åtkomst nekad.",
                 "formatNotSupported": "Filtypen stöds inte. Försök med en annan fil.",
-                "insufficientSpace": "Det finns inte tillräckligt med diskutrymme för att fortsätta. Vänligen frigör lite utrymme och försök igen.",
+                "insufficientSpace": "Det finns inte tillräckligt med diskutrymme för att fortsätta. Frigör utrymme och försök igen.",
                 "notFound": "Kunde inte öppna fil. Filen hittades inte.",
                 "protocolNotSupported": "Denna publikation kan inte öppnas från sin nuvarande plats. Försök att ladda ner den först eller kontakta bokaffären för support."
             }
@@ -107,6 +108,10 @@
                 "unauthorized": "Du måste vara inloggad för att komma åt det här innehållet.",
                 "unreachable": "Kunde inte ansluta till servern."
             }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
         }
     },
     "home": {
@@ -160,13 +165,13 @@
         "settings": {
             "annotations": {
                 "showNoteOnNewBookmark": {
-                    "compact": "Visa anteckningsdialog på nya bokmärken"
+                    "compact": "Visa anteckningsdialogen för nya bokmärken"
                 },
                 "title": "Bokmärken och anteckningar"
             },
             "progression": {
                 "animatePageTurns": {
-                    "compact": "Animera sidbläddringar"
+                    "compact": "Animera sidbläddring"
                 },
                 "displayCurrentProgression": {
                     "compact": "Visa läsposition"
