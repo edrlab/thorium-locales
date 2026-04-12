@@ -1,15 +1,218 @@
 {
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Página web"
+                }
+            },
+            "title": "Software de terceros"
+        },
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\n\nTodos los derechos reservados.",
+        "title": "Acerca de",
+        "version": "Versión {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filtrar"
+            },
+            "sort": {
+                "compact": "Ordenar por"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Tu estantería está vacía. Empieza añadiendo tu primer libro, audiolibro o cómic para empezar a leer.",
+                "filter": "No hay publicaciones que coincidan con este filtro. Muestra toda tu estantería para ver todos tus títulos.",
+                "kind": "No hay publicaciones que coincidan con el tipo seleccionado. Prueba a mostrar todos los tipos para ver más títulos de tu estantería."
+            },
+            "title": "No se han encontrado publicaciones"
+        },
+        "filter": {
+            "all": "Todo",
+            "currentlyReading": "En lectura",
+            "finished": "Terminado",
+            "notStartedYet": "No comenzado",
+            "recentlyAdded": "Recientemente añadido",
+            "samples": "Muestras",
+            "type": "Tipo"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Explorar"
+            }
+        },
+        "sort": {
+            "author": "Autor",
+            "finished": "Fin de lectura",
+            "lastAdded": "Último añadido",
+            "lastRead": "Últimamente leído",
+            "title": "Título"
+        },
+        "title": "Estantería",
+        "view": {
+            "grid": "Cuadrícula",
+            "list": "Lista",
+            "title": "Vista"
+        }
+    },
     "common": {
         "actions": {
             "cancel": "Cancelar",
             "close": "Cerrar",
             "collapse": "Contraer",
             "collapseAll": "Contraer todo",
+            "delete": "Eliminar",
             "expand": "Despliegar",
             "expandAll": "Desplegar todo",
             "filter": "Filtrar",
             "search": "Buscar",
+            "showMoreOptions": "Más opciones",
             "sortBy": "Ordenar por"
+        },
+        "confirmation": {
+            "title": "¿Estás seguro?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Detalles"
+                }
+            },
+            "cancelled": "Operación cancelada.",
+            "title": "Error",
+            "unexpected": "Ha ocurrido un error. Inténtalo de nuevo."
+        },
+        "estimatedNumber": "~{{ number }}",
+        "file": {
+            "errors": {
+                "corrupted": "No hemos podido abrir este contenido. Es posible que el archivo esté dañado o que utilice un formato que no admitimos. Inténtalo con otro archivo.",
+                "forbidden": "No se puede abrir el archivo. Acceso denegado.",
+                "formatNotSupported": "Tipo de archivo no compatible. Intenta con otro archivo.",
+                "insufficientSpace": "No hay suficiente espacio en disco para continuar. Libera algo de espacio e inténtalo de nuevo.",
+                "notFound": "No se ha podido abrir el archivo. No se ha encontrado el archivo.",
+                "protocolNotSupported": "Esta publicación no se puede abrir desde su ubicación actual. Intenta descargarla primero o ponte en contacto con la librería para obtener ayuda."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Ha ocurrido un error. Comprueba tu conexión a Internet o vuelve a intentarlo más tarde.",
+                "forbidden": "No tienes permiso para acceder a este contenido.",
+                "malformedResponse": "No se puede cargar este contenido. Hay un problema con el servidor. Inténtalo de nuevo más tarde.",
+                "methodNotSupported": "El servidor no admite el método de carga requerido.",
+                "notFound": "Contenido no encontrado.",
+                "offline": "Sin conexión. Comprueba internet.",
+                "security": "No se ha podido establecer una conexión segura. Inténtalo de nuevo más tarde.",
+                "timeout": "Se ha agotado el tiempo de espera de la conexión. Inténtalo de nuevo.",
+                "unauthorized": "Debes iniciar sesión para acceder a este contenido.",
+                "unreachable": "No se ha podido conectar al servidor."
+            }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
         }
+    },
+    "home": {
+        "title": "Inicio"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Abrir un libro"
+        },
+        "openBookshelf": {
+            "description": "Abre la aplicación en tu estantería.",
+            "title": "Abre la estantería"
+        }
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Importar"
+            },
+            "listen": {
+                "compact": "Escuchar"
+            },
+            "markAsFinished": {
+                "compact": "Marcar como completado"
+            },
+            "markAsNotStarted": {
+                "compact": "Marcar como no iniciado"
+            },
+            "markAsUnfinished": {
+                "compact": "Marcar como sin terminar"
+            },
+            "read": {
+                "compact": "Leer"
+            },
+            "remove": {
+                "compact": "Eliminar",
+                "confirmation": "¿Confirmar eliminación de \"{{title}}\"? Esta acción no se puede deshacer."
+            },
+            "rename": {
+                "compact": "Cambiar nombre",
+                "descriptive": "Cambiar nombre de la publicación"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Ninguno",
+            "sample": "Extracto",
+            "unknownTitle": "Título desconocido"
+        }
+    },
+    "reader": {
+        "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Abrir nota al crear marcador"
+                },
+                "title": "Marcadores y resaltados"
+            },
+            "progression": {
+                "animatePageTurns": {
+                    "compact": "nimar giros de página"
+                },
+                "displayCurrentProgression": {
+                    "compact": "Mostrar progreso actual"
+                },
+                "displayPrintPagination": {
+                    "compact": "Mostrar numeración impresa"
+                },
+                "progressionStyle": {
+                    "compact": "Estilo de progreso"
+                },
+                "title": "Progreso"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Barra de estado siempre visible"
+                },
+                "displayOrientationLock": {
+                    "compact": "Mostrar botón de bloqueo al rotar"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Mantener pantalla encendida"
+                },
+                "title": "Pantalla"
+            },
+            "title": "Ajustes de lectura"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Siempre visible",
+            "hidden": "Oculto",
+            "title": "Reproductor de audio",
+            "whenPlaying": "Mostrar durante la reproducción"
+        },
+        "systemSettings": "Ajustes de sistema",
+        "theme": {
+            "dark": "Oscuro",
+            "light": "Claro",
+            "system": "Predeterminado del sistema",
+            "title": "Tema"
+        },
+        "title": "Ajustes"
     }
 }
