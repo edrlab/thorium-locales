@@ -318,6 +318,20 @@
                 "descriptive": "{{ x }} av {{ y }} ({{ z }})"
             }
         },
+        "search": {
+            "actions": {
+                "next": {
+                    "compact": "Nästa träff"
+                },
+                "previous": {
+                    "compact": "Föregående träff"
+                }
+            },
+            "placeholder": "Sök efter nyckelord eller fraser",
+            "result_one": "{{ current }} of {{ count }} träff",
+            "result_other": "{{ current }} of {{ count }} träffar",
+            "title": "Sök"
+        },
         "tableOfContents": {
             "emptyState": {
                 "description": "Den här boken saknar innehållsförteckning.",
