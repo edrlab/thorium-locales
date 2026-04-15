@@ -1,1 +1,16 @@
-{}
+{
+    "about": {
+        "acknowledgments": {
+            "title": "Trečiųjų šalių programinė įranga"
+        },
+        "title": "Apie",
+        "version": "Versija {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "sort": {
+                "compact": "Rikiuoti pagal"
+            }
+        }
+    }
+}
