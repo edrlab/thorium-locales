@@ -55,7 +55,7 @@
                     "descriptive_other": "Inlämnas senast om {{ count }} dagar"
                 },
                 "hours": {
-                    "descriptive_one": "Inlämnas om {{ count }} timma",
+                    "descriptive_one": "Inlämnas om {{ count }} timme",
                     "descriptive_other": "Inlämnas om {{ count }} timmar"
                 },
                 "minutes": {
