@@ -328,8 +328,8 @@
                 }
             },
             "placeholder": "Sök efter nyckelord eller fraser",
-            "result_one": "{{ current }} of {{ count }} träff",
-            "result_other": "{{ current }} of {{ count }} träffar",
+            "result_one": "{{ current }} av {{ count }} träff",
+            "result_other": "{{ current }} av {{ count }} träffar",
             "title": "Sök"
         },
         "tableOfContents": {
