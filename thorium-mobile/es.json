@@ -64,7 +64,7 @@
             "collapse": "Contraer",
             "collapseAll": "Contraer todo",
             "delete": "Eliminar",
-            "expand": "Despliegar",
+            "expand": "Desplegar",
             "expandAll": "Desplegar todo",
             "filter": "Filtrar",
             "search": "Buscar",
@@ -171,7 +171,7 @@
             },
             "progression": {
                 "animatePageTurns": {
-                    "compact": "nimar giros de página"
+                    "compact": "Animar giros de página"
                 },
                 "displayCurrentProgression": {
                     "compact": "Mostrar progreso actual"
