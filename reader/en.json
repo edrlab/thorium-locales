@@ -214,7 +214,7 @@
                 "title": "Line height"
             },
             "noRuby": {
-                "label": "Disable ruby annotations",
+                "label": "Hide ruby annotations",
                 "title": "Ruby annotations"
             },
             "offsetFirstPage": "Display first page on its own",
