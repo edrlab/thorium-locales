@@ -202,12 +202,20 @@
                 "title": "Layout"
             },
             "letterSpacing": "Letter spacing",
+            "ligatures": {
+                "label": "Enable ligatures",
+                "title": "Ligatures"
+            },
             "lineHeight": {
                 "default": "Default",
                 "large": "Loose",
                 "medium": "Balanced",
                 "small": "Tight",
                 "title": "Line height"
+            },
+            "noRuby": {
+                "label": "Hide ruby annotations",
+                "title": "Ruby annotations"
             },
             "offsetFirstPage": "Display first page on its own",
             "paragraphIndent": "Paragraph indent",
