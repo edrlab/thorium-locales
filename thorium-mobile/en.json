@@ -126,6 +126,21 @@
             "title": "Open Bookshelf"
         }
     },
+    "links": {
+        "aboutApp": "About this application",
+        "aboutUs": "About us",
+        "community": {
+            "blog": "Blog",
+            "discord": "Join the community on Discord",
+            "patreon": "Support us on Patreon",
+            "title": "Stay up to date",
+            "youtube": "Follow us on YouTube"
+        },
+        "help": "Help & feedback",
+        "info": "Info",
+        "privacyPolicy": "Privacy policy",
+        "termsOfUse": "Terms of use"
+    },
     "publication": {
         "actions": {
             "add": {
