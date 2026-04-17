@@ -106,7 +106,7 @@
         "playback": {
             "actions": {
                 "pause": "Pausa",
-                "play": "reproducir",
+                "play": "Reproducir",
                 "skipBackward": {
                     "compact": "Rebobinar",
                     "descriptive": "Saltar hacia atrás"
@@ -233,7 +233,7 @@
             },
             "spacing": {
                 "presets": {
-                    "accessible": "Accessible",
+                    "accessible": "Accesible",
                     "balanced": "Equilibrado",
                     "custom": "Personalizado",
                     "default": "Predeterminado",
