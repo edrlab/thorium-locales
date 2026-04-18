@@ -126,6 +126,21 @@
             "title": "Abre la estantería"
         }
     },
+    "links": {
+        "aboutApp": "Acerca de esta aplicación",
+        "aboutUs": "Acerca de nosotros",
+        "community": {
+            "blog": "Blog",
+            "discord": "Únete a la comunidad en Discord",
+            "patreon": "Apóyanos en Patreon",
+            "title": "Manténgase al día",
+            "youtube": "Síguenos en YouTube"
+        },
+        "help": "Ayuda y comentarios",
+        "info": "Información",
+        "privacyPolicy": "Normativa de privacidad",
+        "termsOfUse": "Términos de uso"
+    },
     "publication": {
         "actions": {
             "add": {
