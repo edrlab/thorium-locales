@@ -2,7 +2,9 @@
     "publication": {
         "format": {
             "audiobook": "Heliraamat",
-            "audiobookJSON": "Heliraamatu manifest"
+            "audiobookJSON": "Heliraamatu manifest",
+            "cbz": "Comic Booki arhiiv",
+            "zip": "ZIP-arhiiv"
         },
         "kind": {
             "audiobook_one": "heliraamat",
