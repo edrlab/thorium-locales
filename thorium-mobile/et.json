@@ -126,6 +126,21 @@
             "title": "Ava raamaturiiul"
         }
     },
+    "links": {
+        "aboutApp": "Teave selle rakenduse kohta",
+        "aboutUs": "Lähemalt meist",
+        "community": {
+            "blog": "Ajaveeb",
+            "discord": "Liitu kogukonnaga Discordis",
+            "patreon": "Toeta meid Patreonis",
+            "title": "Püsi kursis",
+            "youtube": "Jälgi meid YouTube'is"
+        },
+        "help": "Abiteave ja tagasiside",
+        "info": "Teave",
+        "privacyPolicy": "Andmekaitsepõhimõtted",
+        "termsOfUse": "Kasutustingimused"
+    },
     "publication": {
         "actions": {
             "add": {
