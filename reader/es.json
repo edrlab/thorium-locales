@@ -202,12 +202,20 @@
                 "title": "Disposición"
             },
             "letterSpacing": "Espaciado de letras",
+            "ligatures": {
+                "label": "Habilitar ligaduras",
+                "title": "Ligaduras"
+            },
             "lineHeight": {
                 "default": "Predeterminado",
                 "large": "Amplio",
                 "medium": "Equilibrado",
                 "small": "Ajustado",
                 "title": "Interlineado"
+            },
+            "noRuby": {
+                "label": "Ocultar anotaciones de ruby",
+                "title": "Anotaciones de Ruby"
             },
             "offsetFirstPage": "Primera página por separado",
             "paragraphIndent": "Sangría de párrafo",
