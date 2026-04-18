@@ -1,1 +1,77 @@
-{}
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Renovar",
+                "descriptive": "Renovar el préstamo"
+            },
+            "return": {
+                "compact": "Devolución",
+                "confirmation": "¿Seguro que quiere devolver «{{ title }}»? Esta acción es irreversible.",
+                "descriptive": "Devolución de la publicación"
+            }
+        },
+        "dialog": {
+            "actions": {
+                "cancel": "Cancelar",
+                "continue": "Continuar",
+                "recoverPassphrase": "¿Olvidaste tu contraseña?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Contraseña incorrecta."
+            },
+            "info": {
+                "body": "Esta publicación está protegida por LCP (Licensed Content Protection), una tecnología DRM que impide la copia no autorizada y simplifica la lectura. LCP es un estándar abierto que equilibra la facilidad de uso con las necesidades de los editores.",
+                "more": "Más información…",
+                "title": "¿Qué es LCP?"
+            },
+            "message": "Esta publicación está protegida por LCP. Introduzca la contraseña facilitada por su biblioteca o librería para abrirla.",
+            "passphrase": {
+                "hint": "**Índice :** {{ hint }}",
+                "placeholder": "Contraseña"
+            },
+            "title": "Introduzca la contraseña"
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Esta publicación ya ha sido enviada o ha caducado.",
+            "copyForbidden": "Has superador el número máximo de caracteres permitidos para copiar.",
+            "invalidLicense": "No pudimos validar la licencia de este libro. Póngase en contacto con su proveedor de licencias para obtener ayuda.",
+            "invalidRenewalPeriod": "Esta publicación no se puede renovar para la fecha seleccionada. Por favor, intente con otra fecha.",
+            "missingPassphrase": "Para abrir esta publicación se requiere una contraseña. Póngase en contacto con su proveedor de licencias para obtenerla.",
+            "renewFailed": "No se pudo renovar su publicación. Póngase en contacto con su proveedor para obtener ayuda.",
+            "returnFailed": "No se pudo entregar su publicación. Póngase en contacto con su proveedor para obtener ayuda.",
+            "statusCancelled": "Usted revocó el acceso a esta publicación el {{ date }}. Póngase en contacto con su proveedor de licencias si desea restablecer el acceso.",
+            "statusExpiredEnd": "Tu préstamo de esta publicación venció el {{ date }}. Ponte en contacto con tu biblioteca para volver a tomarlo prestado.",
+            "statusExpiredStart": "Esta publicación estará disponible el {{ date }}.",
+            "statusReturned": "Devolviste esta publicación el {{ date }}. Ponte en contacto con tu biblioteca para volver a tomarla prestada.",
+            "statusRevoked_many": "Su proveedor revocó el acceso a esta publicación el {{ date }}. Se accedió a ella desde {{ count }} dispositivos. Póngase en contacto con su proveedor para obtener más información.",
+            "statusRevoked_one": "Su proveedor revocó el acceso a esta publicación el {{ date }}. Se accedió a ella desde {{ count }} dispositivo. Póngase en contacto con su proveedor para obtener más información.",
+            "statusRevoked_other": "Su proveedor revocó el acceso a esta publicación el {{ date }}. Se accedió a ella desde {{ count }} dispositivos. Póngase en contacto con su proveedor para obtener más información."
+        },
+        "labels": {
+            "expired": "Caducidad",
+            "expiresIn": {
+                "days": {
+                    "descriptive_many": "Caduca en {{ count }} días",
+                    "descriptive_one": "Caduca en {{ count }} día",
+                    "descriptive_other": "Caduca en {{ count }} días"
+                },
+                "hours": {
+                    "descriptive_many": "Caduca en {{ count }} horas",
+                    "descriptive_one": "Caduca en {{ count }} hora",
+                    "descriptive_other": "Caduca en {{ count }} horas"
+                },
+                "minutes": {
+                    "descriptive_many": "Caduca en {{ count }} minutos",
+                    "descriptive_one": "Caduca en {{ count }} minuto",
+                    "descriptive_other": "Caduca en {{ count }} minutos"
+                },
+                "months": {
+                    "descriptive_many": "Caduca en {{ count }} meses",
+                    "descriptive_one": "Caduca en {{ count }} mes",
+                    "descriptive_other": "Caduca en {{ count }} meses"
+                }
+            }
+        }
+    }
+}
