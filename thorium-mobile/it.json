@@ -9,7 +9,7 @@
             "title": "Software di terze parti"
         },
         "copyright": "Copyright {{ year }} European Digital Reading Lab.\nTutti i diritti riservati.",
-        "title": "Chi siamo",
+        "title": "A proposito dell'app",
         "version": "Versione {{ version }} ({{ build }})"
     },
     "bookshelf": {
@@ -125,6 +125,21 @@
             "description": "Apri l'app direttamente alla tua biblioteca.",
             "title": "Apri la biblioteca"
         }
+    },
+    "links": {
+        "aboutApp": "A proposito di questa app",
+        "aboutUs": "Chi siamo",
+        "community": {
+            "blog": "Blog",
+            "discord": "Unisciti alla community su Discord",
+            "patreon": "Sostienici con Patreon",
+            "title": "Resta aggiornato",
+            "youtube": "Seguici su YouTube"
+        },
+        "help": "Aiuto & feedback",
+        "info": "Info",
+        "privacyPolicy": "Informativa sulla privacy",
+        "termsOfUse": "Termini di utilizzo"
     },
     "publication": {
         "actions": {
