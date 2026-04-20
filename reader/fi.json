@@ -202,12 +202,20 @@
                 "title": "Asettelu"
             },
             "letterSpacing": "Kirjainväli",
+            "ligatures": {
+                "label": "Salli ligatuurit",
+                "title": "Ligatuurit"
+            },
             "lineHeight": {
                 "default": "Oletus",
                 "large": "Väljä",
                 "medium": "Tasapainoinen",
                 "small": "Tiivis",
                 "title": "Riviväli"
+            },
+            "noRuby": {
+                "label": "Piilota rubi-merkinnät",
+                "title": "Rubi-merkinnät"
             },
             "offsetFirstPage": "Näytä ensimmäinen sivu erikseen",
             "paragraphIndent": "Kappaleiden sisennys",
