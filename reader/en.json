@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "No bookmarks added yet.",
+                    "description": "New bookmarks added while reading will show up in this list.",
                     "title": "No bookmarks"
                 },
                 "title": "Bookmarks"
