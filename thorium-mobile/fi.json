@@ -126,6 +126,21 @@
             "title": "Avaa kirjahylly"
         }
     },
+    "links": {
+        "aboutApp": "Tietoa sovelluksesta",
+        "aboutUs": "Tietoa meistä",
+        "community": {
+            "blog": "Blogi",
+            "discord": "Liity Discord-yhteisöön",
+            "patreon": "Tue meitä Patreonissa",
+            "title": "Pysy ajan tasalla",
+            "youtube": "Seuraa YouTube-kanavaa"
+        },
+        "help": "Tuki ja palaute",
+        "info": "Info",
+        "privacyPolicy": "Tietosuojakäytäntö",
+        "termsOfUse": "Käyttöehdot"
+    },
     "publication": {
         "actions": {
             "add": {
