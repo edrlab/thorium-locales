@@ -345,7 +345,7 @@
         },
         "tableOfContents": {
             "emptyState": {
-                "description": "The table of contents was not provided for this publication.",
+                "description": "A table of contents was not provided by the author.",
                 "title": "No table of contents"
             },
             "title": "Table of contents"
