@@ -23,9 +23,8 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Your bookshelf is empty. Start by adding your first book, audiobook, or comic to begin reading.",
-                "filter": "No publications match this filter. Show your entire bookshelf to see all your titles.",
-                "kind": "No publications match the selected type. Try showing all types to see more from your bookshelf."
+                "bookshelf": "Your bookshelf is empty for now. Import EPUB, PDF or CBZ files from your device.",
+                "filter": "No publications match this filter. Show your entire bookshelf to see all your titles."
             },
             "title": "No publications found"
         },
@@ -115,6 +114,15 @@
         }
     },
     "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Welcome to Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "You've finished reading all the publications currently in your bookshelf.",
+                "title": "All caught up"
+            }
+        },
         "title": "Home"
     },
     "intents": {
