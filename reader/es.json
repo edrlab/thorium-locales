@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "Aún no se han añadido marcadores.",
+                    "description": "Marcadores nuevas agregados mientras lea mostrará este listado.",
                     "title": "No hay marcadores"
                 },
                 "title": "Marcadores"
@@ -355,7 +355,7 @@
         },
         "tableOfContents": {
             "emptyState": {
-                "description": "Esta publicación no incluye tabla de contenidos.",
+                "description": "No fue proporcionado por el autor un índice del contenido.",
                 "title": "No incluye tabla de contenidos"
             },
             "title": "Tabla de contenidos"
