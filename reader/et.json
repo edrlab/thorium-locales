@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "Ühtegi järjehoidjat pole veel lisatud.",
+                    "description": "Lugemise ajal lisatud järjehoidjad saavad olema nähtavad siin.",
                     "title": "Järjehoidjaid pole"
                 },
                 "title": "Järjehoidjad"
@@ -213,7 +213,22 @@
                 "small": "Tihe",
                 "title": "Rea kõrgus"
             },
+            "noRuby": {
+                "label": "Peida „ruby“ märkused",
+                "title": "„Ruby“ märkused"
+            },
+            "offsetFirstPage": "Näita esimest lehte eraldi",
+            "paragraphIndent": "Lõikude taandrida",
+            "paragraphSpacing": "Lõikude reavahe",
+            "publisherStyles": {
+                "label": "Kasuta algset vormingut",
+                "title": "Kirjastaja stiilid"
+            },
             "readingDirection": {
+                "default": {
+                    "compact": "Vaikimisi",
+                    "descriptive": "Kasuta algset lugemise suunda"
+                },
                 "ltr": {
                     "compact": "Paremale",
                     "descriptive": "Vasakult paremale"
@@ -236,12 +251,29 @@
                 },
                 "title": "Sõrendus"
             },
+            "spread": {
+                "always": {
+                    "compact": "Topeltleht"
+                },
+                "auto": {
+                    "compact": "Automaatne"
+                },
+                "never": {
+                    "compact": "Üks leht"
+                },
+                "title": "Kuvamine kahe lehekülje kaupa"
+            },
             "text": "Tekst",
             "textAlign": {
                 "default": "Vaikimisi",
                 "justify": "Rööpne",
                 "left": "Vasakul",
-                "right": "Paremal"
+                "right": "Paremal",
+                "title": "Teksti joondumine"
+            },
+            "textNormalization": {
+                "label": "Eemalda kõik tekst vormindus",
+                "title": "Teksti normaliseerimine"
             },
             "themes": {
                 "auto": "Automaatne",
@@ -277,6 +309,25 @@
                 "compact_one": "Jäänud on {{ count }}",
                 "compact_other": "Jäänud on {{ count }}"
             }
+        },
+        "search": {
+            "actions": {
+                "next": {
+                    "compact": "Järgmine tulemus"
+                },
+                "previous": {
+                    "compact": "Eelmine tulemus"
+                }
+            },
+            "placeholder": "Otsi märksõnu või fraase",
+            "title": "Otsi"
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "Autor pole lisanud sisukorda.",
+                "title": "Sisukorda ei leidu"
+            },
+            "title": "Sisukord"
         }
     }
 }
