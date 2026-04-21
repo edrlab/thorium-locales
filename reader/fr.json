@@ -202,12 +202,20 @@
                 "title": "Mise en page"
             },
             "letterSpacing": "Espacement interlettre",
+            "ligatures": {
+                "label": "Activer les ligatures",
+                "title": "Ligatures"
+            },
             "lineHeight": {
                 "default": "Par défaut",
                 "large": "Élargi",
                 "medium": "Équilibré",
                 "small": "Resserré",
                 "title": "Interligne"
+            },
+            "noRuby": {
+                "label": "Cacher les annotations ruby",
+                "title": "Annotations ruby"
             },
             "offsetFirstPage": "Afficher la première page seule",
             "paragraphIndent": "Indentation du texte",
