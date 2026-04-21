@@ -24,7 +24,7 @@
         "emptyState": {
             "description": {
                 "bookshelf": "Your bookshelf is empty for now. Import EPUB, PDF or CBZ files from your device.",
-                "filter": "No publications in your bookshelf matched this filter."
+                "filter": "No publications in your bookshelf match this filter."
             },
             "title": "No publications found"
         },
