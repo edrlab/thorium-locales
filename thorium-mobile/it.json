@@ -23,8 +23,8 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "La tua biblioteca è vuota. Aggiungi il tuo primo libro, audiolibro o fumetto per iniziare a leggere.",
-                "filter": "Nessuna pubblicazione corrisponde a questo filtro. Visualizza tutta la biblioteca per vedere tutti i titoli.",
+                "bookshelf": "La tua biblioteca per il momento è vuota. Importa i tuoi file EPUB, PDF o CBZ dalla tua periferica.",
+                "filter": "Nessuna pubblicazione della tua biblioteca corrisponde a questo filtro.",
                 "kind": "Nessuna pubblicazione corrisponde alla tipologia selezionata. Prova a visualizzare tutte le tipologie per vedere più elementi della tua biblioteca."
             },
             "title": "Nessuna pubblicazione trovata"
@@ -115,6 +115,15 @@
         }
     },
     "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Benvenuti su Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Tutte le pubblicazioni della tua biblioteca sono contrassegnate come lette.",
+                "title": "Hai letto tutti i tuoi libri"
+            }
+        },
         "title": "Home"
     },
     "intents": {
