@@ -115,6 +115,14 @@
         }
     },
     "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Bienvenue sur Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Toutes les publications de votre bibliothèques sont marquées comme lues."
+            }
+        },
         "title": "Accueil"
     },
     "intents": {
