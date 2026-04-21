@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Din bokhylla är tom. Börja med att lägga till din första bok, ljudbok eller serietidning för att börja läsa.",
+                "bookshelf": "Din bokhylla är tom. Lägg till en bok, ljudbok eller serietidning för att börja läsa.",
                 "filter": "Inga publikationer matchar detta filter. Visa hela din bokhylla för att se alla dina titlar.",
                 "kind": "Inga publikationer matchar den valda typen. Försök att visa alla typer för att se mer från din bokhylla."
             },
