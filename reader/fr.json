@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "Aucun marque-page pour le moment.",
+                    "description": "Les nouveaux marque-pages ajoutés pendant la lecture s'afficheront ici.",
                     "title": "Aucun marque-page"
                 },
                 "title": "Marque-pages"
@@ -355,7 +355,7 @@
         },
         "tableOfContents": {
             "emptyState": {
-                "description": "La table des matières n'est pas disponible pour cette publication.",
+                "description": "La table des matières n'a pas été renseignée par l'auteur.",
                 "title": "Aucune table des matières"
             },
             "title": "Table des matières"
