@@ -23,8 +23,8 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Kirjahyllysi on tyhjä. Aloita lukeminen lisäämällä ensimmäinen kirja, äänikirja tai sarjakuva.",
-                "filter": "Mikään julkaisu ei vastaa tätä suodatinta. Näytä koko kirjahyllysi, jos haluat nähdä kaikki kirjasi.",
+                "bookshelf": "Kirjahyllysi on tällä hetkellä tyhjä. Tuo EPUB-, PDF- tai CBZ-tiedosto laitteeltasi.",
+                "filter": "Mikään julkaisu kirjahyllyssäsi ei vastaa tätä suodatinta.",
                 "kind": "Mikään julkaisu ei vastaa valittua tyyppiä. Kokeile näyttää kaikki tyypit, jotta näet enemmän teoksia kirjahyllyssä."
             },
             "title": "Julkaisuja ei löytynyt"
