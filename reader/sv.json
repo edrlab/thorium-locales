@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "Inga bokmärken tillagda ännu.",
+                    "description": "Nya bokmärken läggs till när du läser kommer att visas i den här listan.",
                     "title": "Inga bokmärken"
                 },
                 "title": "Bokmärken"
@@ -118,6 +118,9 @@
             },
             "preferences": {
                 "audio": {
+                    "skipBackwardInterval": "Hoppa bakåt intervall",
+                    "skipForwardInterval": "Hoppa framåt intervall",
+                    "skipInterval": "Skip intervall",
                     "title": "Ljudinställningar",
                     "volume": "Volym"
                 },
@@ -199,12 +202,20 @@
                 "title": "Layout"
             },
             "letterSpacing": "Teckenavstånd",
+            "ligatures": {
+                "label": "Aktivera ligaturer",
+                "title": "Ligaturer"
+            },
             "lineHeight": {
                 "default": "Standard",
                 "large": "Luftigt",
                 "medium": "Balanserat",
                 "small": "Tätt",
                 "title": "Radavstånd"
+            },
+            "noRuby": {
+                "label": "Dölj ruby-annoteringar",
+                "title": "Ruby-annoteringar"
             },
             "offsetFirstPage": "Visa första sidan på egen hand",
             "paragraphIndent": "Styckeindrag",
@@ -310,7 +321,7 @@
                 "compact_one": "{{ count }} kvar i publikationen",
                 "compact_other": "{{ count }} kvar i publikationen",
                 "descriptive_one": "{{ count }} position kvar i publikation",
-                "descriptive_other": "{{ count }} kvar i boken"
+                "descriptive_other": "{{ count }} positioner kvar i publikationen"
             },
             "range": "{{ start }}–{{ end }}",
             "xOfY": {
@@ -334,7 +345,7 @@
         },
         "tableOfContents": {
             "emptyState": {
-                "description": "Den här boken saknar innehållsförteckning.",
+                "description": "En innehållsförteckning lämnades inte av författaren.",
                 "title": "Ingen innehållsförteckning"
             },
             "title": "Innehållsförteckning"
