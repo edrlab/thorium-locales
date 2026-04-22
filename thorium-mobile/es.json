@@ -23,8 +23,8 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Tu estantería está vacía. Empieza añadiendo tu primer libro, audiolibro o cómic para empezar a leer.",
-                "filter": "No hay publicaciones que coincidan con este filtro. Muestra toda tu estantería para ver todos tus títulos.",
+                "bookshelf": "Tu estantería por ahora está vacía. Importe archivos EPUB, PDF o CBZ desde su dispositivo.",
+                "filter": "No hay publicaciones en su estantería que coincidan con este filtro.",
                 "kind": "No hay publicaciones que coincidan con el tipo seleccionado. Prueba a mostrar todos los tipos para ver más títulos de tu estantería."
             },
             "title": "No se han encontrado publicaciones"
@@ -115,6 +115,15 @@
         }
     },
     "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Bienvenido al lector Thorium"
+            },
+            "emptyHome": {
+                "description": "Todas las publicaciones de tu biblioteca están marcadas como leídas.",
+                "title": "Estás al día"
+            }
+        },
         "title": "Inicio"
     },
     "intents": {
@@ -125,6 +134,21 @@
             "description": "Abre la aplicación en tu estantería.",
             "title": "Abre la estantería"
         }
+    },
+    "links": {
+        "aboutApp": "Acerca de esta aplicación",
+        "aboutUs": "Acerca de nosotros",
+        "community": {
+            "blog": "Blog",
+            "discord": "Únete a la comunidad en Discord",
+            "patreon": "Apóyanos en Patreon",
+            "title": "Manténgase al día",
+            "youtube": "Síguenos en YouTube"
+        },
+        "help": "Ayuda y comentarios",
+        "info": "Información",
+        "privacyPolicy": "Normativa de privacidad",
+        "termsOfUse": "Términos de uso"
     },
     "publication": {
         "actions": {

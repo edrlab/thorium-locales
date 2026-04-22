@@ -23,8 +23,8 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Kirjahyllysi on tyhjä. Aloita lukeminen lisäämällä ensimmäinen kirja, äänikirja tai sarjakuva.",
-                "filter": "Mikään julkaisu ei vastaa tätä suodatinta. Näytä koko kirjahyllysi, jos haluat nähdä kaikki kirjasi.",
+                "bookshelf": "Kirjahyllysi on tällä hetkellä tyhjä. Tuo EPUB-, PDF- tai CBZ-tiedosto laitteeltasi.",
+                "filter": "Mikään julkaisu kirjahyllyssäsi ei vastaa tätä suodatinta.",
                 "kind": "Mikään julkaisu ei vastaa valittua tyyppiä. Kokeile näyttää kaikki tyypit, jotta näet enemmän teoksia kirjahyllyssä."
             },
             "title": "Julkaisuja ei löytynyt"
@@ -44,8 +44,8 @@
             }
         },
         "sort": {
-            "author": "Kirjailija",
-            "finished": "Lukemispäivä",
+            "author": "Tekijä",
+            "finished": "Luettu loppuun",
             "lastAdded": "Viimeksi lisätty",
             "lastRead": "Viimeksi luettu",
             "title": "Nimi"
@@ -115,6 +115,15 @@
         }
     },
     "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Tervetuloa Thorium Readeriin"
+            },
+            "emptyHome": {
+                "description": "Olet lukenut kaikki kirjahyllyssäsi tällä hetkellä olevat julkaisut.",
+                "title": "Olet ajan tasalla"
+            }
+        },
         "title": "Koti"
     },
     "intents": {
@@ -125,6 +134,21 @@
             "description": "Avaa sovelluksen kirjahyllyysi.",
             "title": "Avaa kirjahylly"
         }
+    },
+    "links": {
+        "aboutApp": "Tietoa sovelluksesta",
+        "aboutUs": "Tietoa meistä",
+        "community": {
+            "blog": "Blogi",
+            "discord": "Liity Discord-yhteisöön",
+            "patreon": "Tue meitä Patreonissa",
+            "title": "Pysy ajan tasalla",
+            "youtube": "Seuraa YouTube-kanavaa"
+        },
+        "help": "Tuki ja palaute",
+        "info": "Info",
+        "privacyPolicy": "Tietosuojakäytäntö",
+        "termsOfUse": "Käyttöehdot"
     },
     "publication": {
         "actions": {

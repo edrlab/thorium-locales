@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "Aún no se han añadido marcadores.",
+                    "description": "Los nuevos marcadores añadidos durante la lectura se mostrarán en esta lista.",
                     "title": "No hay marcadores"
                 },
                 "title": "Marcadores"
@@ -202,12 +202,20 @@
                 "title": "Disposición"
             },
             "letterSpacing": "Espaciado de letras",
+            "ligatures": {
+                "label": "Habilitar ligaduras",
+                "title": "Ligaduras"
+            },
             "lineHeight": {
                 "default": "Predeterminado",
                 "large": "Amplio",
                 "medium": "Equilibrado",
                 "small": "Ajustado",
                 "title": "Interlineado"
+            },
+            "noRuby": {
+                "label": "Ocultar anotaciones de ruby",
+                "title": "Anotaciones de Ruby"
             },
             "offsetFirstPage": "Primera página por separado",
             "paragraphIndent": "Sangría de párrafo",
@@ -347,7 +355,7 @@
         },
         "tableOfContents": {
             "emptyState": {
-                "description": "Esta publicación no incluye tabla de contenidos.",
+                "description": "No fue proporcionado por el autor un índice del contenido.",
                 "title": "No incluye tabla de contenidos"
             },
             "title": "Tabla de contenidos"

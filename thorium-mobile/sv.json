@@ -23,8 +23,8 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Din bokhylla är tom. Börja med att lägga till din första bok, ljudbok eller serietidning för att börja läsa.",
-                "filter": "Inga publikationer matchar detta filter. Visa hela din bokhylla för att se alla dina titlar.",
+                "bookshelf": "Din bokhylla är tom. Lägg till en bok, ljudbok eller serietidning för att börja läsa.",
+                "filter": "Inga publikationer i din bokhylla matchar detta filter.",
                 "kind": "Inga publikationer matchar den valda typen. Försök att visa alla typer för att se mer från din bokhylla."
             },
             "title": "Inga publikationer hittades"
@@ -115,6 +115,15 @@
         }
     },
     "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Välkommen till Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Du har läst alla publikationer i din bokhylla.",
+                "title": "Du är uppdaterad"
+            }
+        },
         "title": "Hem"
     },
     "intents": {
@@ -125,6 +134,21 @@
             "description": "Öppnar appen till din bokhylla.",
             "title": "Öppna Bokhylla"
         }
+    },
+    "links": {
+        "aboutApp": "Om denna applikation",
+        "aboutUs": "Om oss",
+        "community": {
+            "blog": "Blogg",
+            "discord": "Gå med i Discord-communityn",
+            "patreon": "Stöd oss på Patreon",
+            "title": "Håll dig uppdaterad",
+            "youtube": "Följ oss på YouTube"
+        },
+        "help": "Hjälp & feedback",
+        "info": "Info",
+        "privacyPolicy": "Integritetspolicy",
+        "termsOfUse": "Användarvillkor"
     },
     "publication": {
         "actions": {

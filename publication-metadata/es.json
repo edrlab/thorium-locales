@@ -3,7 +3,7 @@
         "format": {
             "audiobook": "Audiolibro",
             "audiobookJSON": "Manifiesto de Audiolibro",
-            "cbz": "Archivo de Cómic",
+            "cbz": "Tira cómica",
             "divina": "Publicación Divina",
             "divinaJSON": "Manifiesto de Publicación Divina",
             "epub": "EPUB",
@@ -17,12 +17,16 @@
             "zip": "Archivo ZIP"
         },
         "kind": {
-            "audiobook_one": "audiolibro",
-            "audiobook_other": "audiolibros",
+            "audiobook_many": "audio‐libros",
+            "audiobook_one": "audio‐libro",
+            "audiobook_other": "audio‐libros",
+            "book_many": "libros",
             "book_one": "libro",
             "book_other": "libros",
+            "comic_many": "cómics",
             "comic_one": "cómic",
             "comic_other": "cómics",
+            "document_many": "documentos",
             "document_one": "documento",
             "document_other": "documentos"
         },
@@ -90,15 +94,15 @@
                             "level-aaa": "Nivel AAA",
                             "wcag-2-0": {
                                 "compact": "WCAG 2.0",
-                                "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.0"
+                                "descriptive": "Reglas para la accesibilidad del contenido web (WCAG) 2.0"
                             },
                             "wcag-2-1": {
                                 "compact": "WCAG 2.1",
-                                "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.1"
+                                "descriptive": "Reglas para la accesibilidad del contenido web (WCAG) 2.1"
                             },
                             "wcag-2-2": {
                                 "compact": "WCAG 2.2",
-                                "descriptive": "Web Content Accessibility Guidelines (WCAG) 2.2"
+                                "descriptive": "Reglas para la accesibilidad del contenido web (WCAG) 2.2"
                             }
                         },
                         "details-title": "Información de conformidad detallada",
@@ -145,7 +149,7 @@
                             "descriptive": "La publicación no contiene sonidos"
                         },
                         "sound-unknown": {
-                            "compact": "Se desconoce la presencia de sonidos",
+                            "compact": "No hay información sobre la presencia de sonidos",
                             "descriptive": "Se desconoce la presencia de sonidos que puedan causar problemas de sensibilidad"
                         },
                         "title": "Incidencias",
@@ -260,49 +264,68 @@
                     }
                 }
             },
+            "altIdentifier_many": "identificador alternativo/s",
             "altIdentifier_one": "identificador alternativo",
             "altIdentifier_other": "identificadores alternativos",
+            "artist_many": "artista(s)",
             "artist_one": "artista",
             "artist_other": "artistas",
+            "author_many": "autor/es",
             "author_one": "autor",
             "author_other": "autores",
+            "collection_many": "colecciones editoriales",
             "collection_one": "colección editorial",
             "collection_other": "colecciones editoriales",
+            "colorist_many": "colorista(s)",
             "colorist_one": "colorista",
             "colorist_other": "coloristas",
+            "contributor_many": "colaborador(es)",
             "contributor_one": "colaborador",
             "contributor_other": "colaboradores",
             "description": "descripción",
             "duration": "duración",
+            "editor_many": "editor(es)",
             "editor_one": "editor",
             "editor_other": "editores",
+            "identifier_many": "identificador(es)",
             "identifier_one": "identificador",
             "identifier_other": "identificadores",
+            "illustrator_many": "ilustrador(es)",
             "illustrator_one": "ilustrador",
             "illustrator_other": "ilustradores",
+            "imprint_many": "marca(s) editorial(es)",
             "imprint_one": "marca editorial",
             "imprint_other": "marcas editoriales",
+            "inker_many": "entintador(es)",
             "inker_one": "entintador",
             "inker_other": "entintadores",
+            "language_many": "idioma(s)",
             "language_one": "idioma",
             "language_other": "idiomas",
+            "letterer_many": "rotulista(s)",
             "letterer_one": "rotulista",
             "letterer_other": "rotulistas",
             "modified": "fecha de modificación",
+            "narrator_many": "narrador(es)",
             "narrator_one": "narrador",
             "narrator_other": "narradores",
             "numberOfPages": "número de páginas",
+            "penciler_many": "dibujante(s)",
             "penciler_one": "dibujante",
             "penciler_other": "dibujantes",
             "published": "fecha de publicación",
+            "publisher_many": "editorial(es)",
             "publisher_one": "editorial",
             "publisher_other": "editoriales",
+            "series_many": "serie(s)",
             "series_one": "serie",
             "series_other": "series",
+            "subject_many": "tema(s)",
             "subject_one": "tema",
             "subject_other": "temas",
             "subtitle": "subtítulo",
             "title": "título",
+            "translator_many": "traductor(es)",
             "translator_one": "traductor",
             "translator_other": "traductores"
         }

@@ -2,7 +2,19 @@
     "publication": {
         "format": {
             "audiobook": "Heliraamat",
-            "audiobookJSON": "Heliraamatu manifest"
+            "audiobookJSON": "Heliraamatu manifest",
+            "cbz": "Comic Booki arhiiv",
+            "divina": "Divina väljaanne",
+            "divinaJSON": "Divina väljaande manifest",
+            "epub": "EPUB",
+            "lcpa": "LCP-kaitsega heliraamat",
+            "lcpdf": "LCP-kaitsega PDF-fail",
+            "lcpl": "LCP-litsentsiga dokument",
+            "pdf": "PDF-fail",
+            "rwp": "Readiumi veebiväljaanne",
+            "rwpm": "Readiumi veebiväljaande manifest",
+            "zab": "Heliraamatu arhiiv",
+            "zip": "ZIP-arhiiv"
         },
         "kind": {
             "audiobook_one": "heliraamat",
@@ -21,9 +33,116 @@
                         "no-metadata": "Teavet pole saadaval",
                         "publisher-contact": "Selle toote saadavause osas palun küsi lisateavet kirjastusest: ",
                         "title": "Saadavuse kokkuvõte"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "ARIA rollid on lisatud",
+                            "descriptive": "Sisu on täiendatud ARIA-rollidega, et optimeerida selle ülesehitust ja hõlbustada väljaandes liikumist"
+                        }
+                    },
+                    "conformance": {
+                        "details": {
+                            "level-a": "A-tase",
+                            "level-aa": "AA-tase",
+                            "level-aaa": "AAA-tase",
+                            "wcag-2-0": {
+                                "compact": "WCAG 2.0"
+                            },
+                            "wcag-2-1": {
+                                "compact": "WCAG 2.1"
+                            },
+                            "wcag-2-2": {
+                                "compact": "WCAG 2.2"
+                            }
+                        },
+                        "no": "Teavet pole saadaval"
+                    },
+                    "hazards": {
+                        "flashing": {
+                            "compact": "Vilkuv sisu"
+                        }
+                    },
+                    "legal-considerations": {
+                        "no-metadata": "Teave pole saadaval"
+                    },
+                    "navigation": {
+                        "index": {
+                            "compact": "Indeks"
+                        },
+                        "no-metadata": "Teave pole saadaval",
+                        "page-navigation": {
+                            "compact": "Ava leht"
+                        },
+                        "structural": {
+                            "compact": "Pealkirjad"
+                        },
+                        "toc": {
+                            "compact": "Sisukord"
+                        }
+                    },
+                    "rich-content": {
+                        "accessible-chemistry-as-latex": {
+                            "compact": "Keemiavalemid LaTeX-is",
+                            "descriptive": "Keemiavalemid loetavas ja hõlbustatud vormingus (LaTeX)"
+                        },
+                        "accessible-chemistry-as-mathml": {
+                            "compact": "Keemiavalemid MathML-is",
+                            "descriptive": "Keemiavalemid loetavas ja hõlbustatud vormingus (MathML)"
+                        },
+                        "accessible-math-as-latex": {
+                            "compact": "Matemaatika LaTeX-is",
+                            "descriptive": "Matemaatika valemid loetavas ja hõlbustatud vormingus (LaTeX)"
+                        },
+                        "accessible-math-described": "Matemaatilisel sisu on tekstilised kirjeldused",
+                        "closed-captions": {
+                            "compact": "Videotes pole subtiitrid kuvatud",
+                            "descriptive": "Väljaandes leiduvatel videotel pole subtiitrid kuvatud"
+                        },
+                        "extended-descriptions": "Inforikastel piltidel on täiendavad kirjeldused",
+                        "math-as-mathml": {
+                            "compact": "Matemaatika MathML-is",
+                            "descriptive": "Matemaatika valemid loetavas vormingus (MathML)"
+                        },
+                        "open-captions": {
+                            "compact": "Videotes on subtiitrid kuvatud",
+                            "descriptive": "Väljaandes leiduvatel videotel on subtiitrid kuvatud"
+                        },
+                        "title": "Mitmekülgses vormis sisu",
+                        "transcript": "Heli- ja videosisu on olemas tekstiline vaste",
+                        "unknown": "Teavet pole saadaval"
+                    },
+                    "ways-of-reading": {
+                        "nonvisual-reading": {
+                            "alt-text": {
+                                "compact": "Selgitustekstid on olemas",
+                                "descriptive": "Piltidel on olemas selgitustekst (alt-tekst)"
+                            }
+                        },
+                        "title": "Lugemise viisid",
+                        "visual-adjustments": {
+                            "modifiable": {
+                                "compact": "Välimus on muudetav"
+                            }
+                        }
                     }
                 }
-            }
+            },
+            "description": "kirjeldus",
+            "duration": "kestus",
+            "editor_one": "toimetaja",
+            "editor_other": "toimetajad",
+            "identifier_one": "tunnus",
+            "identifier_other": "tunnused",
+            "language_one": "keel",
+            "language_other": "keeled",
+            "publisher_one": "väljaandja",
+            "publisher_other": "väljaandjad",
+            "subject_one": "teema",
+            "subject_other": "teemad",
+            "subtitle": "alapealkiri",
+            "title": "pealkiri",
+            "translator_one": "tõlkija",
+            "translator_other": "tõlkijad"
         }
     }
 }

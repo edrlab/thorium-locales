@@ -23,8 +23,8 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Votre bibliothèque est vide. Ajoutez votre premier livre, livre audio ou bande dessinée pour commencer à lire.",
-                "filter": "Aucune publication ne correspond à ce filtre. Affichez toute votre étagère pour voir tous vos titres.",
+                "bookshelf": "Votre bibliothèque est vide pour le moment. Importez des fichiers EPUB, PDF ou CBZ depuis votre appareil.",
+                "filter": "Aucune publication ne correspond à ce filtre.",
                 "kind": "Aucune publication ne correspond au type sélectionné. Essayez d’afficher tous les types pour voir plus d’éléments de votre bibliothèque."
             },
             "title": "Aucune publication trouvée"
@@ -115,6 +115,15 @@
         }
     },
     "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Bienvenue sur Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Toutes les publications de votre bibliothèque sont marquées comme lues.",
+                "title": "Vous êtes à jour"
+            }
+        },
         "title": "Accueil"
     },
     "intents": {
@@ -125,6 +134,21 @@
             "description": "Ouvre l'application directement sur votre bibliothèque.",
             "title": "Ouvrir la bibliothèque"
         }
+    },
+    "links": {
+        "aboutApp": "À propos de cette application",
+        "aboutUs": "À propos de notre équipe",
+        "community": {
+            "blog": "Blog",
+            "discord": "Rejoindre la communauté sur Discord",
+            "patreon": "Nous soutenir sur Patreon",
+            "title": "Rester à jour",
+            "youtube": "Nous suivre sur YouTube"
+        },
+        "help": "Aide & feedback",
+        "info": "Informations",
+        "privacyPolicy": "Politique de confidentialité",
+        "termsOfUse": "Conditions d'utilisation"
     },
     "publication": {
         "actions": {
@@ -174,13 +198,13 @@
                     "compact": "Utiliser une animation lors du changement de page"
                 },
                 "displayCurrentProgression": {
-                    "compact": "Afficher la progression actuelle"
+                    "compact": "Afficher la progression en permanence"
                 },
                 "displayPrintPagination": {
-                    "compact": "Afficher la pagination imprimée"
+                    "compact": "Afficher l'équivalent de la pagination imprimée"
                 },
                 "progressionStyle": {
-                    "compact": "Format de la progression"
+                    "compact": "Format d'affichage de la progression"
                 },
                 "title": "Progression"
             },
