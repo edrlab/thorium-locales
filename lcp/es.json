@@ -27,14 +27,14 @@
             },
             "message": "Esta publicación está protegida por LCP. Introduzca la contraseña facilitada por su biblioteca o librería para abrirla.",
             "passphrase": {
-                "hint": "**Índice :** {{ hint }}",
+                "hint": "**Pista :** {{ hint }}",
                 "placeholder": "Contraseña"
             },
             "title": "Introduzca la contraseña"
         },
         "errors": {
             "alreadyReturnedOrExpired": "Esta publicación ya ha sido enviada o ha caducado.",
-            "copyForbidden": "Has superador el número máximo de caracteres permitidos para copiar.",
+            "copyForbidden": "Has superado el número máximo de caracteres permitidos para copiar.",
             "invalidLicense": "No pudimos validar la licencia de este libro. Póngase en contacto con su proveedor de licencias para obtener ayuda.",
             "invalidRenewalPeriod": "Esta publicación no se puede renovar para la fecha seleccionada. Por favor, intente con otra fecha.",
             "missingPassphrase": "Para abrir esta publicación se requiere una contraseña. Póngase en contacto con su proveedor de licencias para obtenerla.",
