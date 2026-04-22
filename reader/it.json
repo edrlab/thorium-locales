@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "Non ci sono ancora segnalibri aggiunti.",
+                    "description": "I nuovi segnalibri aggiunti durante la lettura verranno visualizzati qui.",
                     "title": "Nessun segnalibro"
                 },
                 "title": "Segnalibri"
@@ -202,12 +202,20 @@
                 "title": "Impaginazione"
             },
             "letterSpacing": "Spaziatura caratteri",
+            "ligatures": {
+                "label": "Attiva le legature",
+                "title": "Legature"
+            },
             "lineHeight": {
                 "default": "Predefinita",
                 "large": "Allargata",
                 "medium": "Bilanciata",
                 "small": "Stretta",
                 "title": "Interlinea"
+            },
+            "noRuby": {
+                "label": "Nascondi le annotazioni ruby",
+                "title": "Annotazioni ruby"
             },
             "offsetFirstPage": "Visualizza solo la prima pagina",
             "paragraphIndent": "Rientro del paragrafo",
@@ -347,7 +355,7 @@
         },
         "tableOfContents": {
             "emptyState": {
-                "description": "Il sommario non è disponibile per questa pubblicazione.",
+                "description": "Il sommario non è stato fornito dall'autore.",
                 "title": "Nessun sommario"
             },
             "title": "Sommario"
