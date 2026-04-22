@@ -45,7 +45,7 @@
         },
         "sort": {
             "author": "Kirjailija",
-            "finished": "Lukemispäivä",
+            "finished": "Luettu loppuun",
             "lastAdded": "Viimeksi lisätty",
             "lastRead": "Viimeksi luettu",
             "title": "Nimi"
