@@ -21,7 +21,7 @@
             "search": "Hae",
             "show": "Näytä",
             "showAll": "Näytä kaikki",
-            "sortBy": "Lajittelutapa",
+            "sortBy": "Luokittele",
             "toggle": "Vaihda"
         }
     },
@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "Yhtään kirjanmerkkiä ei ole vielä lisätty.",
+                    "description": "Lukemisen aikana lisätyt kirjanmerkit näytetään tässä listassa.",
                     "title": "Ei kirjanmerkkejä"
                 },
                 "title": "Kirjanmerkit"
@@ -345,7 +345,7 @@
         },
         "tableOfContents": {
             "emptyState": {
-                "description": "Tässä julkaisussa ei ole sisällysluetteloa.",
+                "description": "Tekijä ei ole toimittanut sisällysluetteloa.",
                 "title": "Ei sisällysluetteloa"
             },
             "title": "Sisällysluettelo"
