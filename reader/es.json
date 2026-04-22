@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "Marcadores nuevas agregados mientras lea mostrará este listado.",
+                    "description": "Los nuevos marcadores añadidos durante la lectura se mostrarán en esta lista.",
                     "title": "No hay marcadores"
                 },
                 "title": "Marcadores"
