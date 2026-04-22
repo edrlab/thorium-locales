@@ -120,7 +120,7 @@
                 "audio": {
                     "skipBackwardInterval": "Hoppa bakåt intervall",
                     "skipForwardInterval": "Hoppa framåt intervall",
-                    "skipInterval": "Skip intervall",
+                    "skipInterval": "Hoppa intervall",
                     "title": "Ljudinställningar",
                     "volume": "Volym"
                 },
