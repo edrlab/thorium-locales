@@ -115,6 +115,15 @@
         }
     },
     "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Tervetuloa Thorium Readeriin"
+            },
+            "emptyHome": {
+                "description": "Olet lukenut kaikki kirjahyllyssäsi tällä hetkellä olevat julkaisut.",
+                "title": "Olet ajan tasalla"
+            }
+        },
         "title": "Koti"
     },
     "intents": {
