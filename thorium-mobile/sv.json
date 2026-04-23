@@ -98,7 +98,7 @@
         "http": {
             "errors": {
                 "default": "Något gick fel. Kontrollera din internetanslutning eller försök igen senare.",
-                "forbidden": "Du har inte tillstånd att komma åt detta innehåll.",
+                "forbidden": "Du har inte behörighet att komma åt detta innehåll.",
                 "malformedResponse": "Kan inte ladda detta innehåll. Det finns ett problem med servern. Försök igen senare.",
                 "methodNotSupported": "Servern stöder inte den nödvändiga laddningsmetoden.",
                 "notFound": "Innehållet hittades inte.",
@@ -132,7 +132,7 @@
         },
         "openBookshelf": {
             "description": "Öppnar appen till din bokhylla.",
-            "title": "Öppna Bokhylla"
+            "title": "Öppna bokhyllan"
         }
     },
     "links": {
