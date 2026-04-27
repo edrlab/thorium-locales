@@ -1,5 +1,31 @@
 {
     "publication": {
+        "format": {
+            "audiobook": "Lydbog",
+            "audiobookJSON": "Lydbogs manifest",
+            "cbz": "Tegneserie (CBZ-arkiv)",
+            "divina": "Divina bog",
+            "divinaJSON": "Divina manifest",
+            "epub": "EPUB",
+            "lcpa": "LCP-beskyttet lydbog",
+            "lcpdf": "LCP-beskyttet PDF",
+            "lcpl": "LCP-licensdokument",
+            "pdf": "PDF",
+            "rwp": "Readium Web bog",
+            "rwpm": "Readium Web manifest",
+            "zab": "Lydbog (arkiv)",
+            "zip": "ZIP-arkiv"
+        },
+        "kind": {
+            "audiobook_one": "lydbog",
+            "audiobook_other": "lydbøger",
+            "book_one": "bog",
+            "book_other": "bøger",
+            "comic_one": "tegneserie",
+            "comic_other": "tegneserier",
+            "document_one": "dokument",
+            "document_other": "dokumenter"
+        },
         "metadata": {
             "accessibility": {
                 "display-guide": {
