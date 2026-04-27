@@ -260,8 +260,8 @@
                     }
                 }
             },
-            "altIdentifier_one": "alternativt ID",
-            "altIdentifier_other": "alternative ID'er",
+            "altIdentifier_one": "alternativ identifikator",
+            "altIdentifier_other": "alternative identifikatorer",
             "artist_one": "kunstner",
             "artist_other": "kunstnere",
             "author_one": "forfatter",
@@ -276,8 +276,8 @@
             "duration": "varighed",
             "editor_one": "redaktør",
             "editor_other": "redaktører",
-            "identifier_one": "ID",
-            "identifier_other": "ID'er",
+            "identifier_one": "identifikator",
+            "identifier_other": "identifikatorer",
             "illustrator_one": "illustrator",
             "illustrator_other": "illustratorer",
             "imprint_one": "trykkeri",
