@@ -37,6 +37,9 @@
                 "compact": "Kitas",
                 "descriptive": "Kitas puslapis"
             },
+            "goToNextResource": {
+                "compact": "Kitas"
+            },
             "goToNextSentence": {
                 "compact": "Kitas",
                 "descriptive": "Kitas sakinys"
