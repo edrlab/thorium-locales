@@ -4,14 +4,14 @@
             "cancel": "Annuller",
             "clear": "Nulstil",
             "close": "Luk",
-            "collapse": "Minimer",
-            "collapseAll": "Minimer alle",
+            "collapse": "Sammenfold",
+            "collapseAll": "Sammenfold alt",
             "decrease": "Reducer",
             "disable": "Deaktiver",
             "enable": "Aktiver",
             "exit": "Afslut",
             "expand": "Fold ud",
-            "expandAll": "Fold alle ud",
+            "expandAll": "Fold alt ud",
             "filter": "Filter",
             "hide": "Skjul",
             "hideAll": "Skjul alle",
@@ -22,7 +22,7 @@
             "show": "Vis",
             "showAll": "Vis alle",
             "sortBy": "Sorter efter",
-            "toggle": "Vis"
+            "toggle": "Skift"
         }
     },
     "reader": {
@@ -308,20 +308,20 @@
             "positionsLeft": {
                 "compact_one": "{{ count }} tilbage",
                 "compact_other": "{{ count }} tilbage",
-                "descriptive_one": "",
-                "descriptive_other": "{{ count }} tilbage"
+                "descriptive_one": "{{ count }} position tilbage",
+                "descriptive_other": "{{ count }} positioner tilbage"
             },
             "positionsLeftInChapter": {
                 "compact_one": "{{ count }} tilbage i kapitlet",
                 "compact_other": "{{ count }} tilbage i kapitlet",
-                "descriptive_one": "",
-                "descriptive_other": "{{ count }} tilbage i nuværende kapitel"
+                "descriptive_one": "{{ count }} position tilbage i nuværende kapitel",
+                "descriptive_other": "{{ count }} positioner tilbage i nuværende kapitel"
             },
             "positionsLeftInPublication": {
                 "compact_one": "{{ count }} tilbage i bogen",
                 "compact_other": "{{ count }} tilbage i bogen",
-                "descriptive_one": "",
-                "descriptive_other": "{{ count }} tilbage i bogen"
+                "descriptive_one": "{{ count }} position tilbage i bogen",
+                "descriptive_other": "{{ count }} positioner tilbage i bogen"
             },
             "range": "{{ start }}–{{ end }}",
             "xOfY": {
