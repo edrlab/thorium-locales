@@ -38,7 +38,8 @@
                 "descriptive": "Kitas puslapis"
             },
             "goToNextResource": {
-                "compact": "Kitas"
+                "compact": "Kitas",
+                "descriptive": "Kitas išteklius"
             },
             "goToNextSentence": {
                 "compact": "Kitas",
@@ -56,9 +57,58 @@
                 "compact": "Ankstesnis",
                 "descriptive": "Ankstesnis puslapis"
             },
+            "goToPreviousResource": {
+                "compact": "Ankstesnis",
+                "descriptive": "Ankstesnis išteklius"
+            },
             "goToPreviousSentence": {
                 "compact": "Ankstesnis",
                 "descriptive": "Ankstesnis sakinys"
+            }
+        },
+        "annotations": {
+            "bookmarks": {
+                "actions": {
+                    "add": {
+                        "compact": "Pridėti skirtuką"
+                    },
+                    "delete": {
+                        "compact": "Pašalinti skirtuką",
+                        "confirmation": "Ar tikrai norite pašalinti šį skirtuką?"
+                    }
+                },
+                "emptyState": {
+                    "title": "Skirtukų nėra"
+                },
+                "title": "Skirtukai"
+            }
+        },
+        "playback": {
+            "actions": {
+                "pause": "Pristabdyti",
+                "play": "Atkurti"
+            },
+            "preferences": {
+                "audio": {
+                    "title": "Garso nuostatos",
+                    "volume": "Garsis"
+                },
+                "autoPlay": {
+                    "label": "Nepertraukiamas atkūrimas",
+                    "title": "Automatinis paleidimas"
+                },
+                "playbackRate": {
+                    "compact": "Sparta",
+                    "descriptive": "Atkūrimo sparta"
+                },
+                "sleepTimer": {
+                    "compact": "Laikmatis",
+                    "descriptive": "Miego laikmatis",
+                    "presets": {
+                        "endOfChapter": "Skyriaus pabaiga",
+                        "endOfResource": "Ištekliaus pabaiga"
+                    }
+                }
             }
         },
         "preferences": {
@@ -121,12 +171,20 @@
                 "title": "Išdėstymas"
             },
             "letterSpacing": "Raidžių išretinimas",
+            "ligatures": {
+                "label": "Įgalinti ligatūras",
+                "title": "Ligatūros"
+            },
             "lineHeight": {
                 "default": "Numatytasis",
                 "large": "Erdvus",
                 "medium": "Subalansuotas",
                 "small": "Glaudus",
                 "title": "Eilutės aukštis"
+            },
+            "noRuby": {
+                "label": "Slėpti „ruby“ anotacijas",
+                "title": "„Ruby“ anotacijos"
             },
             "offsetFirstPage": "Atvaizduoti pirmąjį puslapį atskirai",
             "paragraphIndent": "Pastraipos įtrauka",
@@ -249,9 +307,21 @@
                 "descriptive": "{{ x }} iš {{ y }} ({{ z }})"
             }
         },
+        "search": {
+            "actions": {
+                "next": {
+                    "compact": "Kitas rezultatas"
+                },
+                "previous": {
+                    "compact": "Ankstesnis rezultatas"
+                }
+            },
+            "placeholder": "Ieškoti raktažodžių ar frazių",
+            "title": "Paieška"
+        },
         "tableOfContents": {
             "emptyState": {
-                "description": "Šiam leidiniui nebuvo pateiktas turinys.",
+                "description": "Autorius nepateikė turinio.",
                 "title": "Nėra turinio"
             },
             "title": "Turinys"
