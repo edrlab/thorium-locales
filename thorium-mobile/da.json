@@ -1,0 +1,241 @@
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Hjemmeside"
+                }
+            },
+            "title": "Tredjepartssoftware"
+        },
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\nAlle rettigheder forbeholdt.",
+        "title": "Om",
+        "version": "Version {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filter"
+            },
+            "sort": {
+                "compact": "Sorter efter"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Din boghylde er tom. Tilføj EPUB, PDF eller CBZ filer fra din enhed.",
+                "filter": "Ingen bøger på din boghylde matcher dette filter."
+            },
+            "title": "Ingen bøger fundet"
+        },
+        "filter": {
+            "all": "Alle",
+            "currentlyReading": "Læser lige nu",
+            "finished": "Læst færdig",
+            "notStartedYet": "Ikke påbegyndt",
+            "recentlyAdded": "Tilføjet for nylig",
+            "samples": "Smagsprøver",
+            "type": "Type"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Udforsk"
+            }
+        },
+        "sort": {
+            "author": "Forfatter",
+            "finished": "Læst dato",
+            "lastAdded": "Senest tilføjet",
+            "lastRead": "Senest læst",
+            "title": "Titel"
+        },
+        "title": "Boghylde",
+        "view": {
+            "grid": "Galleri",
+            "list": "Liste",
+            "title": "Visnings type"
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Annuller",
+            "close": "Luk",
+            "collapse": "Sammenfold",
+            "collapseAll": "Sammenfold alt",
+            "delete": "Slet",
+            "expand": "Fold ud",
+            "expandAll": "Fold alt ud",
+            "filter": "Filter",
+            "search": "Søg",
+            "showMoreOptions": "Flere indstillinger",
+            "sortBy": "Sorter efter"
+        },
+        "confirmation": {
+            "title": "Er du sikker?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Detaljer"
+                }
+            },
+            "cancelled": "Handling annulleret.",
+            "title": "Fejl",
+            "unexpected": "Noget gik galt. Prøv venligst igen."
+        },
+        "estimatedNumber": "~{{ number }}",
+        "file": {
+            "errors": {
+                "corrupted": "Indholdet kunne ikke åbnes. Filen kan være skadet eller i et format der ikke understøttes. Prøv venligst igen med en anden fil.",
+                "forbidden": "Kunne ikke åbne filen. Adgang nægtet.",
+                "formatNotSupported": "Filtypen understøttes ikke. Prøv venligst med en anden fil.",
+                "insufficientSpace": "Der er ikke nok plads på enhedens lager. Frigør noget plads og prøv igen.",
+                "notFound": "Kunne ikke åbne filen. Filen blev ikke fundet.",
+                "protocolNotSupported": "Bogen kan ikke åbnes fra dens nuværende placering. Prøv at downloade den først, eller kontakt forhandleren for support."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Der opstod en fejl. Tjek venligst din internetforbindelse eller prøv igen senere.",
+                "forbidden": "Du har ikke adgang til at åbne dette indhold.",
+                "malformedResponse": "Indholdet kunne ikke hentes. Der opstod et problem på serveren. Prøv venligst igen senere.",
+                "methodNotSupported": "Serveren understøtter ikke denne leveringsmetode.",
+                "notFound": "Indhold ikke fundet.",
+                "offline": "Du er offline. Tjek venligst din internetforbindelse.",
+                "security": "Sikker forbindelse mislykkedes. Forsøg igen senere.",
+                "timeout": "Tidsgrænsen for forbindelsen blev nået. Prøv venligst igen senere.",
+                "unauthorized": "Du skal være logget ind for at tilgå dette indhold.",
+                "unreachable": "Kunne ikke forbinde til serveren."
+            }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
+        }
+    },
+    "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Velkommen til Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Du har læst alle bøgerne på din boghylde.",
+                "title": "Du er helt opdateret"
+            }
+        },
+        "title": "Hjem"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Åben bog"
+        },
+        "openBookshelf": {
+            "description": "Åbner app'en på din boghylde.",
+            "title": "Åben boghylde"
+        }
+    },
+    "links": {
+        "aboutApp": "Om dette program",
+        "aboutUs": "Om os",
+        "community": {
+            "blog": "Blog",
+            "discord": "Deltag i vores Discord community",
+            "patreon": "Støt os på Patreon",
+            "title": "Hold dig opdateret",
+            "youtube": "Følg os på YouTube"
+        },
+        "help": "Hjælp og feedback",
+        "info": "Information",
+        "privacyPolicy": "Privatlivspolitik",
+        "termsOfUse": "Vilkår for brug"
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Importer"
+            },
+            "listen": {
+                "compact": "Lyt"
+            },
+            "markAsFinished": {
+                "compact": "Marker som læst"
+            },
+            "markAsNotStarted": {
+                "compact": "Marker som ikke-påbegyndt"
+            },
+            "markAsUnfinished": {
+                "compact": "Marker som ikke læst"
+            },
+            "read": {
+                "compact": "Læs"
+            },
+            "remove": {
+                "compact": "Fjern",
+                "confirmation": "Er du sikker på at du vil fjerne \"{{ title }}\"? Denne handling kan ikke laves om."
+            },
+            "rename": {
+                "compact": "Omdøb",
+                "descriptive": "Omdøb bog"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Ingen",
+            "sample": "Smagsprøve",
+            "unknownTitle": "Ukendt titel"
+        }
+    },
+    "reader": {
+        "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Vis dialog til note ved nyt bogmærke"
+                },
+                "title": "Bogmærker og Overstregninger"
+            },
+            "progression": {
+                "animatePageTurns": {
+                    "compact": "Animerede sideskift"
+                },
+                "displayCurrentProgression": {
+                    "compact": "Vis aktuel læseposition for bogen"
+                },
+                "displayPrintPagination": {
+                    "compact": "Vis bogens fysiske sidetal"
+                },
+                "progressionStyle": {
+                    "compact": "Format for læseposition"
+                },
+                "title": "Læseposition"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Vis altid status-baren"
+                },
+                "displayOrientationLock": {
+                    "compact": "Vis knap til låsning af retning ved rotation"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Forhindre skærmlås"
+                },
+                "title": "Skærm"
+            },
+            "title": "Læseindstillinger"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Vis altid",
+            "hidden": "Skjult",
+            "title": "Mini-lydafspiller",
+            "whenPlaying": "Vis under afspilning"
+        },
+        "systemSettings": "Systemindstillinger",
+        "theme": {
+            "dark": "Mørk",
+            "light": "Lys",
+            "system": "Systemstandard",
+            "title": "Tema"
+        },
+        "title": "Indstillinger"
+    }
+}

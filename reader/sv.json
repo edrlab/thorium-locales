@@ -83,7 +83,7 @@
                     }
                 },
                 "emptyState": {
-                    "description": "Nya bokmärken läggs till när du läser kommer att visas i den här listan.",
+                    "description": "Bokmärken som du lagt till under läsning kommer att visas i den här listan.",
                     "title": "Inga bokmärken"
                 },
                 "title": "Bokmärken"

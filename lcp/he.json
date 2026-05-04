@@ -1,0 +1,13 @@
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "חדש",
+                "descriptive": "השאל מחדש"
+            },
+            "return": {
+                "compact": "החזר"
+            }
+        }
+    }
+}

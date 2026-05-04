@@ -1,0 +1,72 @@
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Forny",
+                "descriptive": "Forny udlån"
+            },
+            "return": {
+                "compact": "Aflever tilbage",
+                "confirmation": "Er du sikker på at du vil aflevere \"{{ title }}\" tilbage? Dette kan ikke gøres om.",
+                "descriptive": "Aflever bog tilbage"
+            }
+        },
+        "dialog": {
+            "actions": {
+                "cancel": "Annuller",
+                "continue": "Fortsæt",
+                "recoverPassphrase": "Glemt dit nøgleord?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Ugyldigt nøgleord."
+            },
+            "info": {
+                "body": "Denne bog er beskyttet med LCP (Licensed Content Protection), en DRM teknologi der forhindrer uautoriseret kopiering, samtidig med at din læseoplevelse forbliver enkel. LCP er en åben standard, der balancerer brugervenlighed med udgivernes behov.",
+                "more": "Læs mere…",
+                "title": "Hvad er LCP?"
+            },
+            "message": "Denne bog kræver et LCP nøgleord for at åbne. Nøgleordet håndteres af dit bibliotek eller din boghandel. Indtast det én gang, så er du klar til at læse bøger på denne enhed.",
+            "passphrase": {
+                "hint": "**Hint:** {{ hint }}",
+                "placeholder": "Nøgleord"
+            },
+            "title": "Indtast nøgleord"
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Denne bog er allerede afleveret tilbage eller udløbet.",
+            "copyForbidden": "Du har overskredet maks antallet af karakterer, som du har lov at kopiere.",
+            "invalidLicense": "Vi kunne ikke validere licensen til denne bog. Kontakt venligst din licensudbyder for hjælp.",
+            "invalidRenewalPeriod": "Bogen kan ikke fornyes til den givne dato. Prøv venligst en anden dato.",
+            "missingPassphrase": "Et nøgleord kræves for at åbne denne bog. Kontakt venligst din licensudbyder for at få nøgleordet.",
+            "renewFailed": "Din bog kunne ikke fornyes. Kontakt venligst din leverandør for hjælp.",
+            "returnFailed": "Din bog kunne ikke afleveres tilbage. Kontakt venligst din leverandør for hjælp.",
+            "statusCancelled": "Du annullerede adgang til denne bog på {{ date }}. Kontakt venligst din leverandør, hvis du ønsker adgang igen.",
+            "statusExpiredEnd": "Din adgang til denne bog udløb {{ date }}. Kontakt venligst dit bibliotek for at låne den igen.",
+            "statusExpiredStart": "Denne bog bliver tilgængelig {{ date }}.",
+            "statusReturned": "Du afleverede bogen tilbage {{ date }}. Kontakt venligst dit bibliotek for at låne den igen.",
+            "statusRevoked_one": "Adgang til denne bog blev trukket tilbage af din leverandør {{ date }}. Den blev tilgået på {{ count }} enheder. Kontakt din leverandør for mere information.",
+            "statusRevoked_other": "Adgang til denne bog blev trukket tilbage af din leverandør {{ date }}. Den blev tilgået på {{ count }} enhed. Kontakt din leverandør for mere information."
+        },
+        "labels": {
+            "expired": "Udløbet",
+            "expiresIn": {
+                "days": {
+                    "descriptive_one": "Udløber om {{ count }} dag",
+                    "descriptive_other": "Udløber om {{ count }} dage"
+                },
+                "hours": {
+                    "descriptive_one": "Udløber om {{ count }} time",
+                    "descriptive_other": "Udløber om {{ count }} timer"
+                },
+                "minutes": {
+                    "descriptive_one": "Udløber om {{ count }} minut",
+                    "descriptive_other": "Udløber om {{ count }} minutter"
+                },
+                "months": {
+                    "descriptive_one": "Udløber om {{ count }} måned",
+                    "descriptive_other": "Udløber om {{ count }} måneder"
+                }
+            }
+        }
+    }
+}
