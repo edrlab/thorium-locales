@@ -80,6 +80,7 @@
                 }
             },
             "cancelled": "Operation cancelled.",
+            "outOfMemory": "There isn't enough memory available to proceed. Please close other apps or try again later.",
             "title": "Error",
             "unexpected": "Something went wrong. Please try again."
         },
