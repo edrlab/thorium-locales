@@ -189,7 +189,7 @@
         "settings": {
             "annotations": {
                 "showNoteOnNewBookmark": {
-                    "compact": "Visualizza l'annotazione su un nuovo segnalibro"
+                    "compact": "Visualizza l'annotazione per un nuovo segnalibro"
                 },
                 "title": "Segnalibri e evidenziazioni"
             },
