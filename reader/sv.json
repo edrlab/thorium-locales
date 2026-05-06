@@ -125,8 +125,8 @@
                     "volume": "Volym"
                 },
                 "autoPlay": {
-                    "label": "Kontinuerlig uppspelning",
-                    "title": "Autoplay"
+                    "label": "Fortsätt spela vid kapitelslut",
+                    "title": "Kontinuerlig uppspelning"
                 },
                 "playbackRate": {
                     "compact": "Hastighet",
