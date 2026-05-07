@@ -108,7 +108,7 @@
                 "pause": "Paus",
                 "play": "Spela",
                 "skipBackward": {
-                    "compact": "Spola tillbaka",
+                    "compact": "Hoppa tillbaka",
                     "descriptive": "Hoppa bakåt"
                 },
                 "skipForward": {
@@ -120,7 +120,7 @@
                 "audio": {
                     "skipBackwardInterval": "Hoppa bakåt intervall",
                     "skipForwardInterval": "Hoppa framåt intervall",
-                    "skipInterval": "Hoppa intervall",
+                    "skipInterval": "Längd på hopp",
                     "title": "Ljudinställningar",
                     "volume": "Volym"
                 },
