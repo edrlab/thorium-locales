@@ -81,6 +81,7 @@
                 }
             },
             "cancelled": "Åtgärden avbröts.",
+            "outOfMemory": "Det finns inte tillräckligt med minne för att fortsätta. Stäng andra appar eller försök igen senare.",
             "title": "Fel",
             "unexpected": "Något gick fel. Försök igen."
         },
