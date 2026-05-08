@@ -67,6 +67,11 @@
             }
         },
         "annotations": {
+            "actions": {
+                "editNote": {
+                    "compact": "Redaguoti pastabą"
+                }
+            },
             "bookmarks": {
                 "actions": {
                     "add": {
