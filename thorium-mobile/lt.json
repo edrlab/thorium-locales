@@ -11,6 +11,9 @@
             "sort": {
                 "compact": "Rikiuoti pagal"
             }
+        },
+        "emptyState": {
+            "title": "Nerasta leidinių"
         }
     }
 }
