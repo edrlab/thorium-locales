@@ -81,6 +81,7 @@
                 }
             },
             "cancelled": "Azione annullata.",
+            "outOfMemory": "Non c'è sufficiente spazio nella memoria per procedere. Si prega di chiudere le altre app o di riprovare più tardi.",
             "title": "Errore",
             "unexpected": "Si è verificato un problema. Si prega di riprovare."
         },
