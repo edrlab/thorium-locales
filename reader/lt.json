@@ -325,6 +325,9 @@
                 }
             },
             "placeholder": "Ieškoti raktažodžių ar frazių",
+            "result_few": "{{ current }} iš {{ count }} rezultatų",
+            "result_one": "{{ current }} iš {{ count }} rezultato",
+            "result_other": "{{ current }} iš {{ count }} rezultatų",
             "title": "Paieška"
         },
         "tableOfContents": {
