@@ -80,6 +80,7 @@
                 }
             },
             "cancelled": "Handling annulleret.",
+            "outOfMemory": "Der er ikke nok hukommelse til at fortsætte. Luk venligst andre apps, eller prøv igen senere.",
             "title": "Fejl",
             "unexpected": "Noget gik galt. Prøv venligst igen."
         },
