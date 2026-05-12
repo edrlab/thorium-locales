@@ -44,8 +44,8 @@
             "statusExpiredEnd": "Din adgang til denne bog udløb {{ date }}. Kontakt venligst dit bibliotek for at låne den igen.",
             "statusExpiredStart": "Denne bog bliver tilgængelig {{ date }}.",
             "statusReturned": "Du afleverede bogen tilbage {{ date }}. Kontakt venligst dit bibliotek for at låne den igen.",
-            "statusRevoked_one": "Adgang til denne bog blev trukket tilbage af din leverandør {{ date }}. Den blev tilgået på {{ count }} enheder. Kontakt din leverandør for mere information.",
-            "statusRevoked_other": "Adgang til denne bog blev trukket tilbage af din leverandør {{ date }}. Den blev tilgået på {{ count }} enhed. Kontakt din leverandør for mere information."
+            "statusRevoked_one": "Adgang til denne bog blev trukket tilbage af din leverandør {{ date }}. Den blev tilgået på {{ count }} enhed. Kontakt din leverandør for mere information.",
+            "statusRevoked_other": "Adgang til denne bog blev trukket tilbage af din leverandør {{ date }}. Den blev tilgået på {{ count }} enheder. Kontakt din leverandør for mere information."
         },
         "labels": {
             "expired": "Udløbet",
