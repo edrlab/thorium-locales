@@ -8,7 +8,7 @@
             },
             "title": "תוכנת צד שלישי"
         },
-        "copyright": "Copyright [x10X] European Digital Reading Lab.\nכל הזכויות שמורות."
+        "copyright": "Copyright {{ year }}  European Digital Reading Lab.\nכל הזכויות שמורות."
     },
     "common": {
         "actions": {
