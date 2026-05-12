@@ -81,6 +81,7 @@
                 }
             },
             "cancelled": "Tegevus on katkestatud.",
+            "outOfMemory": "Jätkamiseks pole piisavalt mälu. Palun sulge muid rakendusi või proovi hiljem uuesti.",
             "title": "Viga",
             "unexpected": "Midagi läks valesti. Palun proovi uuesti."
         },

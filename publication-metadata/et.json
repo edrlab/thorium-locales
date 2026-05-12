@@ -38,7 +38,10 @@
                         "aria": {
                             "compact": "ARIA rollid on lisatud",
                             "descriptive": "Sisu on täiendatud ARIA-rollidega, et optimeerida selle ülesehitust ja hõlbustada väljaandes liikumist"
-                        }
+                        },
+                        "audio-descriptions": "Helikirjeldus",
+                        "braille": "Braille",
+                        "color-not-sole-means-of-conveying-information": "Värv pole ainus viis teabe edastamiseks"
                     },
                     "conformance": {
                         "details": {

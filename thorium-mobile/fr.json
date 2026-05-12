@@ -81,6 +81,7 @@
                 }
             },
             "cancelled": "Opération annulée.",
+            "outOfMemory": "Il n'y a pas assez de mémoire pour effectuer cette opération. Veuillez fermer d'autres applications puis réessayer.",
             "title": "Erreur",
             "unexpected": "Un problème est survenu. Veuillez réessayer."
         },

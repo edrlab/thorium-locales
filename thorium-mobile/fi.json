@@ -81,6 +81,7 @@
                 }
             },
             "cancelled": "Toiminto peruutettu.",
+            "outOfMemory": "Käytettävissä ei ole tarpeeksi muistia. Sulje muut sovellukset tai yritä myöhemmin uudelleen.",
             "title": "Virhe",
             "unexpected": "Jotain meni pieleen. Yritä uudelleen."
         },
