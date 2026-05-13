@@ -25,7 +25,7 @@
                 "more": "Per saperne di più…",
                 "title": "Che cos'è LCP?"
             },
-            "message": "Questa pubblicazione richiede una password LCP per essere aperta, fornita dalla tua biblioteca o dalla tua libreria online. Inseriscila e potrai iniziare a leggere su questa periferica.",
+            "message": "Questa pubblicazione richiede una password LCP per essere aperta, fornita dalla tua biblioteca o dalla tua libreria online. Inseriscila e potrai iniziare a leggere su questo dispositivo.",
             "passphrase": {
                 "hint": "**Indizio:** {{ hint }}",
                 "placeholder": "Password"
@@ -35,7 +35,7 @@
         "errors": {
             "alreadyReturnedOrExpired": "Questa pubblicazione è già stata restituita o è scaduta.",
             "copyForbidden": "Hai superato il numero massimo di caratteri consentito per copiare.",
-            "invalidLicense": "Non è stato possibile autorizzare la licenza di questo libro. Si prega di contattare il fornitore per assistenza.",
+            "invalidLicense": "Non è stato possibile autorizzare la licenza di questa pubblicazione. Si prega di contattare il fornitore per assistenza.",
             "invalidRenewalPeriod": "Questa pubblicazione non puo essere rinnovata alla data selezionata. Si prega di provare con una data diversa.",
             "missingPassphrase": "È richiesta una password per aprire questa pubblicazione. Si prega di contattare il fornitore per ottenere la password.",
             "renewFailed": "La pubblicazione non può essere rinnovata. Si prega di contattare il fornitore per ottenere assistenza.",
@@ -44,9 +44,9 @@
             "statusExpiredEnd": "Il prestito per questa pubblicazione scade il {{ date }}. Contatta la tua biblioteca per prenderla nuovamente in prestito.",
             "statusExpiredStart": "Questa pubblicazione sarà disponibile il {{ date }}.",
             "statusReturned": "Hai restituito questa pubblicazione il {{ date }}. Contatta la tua biblioteca per prenderla nuovamente in prestito.",
-            "statusRevoked_many": "L'accesso a questa pubblicazione è stato revocato dal fornitore il {{ date }}. È stata consultata su {{ count }} periferiche. Si prega di contattare il fornitore per maggior informazioni.",
-            "statusRevoked_one": "L'accesso a questa pubblicazione è stato revocato dal fornitore il {{ date }}. È stata consultata su {{ count }} periferica. Si prega di contattare il fornitore per maggior informazioni.",
-            "statusRevoked_other": "L'accesso a questa pubblicazione è stato revocato dal fornitore il {{ date }}. È stata consultata su {{ count }} periferiche. Si prega di contattare il fornitore per maggior informazioni."
+            "statusRevoked_many": "L'accesso a questa pubblicazione è stato revocato dal fornitore il {{ date }}. È stata consultata su {{ count }} dispositivi. Si prega di contattare il fornitore per maggior informazioni.",
+            "statusRevoked_one": "L'accesso a questa pubblicazione è stato revocato dal fornitore il {{ date }}. È stata consultata su {{ count }} dispositivo. Si prega di contattare il fornitore per maggior informazioni.",
+            "statusRevoked_other": "L'accesso a questa pubblicazione è stato revocato dal fornitore il {{ date }}. È stata consultata su {{ count }} dispositivi. Si prega di contattare il fornitore per maggior informazioni."
         },
         "labels": {
             "expired": "Scaduto",
