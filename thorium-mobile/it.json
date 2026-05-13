@@ -18,12 +18,12 @@
                 "compact": "Filtro"
             },
             "sort": {
-                "compact": "Filtra per"
+                "compact": "Ordina per"
             }
         },
         "emptyState": {
             "description": {
-                "bookshelf": "La tua biblioteca per il momento è vuota. Importa i tuoi file EPUB, PDF o CBZ dalla tua periferica.",
+                "bookshelf": "La tua biblioteca per il momento è vuota. Importa i tuoi file EPUB, PDF o CBZ dal tuo dispositivo.",
                 "filter": "Nessuna pubblicazione della tua biblioteca corrisponde a questo filtro.",
                 "kind": "Nessuna pubblicazione corrisponde alla tipologia selezionata. Prova a visualizzare tutte le tipologie per vedere più elementi della tua biblioteca."
             },
@@ -53,7 +53,7 @@
         "title": "Biblioteca",
         "view": {
             "grid": "Griglia",
-            "list": "Elenco",
+            "list": "Lista",
             "title": "Visualizzazione dello schermo"
         }
     },
@@ -88,19 +88,19 @@
         "estimatedNumber": "~{{ number }}",
         "file": {
             "errors": {
-                "corrupted": "Impossibile aprire il contenuto. Il file potrebbe essere corrotto o avere un formato non supportato. Si prega di provare con un altro file.",
+                "corrupted": "Impossibile aprire il contenuto. Il file potrebbe essere danneggiato o avere un formato non supportato. Si prega di provare con un altro file.",
                 "forbidden": "Impossibile aprire il file. Accesso negato.",
                 "formatNotSupported": "Tipologia di file non supportata. Si prega di provare con un altro file.",
                 "insufficientSpace": "Non c'è spazio sufficiente completare l'azione. Si prega di liberare dello spazio e riprovare.",
                 "notFound": "Impossibile aprire il file. File non trovato.",
-                "protocolNotSupported": "Questo libro non può essere aperto nella sua localizzazione attuale. Prova a effettuare il download o a contattare la libreria online per avere assistenza."
+                "protocolNotSupported": "Questo libro non può essere aperto nella sua collocazione attuale. Prova a effettuare il download o a contattare la libreria online per avere assistenza."
             }
         },
         "http": {
             "errors": {
                 "default": "Si è verificato un problema. Si prega di verificare la connessione internet o di riprovare più tardi.",
                 "forbidden": "Non hai l'autorizzazione per accedere a questo contenuto.",
-                "malformedResponse": "Impossibile caricare questo contenuto. C'è un problema con il server. Si prega di riprovare più tardi.",
+                "malformedResponse": "Impossibile caricare questo contenuto. Si è verificato un problema con il server. Si prega di riprovare più tardi.",
                 "methodNotSupported": "Il server non supporta la modalità di caricamento richiesto.",
                 "notFound": "Contenuto introvabile.",
                 "offline": "Non sei connesso. Verifica la tua connessione internet.",
@@ -129,7 +129,7 @@
     },
     "intents": {
         "openBook": {
-            "title": "Aprire un libro"
+            "title": "Apri un libro"
         },
         "openBookshelf": {
             "description": "Apri l'app direttamente alla tua biblioteca.",
@@ -190,13 +190,13 @@
         "settings": {
             "annotations": {
                 "showNoteOnNewBookmark": {
-                    "compact": "Visualizza l'annotazione per un nuovo segnalibro"
+                    "compact": "Visualizza la finestra delle annotazioni per un nuovo segnalibro"
                 },
-                "title": "Segnalibri e evidenziazioni"
+                "title": "Segnalibri e evidenziature"
             },
             "progression": {
                 "animatePageTurns": {
-                    "compact": "Voltapagina animata"
+                    "compact": "Volta pagina animata"
                 },
                 "displayCurrentProgression": {
                     "compact": "Visualizza la progressione attuale"
