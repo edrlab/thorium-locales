@@ -40,7 +40,7 @@
                             "descriptive": "Sisu on täiendatud ARIA-rollidega, et optimeerida selle ülesehitust ja hõlbustada väljaandes liikumist"
                         },
                         "audio-descriptions": "Helikirjeldus",
-                        "braille": "Braille",
+                        "braille": "Punktkiri (Braille'i kiri)",
                         "color-not-sole-means-of-conveying-information": "Värv pole ainus viis teabe edastamiseks",
                         "dyslexia-readability": "Kohandatud lugemisraskustega inimestele",
                         "full-ruby-annotations": "Täismahus märkused Ruby-vormingus (Aasia keeled)",
@@ -194,8 +194,8 @@
                         },
                         "accessible-math-described": "Matemaatilisel sisu on tekstilised kirjeldused",
                         "closed-captions": {
-                            "compact": "Videotes pole subtiitrid kuvatud",
-                            "descriptive": "Väljaandes leiduvatel videotel pole subtiitrid kuvatud"
+                            "compact": "Videotel on olemas väljalülitatavad subtiitrid",
+                            "descriptive": "Väljaandes leiduvatel videotel on olemas väljalülitatavad subtiitrid"
                         },
                         "extended-descriptions": "Inforikastel piltidel on täiendavad kirjeldused",
                         "math-as-mathml": {
@@ -203,11 +203,11 @@
                             "descriptive": "Matemaatilised valemid hõlbustusele ja ligipääsetavusele vastavas vormingus (MathML)"
                         },
                         "open-captions": {
-                            "compact": "Videotes on subtiitrid kuvatud",
-                            "descriptive": "Väljaandes leiduvatel videotel on subtiitrid kuvatud"
+                            "compact": "Videotel on olemas pidevalt nähtavad subtiitrid",
+                            "descriptive": "Väljaandes leiduvatel videotel on olemas pidevalt nähtavad subtiitrid"
                         },
                         "title": "Mitmekülgses vormis sisu",
-                        "transcript": "Heli- ja videosisu on olemas tekstiline vaste",
+                        "transcript": "Heli- ja videosisul on olemas tekstiline vaste",
                         "unknown": "Teave pole saadaval"
                     },
                     "ways-of-reading": {
@@ -216,17 +216,46 @@
                                 "compact": "Selgitustekstid on olemas",
                                 "descriptive": "Piltidel on olemas selgitustekst (alt-tekst)"
                             },
-                            "no-metadata": "Puudub teave mittevisuaalse lugemise võimaluste kohta"
+                            "no-metadata": "Puudub teave mittevisuaalse lugemise võimaluste kohta",
+                            "none": {
+                                "compact": "Ei ole loetav ettelugemise või dünaamilise punktkirja abil",
+                                "descriptive": "Sisu ei ole loetav etteloetavana ega dünaamilise punktkirjana"
+                            },
+                            "not-fully": {
+                                "compact": "Ei ole täies mahus loetav ettelugemise või dünaamilise punktkirja abil",
+                                "descriptive": "Kogu sisu ei ole loetav ettelugemise või dünaamilise punktkirja abil"
+                            },
+                            "readable": {
+                                "compact": "On loetav ettelugemise või dünaamilise punktkirja abil",
+                                "descriptive": "Kogu sisu on loetav ettelugemise või dünaamilise punktkirja abil"
+                            }
                         },
                         "prerecorded-audio": {
-                            "no-metadata": "Puudub teave eelsalvestatud helilise sisu kohta"
+                            "complementary": {
+                                "compact": "Eelsalvestatud heliklipid",
+                                "descriptive": "Sisusse on lõimitud eelsalvestatud heliklipid"
+                            },
+                            "no-metadata": "Puudub teave eelsalvestatud helilise sisu kohta",
+                            "only": {
+                                "compact": "Sisu koosneb ainult lõimitud eelsalvestatud heliklippidest",
+                                "descriptive": "Heliraamat ilma tekstilise alternatiivita"
+                            },
+                            "synchronized": {
+                                "compact": "Eelsalvestatud heli, mis on sünkroonis tekstilise sisuga",
+                                "descriptive": "Kogu sisu on saadaval eelsalvestatud helifailina, mis on sünkroonis tekstilise sisuga"
+                            }
                         },
-                        "title": "Lugemise viisid",
+                        "title": "Lugemise viisid ja võimalused",
                         "visual-adjustments": {
                             "modifiable": {
-                                "compact": "Välimus on muudetav"
+                                "compact": "Välimus on muudetav",
+                                "descriptive": "Teksti välimust ja lehekülje paigutust saab kohandada vastavalt lugemissüsteemi võimalustele (kirjatüüp ja selle suurus, vahed lõikude, lausete, sõnade ja tähtede vahel ning tausta ja teksti värv)"
                             },
-                            "unknown": "Puudub teave välimuse muudetavuse kohta"
+                            "unknown": "Puudub teave välimuse muudetavuse kohta",
+                            "unmodifiable": {
+                                "compact": "Välimust ei saa muuta",
+                                "descriptive": "Teksti ja lehekülje paigutust ei saa muuta ja lugemiskogemus on sarnane või sarnane trükiversiooniga, kuid lugemisvaated võimaldavad siiski suumimist"
+                            }
                         }
                     }
                 }
@@ -251,11 +280,20 @@
             "identifier_other": "tunnused",
             "illustrator_one": "illustraator",
             "illustrator_other": "illustraatorid",
+            "imprint_one": "ilmumisandmed",
+            "imprint_other": "ilmumisandmed",
+            "inker_one": "(koomiksi) värvija",
+            "inker_other": "(koomiksi) värvijad",
             "language_one": "keel",
             "language_other": "keeled",
+            "letterer_one": "(koomiksi) tekstikirjutaja",
+            "letterer_other": "(koomiksi) tekstikirjutajad",
             "modified": "muutmise kuupäev",
             "narrator_one": "ettelugeja",
             "narrator_other": "ettelugejad",
+            "numberOfPages": "trükise lehtede arv",
+            "penciler_one": "joonistaja",
+            "penciler_other": "joonistajad",
             "published": "avaldamise kuupäev",
             "publisher_one": "väljaandja",
             "publisher_other": "väljaandjad",
