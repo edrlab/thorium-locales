@@ -25,6 +25,26 @@
             "comic_other": "çizgi romanlar",
             "document_one": "belge",
             "document_other": "belgeler"
+        },
+        "metadata": {
+            "accessibility": {
+                "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Bilgi mevcut değil",
+                        "publisher-contact": "Bu ürünün erişilebilirliği hakkında daha fazla bilgi için lütfen yayıncıyla bağlantı kurun: ",
+                        "title": "Erişilebilirlik özeti"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "ARIA rolleri dahildir",
+                            "descriptive": "İçerik, düzeni en iyi hale getirmek ve gezinmeyi kolaylaştırmak için ARIA rolleriyle iyileştirilmiştir"
+                        },
+                        "audio-descriptions": "Sesli betimlemeler",
+                        "braille": "Braille",
+                        "color-not-sole-means-of-conveying-information": "Renk, bilgi aktarmanın tek yolu değildir"
+                    }
+                }
+            }
         }
     }
 }
