@@ -1,1 +1,77 @@
-{}
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Odnów",
+                "descriptive": "Odnów wypożyczenie"
+            },
+            "return": {
+                "compact": "Zwróć",
+                "confirmation": "Czy na pewno chcesz zwrócić „{{ title }}”? Tej czynności nie można cofnąć.",
+                "descriptive": "Zwróć publikację"
+            }
+        },
+        "dialog": {
+            "actions": {
+                "cancel": "Anuluj",
+                "continue": "Kontynuuj",
+                "recoverPassphrase": "Nie pamiętasz hasła?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Nieprawidłowe hasło."
+            },
+            "info": {
+                "body": "Ta publikacja jest chroniona przez LCP (Licensed Content Protection) — technologię DRM, która zapobiega nieautoryzowanemu kopiowaniu, zachowując prostotę lektury. LCP to otwarty standard równoważący wygodę użytkownika z potrzebami wydawców.",
+                "more": "Dowiedz się więcej…",
+                "title": "Czym jest LCP?"
+            },
+            "message": "Ta publikacja wymaga hasła LCP, dostarczanego przez Twoją bibliotekę lub księgarnię. Wpisz je raz i możesz już czytać na tym urządzeniu.",
+            "passphrase": {
+                "hint": "**Wskazówka:** {{ hint }}",
+                "placeholder": "Hasło"
+            },
+            "title": "Wprowadź hasło"
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Ta publikacja została już zwrócona lub wygasła.",
+            "copyForbidden": "Przekroczono maksymalną dozwoloną liczbę znaków do kopiowania.",
+            "invalidLicense": "Nie udało się zweryfikować licencji tej publikacji. Skontaktuj się z dostawcą licencji, aby uzyskać pomoc.",
+            "invalidRenewalPeriod": "Tej publikacji nie można odnowić na wybrany termin. Spróbuj wybrać inną datę.",
+            "missingPassphrase": "Do otwarcia tej publikacji wymagane jest hasło. Skontaktuj się z dostawcą licencji, aby je uzyskać.",
+            "renewFailed": "Nie udało się odnowić publikacji. Skontaktuj się z dostawcą, aby uzyskać pomoc.",
+            "returnFailed": "Nie udało się zwrócić publikacji. Skontaktuj się z dostawcą, aby uzyskać pomoc.",
+            "statusCancelled": "Dostęp do tej publikacji został anulowany {{ date }}. Skontaktuj się z dostawcą licencji, jeśli chcesz go przywrócić.",
+            "statusExpiredEnd": "Wypożyczenie tej publikacji wygasło {{ date }}. Skontaktuj się z biblioteką, aby wypożyczyć ją ponownie.",
+            "statusExpiredStart": "Ta publikacja będzie dostępna od {{ date }}.",
+            "statusReturned": "Ta publikacja została zwrócona {{ date }}. Skontaktuj się z biblioteką, aby wypożyczyć ją ponownie.",
+            "statusRevoked_few": "",
+            "statusRevoked_many": "",
+            "statusRevoked_one": "Dostęp do tej publikacji został odwołany przez dostawcę {{ date }}. Był używany na {{ count }} urządzeniu. Skontaktuj się z dostawcą, aby uzyskać więcej informacji."
+        },
+        "labels": {
+            "expired": "Wygasłe",
+            "expiresIn": {
+                "days": {
+                    "descriptive_few": "",
+                    "descriptive_many": "",
+                    "descriptive_one": "Za {{ count }} dzień/dni"
+                },
+                "hours": {
+                    "descriptive_few": "",
+                    "descriptive_many": "",
+                    "descriptive_one": "Za {{ count }} godzin(ę)"
+                },
+                "minutes": {
+                    "descriptive_few": "",
+                    "descriptive_many": "",
+                    "descriptive_one": "Za {{ count }} minut(e)"
+                },
+                "months": {
+                    "descriptive_few": "",
+                    "descriptive_many": "",
+                    "descriptive_one": "Za {{ count }} miesiąc/miesięcy"
+                }
+            }
+        }
+    }
+}

@@ -1,15 +1,242 @@
 {
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Strona internetowa"
+                }
+            },
+            "title": "Oprogramowanie firm trzecich"
+        },
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\nWszelkie prawa zastrzeżone.",
+        "title": "O aplikacji",
+        "version": "Wersja {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filtruj"
+            },
+            "sort": {
+                "compact": "Sortuj według"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Twoja biblioteka jest teraz pusta. Zaimportuj pliki EPUB, PDF lub CBZ z urządzenia.",
+                "filter": "Żadne publikacje w Twojej bibliotece nie pasują do tego filtra."
+            },
+            "title": "Nie znaleziono publikacji"
+        },
+        "filter": {
+            "all": "Wszystkie",
+            "currentlyReading": "Obecnie czytane",
+            "finished": "Ukończone",
+            "notStartedYet": "Jeszcze nie rozpoczęte",
+            "recentlyAdded": "Ostatnio dodane",
+            "samples": "Próbki",
+            "type": "Typ"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Eksploruj"
+            }
+        },
+        "sort": {
+            "author": "Autor",
+            "finished": "Data ukończenia",
+            "lastAdded": "Ostatnio dodane",
+            "lastRead": "Ostatnio czytane",
+            "title": "Tytuł"
+        },
+        "title": "Biblioteka",
+        "view": {
+            "grid": "Siatka",
+            "list": "Lista",
+            "title": "Widok"
+        }
+    },
     "common": {
         "actions": {
             "cancel": "Anuluj",
             "close": "Zamknij",
             "collapse": "Zwiń",
             "collapseAll": "Zwiń wszystkie",
+            "delete": "Usuń",
             "expand": "Rozwiń",
             "expandAll": "Rozwiń wszystkie",
             "filter": "Filtruj",
             "search": "Szukaj",
+            "showMoreOptions": "Więcej opcji",
             "sortBy": "Sortuj według"
+        },
+        "confirmation": {
+            "title": "Czy jesteś pewny/a?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Szczegóły"
+                }
+            },
+            "cancelled": "Operacja anulowana.",
+            "outOfMemory": "Brak wystarczającej pamięci. Zamknij inne aplikacje lub spróbuj ponownie później.",
+            "title": "Błąd",
+            "unexpected": "Coś poszło nie tak. Spróbuj ponownie."
+        },
+        "estimatedNumber": "ok. {{ number }}",
+        "file": {
+            "errors": {
+                "corrupted": "Nie można otworzyć tej treści. Plik może być uszkodzony lub mieć nieobsługiwany format. Spróbuj innego pliku.",
+                "forbidden": "Nie można otworzyć pliku. Odmowa dostępu.",
+                "formatNotSupported": "Nieobsługiwany typ pliku. Spróbuj innego pliku.",
+                "insufficientSpace": "Brak wystarczającej ilości miejsca na dysku. Zwolnij trochę przestrzeni i spróbuj ponownie.",
+                "notFound": "Nie można otworzyć pliku. Plik nie został znaleziony.",
+                "protocolNotSupported": "Ta publikacja nie może być otwarta z bieżącej lokalizacji. Spróbuj najpierw ją pobrać lub skontaktuj się z obsługą księgarni."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Coś poszło nie tak. Sprawdź połączenie internetowe lub spróbuj ponownie później.",
+                "forbidden": "Nie masz uprawnień dostępu do tej treści.",
+                "malformedResponse": "Nie można załadować tej treści. Wystąpił problem z serwerem. Spróbuj ponownie później.",
+                "methodNotSupported": "Serwer nie obsługuje wymaganej metody ładowania.",
+                "notFound": "Treść nie znaleziona.",
+                "offline": "Jesteś offline. Sprawdź połączenie internetowe.",
+                "security": "Bezpieczne połączenie nie powiodło się. Spróbuj ponownie później.",
+                "timeout": "Przekroczono czas połączenia. Spróbuj ponownie.",
+                "unauthorized": "Musisz być zalogowany/a, aby uzyskać dostęp do tej treści.",
+                "unreachable": "Nie można połączyć się z serwerem."
+            }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
         }
+    },
+    "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Witaj w Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Skończyłeś/aś czytać wszystkie publikacje aktualnie w Twojej bibliotece.",
+                "title": "Wszystko przeczytane"
+            }
+        },
+        "title": "Strona główna"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Otwórz książkę"
+        },
+        "openBookshelf": {
+            "description": "Otwiera aplikację na Twojej bibliotece.",
+            "title": "Otwórz bibliotekę"
+        }
+    },
+    "links": {
+        "aboutApp": "O tej aplikacji",
+        "aboutUs": "O nas",
+        "community": {
+            "blog": "Blog",
+            "discord": "Dołącz do społeczności na Discord",
+            "patreon": "Wesprzyj nas na Patreon",
+            "title": "Bądź na bieżąco",
+            "youtube": "Obserwuj nas na YouTube"
+        },
+        "help": "Pomoc i opinie",
+        "info": "Informacje",
+        "privacyPolicy": "Polityka prywatności",
+        "termsOfUse": "Warunki użytkowania"
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Importuj"
+            },
+            "listen": {
+                "compact": "Słuchaj"
+            },
+            "markAsFinished": {
+                "compact": "Oznacz jako ukończone"
+            },
+            "markAsNotStarted": {
+                "compact": "Oznacz jako nierozpoczęte"
+            },
+            "markAsUnfinished": {
+                "compact": "Oznacz jako nieukończone"
+            },
+            "read": {
+                "compact": "Czytaj"
+            },
+            "remove": {
+                "compact": "Usuń",
+                "confirmation": "Czy na pewno chcesz usunąć „{{ title }}”? Tej akcji nie można cofnąć."
+            },
+            "rename": {
+                "compact": "Zmień nazwę",
+                "descriptive": "Zmień nazwę publikacji"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Brak",
+            "sample": "Próbka",
+            "unknownTitle": "Nieznany tytuł"
+        }
+    },
+    "reader": {
+        "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Pokaż okno notatki przy nowej zakładce"
+                },
+                "title": "Zakładki i wyróżnienia"
+            },
+            "progression": {
+                "animatePageTurns": {
+                    "compact": "Animuj przewracanie stron"
+                },
+                "displayCurrentProgression": {
+                    "compact": "Wyświetlaj bieżący postęp"
+                },
+                "displayPrintPagination": {
+                    "compact": "Wyświetlaj paginację drukowaną"
+                },
+                "progressionStyle": {
+                    "compact": "Styl postępu"
+                },
+                "title": "Postęp"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Zawsze pokazuj pasek stanu"
+                },
+                "displayOrientationLock": {
+                    "compact": "Pokaż przycisk blokady orientacji przy obrocie"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Zapobiegaj wygaszaniu ekranu"
+                },
+                "title": "Ekran"
+            },
+            "title": "Opcje czytania"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Zawsze wyświetlany",
+            "hidden": "Ukryty",
+            "title": "Mini odtwarzacz audio",
+            "whenPlaying": "Pokaż podczas odtwarzania"
+        },
+        "systemSettings": "Ustawienia systemowe",
+        "theme": {
+            "dark": "Ciemny",
+            "light": "Jasny",
+            "system": "Domyślny systemowy",
+            "title": "Motyw"
+        },
+        "title": "Ustawienia"
     }
 }
