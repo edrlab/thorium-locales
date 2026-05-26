@@ -126,7 +126,7 @@
                 },
                 "autoPlay": {
                     "label": "Riproduci fino alla fine",
-                    "title": "Autoplay"
+                    "title": "Lettura automatica"
                 },
                 "playbackRate": {
                     "compact": "Velocità",
