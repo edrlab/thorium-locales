@@ -85,7 +85,7 @@
                         "certifier-credentials": "Le credenziali del certificatore sono ",
                         "details": {
                             "certification-info": "La pubblicazione è stata certificata il ",
-                            "certifier-report": "Per ulteriori informazioni, consultare il report di accessibilità del certificatore",
+                            "certifier-report": "Per ulteriori informazioni, consultare il rapporto d'accessibilità del certificatore",
                             "claim": "Questa pubblicazione è conforme ai requisiti di",
                             "epub-accessibility-1-0": "EPUB Accessibility 1.0",
                             "epub-accessibility-1-1": "EPUB Accessibility 1.1",
@@ -129,7 +129,7 @@
                         },
                         "motion-none": {
                             "compact": "Nessun rischio di simulazione del movimento",
-                            "descriptive": "La pubblicazione non contiene simulazioni di movimento che possono causare la malattia di movimento"
+                            "descriptive": "La pubblicazione non contiene simulazioni di movimento che possono causare la cinetosi"
                         },
                         "motion-unknown": {
                             "compact": "Nessuna informazione relativa alla presenza di simulazioni di movimento",
@@ -258,7 +258,7 @@
                             "unknown": "Non sono disponibili informazioni sulla possibilità di formattare il testo",
                             "unmodifiable": {
                                 "compact": "La formattazione del testo e il display della pagina non possono essere modificati",
-                                "descriptive": "Il layout di testo e pagina non può essere modificato poiché l'esperienza di lettura è vicina a una versione di stampa, ma i sistemi di lettura possono ancora fornire opzioni di zoom"
+                                "descriptive": "Il layout del testo e della pagina non può essere modificato poiché l'esperienza di lettura è simile a una versione di stampa, ma i sistemi di lettura possono ancora fornire opzioni di zoom"
                             }
                         }
                     }
