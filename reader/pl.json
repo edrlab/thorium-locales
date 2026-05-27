@@ -293,44 +293,44 @@
         },
         "progression": {
             "pagesLeft": {
-                "descriptive_few": "",
-                "descriptive_many": "",
-                "descriptive_one": "Pozostało {{ count }} stron"
+                "descriptive_few": "Pozostały {{ count }} strony",
+                "descriptive_many": "Pozostało {{ count }} stron",
+                "descriptive_one": "Pozostała {{ count }} strona"
             },
             "pagesLeftInChapter": {
-                "descriptive_few": "",
-                "descriptive_many": "",
-                "descriptive_one": "Pozostało {{ count }} stron w rozdziale"
+                "descriptive_few": "Pozostały {{ count }} strony w rozdziale",
+                "descriptive_many": "Pozostało {{ count }} stron w rozdziale",
+                "descriptive_one": "Pozostała {{ count }} strona w rozdziale"
             },
             "pagesLeftInPublication": {
-                "descriptive_few": "",
-                "descriptive_many": "",
-                "descriptive_one": "Pozostało {{ count }} stron w publikacji"
+                "descriptive_few": "Pozostały {{ count }} strony w publikacji",
+                "descriptive_many": "Pozostało {{ count }} stron w publikacji",
+                "descriptive_one": "Pozostała {{ count }} strona w publikacji"
             },
             "percentage": "{{ percentage }}%",
             "positionsLeft": {
-                "compact_few": "",
-                "compact_many": "",
-                "compact_one": "Pozostało {{ count }}",
-                "descriptive_few": "",
-                "descriptive_many": "",
-                "descriptive_one": "Pozostało {{ count }} pozycji"
+                "compact_few": "Pozostały {{ count }}",
+                "compact_many": "Pozostało {{ count }}",
+                "compact_one": "Pozostała {{ count }}",
+                "descriptive_few": "Pozostały {{ count }} pozycje",
+                "descriptive_many": "Pozostało {{ count }} pozycji",
+                "descriptive_one": "Pozostała {{ count }} pozycja"
             },
             "positionsLeftInChapter": {
-                "compact_few": "",
-                "compact_many": "",
-                "compact_one": "Pozostało {{ count }} w rozdziale",
-                "descriptive_few": "",
-                "descriptive_many": "",
-                "descriptive_one": "Pozostało {{ count }} pozycji w rozdziale"
+                "compact_few": "Pozostały {{ count }} w rozdziale",
+                "compact_many": "Pozostało {{ count }} w rozdziale",
+                "compact_one": "Pozostała {{ count }} w rozdziale",
+                "descriptive_few": "Pozostały {{ count }} pozycje w rozdziale",
+                "descriptive_many": "Pozostało {{ count }} pozycji w rozdziale",
+                "descriptive_one": "Pozostała {{ count }} pozycja w rozdziale"
             },
             "positionsLeftInPublication": {
-                "compact_few": "",
-                "compact_many": "",
-                "compact_one": "Pozostało {{ count }} w publikacji",
-                "descriptive_few": "",
-                "descriptive_many": "",
-                "descriptive_one": "Pozostało {{ count }} pozycji w publikacji"
+                "compact_few": "Pozostały {{ count }} w publikacji",
+                "compact_many": "Pozostało {{ count }} w publikacji",
+                "compact_one": "Pozostała {{ count }} w publikacji",
+                "descriptive_few": "Pozostały {{ count }} pozycje w publikacji",
+                "descriptive_many": "Pozostało {{ count }} pozycji w publikacji",
+                "descriptive_one": "Pozostała {{ count }} pozycja w publikacji"
             },
             "range": "{{ start }}–{{ end }}",
             "xOfY": {
@@ -348,9 +348,9 @@
                 }
             },
             "placeholder": "Szukaj słów kluczowych lub fraz",
-            "result_few": "",
-            "result_many": "",
-            "result_one": "{{ current }} z {{ count }} wyników",
+            "result_few": "{{ current }} z {{ count }} wyników",
+            "result_many": "{{ current }} z {{ count }} wyników",
+            "result_one": "{{ current }} z {{ count }} wyniku",
             "title": "Szukaj"
         },
         "tableOfContents": {
