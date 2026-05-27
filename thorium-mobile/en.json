@@ -59,16 +59,34 @@
     "catalogs": {
         "actions": {
             "add": {
-                "compact": "Add catalog"
+                "compact": "Add",
+                "descriptive": "Add catalog"
+            },
+            "browse": {
+                "compact": "Browse",
+                "descriptive": "Browse catalog"
+            },
+            "edit": {
+                "compact": "Edit",
+                "descriptive": "Edit catalog"
+            },
+            "remove": {
+                "compact": "Remove",
+                "confirmation": "Are you sure you want to remove the catalog \"{{ name }}\"? This action cannot be undone.",
+                "descriptive": "Remove catalog"
             }
         },
         "dialogs": {
             "add": {
                 "title": "Add catalog"
             },
+            "edit": {
+                "title": "Edit catalog"
+            },
             "errors": {
                 "invalidName": "Please enter a valid name.",
-                "invalidUrl": "Please enter a valid URL."
+                "invalidUrl": "Please enter a valid URL.",
+                "unsupportedCatalog": "This catalog is not supported."
             },
             "fields": {
                 "color": {
