@@ -44,32 +44,32 @@
             "statusExpiredEnd": "Wypożyczenie tej publikacji wygasło {{ date }}. Skontaktuj się z biblioteką, aby wypożyczyć ją ponownie.",
             "statusExpiredStart": "Ta publikacja będzie dostępna od {{ date }}.",
             "statusReturned": "Ta publikacja została zwrócona {{ date }}. Skontaktuj się z biblioteką, aby wypożyczyć ją ponownie.",
-            "statusRevoked_few": "",
-            "statusRevoked_many": "",
-            "statusRevoked_one": "Dostęp do tej publikacji został odwołany przez dostawcę {{ date }}. Był używany na {{ count }} urządzeniu. Skontaktuj się z dostawcą, aby uzyskać więcej informacji."
+            "statusRevoked_few": "Dostęp do tej publikacji został odwołany przez dostawcę w dniu {{ date }}. Był używany na {{ count }} urządzeniach. Skontaktuj się z dostawcą, aby uzyskać więcej informacji.",
+            "statusRevoked_many": "Dostęp do tej publikacji został odwołany przez dostawcę w dniu {{ date }}. Był używany na {{ count }} urządzeniach. Skontaktuj się z dostawcą, aby uzyskać więcej informacji.",
+            "statusRevoked_one": "Dostęp do tej publikacji został odwołany przez dostawcę w dniu {{ date }}. Był używany na {{ count }} urządzeniu. Skontaktuj się z dostawcą, aby uzyskać więcej informacji."
         },
         "labels": {
             "expired": "Wygasłe",
             "expiresIn": {
                 "days": {
-                    "descriptive_few": "",
-                    "descriptive_many": "",
-                    "descriptive_one": "Za {{ count }} dzień/dni"
+                    "descriptive_few": "Za {{ count }} dni",
+                    "descriptive_many": "Za {{ count }} dni",
+                    "descriptive_one": "Za {{ count }} dzień"
                 },
                 "hours": {
-                    "descriptive_few": "",
-                    "descriptive_many": "",
-                    "descriptive_one": "Za {{ count }} godzin(ę)"
+                    "descriptive_few": "Za {{ count }} godziny",
+                    "descriptive_many": "Za {{ count }} godzin",
+                    "descriptive_one": "Za {{ count }} godzinę"
                 },
                 "minutes": {
-                    "descriptive_few": "",
-                    "descriptive_many": "",
-                    "descriptive_one": "Za {{ count }} minut(e)"
+                    "descriptive_few": "Za {{ count }} minuty",
+                    "descriptive_many": "Za {{ count }} minut",
+                    "descriptive_one": "Za {{ count }} minutę"
                 },
                 "months": {
-                    "descriptive_few": "",
-                    "descriptive_many": "",
-                    "descriptive_one": "Za {{ count }} miesiąc/miesięcy"
+                    "descriptive_few": "Za {{ count }} miesiące",
+                    "descriptive_many": "Za {{ count }} miesięcy",
+                    "descriptive_one": "Za {{ count }} miesiąc"
                 }
             }
         }
