@@ -30,6 +30,7 @@
         },
         "filter": {
             "all": "All",
+            "currentlyListening": "Currently listening",
             "currentlyReading": "Currently reading",
             "finished": "Finished",
             "notStartedYet": "Not started yet",
@@ -181,6 +182,11 @@
             "emptyHome": {
                 "description": "You've finished reading all the publications currently in your bookshelf.",
                 "title": "All caught up"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Display recently read and recently listened publications separately"
             }
         },
         "title": "Home"
