@@ -166,7 +166,7 @@
                 "compact": "Märgi mittealustatuks"
             },
             "markAsUnfinished": {
-                "compact": "Märgi mittelõpetatuks"
+                "compact": "Märgi pooleliolevaks"
             },
             "read": {
                 "compact": "Loe"
