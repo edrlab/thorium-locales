@@ -57,6 +57,25 @@
             "title": "Display view"
         }
     },
+    "browser": {
+        "actions": {
+            "next": {
+                "compact": "Next"
+            },
+            "openInBrowser": {
+                "compact": "Open in browser"
+            },
+            "previous": {
+                "compact": "Previous"
+            },
+            "reload": {
+                "compact": "Reload"
+            },
+            "stop": {
+                "compact": "Stop"
+            }
+        }
+    },
     "catalogs": {
         "actions": {
             "add": {
@@ -70,6 +89,9 @@
             "edit": {
                 "compact": "Edit",
                 "descriptive": "Edit catalog"
+            },
+            "info": {
+                "compact": "Info"
             },
             "remove": {
                 "compact": "Remove",
@@ -109,7 +131,12 @@
             "description": "Add catalogs to browse and download publications.",
             "title": "No catalogs yet"
         },
-        "title": "Catalogs"
+        "title": "Catalogs",
+        "user": {
+            "bookshelf": {
+                "compact": "Bookshelf"
+            }
+        }
     },
     "common": {
         "actions": {
@@ -121,9 +148,29 @@
             "expand": "Expand",
             "expandAll": "Expand all",
             "filter": "Filter",
+            "retry": "Retry",
             "search": "Search",
             "showMoreOptions": "More options",
             "sortBy": "Sort by"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Sign in"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "The username or password was incorrect. Please try again."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Password"
+                },
+                "username": {
+                    "compact": "Username"
+                }
+            },
+            "title": "Sign in to {{ host }}"
         },
         "confirmation": {
             "title": "Are you sure?"
@@ -170,11 +217,6 @@
         }
     },
     "home": {
-        "actions": {
-            "hideSection": {
-                "compact": "Hide"
-            }
-        },
         "emptyState": {
             "emptyBookshelf": {
                 "title": "Welcome to Thorium Reader"
