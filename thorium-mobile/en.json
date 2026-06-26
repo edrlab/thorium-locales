@@ -59,6 +59,9 @@
     },
     "browser": {
         "actions": {
+            "home": {
+                "compact": "First page"
+            },
             "next": {
                 "compact": "Next"
             },
@@ -228,7 +231,7 @@
         },
         "settings": {
             "splitRecentlyRead": {
-                "compact": "Display recently read and recently listened publications separately"
+                "compact": "Display recently listened separately"
             }
         },
         "title": "Home"
