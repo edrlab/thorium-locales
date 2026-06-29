@@ -23,13 +23,14 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Your bookshelf is empty for now. Import EPUB, PDF or CBZ files from your device.",
+                "bookshelf": "Your bookshelf is empty for now.\nImport EPUB, PDF, LCPL or CBZ files or add a catalog.",
                 "filter": "No publications in your bookshelf match this filter."
             },
             "title": "No publications found"
         },
         "filter": {
             "all": "All",
+            "currentlyListening": "Currently listening",
             "currentlyReading": "Currently reading",
             "finished": "Finished",
             "notStartedYet": "Not started yet",
@@ -56,6 +57,90 @@
             "title": "Display view"
         }
     },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "First page"
+            },
+            "next": {
+                "compact": "Next"
+            },
+            "openInBrowser": {
+                "compact": "Open in browser"
+            },
+            "previous": {
+                "compact": "Previous"
+            },
+            "reload": {
+                "compact": "Reload"
+            },
+            "stop": {
+                "compact": "Stop"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Add",
+                "descriptive": "Add catalog"
+            },
+            "browse": {
+                "compact": "Browse",
+                "descriptive": "Browse catalog"
+            },
+            "edit": {
+                "compact": "Edit",
+                "descriptive": "Edit catalog"
+            },
+            "info": {
+                "compact": "Info"
+            },
+            "remove": {
+                "compact": "Remove",
+                "confirmation": "Are you sure you want to remove the catalog \"{{ name }}\"? This action cannot be undone.",
+                "descriptive": "Remove catalog"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Add catalog"
+            },
+            "edit": {
+                "title": "Edit catalog"
+            },
+            "errors": {
+                "invalidName": "Please enter a valid name.",
+                "invalidUrl": "Please enter a valid URL.",
+                "unsupportedCatalog": "This catalog is not supported."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Color"
+                },
+                "name": {
+                    "compact": "Name"
+                },
+                "url": {
+                    "compact": "URL",
+                    "placeholder": "https://catalog.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Open catalog in the browser"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Add catalogs to browse and download publications.",
+            "title": "No catalogs yet"
+        },
+        "title": "Catalogs",
+        "user": {
+            "bookshelf": {
+                "compact": "Bookshelf"
+            }
+        }
+    },
     "common": {
         "actions": {
             "cancel": "Cancel",
@@ -66,9 +151,29 @@
             "expand": "Expand",
             "expandAll": "Expand all",
             "filter": "Filter",
+            "retry": "Retry",
             "search": "Search",
             "showMoreOptions": "More options",
             "sortBy": "Sort by"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Sign in"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "The username or password was incorrect. Please try again."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Password"
+                },
+                "username": {
+                    "compact": "Username"
+                }
+            },
+            "title": "Sign in to {{ host }}"
         },
         "confirmation": {
             "title": "Are you sure?"
@@ -122,6 +227,11 @@
             "emptyHome": {
                 "description": "You've finished reading all the publications currently in your bookshelf.",
                 "title": "All caught up"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Display recently listened separately"
             }
         },
         "title": "Home"
