@@ -292,8 +292,19 @@
             "narrator_one": "αφηγητής / αφηγήτρια",
             "narrator_other": "αφηγητές / αφηγήτριες",
             "numberOfPages": "μήκος εκτύπωσης",
+            "penciler_one": "Σχεδιαστής / Σχεδιάστρια",
+            "penciler_other": "Σχεδιαστές / Σχεδιάστριες",
+            "published": "ημερομηνία έκδοσης",
             "publisher_one": "εκδότης",
-            "publisher_other": "εκδότες"
+            "publisher_other": "εκδότες",
+            "series_one": "σειρά",
+            "series_other": "σειρές",
+            "subject_one": "θέμα",
+            "subject_other": "θέματα",
+            "subtitle": "υπότιτλος",
+            "title": "τίτλος",
+            "translator_one": "μεταφραστής / μεταφράστρια",
+            "translator_other": "μεταφραστές / μεταφράστριες"
         }
     }
 }
