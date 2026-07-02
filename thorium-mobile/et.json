@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Sinu raamaturiiul on tühi. Impordi oma nutiseadmest EPUB-, PDF- või CBZ-faile.",
+                "bookshelf": "Sinu raamaturiiul on tühi. \nImpordi oma EPUB-, PDF-, LCPL- või CBZ-faile või lisa üks kataloog.",
                 "filter": "Sellele filtrile ei vasta mitte mingit sisu sinu raamaturiiulis.",
                 "kind": "Sellele filtrile ei vasta antud tüüpi sisu. Pigem vaata kõiki tüüpe, mis raamaturiiulis leidub."
             },
@@ -31,6 +31,7 @@
         },
         "filter": {
             "all": "Kõik",
+            "currentlyListening": "Hetkel kuulamisel",
             "currentlyReading": "Hetkel lugemisel",
             "finished": "Loetud",
             "notStartedYet": "Pole veel alustanud",
@@ -55,6 +56,80 @@
             "grid": "Ruudustik",
             "list": "Loend",
             "title": "Kuvamisrežiim"
+        }
+    },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Esimene leht"
+            },
+            "next": {
+                "compact": "Järgmine"
+            },
+            "openInBrowser": {
+                "compact": "Ava veebibrauseris"
+            },
+            "previous": {
+                "compact": "Eelmine"
+            },
+            "reload": {
+                "compact": "Laadi uuesti"
+            },
+            "stop": {
+                "compact": "Lõpeta"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Lisa",
+                "descriptive": "Lisakataloog"
+            },
+            "browse": {
+                "compact": "Sirvi",
+                "descriptive": "Sirvi kataloogi"
+            },
+            "edit": {
+                "compact": "Muuda",
+                "descriptive": "Muuda kataloogi"
+            },
+            "info": {
+                "compact": "Teave"
+            },
+            "remove": {
+                "compact": "Eemalda",
+                "confirmation": "Kas oled kindel, et soovid „{{ name }}“ kataloogi eemaldada? Seda tegevust ei saa tagasi pöörata.",
+                "descriptive": "Eemalda kataloog"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Lisan kataloog"
+            },
+            "edit": {
+                "title": "Muuda kataloogi"
+            },
+            "errors": {
+                "invalidName": "Palun sisesta korrektne nimi.",
+                "invalidUrl": "Palun sisesta korrektne võrguaadress.",
+                "unsupportedCatalog": "See kataloog pole toetatud."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Värv"
+                },
+                "name": {
+                    "compact": "Nimi"
+                },
+                "url": {
+                    "compact": "Võrguaadress",
+                    "placeholder": "https://kataloog.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Ava kataloog vebibrauseris"
+                }
+            }
         }
     },
     "common": {
