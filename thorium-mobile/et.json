@@ -130,6 +130,16 @@
                     "compact": "Ava kataloog vebibrauseris"
                 }
             }
+        },
+        "emptyState": {
+            "description": "Lisa katalooge e-raamatute sirvimiseks ja allalaadimiseks.",
+            "title": "Ühtegi kataloogi veel pole"
+        },
+        "title": "Kataloogid",
+        "user": {
+            "bookshelf": {
+                "compact": "Raamaturiiul"
+            }
         }
     },
     "common": {
@@ -142,9 +152,29 @@
             "expand": "Laienda vaadet",
             "expandAll": "Laienda kõik",
             "filter": "Filtreeri",
+            "retry": "Proovi uuesti",
             "search": "Otsi",
             "showMoreOptions": "Lisavalikud",
             "sortBy": "Järjestus"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Logi sisse"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Kasutajanimi või salasõna polnud õiged. Palun proovi uuesti."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Salasõna"
+                },
+                "username": {
+                    "compact": "Kasutajanimi"
+                }
+            },
+            "title": "Logi sisse {{ host }} teenusesse"
         },
         "confirmation": {
             "title": "Kas oled kindel?"
@@ -198,6 +228,11 @@
             "emptyHome": {
                 "description": "Sa oled lugenud läbi kõik teosed, mis leiduvad sinu raamaturiiulis.",
                 "title": "Eks kõik olegi nüüd loetud"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Näita hiljuti kuulatud sisu eraldi"
             }
         },
         "title": "Avaleht"
