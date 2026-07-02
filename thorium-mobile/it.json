@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "La tua biblioteca per il momento è vuota. Importa i tuoi file EPUB, PDF o CBZ dal tuo dispositivo.",
+                "bookshelf": "La tua biblioteca per il momento è vuota. \nImporta i tuoi file EPUB, PDF o CBZ o aggiungi un catalogo.",
                 "filter": "Nessuna pubblicazione della tua biblioteca corrisponde a questo filtro.",
                 "kind": "Nessuna pubblicazione corrisponde alla tipologia selezionata. Prova a visualizzare tutte le tipologie per vedere più elementi della tua biblioteca."
             },
@@ -31,6 +31,7 @@
         },
         "filter": {
             "all": "Tutti",
+            "currentlyListening": "Attualmente in ascolto",
             "currentlyReading": "In corso di lettura",
             "finished": "Finiti",
             "notStartedYet": "Non ancora iniziati",
@@ -57,6 +58,90 @@
             "title": "Visualizzazione dello schermo"
         }
     },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Prima pagina"
+            },
+            "next": {
+                "compact": "Successiva"
+            },
+            "openInBrowser": {
+                "compact": "Apri nel navigatore"
+            },
+            "previous": {
+                "compact": "Precedente"
+            },
+            "reload": {
+                "compact": "Ricarica"
+            },
+            "stop": {
+                "compact": "Stop"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Aggiungi",
+                "descriptive": "Aggiungi catalogo"
+            },
+            "browse": {
+                "compact": "Naviga",
+                "descriptive": "Naviga nel catalogo"
+            },
+            "edit": {
+                "compact": "Modifica",
+                "descriptive": "Modifica il catalogo"
+            },
+            "info": {
+                "compact": "Informazioni"
+            },
+            "remove": {
+                "compact": "Elimina",
+                "confirmation": "Sei sicuro che vuoi eliminare il catalogo \"{{ name }}\"? Quest'azione non può essere annullata.",
+                "descriptive": "Elimina il catalogo"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Aggiungi il catalogo"
+            },
+            "edit": {
+                "title": "Modifica il catalogo"
+            },
+            "errors": {
+                "invalidName": "Si prega di inserire un nome valido.",
+                "invalidUrl": "Si prega di inserire un URL valido.",
+                "unsupportedCatalog": "Questo catalogo non è disponibile."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Colore"
+                },
+                "name": {
+                    "compact": "Nome"
+                },
+                "url": {
+                    "compact": "URL",
+                    "placeholder": "https://catalog.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Apri il catalogo nel navigatore"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Aggiungi cataloghi per navigare e scaricare le pubblicazioni.",
+            "title": "Non ci sono ancora cataloghi"
+        },
+        "title": "Cataloghi",
+        "user": {
+            "bookshelf": {
+                "compact": "Biblioteca"
+            }
+        }
+    },
     "common": {
         "actions": {
             "cancel": "Annulla",
@@ -67,9 +152,29 @@
             "expand": "Espandi",
             "expandAll": "Espandi tutto",
             "filter": "Filtra",
+            "retry": "Riprova",
             "search": "Cerca",
             "showMoreOptions": "Più opzioni",
             "sortBy": "Ordina per"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Registrati"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Il nome utente o la password non sono corretti. Si prega di riprovare."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Password"
+                },
+                "username": {
+                    "compact": "Nome utente"
+                }
+            },
+            "title": "Registrati con {{ host }}"
         },
         "confirmation": {
             "title": "Sei sicuro?"
@@ -123,6 +228,11 @@
             "emptyHome": {
                 "description": "Tutte le pubblicazioni della tua biblioteca sono contrassegnate come lette.",
                 "title": "Hai letto tutti i tuoi libri"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Visualizza separatamente gli ascolti recenti"
             }
         },
         "title": "Home"
