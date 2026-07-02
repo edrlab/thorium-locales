@@ -12,6 +12,7 @@
     },
     "common": {
         "actions": {
+            "cancel": "ביטול",
             "close": "סגור"
         }
     }
