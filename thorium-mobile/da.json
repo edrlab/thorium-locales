@@ -23,13 +23,14 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Din boghylde er tom. Tilføj EPUB, PDF eller CBZ filer fra din enhed.",
+                "bookshelf": "Din boghylde er tom. \nTilføj EPUB, PDF, LCPL eller CBZ filer eller tilføj et katalog.",
                 "filter": "Ingen bøger på din boghylde matcher dette filter."
             },
             "title": "Ingen bøger fundet"
         },
         "filter": {
             "all": "Alle",
+            "currentlyListening": "Lytter til",
             "currentlyReading": "Læser lige nu",
             "finished": "Læst færdig",
             "notStartedYet": "Ikke påbegyndt",
@@ -56,6 +57,90 @@
             "title": "Visnings type"
         }
     },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Første side"
+            },
+            "next": {
+                "compact": "Næste"
+            },
+            "openInBrowser": {
+                "compact": "Åbn i browseren"
+            },
+            "previous": {
+                "compact": "Forrige"
+            },
+            "reload": {
+                "compact": "Genindlæs"
+            },
+            "stop": {
+                "compact": "Stop"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Tilføj",
+                "descriptive": "Tilføj katalog"
+            },
+            "browse": {
+                "compact": "Gennemse",
+                "descriptive": "Gennemse katalog"
+            },
+            "edit": {
+                "compact": "Rediger",
+                "descriptive": "Rediger katalog"
+            },
+            "info": {
+                "compact": "Information"
+            },
+            "remove": {
+                "compact": "Fjern",
+                "confirmation": "Er du sikker på at du ønsker at fjerne \"{{ name }}\"? Denne handling kan ikke fortrydes.",
+                "descriptive": "Fjern katalog"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Tilføj katalog"
+            },
+            "edit": {
+                "title": "Rediger katalog"
+            },
+            "errors": {
+                "invalidName": "Indtast venligst et gyldigt navn.",
+                "invalidUrl": "Indtast venligst en gyldig URL adresse.",
+                "unsupportedCatalog": "Kataloget understøttes ikke."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Farve"
+                },
+                "name": {
+                    "compact": "Navn"
+                },
+                "url": {
+                    "compact": "URL adresse",
+                    "placeholder": "https://et-katalog.dk"
+                },
+                "useSystemBrowser": {
+                    "compact": "Åben katalog i browseren"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Tilføj kataloger, hvor du kan gennemse og downloade bøger.",
+            "title": "Ingen kataloger endnu"
+        },
+        "title": "Kataloger",
+        "user": {
+            "bookshelf": {
+                "compact": "Boghylde"
+            }
+        }
+    },
     "common": {
         "actions": {
             "cancel": "Annuller",
@@ -66,9 +151,29 @@
             "expand": "Fold ud",
             "expandAll": "Fold alt ud",
             "filter": "Filter",
+            "retry": "Prøv igen",
             "search": "Søg",
             "showMoreOptions": "Flere indstillinger",
             "sortBy": "Sorter efter"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Log ind"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Brugernavn og password var ikke gyldigt. Prøv venligst igen."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Password"
+                },
+                "username": {
+                    "compact": "Brugernavn"
+                }
+            },
+            "title": "Log ind på {{ host }}"
         },
         "confirmation": {
             "title": "Er du sikker?"
@@ -122,6 +227,11 @@
             "emptyHome": {
                 "description": "Du har læst alle bøgerne på din boghylde.",
                 "title": "Du er helt opdateret"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Vis senest lyttede bøger separat"
             }
         },
         "title": "Hjem"
