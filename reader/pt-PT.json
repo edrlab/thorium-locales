@@ -64,6 +64,9 @@
             "goToPreviousSentence": {
                 "compact": "Anterior",
                 "descriptive": "Frase anterior"
+            },
+            "readAloud": {
+                "compact": "Ler em voz alta"
             }
         },
         "annotations": {
