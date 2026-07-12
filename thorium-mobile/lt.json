@@ -1,19 +1,345 @@
 {
     "about": {
         "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Svetainė"
+                }
+            },
             "title": "Trečiųjų šalių programinė įranga"
         },
+        "copyright": "Autorių teisės {{ year }} European Digital Reading Lab.\nVisos teisės saugomos.",
         "title": "Apie",
         "version": "Versija {{ version }} ({{ build }})"
     },
     "bookshelf": {
         "actions": {
+            "filter": {
+                "compact": "Filtras"
+            },
             "sort": {
                 "compact": "Rikiuoti pagal"
             }
         },
         "emptyState": {
+            "description": {
+                "bookshelf": "Jūsų knygų lentyna kol kas tuščia.\nImportuokite EPUB, PDF, LCPL ar CBZ failus arba pridėkite katalogą.",
+                "filter": "Jūsų knygų lentynoje nėra leidinių, atitinkančių šį filtrą."
+            },
             "title": "Nerasta leidinių"
+        },
+        "filter": {
+            "all": "Visi",
+            "currentlyListening": "Šiuo metu klausomi",
+            "currentlyReading": "Šiuo metu skaitomi",
+            "finished": "Užbaigti",
+            "notStartedYet": "Nepradėti",
+            "recentlyAdded": "Paskiausiai pridėti",
+            "samples": "Ištraukos",
+            "type": "Tipas"
+        },
+        "sort": {
+            "author": "Autorių",
+            "finished": "Užbaigimo datą",
+            "lastAdded": "Pridėjimo datą",
+            "lastRead": "Pask. skaitymo datą",
+            "title": "Pavadinimą"
+        },
+        "title": "Knygų lentyna",
+        "view": {
+            "grid": "Tinklelis",
+            "list": "Sąrašas"
         }
+    },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Pirmas puslapis"
+            },
+            "next": {
+                "compact": "Tolesnis"
+            },
+            "openInBrowser": {
+                "compact": "Atverti naršyklėje"
+            },
+            "previous": {
+                "compact": "Ankstesnis"
+            },
+            "reload": {
+                "compact": "Įkelti iš naujo"
+            },
+            "stop": {
+                "compact": "Stabdyti"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Pridėti",
+                "descriptive": "Pridėti katalogą"
+            },
+            "browse": {
+                "compact": "Naršyti",
+                "descriptive": "Naršyti kataloge"
+            },
+            "edit": {
+                "compact": "Keisti",
+                "descriptive": "Keisti katalogą"
+            },
+            "info": {
+                "compact": "Informacija"
+            },
+            "remove": {
+                "compact": "Pašalinti",
+                "confirmation": "Ar tikrai norite pašalinti „{{ name }}“ katalogą? Šio veiksmo negalima atšaukti.",
+                "descriptive": "Pašalinti katalogą"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Pridėti katalogą"
+            },
+            "edit": {
+                "title": "Keisti katalogą"
+            },
+            "errors": {
+                "invalidName": "Prašome įvesti tinkamą pavadinimą.",
+                "invalidUrl": "Prašome įvesti galiojantį URL adresą.",
+                "unsupportedCatalog": "Šis katalogas nepalaikomas."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Spalva"
+                },
+                "name": {
+                    "compact": "Pavadinimas"
+                },
+                "url": {
+                    "compact": "URL",
+                    "placeholder": "https://katalogas.lt"
+                },
+                "useSystemBrowser": {
+                    "compact": "Atverti katalogą naršyklėje"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Pridėkite katalogus, kad galėtumėte naršyti ir atsisiųsti leidinius.",
+            "title": "Katalogų kol kas nėra"
+        },
+        "title": "Katalogai",
+        "user": {
+            "bookshelf": {
+                "compact": "Knygų lentyna"
+            }
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Atšaukti",
+            "close": "Užverti",
+            "collapse": "Suskleisti",
+            "collapseAll": "Suskleisti viską",
+            "delete": "Šalinti",
+            "expand": "Išskleisti",
+            "expandAll": "Išskleisti viską",
+            "filter": "Filtruoti",
+            "retry": "Bandyti dar kartą",
+            "search": "Ieškoti",
+            "showMoreOptions": "Daugiau parinkčių",
+            "sortBy": "Rikiuoti pagal"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Prisijungti"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Neteisingas naudotojo vardas arba slaptažodis. Bandykite dar kartą."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Slaptažodis"
+                },
+                "username": {
+                    "compact": "Naudotojo vardas"
+                }
+            },
+            "title": "Prisijungti prie {{ host }}"
+        },
+        "confirmation": {
+            "title": "Ar tikrai?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Išsamiau"
+                }
+            },
+            "cancelled": "Operacija atšaukta.",
+            "outOfMemory": "Nepakanka atminties, kad būtų galima tęsti. Uždarykite kitas programėles arba bandykite dar kartą vėliau.",
+            "title": "Klaida",
+            "unexpected": "Kažkas nepavyko. Bandykite dar kartą."
+        },
+        "estimatedNumber": "~{{ number }}",
+        "file": {
+            "errors": {
+                "corrupted": "Nepavyko atverti šio turinio. Failas gali būti sugadintas arba naudojamas nepalaikomas formatas. Pabandykite atverti kitą failą.",
+                "forbidden": "Nepavyksta atverti failo. Prieiga uždrausta.",
+                "formatNotSupported": "Nepalaikomas failo tipas. Pabandykite naudoti kitą failą.",
+                "insufficientSpace": "Nepakanka vietos diske, kad galėtumėte tęsti. Atlaisvinkite vietos ir bandykite dar kartą.",
+                "notFound": "Nepavyko atverti failo. Failas nerastas.",
+                "protocolNotSupported": "Šio leidinio negalima atverti iš dabartinės jo vietos. Pirmiausia pabandykite jį atsisiųsti arba kreipkitės pagalbos į knygyną."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Kažkas nepavyko. Patikrinkite interneto ryšį arba bandykite dar kartą vėliau.",
+                "forbidden": "Jūs neturite leidimo pasiekti šį turinį.",
+                "malformedResponse": "Nepavyksta įkelti šio turinio. Iškilo serverio problema. Bandykite dar kartą vėliau.",
+                "methodNotSupported": "Serveris nepalaiko reikiamo įkėlimo metodo.",
+                "notFound": "Turinys nerastas.",
+                "offline": "Esate neprisijungę. Patikrinkite interneto ryšį.",
+                "security": "Saugus sujungimas nepavyko. Bandykite dar kartą vėliau.",
+                "timeout": "Sujungimo laukimo laikas baigėsi. Bandykite dar kartą.",
+                "unauthorized": "Norėdami pasiekti šį turinį, turite prisijungti.",
+                "unreachable": "Nepavyko prisijungti prie serverio."
+            }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "...{{ quote }}"
+        }
+    },
+    "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Jus sveikina Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Perskaitėte visus leidinius, šiuo metu esančius jūsų knygų lentynoje."
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Paskiausiai klausytus leidinius atvaizduoti atskirai"
+            }
+        },
+        "title": "Pradžia"
+    },
+    "intents": {
+        "openBook": {
+            "title": "Atverti knygą"
+        },
+        "openBookshelf": {
+            "description": "Atveria jūsų knygų lentyną programėlėje.",
+            "title": "Atverti knygų lentyną"
+        }
+    },
+    "links": {
+        "aboutApp": "Apie šią programėlę",
+        "aboutUs": "Apie mus",
+        "community": {
+            "blog": "Tinklaraštis",
+            "discord": "Prisijunkite prie bendruomenės „Discord“ platformoje",
+            "patreon": "Paremkite mus „Patreon“ platformoje",
+            "title": "Sekite naujienas",
+            "youtube": "Sekite mus „YouTube“ platformoje"
+        },
+        "help": "Pagalba ir grįžtamasis ryšys",
+        "info": "Informacija",
+        "privacyPolicy": "Privatumo politika",
+        "termsOfUse": "Naudojimosi taisyklės"
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Importuoti"
+            },
+            "listen": {
+                "compact": "Klausytis"
+            },
+            "markAsFinished": {
+                "compact": "Žymėti kaip užbaigtą"
+            },
+            "markAsNotStarted": {
+                "compact": "Žymėti kaip nepradėtą"
+            },
+            "markAsUnfinished": {
+                "compact": "Žymėti kaip neužbaigtą"
+            },
+            "read": {
+                "compact": "Skaityti"
+            },
+            "remove": {
+                "compact": "Pašalinti",
+                "confirmation": "Ar tikrai norite pašalinti „{{ title }}“? Šio veiksmo negalima atšaukti."
+            },
+            "rename": {
+                "compact": "Pervadinti",
+                "descriptive": "Pervadinti leidinį"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Nėra",
+            "sample": "Ištrauka",
+            "unknownTitle": "Nežinomas pavadinimas"
+        }
+    },
+    "reader": {
+        "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Pridedant skirtuką rodyti pastabos dialogo langą"
+                },
+                "title": "Skirtukai ir pažymėjimai"
+            },
+            "progression": {
+                "animatePageTurns": {
+                    "compact": "Animuoti puslapių vartymą"
+                },
+                "displayCurrentProgression": {
+                    "compact": "Atvaizduoti dabartinę eigą"
+                },
+                "displayPrintPagination": {
+                    "compact": "Atvaizduoti spausdintos versijos puslapius"
+                },
+                "progressionStyle": {
+                    "compact": "Eigos stilius"
+                },
+                "title": "Eiga"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Visada rodyti būsenos juostą"
+                },
+                "displayOrientationLock": {
+                    "compact": "Pavertus rodyti orientacijos fiksavimo mygtuką"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Neleisti išjungti ekrano"
+                },
+                "title": "Ekranas"
+            },
+            "title": "Skaitymo parinktys"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Atvaizduojamas visada",
+            "hidden": "Slėpiamas",
+            "title": "Mini garso leistuvas",
+            "whenPlaying": "Rodyti atkūrimo metu"
+        },
+        "systemSettings": "Sistemos nuostatos",
+        "theme": {
+            "dark": "Tamsi",
+            "light": "Šviesi",
+            "system": "Sistemos numatytoji",
+            "title": "Tema"
+        },
+        "title": "Nuostatos"
     }
 }
