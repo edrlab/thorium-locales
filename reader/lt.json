@@ -5,20 +5,20 @@
             "clear": "Išvalyti",
             "close": "Užverti",
             "collapse": "Suskleisti",
-            "collapseAll": "Suskleisti visus",
+            "collapseAll": "Suskleisti viską",
             "decrease": "Mažinti",
             "disable": "Išjungti",
             "enable": "Įjungti",
             "exit": "Išeiti",
             "expand": "Išskleisti",
-            "expandAll": "Išskleisti visus",
+            "expandAll": "Išskleisti viską",
             "filter": "Filtruoti",
             "hide": "Slėpti",
             "hideAll": "Slėpti visus",
             "increase": "Didinti",
             "open": "Atverti",
             "reset": "Atkurti",
-            "search": "Paieška",
+            "search": "Ieškoti",
             "show": "Rodyti",
             "showAll": "Rodyti visus",
             "sortBy": "Rikiuoti pagal",
@@ -64,6 +64,9 @@
             "goToPreviousSentence": {
                 "compact": "Ankstesnis",
                 "descriptive": "Ankstesnis sakinys"
+            },
+            "readAloud": {
+                "compact": "Skaityti garsiai"
             }
         },
         "annotations": {
