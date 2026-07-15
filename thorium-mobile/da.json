@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Din boghylde er tom. \nTilføj EPUB, PDF, LCPL eller CBZ filer eller tilføj et katalog.",
+                "bookshelf": "Din boghylde er tom.\nTilføj EPUB, PDF, LCPL eller CBZ filer eller tilføj et katalog.",
                 "filter": "Ingen bøger på din boghylde matcher dette filter."
             },
             "title": "Ingen bøger fundet"
