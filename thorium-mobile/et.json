@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Sinu raamaturiiul on tühi. Impordi oma nutiseadmest EPUB-, PDF- või CBZ-faile.",
+                "bookshelf": "Sinu raamaturiiul on tühi.\nImpordi oma EPUB-, PDF-, LCPL- või CBZ-faile või lisa üks kataloog.",
                 "filter": "Sellele filtrile ei vasta mitte mingit sisu sinu raamaturiiulis.",
                 "kind": "Sellele filtrile ei vasta antud tüüpi sisu. Pigem vaata kõiki tüüpe, mis raamaturiiulis leidub."
             },
@@ -31,6 +31,7 @@
         },
         "filter": {
             "all": "Kõik",
+            "currentlyListening": "Hetkel kuulamisel",
             "currentlyReading": "Hetkel lugemisel",
             "finished": "Loetud",
             "notStartedYet": "Pole veel alustanud",
@@ -57,6 +58,90 @@
             "title": "Kuvamisrežiim"
         }
     },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Esimene leht"
+            },
+            "next": {
+                "compact": "Järgmine"
+            },
+            "openInBrowser": {
+                "compact": "Ava veebibrauseris"
+            },
+            "previous": {
+                "compact": "Eelmine"
+            },
+            "reload": {
+                "compact": "Laadi uuesti"
+            },
+            "stop": {
+                "compact": "Lõpeta"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Lisa",
+                "descriptive": "Lisakataloog"
+            },
+            "browse": {
+                "compact": "Sirvi",
+                "descriptive": "Sirvi kataloogi"
+            },
+            "edit": {
+                "compact": "Muuda",
+                "descriptive": "Muuda kataloogi"
+            },
+            "info": {
+                "compact": "Teave"
+            },
+            "remove": {
+                "compact": "Eemalda",
+                "confirmation": "Kas oled kindel, et soovid „{{ name }}“ kataloogi eemaldada? Seda tegevust ei saa tagasi pöörata.",
+                "descriptive": "Eemalda kataloog"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Lisan kataloog"
+            },
+            "edit": {
+                "title": "Muuda kataloogi"
+            },
+            "errors": {
+                "invalidName": "Palun sisesta korrektne nimi.",
+                "invalidUrl": "Palun sisesta korrektne võrguaadress.",
+                "unsupportedCatalog": "See kataloog pole toetatud."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Värv"
+                },
+                "name": {
+                    "compact": "Nimi"
+                },
+                "url": {
+                    "compact": "Võrguaadress",
+                    "placeholder": "https://kataloog.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Ava kataloog vebibrauseris"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Lisa katalooge e-raamatute sirvimiseks ja allalaadimiseks.",
+            "title": "Ühtegi kataloogi veel pole"
+        },
+        "title": "Kataloogid",
+        "user": {
+            "bookshelf": {
+                "compact": "Raamaturiiul"
+            }
+        }
+    },
     "common": {
         "actions": {
             "cancel": "Katkesta",
@@ -67,9 +152,29 @@
             "expand": "Laienda vaadet",
             "expandAll": "Laienda kõik",
             "filter": "Filtreeri",
+            "retry": "Proovi uuesti",
             "search": "Otsi",
             "showMoreOptions": "Lisavalikud",
             "sortBy": "Järjestus"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Logi sisse"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Kasutajanimi või salasõna polnud õiged. Palun proovi uuesti."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Salasõna"
+                },
+                "username": {
+                    "compact": "Kasutajanimi"
+                }
+            },
+            "title": "Logi sisse {{ host }} teenusesse"
         },
         "confirmation": {
             "title": "Kas oled kindel?"
@@ -125,6 +230,11 @@
                 "title": "Eks kõik olegi nüüd loetud"
             }
         },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Näita hiljuti kuulatud sisu eraldi"
+            }
+        },
         "title": "Avaleht"
     },
     "intents": {
@@ -166,7 +276,7 @@
                 "compact": "Märgi mittealustatuks"
             },
             "markAsUnfinished": {
-                "compact": "Märgi mittelõpetatuks"
+                "compact": "Märgi pooleliolevaks"
             },
             "read": {
                 "compact": "Loe"

@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Kirjahyllysi on tällä hetkellä tyhjä. Tuo EPUB-, PDF- tai CBZ-tiedosto laitteeltasi.",
+                "bookshelf": "Kirjahyllysi on tällä hetkellä tyhjä.\nTuo EPUB-, PDF-, LCPL- tai CBZ-tiedosto tai lisää luettelo.",
                 "filter": "Mikään julkaisu kirjahyllyssäsi ei vastaa tätä suodatinta.",
                 "kind": "Mikään julkaisu ei vastaa valittua tyyppiä. Kokeile näyttää kaikki tyypit, jotta näet enemmän teoksia kirjahyllyssä."
             },
@@ -31,6 +31,7 @@
         },
         "filter": {
             "all": "Kaikki",
+            "currentlyListening": "Kuunnellaan parhaillaan",
             "currentlyReading": "Luetaan parhaillaan",
             "finished": "Luetut",
             "notStartedYet": "Ei vielä aloitettu",
@@ -57,6 +58,90 @@
             "title": "Näkymä"
         }
     },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Ensimmäinen sivu"
+            },
+            "next": {
+                "compact": "Seuraava"
+            },
+            "openInBrowser": {
+                "compact": "Avaa selaimessa"
+            },
+            "previous": {
+                "compact": "Edellinen"
+            },
+            "reload": {
+                "compact": "Lataa uudestaan"
+            },
+            "stop": {
+                "compact": "Pysäytä"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Lisää",
+                "descriptive": "Lisää luettelo"
+            },
+            "browse": {
+                "compact": "Selaa",
+                "descriptive": "Selaa luetteloa"
+            },
+            "edit": {
+                "compact": "Muokkaa",
+                "descriptive": "Muokkaa luetteloa"
+            },
+            "info": {
+                "compact": "Info"
+            },
+            "remove": {
+                "compact": "Poista",
+                "confirmation": "Haluatko varmasti poistaa luettelon \"{{ name }}\"? Toimintoa ei voi kumota.",
+                "descriptive": "Poista luettelo"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Lisää luettelo"
+            },
+            "edit": {
+                "title": "Muokkaa luetteloa"
+            },
+            "errors": {
+                "invalidName": "Syötä kelvollinen nimi.",
+                "invalidUrl": "Syötä kelvollinen URL.",
+                "unsupportedCatalog": "Tätä luetteloa ei tueta."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Väri"
+                },
+                "name": {
+                    "compact": "Nimi"
+                },
+                "url": {
+                    "compact": "URL",
+                    "placeholder": "https://catalog.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Avaa luettelo selaimessa"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Lisää luetteloita, jotta voit selata ja ladata julkaisuja.",
+            "title": "Ei vielä luetteloita"
+        },
+        "title": "Luettelot",
+        "user": {
+            "bookshelf": {
+                "compact": "Kirjahylly"
+            }
+        }
+    },
     "common": {
         "actions": {
             "cancel": "Peru",
@@ -67,9 +152,29 @@
             "expand": "Laajenna",
             "expandAll": "Laajenna kaikki",
             "filter": "Suodata",
+            "retry": "Yritä uudelleen",
             "search": "Hae",
             "showMoreOptions": "Lisää vaihtoehtoja",
             "sortBy": "Luokittele"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Kirjaudu sisään"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Käyttäjänimi tai salasana on virheellinen. Yritä uudelleen."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Salasana"
+                },
+                "username": {
+                    "compact": "Käyttäjänimi"
+                }
+            },
+            "title": "Kirjaudu sisään {{ host }}in"
         },
         "confirmation": {
             "title": "Oletko varma?"
@@ -123,6 +228,11 @@
             "emptyHome": {
                 "description": "Olet lukenut kaikki kirjahyllyssäsi tällä hetkellä olevat julkaisut.",
                 "title": "Olet ajan tasalla"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Näytä äskettäin kuunnellut erikseen"
             }
         },
         "title": "Koti"

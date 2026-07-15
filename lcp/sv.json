@@ -25,7 +25,7 @@
                 "more": "Lär dig mer…",
                 "title": "Vad är LCP?"
             },
-            "message": "Denna publikation kräver ett LCP-lösenord att öppna. Detta tillhandahålls av ditt bibliotek eller bokhandel. Ange det en gång så är du redo att läsa på den här enheten.",
+            "message": "Du måste ha ett LCP-lösenord för att öppna den här boken. Du får lösenordet av ditt bibliotek eller bokaffär. Ange det en gång så sparas det på den här enheten.",
             "passphrase": {
                 "hint": "**Tips:** {{ hint }}",
                 "placeholder": "Lösenord"
@@ -55,8 +55,8 @@
                     "descriptive_other": "Inlämnas senast om {{ count }} dagar"
                 },
                 "hours": {
-                    "descriptive_one": "Inlämnas om {{ count }} timme",
-                    "descriptive_other": "Inlämnas om {{ count }} timmar"
+                    "descriptive_one": "Förfaller om {{ count }} timme",
+                    "descriptive_other": "Förfaller om {{ count }} timmar"
                 },
                 "minutes": {
                     "descriptive_one": "Inlämnas om {{ count }} minut",
