@@ -1,1 +1,46 @@
-{}
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Pratęsti",
+                "descriptive": "Pratęsti skolinimo terminą"
+            },
+            "return": {
+                "compact": "Grąžinti",
+                "confirmation": "Ar tikrai norite grąžinti „{{ title }}“? Šio veiksmo negalima atšaukti.",
+                "descriptive": "Grąžinti leidinį"
+            }
+        },
+        "dialog": {
+            "actions": {
+                "cancel": "Atšaukti",
+                "continue": "Tęsti",
+                "recoverPassphrase": "Pamiršote slaptafrazę?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Neteisinga slaptafrazė."
+            },
+            "info": {
+                "more": "Sužinoti daugiau…",
+                "title": "Kas yra LCP?"
+            },
+            "passphrase": {
+                "hint": "**Užuomina:** {{ hint }}",
+                "placeholder": "Slaptafrazė"
+            },
+            "title": "Įveskite slaptafrazę"
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Šis leidinys jau grąžintas arba jo skolinimo laikas pasibaigęs.",
+            "invalidRenewalPeriod": "Negalima pratęsti šio leidinio skolinimo termino iki nurodytos datos. Pabandykite kitą datą.",
+            "missingPassphrase": "Šiam leidiniui atverti reikalinga slaptafrazė. Norėdami gauti slaptafrazę, susisiekite su licencijos teikėju.",
+            "renewFailed": "Nepavyko pratęsti leidinio skolinimo laikotarpio. Kreipkitės pagalbos į paslaugos teikėją.",
+            "returnFailed": "Nepavyko grąžinti leidinio. Kreipkitės pagalbos į paslaugos teikėją.",
+            "statusCancelled": "{{ date }} atšaukėte prieigą prie šio leidinio. Jei norite atkurti prieigą, susisiekite su licencijos teikėju.",
+            "statusExpiredStart": "Šis leidinys bus prieinamas {{ date }}."
+        },
+        "labels": {
+            "expired": "Pasibaigęs"
+        }
+    }
+}
