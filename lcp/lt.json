@@ -21,9 +21,11 @@
                 "incorrectPassphrase": "Neteisinga slaptafrazė."
             },
             "info": {
+                "body": "Šis leidinys apsaugotas licencijuoto turinio apsauga (Licensed Content Protection, LCP). Tai – DRM technologija, apsauganti nuo neteisėto kopijavimo ir kartu užtikrinanti paprastą skaitymo patirtį. LCP yra atviras standartas, suderinantis patogumą naudotojui ir leidėjų poreikius.",
                 "more": "Sužinoti daugiau…",
                 "title": "Kas yra LCP?"
             },
+            "message": "Šiam leidiniui atverti reikalinga LCP slaptafrazė, kurią suteikia jūsų biblioteka arba knygynas. Įveskite ją vieną kartą ir galėsite skaityti šiame įrenginyje.",
             "passphrase": {
                 "hint": "**Užuomina:** {{ hint }}",
                 "placeholder": "Slaptafrazė"
@@ -32,15 +34,44 @@
         },
         "errors": {
             "alreadyReturnedOrExpired": "Šis leidinys jau grąžintas arba jo skolinimo laikas pasibaigęs.",
+            "copyForbidden": "Viršijote maksimalų leidžiamą nukopijuoti simbolių skaičių.",
+            "invalidLicense": "Nepavyko patvirtinti šio leidinio licencijos. Dėl pagalbos kreipkitės į licencijos teikėją.",
             "invalidRenewalPeriod": "Negalima pratęsti šio leidinio skolinimo termino iki nurodytos datos. Pabandykite kitą datą.",
             "missingPassphrase": "Šiam leidiniui atverti reikalinga slaptafrazė. Norėdami gauti slaptafrazę, susisiekite su licencijos teikėju.",
             "renewFailed": "Nepavyko pratęsti leidinio skolinimo laikotarpio. Kreipkitės pagalbos į paslaugos teikėją.",
             "returnFailed": "Nepavyko grąžinti leidinio. Kreipkitės pagalbos į paslaugos teikėją.",
             "statusCancelled": "{{ date }} atšaukėte prieigą prie šio leidinio. Jei norite atkurti prieigą, susisiekite su licencijos teikėju.",
-            "statusExpiredStart": "Šis leidinys bus prieinamas {{ date }}."
+            "statusExpiredEnd": "Šio leidinio skolinimo terminas baigėsi {{ date }}. Norėdami jį pasiskolinti dar kartą, susisiekite su savo biblioteka.",
+            "statusExpiredStart": "Šis leidinys bus prieinamas {{ date }}.",
+            "statusReturned": "Šį leidinį grąžinote {{ date }}. Norėdami jį pasiskolinti dar kartą, susisiekite su savo biblioteka.",
+            "statusRevoked_few": "Jūsų paslaugos teikėjas {{ date }} atšaukė prieigą prie šio leidinio. Prieiga prie jo buvo atlikta naudojant {{ count }} įrenginius. Norėdami gauti daugiau informacijos, susisiekite su paslaugos teikėju.",
+            "statusRevoked_one": "Jūsų paslaugos teikėjas {{ date }} atšaukė prieigą prie šio leidinio. Prieiga prie jo buvo atlikta naudojant {{ count }} įrenginį. Norėdami gauti daugiau informacijos, susisiekite su paslaugos teikėju.",
+            "statusRevoked_other": "Jūsų paslaugos teikėjas {{ date }} atšaukė prieigą prie šio leidinio. Prieiga prie jo buvo atlikta naudojant {{ count }} įrenginių. Norėdami gauti daugiau informacijos, susisiekite su paslaugos teikėju."
         },
         "labels": {
-            "expired": "Pasibaigęs"
+            "expired": "Pasibaigęs",
+            "expiresIn": {
+                "days": {
+                    "descriptive_few": "Baigiasi po {{ count }} dienų",
+                    "descriptive_one": "Baigiasi po {{ count }} dienos",
+                    "descriptive_other": "Baigiasi po {{ count }} dienų"
+                },
+                "hours": {
+                    "descriptive_few": "Baigiasi po {{ count }} valandų",
+                    "descriptive_one": "Baigiasi po {{ count }} valandos",
+                    "descriptive_other": "Baigiasi po {{ count }} valandų"
+                },
+                "minutes": {
+                    "descriptive_few": "Baigiasi po {{ count }} minučių",
+                    "descriptive_one": "Baigiasi po {{ count }} minutės",
+                    "descriptive_other": "Baigiasi po {{ count }} minučių"
+                },
+                "months": {
+                    "descriptive_few": "Baigiasi po {{ count }} mėnesių",
+                    "descriptive_one": "Baigiasi po {{ count }} mėnesio",
+                    "descriptive_other": "Baigiasi po {{ count }} mėnesių"
+                }
+            }
         }
     }
 }
