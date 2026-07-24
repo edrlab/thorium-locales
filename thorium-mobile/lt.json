@@ -38,6 +38,11 @@
             "samples": "Ištraukos",
             "type": "Tipas"
         },
+        "sidebar": {
+            "section": {
+                "explore": "Atraskite"
+            }
+        },
         "sort": {
             "author": "Autorių",
             "finished": "Užbaigimo datą",
@@ -48,7 +53,8 @@
         "title": "Knygų lentyna",
         "view": {
             "grid": "Tinklelis",
-            "list": "Sąrašas"
+            "list": "Sąrašas",
+            "title": "Atvaizdavimo režimas"
         }
     },
     "browser": {
@@ -219,7 +225,8 @@
                 "title": "Jus sveikina Thorium Reader"
             },
             "emptyHome": {
-                "description": "Perskaitėte visus leidinius, šiuo metu esančius jūsų knygų lentynoje."
+                "description": "Perskaitėte visus leidinius, šiuo metu esančius jūsų knygų lentynoje.",
+                "title": "Viskas perskaityta"
             }
         },
         "settings": {
