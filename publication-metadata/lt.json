@@ -1,8 +1,318 @@
 {
     "publication": {
         "format": {
+            "audiobook": "Garsinė knyga",
+            "audiobookJSON": "Garsinės knygos manifestas",
+            "cbz": "Komiksų archyvas",
+            "divina": "Divina leidinys",
+            "divinaJSON": "Divina leidinio manifestas",
             "epub": "EPUB",
-            "pdf": "PDF"
+            "lcpa": "LCP-apsaugota garsinė knyga",
+            "lcpdf": "LCP-apsaugotas PDF",
+            "lcpl": "LCP licencijos dokumentas",
+            "pdf": "PDF",
+            "rwp": "Readium internetinis leidinys",
+            "rwpm": "Readium internetinio leidinio manifestas",
+            "zab": "Garsinės knygos archyvas",
+            "zip": "ZIP archyvas"
+        },
+        "kind": {
+            "audiobook_few": "garsinės knygos",
+            "audiobook_one": "garsinė knyga",
+            "audiobook_other": "garsinių knygų",
+            "book_few": "knygos",
+            "book_one": "knyga",
+            "book_other": "knygų",
+            "comic_few": "komiksai",
+            "comic_one": "komiksas",
+            "comic_other": "komiksų",
+            "document_few": "dokumentai",
+            "document_one": "dokumentas",
+            "document_other": "dokumentų"
+        },
+        "metadata": {
+            "accessibility": {
+                "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Informacijos nėra",
+                        "publisher-contact": "Norėdami gauti daugiau informacijos apie šio produkto prieinamumą, susisiekite su leidėju: ",
+                        "title": "Prieinamumo santrauka"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "Įtrauktos ARIA rolės",
+                            "descriptive": "Turinys papildytas ARIA rolėmis, siekiant optimizuoti organizavimą ir palengvinti naršymą"
+                        },
+                        "audio-descriptions": "Garsinis vaizdavimas",
+                        "braille": "Brailio raštas",
+                        "color-not-sole-means-of-conveying-information": "Spalva nėra vienintelė informacijos perdavimo priemonė",
+                        "dyslexia-readability": "Skaitomumas turintiems disleksiją",
+                        "full-ruby-annotations": "Pilnos „ruby“ anotacijos",
+                        "high-contrast-between-foreground-and-background-audio": "Didelis kontrastas tarp priekinio plano ir foninio garso",
+                        "high-contrast-between-text-and-background": "Didelis kontrastas tarp priekinio plano teksto ir fono",
+                        "large-print": "Padidintas šriftas",
+                        "page-breaks": {
+                            "compact": "Įtraukti puslapių skirtukai",
+                            "descriptive": "Įtraukti puslapių skirtukai iš pradinio spausdinto šaltinio"
+                        },
+                        "ruby-annotations": "Dalinės „ruby“ anotacijos",
+                        "sign-language": "Gestų kalba",
+                        "tactile-graphics": {
+                            "compact": "Įtraukta taktilinė grafika",
+                            "descriptive": "Integruota taktilinė grafika, kad vaizdiniai elementai būtų lengviau prieinami neregiams"
+                        },
+                        "tactile-objects": "Taktiliniai 3D objektai",
+                        "text-to-speech-hinting": "Pateikiamos balso sintezės gairės",
+                        "title": "Papildoma prieinamumo informacija",
+                        "ultra-high-contrast-between-text-and-background": "Itin didelis kontrastas tarp teksto ir fono",
+                        "visible-page-numbering": "Matoma puslapių numeracija",
+                        "without-background-sounds": "Nėra foninių garsų"
+                    },
+                    "conformance": {
+                        "a": {
+                            "compact": "Šis leidinys atitinka minimalius prieinamumo standartus",
+                            "descriptive": "Leidinyje yra atitikties pareiškimas, jog jis atitinka EPUB Accessibility ir WCAG 2 A lygio standartą"
+                        },
+                        "aa": {
+                            "compact": "Šis leidinys atitinka priimtus prieinamumo standartus",
+                            "descriptive": "Leidinyje yra atitikties pareiškimas, jog jis atitinka EPUB Accessibility ir WCAG 2 AA lygio standartą"
+                        },
+                        "aaa": {
+                            "compact": "Šis leidinys viršija priimtus prieinamumo standartus",
+                            "descriptive": "Leidinyje yra atitikties pareiškimas, jog jis atitinka EPUB Accessibility ir WCAG 2 AAA lygio standartą"
+                        },
+                        "certifier": "Leidinį sertifikavo ",
+                        "certifier-credentials": "Sertifikuotojo įgaliojimas yra ",
+                        "details": {
+                            "certification-info": "Leidinys buvo sertifikuotas ",
+                            "certifier-report": "Daugiau informacijos rasite sertifikuotojo ataskaitoje",
+                            "claim": "Šis leidinys teigia atitinkantis",
+                            "epub-accessibility-1-0": "EPUB Accessibility 1.0",
+                            "epub-accessibility-1-1": "EPUB Accessibility 1.1",
+                            "level-a": "A lygį",
+                            "level-aa": "AA lygį",
+                            "level-aaa": "AAA lygį",
+                            "wcag-2-0": {
+                                "compact": "WCAG 2.0",
+                                "descriptive": "Žiniatinklio turinio prieinamumo gairės (WCAG) 2.0"
+                            },
+                            "wcag-2-1": {
+                                "compact": "WCAG 2.1",
+                                "descriptive": "Žiniatinklio turinio prieinamumo gairės (WCAG) 2.1"
+                            },
+                            "wcag-2-2": {
+                                "compact": "WCAG 2.2",
+                                "descriptive": "Žiniatinklio turinio prieinamumo gairės (WCAG) 2.2"
+                            }
+                        },
+                        "details-title": "Išsami atitikties informacija",
+                        "no": "Informacijos nėra",
+                        "title": "Atitiktis",
+                        "unknown-standard": "Šio leidinio atitikties priimtiems prieinamumo standartams nustatyti negalima"
+                    },
+                    "hazards": {
+                        "flashing": {
+                            "compact": "Blykčiojantis turinys",
+                            "descriptive": "Leidinyje yra blykčiojančio turinio, galinčio sukelti jautrumo šviesai priepuolius"
+                        },
+                        "flashing-none": {
+                            "compact": "Nėra blykčiojimo pavojų",
+                            "descriptive": "Leidinyje nėra blykčiojančio turinio, galinčio sukelti jautrumo šviesai priepuolius"
+                        },
+                        "flashing-unknown": {
+                            "compact": "Blykčiojimo pavojų buvimas nežinomas",
+                            "descriptive": "Nepavyko nustatyti blykčiojančio turinio, galinčio sukelti jautrumo šviesai priepuolius, buvimo"
+                        },
+                        "motion": {
+                            "compact": "Judesio imitavimas",
+                            "descriptive": "Leidinyje yra judesio imitacijų, galinčių sukelti jūros ligą"
+                        },
+                        "motion-none": {
+                            "compact": "Nėra judesio imitavimo pavojų",
+                            "descriptive": "Leidinyje nėra judesio imitacijų, galinčių sukelti jūros ligą"
+                        },
+                        "motion-unknown": {
+                            "compact": "Judesio imitavimo pavojų buvimas nežinomas",
+                            "descriptive": "Nepavyko nustatyti judesio imitacijų, galinčių sukelti jūros ligą, buvimo"
+                        },
+                        "no-metadata": "Informacijos nėra",
+                        "none": {
+                            "compact": "Pavojų nėra",
+                            "descriptive": "Leidinyje nėra jokių pavojų"
+                        },
+                        "sound": {
+                            "compact": "Garsai",
+                            "descriptive": "Leidinyje yra garsų, galinčių sukelti jautrumo problemų"
+                        },
+                        "sound-none": {
+                            "compact": "Nėra garsų pavojų",
+                            "descriptive": "Leidinyje nėra garsų, galinčių sukelti jautrumo problemų"
+                        },
+                        "sound-unknown": {
+                            "compact": "Garsų pavojų buvimas nežinomas",
+                            "descriptive": "Nepavyko nustatyti garsų, galinčių sukelti jautrumo problemų, buvimo"
+                        },
+                        "title": "Pavojai",
+                        "unknown": "Pavojų buvimas nežinomas"
+                    },
+                    "legal-considerations": {
+                        "exempt": {
+                            "compact": "Teigiama, kad kai kuriose jurisdikcijose taikoma prieinamumo išimtis",
+                            "descriptive": "Leidinys teigia, kad kai kuriose jurisdikcijose taikoma prieinamumo išimtis"
+                        },
+                        "no-metadata": "Informacijos nėra",
+                        "title": "Teisiniai aspektai"
+                    },
+                    "navigation": {
+                        "index": {
+                            "compact": "Rodyklė",
+                            "descriptive": "Rodyklė su nuorodomis į susietus įrašus"
+                        },
+                        "no-metadata": "Informacijos nėra",
+                        "page-navigation": {
+                            "compact": "Eiti į puslapį",
+                            "descriptive": "Puslapių sąrašas, skirtas pereiti į spausdintinos leidinio versijos puslapius"
+                        },
+                        "structural": {
+                            "compact": "Antraštės",
+                            "descriptive": "Elementai, tokie kaip antraštės, lentelės ir kt., skirti struktūrizuotam naršymui"
+                        },
+                        "title": "Naršymas",
+                        "toc": {
+                            "compact": "Turinys",
+                            "descriptive": "Turinys su nuorodomis į visus teksto skyrius"
+                        }
+                    },
+                    "rich-content": {
+                        "accessible-chemistry-as-latex": {
+                            "compact": "Cheminės formulės kaip LaTeX",
+                            "descriptive": "Cheminės formulės prieinamu formatu (LaTeX)"
+                        },
+                        "accessible-chemistry-as-mathml": {
+                            "compact": "Cheminės formulės kaip MathML",
+                            "descriptive": "Cheminės formulės prieinamu formatu (MathML)"
+                        },
+                        "accessible-math-as-latex": {
+                            "compact": "Matematinės formulės kaip LaTeX",
+                            "descriptive": "Matematinės formulės prieinamu formatu (LaTeX)"
+                        },
+                        "accessible-math-described": "Pateikiami tekstiniai matematinių formulių aprašymai",
+                        "closed-captions": {
+                            "compact": "Vaizdo įrašuose yra uždarieji subtitrai",
+                            "descriptive": "Leidiniuose esantys vaizdo įrašai turi uždaruosius subtitrus"
+                        },
+                        "extended-descriptions": "Informaciniai vaizdai aprašomi išplėstiniais aprašymais",
+                        "math-as-mathml": {
+                            "compact": "Matematinės formulės kaip MathML",
+                            "descriptive": "Matematinės formulės prieinamu formatu (MathML)"
+                        },
+                        "open-captions": {
+                            "compact": "Vaizdo įrašuose yra atvirieji subtitrai",
+                            "descriptive": "Leidiniuose esantys vaizdo įrašai turi atviruosius subtitrus"
+                        },
+                        "title": "Raiškusis turinys",
+                        "transcript": "Pateikiamas(-i) transkriptas(-ai)",
+                        "unknown": "Informacijos nėra"
+                    },
+                    "ways-of-reading": {
+                        "nonvisual-reading": {
+                            "alt-text": {
+                                "compact": "Turi alternatyvųjį tekstą",
+                                "descriptive": "Turi alternatyviojo teksto aprašymus vaizdams"
+                            },
+                            "no-metadata": "Informacijos apie nevizualinį skaitymą nėra",
+                            "none": {
+                                "compact": "Neįskaitomas balso sinteze ar Brailio eilute",
+                                "descriptive": "Turinys negali būti perskaitytas balso sinteze ar Brailio eilute"
+                            },
+                            "not-fully": {
+                                "compact": "Nepilnai skaitomas balso sinteze ar Brailio eilute",
+                                "descriptive": "Ne visas turinys gali būti perskaitytas balso sinteze ar Brailio eilute"
+                            },
+                            "readable": {
+                                "compact": "Skaitomas balso sinteze ar Brailio eilute",
+                                "descriptive": "Visas turinys gali būti perskaitytas balso sinteze ar Brailio eilute"
+                            }
+                        },
+                        "prerecorded-audio": {
+                            "complementary": {
+                                "compact": "Iš anksto įrašyti garso įrašai",
+                                "descriptive": "Turinyje įterpti iš anksto įrašyti garso įrašai"
+                            },
+                            "no-metadata": "Informacijos apie iš anksto įrašytus garso įrašus nėra",
+                            "only": {
+                                "compact": "Tik iš anksto įrašytas garsas",
+                                "descriptive": "Garsinė knyga be teksto alternatyvos"
+                            },
+                            "synchronized": {
+                                "compact": "Garso įrašas, sinchronizuotas su tekstu",
+                                "descriptive": "Visas turinys prieinamas kaip garso įrašas, sinchronizuotas su tekstu"
+                            }
+                        },
+                        "title": "Skaitymo būdai",
+                        "visual-adjustments": {
+                            "modifiable": {
+                                "compact": "Galima keisti išvaizdą",
+                                "descriptive": "Priklausomai nuo skaitymo sistemos galimybių galima keisti teksto išvaizdą ir puslapio išdėstymą (šriftų šeimą ir dydį, tarpus tarp pastraipų, sakinių, žodžių ir raidžių, fono ir teksto spalvą)"
+                            },
+                            "unknown": "Informacijos apie išvaizdos keitimo galimybes nėra",
+                            "unmodifiable": {
+                                "compact": "Išvaizdos keisti negalima",
+                                "descriptive": "Teksto ir puslapio išdėstymo keisti negalima, nes skaitymo patirtis artima spausdintai versijai, tačiau skaitymo sistemos vis tiek gali teikti mastelio parinktis"
+                            }
+                        }
+                    }
+                }
+            },
+            "altIdentifier_few": "alternatyvūs identifikatoriai",
+            "altIdentifier_one": "alternatyvus identifikatorius",
+            "altIdentifier_other": "alternatyvių identifikatorių",
+            "artist_few": "atlikėjai",
+            "artist_one": "atlikėjas",
+            "artist_other": "atlikėjų",
+            "author_few": "autoriai",
+            "author_one": "autorius",
+            "author_other": "autorių",
+            "collection_few": "redakcinės kolekcijos",
+            "collection_one": "redakcinė kolekcija",
+            "collection_other": "redakcinių kolekcijų",
+            "description": "aprašymas",
+            "duration": "trukmė",
+            "editor_few": "redaktoriai",
+            "editor_one": "redaktorius",
+            "editor_other": "redaktorių",
+            "identifier_few": "identifikatoriai",
+            "identifier_one": "identifikatorius",
+            "identifier_other": "identifikatorių",
+            "illustrator_few": "iliustratoriai",
+            "illustrator_one": "iliustratorius",
+            "illustrator_other": "iliustratorių",
+            "imprint_few": "leidimo duomenys",
+            "imprint_one": "leidimo domuo",
+            "imprint_other": "leidimo duomenų",
+            "language_few": "kalbos",
+            "language_one": "kalba",
+            "language_other": "kalbų",
+            "modified": "keitimo data",
+            "narrator_few": "diktoriai",
+            "narrator_one": "diktorius",
+            "narrator_other": "diktorių",
+            "numberOfPages": "puslapių skaičius",
+            "published": "leidimo data",
+            "publisher_few": "leidėjai",
+            "publisher_one": "leidėjas",
+            "publisher_other": "leidėjų",
+            "series_few": "serijos",
+            "series_one": "serija",
+            "series_other": "serijų",
+            "subject_few": "temos",
+            "subject_one": "tema",
+            "subject_other": "temų",
+            "subtitle": "paantraštė",
+            "title": "pavadinimas",
+            "translator_few": "vertėjai",
+            "translator_one": "vertėjas",
+            "translator_other": "vertėjų"
         }
     }
 }
