@@ -250,7 +250,7 @@
         },
         "emptyState": {
             "downloads": {
-                "description": "Downloads you start from the catalog or by importing an LCP license will appear here.",
+                "description": "You don't have any active downloads right now.",
                 "title": "No active downloads"
             }
         },
