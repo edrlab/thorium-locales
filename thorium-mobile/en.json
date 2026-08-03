@@ -236,6 +236,48 @@
         },
         "title": "Home"
     },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Hide"
+            },
+            "pause": {
+                "compact": "Pause"
+            },
+            "resume": {
+                "compact": "Resume"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "You don't have any active downloads right now.",
+                "title": "No active downloads"
+            }
+        },
+        "events": {
+            "batchAdded_one": "Added {{ count }} publication",
+            "batchAdded_other": "Added {{ count }} publications",
+            "batchMixed": "{{ added }} added, {{ failed }} failed",
+            "batchRunning_one": "Importing {{ count }} publication…",
+            "batchRunning_other": "Importing {{ count }} publications…",
+            "taskAdded": "Added \"{{ title }}\"",
+            "taskFailed": "Couldn't add \"{{ title }}\"",
+            "taskRunning": "Importing \"{{ title }}\"…"
+        },
+        "status": {
+            "added": "Added",
+            "cancelled": "Cancelled",
+            "downloading": "Downloading…",
+            "failed": "Failed",
+            "paused": "Paused",
+            "processing": "Importing…",
+            "queued": "Waiting…"
+        },
+        "title": {
+            "batch": "Imports",
+            "downloads": "Downloads"
+        }
+    },
     "intents": {
         "openBook": {
             "title": "Open Book"
