@@ -236,6 +236,24 @@
         },
         "title": "Pradžia"
     },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Slėpti"
+            },
+            "pause": {
+                "compact": "Pristabdyti"
+            },
+            "resume": {
+                "compact": "Pratęsti"
+            }
+        },
+        "events": {
+            "batchAdded_few": "Pridėti {{ count }} leidiniai",
+            "batchAdded_one": "Pridėtas {{ count }} leidinys",
+            "batchAdded_other": "Pridėta {{ count }} leidinių"
+        }
+    },
     "intents": {
         "openBook": {
             "title": "Atverti knygą"
