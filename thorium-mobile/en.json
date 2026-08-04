@@ -257,7 +257,13 @@
         "events": {
             "batchAdded_one": "Added {{ count }} publication",
             "batchAdded_other": "Added {{ count }} publications",
-            "batchMixed": "{{ added }} added, {{ failed }} failed",
+            "batchMixed": {
+                "added_one": "{{ count }} added",
+                "added_other": "{{ count }} added",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_one": "{{ count }} failed",
+                "failed_other": "{{ count }} failed"
+            },
             "batchRunning_one": "Importing {{ count }} publication…",
             "batchRunning_other": "Importing {{ count }} publications…",
             "taskAdded": "Added \"{{ title }}\"",
