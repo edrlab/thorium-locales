@@ -88,7 +88,7 @@
             },
             "browse": {
                 "compact": "Naviguer",
-                "descriptive": "Naviguer le catalogue"
+                "descriptive": "Naviguer dans le catalogue"
             },
             "edit": {
                 "compact": "Modifier",
@@ -113,7 +113,7 @@
             "errors": {
                 "invalidName": "Saisissez un nom valide.",
                 "invalidUrl": "Saisissez une URL valide.",
-                "unsupportedCatalog": "Ce catalogue n'est pas supporté."
+                "unsupportedCatalog": "Ce type de catalogue n'est pas supporté."
             },
             "fields": {
                 "color": {
@@ -271,9 +271,9 @@
             "batchRunning_many": "Importation de {{ count }} publications…",
             "batchRunning_one": "Importation d'une publication…",
             "batchRunning_other": "Importation de {{ count }} publications…",
-            "taskAdded": "« {{ title }} » ajoutée",
-            "taskFailed": "Impossible d'ajouter « {{ title }} »",
-            "taskRunning": "Importation de « {{ title }} »…"
+            "taskAdded": "« {{ title }} » ajoutée",
+            "taskFailed": "Impossible d'ajouter « {{ title }} »",
+            "taskRunning": "Importation de « {{ title }} »…"
         },
         "status": {
             "added": "Ajouté",
