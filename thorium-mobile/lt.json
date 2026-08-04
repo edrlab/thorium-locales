@@ -60,7 +60,7 @@
     "browser": {
         "actions": {
             "home": {
-                "compact": "Pirmas puslapis"
+                "compact": "Pradžios puslapis"
             },
             "next": {
                 "compact": "Tolesnis"
@@ -98,7 +98,7 @@
             },
             "remove": {
                 "compact": "Pašalinti",
-                "confirmation": "Ar tikrai norite pašalinti „{{ name }}“ katalogą? Šio veiksmo negalima atšaukti.",
+                "confirmation": "Ar tikrai norite pašalinti „{{ name }}“ katalogą?",
                 "descriptive": "Pašalinti katalogą"
             }
         },
@@ -112,7 +112,7 @@
             "errors": {
                 "invalidName": "Prašome įvesti tinkamą pavadinimą.",
                 "invalidUrl": "Prašome įvesti galiojantį URL adresą.",
-                "unsupportedCatalog": "Šis katalogas nepalaikomas."
+                "unsupportedCatalog": "Šio tipo katalogas nepalaikomas."
             },
             "fields": {
                 "color": {
@@ -248,10 +248,44 @@
                 "compact": "Pratęsti"
             }
         },
+        "emptyState": {
+            "downloads": {
+                "description": "Šiuo metu nėra aktyvių atsiuntimų.",
+                "title": "Nėra aktyvių atsiuntimų"
+            }
+        },
         "events": {
             "batchAdded_few": "Pridėti {{ count }} leidiniai",
             "batchAdded_one": "Pridėtas {{ count }} leidinys",
-            "batchAdded_other": "Pridėta {{ count }} leidinių"
+            "batchAdded_other": "Pridėta {{ count }} leidinių",
+            "batchMixed": {
+                "added_few": "{{ count }} pridėti",
+                "added_one": "{{ count }} pridėtas",
+                "added_other": "{{ count }} pridėta",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_few": "{{ count }} nepavyko",
+                "failed_one": "{{ count }} nepavyko",
+                "failed_other": "{{ count }} nepavyko"
+            },
+            "batchRunning_few": "Importuojami {{ count }} leidiniai…",
+            "batchRunning_one": "Importuojamas {{ count }} leidinys…",
+            "batchRunning_other": "Importuojama {{ count }} leidinių…",
+            "taskAdded": "„{{ title }}“ pridėtas",
+            "taskFailed": "Nepavyko pridėti „{{ title }}“",
+            "taskRunning": "Importuojamas „{{ title }}“…"
+        },
+        "status": {
+            "added": "Pridėtas",
+            "cancelled": "Atšauktas",
+            "downloading": "Atsiunčiama…",
+            "failed": "Nepavyko",
+            "paused": "Pristabdytas",
+            "processing": "Importuojama…",
+            "queued": "Laukiama…"
+        },
+        "title": {
+            "batch": "Importas",
+            "downloads": "Atsiuntimai"
         }
     },
     "intents": {
@@ -300,7 +334,7 @@
             },
             "remove": {
                 "compact": "Pašalinti",
-                "confirmation": "Ar tikrai norite pašalinti „{{ title }}“? Šio veiksmo negalima atšaukti."
+                "confirmation": "Ar tikrai norite pašalinti „{{ title }}“?"
             },
             "rename": {
                 "compact": "Pervadinti",
