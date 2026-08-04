@@ -265,7 +265,7 @@
             "batchRunning_other": "Aggiunta di {{ count }} pubblicazioni…",
             "taskAdded": "\"{{ title }}\" aggiunto",
             "taskFailed": "Non è stato possibile aggiungere {{ title }}\"",
-            "taskRunning": "{{ title }}\" in aggiunta…"
+            "taskRunning": "\"{{ title }}\" in aggiunta…"
         },
         "status": {
             "added": "Aggiunto",
