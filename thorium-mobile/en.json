@@ -60,7 +60,7 @@
     "browser": {
         "actions": {
             "home": {
-                "compact": "First page"
+                "compact": "Homepage"
             },
             "next": {
                 "compact": "Next"
