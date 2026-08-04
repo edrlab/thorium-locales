@@ -269,7 +269,7 @@
                 "failed_other": "{{ count }} échecs"
             },
             "batchRunning_many": "Importation de {{ count }} publications…",
-            "batchRunning_one": "Importation d'une publication…",
+            "batchRunning_one": "Importation de {{count}} publication…",
             "batchRunning_other": "Importation de {{ count }} publications…",
             "taskAdded": "« {{ title }} » ajoutée",
             "taskFailed": "Impossible d'ajouter « {{ title }} »",
