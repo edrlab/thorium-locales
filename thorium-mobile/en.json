@@ -98,7 +98,7 @@
             },
             "remove": {
                 "compact": "Remove",
-                "confirmation": "Are you sure you want to remove the catalog \"{{ name }}\"? This action cannot be undone.",
+                "confirmation": "Are you sure you want to remove the catalog \"{{ name }}\"?",
                 "descriptive": "Remove catalog"
             }
         },
@@ -112,7 +112,7 @@
             "errors": {
                 "invalidName": "Please enter a valid name.",
                 "invalidUrl": "Please enter a valid URL.",
-                "unsupportedCatalog": "This catalog is not supported."
+                "unsupportedCatalog": "This kind of catalog is not supported."
             },
             "fields": {
                 "color": {
@@ -330,7 +330,7 @@
             },
             "remove": {
                 "compact": "Remove",
-                "confirmation": "Are you sure you want to remove \"{{ title }}\"? This action cannot be undone."
+                "confirmation": "Are you sure you want to remove \"{{ title }}\"?"
             },
             "rename": {
                 "compact": "Rename",

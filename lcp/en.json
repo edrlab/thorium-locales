@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Return",
-                "confirmation": "Are you sure you want to return \"{{ title }}\"? This action cannot be undone.",
+                "confirmation": "Are you sure you want to return \"{{ title }}\"?",
                 "descriptive": "Return publication"
             }
         },
