@@ -258,7 +258,35 @@
         "events": {
             "batchAdded_many": "{{ count }} publications ajoutées",
             "batchAdded_one": "{{ count }} publication ajoutée",
-            "batchAdded_other": "{{ count }} publications ajoutées"
+            "batchAdded_other": "{{ count }} publications ajoutées",
+            "batchMixed": {
+                "added_many": "{{ count }} ajoutées",
+                "added_one": "{{ count }} ajoutée",
+                "added_other": "{{ count }} ajoutées",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_many": "{{ count }} échecs",
+                "failed_one": "{{ count }} échec",
+                "failed_other": "{{ count }} échecs"
+            },
+            "batchRunning_many": "Importation de {{ count }} publications…",
+            "batchRunning_one": "Importation d'une publication…",
+            "batchRunning_other": "Importation de {{ count }} publications…",
+            "taskAdded": "« {{ title }} » ajoutée",
+            "taskFailed": "Impossible d'ajouter « {{ title }} »",
+            "taskRunning": "Importation de « {{ title }} »…"
+        },
+        "status": {
+            "added": "Ajouté",
+            "cancelled": "Annulé",
+            "downloading": "En cours de téléchargement…",
+            "failed": "Échec",
+            "paused": "En pause",
+            "processing": "Importation…",
+            "queued": "En attente…"
+        },
+        "title": {
+            "batch": "Importations",
+            "downloads": "Téléchargements"
         }
     },
     "intents": {
