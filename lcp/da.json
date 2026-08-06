@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Aflever tilbage",
-                "confirmation": "Er du sikker på at du vil aflevere \"{{ title }}\" tilbage? Dette kan ikke gøres om.",
+                "confirmation": "Er du sikker på at du vil aflevere \"{{ title }}\" tilbage?",
                 "descriptive": "Aflever bog tilbage"
             }
         },
