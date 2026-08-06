@@ -61,7 +61,7 @@
     "browser": {
         "actions": {
             "home": {
-                "compact": "Esimene leht"
+                "compact": "Avaleht"
             },
             "next": {
                 "compact": "Järgmine"
@@ -99,7 +99,7 @@
             },
             "remove": {
                 "compact": "Eemalda",
-                "confirmation": "Kas oled kindel, et soovid „{{ name }}“ kataloogi eemaldada? Seda tegevust ei saa tagasi pöörata.",
+                "confirmation": "Kas oled kindel, et soovid „{{ name }}“ kataloogi eemaldada?",
                 "descriptive": "Eemalda kataloog"
             }
         },
@@ -113,7 +113,7 @@
             "errors": {
                 "invalidName": "Palun sisesta korrektne nimi.",
                 "invalidUrl": "Palun sisesta korrektne võrguaadress.",
-                "unsupportedCatalog": "See kataloog pole toetatud."
+                "unsupportedCatalog": "Seda tüüpi kataloog pole toetatud."
             },
             "fields": {
                 "color": {
@@ -237,6 +237,54 @@
         },
         "title": "Avaleht"
     },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Peida"
+            },
+            "pause": {
+                "compact": "Peata"
+            },
+            "resume": {
+                "compact": "Jätka"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "Sul pole ühtegi aktiivset allalaadimist hetkel pooleli.",
+                "title": "Aktiivseid allalaadimisi pole"
+            }
+        },
+        "events": {
+            "batchAdded_one": "{{ count }} väljaanne on lisatud",
+            "batchAdded_other": "{{ count }} väljaannet on lisatud",
+            "batchMixed": {
+                "added_one": "{{ count }} on lisatud",
+                "added_other": "{{ count }} on lisatud",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_one": "{{ count }} ei õnnestunud",
+                "failed_other": "{{ count }} ei õnnestunud"
+            },
+            "batchRunning_one": "Importimisel on {{ count }} väljaanne…",
+            "batchRunning_other": "Importimisel on {{ count }} väljaannet…",
+            "taskAdded": "„{{ title }}“ on lisatud",
+            "taskFailed": "„{{ title }}“ väljaande lisamine ei õnnestunud",
+            "taskRunning": "„{{ title }}“ on importimisel…"
+        },
+        "status": {
+            "added": "Lisatud",
+            "cancelled": "Katkestatud",
+            "downloading": "Allalaadimisel…",
+            "failed": "Ebaõnnestunud",
+            "paused": "Peatatud",
+            "processing": "Importimisel…",
+            "queued": "Ootel…"
+        },
+        "title": {
+            "batch": "Importimised",
+            "downloads": "Allalaadimised"
+        }
+    },
     "intents": {
         "openBook": {
             "title": "Ava raamat"
@@ -283,7 +331,7 @@
             },
             "remove": {
                 "compact": "Eemalda",
-                "confirmation": "Kas oled kindel, et soovid „{{ title }}“ raamatu eemaldada? Seda tegevust ei saa tagasi pöörata."
+                "confirmation": "Kas oled kindel, et soovid „{{ title }}“ raamatu eemaldada?"
             },
             "rename": {
                 "compact": "Muuda nime",
