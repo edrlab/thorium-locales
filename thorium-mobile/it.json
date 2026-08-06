@@ -61,7 +61,7 @@
     "browser": {
         "actions": {
             "home": {
-                "compact": "Prima pagina"
+                "compact": "Homepage"
             },
             "next": {
                 "compact": "Successiva"
@@ -99,7 +99,7 @@
             },
             "remove": {
                 "compact": "Elimina",
-                "confirmation": "Sei sicuro che vuoi eliminare il catalogo \"{{ name }}\"? Quest'azione non può essere annullata.",
+                "confirmation": "Sei sicuro che vuoi eliminare il catalogo \"{{ name }}\"?",
                 "descriptive": "Elimina il catalogo"
             }
         },
@@ -113,7 +113,7 @@
             "errors": {
                 "invalidName": "Si prega di inserire un nome valido.",
                 "invalidUrl": "Si prega di inserire un URL valido.",
-                "unsupportedCatalog": "Questo catalogo non è disponibile."
+                "unsupportedCatalog": "Questo tipo di catalogo non è disponibile."
             },
             "fields": {
                 "color": {
@@ -259,7 +259,15 @@
             "batchAdded_many": "{{ count }} pubblicazioni aggiunte",
             "batchAdded_one": "{{ count }} pubblicazione aggiunta",
             "batchAdded_other": "{{ count }} pubblicazioni aggiunte",
-            "batchMixed": "{{ added }} aggiunte, {{ failed }} fallite",
+            "batchMixed": {
+                "added_many": "{{ count }} aggiunte",
+                "added_one": "{{ count }} aggiunta",
+                "added_other": "{{ count }} aggiunte",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_many": "{{ count }} falliti",
+                "failed_one": "{{ count }} fallito",
+                "failed_other": "{{ count }} falliti"
+            },
             "batchRunning_many": "Aggiunta di {{ count }} pubblicazioni…",
             "batchRunning_one": "Aggiunta di {{ count }} pubblicazione…",
             "batchRunning_other": "Aggiunta di {{ count }} pubblicazioni…",
@@ -327,7 +335,7 @@
             },
             "remove": {
                 "compact": "Rimuovi",
-                "confirmation": "Sei sicuro di voler rimuovere \"{{ title }}\"? Questa azione è irreversibile."
+                "confirmation": "Sei sicuro di voler rimuovere \"{{ title }}\"?"
             },
             "rename": {
                 "compact": "Rinomina",
