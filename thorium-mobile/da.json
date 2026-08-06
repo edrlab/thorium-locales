@@ -60,7 +60,7 @@
     "browser": {
         "actions": {
             "home": {
-                "compact": "Første side"
+                "compact": "Forside"
             },
             "next": {
                 "compact": "Næste"
@@ -98,7 +98,7 @@
             },
             "remove": {
                 "compact": "Fjern",
-                "confirmation": "Er du sikker på at du ønsker at fjerne \"{{ name }}\"? Denne handling kan ikke fortrydes.",
+                "confirmation": "Er du sikker på at du ønsker at fjerne \"{{ name }}\"?",
                 "descriptive": "Fjern katalog"
             }
         },
@@ -112,7 +112,7 @@
             "errors": {
                 "invalidName": "Indtast venligst et gyldigt navn.",
                 "invalidUrl": "Indtast venligst en gyldig URL adresse.",
-                "unsupportedCatalog": "Kataloget understøttes ikke."
+                "unsupportedCatalog": "Denne type af katalog understøttes ikke."
             },
             "fields": {
                 "color": {
@@ -236,6 +236,54 @@
         },
         "title": "Hjem"
     },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Skjul"
+            },
+            "pause": {
+                "compact": "Pause"
+            },
+            "resume": {
+                "compact": "Genoptag"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "Du har ikke nogen aktive downloads lige nu.",
+                "title": "Ingen aktive downloads"
+            }
+        },
+        "events": {
+            "batchAdded_one": "Tilføjet {{ count }} bog",
+            "batchAdded_other": "Tilføjet {{ count }} bøger",
+            "batchMixed": {
+                "added_one": "{{ count }} tilføjet",
+                "added_other": "{{ count }} tilføjet",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_one": "{{ count }} fejlet",
+                "failed_other": "{{ count }} fejlet"
+            },
+            "batchRunning_one": "Importerer {{ count }} bog…",
+            "batchRunning_other": "Importerer {{ count }} bøger…",
+            "taskAdded": "Tilføjet \"{{ title }}\"",
+            "taskFailed": "Kunne ikke tilføje \"{{ title }}\"",
+            "taskRunning": "Importerer \"{{ title }}\"…"
+        },
+        "status": {
+            "added": "Tilføjet",
+            "cancelled": "Annulleret",
+            "downloading": "Downloader…",
+            "failed": "Fejlet",
+            "paused": "På pause",
+            "processing": "Importerer…",
+            "queued": "Afventer…"
+        },
+        "title": {
+            "batch": "Import",
+            "downloads": "Downloads"
+        }
+    },
     "intents": {
         "openBook": {
             "title": "Åben bog"
@@ -282,7 +330,7 @@
             },
             "remove": {
                 "compact": "Fjern",
-                "confirmation": "Er du sikker på at du vil fjerne \"{{ title }}\"? Denne handling kan ikke laves om."
+                "confirmation": "Er du sikker på at du vil fjerne \"{{ title }}\"?"
             },
             "rename": {
                 "compact": "Omdøb",
