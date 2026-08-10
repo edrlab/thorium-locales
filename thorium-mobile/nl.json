@@ -1,1 +1,50 @@
-{}
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Website"
+                }
+            },
+            "title": "Software van derden"
+        },
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\nAlle rechten voorbehouden.",
+        "title": "Over",
+        "version": "Versie {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filter"
+            },
+            "sort": {
+                "compact": "Sorteer op"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Je boekenplank is momenteel leeg.\nImporteer EPUB-, PDF-, LCPL- of CBZ-bestanden of voeg een catalogus toe.",
+                "filter": "Er zijn geen publicaties op je boekenplank die aan dit filter voldoen."
+            },
+            "title": "Geen publicaties gevonden"
+        },
+        "filter": {
+            "all": "Alle",
+            "currentlyListening": "Nu aan het luisteren",
+            "currentlyReading": "Nu aan het lezen",
+            "finished": "Afgerond",
+            "notStartedYet": "Nog niet gestart",
+            "recentlyAdded": "Recent toegevoegd",
+            "samples": "Voorbeelden",
+            "type": "Soort"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Ontdek"
+            }
+        },
+        "sort": {
+            "author": "Auteur"
+        }
+    }
+}
