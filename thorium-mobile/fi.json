@@ -61,7 +61,7 @@
     "browser": {
         "actions": {
             "home": {
-                "compact": "Ensimmäinen sivu"
+                "compact": "Kotisivu"
             },
             "next": {
                 "compact": "Seuraava"
@@ -99,7 +99,7 @@
             },
             "remove": {
                 "compact": "Poista",
-                "confirmation": "Haluatko varmasti poistaa luettelon \"{{ name }}\"? Toimintoa ei voi kumota.",
+                "confirmation": "Haluatko varmasti poistaa luettelon \"{{ name }}\"?",
                 "descriptive": "Poista luettelo"
             }
         },
@@ -113,7 +113,7 @@
             "errors": {
                 "invalidName": "Syötä kelvollinen nimi.",
                 "invalidUrl": "Syötä kelvollinen URL.",
-                "unsupportedCatalog": "Tätä luetteloa ei tueta."
+                "unsupportedCatalog": "Tämän tyyppistä luetteloa ei tueta."
             },
             "fields": {
                 "color": {
@@ -237,6 +237,54 @@
         },
         "title": "Koti"
     },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Piilota"
+            },
+            "pause": {
+                "compact": "Keskeytä"
+            },
+            "resume": {
+                "compact": "Jatka latausta"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "Sinulla ei ole nyt latauksia kesken.",
+                "title": "Ei aktiivisia latauksia"
+            }
+        },
+        "events": {
+            "batchAdded_one": "Lisätty {{ count }} julkaisu",
+            "batchAdded_other": "Lisätty {{ count }} julkaisua",
+            "batchMixed": {
+                "added_one": "{{ count }} lisätty",
+                "added_other": "{{ count }} lisättyä",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_one": "{{ count }} epäonnistunut",
+                "failed_other": "{{ count }} epäonnistunutta"
+            },
+            "batchRunning_one": "Lisää {{ count }} julkaisua…",
+            "batchRunning_other": "Lisää {{ count }} julkaisua…",
+            "taskAdded": "Lisätty \"{{ title }}\"",
+            "taskFailed": "Ei voitu lisätä julkaisua \"{{ title }}\"",
+            "taskRunning": "Lisätään julkaisua \"{{ title }}\"…"
+        },
+        "status": {
+            "added": "Lisätty",
+            "cancelled": "Peruttu",
+            "downloading": "Ladataan…",
+            "failed": "Epäonnistui",
+            "paused": "Keskeytetty",
+            "processing": "Lisätään…",
+            "queued": "Odotetaan…"
+        },
+        "title": {
+            "batch": "Lisätyt",
+            "downloads": "Lataukset"
+        }
+    },
     "intents": {
         "openBook": {
             "title": "Avaa kirja"
@@ -283,7 +331,7 @@
             },
             "remove": {
                 "compact": "Poista",
-                "confirmation": "Haluatko varmasti poistaa kohteen \"{{ title }}\"? Tätä toimintoa ei voi kumota."
+                "confirmation": "Haluatko varmasti poistaa julkaisun \"{{ title }}\"?"
             },
             "rename": {
                 "compact": "Nimeä uudelleen",
