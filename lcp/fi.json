@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Palauta",
-                "confirmation": "Haluatko varmasti palauttaa kohteen \"{{ title }}\"? Tätä toimintoa ei voi kumota.",
+                "confirmation": "Haluatko varmasti palauttaa julkaisun \"{{ title }}\"?",
                 "descriptive": "Palauta julkaisu"
             }
         },
