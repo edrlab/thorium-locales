@@ -64,6 +64,9 @@
             "goToPreviousSentence": {
                 "compact": "السابق",
                 "descriptive": "العبارة السابقة"
+            },
+            "readAloud": {
+                "compact": "إقرأ بصوت عال"
             }
         },
         "annotations": {
@@ -94,6 +97,51 @@
             "sort": {
                 "lastAdded": {
                     "compact": "المضاف حديثًا"
+                },
+                "lastEdited": {
+                    "compact": "تم تعديله مؤخرا"
+                },
+                "progression": {
+                    "compact": "التقدم"
+                }
+            }
+        },
+        "playback": {
+            "actions": {
+                "pause": "إيقاف",
+                "play": "تشغيل",
+                "skipBackward": {
+                    "compact": "ترجيع",
+                    "descriptive": "ترجيع سريع"
+                },
+                "skipForward": {
+                    "compact": "تقديم",
+                    "descriptive": "تقديم سريع"
+                }
+            },
+            "preferences": {
+                "audio": {
+                    "skipBackwardInterval": "حد الترجيع السريع",
+                    "skipForwardInterval": "حد التقديم السريع",
+                    "skipInterval": "حد التجاوز",
+                    "title": "إعدادات الصوت",
+                    "volume": "الصوت"
+                },
+                "autoPlay": {
+                    "label": "التشغيل المتواصل",
+                    "title": "التشغيل التلقائي"
+                },
+                "playbackRate": {
+                    "compact": "السرعة",
+                    "descriptive": "سرعة التشغيل"
+                },
+                "sleepTimer": {
+                    "compact": "المؤقت",
+                    "descriptive": "مؤقت النوم",
+                    "presets": {
+                        "endOfChapter": "نهاية الفصل",
+                        "endOfResource": "نهاية الموارد"
+                    }
                 }
             }
         },
@@ -157,12 +205,20 @@
                 "title": "تخطيط"
             },
             "letterSpacing": "تباعد الأحرف",
+            "ligatures": {
+                "label": "تشغيل الروابط الحرفية",
+                "title": "الروابط الحرفية"
+            },
             "lineHeight": {
                 "default": "افتراضي",
                 "large": "واسع",
                 "medium": "متوازن",
                 "small": "ضيق",
                 "title": "ارتفاع السطر"
+            },
+            "noRuby": {
+                "label": "إخفاء الشروح",
+                "title": "الشروح"
             },
             "offsetFirstPage": "عرض الصفحة الأولى بمفردها",
             "paragraphIndent": "مسافة البادئة للفقرات",
@@ -265,6 +321,12 @@
             },
             "percentage": "{{ percentage }}%",
             "positionsLeft": {
+                "compact_few": "تبقى",
+                "compact_many": "تبقى",
+                "compact_one": "تبقى",
+                "compact_other": "تبقى",
+                "compact_two": "تبقى",
+                "compact_zero": "تبقى",
                 "descriptive_few": "تبقى{{ count }} مواضع",
                 "descriptive_many": "تبقى{{ count }} موضع",
                 "descriptive_one": "تبقى موضع واحد",
@@ -273,6 +335,12 @@
                 "descriptive_zero": "لا توجد مواضع متبقية"
             },
             "positionsLeftInChapter": {
+                "compact_few": "{{ count }} صفحات متبقية",
+                "compact_many": "{{ count }} صفحة متبقية",
+                "compact_one": "صفحة واحدة متبقية",
+                "compact_other": "{{ count }} صفحة متبقية",
+                "compact_two": "صفحتان متبقيتان",
+                "compact_zero": "إنتهى",
                 "descriptive_few": "تبقى {{ count }}مواضع الفصل",
                 "descriptive_many": "تبقى {{ count }}موضع الفصل",
                 "descriptive_one": "تبقى موضع واحد في الفصل",
