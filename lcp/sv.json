@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Lämna tillbaka",
-                "confirmation": "Är du säker på att du vill återlämna \"{{ title }}\"? Denna åtgärd kan inte ångras.",
+                "confirmation": "Är du säker på att du vill återlämna \"{{ title }}\"?",
                 "descriptive": "Återlämna publikation"
             }
         },
