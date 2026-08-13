@@ -173,7 +173,7 @@
             },
             "remove": {
                 "compact": "Ta bort",
-                "confirmation": "Är du säker på att du vill ta bort \"{{ title }}\"? Denna åtgärd kan inte ångras."
+                "confirmation": "Är du säker på att du vill ta bort \"{{ title }}\"?"
             },
             "rename": {
                 "compact": "Byt namn",
