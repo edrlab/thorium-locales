@@ -8,7 +8,7 @@
             },
             "title": "Software de terceros"
         },
-        "copyright": "Copyright {{ year }} European Digital Reading Lab.\n\nTodos los derechos reservados.",
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\nTodos los derechos reservados.",
         "title": "Acerca de",
         "version": "Versión {{ version }} ({{ build }})"
     },
@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Tu estantería por ahora está vacía. Importe archivos EPUB, PDF o CBZ desde su dispositivo.",
+                "bookshelf": "Tu estantería por ahora está vacía. \nImporte archivos EPUB, PDF o CBZ do añade un catálogo.",
                 "filter": "No hay publicaciones en su estantería que coincidan con este filtro.",
                 "kind": "No hay publicaciones que coincidan con el tipo seleccionado. Prueba a mostrar todos los tipos para ver más títulos de tu estantería."
             },
@@ -31,6 +31,7 @@
         },
         "filter": {
             "all": "Todo",
+            "currentlyListening": "Escuchando actualmente",
             "currentlyReading": "En lectura",
             "finished": "Terminado",
             "notStartedYet": "No comenzado",
@@ -57,6 +58,90 @@
             "title": "Vista"
         }
     },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Inicio"
+            },
+            "next": {
+                "compact": "Siguiente"
+            },
+            "openInBrowser": {
+                "compact": "Abrir en el navegador"
+            },
+            "previous": {
+                "compact": "Anterior"
+            },
+            "reload": {
+                "compact": "Recargar"
+            },
+            "stop": {
+                "compact": "Detener"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Añadir",
+                "descriptive": "Añadir catálogo"
+            },
+            "browse": {
+                "compact": "Explorar",
+                "descriptive": "Explorar catálogo"
+            },
+            "edit": {
+                "compact": "Editar",
+                "descriptive": "Editar catálogo"
+            },
+            "info": {
+                "compact": "Información"
+            },
+            "remove": {
+                "compact": "Quitar",
+                "confirmation": "¿Seguro que quieres quitar el catálogo \"{{ name }}\"?",
+                "descriptive": "Quitar catálogo"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Añadir catálogo"
+            },
+            "edit": {
+                "title": "Editar catálogo"
+            },
+            "errors": {
+                "invalidName": "Introduce un nombre válido.",
+                "invalidUrl": "Introduce una URL válida.",
+                "unsupportedCatalog": "Este tipo de catálogo no es compatible."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Color"
+                },
+                "name": {
+                    "compact": "Nombre"
+                },
+                "url": {
+                    "compact": "URL",
+                    "placeholder": "https://catalogo.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Abrir catálogo en el navegador"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Añade catálogos para explorar y descargar publicaciones.",
+            "title": "Aún no hay catálogos"
+        },
+        "title": "Catálogos",
+        "user": {
+            "bookshelf": {
+                "compact": "Estantería"
+            }
+        }
+    },
     "common": {
         "actions": {
             "cancel": "Cancelar",
@@ -67,9 +152,29 @@
             "expand": "Desplegar",
             "expandAll": "Desplegar todo",
             "filter": "Filtrar",
+            "retry": "Reintentar",
             "search": "Buscar",
             "showMoreOptions": "Más opciones",
             "sortBy": "Ordenar por"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Iniciar sesión"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "El nombre de usuario o la contraseña son incorrectos. Inténtalo de nuevo."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Contraseña"
+                },
+                "username": {
+                    "compact": "Nombre de usuario"
+                }
+            },
+            "title": "Iniciar sesión en {{ host }}"
         },
         "confirmation": {
             "title": "¿Estás seguro?"
@@ -81,6 +186,7 @@
                 }
             },
             "cancelled": "Operación cancelada.",
+            "outOfMemory": "No hay suficiente memoria disponible para continuar. Cierra otras aplicaciones o inténtalo de nuevo más tarde.",
             "title": "Error",
             "unexpected": "Ha ocurrido un error. Inténtalo de nuevo."
         },
@@ -117,14 +223,71 @@
     "home": {
         "emptyState": {
             "emptyBookshelf": {
-                "title": "Bienvenido al lector Thorium"
+                "title": "Bienvenido a Thorium Reader"
             },
             "emptyHome": {
                 "description": "Todas las publicaciones de tu biblioteca están marcadas como leídas.",
                 "title": "Estás al día"
             }
         },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Mostrar los escuchados recientemente por separado"
+            }
+        },
         "title": "Inicio"
+    },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Ocultar"
+            },
+            "pause": {
+                "compact": "Pausar"
+            },
+            "resume": {
+                "compact": "Reanudar"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "No tienes descargas activas en este momento.",
+                "title": "Sin descargas activas"
+            }
+        },
+        "events": {
+            "batchAdded_many": "Se han añadido {{ count }} publicaciones",
+            "batchAdded_one": "Se han añadido {{ count }} publicación",
+            "batchAdded_other": "Se han añadido {{ count }} publicaciones",
+            "batchMixed": {
+                "added_many": "{{ count }} añadidas",
+                "added_one": "{{ count }} añadida",
+                "added_other": "{{ count }} añadidas",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_many": "{{ count }} fallidas",
+                "failed_one": "{{ count }} fallida",
+                "failed_other": "{{ count }} fallidas"
+            },
+            "batchRunning_many": "Importando {{ count }} publicaciones…",
+            "batchRunning_one": "Importando {{ count }} publicación…",
+            "batchRunning_other": "Importando {{ count }} publicaciones…",
+            "taskAdded": "Se ha añadido \"{{ title }}",
+            "taskFailed": "No se pudo añadir \"{{ title }}\"",
+            "taskRunning": "Importando \"{{ title }}\"…"
+        },
+        "status": {
+            "added": "Añadido",
+            "cancelled": "Cancelado",
+            "downloading": "Descargando…",
+            "failed": "Fallido",
+            "paused": "Pausado",
+            "processing": "Importando…",
+            "queued": "Esperando…"
+        },
+        "title": {
+            "batch": "Importaciones",
+            "downloads": "Descargas"
+        }
     },
     "intents": {
         "openBook": {
@@ -172,7 +335,7 @@
             },
             "remove": {
                 "compact": "Eliminar",
-                "confirmation": "¿Confirmar eliminación de \"{{title}}\"? Esta acción no se puede deshacer."
+                "confirmation": "¿Confirmar eliminación de \"{{title}}\"?"
             },
             "rename": {
                 "compact": "Cambiar nombre",
