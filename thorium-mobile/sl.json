@@ -1,1 +1,282 @@
-{}
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Spletna stran"
+                }
+            },
+            "title": "Programska oprema tretjih ponudnikov"
+        },
+        "copyright": "Avtorske pravice {{ year }} European Digital Reading Lab.\nVse pravice pridržane.",
+        "title": "O aplikaciji",
+        "version": "Verzija {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filter"
+            },
+            "sort": {
+                "compact": "Razvrsti po"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Vaša knjižna polica je prazna.\nUvozite datoteke EPUB, PDF, LCPL ali CBZ ali dodajte katalog.",
+                "filter": "Nobena publikacija na vaši polici ne ustreza filtru."
+            }
+        },
+        "filter": {
+            "all": "Vse",
+            "currentlyListening": "Trenutno poslušam",
+            "currentlyReading": "Trenutno berem",
+            "finished": "Končano"
+        }
+    },
+    "browser": {
+        "actions": {
+            "next": {
+                "compact": "Naprej"
+            },
+            "openInBrowser": {
+                "compact": "Odpri v brskalniku"
+            },
+            "previous": {
+                "compact": "Nazaj"
+            },
+            "reload": {
+                "compact": "Ponovno naloži"
+            },
+            "stop": {
+                "compact": "Stop"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Dodaj",
+                "descriptive": "Dodaj katalog"
+            },
+            "browse": {
+                "compact": "Brskaj",
+                "descriptive": "Brskaj po katalogu"
+            },
+            "edit": {
+                "compact": "Uredi",
+                "descriptive": "Uredi katalog"
+            },
+            "info": {
+                "compact": "Info"
+            },
+            "remove": {
+                "compact": "Odstrani",
+                "confirmation": "Ali ste prepričani, da želite odstraniti katalog \"{{ name }}\"?",
+                "descriptive": "Odstrani katalog"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Dodaj katalog"
+            },
+            "edit": {
+                "title": "Uredi katalog"
+            },
+            "errors": {
+                "invalidName": "Prosimo, vnesite veljavno ime.",
+                "invalidUrl": "Prosimo, vnesite veljavni URL.",
+                "unsupportedCatalog": "Katalog te vrste ni podprt."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Barva"
+                },
+                "name": {
+                    "compact": "Ime"
+                },
+                "url": {
+                    "compact": "URL",
+                    "placeholder": "https://catalog.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Odpri katalog v brskalniku"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Dodaj kataloge za ogled in prenos publikacij.",
+            "title": "Ni katalogov"
+        },
+        "title": "Katalogi",
+        "user": {
+            "bookshelf": {
+                "compact": "Knjižna polica"
+            }
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Prekliči",
+            "close": "Zapri",
+            "collapse": "Skrij",
+            "collapseAll": "Skrij vse",
+            "delete": "Izbriši",
+            "expand": "Razširi",
+            "expandAll": "Razširi vse",
+            "filter": "Filtriraj",
+            "retry": "Poskusi ponovno",
+            "search": "Išči",
+            "showMoreOptions": "Več",
+            "sortBy": "Razvrsti po"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Prijava"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Uporabniško ime ali geslo je napačno. Prosimo, poskusite ponovno."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Geslo"
+                },
+                "username": {
+                    "compact": "Uporabniško ime"
+                }
+            },
+            "title": "Prijava v {{ host }}"
+        },
+        "confirmation": {
+            "title": "Ali ste prepričani?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Več informacij"
+                }
+            },
+            "cancelled": "Postopek preklican."
+        }
+    },
+    "importer": {
+        "title": {
+            "downloads": "Prenosi"
+        }
+    },
+    "intents": {
+        "openBook": {
+            "title": "Odpri knjigo"
+        },
+        "openBookshelf": {
+            "description": "Odpre aplikacijo za dostop do vaše knjižne police.",
+            "title": "Odpri knjižno polico"
+        }
+    },
+    "links": {
+        "aboutApp": "O aplikaciji",
+        "aboutUs": "O nas",
+        "community": {
+            "blog": "Blog",
+            "discord": "Pridruži se skupnosti na Discordu",
+            "patreon": "Podpri nas na Patreonu",
+            "title": "Ostani na tekočem",
+            "youtube": "Sledi nam na YouTubu"
+        },
+        "help": "Pomoč in povratne informacije",
+        "info": "Info",
+        "privacyPolicy": "Politika zasebnosti",
+        "termsOfUse": "Pogoji uporabe"
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Uvozi"
+            },
+            "listen": {
+                "compact": "Poslušaj"
+            },
+            "markAsFinished": {
+                "compact": "Označi kot končano"
+            },
+            "markAsNotStarted": {
+                "compact": "Označi kot še ne začeto"
+            },
+            "markAsUnfinished": {
+                "compact": "Označi kot nedokončano"
+            },
+            "read": {
+                "compact": "Beri"
+            },
+            "remove": {
+                "compact": "Odstrani",
+                "confirmation": "Ali ste prepričani, da želite odstraniti \"{{ title }}\"?"
+            },
+            "rename": {
+                "compact": "Preimenuj",
+                "descriptive": "Preimenuj publikacijo"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Ni",
+            "sample": "Vzorec",
+            "unknownTitle": "Neznan naslov"
+        }
+    },
+    "reader": {
+        "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Pokaži dialog opomb v novem zaznamku"
+                },
+                "title": "Zaznamki in oznake"
+            },
+            "progression": {
+                "animatePageTurns": {
+                    "compact": "Animacija obračanja strani"
+                },
+                "displayCurrentProgression": {
+                    "compact": "Prikaži trenutni napredek"
+                },
+                "displayPrintPagination": {
+                    "compact": "Prikaži natisnjene številke strani"
+                },
+                "progressionStyle": {
+                    "compact": "Prikaz formata napredka"
+                },
+                "title": "Napredek"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Vedno prikaži statusno vrstico"
+                },
+                "displayOrientationLock": {
+                    "compact": "Prikaži gumb za zaklepanje orientacije zaslona pri obračanju"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Prepreči izklop zaslona"
+                },
+                "title": "Zaslon"
+            },
+            "title": "Možnosti branja"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Vedno prikaži",
+            "hidden": "Skrito",
+            "title": "Mini avdio predvajalnik",
+            "whenPlaying": "Prikaži ob predvajanju"
+        },
+        "systemSettings": "Sistemske nastavitve",
+        "theme": {
+            "dark": "Temna",
+            "light": "Svetla",
+            "system": "Sistemsko privzeta",
+            "title": "Tema"
+        },
+        "title": "Nastavitve"
+    }
+}
