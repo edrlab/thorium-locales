@@ -64,6 +64,9 @@
             "goToPreviousSentence": {
                 "compact": "Föregående",
                 "descriptive": "Föregående mening"
+            },
+            "readAloud": {
+                "compact": "Läs högt"
             }
         },
         "annotations": {
