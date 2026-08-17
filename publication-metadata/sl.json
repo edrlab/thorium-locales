@@ -1,0 +1,194 @@
+{
+    "publication": {
+        "format": {
+            "audiobook": "Zvočna knjiga",
+            "epub": "EPUB",
+            "lcpa": "Zvočna knjiga z zaščito LCP",
+            "lcpdf": "PDF z zaščito LCP",
+            "pdf": "PDF"
+        },
+        "kind": {
+            "audiobook_few": "zvočne knjige",
+            "audiobook_one": "zvočna knjiga",
+            "audiobook_other": "zvočnih knjig",
+            "audiobook_two": "zvočni knjigi",
+            "book_few": "knjige",
+            "book_one": "knjiga",
+            "book_other": "knjig",
+            "book_two": "knjigi",
+            "comic_few": "stripi",
+            "comic_one": "strip",
+            "comic_other": "stripov",
+            "comic_two": "stripa",
+            "document_few": "dokumenti",
+            "document_one": "dokument",
+            "document_other": "dokumentov",
+            "document_two": "dokumenta"
+        },
+        "metadata": {
+            "accessibility": {
+                "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Ni podatkov",
+                        "publisher-contact": "Za več informacij o dostopnosti tega izdelka se obrnite na izdajatelja. ",
+                        "title": "Povzetek dostopnosti"
+                    },
+                    "additional-accessibility-information": {
+                        "audio-descriptions": "Avdio opisi",
+                        "braille": "brajica",
+                        "color-not-sole-means-of-conveying-information": "Barva ni edino sredstvo za posredovanje informacij",
+                        "dyslexia-readability": "Berljivost pri disleksiji",
+                        "full-ruby-annotations": "Celotne ruby anotacije",
+                        "high-contrast-between-foreground-and-background-audio": "Velik kontrast med zvokom v ospredju in zvokom v ozadju",
+                        "high-contrast-between-text-and-background": "Velik kontrast med besedilom v ospredju in ozadjem",
+                        "large-print": "Veliki tisk",
+                        "page-breaks": {
+                            "compact": "Vključeni prelomi strani",
+                            "descriptive": "Vključeni prelomi strani izvirnega tiskanega vira"
+                        },
+                        "ruby-annotations": "Nekaj ruby anotacij",
+                        "sign-language": "Znakovni jezik",
+                        "tactile-graphics": {
+                            "compact": "Vključene tipne grafike",
+                            "descriptive": "Integrirane so tipne grafike za lažji dostop do vizualnih elementov za slepe"
+                        },
+                        "tactile-objects": "Taktilni 3D predmeti",
+                        "title": "Dodatne informacije o dostopnosti"
+                    },
+                    "conformance": {
+                        "a": {
+                            "compact": "Publikacija izpolnjuje minimalne standarde dostopnosti"
+                        },
+                        "aa": {
+                            "compact": "Publikacija izpolnjuje veljavne standarde dostopnosti"
+                        },
+                        "aaa": {
+                            "compact": "Publikacija presega veljavne standarde dostopnosti"
+                        },
+                        "details": {
+                            "wcag-2-0": {
+                                "compact": "WCAG 2.0",
+                                "descriptive": "Smernice za dostopnost spletnih vsebin (WCAG) 2.0"
+                            },
+                            "wcag-2-1": {
+                                "compact": "WCAG 2.1",
+                                "descriptive": "Smernice za dostopnost spletnih vsebin (WCAG) 2.1"
+                            },
+                            "wcag-2-2": {
+                                "compact": "WCAG 2.2",
+                                "descriptive": "Smernice za dostopnost spletnih vsebin (WCAG) 2.2"
+                            }
+                        },
+                        "details-title": "Podrobne informacije o skladnosti",
+                        "no": "Ni podatkov",
+                        "title": "Skladnost",
+                        "unknown-standard": "Ni mogoče ugotoviti, ali ta publikacija ustreza veljavnim standardom za dostopnost"
+                    },
+                    "hazards": {
+                        "motion": {
+                            "compact": "Simulacija gibanja",
+                            "descriptive": "Publikacija vsebuje simulacije gibanja, ki lahko povzročijo potovalno slabost"
+                        },
+                        "motion-none": {
+                            "compact": "Brez nevarnosti, povezanih s simulacijo gibanja",
+                            "descriptive": "Publikacija ne vsebuje simulacij gibanja, ki lahko povzročijo potovalno slabost"
+                        },
+                        "motion-unknown": {
+                            "compact": "Nevarnosti, povezane s simulacijo gibanja, niso znane",
+                            "descriptive": "Ni bilo mogoče ugotoviti, ali so prisotne simulacije gibanja, ki bi lahko povzročile potovalno slabost"
+                        },
+                        "no-metadata": "Ni podatkov",
+                        "none": {
+                            "compact": "Ni nevarnosti",
+                            "descriptive": "Publikacija ne vsebuje nobenih nevarnosti"
+                        },
+                        "sound": {
+                            "compact": "Zvoki",
+                            "descriptive": "Publikacija vsebuje zvoke, ki lahko povzročijo težave zaradi preobčutljivosti"
+                        },
+                        "sound-none": {
+                            "compact": "Brez nevarnosti, povezanih z zvoki",
+                            "descriptive": "Publikacija ne vsebuje zvokov, ki lahko povzročijo težave zaradi preobčutljivosti"
+                        },
+                        "sound-unknown": {
+                            "compact": "Nevarnosti, povezane z zvoki, niso znane",
+                            "descriptive": "Ni bilo mogoče ugotoviti, ali so prisotni zvoki, ki bi lahko povzročili težave zaradi občutljivosti"
+                        },
+                        "title": "Nevarnosti",
+                        "unknown": "Ni znano, ali obstajajo nevarnosti"
+                    },
+                    "legal-considerations": {
+                        "exempt": {
+                            "compact": "V nekaterih pravnih sistemih uveljavlja izjemo glede dostopnosti",
+                            "descriptive": "Publikacija v nekaterih pravnih sistemih uveljavlja izjemo glede dostopnosti"
+                        },
+                        "no-metadata": "Ni podatkov",
+                        "title": "Pravni vidiki"
+                    },
+                    "navigation": {
+                        "index": {
+                            "compact": "Kazalo",
+                            "descriptive": "Kazalo s povezavami na navedene vnose"
+                        },
+                        "no-metadata": "Ni podatkov",
+                        "page-navigation": {
+                            "compact": "Pojdi na stran",
+                            "descriptive": "Seznam strani za prehod na strani iz izvirne tiskane različice"
+                        },
+                        "structural": {
+                            "compact": "Naslovi",
+                            "descriptive": "Elementi, kot so naslovi, tabele ipd., za strukturirano navigacijo"
+                        },
+                        "title": "Navigacija",
+                        "toc": {
+                            "compact": "Kazalo",
+                            "descriptive": "Kazalo vseh poglavij besedila prek povezav"
+                        }
+                    },
+                    "rich-content": {
+                        "accessible-chemistry-as-latex": {
+                            "compact": "Kemijske formule v LaTeXu",
+                            "descriptive": "Kemijske formule v dostopnem formatu (LaTeX)"
+                        },
+                        "accessible-chemistry-as-mathml": {
+                            "compact": "Kemijske formule v MathML",
+                            "descriptive": "Kemijske formule v dostopnem formatu (MathML)"
+                        },
+                        "accessible-math-as-latex": {
+                            "compact": "Matematični pojmi kot LaTeX",
+                            "descriptive": "Matematične formule v dostopnem formatu (LaTeX)"
+                        },
+                        "accessible-math-described": "Na voljo so besedilni opisi matematičnih pojmov",
+                        "closed-captions": {
+                            "compact": "Videoposnetki imajo podnapise",
+                            "descriptive": "Videoposnetki, vključeni v publikacije, imajo podnapise"
+                        },
+                        "extended-descriptions": "Slike, ki vsebujejo veliko informacij, so opremljeni z obširnimi opisi",
+                        "math-as-mathml": {
+                            "compact": "Matematični pojmi kot MathML",
+                            "descriptive": "Matematične formule v dostopnem formatu (MathML)"
+                        },
+                        "transcript": "Transkripcija/-e na voljo",
+                        "unknown": "Ni podatkov"
+                    },
+                    "ways-of-reading": {
+                        "nonvisual-reading": {
+                            "alt-text": {
+                                "compact": "Vsebuje alternativno besedilo",
+                                "descriptive": "Vsebuje alternativne besedilne opise slik"
+                            },
+                            "no-metadata": "Ni podatkov o možnosti nevizualnega branja",
+                            "none": {
+                                "compact": "Ni mogoče prebrati v načinu glasovnega branja ali dinamične brajice",
+                                "descriptive": "Vsebine ni mogoče prebrati v načinu glasovnega branja ali dinamične brajice"
+                            },
+                            "not-fully": {
+                                "compact": "Ni mogoče v celoti prebrati v načinu glasovnega branja ali dinamične brajice"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

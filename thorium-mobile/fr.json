@@ -99,7 +99,7 @@
             },
             "remove": {
                 "compact": "Supprimer",
-                "confirmation": "Voulez-vous vraiment supprimer le catalogue « {{ name }} » ? Cette action est irréversible.",
+                "confirmation": "Voulez-vous vraiment supprimer le catalogue « {{ name }} » ?",
                 "descriptive": "Supprimer le catalogue"
             }
         },
@@ -269,7 +269,7 @@
                 "failed_other": "{{ count }} échecs"
             },
             "batchRunning_many": "Importation de {{ count }} publications…",
-            "batchRunning_one": "Importation d'une publication…",
+            "batchRunning_one": "Importation de {{count}} publication…",
             "batchRunning_other": "Importation de {{ count }} publications…",
             "taskAdded": "« {{ title }} » ajoutée",
             "taskFailed": "Impossible d'ajouter « {{ title }} »",
@@ -335,7 +335,7 @@
             },
             "remove": {
                 "compact": "Supprimer",
-                "confirmation": "Êtes-vous sûr·e de vouloir supprimer \"{{ title }}\" ? Cette action est irréversible."
+                "confirmation": "Êtes-vous sûr·e de vouloir supprimer \"{{ title }}\" ?"
             },
             "rename": {
                 "compact": "Renommer",

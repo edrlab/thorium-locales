@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Devolución",
-                "confirmation": "¿Seguro que quiere devolver «{{ title }}»? Esta acción es irreversible.",
+                "confirmation": "¿Seguro que quiere devolver «{{ title }}»?",
                 "descriptive": "Devolución de la publicación"
             }
         },

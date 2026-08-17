@@ -31,6 +31,7 @@
         },
         "filter": {
             "all": "Alla",
+            "currentlyListening": "Lyssnar på",
             "currentlyReading": "Läser just nu",
             "finished": "Läst",
             "notStartedYet": "Oläst",
@@ -57,6 +58,90 @@
             "title": "Visningsvy"
         }
     },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Hem"
+            },
+            "next": {
+                "compact": "Nästa"
+            },
+            "openInBrowser": {
+                "compact": "Öppna i webbläsare"
+            },
+            "previous": {
+                "compact": "Föregående"
+            },
+            "reload": {
+                "compact": "Ladda om"
+            },
+            "stop": {
+                "compact": "Stopp"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Lägg till",
+                "descriptive": "Lägg till katalog"
+            },
+            "browse": {
+                "compact": "Bläddra",
+                "descriptive": "Bläddra i katalog"
+            },
+            "edit": {
+                "compact": "Redigera",
+                "descriptive": "Redigera katalog"
+            },
+            "info": {
+                "compact": "Information"
+            },
+            "remove": {
+                "compact": "Ta bort",
+                "confirmation": "Är du säker att du vill ta bort katalogen \"{{ name }}\"?",
+                "descriptive": "Ta bort katalog"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Lägg till katalog"
+            },
+            "edit": {
+                "title": "Redigera katalog"
+            },
+            "errors": {
+                "invalidName": "Skriv in ett giltigt namn.",
+                "invalidUrl": "Skriv in en giltig URL.",
+                "unsupportedCatalog": "Den här katalogtypen stöds inte."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Färg"
+                },
+                "name": {
+                    "compact": "Namn"
+                },
+                "url": {
+                    "compact": "URL",
+                    "placeholder": "https://katalog.se"
+                },
+                "useSystemBrowser": {
+                    "compact": "Öppna katalogen i webbläsaren"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Lägg till en katalog för att kunna bläddra och ladda ner böcker.",
+            "title": "Inga kataloger"
+        },
+        "title": "Kataloger",
+        "user": {
+            "bookshelf": {
+                "compact": "Bokhylla"
+            }
+        }
+    },
     "common": {
         "actions": {
             "cancel": "Avbryt",
@@ -67,9 +152,29 @@
             "expand": "Utöka",
             "expandAll": "Utöka alla",
             "filter": "Filter",
+            "retry": "Försök igen",
             "search": "Sök",
             "showMoreOptions": "Fler alternativ",
             "sortBy": "Sortera efter"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Logga in"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Fel användarnamn eller lösenord. Försök igen."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Lösenord"
+                },
+                "username": {
+                    "compact": "Användarnamn"
+                }
+            },
+            "title": "Logga in till {{ host }}"
         },
         "confirmation": {
             "title": "Är du säker?"
@@ -125,7 +230,60 @@
                 "title": "Du är uppdaterad"
             }
         },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Visa senast lyssnade böcker som en egen grupp"
+            }
+        },
         "title": "Hem"
+    },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Dölj"
+            },
+            "pause": {
+                "compact": "Pausa"
+            },
+            "resume": {
+                "compact": "Återuppta"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "Du har inga aktiva nedladdningar.",
+                "title": "Inga nedladdningar"
+            }
+        },
+        "events": {
+            "batchAdded_one": "Lade till {{ count }} bok",
+            "batchAdded_other": "Lade till {{ count }} böcker",
+            "batchMixed": {
+                "added_one": "{{ count }} tillagd",
+                "added_other": "{{ count }} tillagda",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_one": "{{ count }} misslyckades",
+                "failed_other": "{{ count }} misslyckades"
+            },
+            "batchRunning_one": "Importerar {{ count }} bok…",
+            "batchRunning_other": "Importerar {{ count }} böcker…",
+            "taskAdded": "\"{{ title }}\" lades till",
+            "taskFailed": "Kunde inte lägga till \"{{ title }}\"",
+            "taskRunning": "Importerar \"{{ title }}\"…"
+        },
+        "status": {
+            "added": "Tillagd",
+            "cancelled": "Avbruten",
+            "downloading": "Laddar ner…",
+            "failed": "Misslyckad",
+            "paused": "Pausad",
+            "processing": "Importerar…",
+            "queued": "Väntar…"
+        },
+        "title": {
+            "batch": "Importer",
+            "downloads": "Nedladdningar"
+        }
     },
     "intents": {
         "openBook": {
@@ -173,7 +331,7 @@
             },
             "remove": {
                 "compact": "Ta bort",
-                "confirmation": "Är du säker på att du vill ta bort \"{{ title }}\"? Denna åtgärd kan inte ångras."
+                "confirmation": "Är du säker på att du vill ta bort \"{{ title }}\"?"
             },
             "rename": {
                 "compact": "Byt namn",

@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Ritorna",
-                "confirmation": "Sei sicuro di voler ritornare \"{{ title }}\"? Questa azione è irreversibile.",
+                "confirmation": "Sei sicuro di voler ritornare \"{{ title }}\"?",
                 "descriptive": "Ritorna la pubblicazione"
             }
         },

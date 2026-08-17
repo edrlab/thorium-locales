@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Tagasta",
-                "confirmation": "Kas oled kindel, et soovid tagastada raamatu „{{ title }}“? Seda tegevust ei saa tagasi pöörata.",
+                "confirmation": "Kas oled kindel, et soovid tagastada raamatu „{{ title }}“?",
                 "descriptive": "Tagasta raamat"
             }
         },

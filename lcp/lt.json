@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Grąžinti",
-                "confirmation": "Ar tikrai norite grąžinti „{{ title }}“? Šio veiksmo negalima atšaukti.",
+                "confirmation": "Ar tikrai norite grąžinti „{{ title }}“?",
                 "descriptive": "Grąžinti leidinį"
             }
         },

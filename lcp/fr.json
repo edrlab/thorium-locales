@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Retourner",
-                "confirmation": "Êtes-vous sûr·e de vouloir retourner \"{{ title }}\" ? Cette action est irréversible.",
+                "confirmation": "Êtes-vous sûr·e de vouloir retourner \"{{ title }}\" ?",
                 "descriptive": "Retourner la publication"
             }
         },
