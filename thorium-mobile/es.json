@@ -257,7 +257,7 @@
         },
         "events": {
             "batchAdded_many": "Se han añadido {{ count }} publicaciones",
-            "batchAdded_one": "Se han añadido {{ count }} publicación",
+            "batchAdded_one": "Se ha añadido {{ count }} publicación",
             "batchAdded_other": "Se han añadido {{ count }} publicaciones",
             "batchMixed": {
                 "added_many": "{{ count }} añadidas",
@@ -271,7 +271,7 @@
             "batchRunning_many": "Importando {{ count }} publicaciones…",
             "batchRunning_one": "Importando {{ count }} publicación…",
             "batchRunning_other": "Importando {{ count }} publicaciones…",
-            "taskAdded": "Se ha añadido \"{{ title }}",
+            "taskAdded": "Se ha añadido \"{{ title }}\"",
             "taskFailed": "No se pudo añadir \"{{ title }}\"",
             "taskRunning": "Importando \"{{ title }}\"…"
         },
