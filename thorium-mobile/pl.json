@@ -255,21 +255,21 @@
             }
         },
         "events": {
-            "batchAdded_few": "",
-            "batchAdded_many": "",
-            "batchAdded_one": "Dodano publikacje: {{ count }}",
+            "batchAdded_few": "Dodano {{ count }} publikacje",
+            "batchAdded_many": "Dodano {{ count }} publikacji",
+            "batchAdded_one": "Dodano {{ count }} publikację",
             "batchMixed": {
-                "added_few": "",
-                "added_many": "",
+                "added_few": "dodano: {{ count }}",
+                "added_many": "dodano: {{ count }}",
                 "added_one": "dodano: {{ count }}",
                 "combined": "{{ added }}, {{ failed }}",
-                "failed_few": "",
-                "failed_many": "",
-                "failed_one": "nie powiodło się: {{ count }}"
+                "failed_few": "{{count}} nie powiodły się",
+                "failed_many": "{{count}} nie powiodło się",
+                "failed_one": "{{count}} nie powiódł się"
             },
-            "batchRunning_few": "",
-            "batchRunning_many": "",
-            "batchRunning_one": "Importowanie publikacji: {{ count }}…",
+            "batchRunning_few": "Importowanie {{count}} publikacji…",
+            "batchRunning_many": "Importowanie {{count}} publikacji…",
+            "batchRunning_one": "Importowanie {{count}} publikacji…",
             "taskAdded": "Dodano „{{ title }}”",
             "taskFailed": "Nie udało się dodać „{{ title }}”",
             "taskRunning": "Importowanie „{{ title }}”…"
@@ -293,7 +293,7 @@
             "title": "Otwórz książkę"
         },
         "openBookshelf": {
-            "description": "Pokaż listę moich książek",
+            "description": "Pokaż moją półkę.",
             "title": "Twoja półka"
         }
     },
