@@ -253,7 +253,10 @@
                 "added_other": "{{ count }} tillagda",
                 "failed_one": "{{ count }} misslyckades",
                 "failed_other": "{{ count }} misslyckades"
-            }
+            },
+            "batchRunning_one": "Importerar {{ count }} bok…",
+            "batchRunning_other": "Importerar {{ count }} böcker…",
+            "taskAdded": "Lade till \"{{ title }}\""
         }
     },
     "intents": {
