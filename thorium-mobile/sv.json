@@ -31,6 +31,7 @@
         },
         "filter": {
             "all": "Alla",
+            "currentlyListening": "Lyssnar på",
             "currentlyReading": "Läser just nu",
             "finished": "Läst",
             "notStartedYet": "Oläst",
@@ -59,6 +60,9 @@
     },
     "browser": {
         "actions": {
+            "home": {
+                "compact": "Hem"
+            },
             "next": {
                 "compact": "Nästa"
             },
@@ -70,6 +74,9 @@
             },
             "reload": {
                 "compact": "Ladda om"
+            },
+            "stop": {
+                "compact": "Stopp"
             }
         }
     },
@@ -237,6 +244,9 @@
             },
             "pause": {
                 "compact": "Pausa"
+            },
+            "resume": {
+                "compact": "Återuppta"
             }
         },
         "emptyState": {
@@ -251,12 +261,28 @@
             "batchMixed": {
                 "added_one": "{{ count }} tillagd",
                 "added_other": "{{ count }} tillagda",
+                "combined": "{{ added }}, {{ failed }}",
                 "failed_one": "{{ count }} misslyckades",
                 "failed_other": "{{ count }} misslyckades"
             },
             "batchRunning_one": "Importerar {{ count }} bok…",
             "batchRunning_other": "Importerar {{ count }} böcker…",
-            "taskAdded": "Lade till \"{{ title }}\""
+            "taskAdded": "\"{{ title }}\" lades till",
+            "taskFailed": "Kunde inte lägga till \"{{ title }}\"",
+            "taskRunning": "Importerar \"{{ title }}\"…"
+        },
+        "status": {
+            "added": "Tillagd",
+            "cancelled": "Avbruten",
+            "downloading": "Laddar ner…",
+            "failed": "Misslyckad",
+            "paused": "Pausad",
+            "processing": "Importerar…",
+            "queued": "Väntar…"
+        },
+        "title": {
+            "batch": "Importer",
+            "downloads": "Nedladdningar"
         }
     },
     "intents": {
