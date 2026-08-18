@@ -23,13 +23,14 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Twoja biblioteka jest teraz pusta. Zaimportuj pliki EPUB, PDF lub CBZ z urządzenia.",
-                "filter": "Żadne publikacje w Twojej bibliotece nie pasują do tego filtra."
+                "bookshelf": "Twoja półka jest teraz pusta.\nZaimportuj pliki EPUB, PDF, LCPL lub CBZ albo dodaj katalog.",
+                "filter": "Żadne publikacje na Twojej półce nie pasują do tego filtra."
             },
             "title": "Nie znaleziono publikacji"
         },
         "filter": {
             "all": "Wszystkie",
+            "currentlyListening": "Obecnie słuchane",
             "currentlyReading": "Obecnie czytane",
             "finished": "Ukończone",
             "notStartedYet": "Jeszcze nie rozpoczęte",
@@ -49,11 +50,95 @@
             "lastRead": "Ostatnio czytane",
             "title": "Tytuł"
         },
-        "title": "Biblioteka",
+        "title": "Półka",
         "view": {
             "grid": "Siatka",
             "list": "Lista",
             "title": "Widok"
+        }
+    },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Strona główna"
+            },
+            "next": {
+                "compact": "Dalej"
+            },
+            "openInBrowser": {
+                "compact": "Otwórz w przeglądarce"
+            },
+            "previous": {
+                "compact": "Wstecz"
+            },
+            "reload": {
+                "compact": "Odśwież"
+            },
+            "stop": {
+                "compact": "Zatrzymaj"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Dodaj",
+                "descriptive": "Dodaj katalog"
+            },
+            "browse": {
+                "compact": "Przeglądaj",
+                "descriptive": "Przeglądaj katalog"
+            },
+            "edit": {
+                "compact": "Edytuj",
+                "descriptive": "Edytuj katalog"
+            },
+            "info": {
+                "compact": "Informacje"
+            },
+            "remove": {
+                "compact": "Usuń",
+                "confirmation": "Czy na pewno chcesz usunąć katalog „{{ name }}”?",
+                "descriptive": "Usuń katalog"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Dodaj katalog"
+            },
+            "edit": {
+                "title": "Edytuj katalog"
+            },
+            "errors": {
+                "invalidName": "Wprowadź prawidłową nazwę.",
+                "invalidUrl": "Wprowadź prawidłowy adres URL.",
+                "unsupportedCatalog": "Ten rodzaj katalogu nie jest obsługiwany."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Kolor"
+                },
+                "name": {
+                    "compact": "Nazwa"
+                },
+                "url": {
+                    "compact": "Adres URL",
+                    "placeholder": "https://catalog.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Otwieraj katalog w przeglądarce"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Dodaj katalogi, aby przeglądać i pobierać publikacje.",
+            "title": "Brak katalogów"
+        },
+        "title": "Katalogi",
+        "user": {
+            "bookshelf": {
+                "compact": "Półka"
+            }
         }
     },
     "common": {
@@ -66,9 +151,29 @@
             "expand": "Rozwiń",
             "expandAll": "Rozwiń wszystkie",
             "filter": "Filtruj",
+            "retry": "Ponów próbę",
             "search": "Szukaj",
             "showMoreOptions": "Więcej opcji",
             "sortBy": "Sortuj według"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Zaloguj się"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Nazwa użytkownika lub hasło są nieprawidłowe. Spróbuj ponownie."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Hasło"
+                },
+                "username": {
+                    "compact": "Nazwa użytkownika"
+                }
+            },
+            "title": "Zaloguj się w {{ host }}"
         },
         "confirmation": {
             "title": "Czy jesteś pewny/a?"
@@ -120,19 +225,76 @@
                 "title": "Witaj w Thorium Reader"
             },
             "emptyHome": {
-                "description": "Skończyłeś/aś czytać wszystkie publikacje aktualnie w Twojej bibliotece.",
+                "description": "Skończyłeś/aś czytać wszystkie publikacje, które są na Twojej półce.",
                 "title": "Wszystko przeczytane"
             }
         },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Wyświetlaj ostatnio słuchane osobno"
+            }
+        },
         "title": "Strona główna"
+    },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Ukryj"
+            },
+            "pause": {
+                "compact": "Wstrzymaj"
+            },
+            "resume": {
+                "compact": "Wznów"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "Nie masz teraz żadnych aktywnych pobierań.",
+                "title": "Brak aktywnych pobierań"
+            }
+        },
+        "events": {
+            "batchAdded_few": "Dodano {{ count }} publikacje",
+            "batchAdded_many": "Dodano {{ count }} publikacji",
+            "batchAdded_one": "Dodano {{ count }} publikację",
+            "batchMixed": {
+                "added_few": "dodano: {{ count }}",
+                "added_many": "dodano: {{ count }}",
+                "added_one": "dodano: {{ count }}",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_few": "{{count}} nie powiodły się",
+                "failed_many": "{{count}} nie powiodło się",
+                "failed_one": "{{count}} nie powiódł się"
+            },
+            "batchRunning_few": "Importowanie {{count}} publikacji…",
+            "batchRunning_many": "Importowanie {{count}} publikacji…",
+            "batchRunning_one": "Importowanie {{count}} publikacji…",
+            "taskAdded": "Dodano „{{ title }}”",
+            "taskFailed": "Nie udało się dodać „{{ title }}”",
+            "taskRunning": "Importowanie „{{ title }}”…"
+        },
+        "status": {
+            "added": "Dodano",
+            "cancelled": "Anulowano",
+            "downloading": "Pobieranie…",
+            "failed": "Niepowodzenie",
+            "paused": "Wstrzymano",
+            "processing": "Importowanie…",
+            "queued": "Oczekiwanie…"
+        },
+        "title": {
+            "batch": "Importy",
+            "downloads": "Pobieranie"
+        }
     },
     "intents": {
         "openBook": {
             "title": "Otwórz książkę"
         },
         "openBookshelf": {
-            "description": "Otwiera aplikację na Twojej bibliotece.",
-            "title": "Otwórz bibliotekę"
+            "description": "Pokaż moją półkę.",
+            "title": "Twoja półka"
         }
     },
     "links": {
@@ -172,7 +334,7 @@
             },
             "remove": {
                 "compact": "Usuń",
-                "confirmation": "Czy na pewno chcesz usunąć „{{ title }}”? Tej akcji nie można cofnąć."
+                "confirmation": "Czy na pewno chcesz usunąć „{{ title }}”?"
             },
             "rename": {
                 "compact": "Zmień nazwę",

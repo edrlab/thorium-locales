@@ -29,6 +29,9 @@
         "actions": {
             "goBackward": "Eiti atgal",
             "goForward": "Eiti pirmyn",
+            "goToExtendedDescription": {
+                "compact": "Išplėstinis aprašymas"
+            },
             "goToNextChapter": {
                 "compact": "Kitas",
                 "descriptive": "Kitas skyrius"
