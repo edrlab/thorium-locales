@@ -25,17 +25,43 @@
             "description": {
                 "bookshelf": "Vaša knjižna polica je prazna.\nUvozite datoteke EPUB, PDF, LCPL ali CBZ ali dodajte katalog.",
                 "filter": "Nobena publikacija na vaši polici ne ustreza filtru."
-            }
+            },
+            "title": "Ni bilo najdenih publikacij"
         },
         "filter": {
             "all": "Vse",
             "currentlyListening": "Trenutno poslušam",
             "currentlyReading": "Trenutno berem",
-            "finished": "Končano"
+            "finished": "Končano",
+            "notStartedYet": "Še ni začeto",
+            "recentlyAdded": "Nedavno dodano",
+            "samples": "Vzorci",
+            "type": "Vrsta"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Razišči"
+            }
+        },
+        "sort": {
+            "author": "Avtor",
+            "finished": "Datum dokončanja",
+            "lastAdded": "Nazadnje dodano",
+            "lastRead": "Nazadnje prebrano",
+            "title": "Naslov"
+        },
+        "title": "Knjižna polica",
+        "view": {
+            "grid": "Mreža",
+            "list": "Seznam",
+            "title": "Vrsta prikaza"
         }
     },
     "browser": {
         "actions": {
+            "home": {
+                "compact": "Domača stran"
+            },
             "next": {
                 "compact": "Naprej"
             },
@@ -158,11 +184,111 @@
                     "compact": "Več informacij"
                 }
             },
-            "cancelled": "Postopek preklican."
+            "cancelled": "Postopek preklican.",
+            "outOfMemory": "Ni dovolj pomnilnika za nadaljevanje. Zaprite preostale aplikacije ali poskusite kasneje.",
+            "title": "Napaka",
+            "unexpected": "Pojavila se je napaka. Poskusite ponovno."
+        },
+        "estimatedNumber": "~{{ number }}",
+        "file": {
+            "errors": {
+                "corrupted": "Te vsebine ni bilo mogoče odpreti. Datoteka je morda poškodovana ali pa je v formatu, ki ni podprt. Poskusite z drugo datoteko.",
+                "forbidden": "Datoteke ni mogoče odpreti. Dostop zavrnjen.",
+                "formatNotSupported": "Nepodprta vrsta datoteke. Poskusite z drugo datoteko.",
+                "insufficientSpace": "Ni dovolj prostora na disku za nadaljevanje. Prosimo, sprostite nekaj prostora in poskusite znova.",
+                "notFound": "Datoteke ni bilo mogoče odpreti. Datoteke ni bilo mogoče najti.",
+                "protocolNotSupported": "Te publikacije ni mogoče odpreti s trenutne lokacije. Poskusite jo najprej prenesti ali se za pomoč obrnite na knjigarno."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Pojavila se je napaka. Prosimo, preverite internetno povezavo ali poskusite ponovno kasneje.",
+                "forbidden": "Nimate dovoljenja za dostop do teh vsebin.",
+                "malformedResponse": "Vsebine ni mogoče naložiti. Prišlo je do težave s strežnikom. Poskusite kasneje.",
+                "methodNotSupported": "Strežnik ne podpira zahtevane metode nalaganja.",
+                "notFound": "Vsebine ni bilo mogoče najti.",
+                "offline": "Niste povezani z internetom. Preverite internetno povezavo.",
+                "security": "Varna povezava ni uspela. Poskusite kasneje.",
+                "timeout": "Časovni limit povezave je potekel. Poskusite ponovno.",
+                "unauthorized": "Za dostop do te vsebine se morate prijaviti.",
+                "unreachable": "Povezava s strežnikom ni uspela."
+            }
+        },
+        "quote": {
+            "end": "{{ quote }} …",
+            "start": "… {{ quote }}"
         }
     },
+    "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Dobrodošli na Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Prebrali ste vse publikacije, ki so trenutno na vaši polici.",
+                "title": "Končano"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Ločeno prikaži poslušano pred kratkim"
+            }
+        },
+        "title": "Domov"
+    },
     "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Skrij"
+            },
+            "pause": {
+                "compact": "Začasno ustavi"
+            },
+            "resume": {
+                "compact": "Nadaljuj"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "Trenutno nimate nobenega aktivnega prenosa.",
+                "title": "Ni aktivnih prenosov"
+            }
+        },
+        "events": {
+            "batchAdded_few": "Dodane {{ count }} publikacije",
+            "batchAdded_one": "Dodana {{ count }} publikacija",
+            "batchAdded_other": "Dodanih {{ count }} publikacij",
+            "batchAdded_two": "Dodani {{ count }} publikaciji",
+            "batchMixed": {
+                "added_few": "{{ count }} dodane",
+                "added_one": "{{ count }} dodana",
+                "added_other": "{{ count }} dodanih",
+                "added_two": "{{ count }} dodani",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_few": "{{ count }} neuspele",
+                "failed_one": "{{ count }} neuspela",
+                "failed_other": "{{ count }} neuspelih",
+                "failed_two": "{{ count }} neuspeli"
+            },
+            "batchRunning_few": "Uvažam {{ count }} publikacije …",
+            "batchRunning_one": "Uvažam {{ count }} publikacijo …",
+            "batchRunning_other": "Uvažam {{ count }} publikacij …",
+            "batchRunning_two": "Uvažam {{ count }} publikaciji …",
+            "taskAdded": "Dodano \"{{ title }}\"",
+            "taskFailed": "Ni bilo mogoče dodati \"{{ title }}\"",
+            "taskRunning": "Uvažam \"{{ title }}\" …"
+        },
+        "status": {
+            "added": "Dodano",
+            "cancelled": "Preklicano",
+            "downloading": "Nalagam …",
+            "failed": "Neuspelo",
+            "paused": "Začasno ustavljeno",
+            "processing": "Uvažam …",
+            "queued": "Čakam …"
+        },
         "title": {
+            "batch": "Uvozi",
             "downloads": "Prenosi"
         }
     },
