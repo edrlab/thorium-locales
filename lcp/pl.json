@@ -7,7 +7,7 @@
             },
             "return": {
                 "compact": "Zwróć",
-                "confirmation": "Czy na pewno chcesz zwrócić „{{ title }}”? Tej czynności nie można cofnąć.",
+                "confirmation": "Czy na pewno chcesz zwrócić „{{ title }}”?",
                 "descriptive": "Zwróć publikację"
             }
         },

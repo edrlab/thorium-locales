@@ -160,14 +160,19 @@
                         },
                         "accessible-math-described": "Na voljo so besedilni opisi matematičnih pojmov",
                         "closed-captions": {
-                            "compact": "Videoposnetki imajo podnapise",
-                            "descriptive": "Videoposnetki, vključeni v publikacije, imajo podnapise"
+                            "compact": "Videoposnetki imajo vgrajene podnapise",
+                            "descriptive": "Videoposnetki, vključeni v publikacije, imajo vgrajene podnapise"
                         },
                         "extended-descriptions": "Slike, ki vsebujejo veliko informacij, so opremljeni z obširnimi opisi",
                         "math-as-mathml": {
                             "compact": "Matematični pojmi kot MathML",
                             "descriptive": "Matematične formule v dostopnem formatu (MathML)"
                         },
+                        "open-captions": {
+                            "compact": "Videoposnetki imajo možnost vklopa podnapisov",
+                            "descriptive": "Videoposnetki, vključeni v publikacije, imajo možnost ogleda podnapisov"
+                        },
+                        "title": "Bogate vsebine",
                         "transcript": "Transkripcija/-e na voljo",
                         "unknown": "Ni podatkov"
                     },
@@ -183,12 +188,74 @@
                                 "descriptive": "Vsebine ni mogoče prebrati v načinu glasovnega branja ali dinamične brajice"
                             },
                             "not-fully": {
-                                "compact": "Ni mogoče v celoti prebrati v načinu glasovnega branja ali dinamične brajice"
+                                "compact": "Ni mogoče v celoti prebrati v načinu glasovnega branja ali dinamične brajice",
+                                "descriptive": "Celotne vsebine ni mogoče prebrati v načinu glasovnega branja ali dinamične brajice"
+                            },
+                            "readable": {
+                                "compact": "Mogoče prebrati v glasovnem načinu ali dinamični brajici",
+                                "descriptive": "Celotno vsebino je mogoče prebrati v glasovnem načinu ali dinamični brajici"
+                            }
+                        },
+                        "prerecorded-audio": {
+                            "complementary": {
+                                "compact": "Predhodno posneti zvočni posnetki",
+                                "descriptive": "V vsebino so vgrajeni predhodno posneti zvočni posnetki"
+                            },
+                            "no-metadata": "Ni podatka o predhodno posnetih avdio vsebinah",
+                            "only": {
+                                "compact": "Samo predhodno posnete avdio vsebine",
+                                "descriptive": "Zvočna knjiga brez besedilne različice"
+                            },
+                            "synchronized": {
+                                "compact": "Predhodno posnete avdio vsebine, usklajene z besedilom",
+                                "descriptive": "Vsa vsebina je na voljo kot predhodno posneta avdio vsebina, sinhronizirana z besedilom"
+                            }
+                        },
+                        "title": "Načini branja",
+                        "visual-adjustments": {
+                            "modifiable": {
+                                "compact": "Videz lahko spremenimo",
+                                "descriptive": "Videz besedila in postavitve strani je mogoče prilagoditi glede na zmogljivosti sistema za branje (vrsta in velikost pisave, razmiki med odstavki, povedmi, besedami in črkami ter barva ozadja in besedila)"
+                            },
+                            "unknown": "Ni podatka o možnosti prilagoditve videza",
+                            "unmodifiable": {
+                                "compact": "Videza ni mogoče spreminjati",
+                                "descriptive": "Besedila in postavitve strani ni mogoče spreminjati, saj je bralna izkušnja podobna tiskani različici, vendar bralni sistemi kljub temu ponujajo možnosti povečave"
                             }
                         }
                     }
                 }
-            }
+            },
+            "altIdentifier_few": "alternativni identifikatorji",
+            "altIdentifier_one": "alternativni identifikator",
+            "altIdentifier_other": "alternativnih identifikatorjev",
+            "altIdentifier_two": "alternativna identifikatorja",
+            "artist_few": "izvajalci",
+            "artist_one": "izvajalec",
+            "artist_other": "izvajalcev",
+            "artist_two": "izvajalca",
+            "author_few": "avtorji",
+            "author_one": "avtor",
+            "author_other": "avtorjev",
+            "author_two": "avtorja",
+            "collection_few": "uredniške zbirke",
+            "collection_one": "uredniška zbirka",
+            "collection_other": "uredniških zbirk",
+            "collection_two": "uredniški zbirki",
+            "colorist_few": "koloristi",
+            "colorist_one": "kolorist",
+            "colorist_other": "koloristov",
+            "colorist_two": "kolorista",
+            "contributor_few": "sodelavci",
+            "contributor_one": "sodelavec",
+            "contributor_other": "sodelavcev",
+            "contributor_two": "sodelavca",
+            "description": "opis",
+            "duration": "trajanje",
+            "editor_few": "uredniki",
+            "editor_one": "urednik",
+            "editor_other": "urednikov",
+            "editor_two": "urednika"
         }
     }
 }
