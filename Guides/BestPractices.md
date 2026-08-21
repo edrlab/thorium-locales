@@ -51,7 +51,7 @@ Example:
 
 ## String Variants
 
-### compact vs descriptive
+### Compact vs Descriptive
 
 - **compact**: Short form for UI elements with space constraints (button labels, menu items, tabs)
 - **descriptive**: Full form for accessibility labels (aria-label, screen readers, tooltips)
@@ -81,6 +81,27 @@ Example:
 "positionsLeft_one": "{{ count }} position left",
 "positionsLeft_other": "{{ count }} positions left"
 ```
+
+### Labels vs. Counts
+
+A plural key is always quantified: the code **must** always provide a `count` when requesting it. Code must never request a specific plural variant directly (e.g. `book_other`), since the set of variants and their grammatical case differ between languages.
+
+When a word is displayed without a number (a section header, a menu item, a type label), it is not a plural but a plain label. Use separate non-plural keys:
+
+- `x`: the singular label ("Author", "Book")
+- `x_multiple`: the unquantified plural label ("Authors", "Books")
+- `x_count_*`: the quantified plural forms ("{{ count }} authors")
+
+Example:
+
+```json
+"author": "Author",
+"author_multiple": "Authors",
+"author_count_one": "{{ count }} author",
+"author_count_other": "{{ count }} authors"
+```
+
+**DON'T:** display `author_other` as a label. In many languages, the `other` variant is a counting form (e.g. genitive or partitive case) that reads wrong without a number.
 
 ## Organizational Patterns
 
