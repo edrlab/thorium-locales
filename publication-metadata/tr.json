@@ -18,8 +18,8 @@
         },
         "kind": {
             "audiobook": "Sesli Kitap",
-            "audiobook_count_one": "{{ count }} Sesli Kitap",
-            "audiobook_count_other": "{{ count }} Sesli Kitap",
+            "audiobook_count_one": "{{ count }} sesli kitap",
+            "audiobook_count_other": "{{ count }} sesli kitap",
             "audiobook_multiple": "Sesli Kitaplar",
             "book": "Kitap",
             "book_count_one": "{{ count }} kitap",

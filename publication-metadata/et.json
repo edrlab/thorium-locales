@@ -261,7 +261,7 @@
                 }
             },
             "altIdentifier": "Alternatiivne tunnus",
-            "altIdentifier_multiple": "Alternatiivset tunnust",
+            "altIdentifier_multiple": "Alternatiivsed tunnused",
             "artist": "Kunstnik",
             "artist_multiple": "Kunstnikud",
             "author": "Kirjanik",
