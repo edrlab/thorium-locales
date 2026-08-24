@@ -18,6 +18,8 @@
         },
         "kind": {
             "audiobook": "Äänikirja",
+            "audiobook_count_one": "{{ count }} äänikirja",
+            "audiobook_count_other": "{{ count }} äänikirjaa",
             "audiobook_multiple": "Äänikirjat",
             "book": "Kirja",
             "book_multiple": "Kirjat",
