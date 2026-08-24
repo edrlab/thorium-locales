@@ -18,21 +18,21 @@
         },
         "kind": {
             "audiobook": "Sesli Kitap",
-            "audiobook_count_one": "{{ count }} sesli kitap",
-            "audiobook_count_other": "{{ count }} sesli kitap",
-            "audiobook_multiple": "Sesli Kitaplar",
+            "audiobookCount_one": "{{ count }} sesli kitap",
+            "audiobookCount_other": "{{ count }} sesli kitap",
+            "audiobookMultiple": "Sesli Kitaplar",
             "book": "Kitap",
-            "book_count_one": "{{ count }} kitap",
-            "book_count_other": "{{ count }} kitap",
-            "book_multiple": "Kitaplar",
+            "bookCount_one": "{{ count }} kitap",
+            "bookCount_other": "{{ count }} kitap",
+            "bookMultiple": "Kitaplar",
             "comic": "Çizgi roman",
-            "comic_count_one": "{{ count }} çizgi roman",
-            "comic_count_other": "{{ count }} çizgi roman",
-            "comic_multiple": "Çizgi romanlar",
+            "comicCount_one": "{{ count }} çizgi roman",
+            "comicCount_other": "{{ count }} çizgi roman",
+            "comicMultiple": "Çizgi romanlar",
             "document": "Belge",
-            "document_count_one": "{{ count }} belge",
-            "document_count_other": "{{ count }} belge",
-            "document_multiple": "Belgeler"
+            "documentCount_one": "{{ count }} belge",
+            "documentCount_other": "{{ count }} belge",
+            "documentMultiple": "Belgeler"
         },
         "metadata": {
             "accessibility": {

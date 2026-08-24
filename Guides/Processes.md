@@ -2,7 +2,13 @@
 
 ## Adding, removing, and updating strings
 
-TBD
+Adding and removing strings needs no special care: Weblate picks up new keys on its next scan, and removed keys simply disappear.
+
+1. Lock the affected component in Weblate, so translators do not spend effort on keys that are about to disappear.
+2. Merge any open Weblate pull request, and confirm the `weblate` branch is even with `main`.
+3. Open the rename pull request. Apply the rename mechanically across all locale files.
+4. Run `npm run format`, get the review, and merge.
+5. Let Weblate re-scan, then unlock the component.
 
 ## Reviewing
 
