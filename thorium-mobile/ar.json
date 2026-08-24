@@ -1,0 +1,198 @@
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "الموقع الإلكتروني"
+                }
+            },
+            "title": "البرامج التابعة لجهة خارجية"
+        },
+        "copyright": "ملكية فكرية سنة {{ year }} مختبر القراءة الرقمية الأوروبي (European Digital Reading Lab)\nجميع الحقوق محفوظة.",
+        "title": "معلومات عن التطبيق",
+        "version": "الإصدار {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "تصفية"
+            },
+            "sort": {
+                "compact": "الترتيب بـ"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "مكتبتك فارغة حاليًا.\nأضف ملفات EPUB، PDF، LCPL، أو CBZ أو أضف قائمة كتب.",
+                "filter": "لا كتب في مكتبتك تطابق معايير التصفية المختارة."
+            },
+            "title": "لا توجد كتب"
+        },
+        "filter": {
+            "all": "جميع الأنواع",
+            "currentlyListening": "تستمع إليه حاليًا",
+            "currentlyReading": "تقرأه حاليًا",
+            "finished": "أنهيته",
+            "notStartedYet": "لم تبدأ فيه بعد",
+            "recentlyAdded": "مضاف حديثًا",
+            "samples": "عينات",
+            "type": "نوع الكتاب"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "استكشف"
+            }
+        },
+        "sort": {
+            "author": "المؤلف",
+            "finished": "تاريخ الانتهاء",
+            "lastAdded": "الأحدث إضافة",
+            "lastRead": "آخر قراءة",
+            "title": "العنوان"
+        },
+        "title": "المكتبة",
+        "view": {
+            "grid": "شبكة",
+            "list": "قائمة",
+            "title": "شكل العرض"
+        }
+    },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "الصفحة الرئيسية"
+            },
+            "next": {
+                "compact": "التالي"
+            },
+            "openInBrowser": {
+                "compact": "الفتح في المتصفح الافتراضي"
+            },
+            "previous": {
+                "compact": "السابق"
+            },
+            "reload": {
+                "compact": "إعادة التحميل"
+            },
+            "stop": {
+                "compact": "وقف"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "إضافة",
+                "descriptive": "إضافة قائمة"
+            },
+            "browse": {
+                "compact": "تصفح",
+                "descriptive": "تصفح قائمة"
+            },
+            "edit": {
+                "compact": "تعديل",
+                "descriptive": "تعديل قائمة كتب"
+            },
+            "info": {
+                "compact": "معلومات"
+            },
+            "remove": {
+                "compact": "حذف",
+                "confirmation": "هل متأكد من رغبتك في حذف القائمة \"{{ name }}\"؟",
+                "descriptive": "حذف القائمة"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "أضف قائمة"
+            },
+            "edit": {
+                "title": "تعديل قائمة"
+            },
+            "errors": {
+                "invalidName": "يرجى إدخال اسم صالح.",
+                "invalidUrl": "يرجى إدخال رابط صالح.",
+                "unsupportedCatalog": "نوع القائمة غير مدعومة."
+            },
+            "fields": {
+                "color": {
+                    "compact": "اللون"
+                },
+                "name": {
+                    "compact": "الاسم"
+                },
+                "url": {
+                    "compact": "الرابط",
+                    "placeholder": "https://catalog.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "فتح القائمة في المتصفح"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "أضف قوائم للتصفح وتحميل الكتب.",
+            "title": "لا توجد قوائم"
+        },
+        "title": "القوائم",
+        "user": {
+            "bookshelf": {
+                "compact": "المكتبة"
+            }
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "إلغاء",
+            "close": "إغلاق",
+            "collapse": "إخفاء",
+            "collapseAll": "إغلاق الكل",
+            "delete": "حذف",
+            "expand": "إظهار",
+            "expandAll": "فتح الكل",
+            "filter": "تصفية",
+            "retry": "إعادة المحاولة",
+            "search": "بحث",
+            "showMoreOptions": "خيارات أخرى",
+            "sortBy": "الترتيب بـ"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "تسجيل الدخول"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "اسم المستخدم أو كلمة السر غير صحيحة. يرجى المحاولة مرة أخرى."
+            },
+            "fields": {
+                "password": {
+                    "compact": "كلمة السر"
+                },
+                "username": {
+                    "compact": "اسم المستخدم"
+                }
+            },
+            "title": "تسجيل الدخول إلى {{ host }}"
+        },
+        "confirmation": {
+            "title": "متأكد؟"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "التفاصيل"
+                }
+            },
+            "cancelled": "تم الإلغاء.",
+            "outOfMemory": "لا توجد ذاكرة كافية للاستكمال. يرجى إغلاق التطبيقات الأخرى أو المحاولة لاحقًا.",
+            "title": "خطأ"
+        }
+    },
+    "settings": {
+        "theme": {
+            "dark": "داكن",
+            "light": "فاتح"
+        }
+    }
+}
