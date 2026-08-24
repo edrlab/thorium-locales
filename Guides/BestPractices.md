@@ -24,6 +24,7 @@ In particular, the following i18next features are excluded:
 
 - Prefer strings in shared components over platform/product-specific strings
 - Sentence and title case should be avoided when unnecessary as we can handle them with code and in context
+- Keys are written in `camelCase`, at every level of nesting. The underscore is **reserved** for i18next [plural suffixes](#plural-forms) and must not be used as a word separator.
 
 ## Naming Placeholder Variables
 
@@ -84,24 +85,26 @@ Example:
 
 ### Labels vs. Counts
 
-A plural key is always quantified: the code **must** always provide a `count` when requesting it. Code must never request a specific plural variant directly (e.g. `book_other`), since the set of variants and their grammatical case differ between languages.
+A plural key is always quantified: the code **must** always provide a `count` when requesting it. Code must never request a specific plural variant directly (e.g. `bookCount_other`), since the set of variants and their grammatical case differ between languages.
 
 When a word is displayed without a number (a section header, a menu item, a type label), it is not a plural but a plain label. Use separate non-plural keys:
 
 - `x`: the singular label ("Author", "Book")
-- `x_multiple`: the unquantified plural label ("Authors", "Books")
-- `x_count_*`: the quantified plural forms ("{{ count }} authors")
+- `xMultiple`: the unquantified plural label ("Authors", "Books")
+- `xCount_*`: the quantified plural forms ("{{ count }} authors")
 
 Example:
 
 ```json
 "author": "Author",
-"author_multiple": "Authors",
-"author_count_one": "{{ count }} author",
-"author_count_other": "{{ count }} authors"
+"authorMultiple": "Authors",
+"authorCount_one": "{{ count }} author",
+"authorCount_other": "{{ count }} authors"
 ```
 
-**DON'T:** display `author_other` as a label. In many languages, the `other` variant is a counting form (e.g. genitive or partitive case) that reads wrong without a number.
+`xMultiple` is spelled out rather than naming the key with the English plural (`authors`), because pluralizing the key name breaks for words that are their own plural: `series` would collide with the singular label `series`.
+
+**DON'T:** display `authorCount_other` as a label. In many languages, the `other` variant is a counting form (e.g. genitive or partitive case) that reads wrong without a number.
 
 ## Organizational Patterns
 
