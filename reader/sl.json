@@ -29,6 +29,9 @@
         "actions": {
             "goBackward": "Nazaj",
             "goForward": "Naprej",
+            "goToExtendedDescription": {
+                "compact": "Razširjen opis"
+            },
             "goToNextChapter": {
                 "compact": "Naslednja",
                 "descriptive": "Naslednje poglavje"
