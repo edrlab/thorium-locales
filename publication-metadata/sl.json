@@ -2,10 +2,19 @@
     "publication": {
         "format": {
             "audiobook": "Zvočna knjiga",
+            "audiobookJSON": "Audiobook Manifest",
+            "cbz": "Comic Book Archive",
+            "divina": "Divina Publication",
+            "divinaJSON": "Divina Publication Manifest",
             "epub": "EPUB",
             "lcpa": "Zvočna knjiga z zaščito LCP",
             "lcpdf": "PDF z zaščito LCP",
-            "pdf": "PDF"
+            "lcpl": "Dokument o licenci LCP",
+            "pdf": "PDF",
+            "rwp": "Publikacija Readium Web",
+            "rwpm": "Manifest publikacij Readium Web",
+            "zab": "Arhiv zvočnih knjig",
+            "zip": "Arhiv ZIP"
         },
         "kind": {
             "audiobook": "Zvočna knjiga",
@@ -42,6 +51,10 @@
                         "title": "Povzetek dostopnosti"
                     },
                     "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "Vključene vloge ARIA",
+                            "descriptive": "Vsebina je obogatena z vlogami ARIA za optimizirano organizacijo in lažjo navigacijo"
+                        },
                         "audio-descriptions": "Avdio opisi",
                         "braille": "brajica",
                         "color-not-sole-means-of-conveying-information": "Barva ni edino sredstvo za posredovanje informacij",
@@ -61,19 +74,36 @@
                             "descriptive": "Integrirane so tipne grafike za lažji dostop do vizualnih elementov za slepe"
                         },
                         "tactile-objects": "Taktilni 3D predmeti",
-                        "title": "Dodatne informacije o dostopnosti"
+                        "text-to-speech-hinting": "Na voljo so namigi za pretvorbo besedila v govor",
+                        "title": "Dodatne informacije o dostopnosti",
+                        "ultra-high-contrast-between-text-and-background": "Izjemno visok kontrast med besedilom in ozadjem",
+                        "visible-page-numbering": "Vidno številčenje strani",
+                        "without-background-sounds": "Brez zvokov v ozadju"
                     },
                     "conformance": {
                         "a": {
-                            "compact": "Publikacija izpolnjuje minimalne standarde dostopnosti"
+                            "compact": "Publikacija izpolnjuje minimalne standarde dostopnosti",
+                            "descriptive": "Publikacija vsebuje izjavo o skladnosti, da izpolnjuje standarde EPUB za dostopnost in WCAG 2, raven A"
                         },
                         "aa": {
-                            "compact": "Publikacija izpolnjuje veljavne standarde dostopnosti"
+                            "compact": "Publikacija izpolnjuje veljavne standarde dostopnosti",
+                            "descriptive": "Publikacija vsebuje izjavo o skladnosti, da izpolnjuje standarde EPUB za dostopnost in WCAG 2, raven AA"
                         },
                         "aaa": {
-                            "compact": "Publikacija presega veljavne standarde dostopnosti"
+                            "compact": "Publikacija presega veljavne standarde dostopnosti",
+                            "descriptive": "Publikacija vsebuje izjavo o skladnosti, da izpolnjuje standarde EPUB za dostopnost in WCAG 2, raven AAA"
                         },
+                        "certifier": "Publikacijo je potrdil ",
+                        "certifier-credentials": "Pooblastilo potrjevalca je ",
                         "details": {
+                            "certification-info": "Publikacija je bila potrjena dne ",
+                            "certifier-report": "Za več informacij preberite poročilo potrjevalca",
+                            "claim": "Publikacija naj bi izpolnjevala",
+                            "epub-accessibility-1-0": "Dostopnost EPUB 1.0",
+                            "epub-accessibility-1-1": "Dostopnost EPUB 1.1",
+                            "level-a": "Raven A",
+                            "level-aa": "Raven AA",
+                            "level-aaa": "Raven AAA",
                             "wcag-2-0": {
                                 "compact": "WCAG 2.0",
                                 "descriptive": "Smernice za dostopnost spletnih vsebin (WCAG) 2.0"
@@ -93,6 +123,18 @@
                         "unknown-standard": "Ni mogoče ugotoviti, ali ta publikacija ustreza veljavnim standardom za dostopnost"
                     },
                     "hazards": {
+                        "flashing": {
+                            "compact": "Utripajoča vsebina",
+                            "descriptive": "Publikacija vsebuje utripajoče vsebine, ki lahko povzročijo fotosenzitivne napade"
+                        },
+                        "flashing-none": {
+                            "compact": "Ni nevarnosti utripanja",
+                            "descriptive": "Publikacija ne vsebuje utripajočih vsebin, ki lahko povzročijo fotosenzitivne napade"
+                        },
+                        "flashing-unknown": {
+                            "compact": "Nevarnost utripanja ni poznana",
+                            "descriptive": "Ni bilo mogoče ugotoviti prisotnosti utripajoče vsebine, ki bi lahko povzročila fotosenzitivne napade"
+                        },
                         "motion": {
                             "compact": "Simulacija gibanja",
                             "descriptive": "Publikacija vsebuje simulacije gibanja, ki lahko povzročijo potovalno slabost"
@@ -277,7 +319,84 @@
             "editorCount_one": "{{ count }} urednik",
             "editorCount_other": "{{ count }} urednikov",
             "editorCount_two": "{{ count }} urednika",
-            "editorMultiple": "Uredniki"
+            "editorMultiple": "Uredniki",
+            "identifier": "Identifikator",
+            "identifierCount_few": "{{ count }} identifikatorji",
+            "identifierCount_one": "{{ count }} identifikator",
+            "identifierCount_other": "{{ count }} identifikatorjev",
+            "identifierCount_two": "{{ count }} identifikatorja",
+            "identifierMultiple": "Identifikatorji",
+            "illustrator": "Ilustrator",
+            "illustratorCount_few": "{{ count }} ilustratorji",
+            "illustratorCount_one": "{{ count }} ilustrator",
+            "illustratorCount_other": "{{ count }} ilustratorjev",
+            "illustratorCount_two": "{{ count }} ilustratorja",
+            "illustratorMultiple": "Ilustratorji",
+            "imprint": "Impresum",
+            "imprintCount_few": "{{ count }} impresumi",
+            "imprintCount_one": "{{ count }} impresum",
+            "imprintCount_other": "{{ count }} impresumov",
+            "imprintCount_two": "{{ count }} impresuma",
+            "imprintMultiple": "Impresumi",
+            "inker": "Risar s tušem",
+            "inkerCount_few": "{{ count }} risarji s tušem",
+            "inkerCount_one": "{{ count }} risar s tušem",
+            "inkerCount_other": "{{ count }} risarjev s tušem",
+            "inkerCount_two": "{{ count }} risarja s tušem",
+            "inkerMultiple": "Risarji s tušem",
+            "language": "Jezik",
+            "languageCount_few": "{{ count }} jeziki",
+            "languageCount_one": "{{ count }} jezik",
+            "languageCount_other": "{{ count }} jezikov",
+            "languageCount_two": "{{ count }} jezika",
+            "languageMultiple": "Jeziki",
+            "letterer": "Črkoslikar",
+            "lettererCount_few": "{{ count }} črkoslikarji",
+            "lettererCount_one": "{{ count }} črkoslikar",
+            "lettererCount_other": "{{ count }} črkoslikarjev",
+            "lettererCount_two": "{{ count }} črkoslikarja",
+            "lettererMultiple": "Črkoslikarji",
+            "modified": "datum spremembe",
+            "narrator": "Pripovedovalec",
+            "narratorCount_few": "{{ count }} pripovedovalci",
+            "narratorCount_one": "{{ count }} pripovedovalec",
+            "narratorCount_other": "{{ count }} pripovedovalcev",
+            "narratorCount_two": "{{ count }} pripovedovalca",
+            "narratorMultiple": "Pripovedovalci",
+            "numberOfPages": "dolžina tiska",
+            "penciler": "Risar",
+            "pencilerCount_few": "{{ count }} risarji",
+            "pencilerCount_one": "{{ count }} risar",
+            "pencilerCount_other": "{{ count }} risarjev",
+            "pencilerCount_two": "{{ count }} risarja",
+            "pencilerMultiple": "Risarji",
+            "published": "datum objave",
+            "publisher": "Izdajatelj",
+            "publisherCount_few": "{{ count }} izdajatelji",
+            "publisherCount_one": "{{ count }} izdajatelj",
+            "publisherCount_other": "{{ count }} izdajateljev",
+            "publisherCount_two": "{{ count }} izdajatelja",
+            "publisherMultiple": "Izdajatelji",
+            "series": "Serija",
+            "seriesCount_few": "{{ count }} serije",
+            "seriesCount_one": "{{ count }} serija",
+            "seriesCount_other": "{{ count }} serij",
+            "seriesCount_two": "{{ count }} seriji",
+            "seriesMultiple": "Serije",
+            "subject": "Predmet",
+            "subjectCount_few": "{{ count }} predmeti",
+            "subjectCount_one": "{{ count }} predmet",
+            "subjectCount_other": "{{ count }} predmetov",
+            "subjectCount_two": "{{ count }} predmeta",
+            "subjectMultiple": "Predmeti",
+            "subtitle": "podnaslov",
+            "title": "naslov",
+            "translator": "Prevajalec",
+            "translatorCount_few": "{{ count }} prevajalci",
+            "translatorCount_one": "{{ count }} prevajalec",
+            "translatorCount_other": "{{ count }} prevajalcev",
+            "translatorCount_two": "{{ count }} prevajalca",
+            "translatorMultiple": "Prevajalci"
         }
     }
 }
