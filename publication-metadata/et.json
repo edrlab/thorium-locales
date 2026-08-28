@@ -308,7 +308,7 @@
             "illustratorMultiple": "Illustraatorid",
             "imprint": "Kirjastaja kaubamärk",
             "imprintCount_one": "{{ count }} kirjastaja kaubamärk",
-            "imprintCount_other": "{{ count }} kirjastaja kaubamärkki",
+            "imprintCount_other": "{{ count }} kirjastaja kaubamärki",
             "imprintMultiple": "Kirjastaja kaubamärgid",
             "inker": "(koomiksi) värvija",
             "inkerCount_one": "{{ count }} (koomiksi) värvija",
