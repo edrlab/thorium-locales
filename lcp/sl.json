@@ -1,0 +1,82 @@
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Podaljšaj",
+                "descriptive": "Podaljšaj izposojo"
+            },
+            "return": {
+                "compact": "Vrni",
+                "confirmation": "Ali ste prepričani, da želite vrniti \"{{ title }}\"?",
+                "descriptive": "Vrni publikacijo"
+            }
+        },
+        "dialog": {
+            "actions": {
+                "cancel": "Prekliči",
+                "continue": "Nadaljuj",
+                "recoverPassphrase": "Pozabljeno geslo?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Napačno geslo."
+            },
+            "info": {
+                "body": "Publikacija je zaščitena s sistemom LCP (Licensed Content Protection), tehnologijo DRM, ki preprečuje nepooblaščeno kopiranje, hkrati pa ohranja enostavno bralno izkušnjo. LCP je odprt standard, ki usklajuje prijaznost uporabniku s potrebami založnikov.",
+                "more": "Več …",
+                "title": "Kaj je LCP?"
+            },
+            "message": "Za odpiranje te publikacije potrebujete geslo LCP, ki ga dobite v svoji knjižnici ali knjigarni. Geslo vnesite enkrat in že lahko začnete brati na tej napravi.",
+            "passphrase": {
+                "hint": "**Namig:** {{ hint }}",
+                "placeholder": "Geslo"
+            },
+            "title": "Vnesite geslo"
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Ta publikacija je že bila vrnjena ali pa ji je potekel rok izposoje.",
+            "copyForbidden": "Presegli ste največje dovoljeno število znakov za kopiranje.",
+            "invalidLicense": "Licence za to publikacijo nismo mogli preveriti. Za pomoč se obrnite na ponudnika licence.",
+            "invalidRenewalPeriod": "Te publikacije ni mogoče podaljšati za izbrani datum. Poskusite drug datum.",
+            "missingPassphrase": "Za odpiranje te publikacije je potrebno geslo. Za pridobitev gesla se obrnite na ponudnika licence.",
+            "renewFailed": "Za vašo publikacijo ni bilo mogoče podaljšati roka izposoje. Za pomoč se obrnite na svojega ponudnika.",
+            "returnFailed": "Vaše publikacije ni bilo mogoče vrniti. Za pomoč se obrnite na svojega ponudnika.",
+            "statusCancelled": "Dostop do te publikacije ste preklicali dne {{ date }}. Če želite dostop ponovno vzpostaviti, se obrnite na vašega ponudnika licence.",
+            "statusExpiredEnd": "Rok za izposojo te publikacije je potekel dne {{ date }}. Obrnite se na svojo knjižnico, če si jo želite ponovno izposoditi.",
+            "statusExpiredStart": "Publikacija bo na voljo {{ date }}.",
+            "statusReturned": "Publikacijo ste vrnili dne {{ date }}. Obrnite se na svojo knjižnico, če si jo želite ponovno izposoditi.",
+            "statusRevoked_few": "Vaš ponudnik je dne {{ date }} preklical dostop do te publikacije. Dostop do nje je bil omogočen na {{ count }} napravah. Za več informacij se obrnite na svojega ponudnika.",
+            "statusRevoked_one": "Vaš ponudnik je dne {{ date }} preklical dostop do te publikacije. Dostop do nje je bil omogočen na {{ count }} napravi. Za več informacij se obrnite na svojega ponudnika.",
+            "statusRevoked_other": "Vaš ponudnik je dne {{ date }} preklical dostop do te publikacije. Dostop do nje je bil omogočen na {{ count }} napravah. Za več informacij se obrnite na svojega ponudnika.",
+            "statusRevoked_two": "Vaš ponudnik je dne {{ date }} preklical dostop do te publikacije. Dostop do nje je bil omogočen na {{ count }} napravah. Za več informacij se obrnite na svojega ponudnika."
+        },
+        "labels": {
+            "expired": "Potekel",
+            "expiresIn": {
+                "days": {
+                    "descriptive_few": "Rok: {{ count }} dni",
+                    "descriptive_one": "Rok: {{ count }} dan",
+                    "descriptive_other": "Rok: {{ count }} dni",
+                    "descriptive_two": "Rok: {{ count }} dni"
+                },
+                "hours": {
+                    "descriptive_few": "Rok: {{ count }} ure",
+                    "descriptive_one": "Rok: {{ count }} ura",
+                    "descriptive_other": "Rok: {{ count }} ur",
+                    "descriptive_two": "Rok: {{ count }} uri"
+                },
+                "minutes": {
+                    "descriptive_few": "Rok: {{ count }} minute",
+                    "descriptive_one": "Rok: {{ count }} minuta",
+                    "descriptive_other": "Rok: {{ count }} minut",
+                    "descriptive_two": "Rok: {{ count }} minuti"
+                },
+                "months": {
+                    "descriptive_few": "Rok: {{ count }} meseci",
+                    "descriptive_one": "Rok: {{ count }} mesec",
+                    "descriptive_other": "Rok: {{ count }} mesecev",
+                    "descriptive_two": "Rok: {{ count }} meseca"
+                }
+            }
+        }
+    }
+}
