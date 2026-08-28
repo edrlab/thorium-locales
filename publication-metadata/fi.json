@@ -277,7 +277,7 @@
             "artistCount_other": "{{ count }} taiteilijaa",
             "artistMultiple": "Taiteilijat",
             "author": "Kirjailija",
-            "authorCount_one": "{{ count }} kirjailja",
+            "authorCount_one": "{{ count }} kirjailija",
             "authorCount_other": "{{ count }} kirjailijaa",
             "authorMultiple": "Kirjailijat",
             "collection": "Toimituksellinen kirjasarja",
