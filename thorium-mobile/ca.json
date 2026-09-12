@@ -1,1 +1,404 @@
-{}
+{
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Pàgina web"
+                }
+            },
+            "title": "Programari de tercers"
+        },
+        "copyright": "Copyright {{ year }} European Digital Reading Lab.\nTots els drets reservats.",
+        "title": "Quant a",
+        "version": "Versió {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filtre"
+            },
+            "sort": {
+                "compact": "Ordena per"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "La teva llibreria està buida.\nImporta fitxers EPUB, PDF, LCPL o CBZ o afegeix un catàleg.",
+                "filter": "No hi ha cap publicació de la llibreria que coincideixi amb aquest filtre."
+            },
+            "title": "No s'han trobat publicacions"
+        },
+        "filter": {
+            "all": "Tots",
+            "currentlyListening": "Escoltant actualment",
+            "currentlyReading": "Llegint actualment",
+            "finished": "Acabats",
+            "notStartedYet": "No començats",
+            "recentlyAdded": "Afegits recentment",
+            "samples": "Mostres",
+            "type": "Tipus"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Explora"
+            }
+        },
+        "sort": {
+            "author": "Autoria",
+            "finished": "Data d'acabament",
+            "lastAdded": "Últims afegits",
+            "lastRead": "Últims llegits",
+            "title": "Títol"
+        },
+        "title": "Llibreria",
+        "view": {
+            "grid": "Quadrícula",
+            "list": "Llista",
+            "title": "Mode de visualització"
+        }
+    },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Inici"
+            },
+            "next": {
+                "compact": "Següent"
+            },
+            "openInBrowser": {
+                "compact": "Obre al navegador"
+            },
+            "previous": {
+                "compact": "Anterior"
+            },
+            "reload": {
+                "compact": "Recarrega"
+            },
+            "stop": {
+                "compact": "Para"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Afegeix",
+                "descriptive": "Afegeix el catàleg"
+            },
+            "browse": {
+                "compact": "Consulta",
+                "descriptive": "Consulta el catàleg"
+            },
+            "edit": {
+                "compact": "Edita",
+                "descriptive": "Edita el catàleg"
+            },
+            "info": {
+                "compact": "Informació"
+            },
+            "remove": {
+                "compact": "Elimina",
+                "confirmation": "Segur que vols eliminar el catàleg \"{{ name }}\"?",
+                "descriptive": "Elimina el catàleg"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Afegeix el catàleg"
+            },
+            "edit": {
+                "title": "Edita el catàleg"
+            },
+            "errors": {
+                "invalidName": "Introdueix un nom vàlid.",
+                "invalidUrl": "Introdueix una adreça vàlida.",
+                "unsupportedCatalog": "Aquest tipus de catàleg no és compatible."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Color"
+                },
+                "name": {
+                    "compact": "Nom"
+                },
+                "url": {
+                    "compact": "Adreça",
+                    "placeholder": "https://cataleg.cat"
+                },
+                "useSystemBrowser": {
+                    "compact": "Obre el catàleg al navegador"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Afegeix catàlegs per navegar i descarregar publicacions.",
+            "title": "No hi ha catàlegs"
+        },
+        "title": "Catàlegs",
+        "user": {
+            "bookshelf": {
+                "compact": "Llibreria"
+            }
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Cancel·la",
+            "close": "Tanca",
+            "collapse": "Contrau",
+            "collapseAll": "Contraure'ls tots",
+            "delete": "Elimina",
+            "expand": "Expandeix",
+            "expandAll": "Expandir-los tots",
+            "filter": "Filtra",
+            "retry": "Reintenta",
+            "search": "Cerca",
+            "showMoreOptions": "Més opcions",
+            "sortBy": "Ordena per"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Inicia la sessió"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "El nom d'usuari o la contrasenya són incorrectes. Torna-ho a provar."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Contrasenya"
+                },
+                "username": {
+                    "compact": "Nom d'usuari"
+                }
+            },
+            "title": "Inicia la sessió a {{ host }}"
+        },
+        "confirmation": {
+            "title": "Segur?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Detalls"
+                }
+            },
+            "cancelled": "Operació cancel·lada.",
+            "outOfMemory": "No hi ha prou memòria disponible per continuar. Tanca altres aplicacions o torna a provar-ho més tard.",
+            "title": "Error",
+            "unexpected": "Quelcom ha fallat. Torna a intentar-ho."
+        },
+        "estimatedNumber": "~{{ number }}",
+        "file": {
+            "errors": {
+                "corrupted": "No s'ha pogut obrir aquest contingut. És possible que el fitxer estigui malmès o utilitzi un format no admès. Prova-ho amb un arxiu diferent.",
+                "forbidden": "No es pot obrir l'arxiu. Accés denegat.",
+                "formatNotSupported": "Tipus d'arxiu no compatible. Prova-ho amb un arxiu diferent.",
+                "insufficientSpace": "No hi ha prou espai per continuar. Allibera espai i torna-ho a provar.",
+                "notFound": "No s'ha pogut obrir l'arxiu. No s'ha trobat l'arxiu.",
+                "protocolNotSupported": "Aquesta publicació no es pot obrir des de la seva ubicació actual. Prova de baixar-la primer o posa't en contacte amb la llibreria per obtenir assistència."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Quelcom ha fallat. Comprova la connexió a Internet o torna a intentar-ho més tard.",
+                "forbidden": "No tens permís per accedir a aquest contingut.",
+                "malformedResponse": "No es pot carregar aquest contingut. Hi ha un problema amb el servidor. Torna a provar-ho més tard.",
+                "methodNotSupported": "El servidor no admet el mètode de càrrega requerit.",
+                "notFound": "No s'ha trobat contingut.",
+                "offline": "Estàs fora de línia. Comprova la teva connexió a Internet.",
+                "security": "Ha fallat la connexió segura. Torna a provar-ho més tard.",
+                "timeout": "El temps de connexió s'ha esgotat. Torna a provar-ho.",
+                "unauthorized": "Has d'iniciar la sessió per accedir a aquest contingut.",
+                "unreachable": "No s'ha pogut connectar al servidor."
+            }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
+        }
+    },
+    "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Benvingut al Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Has acabat de llegir totes les publicacions que tens actualment a la llibreria.",
+                "title": "Tot al dia"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Mostra els escoltats recentment per separat"
+            }
+        },
+        "title": "Inici"
+    },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Amaga"
+            },
+            "pause": {
+                "compact": "Pausa"
+            },
+            "resume": {
+                "compact": "Reprèn"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "Ara mateix no hi ha cap baixada en curs.",
+                "title": "Cap baixada en curs"
+            }
+        },
+        "events": {
+            "batchAdded_many": "S'han afegit {{ count }} publicacions",
+            "batchAdded_one": "S'ha afegit {{ count }} publicació",
+            "batchAdded_other": "S'han afegit {{ count }} publicacions",
+            "batchMixed": {
+                "added_many": "{{ count }} afegits",
+                "added_one": "{{ count }} afegit",
+                "added_other": "{{ count }} afegits",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_many": "{{ count }} fallits",
+                "failed_one": "{{ count }} fallit",
+                "failed_other": "{{ count }} fallits"
+            },
+            "batchRunning_many": "Important {{ count }} publicacions…",
+            "batchRunning_one": "Important {{ count }} publicació…",
+            "batchRunning_other": "Important {{ count }} publicacions…",
+            "taskAdded": "\"{{ title }}\" afegit",
+            "taskFailed": "No s'ha pogut afegir \"{{ title }}\"",
+            "taskRunning": "Important \"{{ title }}\"…"
+        },
+        "status": {
+            "added": "Afegit",
+            "cancelled": "Cancel·lada",
+            "downloading": "Baixant…",
+            "failed": "Fallit",
+            "paused": "En pausa",
+            "processing": "Important…",
+            "queued": "Esperant…"
+        },
+        "title": {
+            "batch": "Importacions",
+            "downloads": "Baixades"
+        }
+    },
+    "intents": {
+        "openBook": {
+            "title": "Obre un llibre"
+        },
+        "openBookshelf": {
+            "description": "Obre l'aplicació a la teva llibreria.",
+            "title": "Obre la llibreria"
+        }
+    },
+    "links": {
+        "aboutApp": "Sobre aquesta aplicació",
+        "aboutUs": "Sobre nosaltres",
+        "community": {
+            "blog": "Blog",
+            "discord": "Uneix-te a la comunitat de Discord",
+            "patreon": "Dona'ns suport a Patreon",
+            "title": "Estigues al dia",
+            "youtube": "Segueix-nos a YouTube"
+        },
+        "help": "Ajuda i suggeriments",
+        "info": "Informació",
+        "privacyPolicy": "Política de privadesa",
+        "termsOfUse": "Condicions d'ús"
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Importa"
+            },
+            "listen": {
+                "compact": "Escoltar"
+            },
+            "markAsFinished": {
+                "compact": "Marca com a completat"
+            },
+            "markAsNotStarted": {
+                "compact": "Marca com a no començat"
+            },
+            "markAsUnfinished": {
+                "compact": "Marca com a no acabat"
+            },
+            "read": {
+                "compact": "Llegir"
+            },
+            "remove": {
+                "compact": "Eliminar",
+                "confirmation": "Segur que vols eliminar \"{{ title }}\"?"
+            },
+            "rename": {
+                "compact": "Canviar el nom",
+                "descriptive": "Canviar el nom de la publicació"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Cap",
+            "sample": "Mostra",
+            "unknownTitle": "Sense títol"
+        }
+    },
+    "reader": {
+        "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Mostra nota en crear un marcador nou"
+                },
+                "title": "Marcadors i ressaltats"
+            },
+            "progression": {
+                "animatePageTurns": {
+                    "compact": "Anima els girs de pàgina"
+                },
+                "displayCurrentProgression": {
+                    "compact": "Mostra la progressió actual"
+                },
+                "displayPrintPagination": {
+                    "compact": "Mostra la paginació impresa"
+                },
+                "progressionStyle": {
+                    "compact": "Estil de la progressió"
+                },
+                "title": "Progressió"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Mostra sempre la barra d'estat"
+                },
+                "displayOrientationLock": {
+                    "compact": "Mostra el botó de bloqueig d'orientació en girar"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Evita que la pantalla s'apagui"
+                },
+                "title": "Pantalla"
+            },
+            "title": "Opcions de lectura"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Mostra sempre",
+            "hidden": "Amagat",
+            "title": "Mini reproductor d'àudio",
+            "whenPlaying": "Mostra durant la reproducció"
+        },
+        "systemSettings": "Configuració",
+        "theme": {
+            "dark": "Fosc",
+            "light": "Clar",
+            "system": "Predeterminat del sistema",
+            "title": "Aspecte"
+        },
+        "title": "Ajustos"
+    }
+}
