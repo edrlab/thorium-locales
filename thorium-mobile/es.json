@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Tu estantería por ahora está vacía. \nImporte archivos EPUB, PDF o CBZ do añade un catálogo.",
+                "bookshelf": "Tu estantería por ahora está vacía.\nImporta archivos EPUB, PDF o CBZ o añade un catálogo.",
                 "filter": "No hay publicaciones en su estantería que coincidan con este filtro.",
                 "kind": "No hay publicaciones que coincidan con el tipo seleccionado. Prueba a mostrar todos los tipos para ver más títulos de tu estantería."
             },

@@ -44,7 +44,113 @@
             }
         },
         "sort": {
-            "author": "Auteur"
+            "author": "Auteur",
+            "finished": "Voltooiingsdatum",
+            "lastAdded": "Als laatste toegevoegd",
+            "lastRead": "Als laatste gelezen",
+            "title": "Titel"
+        },
+        "title": "Boekenplank",
+        "view": {
+            "grid": "Raster",
+            "list": "Lijst",
+            "title": "Weergavekeuze"
+        }
+    },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Startpagina"
+            },
+            "next": {
+                "compact": "Volgende"
+            },
+            "openInBrowser": {
+                "compact": "Open in browser"
+            },
+            "previous": {
+                "compact": "Vorige"
+            },
+            "reload": {
+                "compact": "Opnieuw laden"
+            },
+            "stop": {
+                "compact": "Stop"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Voeg toe",
+                "descriptive": "Voeg catalogus toe"
+            },
+            "browse": {
+                "compact": "Blader",
+                "descriptive": "Blader door catalogus"
+            },
+            "edit": {
+                "compact": "Bewerk",
+                "descriptive": "Wijzig catalogus"
+            },
+            "info": {
+                "compact": "Info"
+            },
+            "remove": {
+                "compact": "Verwijder",
+                "confirmation": "Weet u zeker dat u de catalogus \"{{ name }}\" wilt verwijderen?",
+                "descriptive": "Verwijder catalogus"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Voeg catalogus toe"
+            },
+            "edit": {
+                "title": "Bewerk catalogus"
+            },
+            "errors": {
+                "invalidName": "Voer een geldige naam in.",
+                "invalidUrl": "Voer een geldige URL in.",
+                "unsupportedCatalog": "Dit type catalogus wordt niet ondersteund."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Kleur"
+                },
+                "name": {
+                    "compact": "Naam"
+                },
+                "url": {
+                    "compact": "URL",
+                    "placeholder": "https://catalogus.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Open de catalogus in de browser"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Voeg catalogi toe om publicaties te bekijken en te downloaden.",
+            "title": "Nog geen catalogi"
+        },
+        "title": "Catalogi",
+        "user": {
+            "bookshelf": {
+                "compact": "Boekenplank"
+            }
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Annuleer",
+            "close": "Afsluiten",
+            "collapse": "Inklappen",
+            "collapseAll": "Alle inklappen",
+            "delete": "Wissen",
+            "expand": "Uitklappen",
+            "expandAll": "Alle uitklappen",
+            "filter": "Filter"
         }
     }
 }
