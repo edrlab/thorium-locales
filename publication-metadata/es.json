@@ -323,7 +323,7 @@
             "imprintCount_many": "{{ count }} sellos editoriales",
             "imprintCount_one": "{{ count }} sello editorial",
             "imprintCount_other": "{{ count }} sellos editoriales",
-            "imprintMultiple": "Sellos editorial",
+            "imprintMultiple": "Sellos editoriales",
             "inker": "Entintador",
             "inkerCount_many": "{{ count }} entintadores",
             "inkerCount_one": "{{ count }} entintador",

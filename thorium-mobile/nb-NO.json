@@ -1,1 +1,8 @@
-{}
+{
+    "settings": {
+        "theme": {
+            "dark": "Mørk",
+            "light": "Lys"
+        }
+    }
+}
