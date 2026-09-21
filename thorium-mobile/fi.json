@@ -135,6 +135,12 @@
             "description": "Lisää luetteloita, jotta voit selata ja ladata julkaisuja.",
             "title": "Ei vielä luetteloita"
         },
+        "tips": {
+            "add": {
+                "message": "Lisää mikä tahansa verkkosivusto luetteloksi, niin voit helposti selata ja ladata e-kirjoja, sarjakuvia ja mangaa.",
+                "title": "Tuetut luettelot"
+            }
+        },
         "title": "Luettelot",
         "user": {
             "bookshelf": {

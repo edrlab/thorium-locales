@@ -135,6 +135,12 @@
             "description": "Añade catálogos para explorar y descargar publicaciones.",
             "title": "Aún no hay catálogos"
         },
+        "tips": {
+            "add": {
+                "message": "Añade cualquier sitio web como catálogo para explorar y descargar fácilmente ebooks, cómics y manga.",
+                "title": "Catálogos compatibles"
+            }
+        },
         "title": "Catálogos",
         "user": {
             "bookshelf": {

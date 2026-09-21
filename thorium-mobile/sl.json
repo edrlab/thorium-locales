@@ -134,6 +134,12 @@
             "description": "Dodaj kataloge za ogled in prenos publikacij.",
             "title": "Ni katalogov"
         },
+        "tips": {
+            "add": {
+                "message": "Dodajte katero koli spletno mesto kot katalog ter preprosto brskajte po e-knjigah, stripih in mangah in jih prenašajte.",
+                "title": "Podprti katalogi"
+            }
+        },
         "title": "Katalogi",
         "user": {
             "bookshelf": {

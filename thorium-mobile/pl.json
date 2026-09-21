@@ -134,6 +134,12 @@
             "description": "Dodaj katalogi, aby przeglądać i pobierać publikacje.",
             "title": "Brak katalogów"
         },
+        "tips": {
+            "add": {
+                "message": "Dodaj dowolną stronę internetową jako katalog, aby łatwo przeglądać i pobierać e-booki, komiksy i mangi.",
+                "title": "Obsługiwane katalogi"
+            }
+        },
         "title": "Katalogi",
         "user": {
             "bookshelf": {

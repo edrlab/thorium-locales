@@ -134,6 +134,12 @@
             "description": "Voeg catalogi toe om publicaties te bekijken en te downloaden.",
             "title": "Nog geen catalogi"
         },
+        "tips": {
+            "add": {
+                "message": "Voeg elke website toe als catalogus om eenvoudig e-books, strips en manga te bekijken en te downloaden.",
+                "title": "Ondersteunde catalogi"
+            }
+        },
         "title": "Catalogi",
         "user": {
             "bookshelf": {
