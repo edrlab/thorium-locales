@@ -135,6 +135,12 @@
             "description": "Lisa katalooge e-raamatute sirvimiseks ja allalaadimiseks.",
             "title": "Ühtegi kataloogi veel pole"
         },
+        "tips": {
+            "add": {
+                "message": "Lisa mis tahes veebisait kataloogina, et hõlpsalt sirvida ja alla laadida e-raamatuid, koomikseid ja mangat.",
+                "title": "Toetatud kataloogid"
+            }
+        },
         "title": "Kataloogid",
         "user": {
             "bookshelf": {

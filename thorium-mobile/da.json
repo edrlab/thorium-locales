@@ -134,6 +134,12 @@
             "description": "Tilføj kataloger, hvor du kan gennemse og downloade bøger.",
             "title": "Ingen kataloger endnu"
         },
+        "tips": {
+            "add": {
+                "message": "Tilføj ethvert websted som et katalog, så du nemt kan gennemse og downloade e-bøger, tegneserier og manga.",
+                "title": "Understøttede kataloger"
+            }
+        },
         "title": "Kataloger",
         "user": {
             "bookshelf": {

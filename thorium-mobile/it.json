@@ -135,6 +135,12 @@
             "description": "Aggiungi cataloghi per navigare e scaricare le pubblicazioni.",
             "title": "Non ci sono ancora cataloghi"
         },
+        "tips": {
+            "add": {
+                "message": "Aggiungi qualsiasi sito web come catalogo per navigare e scaricare facilmente ebook, fumetti e manga.",
+                "title": "Cataloghi supportati"
+            }
+        },
         "title": "Cataloghi",
         "user": {
             "bookshelf": {

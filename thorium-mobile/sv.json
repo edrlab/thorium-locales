@@ -135,6 +135,12 @@
             "description": "Lägg till en katalog för att kunna bläddra och ladda ner böcker.",
             "title": "Inga kataloger"
         },
+        "tips": {
+            "add": {
+                "message": "Lägg till valfri webbplats som katalog för att enkelt bläddra bland och ladda ner e-böcker, serier och manga.",
+                "title": "Kataloger som stöds"
+            }
+        },
         "title": "Kataloger",
         "user": {
             "bookshelf": {

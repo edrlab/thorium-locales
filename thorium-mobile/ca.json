@@ -134,6 +134,12 @@
             "description": "Afegeix catàlegs per navegar i descarregar publicacions.",
             "title": "No hi ha catàlegs"
         },
+        "tips": {
+            "add": {
+                "message": "Afegeix qualsevol lloc web com a catàleg per navegar i descarregar fàcilment llibres electrònics, còmics i manga.",
+                "title": "Catàlegs compatibles"
+            }
+        },
         "title": "Catàlegs",
         "user": {
             "bookshelf": {

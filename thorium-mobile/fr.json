@@ -135,6 +135,12 @@
             "description": "Ajoutez des catalogues pour parcourir et télécharger des publications.",
             "title": "Aucun catalogue"
         },
+        "tips": {
+            "add": {
+                "message": "Ajoutez n'importe quel site web comme catalogue pour parcourir et télécharger facilement des livres numériques, des bandes dessinées et des mangas.",
+                "title": "Catalogues compatibles"
+            }
+        },
         "title": "Catalogues",
         "user": {
             "bookshelf": {

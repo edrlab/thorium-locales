@@ -134,6 +134,12 @@
             "description": "Add catalogs to browse and download publications.",
             "title": "No catalogs yet"
         },
+        "tips": {
+            "add": {
+                "message": "Add any website as a catalog to easily browse and download ebooks, comics and manga.",
+                "title": "Supported catalogs"
+            }
+        },
         "title": "Catalogs",
         "user": {
             "bookshelf": {

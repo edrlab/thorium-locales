@@ -134,6 +134,12 @@
             "description": "Pridėkite katalogus, kad galėtumėte naršyti ir atsisiųsti leidinius.",
             "title": "Katalogų kol kas nėra"
         },
+        "tips": {
+            "add": {
+                "message": "Pridėkite bet kurią svetainę kaip katalogą, kad galėtumėte lengvai naršyti ir atsisiųsti el. knygas, komiksus ir mangas.",
+                "title": "Palaikomi katalogai"
+            }
+        },
         "title": "Katalogai",
         "user": {
             "bookshelf": {
