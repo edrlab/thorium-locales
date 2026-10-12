@@ -29,6 +29,9 @@
         "actions": {
             "goBackward": "Geri git",
             "goForward": "İleri git",
+            "goToExtendedDescription": {
+                "compact": "Genişletilmiş açıklama"
+            },
             "goToNextChapter": {
                 "compact": "Sonraki",
                 "descriptive": "Sonraki bölüm"
