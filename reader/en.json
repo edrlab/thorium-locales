@@ -78,6 +78,9 @@
             },
             "readAloud": {
                 "compact": "Read aloud"
+            },
+            "rotateImage": {
+                "compact": "Rotate"
             }
         },
         "annotations": {
