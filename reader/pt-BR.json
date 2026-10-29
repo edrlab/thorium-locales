@@ -29,6 +29,9 @@
         "actions": {
             "goBackward": "Voltar",
             "goForward": "Avançar",
+            "goToExtendedDescription": {
+                "compact": "Descrição estendida"
+            },
             "goToNextChapter": {
                 "compact": "Próximo",
                 "descriptive": "Próximo capítulo"
@@ -36,6 +39,14 @@
             "goToNextPage": {
                 "compact": "Próximo",
                 "descriptive": "Próxima página"
+            },
+            "goToNextResource": {
+                "compact": "Próximo",
+                "descriptive": "Próximo recurso"
+            },
+            "goToNextSentence": {
+                "compact": "Próxima",
+                "descriptive": "Próxima frase"
             },
             "goToPosition": {
                 "compact": "Ir para…",
@@ -48,9 +59,97 @@
             "goToPreviousPage": {
                 "compact": "Anterior",
                 "descriptive": "Página anterior"
+            },
+            "goToPreviousResource": {
+                "compact": "Anterior",
+                "descriptive": "Recurso anterior"
+            },
+            "goToPreviousSentence": {
+                "compact": "Anterior",
+                "descriptive": "Frase anterior"
+            },
+            "readAloud": {
+                "compact": "Ler em voz alta"
+            }
+        },
+        "annotations": {
+            "actions": {
+                "editNote": {
+                    "compact": "Editar nota"
+                }
+            },
+            "bookmarks": {
+                "actions": {
+                    "add": {
+                        "compact": "Adicionar marcador"
+                    },
+                    "delete": {
+                        "compact": "Excluir marcador",
+                        "confirmation": "Tem certeza de que deseja excluir este marcador?"
+                    }
+                },
+                "emptyState": {
+                    "description": "Novos marcadores adicionados durante a leitura aparecerão nesta lista.",
+                    "title": "Sem marcadores"
+                },
+                "title": "Marcadores"
+            },
+            "note": {
+                "title": "Nota"
+            },
+            "sort": {
+                "lastAdded": {
+                    "compact": "Último adicionado"
+                },
+                "lastEdited": {
+                    "compact": "Último editado"
+                },
+                "progression": {
+                    "compact": "Progressão"
+                }
+            }
+        },
+        "playback": {
+            "actions": {
+                "pause": "Pausar",
+                "play": "Reproduzir",
+                "skipBackward": {
+                    "compact": "Voltar",
+                    "descriptive": "Pular para trás"
+                },
+                "skipForward": {
+                    "compact": "Avançar",
+                    "descriptive": "Pular para frente"
+                }
+            },
+            "preferences": {
+                "audio": {
+                    "skipBackwardInterval": "Intervalo de retrocesso",
+                    "skipForwardInterval": "Intervalo de avanço",
+                    "skipInterval": "Pular intervalo",
+                    "title": "Configurações de áudio",
+                    "volume": "Volume"
+                },
+                "autoPlay": {
+                    "label": "Reprodução contínua",
+                    "title": "Reprodução automática"
+                },
+                "playbackRate": {
+                    "compact": "Velocidade",
+                    "descriptive": "Velocidade de reprodução"
+                },
+                "sleepTimer": {
+                    "compact": "Temporizador",
+                    "descriptive": "Temporizador de sono",
+                    "presets": {
+                        "endOfChapter": "Fim do capítulo",
+                        "endOfResource": "Fim do recurso"
+                    }
+                }
             }
         },
         "preferences": {
+            "brightness": "Brilho",
             "columns": {
                 "auto": "Automático",
                 "dual": {
@@ -62,6 +161,18 @@
                     "descriptive": "Coluna única"
                 },
                 "title": "Colunas"
+            },
+            "fit": {
+                "auto": {
+                    "compact": "Automático"
+                },
+                "page": {
+                    "compact": "Página"
+                },
+                "title": "Ajustar",
+                "width": {
+                    "compact": "Largura"
+                }
             },
             "fontFamily": {
                 "humanist": {
@@ -97,6 +208,10 @@
                 "title": "Layout"
             },
             "letterSpacing": "Espaçamento entre letras",
+            "ligatures": {
+                "label": "Ativar ligaduras",
+                "title": "Ligaduras"
+            },
             "lineHeight": {
                 "default": "Padrão",
                 "large": "Solta",
@@ -104,11 +219,31 @@
                 "small": "Apertada",
                 "title": "Altura da linha"
             },
+            "noRuby": {
+                "label": "Ocultar anotações ruby",
+                "title": "Anotações ruby"
+            },
+            "offsetFirstPage": "Exibir a primeira página separadamente",
             "paragraphIndent": "Recuo de parágrafo",
             "paragraphSpacing": "Espaçamento entre parágrafos",
             "publisherStyles": {
                 "label": "Usar a formatação original",
                 "title": "Estilos do Editor"
+            },
+            "readingDirection": {
+                "default": {
+                    "compact": "Padrão",
+                    "descriptive": "Usar a direção de leitura original"
+                },
+                "ltr": {
+                    "compact": "Direita",
+                    "descriptive": "Esquerda para direita"
+                },
+                "rtl": {
+                    "compact": "Esquerda",
+                    "descriptive": "Direita para esquerda"
+                },
+                "title": "Direção de leitura"
             },
             "spacing": {
                 "presets": {
@@ -121,6 +256,18 @@
                     "title": "Predefinições"
                 },
                 "title": "Espaçamento"
+            },
+            "spread": {
+                "always": {
+                    "compact": "Página dupla"
+                },
+                "auto": {
+                    "compact": "Automático"
+                },
+                "never": {
+                    "compact": "Página simples"
+                },
+                "title": "Planilha"
             },
             "text": "Texto",
             "textAlign": {
@@ -140,6 +287,7 @@
                 "contrast2": "Contraste 2",
                 "contrast3": "Contraste 3",
                 "dark": "Escuro",
+                "gray": "Cinza",
                 "light": "Claro",
                 "paper": "Papel",
                 "sepia": "Sépia",
@@ -151,33 +299,42 @@
         },
         "progression": {
             "pagesLeft": {
-                "descriptive_many": "",
+                "descriptive_many": "{{ count }} páginas restantes",
                 "descriptive_one": "{{ count }} página restante",
                 "descriptive_other": "{{ count }} páginas restantes"
             },
             "pagesLeftInChapter": {
-                "descriptive_many": "",
+                "descriptive_many": "{{ count }} páginas restantes no capítulo",
                 "descriptive_one": "{{ count }} página restante no capítulo",
                 "descriptive_other": "{{ count }} páginas restantes no capítulo"
             },
             "pagesLeftInPublication": {
-                "descriptive_many": "",
-                "descriptive_one": "{{ count }} página restante em publicação",
-                "descriptive_other": "{{ count }} páginas restantes em publicação"
+                "descriptive_many": "{{ count }} páginas restantes na publicação",
+                "descriptive_one": "{{ count }} página restante na publicação",
+                "descriptive_other": "{{ count }} páginas restantes na publicação"
             },
             "percentage": "{{ percentage }}%",
             "positionsLeft": {
-                "descriptive_many": "",
+                "compact_many": "{{ count }} restantes",
+                "compact_one": "{{ count }} restante",
+                "compact_other": "{{ count }} restantes",
+                "descriptive_many": "{{ count }} posições restantes",
                 "descriptive_one": "{{ count }} posição restante",
                 "descriptive_other": "{{ count }} posições restantes"
             },
             "positionsLeftInChapter": {
-                "descriptive_many": "",
+                "compact_many": "{{ count }} restantes no capítulo",
+                "compact_one": "{{ count }} restante no capítulo",
+                "compact_other": "{{ count }} restantes no capítulo",
+                "descriptive_many": "{{ count }} posições restantes no capítulo",
                 "descriptive_one": "{{ count }} posição restante no capítulo",
                 "descriptive_other": "{{ count }} posições restantes no capítulo"
             },
             "positionsLeftInPublication": {
-                "descriptive_many": "",
+                "compact_many": "{{ count }} restantes na publicação",
+                "compact_one": "{{ count }} restante na publicação",
+                "compact_other": "{{ count }} restantes na publicação",
+                "descriptive_many": "{{ count }} posições restantes na publicação",
                 "descriptive_one": "{{ count }} posição restante na publicação",
                 "descriptive_other": "{{ count }} posições restantes na publicação"
             },
@@ -187,9 +344,24 @@
                 "descriptive": "{{ x }} de {{ y }} ({{ z }})"
             }
         },
+        "search": {
+            "actions": {
+                "next": {
+                    "compact": "Próximo resultado"
+                },
+                "previous": {
+                    "compact": "Resultado anterior"
+                }
+            },
+            "placeholder": "Pesquisar por palavras-chave ou frases",
+            "result_many": "{{ current }} de {{ count }} resultados",
+            "result_one": "{{ current }} de {{ count }} resultado",
+            "result_other": "{{ current }} de {{ count }} resultados",
+            "title": "Pesquisar"
+        },
         "tableOfContents": {
             "emptyState": {
-                "description": "O sumário não foi fornecido para esta publicação.",
+                "description": "Um sumário não foi fornecido pelo autor.",
                 "title": "Sem índice"
             },
             "title": "Sumário"
