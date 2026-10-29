@@ -131,12 +131,16 @@
                     "compact": "Rewind",
                     "descriptive": "Skip backward"
                 },
-                "skipBackwardBy": "Skip backward {{ duration }}",
+                "skipBackwardBy": {
+                    "descriptive": "Skip backward {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Forward",
                     "descriptive": "Skip forward"
                 },
-                "skipForwardBy": "Skip forward {{ duration }}"
+                "skipForwardBy": {
+                    "descriptive": "Skip forward {{ duration }}"
+                }
             },
             "errors": {
                 "ttsLanguageNotSupported": "This language is not supported by the text-to-speech voice."
