@@ -69,13 +69,13 @@
                 "descriptive": "Föregående mening"
             },
             "readAloud": {
-                "compact": "Läs högt"
+                "compact": "Läs upp"
             }
         },
         "annotations": {
             "actions": {
                 "editNote": {
-                    "compact": "Redigera anteckning"
+                    "compact": "Lägg till anteckning"
                 }
             },
             "bookmarks": {
@@ -143,7 +143,7 @@
                     "descriptive": "Sovtimer",
                     "presets": {
                         "endOfChapter": "Kapitlets slut",
-                        "endOfResource": "Slut på resurs"
+                        "endOfResource": "Slut på avsnitt"
                     }
                 }
             }
@@ -319,7 +319,7 @@
             },
             "positionsLeftInChapter": {
                 "compact_one": "{{ count }} kvar i kapitlet",
-                "compact_other": "{{ count }} kvar i kapitel",
+                "compact_other": "{{ count }} kvar i kapitlet",
                 "descriptive_one": "{{ count }} position kvar i kapitlet",
                 "descriptive_other": "{{ count }} positioner kvar i nuvarande kapitel"
             },

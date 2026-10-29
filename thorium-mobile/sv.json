@@ -137,7 +137,7 @@
         },
         "tips": {
             "add": {
-                "message": "Lägg till valfri webbplats som katalog för att enkelt bläddra bland och ladda ner e-böcker, serier och manga.",
+                "message": "Lägg till valfri webbplats som en katalog för att enkelt bläddra bland och ladda ner e-böcker, serier och manga.",
                 "title": "Kataloger som stöds"
             }
         },
@@ -232,7 +232,7 @@
                 "title": "Välkommen till Thorium Reader"
             },
             "emptyHome": {
-                "description": "Du har läst alla publikationer i din bokhylla.",
+                "description": "Du har läst alla böcker i din bokhylla.",
                 "title": "Du är uppdaterad"
             }
         },
