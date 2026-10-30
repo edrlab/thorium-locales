@@ -125,8 +125,10 @@
         },
         "playback": {
             "actions": {
+                "next": "Next",
                 "pause": "Pause",
                 "play": "Play",
+                "previous": "Previous",
                 "skipBackward": {
                     "compact": "Rewind",
                     "descriptive": "Skip backward"
