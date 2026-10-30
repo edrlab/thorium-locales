@@ -48,6 +48,10 @@
                 "compact": "Next",
                 "descriptive": "Next sentence"
             },
+            "goToNextTrack": {
+                "compact": "Next",
+                "descriptive": "Next track"
+            },
             "goToPosition": {
                 "compact": "Go to…",
                 "descriptive": "Go to position"
@@ -68,8 +72,15 @@
                 "compact": "Previous",
                 "descriptive": "Previous sentence"
             },
+            "goToPreviousTrack": {
+                "compact": "Previous",
+                "descriptive": "Previous track"
+            },
             "readAloud": {
                 "compact": "Read aloud"
+            },
+            "rotateImage": {
+                "compact": "Rotate"
             }
         },
         "annotations": {
@@ -92,6 +103,9 @@
                     "description": "New bookmarks added while reading will show up in this list.",
                     "title": "No bookmarks"
                 },
+                "events": {
+                    "added": "Bookmark added"
+                },
                 "title": "Bookmarks"
             },
             "note": {
@@ -111,16 +125,27 @@
         },
         "playback": {
             "actions": {
+                "next": "Next",
                 "pause": "Pause",
                 "play": "Play",
+                "previous": "Previous",
                 "skipBackward": {
                     "compact": "Rewind",
                     "descriptive": "Skip backward"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Skip backward {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Forward",
                     "descriptive": "Skip forward"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Skip forward {{ duration }}"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "This language is not supported by the text-to-speech voice."
             },
             "preferences": {
                 "audio": {
@@ -136,17 +161,27 @@
                 },
                 "playbackRate": {
                     "compact": "Speed",
-                    "descriptive": "Playback rate"
+                    "descriptive": "Playback rate",
+                    "value": "{{ rate }}×"
                 },
                 "sleepTimer": {
                     "compact": "Timer",
+                    "custom": {
+                        "duration": "Duration",
+                        "endTime": "End time",
+                        "until": "Until {{ time }}"
+                    },
                     "descriptive": "Sleep timer",
+                    "off": "Off",
                     "presets": {
+                        "custom": "Custom",
                         "endOfChapter": "End of chapter",
+                        "endOfNextChapter": "End of next chapter",
                         "endOfResource": "End of resource"
                     }
                 }
-            }
+            },
+            "trackN": "Track {{ index }}"
         },
         "preferences": {
             "brightness": "Brightness",
@@ -190,6 +225,8 @@
                 },
                 "publisher": "Publisher's font",
                 "sans": "Sans-serif",
+                "serif": "Serif",
+                "specialized": "Specialized",
                 "title": "Font family"
             },
             "fontSize": "Font size",
@@ -330,6 +367,10 @@
                 "descriptive_other": "{{ count }} positions left in publication"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "{{ duration }} left",
+                "descriptive": "{{ duration }} left in publication"
+            },
             "xOfY": {
                 "compact": "{{ x }} of {{ y }}",
                 "descriptive": "{{ x }} of {{ y }} ({{ z }})"
