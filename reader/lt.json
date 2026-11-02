@@ -70,6 +70,9 @@
             },
             "readAloud": {
                 "compact": "Skaityti garsiai"
+            },
+            "rotateImage": {
+                "compact": "Pasukti"
             }
         },
         "annotations": {
