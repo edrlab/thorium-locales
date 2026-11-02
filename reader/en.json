@@ -335,6 +335,9 @@
             "zoom": "Zoom"
         },
         "progression": {
+            "page": {
+                "descriptive": "Page {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_one": "{{ count }} page left",
                 "descriptive_other": "{{ count }} pages left"
@@ -348,6 +351,9 @@
                 "descriptive_other": "{{ count }} pages left in publication"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Position {{ index }}"
+            },
             "positionsLeft": {
                 "compact_one": "{{ count }} left",
                 "compact_other": "{{ count }} left",
