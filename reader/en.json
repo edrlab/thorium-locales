@@ -279,6 +279,7 @@
                     },
                     "voice": {
                         "prerecorded": "Prerecorded voice",
+                        "system": "System default",
                         "title": "Voice"
                     }
                 },
