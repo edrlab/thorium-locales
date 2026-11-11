@@ -157,6 +157,9 @@
                     "descriptive": "Saltar hacia adelante {{ duration }}"
                 }
             },
+            "errors": {
+                "ttsLanguageNotSupported": "Este idioma no es compatible con la voz de lectura en voz alta."
+            },
             "preferences": {
                 "audio": {
                     "skipBackwardInterval": "Intervalo de salto hacia atrás",
@@ -171,10 +174,13 @@
                 },
                 "playbackRate": {
                     "compact": "Velocidad",
-                    "descriptive": "Velocidad de reproducción"
+                    "descriptive": "Velocidad de reproducción",
+                    "value": "{{ rate }}×"
                 },
                 "readAloud": {
                     "abbreviations": {
+                        "after": "Con su expansión",
+                        "inline": "Expandidas",
                         "never": "tal cual",
                         "title": "Abreviaturas"
                     },
@@ -251,17 +257,50 @@
                         "title": "Saltos de página"
                     },
                     "pauseDuration": "Pausa entre frases",
-                    "pitch": "Tono"
+                    "pitch": "Tono",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Pausa automática",
+                            "custom": "Personalizado",
+                            "default": "Predeterminado",
+                            "fast": "Rápido",
+                            "slow": "Lento",
+                            "title": "Preajustes de ritmo"
+                        },
+                        "title": "Ritmo"
+                    },
+                    "title": "Ajustes de lectura en voz alta",
+                    "verbosity": {
+                        "few": "Pocos",
+                        "most": "Muchos",
+                        "none": "Ninguno",
+                        "some": "Algunos",
+                        "title": "Anuncios"
+                    },
+                    "voice": {
+                        "prerecorded": "Voz pregrabada",
+                        "system": "Predeterminada del sistema",
+                        "title": "Voz"
+                    }
                 },
                 "sleepTimer": {
                     "compact": "Temporizador",
+                    "custom": {
+                        "duration": "Duración",
+                        "endTime": "Hora de fin",
+                        "until": "Hasta {{ time }}"
+                    },
                     "descriptive": "Temporizador de sueño",
+                    "off": "Desactivado",
                     "presets": {
+                        "custom": "Personalizado",
                         "endOfChapter": "Final del capítulo",
+                        "endOfNextChapter": "Final del siguiente capítulo",
                         "endOfResource": "Final del recurso"
                     }
                 }
-            }
+            },
+            "trackN": "Pista {{ index }}"
         },
         "preferences": {
             "brightness": "Brillo",
@@ -305,6 +344,8 @@
                 },
                 "publisher": "De la editorial",
                 "sans": "Palo seco",
+                "serif": "Serif",
+                "specialized": "Especializadas",
                 "title": "Fuente"
             },
             "fontSize": "tamaño de fuente",
@@ -413,6 +454,9 @@
             "zoom": "Zoom"
         },
         "progression": {
+            "page": {
+                "descriptive": "Página {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_many": "{{ count }} páginas restantes",
                 "descriptive_one": "{{ count }} página restante",
@@ -429,6 +473,9 @@
                 "descriptive_other": "Quedan {{ count }} páginas para terminar la publicación"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Posición {{ index }}"
+            },
             "positionsLeft": {
                 "compact_many": "Quedan {{ count }}",
                 "compact_one": "Queda {{ count }}",
@@ -454,6 +501,10 @@
                 "descriptive_other": "Quedan {{ count }} posiciones en la publicación"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "Quedan {{ duration }}",
+                "descriptive": "Quedan {{ duration }} en la publicación"
+            },
             "xOfY": {
                 "compact": "{{ x }} de {{ y }}",
                 "descriptive": "{{ x }} de {{ y }} ({{ z }})"
