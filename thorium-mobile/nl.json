@@ -35,7 +35,7 @@
             "finished": "Afgerond",
             "notStartedYet": "Nog niet begonnen",
             "recentlyAdded": "Recent toegevoegd",
-            "samples": "Leesfragmenten",
+            "samples": "Fragmenten",
             "type": "Soort"
         },
         "sidebar": {
@@ -345,7 +345,7 @@
         },
         "labels": {
             "emptyContributors": "Geen",
-            "sample": "Leesfragment",
+            "sample": "Fragment",
             "unknownTitle": "Onbekende titel"
         }
     },
