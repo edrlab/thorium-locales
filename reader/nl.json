@@ -1,1 +1,526 @@
-{}
+{
+    "common": {
+        "actions": {
+            "cancel": "Annuleren",
+            "clear": "Wissen",
+            "close": "Sluiten",
+            "collapse": "Inklappen",
+            "collapseAll": "Alles inklappen",
+            "decrease": "Verlagen",
+            "disable": "Uitschakelen",
+            "enable": "Inschakelen",
+            "exit": "Afsluiten",
+            "expand": "Uitklappen",
+            "expandAll": "Alles uitklappen",
+            "filter": "Filteren",
+            "hide": "Verbergen",
+            "hideAll": "Alles verbergen",
+            "increase": "Verhogen",
+            "open": "Openen",
+            "reset": "Terugzetten",
+            "search": "Zoeken",
+            "show": "Tonen",
+            "showAll": "Alles tonen",
+            "sortBy": "Sorteren op",
+            "toggle": "In- of uitschakelen"
+        }
+    },
+    "reader": {
+        "actions": {
+            "goBackward": "Terug",
+            "goForward": "Vooruit",
+            "goToExtendedDescription": {
+                "compact": "Uitgebreide beschrijving"
+            },
+            "goToNextChapter": {
+                "compact": "Volgende",
+                "descriptive": "Volgend hoofdstuk"
+            },
+            "goToNextPage": {
+                "compact": "Volgende",
+                "descriptive": "Volgende pagina"
+            },
+            "goToNextResource": {
+                "compact": "Volgende",
+                "descriptive": "Volgend onderdeel"
+            },
+            "goToNextSentence": {
+                "compact": "Volgende",
+                "descriptive": "Volgende zin"
+            },
+            "goToNextTrack": {
+                "compact": "Volgende",
+                "descriptive": "Volgende track"
+            },
+            "goToPosition": {
+                "compact": "Ga naar…",
+                "descriptive": "Naar positie gaan"
+            },
+            "goToPreviousChapter": {
+                "compact": "Vorige",
+                "descriptive": "Vorig hoofdstuk"
+            },
+            "goToPreviousPage": {
+                "compact": "Vorige",
+                "descriptive": "Vorige pagina"
+            },
+            "goToPreviousResource": {
+                "compact": "Vorige",
+                "descriptive": "Vorig onderdeel"
+            },
+            "goToPreviousSentence": {
+                "compact": "Vorige",
+                "descriptive": "Vorige zin"
+            },
+            "goToPreviousTrack": {
+                "compact": "Vorige",
+                "descriptive": "Vorige track"
+            },
+            "goToReadAloudPosition": {
+                "compact": "Terug naar huidige zin",
+                "descriptive": "Terug naar de zin die wordt voorgelezen"
+            },
+            "readAloud": {
+                "compact": "Voorlezen"
+            },
+            "rotateImage": {
+                "compact": "Draaien"
+            },
+            "stopReadAloud": {
+                "compact": "Voorlezen stoppen"
+            }
+        },
+        "annotations": {
+            "actions": {
+                "editNote": {
+                    "compact": "Notitie bewerken"
+                }
+            },
+            "bookmarks": {
+                "actions": {
+                    "add": {
+                        "compact": "Bladwijzer toevoegen"
+                    },
+                    "delete": {
+                        "compact": "Bladwijzer verwijderen",
+                        "confirmation": "Weet je zeker dat je deze bladwijzer wilt verwijderen?"
+                    }
+                },
+                "emptyState": {
+                    "description": "Bladwijzers die je toevoegt, verschijnen in deze lijst.",
+                    "title": "Geen bladwijzers"
+                },
+                "events": {
+                    "added": "Bladwijzer toegevoegd"
+                },
+                "title": "Bladwijzers"
+            },
+            "note": {
+                "title": "Notitie"
+            },
+            "sort": {
+                "lastAdded": {
+                    "compact": "Laatst toegevoegd"
+                },
+                "lastEdited": {
+                    "compact": "Laatst bewerkt"
+                },
+                "progression": {
+                    "compact": "Positie"
+                }
+            }
+        },
+        "playback": {
+            "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Speler inklappen"
+                },
+                "expandPlayer": {
+                    "descriptive": "Speler uitklappen"
+                },
+                "next": "Volgende",
+                "pause": "Pauzeren",
+                "play": "Afspelen",
+                "previous": "Vorige",
+                "skipBackward": {
+                    "compact": "Terugspringen",
+                    "descriptive": "Terugspringen"
+                },
+                "skipBackwardBy": {
+                    "descriptive": "{{ duration }} terugspringen"
+                },
+                "skipForward": {
+                    "compact": "Vooruitspringen",
+                    "descriptive": "Vooruitspringen"
+                },
+                "skipForwardBy": {
+                    "descriptive": "{{ duration }} vooruitspringen"
+                }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "De voorleesstem ondersteunt deze taal niet."
+            },
+            "preferences": {
+                "audio": {
+                    "skipBackwardInterval": "Tijdsprong achteruit",
+                    "skipForwardInterval": "Tijdsprong vooruit",
+                    "skipInterval": "Tijdsprong",
+                    "title": "Audio-instellingen",
+                    "volume": "Volume"
+                },
+                "autoPlay": {
+                    "label": "Doorlopend afspelen",
+                    "title": "Automatisch afspelen"
+                },
+                "playbackRate": {
+                    "compact": "Snelheid",
+                    "descriptive": "Afspeelsnelheid",
+                    "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "abbreviations": {
+                        "after": "Gevolgd door de uitgeschreven vorm",
+                        "inline": "Uitgeschreven",
+                        "never": "Zoals geschreven",
+                        "title": "Afkortingen"
+                    },
+                    "additionalLanguages": "Aanvullende talen",
+                    "autoPause": {
+                        "block": "Na elke alinea",
+                        "none": "Uit",
+                        "page": "Na elke pagina",
+                        "spread": "Na elke dubbele pagina",
+                        "title": "Automatisch pauzeren",
+                        "utterance": "Na elke zin"
+                    },
+                    "bibliography": {
+                        "after": "Na de zin",
+                        "inline": "Bij de verwijzing in de tekst",
+                        "never": "Nooit",
+                        "title": "Bronverwijzingen"
+                    },
+                    "glossary": {
+                        "after": "Na de zin",
+                        "inline": "Bij de verwijzing in de tekst",
+                        "never": "Nooit",
+                        "title": "Definities uit de begrippenlijst"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "authored": "Zoals in de publicatie",
+                            "custom": "Aangepast",
+                            "mask": "Focus",
+                            "none": "Geen",
+                            "sentence": "Zin",
+                            "sentenceAndWord": "Zin en woord",
+                            "title": "Voorinstellingen voor markering",
+                            "word": "Woord"
+                        },
+                        "sentenceStyle": "Zinsmarkering",
+                        "styles": {
+                            "highlight": "Markeren",
+                            "highlightUnderline": "Markeren en onderstrepen",
+                            "mask": "De rest dimmen",
+                            "none": "Geen",
+                            "outline": "Omlijnen",
+                            "textColor": "Tekstkleur",
+                            "underline": "Onderstrepen"
+                        },
+                        "title": "Markering",
+                        "wordStyle": "Woordmarkering"
+                    },
+                    "keepCentered": {
+                        "label": "De voorgelezen zin bij het scrollen in het midden van het scherm houden",
+                        "title": "In het midden houden"
+                    },
+                    "language": {
+                        "always": "Altijd, ook binnen zinnen",
+                        "blockLevel": "Bij passages in een andere taal",
+                        "none": "Nooit",
+                        "title": "Van stem wisselen bij een andere taal"
+                    },
+                    "languageOverride": {
+                        "declared": "Zoals opgegeven ({{ language }})",
+                        "title": "Taal van de publicatie",
+                        "undeclared": "Niet opgegeven"
+                    },
+                    "notes": {
+                        "after": "Na de zin",
+                        "inline": "Bij de verwijzing in de tekst",
+                        "never": "Nooit",
+                        "title": "Noten"
+                    },
+                    "pageBreaks": {
+                        "after": "Na de zin",
+                        "inline": "Bij de paginaovergang",
+                        "never": "Nooit",
+                        "title": "Paginaovergangen"
+                    },
+                    "pauseDuration": "Pauze tussen zinnen",
+                    "pitch": "Toonhoogte",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Automatisch pauzeren",
+                            "custom": "Aangepast",
+                            "default": "Standaard",
+                            "fast": "Snel",
+                            "slow": "Langzaam",
+                            "title": "Voorinstellingen voor spreekritme"
+                        },
+                        "title": "Spreekritme"
+                    },
+                    "title": "Voorleesinstellingen",
+                    "verbosity": {
+                        "few": "Weinig",
+                        "most": "Veel",
+                        "none": "Geen",
+                        "some": "Enkele",
+                        "title": "Gesproken aankondigingen"
+                    },
+                    "voice": {
+                        "prerecorded": "Vooraf opgenomen stem",
+                        "system": "Standaardstem van het systeem",
+                        "title": "Stem"
+                    }
+                },
+                "sleepTimer": {
+                    "compact": "Timer",
+                    "custom": {
+                        "duration": "Duur",
+                        "endTime": "Eindtijd",
+                        "until": "Tot {{ time }}"
+                    },
+                    "descriptive": "Slaaptimer",
+                    "off": "Uit",
+                    "presets": {
+                        "custom": "Aangepast",
+                        "endOfChapter": "Einde van het hoofdstuk",
+                        "endOfNextChapter": "Einde van het volgende hoofdstuk",
+                        "endOfResource": "Einde van het onderdeel"
+                    }
+                }
+            },
+            "trackN": "Track {{ index }}"
+        },
+        "preferences": {
+            "brightness": "Helderheid",
+            "columns": {
+                "auto": "Automatisch",
+                "dual": {
+                    "compact": "2 kol.",
+                    "descriptive": "Twee kolommen"
+                },
+                "single": {
+                    "compact": "1 kol.",
+                    "descriptive": "Eén kolom"
+                },
+                "title": "Kolommen"
+            },
+            "fit": {
+                "auto": {
+                    "compact": "Automatisch"
+                },
+                "page": {
+                    "compact": "Pagina"
+                },
+                "title": "Passend maken",
+                "width": {
+                    "compact": "Breedte"
+                }
+            },
+            "fontFamily": {
+                "humanist": {
+                    "compact": "Humanistisch",
+                    "descriptive": "Humanistisch schreefloos"
+                },
+                "modern": {
+                    "compact": "Modern",
+                    "descriptive": "Modern met schreef"
+                },
+                "monospace": "Vaste tekenbreedte",
+                "oldStyle": {
+                    "compact": "Klassiek",
+                    "descriptive": "Klassiek met schreef"
+                },
+                "publisher": "Lettertype van de uitgever",
+                "sans": "Schreefloos",
+                "serif": "Met schreef",
+                "specialized": "Speciaal",
+                "title": "Lettertype"
+            },
+            "fontSize": "Lettergrootte",
+            "fontWeight": {
+                "bold": "Dikker",
+                "normal": "Normaal",
+                "title": "Letterdikte"
+            },
+            "hyphens": {
+                "label": "Woordafbreking inschakelen",
+                "title": "Woordafbreking"
+            },
+            "layout": {
+                "paginated": "Per pagina",
+                "scrolled": "Scrollen",
+                "title": "Indeling"
+            },
+            "letterSpacing": "Letterafstand",
+            "ligatures": {
+                "label": "Ligaturen inschakelen",
+                "title": "Ligaturen"
+            },
+            "lineHeight": {
+                "default": "Standaard",
+                "large": "Ruim",
+                "medium": "Gemiddeld",
+                "small": "Compact",
+                "title": "Regelafstand"
+            },
+            "noRuby": {
+                "label": "Ruby-annotaties verbergen",
+                "title": "Ruby-annotaties"
+            },
+            "offsetFirstPage": "Eerste pagina afzonderlijk tonen",
+            "paragraphIndent": "Inspringing van alinea’s",
+            "paragraphSpacing": "Afstand tussen alinea’s",
+            "publisherStyles": {
+                "label": "Oorspronkelijke opmaak gebruiken",
+                "title": "Opmaak van de uitgever"
+            },
+            "readingDirection": {
+                "default": {
+                    "compact": "Standaard",
+                    "descriptive": "Oorspronkelijke leesrichting gebruiken"
+                },
+                "ltr": {
+                    "compact": "Naar rechts",
+                    "descriptive": "Van links naar rechts"
+                },
+                "rtl": {
+                    "compact": "Naar links",
+                    "descriptive": "Van rechts naar links"
+                },
+                "title": "Leesrichting"
+            },
+            "spacing": {
+                "presets": {
+                    "accessible": "Toegankelijk",
+                    "balanced": "Gemiddeld",
+                    "custom": "Aangepast",
+                    "default": "Standaard",
+                    "loose": "Ruim",
+                    "tight": "Compact",
+                    "title": "Voorinstellingen"
+                },
+                "title": "Tussenruimte"
+            },
+            "spread": {
+                "always": {
+                    "compact": "Twee pagina’s"
+                },
+                "auto": {
+                    "compact": "Automatisch"
+                },
+                "never": {
+                    "compact": "Eén pagina"
+                },
+                "title": "Paginaweergave"
+            },
+            "text": "Tekst",
+            "textAlign": {
+                "default": "Standaard",
+                "justify": "Uitvullen",
+                "left": "Links",
+                "right": "Rechts",
+                "title": "Tekstuitlijning"
+            },
+            "textNormalization": {
+                "label": "Alle tekstopmaak verwijderen",
+                "title": "Vereenvoudigde tekstopmaak"
+            },
+            "themes": {
+                "auto": "Automatisch",
+                "contrast1": "Contrast 1",
+                "contrast2": "Contrast 2",
+                "contrast3": "Contrast 3",
+                "dark": "Donker",
+                "gray": "Grijs",
+                "light": "Licht",
+                "paper": "Papier",
+                "sepia": "Sepia",
+                "title": "Thema’s"
+            },
+            "title": "Weergave-instellingen",
+            "wordSpacing": "Woordafstand",
+            "zoom": "Zoom"
+        },
+        "progression": {
+            "page": {
+                "descriptive": "Pagina {{ index }}"
+            },
+            "pagesLeft": {
+                "descriptive_one": "Nog {{ count }} pagina",
+                "descriptive_other": "Nog {{ count }} pagina’s"
+            },
+            "pagesLeftInChapter": {
+                "descriptive_one": "Nog {{ count }} pagina in dit hoofdstuk",
+                "descriptive_other": "Nog {{ count }} pagina’s in dit hoofdstuk"
+            },
+            "pagesLeftInPublication": {
+                "descriptive_one": "Nog {{ count }} pagina in deze publicatie",
+                "descriptive_other": "Nog {{ count }} pagina’s in deze publicatie"
+            },
+            "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Positie {{ index }}"
+            },
+            "positionsLeft": {
+                "compact_one": "Nog {{ count }}",
+                "compact_other": "Nog {{ count }}",
+                "descriptive_one": "Nog {{ count }} positie",
+                "descriptive_other": "Nog {{ count }} posities"
+            },
+            "positionsLeftInChapter": {
+                "compact_one": "Nog {{ count }} in dit hoofdstuk",
+                "compact_other": "Nog {{ count }} in dit hoofdstuk",
+                "descriptive_one": "Nog {{ count }} positie in dit hoofdstuk",
+                "descriptive_other": "Nog {{ count }} posities in dit hoofdstuk"
+            },
+            "positionsLeftInPublication": {
+                "compact_one": "Nog {{ count }} in deze publicatie",
+                "compact_other": "Nog {{ count }} in deze publicatie",
+                "descriptive_one": "Nog {{ count }} positie in deze publicatie",
+                "descriptive_other": "Nog {{ count }} posities in deze publicatie"
+            },
+            "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "Nog {{ duration }}",
+                "descriptive": "Nog {{ duration }} in deze publicatie"
+            },
+            "xOfY": {
+                "compact": "{{ x }} van {{ y }}",
+                "descriptive": "{{ x }} van {{ y }} ({{ z }})"
+            }
+        },
+        "search": {
+            "actions": {
+                "next": {
+                    "compact": "Volgend resultaat"
+                },
+                "previous": {
+                    "compact": "Vorig resultaat"
+                }
+            },
+            "placeholder": "Zoek op woorden of zinsdelen",
+            "result_one": "Resultaat {{ current }} van {{ count }}",
+            "result_other": "Resultaat {{ current }} van {{ count }}",
+            "title": "Zoeken"
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "De auteur heeft geen inhoudsopgave toegevoegd.",
+                "title": "Geen inhoudsopgave"
+            },
+            "title": "Inhoudsopgave"
+        }
+    }
+}
