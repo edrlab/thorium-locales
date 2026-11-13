@@ -48,6 +48,10 @@
                 "compact": "Seuraava",
                 "descriptive": "Seuraava lause"
             },
+            "goToNextTrack": {
+                "compact": "Seuraava",
+                "descriptive": "Seuraava raita"
+            },
             "goToPosition": {
                 "compact": "Siirry…",
                 "descriptive": "Siirry kohtaan"
@@ -68,8 +72,22 @@
                 "compact": "Edellinen",
                 "descriptive": "Edellinen lause"
             },
+            "goToPreviousTrack": {
+                "compact": "Edellinen",
+                "descriptive": "Edellinen raita"
+            },
+            "goToReadAloudPosition": {
+                "compact": "Takaisin nykyiseen lauseeseen",
+                "descriptive": "Palaa takaisin luettavaan lauseeseen"
+            },
             "readAloud": {
                 "compact": "Luenta"
+            },
+            "rotateImage": {
+                "compact": "Kierrä"
+            },
+            "stopReadAloud": {
+                "compact": "Lopeta lukeminen ääneen"
             }
         },
         "annotations": {
@@ -92,6 +110,9 @@
                     "description": "Lukemisen aikana lisätyt kirjanmerkit näytetään tässä listassa.",
                     "title": "Ei kirjanmerkkejä"
                 },
+                "events": {
+                    "added": "Kirjanmerkki lisätty"
+                },
                 "title": "Kirjanmerkit"
             },
             "note": {
@@ -111,16 +132,33 @@
         },
         "playback": {
             "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Piilota soitin"
+                },
+                "expandPlayer": {
+                    "descriptive": "Näytä soitin"
+                },
+                "next": "Seuraava",
                 "pause": "Pysäytä",
                 "play": "Toista",
+                "previous": "Edellinen",
                 "skipBackward": {
                     "compact": "Pikakelaa",
                     "descriptive": "Ohita taaksepäin"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Siirry taaksepäin {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Eteenpäin",
                     "descriptive": "Ohita eteenpäin"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Siirry eteenpäin {{ duration }}"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "Tekstistä puheeksi -toiminto ei tue tätä kieltä."
             },
             "preferences": {
                 "audio": {
@@ -136,7 +174,65 @@
                 },
                 "playbackRate": {
                     "compact": "Nopeus",
-                    "descriptive": "Toistonopeus"
+                    "descriptive": "Toistonopeus",
+                    "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "abbreviations": {
+                        "after": "Lyhenne ja aukikirjoitettu muoto",
+                        "inline": "Aukikirjoitettu",
+                        "never": "Lyhennetty",
+                        "title": "Lyhenteet"
+                    },
+                    "additionalLanguages": "Muut kielet",
+                    "autoPause": {
+                        "block": "Joka kappaleen jälkeen",
+                        "none": "Pois päältä",
+                        "page": "Joka sivun jälkeen",
+                        "spread": "Joka aukeaman jälkeen",
+                        "title": "Pysäytä automaattisesti",
+                        "utterance": "Joka lauseen jälkeen"
+                    },
+                    "bibliography": {
+                        "after": "Lauseen jälkeen",
+                        "inline": "Viittauksen kohdalla",
+                        "never": "Ei koskaan",
+                        "title": "Lähdeviittaukset"
+                    },
+                    "glossary": {
+                        "after": "Lauseen jälkeen",
+                        "inline": "Viittauksen kohdalla",
+                        "never": "Ei koskaan",
+                        "title": "Sanaselitykset"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "authored": "Tekijän luomat",
+                            "custom": "Mukautetut",
+                            "mask": "Fokus",
+                            "none": "Ei mitään",
+                            "sentence": "Lause",
+                            "sentenceAndWord": "Lause ja sana",
+                            "title": "Korostusasetukset",
+                            "word": "Sana"
+                        },
+                        "sentenceStyle": "Lauseen korostus",
+                        "styles": {
+                            "highlight": "Korostus",
+                            "highlightUnderline": "Korosta ja alleviivaa",
+                            "mask": "Häivytä ympäröivä teksti",
+                            "none": "Ei mitään",
+                            "outline": "Ääriviivat",
+                            "textColor": "Tekstin väri",
+                            "underline": "Alleviivaus"
+                        },
+                        "title": "Korostus",
+                        "wordStyle": "Sanan korostus"
+                    },
+                    "keepCentered": {
+                        "label": "Näytä luettava lause näytön keskellä vieritettäessä",
+                        "title": "Pidä keskellä"
+                    }
                 },
                 "sleepTimer": {
                     "compact": "Ajastin",
