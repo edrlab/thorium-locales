@@ -1,1 +1,356 @@
-{}
+{
+    "publication": {
+        "format": {
+            "audiobook": "Luisterboek",
+            "audiobookJSON": "Manifest van een luisterboek",
+            "cbz": "Striparchief",
+            "divina": "Divina-publicatie",
+            "divinaJSON": "Manifest van een Divina-publicatie",
+            "epub": "EPUB",
+            "lcpa": "Met LCP beveiligd luisterboek",
+            "lcpdf": "Met LCP beveiligde PDF",
+            "lcpl": "LCP-licentiedocument",
+            "pdf": "PDF",
+            "rwp": "Readium-webpublicatie",
+            "rwpm": "Manifest van een Readium-webpublicatie",
+            "zab": "Luisterboekarchief",
+            "zip": "ZIP-archief"
+        },
+        "kind": {
+            "audiobook": "Luisterboek",
+            "audiobookCount_one": "{{ count }} luisterboek",
+            "audiobookCount_other": "{{ count }} luisterboeken",
+            "audiobookMultiple": "Luisterboeken",
+            "book": "Boek",
+            "bookCount_one": "{{ count }} boek",
+            "bookCount_other": "{{ count }} boeken",
+            "bookMultiple": "Boeken",
+            "comic": "Strip",
+            "comicCount_one": "{{ count }} strip",
+            "comicCount_other": "{{ count }} strips",
+            "comicMultiple": "Strips",
+            "document": "Document",
+            "documentCount_one": "{{ count }} document",
+            "documentCount_other": "{{ count }} documenten",
+            "documentMultiple": "Documenten"
+        },
+        "metadata": {
+            "accessibility": {
+                "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Geen informatie beschikbaar",
+                        "publisher-contact": "Neem voor meer informatie over de toegankelijkheid van deze publicatie contact op met de uitgever: ",
+                        "title": "Samenvatting van de toegankelijkheid"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "ARIA-rollen opgenomen",
+                            "descriptive": "De inhoud is voorzien van ARIA-rollen voor een betere structuur en eenvoudigere navigatie"
+                        },
+                        "audio-descriptions": "Audiodescriptie",
+                        "braille": "Braille",
+                        "color-not-sole-means-of-conveying-information": "Informatie wordt niet alleen met kleur overgebracht",
+                        "dyslexia-readability": "Leesbaarheid bij dyslexie",
+                        "full-ruby-annotations": "Volledig voorzien van ruby-annotaties",
+                        "high-contrast-between-foreground-and-background-audio": "Hoog contrast tussen voorgrond- en achtergrondgeluid",
+                        "high-contrast-between-text-and-background": "Hoog contrast tussen tekst en achtergrond",
+                        "large-print": "Grote letters",
+                        "page-breaks": {
+                            "compact": "Paginaovergangen opgenomen",
+                            "descriptive": "Paginaovergangen uit de oorspronkelijke gedrukte uitgave opgenomen"
+                        },
+                        "ruby-annotations": "Gedeeltelijk voorzien van ruby-annotaties",
+                        "sign-language": "Gebarentaal",
+                        "tactile-graphics": {
+                            "compact": "Voelbare afbeeldingen opgenomen",
+                            "descriptive": "Voelbare afbeeldingen zijn opgenomen om visuele informatie toegankelijker te maken voor blinde mensen"
+                        },
+                        "tactile-objects": "Voelbare 3D-objecten",
+                        "text-to-speech-hinting": "Aanwijzingen voor tekst-naar-spraak opgenomen",
+                        "title": "Aanvullende informatie over toegankelijkheid",
+                        "ultra-high-contrast-between-text-and-background": "Zeer hoog contrast tussen tekst en achtergrond",
+                        "visible-page-numbering": "Zichtbare paginanummering",
+                        "without-background-sounds": "Zonder achtergrondgeluiden"
+                    },
+                    "conformance": {
+                        "a": {
+                            "compact": "Deze publicatie voldoet aan de minimale toegankelijkheidsnormen",
+                            "descriptive": "De publicatie bevat een verklaring dat deze voldoet aan EPUB Accessibility en WCAG 2 niveau A"
+                        },
+                        "aa": {
+                            "compact": "Deze publicatie voldoet aan de algemeen aanvaarde toegankelijkheidsnormen",
+                            "descriptive": "De publicatie bevat een verklaring dat deze voldoet aan EPUB Accessibility en WCAG 2 niveau AA"
+                        },
+                        "aaa": {
+                            "compact": "Deze publicatie overtreft de algemeen aanvaarde toegankelijkheidsnormen",
+                            "descriptive": "De publicatie bevat een verklaring dat deze voldoet aan EPUB Accessibility en WCAG 2 niveau AAA"
+                        },
+                        "certifier": "De publicatie is gecertificeerd door ",
+                        "certifier-credentials": "De kwalificatie van de certificerende partij is ",
+                        "details": {
+                            "certification-info": "De publicatie is gecertificeerd op ",
+                            "certifier-report": "Raadpleeg het rapport van de certificerende partij voor meer informatie",
+                            "claim": "Deze publicatie voldoet volgens opgave aan",
+                            "epub-accessibility-1-0": "EPUB Accessibility 1.0",
+                            "epub-accessibility-1-1": "EPUB Accessibility 1.1",
+                            "level-a": "Niveau A",
+                            "level-aa": "Niveau AA",
+                            "level-aaa": "Niveau AAA",
+                            "wcag-2-0": {
+                                "compact": "WCAG 2.0",
+                                "descriptive": "Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.0"
+                            },
+                            "wcag-2-1": {
+                                "compact": "WCAG 2.1",
+                                "descriptive": "Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.1"
+                            },
+                            "wcag-2-2": {
+                                "compact": "WCAG 2.2",
+                                "descriptive": "Richtlijnen voor Toegankelijkheid van Webcontent (WCAG) 2.2"
+                            }
+                        },
+                        "details-title": "Details over het voldoen aan toegankelijkheidsnormen",
+                        "no": "Geen informatie beschikbaar",
+                        "title": "Voldoen aan toegankelijkheidsnormen",
+                        "unknown-standard": "Er kan niet worden vastgesteld of deze publicatie aan de algemeen aanvaarde toegankelijkheidsnormen voldoet"
+                    },
+                    "hazards": {
+                        "flashing": {
+                            "compact": "Flitsende inhoud",
+                            "descriptive": "Deze publicatie bevat flitsende inhoud die bij lichtgevoeligheid epileptische aanvallen kan uitlokken"
+                        },
+                        "flashing-none": {
+                            "compact": "Geen risico’s door flitsen",
+                            "descriptive": "Deze publicatie bevat geen flitsende inhoud die bij lichtgevoeligheid epileptische aanvallen kan uitlokken"
+                        },
+                        "flashing-unknown": {
+                            "compact": "Risico’s door flitsen onbekend",
+                            "descriptive": "Er kon niet worden vastgesteld of er flitsende inhoud aanwezig is die bij lichtgevoeligheid epileptische aanvallen kan uitlokken"
+                        },
+                        "motion": {
+                            "compact": "Bewegingssimulatie",
+                            "descriptive": "Deze publicatie bevat bewegingssimulaties die bewegingsziekte kunnen veroorzaken"
+                        },
+                        "motion-none": {
+                            "compact": "Geen risico’s door bewegingssimulatie",
+                            "descriptive": "Deze publicatie bevat geen bewegingssimulaties die bewegingsziekte kunnen veroorzaken"
+                        },
+                        "motion-unknown": {
+                            "compact": "Risico’s door bewegingssimulatie onbekend",
+                            "descriptive": "Er kon niet worden vastgesteld of er bewegingssimulaties aanwezig zijn die bewegingsziekte kunnen veroorzaken"
+                        },
+                        "no-metadata": "Geen informatie beschikbaar",
+                        "none": {
+                            "compact": "Geen risico’s",
+                            "descriptive": "Deze publicatie bevat geen risicovolle inhoud"
+                        },
+                        "sound": {
+                            "compact": "Geluiden",
+                            "descriptive": "Deze publicatie bevat geluiden die bij gevoeligheid voor geluid klachten kunnen veroorzaken"
+                        },
+                        "sound-none": {
+                            "compact": "Geen risico’s door geluid",
+                            "descriptive": "Deze publicatie bevat geen geluiden die bij gevoeligheid voor geluid klachten kunnen veroorzaken"
+                        },
+                        "sound-unknown": {
+                            "compact": "Risico’s door geluid onbekend",
+                            "descriptive": "Er kon niet worden vastgesteld of er geluiden aanwezig zijn die bij gevoeligheid voor geluid klachten kunnen veroorzaken"
+                        },
+                        "title": "Risico’s",
+                        "unknown": "Het is niet bekend of er risico’s zijn"
+                    },
+                    "legal-considerations": {
+                        "exempt": {
+                            "compact": "Beroep op een vrijstelling van toegankelijkheidseisen in sommige rechtsgebieden",
+                            "descriptive": "Voor deze publicatie wordt in sommige rechtsgebieden een beroep gedaan op een vrijstelling van toegankelijkheidseisen"
+                        },
+                        "no-metadata": "Geen informatie beschikbaar",
+                        "title": "Juridische aspecten"
+                    },
+                    "navigation": {
+                        "index": {
+                            "compact": "Register",
+                            "descriptive": "Register met links naar de bijbehorende tekstplaatsen"
+                        },
+                        "no-metadata": "Geen informatie beschikbaar",
+                        "page-navigation": {
+                            "compact": "Naar pagina gaan",
+                            "descriptive": "Paginalijst waarmee je naar de overeenkomstige pagina’s van de gedrukte editie kunt gaan"
+                        },
+                        "structural": {
+                            "compact": "Koppen",
+                            "descriptive": "Elementen zoals koppen en tabellen om via de documentstructuur te navigeren"
+                        },
+                        "title": "Navigatie",
+                        "toc": {
+                            "compact": "Inhoudsopgave",
+                            "descriptive": "Inhoudsopgave met links naar alle hoofdstukken van de tekst"
+                        }
+                    },
+                    "rich-content": {
+                        "accessible-chemistry-as-latex": {
+                            "compact": "Chemische formules in LaTeX",
+                            "descriptive": "Chemische formules in een toegankelijk formaat (LaTeX)"
+                        },
+                        "accessible-chemistry-as-mathml": {
+                            "compact": "Chemische formules in MathML",
+                            "descriptive": "Chemische formules in een toegankelijk formaat (MathML)"
+                        },
+                        "accessible-math-as-latex": {
+                            "compact": "Wiskundige formules in LaTeX",
+                            "descriptive": "Wiskundige formules in een toegankelijk formaat (LaTeX)"
+                        },
+                        "accessible-math-described": "Tekstbeschrijvingen van wiskundige inhoud beschikbaar",
+                        "closed-captions": {
+                            "compact": "Video’s met in- en uitschakelbare ondertiteling",
+                            "descriptive": "Video’s in de publicatie hebben in- en uitschakelbare ondertiteling voor doven en slechthorenden"
+                        },
+                        "extended-descriptions": "Informatierijke afbeeldingen zijn voorzien van uitgebreide beschrijvingen",
+                        "math-as-mathml": {
+                            "compact": "Wiskundige formules in MathML",
+                            "descriptive": "Wiskundige formules in een toegankelijk formaat (MathML)"
+                        },
+                        "open-captions": {
+                            "compact": "Video’s met permanent zichtbare ondertiteling",
+                            "descriptive": "Video’s in de publicatie hebben ondertiteling voor doven en slechthorenden die niet kan worden uitgeschakeld"
+                        },
+                        "title": "Complexe inhoud en multimedia",
+                        "transcript": "Een of meer transcripties beschikbaar",
+                        "unknown": "Geen informatie beschikbaar"
+                    },
+                    "ways-of-reading": {
+                        "nonvisual-reading": {
+                            "alt-text": {
+                                "compact": "Alternatieve tekst beschikbaar",
+                                "descriptive": "Alternatieve tekstbeschrijvingen voor afbeeldingen beschikbaar"
+                            },
+                            "no-metadata": "Geen informatie beschikbaar over lezen via spraak of braille",
+                            "none": {
+                                "compact": "Niet voorleesbaar en niet leesbaar met een brailleleesregel",
+                                "descriptive": "De inhoud kan niet worden voorgelezen en is niet leesbaar met een brailleleesregel"
+                            },
+                            "not-fully": {
+                                "compact": "Niet alle inhoud is voorleesbaar of met een brailleleesregel te lezen",
+                                "descriptive": "Niet alle inhoud kan worden voorgelezen of met een brailleleesregel worden gelezen"
+                            },
+                            "readable": {
+                                "compact": "Voorleesbaar of leesbaar met een brailleleesregel",
+                                "descriptive": "Alle inhoud kan worden voorgelezen of met een brailleleesregel worden gelezen"
+                            }
+                        },
+                        "prerecorded-audio": {
+                            "complementary": {
+                                "compact": "Vooraf opgenomen audiofragmenten",
+                                "descriptive": "Vooraf opgenomen audiofragmenten zijn in de inhoud ingesloten"
+                            },
+                            "no-metadata": "Geen informatie beschikbaar over vooraf opgenomen audio",
+                            "only": {
+                                "compact": "Alleen vooraf opgenomen audio",
+                                "descriptive": "Luisterboek zonder tekstalternatief"
+                            },
+                            "synchronized": {
+                                "compact": "Vooraf opgenomen audio gesynchroniseerd met tekst",
+                                "descriptive": "Alle inhoud is beschikbaar als vooraf opgenomen audio die met de tekst is gesynchroniseerd"
+                            }
+                        },
+                        "title": "Lees- en luistermogelijkheden",
+                        "visual-adjustments": {
+                            "modifiable": {
+                                "compact": "Opmaak aanpasbaar",
+                                "descriptive": "De opmaak van tekst en pagina’s kan worden aangepast voor zover het leessysteem dit ondersteunt (lettertype en lettergrootte, de afstand tussen alinea’s, zinnen, woorden en letters, en de achtergrond- en tekstkleur)"
+                            },
+                            "unknown": "Geen informatie beschikbaar over de aanpasbaarheid van de opmaak",
+                            "unmodifiable": {
+                                "compact": "Opmaak niet aanpasbaar",
+                                "descriptive": "De opmaak van tekst en pagina’s kan niet worden aangepast omdat de weergave op die van een gedrukte editie lijkt, maar het leessysteem kan wel zoomfuncties bieden"
+                            }
+                        }
+                    }
+                }
+            },
+            "altIdentifier": "Alternatieve identificatiecode",
+            "altIdentifierCount_one": "{{ count }} alternatieve identificatiecode",
+            "altIdentifierCount_other": "{{ count }} alternatieve identificatiecodes",
+            "altIdentifierMultiple": "Alternatieve identificatiecodes",
+            "artist": "Kunstenaar",
+            "artistCount_one": "{{ count }} kunstenaar",
+            "artistCount_other": "{{ count }} kunstenaars",
+            "artistMultiple": "Kunstenaars",
+            "author": "Auteur",
+            "authorCount_one": "{{ count }} auteur",
+            "authorCount_other": "{{ count }} auteurs",
+            "authorMultiple": "Auteurs",
+            "collection": "Uitgeversreeks",
+            "collectionCount_one": "{{ count }} uitgeversreeks",
+            "collectionCount_other": "{{ count }} uitgeversreeksen",
+            "collectionMultiple": "Uitgeversreeksen",
+            "colorist": "Inkleurder",
+            "coloristCount_one": "{{ count }} inkleurder",
+            "coloristCount_other": "{{ count }} inkleurders",
+            "coloristMultiple": "Inkleurders",
+            "contributor": "Medewerker",
+            "contributorCount_one": "{{ count }} medewerker",
+            "contributorCount_other": "{{ count }} medewerkers",
+            "contributorMultiple": "Medewerkers",
+            "description": "beschrijving",
+            "duration": "duur",
+            "editor": "Redacteur",
+            "editorCount_one": "{{ count }} redacteur",
+            "editorCount_other": "{{ count }} redacteuren",
+            "editorMultiple": "Redacteuren",
+            "identifier": "Identificatiecode",
+            "identifierCount_one": "{{ count }} identificatiecode",
+            "identifierCount_other": "{{ count }} identificatiecodes",
+            "identifierMultiple": "Identificatiecodes",
+            "illustrator": "Illustrator",
+            "illustratorCount_one": "{{ count }} illustrator",
+            "illustratorCount_other": "{{ count }} illustratoren",
+            "illustratorMultiple": "Illustratoren",
+            "imprint": "Imprint",
+            "imprintCount_one": "{{ count }} imprint",
+            "imprintCount_other": "{{ count }} imprints",
+            "imprintMultiple": "Imprints",
+            "inker": "Inkter",
+            "inkerCount_one": "{{ count }} inkter",
+            "inkerCount_other": "{{ count }} inkters",
+            "inkerMultiple": "Inkters",
+            "language": "Taal",
+            "languageCount_one": "{{ count }} taal",
+            "languageCount_other": "{{ count }} talen",
+            "languageMultiple": "Talen",
+            "letterer": "Letteraar",
+            "lettererCount_one": "{{ count }} letteraar",
+            "lettererCount_other": "{{ count }} letteraars",
+            "lettererMultiple": "Letteraars",
+            "modified": "wijzigingsdatum",
+            "narrator": "Voorlezer",
+            "narratorCount_one": "{{ count }} voorlezer",
+            "narratorCount_other": "{{ count }} voorlezers",
+            "narratorMultiple": "Voorlezers",
+            "numberOfPages": "aantal pagina’s",
+            "penciler": "Potloodtekenaar",
+            "pencilerCount_one": "{{ count }} potloodtekenaar",
+            "pencilerCount_other": "{{ count }} potloodtekenaars",
+            "pencilerMultiple": "Potloodtekenaars",
+            "published": "publicatiedatum",
+            "publisher": "Uitgever",
+            "publisherCount_one": "{{ count }} uitgever",
+            "publisherCount_other": "{{ count }} uitgevers",
+            "publisherMultiple": "Uitgevers",
+            "series": "Serie",
+            "seriesCount_one": "{{ count }} serie",
+            "seriesCount_other": "{{ count }} series",
+            "seriesMultiple": "Series",
+            "subject": "Onderwerp",
+            "subjectCount_one": "{{ count }} onderwerp",
+            "subjectCount_other": "{{ count }} onderwerpen",
+            "subjectMultiple": "Onderwerpen",
+            "subtitle": "ondertitel",
+            "title": "titel",
+            "translator": "Vertaler",
+            "translatorCount_one": "{{ count }} vertaler",
+            "translatorCount_other": "{{ count }} vertalers",
+            "translatorMultiple": "Vertalers"
+        }
+    }
+}
