@@ -1,1 +1,72 @@
-{}
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Verlengen",
+                "descriptive": "Leentermijn verlengen"
+            },
+            "return": {
+                "compact": "Inleveren",
+                "confirmation": "Weet je zeker dat je \"{{ title }}\" wilt inleveren?",
+                "descriptive": "Publicatie inleveren"
+            }
+        },
+        "dialog": {
+            "actions": {
+                "cancel": "Annuleren",
+                "continue": "Doorgaan",
+                "recoverPassphrase": "Wachtwoord vergeten?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Onjuist wachtwoord."
+            },
+            "info": {
+                "body": "Deze publicatie is beveiligd met LCP (Licensed Content Protection), een DRM-technologie die ongeoorloofd kopiëren tegengaat en het gebruik eenvoudig houdt. LCP is een open standaard die gebruiksgemak combineert met de behoeften van uitgevers.",
+                "more": "Meer informatie…",
+                "title": "Wat is LCP?"
+            },
+            "message": "Om deze publicatie te openen heb je een LCP-wachtwoord nodig. Je krijgt dit van je bibliotheek of boekwinkel. Je hoeft het op dit apparaat maar één keer in te voeren.",
+            "passphrase": {
+                "hint": "**Hint:** {{ hint }}",
+                "placeholder": "Wachtwoord"
+            },
+            "title": "Wachtwoord invoeren"
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Deze publicatie is al ingeleverd of de licentie is verlopen.",
+            "copyForbidden": "Je overschrijdt het maximumaantal tekens dat je mag kopiëren.",
+            "invalidLicense": "De licentie voor deze publicatie kon niet worden gecontroleerd. Neem voor hulp contact op met je licentieverstrekker.",
+            "invalidRenewalPeriod": "De leentermijn van deze publicatie kan niet tot de gekozen datum worden verlengd. Probeer een andere datum.",
+            "missingPassphrase": "Je hebt een wachtwoord nodig om deze publicatie te openen. Vraag dit aan je licentieverstrekker.",
+            "renewFailed": "De leentermijn van deze publicatie kon niet worden verlengd. Neem voor hulp contact op met je aanbieder.",
+            "returnFailed": "Deze publicatie kon niet worden ingeleverd. Neem voor hulp contact op met je aanbieder.",
+            "statusCancelled": "De toegang tot deze publicatie is op {{ date }} geannuleerd. Neem contact op met je licentieverstrekker als je weer toegang wilt.",
+            "statusExpiredEnd": "De leentermijn voor deze publicatie is op {{ date }} verlopen. Neem contact op met je bibliotheek om de publicatie opnieuw te lenen.",
+            "statusExpiredStart": "Deze publicatie is beschikbaar vanaf {{ date }}.",
+            "statusReturned": "Je hebt deze publicatie op {{ date }} ingeleverd. Neem contact op met je bibliotheek om de publicatie opnieuw te lenen.",
+            "statusRevoked_one": "Je aanbieder heeft de toegang tot deze publicatie op {{ date }} ingetrokken. De publicatie is op {{ count }} apparaat geregistreerd. Neem voor meer informatie contact op met je aanbieder.",
+            "statusRevoked_other": "Je aanbieder heeft de toegang tot deze publicatie op {{ date }} ingetrokken. De publicatie is op {{ count }} apparaten geregistreerd. Neem voor meer informatie contact op met je aanbieder."
+        },
+        "labels": {
+            "expired": "Verlopen",
+            "expiresIn": {
+                "days": {
+                    "descriptive_one": "Verloopt over {{ count }} dag",
+                    "descriptive_other": "Verloopt over {{ count }} dagen"
+                },
+                "hours": {
+                    "descriptive_one": "Verloopt over {{ count }} uur",
+                    "descriptive_other": "Verloopt over {{ count }} uur"
+                },
+                "minutes": {
+                    "descriptive_one": "Verloopt over {{ count }} minuut",
+                    "descriptive_other": "Verloopt over {{ count }} minuten"
+                },
+                "months": {
+                    "descriptive_one": "Verloopt over {{ count }} maand",
+                    "descriptive_other": "Verloopt over {{ count }} maanden"
+                }
+            }
+        }
+    }
+}
