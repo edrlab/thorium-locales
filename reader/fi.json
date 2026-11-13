@@ -232,6 +232,10 @@
                     "keepCentered": {
                         "label": "Näytä luettava lause näytön keskellä vieritettäessä",
                         "title": "Pidä keskellä"
+                    },
+                    "language": {
+                        "always": "Aina, myös rivin keskellä olevat lauseet",
+                        "blockLevel": "Muunkieliset kohdat"
                     }
                 },
                 "sleepTimer": {
