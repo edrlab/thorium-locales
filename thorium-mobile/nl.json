@@ -47,7 +47,7 @@
             "author": "Auteur",
             "finished": "Afrondingsdatum",
             "lastAdded": "Laatst toegevoegd",
-            "lastRead": "Laatst gelezen",
+            "lastRead": "Laatst geopend",
             "title": "Titel"
         },
         "title": "Boekenplank",
@@ -231,8 +231,8 @@
                 "title": "Welkom bij Thorium Reader"
             },
             "emptyHome": {
-                "description": "Je hebt alle publicaties op je boekenplank uitgelezen.",
-                "title": "Alles uitgelezen"
+                "description": "Je hebt alle publicaties op je boekenplank afgerond.",
+                "title": "Alles afgerond"
             }
         },
         "settings": {
@@ -286,7 +286,7 @@
             "queued": "Wachten…"
         },
         "title": {
-            "batch": "Imports",
+            "batch": "Importeren",
             "downloads": "Downloads"
         }
     },
@@ -359,7 +359,7 @@
             },
             "progression": {
                 "animatePageTurns": {
-                    "compact": "Paginaovergangen animeren"
+                    "compact": "Omslaan van pagina’s animeren"
                 },
                 "displayCurrentProgression": {
                     "compact": "Leesvoortgang tonen"
