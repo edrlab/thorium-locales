@@ -235,18 +235,72 @@
                     },
                     "language": {
                         "always": "Aina, myös rivin keskellä olevat lauseet",
-                        "blockLevel": "Muunkieliset kohdat"
+                        "blockLevel": "Muunkieliset kohdat",
+                        "none": "Ei koskaan",
+                        "title": "Vaihda ääntä kielen mukaan"
+                    },
+                    "languageOverride": {
+                        "declared": "Kuten ilmoitettu ({{ language }})",
+                        "title": "Julkaisun kieli",
+                        "undeclared": "Ei määritelty"
+                    },
+                    "notes": {
+                        "after": "Lauseen jälkeen",
+                        "inline": "Viittauksen kohdalla",
+                        "never": "Ei koskaan",
+                        "title": "Muistiinpanot"
+                    },
+                    "pageBreaks": {
+                        "after": "Lauseen jälkeen",
+                        "inline": "Esiintymiskohdissa",
+                        "never": "Ei koskaan",
+                        "title": "Sivunvaihdot"
+                    },
+                    "pauseDuration": "Tauko lauseiden välissä",
+                    "pitch": "Äänenkorkeus",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Autom. tauko",
+                            "custom": "Mukautettu",
+                            "default": "Oletus",
+                            "fast": "Nopea",
+                            "slow": "Hidas",
+                            "title": "Rytmin asetukset"
+                        },
+                        "title": "Rytmi"
+                    },
+                    "title": "Lue ääneen -asetukset",
+                    "verbosity": {
+                        "few": "Harvat",
+                        "most": "Monet",
+                        "none": "Ei mitään",
+                        "some": "Jotkin",
+                        "title": "Ilmoitukset"
+                    },
+                    "voice": {
+                        "prerecorded": "Ennalta nauhoitettu ääni",
+                        "system": "Järjestelmän oletus",
+                        "title": "Ääni"
                     }
                 },
                 "sleepTimer": {
                     "compact": "Ajastin",
+                    "custom": {
+                        "duration": "Kesto",
+                        "endTime": "Päättymisaika",
+                        "until": "{{ time }} saakka"
+                    },
                     "descriptive": "Uniajastin",
+                    "off": "Pois päältä",
                     "presets": {
+                        "custom": "Mukautettu",
                         "endOfChapter": "Luvun loppu",
+                        "endOfNextChapter": "Seuraavan luvun loppu",
                         "endOfResource": "Resurssin loppu"
                     }
                 }
-            }
+            },
+            "trackN": "Raita {{ index }}"
         },
         "preferences": {
             "brightness": "Kirkkaus",
@@ -290,6 +344,8 @@
                 },
                 "publisher": "Julkaisijan fontti",
                 "sans": "Sans serif",
+                "serif": "Serif",
+                "specialized": "Erikoisfontit",
                 "title": "Kirjasintyyppi"
             },
             "fontSize": "Tekstin koko",
@@ -398,6 +454,9 @@
             "zoom": "Tarkennus"
         },
         "progression": {
+            "page": {
+                "descriptive": "Sivu {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_one": "{{ count }} sivu jäljellä",
                 "descriptive_other": "{{ count }} sivua jäljellä"
@@ -411,6 +470,9 @@
                 "descriptive_other": "{{ count }} sivua jäljellä julkaisussa"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Sijainti {{ index }}"
+            },
             "positionsLeft": {
                 "compact_one": "{{ count }} jäljellä",
                 "compact_other": "{{ count }} jäljellä",
@@ -430,6 +492,10 @@
                 "descriptive_other": "{{ count }} sijaintia jäljellä julkaisussa"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "{{ duration }} jäljellä",
+                "descriptive": "{{ duration }} jäljellä julkaisussa"
+            },
             "xOfY": {
                 "compact": "{{ x }} / {{ y }}",
                 "descriptive": "{{ x }} / {{ y }} ({{ z }})"
