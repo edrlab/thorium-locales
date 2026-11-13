@@ -9,7 +9,7 @@
             "title": "Software van derden"
         },
         "copyright": "Copyright {{ year }} European Digital Reading Lab.\nAlle rechten voorbehouden.",
-        "title": "Over deze app",
+        "title": "Over",
         "version": "Versie {{ version }} ({{ build }})"
     },
     "bookshelf": {
