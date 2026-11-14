@@ -18,43 +18,43 @@
                 "compact": "Filter"
             },
             "sort": {
-                "compact": "Sorteer op"
+                "compact": "Sorteren op"
             }
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Je boekenplank is momenteel leeg.\nImporteer EPUB-, PDF-, LCPL- of CBZ-bestanden of voeg een catalogus toe.",
+                "bookshelf": "Je boekenplank is nog leeg.\nImporteer EPUB-, PDF-, LCPL- of CBZ-bestanden of voeg een catalogus toe.",
                 "filter": "Er zijn geen publicaties op je boekenplank die aan dit filter voldoen."
             },
             "title": "Geen publicaties gevonden"
         },
         "filter": {
-            "all": "Alle",
-            "currentlyListening": "Nu aan het luisteren",
-            "currentlyReading": "Nu aan het lezen",
+            "all": "Alles",
+            "currentlyListening": "Aan het luisteren",
+            "currentlyReading": "Aan het lezen",
             "finished": "Afgerond",
-            "notStartedYet": "Nog niet gestart",
+            "notStartedYet": "Nog niet begonnen",
             "recentlyAdded": "Recent toegevoegd",
-            "samples": "Voorbeelden",
+            "samples": "Fragmenten",
             "type": "Soort"
         },
         "sidebar": {
             "section": {
-                "explore": "Ontdek"
+                "explore": "Bladeren"
             }
         },
         "sort": {
             "author": "Auteur",
-            "finished": "Voltooiingsdatum",
-            "lastAdded": "Als laatste toegevoegd",
-            "lastRead": "Als laatste gelezen",
+            "finished": "Afrondingsdatum",
+            "lastAdded": "Laatst toegevoegd",
+            "lastRead": "Laatst geopend",
             "title": "Titel"
         },
         "title": "Boekenplank",
         "view": {
             "grid": "Raster",
             "list": "Lijst",
-            "title": "Weergavekeuze"
+            "title": "Weergave"
         }
     },
     "browser": {
@@ -63,51 +63,51 @@
                 "compact": "Startpagina"
             },
             "next": {
-                "compact": "Volgende"
+                "compact": "Vooruit"
             },
             "openInBrowser": {
-                "compact": "Open in browser"
+                "compact": "Openen in standaardbrowser"
             },
             "previous": {
-                "compact": "Vorige"
+                "compact": "Terug"
             },
             "reload": {
                 "compact": "Opnieuw laden"
             },
             "stop": {
-                "compact": "Stop"
+                "compact": "Laden stoppen"
             }
         }
     },
     "catalogs": {
         "actions": {
             "add": {
-                "compact": "Voeg toe",
-                "descriptive": "Voeg catalogus toe"
+                "compact": "Toevoegen",
+                "descriptive": "Catalogus toevoegen"
             },
             "browse": {
-                "compact": "Blader",
-                "descriptive": "Blader door catalogus"
+                "compact": "Bladeren",
+                "descriptive": "Door catalogus bladeren"
             },
             "edit": {
-                "compact": "Bewerk",
-                "descriptive": "Wijzig catalogus"
+                "compact": "Bewerken",
+                "descriptive": "Catalogus bewerken"
             },
             "info": {
                 "compact": "Info"
             },
             "remove": {
-                "compact": "Verwijder",
-                "confirmation": "Weet u zeker dat u de catalogus \"{{ name }}\" wilt verwijderen?",
-                "descriptive": "Verwijder catalogus"
+                "compact": "Verwijderen",
+                "confirmation": "Weet je zeker dat je de catalogus \"{{ name }}\" wilt verwijderen?",
+                "descriptive": "Catalogus verwijderen"
             }
         },
         "dialogs": {
             "add": {
-                "title": "Voeg catalogus toe"
+                "title": "Catalogus toevoegen"
             },
             "edit": {
-                "title": "Bewerk catalogus"
+                "title": "Catalogus bewerken"
             },
             "errors": {
                 "invalidName": "Voer een geldige naam in.",
@@ -123,10 +123,10 @@
                 },
                 "url": {
                     "compact": "URL",
-                    "placeholder": "https://catalogus.com"
+                    "placeholder": "https://catalog.com"
                 },
                 "useSystemBrowser": {
-                    "compact": "Open de catalogus in de browser"
+                    "compact": "Catalogus openen in standaardbrowser"
                 }
             }
         },
@@ -136,7 +136,7 @@
         },
         "tips": {
             "add": {
-                "message": "Voeg elke website toe als catalogus om eenvoudig e-books, strips en manga te bekijken en te downloaden.",
+                "message": "Voeg een website naar keuze toe als catalogus om eenvoudig e-books, strips en manga te bekijken en te downloaden.",
                 "title": "Ondersteunde catalogi"
             }
         },
@@ -149,14 +149,258 @@
     },
     "common": {
         "actions": {
-            "cancel": "Annuleer",
-            "close": "Afsluiten",
+            "cancel": "Annuleren",
+            "close": "Sluiten",
             "collapse": "Inklappen",
-            "collapseAll": "Alle inklappen",
-            "delete": "Wissen",
+            "collapseAll": "Alles inklappen",
+            "delete": "Verwijderen",
             "expand": "Uitklappen",
-            "expandAll": "Alle uitklappen",
-            "filter": "Filter"
+            "expandAll": "Alles uitklappen",
+            "filter": "Filteren",
+            "retry": "Opnieuw proberen",
+            "search": "Zoeken",
+            "showMoreOptions": "Meer opties",
+            "sortBy": "Sorteren op"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Inloggen"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "De gebruikersnaam of het wachtwoord is onjuist. Probeer het opnieuw."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Wachtwoord"
+                },
+                "username": {
+                    "compact": "Gebruikersnaam"
+                }
+            },
+            "title": "Inloggen bij {{ host }}"
+        },
+        "confirmation": {
+            "title": "Weet je het zeker?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Details"
+                }
+            },
+            "cancelled": "Bewerking geannuleerd.",
+            "outOfMemory": "Er is onvoldoende geheugen beschikbaar om door te gaan. Sluit andere apps of probeer het later opnieuw.",
+            "title": "Fout",
+            "unexpected": "Er is iets misgegaan. Probeer het opnieuw."
+        },
+        "estimatedNumber": "~{{ number }}",
+        "file": {
+            "errors": {
+                "corrupted": "Het bestand kan niet worden geopend. Mogelijk is het beschadigd of wordt het bestandsformaat niet ondersteund. Probeer een ander bestand.",
+                "forbidden": "Het bestand kan niet worden geopend. Toegang geweigerd.",
+                "formatNotSupported": "Dit bestandstype wordt niet ondersteund. Probeer een ander bestand.",
+                "insufficientSpace": "Er is onvoldoende opslagruimte om door te gaan. Maak ruimte vrij en probeer het opnieuw.",
+                "notFound": "Het bestand is niet gevonden en kan daarom niet worden geopend.",
+                "protocolNotSupported": "Deze publicatie kan niet vanaf de huidige locatie worden geopend. Download de publicatie eerst of neem contact op met de boekwinkel voor hulp."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Er is iets misgegaan. Controleer je internetverbinding of probeer het later opnieuw.",
+                "forbidden": "Je hebt geen toegang tot deze inhoud.",
+                "malformedResponse": "Deze inhoud kan niet worden geladen. Er is een probleem met de server. Probeer het later opnieuw.",
+                "methodNotSupported": "De server ondersteunt deze manier van laden niet.",
+                "notFound": "Inhoud niet gevonden.",
+                "offline": "Je bent offline. Controleer je internetverbinding.",
+                "security": "Er kon geen beveiligde verbinding worden gemaakt. Probeer het later opnieuw.",
+                "timeout": "De server reageerde niet op tijd. Probeer het opnieuw.",
+                "unauthorized": "Je moet ingelogd zijn om deze inhoud te openen.",
+                "unreachable": "Er kon geen verbinding met de server worden gemaakt."
+            }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
         }
+    },
+    "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Welkom bij Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Je hebt alle publicaties op je boekenplank afgerond.",
+                "title": "Alles afgerond"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Recent beluisterd apart weergeven"
+            }
+        },
+        "title": "Startpagina"
+    },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Verbergen"
+            },
+            "pause": {
+                "compact": "Pauzeren"
+            },
+            "resume": {
+                "compact": "Hervatten"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "Je hebt momenteel geen actieve downloads.",
+                "title": "Geen actieve downloads"
+            }
+        },
+        "events": {
+            "batchAdded_one": "{{ count }} publicatie toegevoegd",
+            "batchAdded_other": "{{ count }} publicaties toegevoegd",
+            "batchMixed": {
+                "added_one": "{{ count }} toegevoegd",
+                "added_other": "{{ count }} toegevoegd",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_one": "{{ count }} mislukt",
+                "failed_other": "{{ count }} mislukt"
+            },
+            "batchRunning_one": "{{ count }} publicatie importeren…",
+            "batchRunning_other": "{{ count }} publicaties importeren…",
+            "taskAdded": "\"{{ title }}\" toegevoegd",
+            "taskFailed": "\"{{ title }}\" kon niet worden toegevoegd",
+            "taskRunning": "\"{{ title }}\" importeren…"
+        },
+        "status": {
+            "added": "Toegevoegd",
+            "cancelled": "Geannuleerd",
+            "downloading": "Downloaden…",
+            "failed": "Mislukt",
+            "paused": "Gepauzeerd",
+            "processing": "Importeren…",
+            "queued": "Wachten…"
+        },
+        "title": {
+            "batch": "Importeren",
+            "downloads": "Downloads"
+        }
+    },
+    "intents": {
+        "openBook": {
+            "title": "Open een boek"
+        },
+        "openBookshelf": {
+            "description": "Opent je boekenplank in de app.",
+            "title": "Open de boekenplank"
+        }
+    },
+    "links": {
+        "aboutApp": "Over deze app",
+        "aboutUs": "Over ons",
+        "community": {
+            "blog": "Blog",
+            "discord": "Sluit je aan bij de community op Discord",
+            "patreon": "Steun ons op Patreon",
+            "title": "Blijf op de hoogte",
+            "youtube": "Volg ons op YouTube"
+        },
+        "help": "Hulp en feedback",
+        "info": "Info",
+        "privacyPolicy": "Privacybeleid",
+        "termsOfUse": "Gebruiksvoorwaarden"
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Importeren"
+            },
+            "listen": {
+                "compact": "Luisteren"
+            },
+            "markAsFinished": {
+                "compact": "Markeren als afgerond"
+            },
+            "markAsNotStarted": {
+                "compact": "Markeren als nog niet begonnen"
+            },
+            "markAsUnfinished": {
+                "compact": "Markeren als niet afgerond"
+            },
+            "read": {
+                "compact": "Lezen"
+            },
+            "remove": {
+                "compact": "Verwijderen",
+                "confirmation": "Weet je zeker dat je \"{{ title }}\" wilt verwijderen?"
+            },
+            "rename": {
+                "compact": "Titel wijzigen",
+                "descriptive": "Titel van de publicatie wijzigen"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Geen",
+            "sample": "Fragment",
+            "unknownTitle": "Onbekende titel"
+        }
+    },
+    "reader": {
+        "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Notitievenster tonen bij nieuwe bladwijzer"
+                },
+                "title": "Bladwijzers en markeringen"
+            },
+            "progression": {
+                "animatePageTurns": {
+                    "compact": "Omslaan van pagina’s animeren"
+                },
+                "displayCurrentProgression": {
+                    "compact": "Leesvoortgang tonen"
+                },
+                "displayPrintPagination": {
+                    "compact": "Paginanummers van de gedrukte editie tonen"
+                },
+                "progressionStyle": {
+                    "compact": "Weergave van de leesvoortgang"
+                },
+                "title": "Leesvoortgang"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Statusbalk altijd tonen"
+                },
+                "displayOrientationLock": {
+                    "compact": "Knop voor rotatievergrendeling tonen bij draaien"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Scherm ingeschakeld houden"
+                },
+                "title": "Scherm"
+            },
+            "title": "Leesopties"
+        }
+    },
+    "settings": {
+        "miniPlayer": {
+            "always": "Altijd zichtbaar",
+            "hidden": "Verborgen",
+            "title": "Minispeler",
+            "whenPlaying": "Tonen tijdens afspelen"
+        },
+        "systemSettings": "Systeeminstellingen",
+        "theme": {
+            "dark": "Donker",
+            "light": "Licht",
+            "system": "Systeeminstelling volgen",
+            "title": "Thema"
+        },
+        "title": "Instellingen"
     }
 }
