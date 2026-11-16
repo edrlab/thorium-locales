@@ -165,7 +165,7 @@
                     "skipBackwardInterval": "Skip backward interval",
                     "skipForwardInterval": "Skip forward interval",
                     "skipInterval": "Skip interval",
-                    "title": "Audio Settings",
+                    "title": "Player options",
                     "volume": "Volume"
                 },
                 "autoPlay": {
