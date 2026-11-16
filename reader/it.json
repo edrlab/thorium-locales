@@ -48,6 +48,10 @@
                 "compact": "Successiva",
                 "descriptive": "Frase seguente"
             },
+            "goToNextTrack": {
+                "compact": "Successiva",
+                "descriptive": "Traccia successiva"
+            },
             "goToPosition": {
                 "compact": "Vai a…",
                 "descriptive": "Vai alla posizione"
@@ -68,8 +72,22 @@
                 "compact": "Precedente",
                 "descriptive": "Frase precedente"
             },
+            "goToPreviousTrack": {
+                "compact": "Precedente",
+                "descriptive": "Traccia precedente"
+            },
+            "goToReadAloudPosition": {
+                "compact": "Ritorna alla frase appena letta",
+                "descriptive": "Ritorna alla frase appena letta"
+            },
             "readAloud": {
                 "compact": "Lettura ad alta voce"
+            },
+            "rotateImage": {
+                "compact": "Ruota"
+            },
+            "stopReadAloud": {
+                "compact": "Arresta la lettura ad alta voce"
             }
         },
         "annotations": {
@@ -92,6 +110,9 @@
                     "description": "I nuovi segnalibri aggiunti durante la lettura verranno visualizzati qui.",
                     "title": "Nessun segnalibro"
                 },
+                "events": {
+                    "added": "Segnalibro aggiunto"
+                },
                 "title": "Segnalibri"
             },
             "note": {
@@ -111,8 +132,16 @@
         },
         "playback": {
             "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Riduci player"
+                },
+                "expandPlayer": {
+                    "descriptive": "Espandi player"
+                },
+                "next": "Successivo",
                 "pause": "Pausa",
                 "play": "Play",
+                "previous": "Precedente",
                 "skipBackward": {
                     "compact": "Torna indietro",
                     "descriptive": "Salta indietro"
@@ -121,6 +150,9 @@
                     "compact": "Avanti",
                     "descriptive": "Salta avanti"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "Questa lingua non è supportata dalla riproduzione vocale"
             },
             "preferences": {
                 "audio": {
@@ -136,17 +168,110 @@
                 },
                 "playbackRate": {
                     "compact": "Velocità",
-                    "descriptive": "Velocità della riproduzione"
+                    "descriptive": "Velocità della riproduzione",
+                    "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "abbreviations": {
+                        "title": "Abbreviazioni"
+                    },
+                    "additionalLanguages": "Lingue aggiuntive",
+                    "autoPause": {
+                        "block": "Dopo ogni paragrafo",
+                        "none": "Disattivata",
+                        "page": "Dopo ogni pagina",
+                        "title": "Pausa automatica",
+                        "utterance": "Dopo ogni frase"
+                    },
+                    "bibliography": {
+                        "after": "Dopo una frase",
+                        "never": "Mai",
+                        "title": "Riferimenti bibliografici"
+                    },
+                    "glossary": {
+                        "after": "Dopo una frase",
+                        "never": "Mai",
+                        "title": "Definizioni del glossario"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "custom": "Personalizza",
+                            "none": "Nessuna",
+                            "sentence": "Frase",
+                            "sentenceAndWord": "Frase e parola",
+                            "title": "Impostazioni delle sottolineature",
+                            "word": "Parola"
+                        },
+                        "sentenceStyle": "Evidenziatura delle frasi",
+                        "styles": {
+                            "highlight": "Evidenziatura",
+                            "highlightUnderline": "Evidenzia e sottolinea",
+                            "none": "Nessuna",
+                            "textColor": "Colore del testo",
+                            "underline": "Sottolinea"
+                        },
+                        "title": "Evidenzia",
+                        "wordStyle": "Evidenziatura delle parole"
+                    },
+                    "keepCentered": {
+                        "label": "Mantieni la frase letta al centro dello schermo durante lo scorrimento",
+                        "title": "Accentra"
+                    },
+                    "language": {
+                        "blockLevel": "Per testo in un'altra lingua",
+                        "none": "Mai",
+                        "title": "Cambia voce per le altre lingue"
+                    },
+                    "languageOverride": {
+                        "title": "Lingua della pubblicazione"
+                    },
+                    "notes": {
+                        "after": "Dopo la frase",
+                        "never": "Mai",
+                        "title": "Note"
+                    },
+                    "pageBreaks": {
+                        "after": "Dopo la frase",
+                        "inline": "Dove appaiono",
+                        "never": "Mai"
+                    },
+                    "pauseDuration": "Pausa tra le frasi",
+                    "pitch": "Tono",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Pausa automatica",
+                            "custom": "Personalizzato",
+                            "default": "Predefinito",
+                            "fast": "Veloce",
+                            "slow": "Lento",
+                            "title": "Impostazioni del ritmo"
+                        },
+                        "title": "Ritmo"
+                    },
+                    "title": "Impostazioni per la lettura ad alta voce",
+                    "verbosity": {
+                        "none": "Nessuno"
+                    },
+                    "voice": {
+                        "prerecorded": "Voce preregistrata",
+                        "title": "Voce"
+                    }
                 },
                 "sleepTimer": {
                     "compact": "Timer",
+                    "custom": {
+                        "duration": "Durata",
+                        "until": "Fino {{ time }}"
+                    },
                     "descriptive": "Timer di spegnimento",
                     "presets": {
                         "endOfChapter": "Fine del capitolo",
+                        "endOfNextChapter": "Fine del capitolo seguente",
                         "endOfResource": "Fine della risorsa"
                     }
                 }
-            }
+            },
+            "trackN": "Traccia {{ index }}"
         },
         "preferences": {
             "brightness": "Luminosità",
@@ -190,6 +315,7 @@
                 },
                 "publisher": "Font dell'editore",
                 "sans": "Sans-serif",
+                "serif": "Serif",
                 "title": "Famiglia di caratteri"
             },
             "fontSize": "Dimensione dei caratteri",
@@ -298,6 +424,9 @@
             "zoom": "Zoom"
         },
         "progression": {
+            "page": {
+                "descriptive": "Pagina {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_many": "{{ count }} pagine rimanenti",
                 "descriptive_one": "{{ count }} pagina rimanente",
@@ -314,6 +443,9 @@
                 "descriptive_other": "{{ count }} pagine rimaste nella pubblicazione"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Posizione {{ index }}"
+            },
             "positionsLeft": {
                 "compact_many": "{{ count }} rimaste",
                 "compact_one": "{{ count }} rimasta",
@@ -339,6 +471,10 @@
                 "descriptive_other": "{{ count }} posizioni rimaste nella pubblicazione"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "{{ duration }} rimanente",
+                "descriptive": "{{ duration }} rimanente nella pubblicazione"
+            },
             "xOfY": {
                 "compact": "{{ x }} di {{ y }}",
                 "descriptive": "{{ x }} di {{ y }} ({{ z }})"

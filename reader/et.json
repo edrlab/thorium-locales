@@ -48,6 +48,10 @@
                 "compact": "Järgmine",
                 "descriptive": "Järgmine lause"
             },
+            "goToNextTrack": {
+                "compact": "Järgmine",
+                "descriptive": "Järgmine lugu"
+            },
             "goToPosition": {
                 "compact": "Mine…",
                 "descriptive": "Mine asukohta"
@@ -68,8 +72,15 @@
                 "compact": "Tagasi",
                 "descriptive": "Eelmine lause"
             },
+            "goToPreviousTrack": {
+                "compact": "Eelmine",
+                "descriptive": "Eelmine lugu"
+            },
             "readAloud": {
                 "compact": "Loe valjult ette"
+            },
+            "rotateImage": {
+                "compact": "Pööra"
             }
         },
         "annotations": {
@@ -92,6 +103,9 @@
                     "description": "Lugemise ajal lisatud järjehoidjad saavad olema nähtavad siin.",
                     "title": "Järjehoidjaid pole"
                 },
+                "events": {
+                    "added": "Järjehoidja on lisatud"
+                },
                 "title": "Järjehoidjad"
             },
             "note": {
@@ -111,16 +125,27 @@
         },
         "playback": {
             "actions": {
+                "next": "Järgmine",
                 "pause": "Peata",
                 "play": "Esita",
+                "previous": "Eelmine",
                 "skipBackward": {
                     "compact": "Keri tagasi",
                     "descriptive": "Keri tagasi"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Keri tagasi {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Edasi",
                     "descriptive": "Keri edasi"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Keri edasi {{ duration }}"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "See keel pole kõnesünteesi hääle poolt toetataud."
             },
             "preferences": {
                 "audio": {
@@ -136,17 +161,27 @@
                 },
                 "playbackRate": {
                     "compact": "Kiirus",
-                    "descriptive": "Taasesituse kiirus"
+                    "descriptive": "Taasesituse kiirus",
+                    "value": "{{ rate }}×"
                 },
                 "sleepTimer": {
                     "compact": "Taimer",
+                    "custom": {
+                        "duration": "Kestus",
+                        "endTime": "Lõpuaeg",
+                        "until": "Kuni {{time}}"
+                    },
                     "descriptive": "Unetaimer",
+                    "off": "Pole kasutusel",
                     "presets": {
+                        "custom": "Sinu valik",
                         "endOfChapter": "Peatüki lõpp",
+                        "endOfNextChapter": "Järgmise peatüki lõpp",
                         "endOfResource": "Ressursi lõpp"
                     }
                 }
-            }
+            },
+            "trackN": "Lugu {{ index }}"
         },
         "preferences": {
             "brightness": "Eredus",
@@ -189,7 +224,9 @@
                     "descriptive": "Vanamoodne seriifidega"
                 },
                 "publisher": "Kirjastaja määratud kirjatüüp",
-                "sans": "Seriifideta",
+                "sans": "Seriifideta kirjatüüp",
+                "serif": "Seriifidega kirjatüüp",
+                "specialized": "Spetsiifiline kirjatüüp",
                 "title": "Kirjatüübi perekond"
             },
             "fontSize": "Kirjatüübi suurus",
@@ -298,6 +335,9 @@
             "zoom": "Suumimine"
         },
         "progression": {
+            "page": {
+                "descriptive": "{{ index }}. leht"
+            },
             "pagesLeft": {
                 "descriptive_one": "Jäänud on {{ count }} leht",
                 "descriptive_other": "Jäänud on {{ count }} lehte"
@@ -311,6 +351,9 @@
                 "descriptive_other": "Köites on jäänud {{ count }} lehte"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Asukoht {{ index }}"
+            },
             "positionsLeft": {
                 "compact_one": "Jäänud on {{ count }}",
                 "compact_other": "Jäänud on {{ count }}",
@@ -330,6 +373,10 @@
                 "descriptive_other": "Väljaandes on jäänud {{ count }} asukohta"
             },
             "range": "{{ start }}-{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "Jäänud on {{ duration }}",
+                "descriptive": "Väljaandes on jäänud {{ duration }}"
+            },
             "xOfY": {
                 "compact": "{{ x }} / {{ y }}",
                 "descriptive": "{{ x }} / {{ y }} ({{ z }})"

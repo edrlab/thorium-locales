@@ -48,6 +48,10 @@
                 "compact": "Nästa",
                 "descriptive": "Nästa mening"
             },
+            "goToNextTrack": {
+                "compact": "Nästa",
+                "descriptive": "Nästa spår"
+            },
             "goToPosition": {
                 "compact": "Hoppa till…",
                 "descriptive": "Hoppa till position"
@@ -68,14 +72,21 @@
                 "compact": "Föregående",
                 "descriptive": "Föregående mening"
             },
+            "goToPreviousTrack": {
+                "compact": "Föregående",
+                "descriptive": "Föregående spår"
+            },
             "readAloud": {
-                "compact": "Läs högt"
+                "compact": "Läs upp"
+            },
+            "rotateImage": {
+                "compact": "Rotera"
             }
         },
         "annotations": {
             "actions": {
                 "editNote": {
-                    "compact": "Redigera anteckning"
+                    "compact": "Lägg till anteckning"
                 }
             },
             "bookmarks": {
@@ -91,6 +102,9 @@
                 "emptyState": {
                     "description": "Bokmärken som du lagt till under läsning kommer att visas i den här listan.",
                     "title": "Inga bokmärken"
+                },
+                "events": {
+                    "added": "Bokmärke tillagt"
                 },
                 "title": "Bokmärken"
             },
@@ -111,16 +125,27 @@
         },
         "playback": {
             "actions": {
+                "next": "Nästa",
                 "pause": "Paus",
                 "play": "Spela",
+                "previous": "Föregående",
                 "skipBackward": {
                     "compact": "Hoppa tillbaka",
                     "descriptive": "Hoppa bakåt"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Hoppa bakåt {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Framåt",
                     "descriptive": "Hoppa framåt"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Hoppa framåt {{ duration }}"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "Det här språket stöds inte av text-till-tal-rösterna."
             },
             "preferences": {
                 "audio": {
@@ -136,17 +161,27 @@
                 },
                 "playbackRate": {
                     "compact": "Hastighet",
-                    "descriptive": "Uppspelningshastighet"
+                    "descriptive": "Uppspelningshastighet",
+                    "value": "{{ rate }}×"
                 },
                 "sleepTimer": {
                     "compact": "Timer",
+                    "custom": {
+                        "duration": "Längd",
+                        "endTime": "Sluttid",
+                        "until": "Tills {{ time }}"
+                    },
                     "descriptive": "Sovtimer",
+                    "off": "Av",
                     "presets": {
+                        "custom": "Anpassad",
                         "endOfChapter": "Kapitlets slut",
-                        "endOfResource": "Slut på resurs"
+                        "endOfNextChapter": "Slutet av nästa kapitel",
+                        "endOfResource": "Slut på avsnitt"
                     }
                 }
-            }
+            },
+            "trackN": "Spår {{ index }}"
         },
         "preferences": {
             "brightness": "Ljusstyrka",
@@ -188,8 +223,10 @@
                     "compact": "Old style",
                     "descriptive": "Old style serif"
                 },
-                "publisher": "Utgivarens teckensnitt",
+                "publisher": "Originalets typsnitt",
                 "sans": "Sans-serif",
+                "serif": "Seriff",
+                "specialized": "Anpassade",
                 "title": "Teckensnittsfamilj"
             },
             "fontSize": "Teckenstorlek",
@@ -228,7 +265,7 @@
             "paragraphSpacing": "Styckeavstånd",
             "publisherStyles": {
                 "label": "Använd originalformat",
-                "title": "Utgivarens stilar"
+                "title": "Originalets stilar"
             },
             "readingDirection": {
                 "default": {
@@ -298,6 +335,9 @@
             "zoom": "Zooma"
         },
         "progression": {
+            "page": {
+                "descriptive": "Sida {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_one": "{{ count }} sida kvar",
                 "descriptive_other": "{{ count }} sidor kvar"
@@ -311,6 +351,9 @@
                 "descriptive_other": "{{ count }} sidor kvar i publikationen"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Position {{ index }}"
+            },
             "positionsLeft": {
                 "compact_one": "{{ count }} vänster",
                 "compact_other": "{{ count }} vänster",
@@ -319,7 +362,7 @@
             },
             "positionsLeftInChapter": {
                 "compact_one": "{{ count }} kvar i kapitlet",
-                "compact_other": "{{ count }} kvar i kapitel",
+                "compact_other": "{{ count }} kvar i kapitlet",
                 "descriptive_one": "{{ count }} position kvar i kapitlet",
                 "descriptive_other": "{{ count }} positioner kvar i nuvarande kapitel"
             },
@@ -330,6 +373,10 @@
                 "descriptive_other": "{{ count }} positioner kvar i publikationen"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "{{ duration }} kvar",
+                "descriptive": "{{ duration }} kvar i boken"
+            },
             "xOfY": {
                 "compact": "{{ x }} av {{ y }}",
                 "descriptive": "{{ x }} av {{ y }} ({{ z }})"

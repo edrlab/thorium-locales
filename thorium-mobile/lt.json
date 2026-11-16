@@ -136,7 +136,7 @@
         },
         "tips": {
             "add": {
-                "message": "Pridėkite bet kurią svetainę kaip katalogą, kad galėtumėte lengvai naršyti ir atsisiųsti el. knygas, komiksus ir mangas.",
+                "message": "Pridėkite bet kurią svetainę kaip katalogą, kad galėtumėte lengvai naršyti ir atsisiųsti el. knygas, komiksus ir manga.",
                 "title": "Palaikomi katalogai"
             }
         },
@@ -394,7 +394,7 @@
     "settings": {
         "miniPlayer": {
             "always": "Atvaizduojamas visada",
-            "hidden": "Slėpiamas",
+            "hidden": "Slepiamas",
             "title": "Mini garso leistuvas",
             "whenPlaying": "Rodyti atkūrimo metu"
         },

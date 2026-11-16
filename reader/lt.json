@@ -48,6 +48,10 @@
                 "compact": "Kitas",
                 "descriptive": "Kitas sakinys"
             },
+            "goToNextTrack": {
+                "compact": "Kitas",
+                "descriptive": "Kitas takelis"
+            },
             "goToPosition": {
                 "compact": "Peršokti į…",
                 "descriptive": "Peršokti į poziciją"
@@ -68,8 +72,15 @@
                 "compact": "Ankstesnis",
                 "descriptive": "Ankstesnis sakinys"
             },
+            "goToPreviousTrack": {
+                "compact": "Ankstesnis",
+                "descriptive": "Ankstesnis takelis"
+            },
             "readAloud": {
                 "compact": "Skaityti garsiai"
+            },
+            "rotateImage": {
+                "compact": "Pasukti"
             }
         },
         "annotations": {

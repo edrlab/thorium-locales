@@ -48,6 +48,10 @@
                 "compact": "Siguiente",
                 "descriptive": "Frase siguiente"
             },
+            "goToNextTrack": {
+                "compact": "Siguiente",
+                "descriptive": "siguiente pista"
+            },
             "goToPosition": {
                 "compact": "Ir a…",
                 "descriptive": "Ir a la posición"
@@ -68,8 +72,22 @@
                 "compact": "Anterior",
                 "descriptive": "Frase anterior"
             },
+            "goToPreviousTrack": {
+                "compact": "Anterior",
+                "descriptive": "Pista anterior"
+            },
+            "goToReadAloudPosition": {
+                "compact": "Atrás a frase actual",
+                "descriptive": "Volver a la frase que se está leyendo"
+            },
             "readAloud": {
                 "compact": "Leer en voz alta"
+            },
+            "rotateImage": {
+                "compact": "girar"
+            },
+            "stopReadAloud": {
+                "compact": "Deja de leer en voz alta"
             }
         },
         "annotations": {
@@ -92,6 +110,9 @@
                     "description": "Los nuevos marcadores añadidos durante la lectura se mostrarán en esta lista.",
                     "title": "No hay marcadores"
                 },
+                "events": {
+                    "added": "Se ha añadido un marcador"
+                },
                 "title": "Marcadores"
             },
             "note": {
@@ -111,16 +132,33 @@
         },
         "playback": {
             "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Ocultar reproductor"
+                },
+                "expandPlayer": {
+                    "descriptive": "Mostrar reproductor"
+                },
+                "next": "Siguiente",
                 "pause": "Pausa",
                 "play": "Reproducir",
+                "previous": "Anterior",
                 "skipBackward": {
                     "compact": "Rebobinar",
                     "descriptive": "Saltar hacia atrás"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Saltar hacia atrás {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Avanzar",
                     "descriptive": "Saltar hacia adelante"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Saltar hacia adelante {{ duration }}"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "Este idioma no es compatible con la voz de lectura en voz alta."
             },
             "preferences": {
                 "audio": {
@@ -136,17 +174,133 @@
                 },
                 "playbackRate": {
                     "compact": "Velocidad",
-                    "descriptive": "Velocidad de reproducción"
+                    "descriptive": "Velocidad de reproducción",
+                    "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "abbreviations": {
+                        "after": "Con su expansión",
+                        "inline": "Expandidas",
+                        "never": "tal cual",
+                        "title": "Abreviaturas"
+                    },
+                    "additionalLanguages": "Otros idiomas",
+                    "autoPause": {
+                        "block": "Tras cada párrafo",
+                        "none": "Desactivado",
+                        "page": "Después de cada página",
+                        "spread": "Después de cada doble página",
+                        "title": "Pausa automática",
+                        "utterance": "Después de cada frase"
+                    },
+                    "bibliography": {
+                        "after": "Después de la frase",
+                        "inline": "Donde se mencionan",
+                        "never": "Nunca",
+                        "title": "Referencias bibliográficas"
+                    },
+                    "glossary": {
+                        "after": "Después de la frase",
+                        "inline": "Donde se mencionan",
+                        "never": "Nunca",
+                        "title": "Definiciones del glosario"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "authored": "Del autor",
+                            "custom": "Personalizado",
+                            "mask": "Enfoque",
+                            "none": "Ninguno",
+                            "sentence": "Frase",
+                            "sentenceAndWord": "Frase y palabra",
+                            "title": "Preajustes de resaltado",
+                            "word": "Palabra"
+                        },
+                        "sentenceStyle": "Resaltado de frase",
+                        "styles": {
+                            "highlight": "Resaltado",
+                            "highlightUnderline": "Resaltado con subrayado",
+                            "mask": "Resto del texto atenuado",
+                            "none": "Ninguno",
+                            "outline": "Contorno",
+                            "textColor": "Texto coloreado",
+                            "underline": "Subrayado"
+                        },
+                        "title": "Resaltado",
+                        "wordStyle": "Resaltado de palabra"
+                    },
+                    "keepCentered": {
+                        "label": "Centrar la frase leída al desplazarse",
+                        "title": "Centrar en la frase"
+                    },
+                    "language": {
+                        "always": "Siempre, incluso en mitad de una frase",
+                        "blockLevel": "En párrafos completos",
+                        "none": "Nunca",
+                        "title": "Cambiar de voz según el idioma"
+                    },
+                    "languageOverride": {
+                        "declared": "Según el ({{ language }}) declarado",
+                        "title": "Idioma de la publicación",
+                        "undeclared": "No declarado"
+                    },
+                    "notes": {
+                        "after": "Después de la frase",
+                        "inline": "Donde se mencionan",
+                        "never": "Nunca",
+                        "title": "Notas"
+                    },
+                    "pageBreaks": {
+                        "after": "Después de la frase",
+                        "inline": "Donde aparecen",
+                        "never": "Nunca",
+                        "title": "Saltos de página"
+                    },
+                    "pauseDuration": "Pausa entre frases",
+                    "pitch": "Tono",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Pausa automática",
+                            "custom": "Personalizado",
+                            "default": "Predeterminado",
+                            "fast": "Rápido",
+                            "slow": "Lento",
+                            "title": "Preajustes de ritmo"
+                        },
+                        "title": "Ritmo"
+                    },
+                    "title": "Ajustes de lectura en voz alta",
+                    "verbosity": {
+                        "few": "Pocos",
+                        "most": "Muchos",
+                        "none": "Ninguno",
+                        "some": "Algunos",
+                        "title": "Anuncios"
+                    },
+                    "voice": {
+                        "prerecorded": "Voz pregrabada",
+                        "system": "Predeterminada del sistema",
+                        "title": "Voz"
+                    }
                 },
                 "sleepTimer": {
                     "compact": "Temporizador",
+                    "custom": {
+                        "duration": "Duración",
+                        "endTime": "Hora de fin",
+                        "until": "Hasta {{ time }}"
+                    },
                     "descriptive": "Temporizador de sueño",
+                    "off": "Desactivado",
                     "presets": {
+                        "custom": "Personalizado",
                         "endOfChapter": "Final del capítulo",
+                        "endOfNextChapter": "Final del siguiente capítulo",
                         "endOfResource": "Final del recurso"
                     }
                 }
-            }
+            },
+            "trackN": "Pista {{ index }}"
         },
         "preferences": {
             "brightness": "Brillo",
@@ -190,6 +344,8 @@
                 },
                 "publisher": "De la editorial",
                 "sans": "Palo seco",
+                "serif": "Serif",
+                "specialized": "Especializadas",
                 "title": "Fuente"
             },
             "fontSize": "tamaño de fuente",
@@ -298,6 +454,9 @@
             "zoom": "Zoom"
         },
         "progression": {
+            "page": {
+                "descriptive": "Página {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_many": "{{ count }} páginas restantes",
                 "descriptive_one": "{{ count }} página restante",
@@ -314,6 +473,9 @@
                 "descriptive_other": "Quedan {{ count }} páginas para terminar la publicación"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Posición {{ index }}"
+            },
             "positionsLeft": {
                 "compact_many": "Quedan {{ count }}",
                 "compact_one": "Queda {{ count }}",
@@ -339,6 +501,10 @@
                 "descriptive_other": "Quedan {{ count }} posiciones en la publicación"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "Quedan {{ duration }}",
+                "descriptive": "Quedan {{ duration }} en la publicación"
+            },
             "xOfY": {
                 "compact": "{{ x }} de {{ y }}",
                 "descriptive": "{{ x }} de {{ y }} ({{ z }})"
