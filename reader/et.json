@@ -76,11 +76,18 @@
                 "compact": "Eelmine",
                 "descriptive": "Eelmine lugu"
             },
+            "goToReadAloudPosition": {
+                "compact": "Tagasi praeguse lause juurde",
+                "descriptive": "Mine tagasi ettelugemisel lause juurde"
+            },
             "readAloud": {
                 "compact": "Loe valjult ette"
             },
             "rotateImage": {
                 "compact": "Pööra"
+            },
+            "stopReadAloud": {
+                "compact": "Lõpeta valjult ettelugemine"
             }
         },
         "annotations": {
@@ -125,6 +132,12 @@
         },
         "playback": {
             "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Lappa pleier kokku"
+                },
+                "expandPlayer": {
+                    "descriptive": "Lappa pleier lahti"
+                },
                 "next": "Järgmine",
                 "pause": "Peata",
                 "play": "Esita",
@@ -152,7 +165,7 @@
                     "skipBackwardInterval": "Tagasikerimise samm",
                     "skipForwardInterval": "Edasikerimise välp",
                     "skipInterval": "Vahelejätmise välp",
-                    "title": "Heliseadistused",
+                    "title": "Pleieri eelistused",
                     "volume": "Helivaljus"
                 },
                 "autoPlay": {
@@ -163,6 +176,20 @@
                     "compact": "Kiirus",
                     "descriptive": "Taasesituse kiirus",
                     "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "additionalLanguages": "Täiendavad keeled",
+                    "autoPause": {
+                        "block": "Iga lõigu järel",
+                        "none": "Pole kasutusel",
+                        "page": "Iga lehe järel",
+                        "spread": "Iga avanemise järel",
+                        "title": "Peata automaatselt",
+                        "utterance": "Iga lause järel"
+                    },
+                    "bibliography": {
+                        "after": "Lause järel"
+                    }
                 },
                 "sleepTimer": {
                     "compact": "Taimer",
