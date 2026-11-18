@@ -48,6 +48,10 @@
                 "compact": "Næste",
                 "descriptive": "Næste sætning"
             },
+            "goToNextTrack": {
+                "compact": "Næste",
+                "descriptive": "Næste spor"
+            },
             "goToPosition": {
                 "compact": "Gå til…",
                 "descriptive": "Gå til position"
@@ -68,8 +72,22 @@
                 "compact": "Forrige",
                 "descriptive": "Forrige sætning"
             },
+            "goToPreviousTrack": {
+                "compact": "Forrige",
+                "descriptive": "Forrige spor"
+            },
+            "goToReadAloudPosition": {
+                "compact": "Tilbage til nuværende sætning",
+                "descriptive": "Gå tilbage til sætningen der læses højt"
+            },
             "readAloud": {
                 "compact": "Læs højt"
+            },
+            "rotateImage": {
+                "compact": "Rotér"
+            },
+            "stopReadAloud": {
+                "compact": "Stop højtlæsning"
             }
         },
         "annotations": {
@@ -92,6 +110,9 @@
                     "description": "Bogmærker du tilføjer under læsning vil blive vist på denne liste.",
                     "title": "Ingen bogmærker"
                 },
+                "events": {
+                    "added": "Bogmærker tilføjet"
+                },
                 "title": "Bogmærker"
             },
             "note": {
@@ -111,23 +132,40 @@
         },
         "playback": {
             "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Skjul afspiller"
+                },
+                "expandPlayer": {
+                    "descriptive": "Vis afspiller"
+                },
+                "next": "Næste",
                 "pause": "Pause",
                 "play": "Afspil",
+                "previous": "Forrige",
                 "skipBackward": {
                     "compact": "Spol tilbage",
                     "descriptive": "Spol tilbage"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Hop {{ duration }} tilbage"
+                },
                 "skipForward": {
                     "compact": "Spol frem",
                     "descriptive": "Spol frem"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Hop {{ duration }} frem"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "Dette sprog er ikke understøttet af tekst-til-tale stemmen."
             },
             "preferences": {
                 "audio": {
                     "skipBackwardInterval": "Spol tilbage interval",
                     "skipForwardInterval": "Spol frem interval",
                     "skipInterval": "Spole interval",
-                    "title": "Lydindstillinger",
+                    "title": "Afspilningsindstillinger",
                     "volume": "Lydstyrke"
                 },
                 "autoPlay": {
@@ -136,7 +174,86 @@
                 },
                 "playbackRate": {
                     "compact": "Hastighed",
-                    "descriptive": "Afspilningshastighed"
+                    "descriptive": "Afspilningshastighed",
+                    "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "abbreviations": {
+                        "after": "Med udfoldelser",
+                        "inline": "Udfoldet",
+                        "never": "Som skrevet",
+                        "title": "Forkortelser"
+                    },
+                    "additionalLanguages": "Andre sprog",
+                    "autoPause": {
+                        "block": "Efter hvert afsnit",
+                        "none": "Fra",
+                        "page": "Efter hver side",
+                        "spread": "Efter hvert opslag",
+                        "title": "Automatisk pause",
+                        "utterance": "Efter hver sætning"
+                    },
+                    "bibliography": {
+                        "after": "Efter sætningen",
+                        "inline": "Hvor der refereres til dem",
+                        "never": "Aldrig",
+                        "title": "Bibliografiske referencer"
+                    },
+                    "glossary": {
+                        "after": "Efter sætningen",
+                        "inline": "Hvor der refereres til dem",
+                        "never": "Aldrig",
+                        "title": "Ordliste"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "authored": "Forfattet",
+                            "custom": "Skræddersyet",
+                            "mask": "Fokus",
+                            "none": "Ingen",
+                            "sentence": "Sætning",
+                            "sentenceAndWord": "Sætning og ord",
+                            "title": "Presets for fremhævning",
+                            "word": "Ord"
+                        },
+                        "sentenceStyle": "Fremhævning af sætning",
+                        "styles": {
+                            "highlight": "Fremhævning",
+                            "highlightUnderline": "Fremhævning og understregning",
+                            "mask": "Dæmp resten",
+                            "none": "Ingen",
+                            "outline": "Kontur",
+                            "textColor": "Tekstfarve",
+                            "underline": "Understregning"
+                        },
+                        "title": "Fremhævning",
+                        "wordStyle": "Fremhævning af ord"
+                    },
+                    "keepCentered": {
+                        "label": "Hold sætningen der læses op midt på skærmen, når der scrolles",
+                        "title": "Hold centreret"
+                    },
+                    "language": {
+                        "always": "Altid, inklusiv indlejrede fraser",
+                        "blockLevel": "For passager på andre sprog",
+                        "none": "Aldrig",
+                        "title": "Skift stemme for andre sprog"
+                    },
+                    "languageOverride": {
+                        "declared": "Som angivet ({{ language }})",
+                        "title": "Bogens sprog",
+                        "undeclared": "Ikke deklareret"
+                    },
+                    "notes": {
+                        "after": "Efter sætningen",
+                        "inline": "Hvor der refereres til dem",
+                        "never": "Aldrig",
+                        "title": "Noter"
+                    },
+                    "pageBreaks": {
+                        "after": "Efter sætningen",
+                        "inline": "Hvor de optræder"
+                    }
                 },
                 "sleepTimer": {
                     "compact": "Timer",
