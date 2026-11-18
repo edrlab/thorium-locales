@@ -388,14 +388,14 @@
                 },
                 "title": "Ekranas"
             },
-            "title": "Skaitymo parinktys"
+            "title": "Skaitytuvės parinktys"
         }
     },
     "settings": {
         "miniPlayer": {
             "always": "Atvaizduojamas visada",
             "hidden": "Slepiamas",
-            "title": "Mini garso leistuvas",
+            "title": "Mini garso grotuvas",
             "whenPlaying": "Rodyti atkūrimo metu"
         },
         "systemSettings": "Sistemos nuostatos",
