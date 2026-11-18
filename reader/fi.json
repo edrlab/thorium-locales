@@ -87,7 +87,7 @@
                 "compact": "Kierrä"
             },
             "stopReadAloud": {
-                "compact": "Lopeta lukeminen ääneen"
+                "compact": "Lopeta luenta"
             }
         },
         "annotations": {
@@ -165,7 +165,7 @@
                     "skipBackwardInterval": "Taaksepäin ohittamisen väli",
                     "skipForwardInterval": "Eteenpäin ohittamisen väli",
                     "skipInterval": "Ohita väli",
-                    "title": "Ääniasetukset",
+                    "title": "Soittimen asetukset",
                     "volume": "Äänenvoimakkuus"
                 },
                 "autoPlay": {
@@ -234,8 +234,8 @@
                         "title": "Pidä keskellä"
                     },
                     "language": {
-                        "always": "Aina, myös rivin keskellä olevat lauseet",
-                        "blockLevel": "Muunkieliset kohdat",
+                        "always": "Aina, myös yksittäiset sanat ja lauseet",
+                        "blockLevel": "Kokonaiset kappaleet",
                         "none": "Ei koskaan",
                         "title": "Vaihda ääntä kielen mukaan"
                     },
@@ -248,11 +248,11 @@
                         "after": "Lauseen jälkeen",
                         "inline": "Viittauksen kohdalla",
                         "never": "Ei koskaan",
-                        "title": "Muistiinpanot"
+                        "title": "Merkinnät"
                     },
                     "pageBreaks": {
                         "after": "Lauseen jälkeen",
-                        "inline": "Esiintymiskohdissa",
+                        "inline": "Esiintymiskohdassa",
                         "never": "Ei koskaan",
                         "title": "Sivunvaihdot"
                     },
@@ -265,20 +265,20 @@
                             "default": "Oletus",
                             "fast": "Nopea",
                             "slow": "Hidas",
-                            "title": "Rytmin asetukset"
+                            "title": "Lukurytmin asetukset"
                         },
                         "title": "Rytmi"
                     },
                     "title": "Lue ääneen -asetukset",
                     "verbosity": {
-                        "few": "Harvat",
-                        "most": "Monet",
+                        "few": "Vähän",
+                        "most": "Useita",
                         "none": "Ei mitään",
-                        "some": "Jotkin",
+                        "some": "Joitakin",
                         "title": "Ilmoitukset"
                     },
                     "voice": {
-                        "prerecorded": "Ennalta nauhoitettu ääni",
+                        "prerecorded": "Julkaisuun sisältyvä ääni",
                         "system": "Järjestelmän oletus",
                         "title": "Ääni"
                     }
@@ -295,12 +295,12 @@
                     "presets": {
                         "custom": "Mukautettu",
                         "endOfChapter": "Luvun loppu",
-                        "endOfNextChapter": "Seuraavan luvun loppu",
+                        "endOfNextChapter": "Seuraavan luvun lopussa",
                         "endOfResource": "Resurssin loppu"
                     }
                 }
             },
-            "trackN": "Raita {{ index }}"
+            "trackN": "Äänitiedosto {{ index }}"
         },
         "preferences": {
             "brightness": "Kirkkaus",
