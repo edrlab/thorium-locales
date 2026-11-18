@@ -76,11 +76,18 @@
                 "compact": "Ankstesnis",
                 "descriptive": "Ankstesnis takelis"
             },
+            "goToReadAloudPosition": {
+                "compact": "Grįžti prie dabartinio sakinio",
+                "descriptive": "Grįžti prie skaitomo sakinio"
+            },
             "readAloud": {
                 "compact": "Skaityti garsiai"
             },
             "rotateImage": {
                 "compact": "Pasukti"
+            },
+            "stopReadAloud": {
+                "compact": "Sustabdyti skaitymą garsiai"
             }
         },
         "annotations": {
@@ -103,6 +110,9 @@
                     "description": "Šiame sąraše bus rodomi nauji skirtukai, pridėti skaitant.",
                     "title": "Skirtukų nėra"
                 },
+                "events": {
+                    "added": "Skirtukas pridėtas"
+                },
                 "title": "Skirtukai"
             },
             "note": {
@@ -122,23 +132,40 @@
         },
         "playback": {
             "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Suskleisti grotuvą"
+                },
+                "expandPlayer": {
+                    "descriptive": "Išskleisti grotuvą"
+                },
+                "next": "Kitas",
                 "pause": "Pristabdyti",
                 "play": "Atkurti",
+                "previous": "Ankstesnis",
                 "skipBackward": {
                     "compact": "Atgal",
                     "descriptive": "Atsukti atgal"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Peršokti atgal {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Pirmyn",
                     "descriptive": "Prasukti pirmyn"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Peršokti į priekį {{ duration }}"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "Ši kalba nepalaikoma balso sintezės balso."
             },
             "preferences": {
                 "audio": {
                     "skipBackwardInterval": "Atsukimo atgal intervalas",
                     "skipForwardInterval": "Prasukimo į priekį intervalas",
                     "skipInterval": "Prasukimo intervalas",
-                    "title": "Garso nuostatos",
+                    "title": "Grotuvo parinktys",
                     "volume": "Garsis"
                 },
                 "autoPlay": {
@@ -147,17 +174,97 @@
                 },
                 "playbackRate": {
                     "compact": "Sparta",
-                    "descriptive": "Atkūrimo sparta"
+                    "descriptive": "Atkūrimo sparta",
+                    "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "abbreviations": {
+                        "never": "Taip, kaip parašyta",
+                        "title": "Santrumpos"
+                    },
+                    "additionalLanguages": "Papildomos kalbos",
+                    "autoPause": {
+                        "block": "Po kiekvienos pastraipos",
+                        "none": "Išjungta",
+                        "page": "Po kiekvieno puslapio",
+                        "spread": "Po kiekvieno atvarto",
+                        "title": "Automatiškai pristabdyti",
+                        "utterance": "Po kiekvieno sakinio"
+                    },
+                    "bibliography": {
+                        "after": "Po sakinio",
+                        "never": "Niekada"
+                    },
+                    "glossary": {
+                        "after": "Po sakinio",
+                        "never": "Niekada"
+                    },
+                    "highlight": {
+                        "sentenceStyle": "Sakinio paryškinimas",
+                        "styles": {
+                            "highlight": "Paryškinimas",
+                            "highlightUnderline": "Paryškinimas ir pabraukimas",
+                            "mask": "Pritemdyti visa kita",
+                            "none": "Jokio",
+                            "outline": "Kontūras",
+                            "textColor": "Teksto spalva",
+                            "underline": "Pabraukimas"
+                        },
+                        "title": "Paryškinimas"
+                    },
+                    "keepCentered": {
+                        "label": "Slenkant išlaikyti skaitomą sakinį ekrano viduryje",
+                        "title": "Išlaikyti centre"
+                    },
+                    "language": {
+                        "none": "Niekada"
+                    },
+                    "languageOverride": {
+                        "declared": "Kaip deklaruota ({{ language }})",
+                        "title": "Leidinio kalba",
+                        "undeclared": "Nedeklaruota"
+                    },
+                    "notes": {
+                        "after": "Po sakinio",
+                        "never": "Niekada"
+                    },
+                    "pageBreaks": {
+                        "after": "Po sakinio",
+                        "never": "Niekada",
+                        "title": "Puslapių lūžiai"
+                    },
+                    "prosody": {
+                        "presets": {
+                            "default": "Numatytasis",
+                            "fast": "Greitas",
+                            "slow": "Lėtas",
+                            "title": "Išankstiniai ritmo nustatymai"
+                        },
+                        "title": "Ritmas"
+                    },
+                    "title": "Skaitymo garsiai nuostatos",
+                    "voice": {
+                        "system": "Sistemos numatytasis",
+                        "title": "Balsas"
+                    }
                 },
                 "sleepTimer": {
                     "compact": "Laikmatis",
+                    "custom": {
+                        "duration": "Trukmė",
+                        "until": "Iki {{ time }}"
+                    },
                     "descriptive": "Miego laikmatis",
+                    "off": "Išjungta",
                     "presets": {
+                        "custom": "Tinkintas",
                         "endOfChapter": "Skyriaus pabaiga",
+                        "endOfNextChapter": "Kito skyriaus pabaiga",
                         "endOfResource": "Ištekliaus pabaiga"
                     }
                 }
-            }
+            },
+            "trackN": "Takelis {{ index }}"
         },
         "preferences": {
             "brightness": "Ryškumas",
@@ -309,6 +416,9 @@
             "zoom": "Mastelis"
         },
         "progression": {
+            "page": {
+                "descriptive": "Puslapis {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_few": "Liko {{ count }} puslapiai",
                 "descriptive_one": "Liko {{ count }} puslapis",
@@ -325,6 +435,9 @@
                 "descriptive_other": "Leidinyje liko {{ count }} puslapių"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Pozicija {{ index }}"
+            },
             "positionsLeft": {
                 "compact_few": "Liko {{ count }}",
                 "compact_one": "Liko {{ count }}",
