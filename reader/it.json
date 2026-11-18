@@ -158,7 +158,7 @@
                 }
             },
             "errors": {
-                "ttsLanguageNotSupported": "Questa lingua non è supportata dalla riproduzione vocale"
+                "ttsLanguageNotSupported": "Questa lingua non è supportata dalla riproduzione vocale."
             },
             "preferences": {
                 "audio": {
@@ -253,7 +253,8 @@
                     "pageBreaks": {
                         "after": "Dopo la frase",
                         "inline": "Dove appaiono",
-                        "never": "Mai"
+                        "never": "Mai",
+                        "title": "Interruzioni della pagina"
                     },
                     "pauseDuration": "Pausa tra le frasi",
                     "pitch": "Tono",
@@ -270,10 +271,15 @@
                     },
                     "title": "Impostazioni per la lettura ad alta voce",
                     "verbosity": {
-                        "none": "Nessuno"
+                        "few": "Pochi",
+                        "most": "Molti",
+                        "none": "Nessuno",
+                        "some": "Alcuni",
+                        "title": "Annunci"
                     },
                     "voice": {
                         "prerecorded": "Voce preregistrata",
+                        "system": "Predefinita dal sistema",
                         "title": "Voce"
                     }
                 },
@@ -281,10 +287,13 @@
                     "compact": "Timer",
                     "custom": {
                         "duration": "Durata",
+                        "endTime": "Ora",
                         "until": "Fino {{ time }}"
                     },
                     "descriptive": "Timer di spegnimento",
+                    "off": "Disattivato",
                     "presets": {
+                        "custom": "Personalizzato",
                         "endOfChapter": "Fine del capitolo",
                         "endOfNextChapter": "Fine del capitolo seguente",
                         "endOfResource": "Fine della risorsa"
@@ -336,6 +345,7 @@
                 "publisher": "Font dell'editore",
                 "sans": "Sans-serif",
                 "serif": "Serif",
+                "specialized": "Speciali",
                 "title": "Famiglia di caratteri"
             },
             "fontSize": "Dimensione dei caratteri",
