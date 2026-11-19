@@ -76,11 +76,18 @@
                 "compact": "Föregående",
                 "descriptive": "Föregående spår"
             },
+            "goToReadAloudPosition": {
+                "compact": "Tillbaka till nuvarande mening",
+                "descriptive": "Gå tillbaka till meningen som läses upp just nu"
+            },
             "readAloud": {
                 "compact": "Läs upp"
             },
             "rotateImage": {
                 "compact": "Rotera"
+            },
+            "stopReadAloud": {
+                "compact": "Sluta läsa upp"
             }
         },
         "annotations": {
@@ -125,6 +132,12 @@
         },
         "playback": {
             "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Fäll ihop spelaren"
+                },
+                "expandPlayer": {
+                    "descriptive": "Fäll ut spelaren"
+                },
                 "next": "Nästa",
                 "pause": "Paus",
                 "play": "Spela",
@@ -164,6 +177,109 @@
                     "descriptive": "Uppspelningshastighet",
                     "value": "{{ rate }}×"
                 },
+                "readAloud": {
+                    "abbreviations": {
+                        "title": "Förkortningar"
+                    },
+                    "additionalLanguages": "Ytterligare språk",
+                    "autoPause": {
+                        "block": "Efter varje stycke",
+                        "none": "Av",
+                        "page": "Efter varje sida",
+                        "spread": "Efter varje uppslag",
+                        "title": "Pausa automatiskt",
+                        "utterance": "Efter varje mening"
+                    },
+                    "bibliography": {
+                        "after": "Efter meningens slut",
+                        "inline": "Där de refereras",
+                        "never": "Aldrig",
+                        "title": "Bibliografiska referenser"
+                    },
+                    "glossary": {
+                        "after": "Efter meningens slut",
+                        "inline": "Där de refereras",
+                        "never": "Aldrig",
+                        "title": "Ordboksdefinitioner"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "authored": "Som originalet",
+                            "custom": "Anpassad",
+                            "mask": "Fokus",
+                            "none": "Ingen",
+                            "sentence": "Mening",
+                            "sentenceAndWord": "Mening och ord",
+                            "title": "Förval för markering",
+                            "word": "Ord"
+                        },
+                        "sentenceStyle": "Markering av mening",
+                        "styles": {
+                            "highlight": "Markering",
+                            "highlightUnderline": "Markering och understrykning",
+                            "mask": "Tona ner övrigt innehåll",
+                            "none": "Ingen",
+                            "outline": "Ram",
+                            "textColor": "Färg",
+                            "underline": "Understrykning"
+                        },
+                        "title": "Markering",
+                        "wordStyle": "Markering av ord"
+                    },
+                    "keepCentered": {
+                        "label": "Behåll den upplästa meningen i mitten av skärmen när du skrollar",
+                        "title": "Centrering"
+                    },
+                    "language": {
+                        "always": "Alltid, inklusive text i löpande text",
+                        "blockLevel": "För stycken på ett annat språk",
+                        "none": "Aldrig",
+                        "title": "Byt röst för andra språk"
+                    },
+                    "languageOverride": {
+                        "declared": "Som angivet ({{ language }})",
+                        "title": "Bokens språk",
+                        "undeclared": "Inte angivet"
+                    },
+                    "notes": {
+                        "after": "Efter meningens slut",
+                        "inline": "Där de refereras",
+                        "never": "Aldrig",
+                        "title": "Fotnoter och slutnoter"
+                    },
+                    "pageBreaks": {
+                        "after": "Efter meningens slut",
+                        "inline": "Där de visas",
+                        "never": "Aldrig",
+                        "title": "Sidbrytningar"
+                    },
+                    "pauseDuration": "Paus mellan meningar",
+                    "pitch": "Tonhöjd",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Automatiska pauser",
+                            "custom": "Anpassad",
+                            "default": "Standard",
+                            "fast": "Snabb",
+                            "slow": "Långsam",
+                            "title": "Förinställningar för läsrytm"
+                        },
+                        "title": "Läsrytm"
+                    },
+                    "title": "Inställningar för uppläsning",
+                    "verbosity": {
+                        "few": "Få",
+                        "most": "Många",
+                        "none": "Inga",
+                        "some": "Vissa",
+                        "title": "Meddelanden"
+                    },
+                    "voice": {
+                        "prerecorded": "Förinspelad röst",
+                        "system": "Operativsystemets röst",
+                        "title": "Röst"
+                    }
+                },
                 "sleepTimer": {
                     "compact": "Timer",
                     "custom": {
@@ -171,7 +287,7 @@
                         "endTime": "Sluttid",
                         "until": "Tills {{ time }}"
                     },
-                    "descriptive": "Sovtimer",
+                    "descriptive": "Sömntimer",
                     "off": "Av",
                     "presets": {
                         "custom": "Anpassad",
