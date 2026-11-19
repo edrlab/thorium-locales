@@ -23,6 +23,16 @@
             "showAll": "Visa alla",
             "sortBy": "Sortera efter",
             "toggle": "Växla"
+        },
+        "colors": {
+            "blue": "Blå",
+            "gray": "Grå",
+            "green": "Grön",
+            "orange": "Orange",
+            "pink": "Rosa",
+            "purple": "Lila",
+            "red": "Röd",
+            "yellow": "Gul"
         }
     },
     "reader": {
@@ -179,6 +189,9 @@
                 },
                 "readAloud": {
                     "abbreviations": {
+                        "after": "Tillsammans med expansionen",
+                        "inline": "Expanderade",
+                        "never": "Som skriven",
                         "title": "Förkortningar"
                     },
                     "additionalLanguages": "Ytterligare språk",
@@ -245,7 +258,7 @@
                         "after": "Efter meningens slut",
                         "inline": "Där de refereras",
                         "never": "Aldrig",
-                        "title": "Fotnoter och slutnoter"
+                        "title": "Anteckningar"
                     },
                     "pageBreaks": {
                         "after": "Efter meningens slut",
@@ -328,16 +341,16 @@
             "fontFamily": {
                 "humanist": {
                     "compact": "Humanist",
-                    "descriptive": "Humanist sans-serif"
+                    "descriptive": "Humanistisk sans-serif"
                 },
                 "modern": {
                     "compact": "Modern",
-                    "descriptive": "Modern serif"
+                    "descriptive": "Modern seriff"
                 },
                 "monospace": "Monospace",
                 "oldStyle": {
                     "compact": "Old style",
-                    "descriptive": "Old style serif"
+                    "descriptive": "Gammaldags seriff"
                 },
                 "publisher": "Originalets typsnitt",
                 "sans": "Sans-serif",
