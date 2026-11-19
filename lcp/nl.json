@@ -40,7 +40,7 @@
             "missingPassphrase": "Je hebt een wachtwoord nodig om deze publicatie te openen. Vraag dit aan je licentieverstrekker.",
             "renewFailed": "De leentermijn van deze publicatie kon niet worden verlengd. Neem voor hulp contact op met je aanbieder.",
             "returnFailed": "Deze publicatie kon niet worden ingeleverd. Neem voor hulp contact op met je aanbieder.",
-            "statusCancelled": "De toegang tot deze publicatie is op {{ date }} geannuleerd. Neem contact op met je licentieverstrekker als je weer toegang wilt.",
+            "statusCancelled": "Je hebt de toegang tot deze publicatie op {{ date }} geannuleerd. Neem contact op met je licentieverstrekker als je weer toegang wilt.",
             "statusExpiredEnd": "De leentermijn voor deze publicatie is op {{ date }} verlopen. Neem contact op met je bibliotheek om de publicatie opnieuw te lenen.",
             "statusExpiredStart": "Deze publicatie is beschikbaar vanaf {{ date }}.",
             "statusReturned": "Je hebt deze publicatie op {{ date }} ingeleverd. Neem contact op met je bibliotheek om de publicatie opnieuw te lenen.",

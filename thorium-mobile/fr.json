@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Votre bibliothèque est vide pour le moment.\nImportez des fichiers EPUB, PDF, LCPL ou CBZ depuis votre appareil ou ajoutez un catalogue.",
+                "bookshelf": "Votre bibliothèque est vide pour le moment.\nImportez des fichiers EPUB, PDF, livres audio, LCPL ou CBZ depuis votre appareil ou ajoutez un catalogue.",
                 "filter": "Aucune publication ne correspond à ce filtre.",
                 "kind": "Aucune publication ne correspond au type sélectionné. Essayez d’afficher tous les types pour voir plus d’éléments de votre bibliothèque."
             },
@@ -137,7 +137,7 @@
         },
         "tips": {
             "add": {
-                "message": "Ajoutez n'importe quel site web comme catalogue pour parcourir et télécharger facilement des livres numériques, des bandes dessinées et des mangas.",
+                "message": "Ajoutez n'importe quel site web comme catalogue pour parcourir et télécharger facilement des livres numériques, livres audio, des bandes dessinées et des mangas.",
                 "title": "Catalogues compatibles"
             }
         },
@@ -389,7 +389,7 @@
                 },
                 "title": "Écran"
             },
-            "title": "Options de lecture"
+            "title": "Réglages de lecture"
         }
     },
     "settings": {
@@ -397,7 +397,7 @@
             "always": "Toujours affiché",
             "hidden": "Caché",
             "title": "Mini lecteur audio",
-            "whenPlaying": "Afficher en jouant"
+            "whenPlaying": "Afficher pendant la lecture"
         },
         "systemSettings": "Réglages système",
         "theme": {

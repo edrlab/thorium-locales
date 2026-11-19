@@ -389,7 +389,7 @@
                 },
                 "title": "Schermo"
             },
-            "title": "Opzioni di lettura"
+            "title": "Opzioni del lettore"
         }
     },
     "settings": {
@@ -397,7 +397,7 @@
             "always": "Visualizza sempre",
             "hidden": "Nascondi",
             "title": "Mini audio player",
-            "whenPlaying": "Visualizza quando è in uso"
+            "whenPlaying": "Visualizza durante la riproduzione"
         },
         "systemSettings": "Impostazioni",
         "theme": {

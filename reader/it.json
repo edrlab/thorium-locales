@@ -146,13 +146,19 @@
                     "compact": "Torna indietro",
                     "descriptive": "Salta indietro"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Torna indietro di {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Avanti",
                     "descriptive": "Salta avanti"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Avanza di {{ duration }}"
                 }
             },
             "errors": {
-                "ttsLanguageNotSupported": "Questa lingua non è supportata dalla riproduzione vocale"
+                "ttsLanguageNotSupported": "Questa lingua non è supportata dalla riproduzione vocale."
             },
             "preferences": {
                 "audio": {
@@ -173,6 +179,9 @@
                 },
                 "readAloud": {
                     "abbreviations": {
+                        "after": "Con il loro scioglimento",
+                        "inline": "Sciolte",
+                        "never": "Così come scritte",
                         "title": "Abbreviazioni"
                     },
                     "additionalLanguages": "Lingue aggiuntive",
@@ -180,22 +189,27 @@
                         "block": "Dopo ogni paragrafo",
                         "none": "Disattivata",
                         "page": "Dopo ogni pagina",
+                        "spread": "Dopo ogni doppia pagina",
                         "title": "Pausa automatica",
                         "utterance": "Dopo ogni frase"
                     },
                     "bibliography": {
                         "after": "Dopo una frase",
+                        "inline": "Dove referenziate",
                         "never": "Mai",
                         "title": "Riferimenti bibliografici"
                     },
                     "glossary": {
                         "after": "Dopo una frase",
+                        "inline": "Dove referenziate",
                         "never": "Mai",
                         "title": "Definizioni del glossario"
                     },
                     "highlight": {
                         "presets": {
+                            "authored": "Create",
                             "custom": "Personalizza",
+                            "mask": "Focus",
                             "none": "Nessuna",
                             "sentence": "Frase",
                             "sentenceAndWord": "Frase e parola",
@@ -206,7 +220,9 @@
                         "styles": {
                             "highlight": "Evidenziatura",
                             "highlightUnderline": "Evidenzia e sottolinea",
+                            "mask": "Oscura il resto",
                             "none": "Nessuna",
+                            "outline": "Contornata",
                             "textColor": "Colore del testo",
                             "underline": "Sottolinea"
                         },
@@ -218,22 +234,27 @@
                         "title": "Accentra"
                     },
                     "language": {
+                        "always": "Sempre, frasi in linea incluse",
                         "blockLevel": "Per testo in un'altra lingua",
                         "none": "Mai",
                         "title": "Cambia voce per le altre lingue"
                     },
                     "languageOverride": {
-                        "title": "Lingua della pubblicazione"
+                        "declared": "Come dichiarata ({{ language }})",
+                        "title": "Lingua della pubblicazione",
+                        "undeclared": "Non dichiarata"
                     },
                     "notes": {
                         "after": "Dopo la frase",
+                        "inline": "Dove referenziate",
                         "never": "Mai",
                         "title": "Note"
                     },
                     "pageBreaks": {
                         "after": "Dopo la frase",
                         "inline": "Dove appaiono",
-                        "never": "Mai"
+                        "never": "Mai",
+                        "title": "Interruzioni della pagina"
                     },
                     "pauseDuration": "Pausa tra le frasi",
                     "pitch": "Tono",
@@ -250,10 +271,15 @@
                     },
                     "title": "Impostazioni per la lettura ad alta voce",
                     "verbosity": {
-                        "none": "Nessuno"
+                        "few": "Pochi",
+                        "most": "Molti",
+                        "none": "Nessuno",
+                        "some": "Alcuni",
+                        "title": "Annunci"
                     },
                     "voice": {
                         "prerecorded": "Voce preregistrata",
+                        "system": "Predefinita dal sistema",
                         "title": "Voce"
                     }
                 },
@@ -261,10 +287,13 @@
                     "compact": "Timer",
                     "custom": {
                         "duration": "Durata",
+                        "endTime": "Ora",
                         "until": "Fino {{ time }}"
                     },
                     "descriptive": "Timer di spegnimento",
+                    "off": "Disattivato",
                     "presets": {
+                        "custom": "Personalizzato",
                         "endOfChapter": "Fine del capitolo",
                         "endOfNextChapter": "Fine del capitolo seguente",
                         "endOfResource": "Fine della risorsa"
@@ -316,6 +345,7 @@
                 "publisher": "Font dell'editore",
                 "sans": "Sans-serif",
                 "serif": "Serif",
+                "specialized": "Speciali",
                 "title": "Famiglia di caratteri"
             },
             "fontSize": "Dimensione dei caratteri",
