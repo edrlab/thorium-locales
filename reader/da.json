@@ -23,6 +23,16 @@
             "showAll": "Vis alle",
             "sortBy": "Sorter efter",
             "toggle": "Skift"
+        },
+        "colors": {
+            "blue": "Blå",
+            "gray": "Grå",
+            "green": "Grøn",
+            "orange": "Orange",
+            "pink": "Lyserød",
+            "purple": "Lilla",
+            "red": "Rød",
+            "yellow": "Gul"
         }
     },
     "reader": {
@@ -208,7 +218,7 @@
                     "highlight": {
                         "presets": {
                             "authored": "Forfattet",
-                            "custom": "Skræddersyet",
+                            "custom": "Tilpasset",
                             "mask": "Fokus",
                             "none": "Ingen",
                             "sentence": "Sætning",
@@ -252,7 +262,30 @@
                     },
                     "pageBreaks": {
                         "after": "Efter sætningen",
-                        "inline": "Hvor de optræder"
+                        "inline": "Hvor de optræder",
+                        "never": "Aldrig",
+                        "title": "Sideskift"
+                    },
+                    "pauseDuration": "Pause mellem sætninger",
+                    "pitch": "Toneleje",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Automatisk pause",
+                            "custom": "Tilpasset",
+                            "default": "Standard",
+                            "fast": "Hurtig",
+                            "slow": "Langsom",
+                            "title": "Rytme-forudindstillinger"
+                        },
+                        "title": "Rytme"
+                    },
+                    "title": "Højtlæsningsindstillinger",
+                    "verbosity": {
+                        "few": "Få",
+                        "most": "Mange",
+                        "none": "Ingen",
+                        "some": "Nogle",
+                        "title": "Meddelelser"
                     }
                 },
                 "sleepTimer": {
