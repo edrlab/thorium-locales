@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Sinu raamaturiiul on tühi.\nImpordi oma EPUB-, PDF-, LCPL- või CBZ-faile või lisa üks kataloog.",
+                "bookshelf": "Sinu raamaturiiul on tühi.\nImpordi oma heliraamatuid, EPUB-, PDF-, LCPL- või CBZ-faile või lisa üks kataloog.",
                 "filter": "Sellele filtrile ei vasta mitte mingit sisu sinu raamaturiiulis.",
                 "kind": "Sellele filtrile ei vasta antud tüüpi sisu. Pigem vaata kõiki tüüpe, mis raamaturiiulis leidub."
             },
@@ -137,7 +137,7 @@
         },
         "tips": {
             "add": {
-                "message": "Lisa mis tahes veebisait kataloogina, et hõlpsalt sirvida ja alla laadida e-raamatuid, koomikseid ja mangat.",
+                "message": "Lisa mis tahes veebisait kataloogina, et hõlpsalt sirvida ja alla laadida e-raamatuid, heliraamatuid, koomikseid ja mangat.",
                 "title": "Toetatud kataloogid"
             }
         },
