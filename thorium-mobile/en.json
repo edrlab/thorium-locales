@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Your bookshelf is empty for now.\nImport EPUB, PDF, LCPL or CBZ files or add a catalog.",
+                "bookshelf": "Your bookshelf is empty for now.\nImport EPUB, PDF, audiobooks, LCPL or CBZ files or add a catalog.",
                 "filter": "No publications in your bookshelf match this filter."
             },
             "title": "No publications found"
@@ -136,7 +136,7 @@
         },
         "tips": {
             "add": {
-                "message": "Add any website as a catalog to easily browse and download ebooks, comics and manga.",
+                "message": "Add any website as a catalog to easily browse and download ebooks, audiobooks, comics and manga.",
                 "title": "Supported catalogs"
             }
         },
