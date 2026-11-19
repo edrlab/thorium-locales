@@ -77,7 +77,7 @@
                 "descriptive": "Piste précédente"
             },
             "goToReadAloudPosition": {
-                "compact": "Retourner à la phrase",
+                "compact": "Retourner à la phrase en cours",
                 "descriptive": "Retourner à la phrase en cours de lecture"
             },
             "readAloud": {
@@ -147,7 +147,7 @@
                     "descriptive": "Retour rapide"
                 },
                 "skipBackwardBy": {
-                    "descriptive": "Reculer de {{ duration }}"
+                    "descriptive": "Revenir en arrière de {{ duration }}"
                 },
                 "skipForward": {
                     "compact": "Avancer",
@@ -165,7 +165,7 @@
                     "skipBackwardInterval": "Intervalle de retour rapide",
                     "skipForwardInterval": "Intervalle d'avance rapide",
                     "skipInterval": "Intervalle de saut",
-                    "title": "Réglages audio",
+                    "title": "Réglages du lecteur audio",
                     "volume": "Volume"
                 },
                 "autoPlay": {
@@ -208,7 +208,7 @@
                         "never": "Jamais"
                     },
                     "pauseDuration": "Pause entre les phrases",
-                    "pitch": "Hauteur",
+                    "pitch": "Ton de la voix",
                     "prosody": {
                         "presets": {
                             "default": "Par défaut",
@@ -218,7 +218,7 @@
                     },
                     "title": "Options de lecture à voix haute",
                     "voice": {
-                        "system": "Langue du système",
+                        "system": "Voix du système",
                         "title": "Voix"
                     }
                 },
