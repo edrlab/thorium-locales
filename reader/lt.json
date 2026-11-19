@@ -23,6 +23,16 @@
             "showAll": "Rodyti visus",
             "sortBy": "Rikiuoti pagal",
             "toggle": "Perjungti"
+        },
+        "colors": {
+            "blue": "Mėlyna",
+            "gray": "Pilka",
+            "green": "Žalia",
+            "orange": "Oranžinė",
+            "pink": "Rožinė",
+            "purple": "Purpurinė",
+            "red": "Raudona",
+            "yellow": "Geltona"
         }
     },
     "reader": {
@@ -179,6 +189,8 @@
                 },
                 "readAloud": {
                     "abbreviations": {
+                        "after": "Su jų išplėtimu",
+                        "inline": "Išplėstos",
                         "never": "Taip, kaip parašyta",
                         "title": "Santrumpos"
                     },
@@ -193,13 +205,27 @@
                     },
                     "bibliography": {
                         "after": "Po sakinio",
-                        "never": "Niekada"
+                        "inline": "Nuorodos vietoje",
+                        "never": "Niekada",
+                        "title": "Bibliografinės nuorodos"
                     },
                     "glossary": {
                         "after": "Po sakinio",
-                        "never": "Niekada"
+                        "inline": "Nuorodos vietoje",
+                        "never": "Niekada",
+                        "title": "Žodynėlio apibrėžimai"
                     },
                     "highlight": {
+                        "presets": {
+                            "authored": "Autorinis",
+                            "custom": "Tinkintas",
+                            "mask": "Fokusas",
+                            "none": "Joks",
+                            "sentence": "Sakinys",
+                            "sentenceAndWord": "Sakinys ir žodis",
+                            "title": "Paryškinimo nuostatos",
+                            "word": "Žodis"
+                        },
                         "sentenceStyle": "Sakinio paryškinimas",
                         "styles": {
                             "highlight": "Paryškinimas",
@@ -210,14 +236,18 @@
                             "textColor": "Teksto spalva",
                             "underline": "Pabraukimas"
                         },
-                        "title": "Paryškinimas"
+                        "title": "Paryškinimas",
+                        "wordStyle": "Žodžio paryškinimas"
                     },
                     "keepCentered": {
                         "label": "Slenkant išlaikyti skaitomą sakinį ekrano viduryje",
                         "title": "Išlaikyti centre"
                     },
                     "language": {
-                        "none": "Niekada"
+                        "always": "Visada, įskaitant frazėms teksto viduje",
+                        "blockLevel": "Ištraukoms kita kalba",
+                        "none": "Niekada",
+                        "title": "Pakeisti balsą kitoms kalboms"
                     },
                     "languageOverride": {
                         "declared": "Kaip deklaruota ({{ language }})",
@@ -226,15 +256,22 @@
                     },
                     "notes": {
                         "after": "Po sakinio",
-                        "never": "Niekada"
+                        "inline": "Pastabos vietoje",
+                        "never": "Niekada",
+                        "title": "Pastabos"
                     },
                     "pageBreaks": {
                         "after": "Po sakinio",
+                        "inline": "Kur jie pasirodo",
                         "never": "Niekada",
                         "title": "Puslapių lūžiai"
                     },
+                    "pauseDuration": "Pauzė tarp sakinių",
+                    "pitch": "Garso aukštis",
                     "prosody": {
                         "presets": {
+                            "autoPause": "Automatinis pristabdymas",
+                            "custom": "Tinkintas",
                             "default": "Numatytasis",
                             "fast": "Greitas",
                             "slow": "Lėtas",
@@ -243,7 +280,15 @@
                         "title": "Ritmas"
                     },
                     "title": "Skaitymo garsiai nuostatos",
+                    "verbosity": {
+                        "few": "Nedaug",
+                        "most": "Daug",
+                        "none": "Jokių",
+                        "some": "Šiek tiek",
+                        "title": "Skelbimai"
+                    },
                     "voice": {
+                        "prerecorded": "Iš anksto įrašytas balsas",
                         "system": "Sistemos numatytasis",
                         "title": "Balsas"
                     }
@@ -252,6 +297,7 @@
                     "compact": "Laikmatis",
                     "custom": {
                         "duration": "Trukmė",
+                        "endTime": "Pabaigos laikas",
                         "until": "Iki {{ time }}"
                     },
                     "descriptive": "Miego laikmatis",
@@ -308,6 +354,8 @@
                 },
                 "publisher": "Leidėjo šriftas",
                 "sans": "Be užraitų",
+                "serif": "Su užraitais",
+                "specialized": "Specializuotas",
                 "title": "Šriftų šeima"
             },
             "fontSize": "Šrifto dydis",
@@ -463,6 +511,10 @@
                 "descriptive_other": "Leidinyje liko {{ count }} pozicijų"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "Liko {{ duration }}",
+                "descriptive": "Leidinyje liko {{ duration }}"
+            },
             "xOfY": {
                 "compact": "{{ x }} iš {{ y }}",
                 "descriptive": "{{ x }} iš {{ y }} ({{ z }})"
