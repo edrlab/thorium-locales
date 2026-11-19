@@ -23,6 +23,16 @@
             "showAll": "Tout afficher",
             "sortBy": "Trier par",
             "toggle": "Basculer"
+        },
+        "colors": {
+            "blue": "Bleu",
+            "gray": "Gris",
+            "green": "Vert",
+            "orange": "Orange",
+            "pink": "Rose",
+            "purple": "Violet",
+            "red": "Rouge",
+            "yellow": "Jaune"
         }
     },
     "reader": {
