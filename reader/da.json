@@ -286,6 +286,9 @@
                         "none": "Ingen",
                         "some": "Nogle",
                         "title": "Meddelelser"
+                    },
+                    "voice": {
+                        "prerecorded": "Humant indlæst stemme"
                     }
                 },
                 "sleepTimer": {
