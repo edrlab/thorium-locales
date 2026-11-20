@@ -23,6 +23,16 @@
             "showAll": "Näita kõiki",
             "sortBy": "Järjestus",
             "toggle": "Lülita sisse/välja"
+        },
+        "colors": {
+            "blue": "Sinine",
+            "gray": "Hall",
+            "green": "Roheline",
+            "orange": "Oranž",
+            "pink": "Roosa",
+            "purple": "Lilla",
+            "red": "Punane",
+            "yellow": "Kollane"
         }
     },
     "reader": {
@@ -189,6 +199,12 @@
                     },
                     "bibliography": {
                         "after": "Lause järel"
+                    },
+                    "pitch": "Helikõrgus",
+                    "title": "Ettelugemise seadistused",
+                    "voice": {
+                        "system": "Süsteemi vaikehääl",
+                        "title": "Hääl"
                     }
                 },
                 "sleepTimer": {

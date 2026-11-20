@@ -27,7 +27,12 @@
         "colors": {
             "blue": "Modra",
             "gray": "Siva",
-            "green": "Zelena"
+            "green": "Zelena",
+            "orange": "Oranžna",
+            "pink": "Rožnata",
+            "purple": "Vijolična",
+            "red": "Rdeča",
+            "yellow": "Rumena"
         }
     },
     "reader": {
@@ -53,6 +58,10 @@
                 "compact": "Naslednja",
                 "descriptive": "Naslednja poved"
             },
+            "goToNextTrack": {
+                "compact": "Naslednji",
+                "descriptive": "Naslednji posnetek"
+            },
             "goToPosition": {
                 "compact": "Pojdi na …",
                 "descriptive": "Pojdi na položaj"
@@ -73,8 +82,22 @@
                 "compact": "Prejšnja",
                 "descriptive": "Prejšnja poved"
             },
+            "goToPreviousTrack": {
+                "compact": "Prejšnji",
+                "descriptive": "Prejšnji posnetek"
+            },
+            "goToReadAloudPosition": {
+                "compact": "Nazaj na trenutni stavek",
+                "descriptive": "Vrnite se na stavek, ki se bere"
+            },
             "readAloud": {
                 "compact": "Beri na glas"
+            },
+            "rotateImage": {
+                "compact": "Obrni"
+            },
+            "stopReadAloud": {
+                "compact": "Nehaj brati na glas"
             }
         },
         "annotations": {
@@ -97,6 +120,9 @@
                     "description": "Zaznamki, ki jih dodate med branjem, se bodo prikazali na tem seznamu.",
                     "title": "Ni zaznamkov"
                 },
+                "events": {
+                    "added": "Zaznamek dodan"
+                },
                 "title": "Zaznamki"
             },
             "note": {
@@ -116,23 +142,40 @@
         },
         "playback": {
             "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Skrči predvajalnik"
+                },
+                "expandPlayer": {
+                    "descriptive": "Razširi predvajalnik"
+                },
+                "next": "Naslednji",
                 "pause": "Začasno ustavi",
                 "play": "Predvajaj",
+                "previous": "Prejšnji",
                 "skipBackward": {
                     "compact": "Prevrti nazaj",
                     "descriptive": "Preskoči nazaj"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Preskoči nazaj {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Preskoči",
                     "descriptive": "Preskoči naprej"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Preskoči naprej {{ duration }}"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "Ta jezik ni podprt s strani glasu za pretvorbo besedila v govor."
             },
             "preferences": {
                 "audio": {
                     "skipBackwardInterval": "Interval preskoka nazaj",
                     "skipForwardInterval": "Interval preskoka naprej",
                     "skipInterval": "Interval preskoka",
-                    "title": "Avdio nastavitve",
+                    "title": "Možnosti predvajalnika",
                     "volume": "Glasnost"
                 },
                 "autoPlay": {
@@ -141,17 +184,38 @@
                 },
                 "playbackRate": {
                     "compact": "Hitrost",
-                    "descriptive": "Hitrost predvajanja"
+                    "descriptive": "Hitrost predvajanja",
+                    "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "abbreviations": {
+                        "after": "Z njihovo širitvijo"
+                    },
+                    "pitch": "Višina glasu",
+                    "title": "Nastavitve branja na glas",
+                    "voice": {
+                        "system": "Sistemsko privzeto",
+                        "title": "Glas"
+                    }
                 },
                 "sleepTimer": {
                     "compact": "Časovnik",
+                    "custom": {
+                        "duration": "Trajanje",
+                        "endTime": "Čas konca",
+                        "until": "Do {{ time }}"
+                    },
                     "descriptive": "Časovnik za spanje",
+                    "off": "Izklopljeno",
                     "presets": {
+                        "custom": "Po meri",
                         "endOfChapter": "Konec poglavja",
+                        "endOfNextChapter": "Konec naslednjega poglavja",
                         "endOfResource": "Konec vira"
                     }
                 }
-            }
+            },
+            "trackN": "Posnetek {{ index }}"
         },
         "preferences": {
             "brightness": "Svetlost",
@@ -195,6 +259,8 @@
                 },
                 "publisher": "Pisava založnika",
                 "sans": "Sans-serif",
+                "serif": "Serif",
+                "specialized": "Specializirane",
                 "title": "Pisave"
             },
             "fontSize": "Velikost pisave",
@@ -303,6 +369,9 @@
             "zoom": "Približaj"
         },
         "progression": {
+            "page": {
+                "descriptive": "Stran {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_few": "še {{ count }} strani",
                 "descriptive_one": "še {{ count }} stran",
@@ -322,6 +391,9 @@
                 "descriptive_two": "še {{ count }} strani v publikaciji"
             },
             "percentage": "{{ percentage }} %",
+            "position": {
+                "descriptive": "Položaj {{ index }}"
+            },
             "positionsLeft": {
                 "compact_few": "še {{ count }}",
                 "compact_one": "še {{ count }}",
@@ -353,6 +425,10 @@
                 "descriptive_two": "še {{ count }} položaja v publikaciji"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "še {{ duration }}",
+                "descriptive": "še {{ duration }} v publikaciji"
+            },
             "xOfY": {
                 "compact": "{{ x }} od {{ y }}",
                 "descriptive": "{{ x }} od {{ y }} ({{ z }})"
