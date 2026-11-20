@@ -189,8 +189,8 @@
                 },
                 "readAloud": {
                     "abbreviations": {
-                        "after": "Tillsammans med expansionen",
-                        "inline": "Expanderade",
+                        "after": "Tillsammans med klartexten",
+                        "inline": "I klartext",
                         "never": "Som skriven",
                         "title": "Förkortningar"
                     },
