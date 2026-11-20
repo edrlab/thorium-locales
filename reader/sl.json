@@ -190,17 +190,32 @@
                 "readAloud": {
                     "abbreviations": {
                         "after": "Z njihovo širitvijo"
+                    },
+                    "pitch": "Višina glasu",
+                    "title": "Nastavitve branja na glas",
+                    "voice": {
+                        "system": "Sistemsko privzeto",
+                        "title": "Glas"
                     }
                 },
                 "sleepTimer": {
                     "compact": "Časovnik",
+                    "custom": {
+                        "duration": "Trajanje",
+                        "endTime": "Čas konca",
+                        "until": "Do {{ time }}"
+                    },
                     "descriptive": "Časovnik za spanje",
+                    "off": "Izklopljeno",
                     "presets": {
+                        "custom": "Po meri",
                         "endOfChapter": "Konec poglavja",
+                        "endOfNextChapter": "Konec naslednjega poglavja",
                         "endOfResource": "Konec vira"
                     }
                 }
-            }
+            },
+            "trackN": "Posnetek {{ index }}"
         },
         "preferences": {
             "brightness": "Svetlost",
@@ -244,6 +259,8 @@
                 },
                 "publisher": "Pisava založnika",
                 "sans": "Sans-serif",
+                "serif": "Serif",
+                "specialized": "Specializirane",
                 "title": "Pisave"
             },
             "fontSize": "Velikost pisave",
@@ -352,6 +369,9 @@
             "zoom": "Približaj"
         },
         "progression": {
+            "page": {
+                "descriptive": "Stran {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_few": "še {{ count }} strani",
                 "descriptive_one": "še {{ count }} stran",
@@ -371,6 +391,9 @@
                 "descriptive_two": "še {{ count }} strani v publikaciji"
             },
             "percentage": "{{ percentage }} %",
+            "position": {
+                "descriptive": "Položaj {{ index }}"
+            },
             "positionsLeft": {
                 "compact_few": "še {{ count }}",
                 "compact_one": "še {{ count }}",
@@ -402,6 +425,10 @@
                 "descriptive_two": "še {{ count }} položaja v publikaciji"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "še {{ duration }}",
+                "descriptive": "še {{ duration }} v publikaciji"
+            },
             "xOfY": {
                 "compact": "{{ x }} od {{ y }}",
                 "descriptive": "{{ x }} od {{ y }} ({{ z }})"
