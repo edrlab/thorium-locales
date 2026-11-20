@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Jūsų knygų lentyna kol kas tuščia.\nImportuokite EPUB, PDF, LCPL ar CBZ failus arba pridėkite katalogą.",
+                "bookshelf": "Jūsų knygų lentyna kol kas tuščia.\nImportuokite EPUB, PDF, garsines knygas, LCPL ar CBZ failus arba pridėkite katalogą.",
                 "filter": "Jūsų knygų lentynoje nėra leidinių, atitinkančių šį filtrą."
             },
             "title": "Nerasta leidinių"
@@ -136,7 +136,7 @@
         },
         "tips": {
             "add": {
-                "message": "Pridėkite bet kurią svetainę kaip katalogą, kad galėtumėte lengvai naršyti ir atsisiųsti el. knygas, komiksus ir manga.",
+                "message": "Pridėkite bet kurią svetainę kaip katalogą, kad galėtumėte lengvai naršyti bei atsisiųsti elektronines ir garsines knygas, komiksus ir manga.",
                 "title": "Palaikomi katalogai"
             }
         },

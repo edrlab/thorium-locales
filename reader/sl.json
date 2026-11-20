@@ -23,6 +23,11 @@
             "showAll": "Prikaži vse",
             "sortBy": "Razvrsti po",
             "toggle": "Preklopi"
+        },
+        "colors": {
+            "blue": "Modra",
+            "gray": "Siva",
+            "green": "Zelena"
         }
     },
     "reader": {

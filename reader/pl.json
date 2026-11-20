@@ -23,6 +23,16 @@
             "showAll": "Pokaż wszystkie",
             "sortBy": "Sortuj według",
             "toggle": "Przełącz"
+        },
+        "colors": {
+            "blue": "Niebieski",
+            "gray": "Szary",
+            "green": "Zielony",
+            "orange": "Pomarańczowy",
+            "pink": "Różowy",
+            "purple": "Fioletowy",
+            "red": "Czerwony",
+            "yellow": "Żółty"
         }
     },
     "reader": {
@@ -48,6 +58,10 @@
                 "compact": "Następne",
                 "descriptive": "Następne zdanie"
             },
+            "goToNextTrack": {
+                "compact": "Następna",
+                "descriptive": "Następna ścieżka"
+            },
             "goToPosition": {
                 "compact": "Przejdź do…",
                 "descriptive": "Przejdź do pozycji"
@@ -68,8 +82,22 @@
                 "compact": "Poprzednie",
                 "descriptive": "Poprzednie zdanie"
             },
+            "goToPreviousTrack": {
+                "compact": "Poprzednia",
+                "descriptive": "Poprzednia ścieżka"
+            },
+            "goToReadAloudPosition": {
+                "compact": "Powrót do bieżącego zdania",
+                "descriptive": "Wróć do czytanego zdania"
+            },
             "readAloud": {
-                "compact": "Czytaj na głos"
+                "compact": "Przeczytaj na głos"
+            },
+            "rotateImage": {
+                "compact": "Obróć"
+            },
+            "stopReadAloud": {
+                "compact": "Zatrzymaj czytanie na głos"
             }
         },
         "annotations": {
@@ -92,6 +120,9 @@
                     "description": "Nowe zakładki dodane podczas czytania pojawią się na tej liście.",
                     "title": "Brak zakładek"
                 },
+                "events": {
+                    "added": "Zakładka dodana"
+                },
                 "title": "Zakładki"
             },
             "note": {
@@ -111,23 +142,40 @@
         },
         "playback": {
             "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Zwiń odtwarzacz"
+                },
+                "expandPlayer": {
+                    "descriptive": "Rozwiń odtwarzacz"
+                },
+                "next": "Następny",
                 "pause": "Wstrzymaj",
                 "play": "Odtwarzaj",
+                "previous": "Poprzedni",
                 "skipBackward": {
                     "compact": "Cofnij",
                     "descriptive": "Przewiń do tyłu"
                 },
+                "skipBackwardBy": {
+                    "descriptive": "Przewiń do tyłu o {{ duration }}"
+                },
                 "skipForward": {
                     "compact": "Dalej",
                     "descriptive": "Przewiń do przodu"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Przewiń do przodu o {{ duration }}"
                 }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "Ten język nie jest obsługiwany przez głos TTS."
             },
             "preferences": {
                 "audio": {
                     "skipBackwardInterval": "Interwał przewijania do tyłu",
                     "skipForwardInterval": "Interwał przewijania do przodu",
                     "skipInterval": "Interwał przewijania",
-                    "title": "Ustawienia dźwięku",
+                    "title": "Opcje odtwarzacza",
                     "volume": "Głośność"
                 },
                 "autoPlay": {
@@ -136,17 +184,133 @@
                 },
                 "playbackRate": {
                     "compact": "Szybkość",
-                    "descriptive": "Prędkość odtwarzania"
+                    "descriptive": "Prędkość odtwarzania",
+                    "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "abbreviations": {
+                        "after": "Z rozwinięciem",
+                        "inline": "Rozwinięte",
+                        "never": "Jak zapisano",
+                        "title": "Skróty"
+                    },
+                    "additionalLanguages": "Dodatkowe języki",
+                    "autoPause": {
+                        "block": "Po każdym akapicie",
+                        "none": "Wyłączone",
+                        "page": "Po każdej stronie",
+                        "spread": "Po każdej rozkładówce",
+                        "title": "Wstrzymuj automatycznie",
+                        "utterance": "Po każdym zdaniu"
+                    },
+                    "bibliography": {
+                        "after": "Po zdaniu",
+                        "inline": "W miejscu odwołania",
+                        "never": "Nigdy",
+                        "title": "Odwołania bibliograficzne"
+                    },
+                    "glossary": {
+                        "after": "Po zdaniu",
+                        "inline": "W miejscu odwołania",
+                        "never": "Nigdy",
+                        "title": "Definicje z glosariusza"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "authored": "Autorskie",
+                            "custom": "Niestandardowe",
+                            "mask": "Skupienie",
+                            "none": "Brak",
+                            "sentence": "Zdanie",
+                            "sentenceAndWord": "Zdanie i słowo",
+                            "title": "Presety wyróżniania",
+                            "word": "Słowo"
+                        },
+                        "sentenceStyle": "Wyróżnienie zdania",
+                        "styles": {
+                            "highlight": "Wyróżnienie",
+                            "highlightUnderline": "Wyróżnienie i podkreślenie",
+                            "mask": "Przyciemnienie pozostałego tekstu",
+                            "none": "Brak",
+                            "outline": "Kontur",
+                            "textColor": "Kolor tekstu",
+                            "underline": "Podkreślenie"
+                        },
+                        "title": "Wyróżnianie",
+                        "wordStyle": "Wyróżnienie słowa"
+                    },
+                    "keepCentered": {
+                        "label": "Utrzymuj czytane zdanie na środku ekranu podczas przewijania",
+                        "title": "Wyśrodkowanie"
+                    },
+                    "language": {
+                        "always": "Zawsze, także dla fraz w tekście",
+                        "blockLevel": "Dla fragmentów w innym języku",
+                        "none": "Nigdy",
+                        "title": "Zmieniaj głos dla innych języków"
+                    },
+                    "languageOverride": {
+                        "declared": "Zgodnie z deklaracją ({{ language }})",
+                        "title": "Język publikacji",
+                        "undeclared": "Niezadeklarowany"
+                    },
+                    "notes": {
+                        "after": "Po zdaniu",
+                        "inline": "W miejscu odwołania",
+                        "never": "Nigdy",
+                        "title": "Przypisy"
+                    },
+                    "pageBreaks": {
+                        "after": "Po zdaniu",
+                        "inline": "W miejscu wystąpienia",
+                        "never": "Nigdy",
+                        "title": "Podziały stron"
+                    },
+                    "pauseDuration": "Pauza między zdaniami",
+                    "pitch": "Wysokość głosu",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Automatyczna pauza",
+                            "custom": "Niestandardowy",
+                            "default": "Domyślny",
+                            "fast": "Szybki",
+                            "slow": "Wolny",
+                            "title": "Presety rytmu"
+                        },
+                        "title": "Rytm"
+                    },
+                    "title": "Ustawienia czytania na głos",
+                    "verbosity": {
+                        "few": "Niewiele",
+                        "most": "Wiele",
+                        "none": "Brak",
+                        "some": "Część",
+                        "title": "Komunikaty"
+                    },
+                    "voice": {
+                        "prerecorded": "Nagrany głos",
+                        "system": "Domyślny systemowy",
+                        "title": "Głos"
+                    }
                 },
                 "sleepTimer": {
                     "compact": "Timer",
+                    "custom": {
+                        "duration": "Czas trwania",
+                        "endTime": "Godzina zakończenia",
+                        "until": "Do {{ time }}"
+                    },
                     "descriptive": "Timer zasypiania",
+                    "off": "Wyłączony",
                     "presets": {
+                        "custom": "Niestandardowy",
                         "endOfChapter": "Koniec rozdziału",
+                        "endOfNextChapter": "Koniec następnego rozdziału",
                         "endOfResource": "Koniec zasobu"
                     }
                 }
-            }
+            },
+            "trackN": "Ścieżka {{ index }}"
         },
         "preferences": {
             "brightness": "Jasność",
@@ -190,6 +354,8 @@
                 },
                 "publisher": "Czcionka wydawcy",
                 "sans": "Sans-serif",
+                "serif": "Serif",
+                "specialized": "Specjalistyczne",
                 "title": "Wybór czcionek"
             },
             "fontSize": "Rozmiar czcionki",
@@ -298,6 +464,9 @@
             "zoom": "Powiększenie"
         },
         "progression": {
+            "page": {
+                "descriptive": "Strona {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_few": "Pozostały {{ count }} strony",
                 "descriptive_many": "Pozostało {{ count }} stron",
@@ -314,6 +483,9 @@
                 "descriptive_one": "Pozostała {{ count }} strona w publikacji"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Pozycja {{ index }}"
+            },
             "positionsLeft": {
                 "compact_few": "Pozostały {{ count }}",
                 "compact_many": "Pozostało {{ count }}",
@@ -339,6 +511,10 @@
                 "descriptive_one": "Pozostała {{ count }} pozycja w publikacji"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "Pozostało {{ duration }}",
+                "descriptive": "Pozostało {{ duration }} w publikacji"
+            },
             "xOfY": {
                 "compact": "{{ x }} z {{ y }}",
                 "descriptive": "{{ x }} z {{ y }} ({{ z }})"

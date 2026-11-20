@@ -288,18 +288,29 @@
                         "title": "Meddelelser"
                     },
                     "voice": {
-                        "prerecorded": "Humant indlæst stemme"
+                        "prerecorded": "Forudindlæst stemme",
+                        "system": "Systemets standard",
+                        "title": "Stemme"
                     }
                 },
                 "sleepTimer": {
                     "compact": "Timer",
+                    "custom": {
+                        "duration": "Varighed",
+                        "endTime": "Sluttidspunkt",
+                        "until": "Indtil {{ time }}"
+                    },
                     "descriptive": "Sleep timer",
+                    "off": "Fra",
                     "presets": {
+                        "custom": "Tilpasset",
                         "endOfChapter": "Kapitel slut",
+                        "endOfNextChapter": "Slutningen af næste kapitel",
                         "endOfResource": "Slut på ressourcen"
                     }
                 }
-            }
+            },
+            "trackN": "Spor {{ index }}"
         },
         "preferences": {
             "brightness": "Lysstyrke",
@@ -343,6 +354,8 @@
                 },
                 "publisher": "Bogens skrifttype",
                 "sans": "Sans-serif",
+                "serif": "Serif",
+                "specialized": "Specialiseret",
                 "title": "Skrifttype"
             },
             "fontSize": "Skriftstørrelse",
@@ -451,6 +464,9 @@
             "zoom": "Zoom"
         },
         "progression": {
+            "page": {
+                "descriptive": "Side {{ index }}"
+            },
             "pagesLeft": {
                 "descriptive_one": "{{ count }} side tilbage",
                 "descriptive_other": "{{ count }} sider tilbage"
@@ -464,6 +480,9 @@
                 "descriptive_other": "{{ count }} sider tilbage i bogen"
             },
             "percentage": "{{ percentage }}%",
+            "position": {
+                "descriptive": "Position {{ index }}"
+            },
             "positionsLeft": {
                 "compact_one": "{{ count }} tilbage",
                 "compact_other": "{{ count }} tilbage",
@@ -483,6 +502,10 @@
                 "descriptive_other": "{{ count }} positioner tilbage i bogen"
             },
             "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "{{ duration }} tilbage",
+                "descriptive": "{{ duration }} tilbage i bogen"
+            },
             "xOfY": {
                 "compact": "{{ x }} af {{ y }}",
                 "descriptive": "{{ x }} af {{ y }} ({{ z }})"

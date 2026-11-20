@@ -299,7 +299,7 @@
             "title": "Otwórz książkę"
         },
         "openBookshelf": {
-            "description": "Pokaż moją półkę.",
+            "description": "Pokaż moją półkę z książkami.",
             "title": "Twoja półka"
         }
     },
