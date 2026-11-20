@@ -189,7 +189,53 @@
                 },
                 "readAloud": {
                     "abbreviations": {
-                        "after": "Z njihovo širitvijo"
+                        "after": "Z njihovo širitvijo",
+                        "inline": "Razširjeno",
+                        "never": "Kot je zapisano",
+                        "title": "Okrajšave"
+                    },
+                    "additionalLanguages": "Dodatni jeziki",
+                    "autoPause": {
+                        "block": "Za vsakim odstavkom",
+                        "none": "Izklopljeno",
+                        "page": "Za vsako stranjo",
+                        "spread": "Za vsako dvojno stranjo",
+                        "title": "Samodejno zaustavi",
+                        "utterance": "Za vsakim stavkom"
+                    },
+                    "bibliography": {
+                        "after": "Za stavkom",
+                        "inline": "Kje so omenjeni",
+                        "never": "Nikoli",
+                        "title": "Bibliografski sklici"
+                    },
+                    "glossary": {
+                        "after": "Za stavkom",
+                        "inline": "Kje so omenjeni",
+                        "never": "Nikoli",
+                        "title": "Definicije v glosarju"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "authored": "Avtorstvo",
+                            "custom": "Po meri",
+                            "mask": "Osredetočeno",
+                            "none": "Brez",
+                            "sentence": "Stavek",
+                            "sentenceAndWord": "Stavek in beseda",
+                            "title": "Poudari prednastavitve",
+                            "word": "Beseda"
+                        },
+                        "sentenceStyle": "Poudarek stavka",
+                        "styles": {
+                            "highlight": "Poudari",
+                            "highlightUnderline": "Poudari in podčrtaj",
+                            "mask": "Zatemni preostalo",
+                            "none": "Brez",
+                            "outline": "Oris",
+                            "textColor": "Barva besedila",
+                            "underline": "Podčrtaj"
+                        }
                     },
                     "pitch": "Višina glasu",
                     "title": "Nastavitve branja na glas",
