@@ -23,6 +23,16 @@
             "showAll": "Mostrar tudo",
             "sortBy": "Ordenar por",
             "toggle": "Alternar"
+        },
+        "colors": {
+            "blue": "Azul",
+            "gray": "Cinza",
+            "green": "Verde",
+            "orange": "Laranja",
+            "pink": "Rosa",
+            "purple": "Roxo",
+            "red": "Vermelho",
+            "yellow": "Amarelo"
         }
     },
     "reader": {
@@ -165,7 +175,7 @@
                     "skipBackwardInterval": "Intervalo de retrocesso",
                     "skipForwardInterval": "Intervalo de avanço",
                     "skipInterval": "Pular intervalo",
-                    "title": "Configurações de áudio",
+                    "title": "Configurações do reprodutor",
                     "volume": "Volume"
                 },
                 "autoPlay": {
