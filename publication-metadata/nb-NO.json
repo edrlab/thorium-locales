@@ -1,1 +1,356 @@
-{}
+{
+    "publication": {
+        "format": {
+            "audiobook": "Lydbok",
+            "audiobookJSON": "Lydbokmanifest",
+            "cbz": "Tegneseriearkiv",
+            "divina": "Divina-publikasjon",
+            "divinaJSON": "Manifest for Divina-publikasjon",
+            "epub": "EPUB",
+            "lcpa": "LCP-beskyttet lydbok",
+            "lcpdf": "LCP-beskyttet PDF",
+            "lcpl": "LCP-lisensdokument",
+            "pdf": "PDF",
+            "rwp": "Readium-nettpublikasjon",
+            "rwpm": "Manifest for Readium-nettpublikasjon",
+            "zab": "Lydbokarkiv",
+            "zip": "ZIP-arkiv"
+        },
+        "kind": {
+            "audiobook": "Lydbok",
+            "audiobookCount_one": "{{ count }} lydbok",
+            "audiobookCount_other": "{{ count }} lydbøker",
+            "audiobookMultiple": "Lydbøker",
+            "book": "Bok",
+            "bookCount_one": "{{ count }} bok",
+            "bookCount_other": "{{ count }} bøker",
+            "bookMultiple": "Bøker",
+            "comic": "Tegneserie",
+            "comicCount_one": "{{ count }} tegneserie",
+            "comicCount_other": "{{ count }} tegneserier",
+            "comicMultiple": "Tegneserier",
+            "document": "Dokument",
+            "documentCount_one": "{{ count }} dokument",
+            "documentCount_other": "{{ count }} dokumenter",
+            "documentMultiple": "Dokumenter"
+        },
+        "metadata": {
+            "accessibility": {
+                "display-guide": {
+                    "accessibility-summary": {
+                        "no-metadata": "Ingen informasjon er tilgjengelig",
+                        "publisher-contact": "Kontakt utgiveren for mer informasjon om produktets tilgjengelighet: ",
+                        "title": "Tilgjengelighetssammendrag"
+                    },
+                    "additional-accessibility-information": {
+                        "aria": {
+                            "compact": "ARIA-roller inkludert",
+                            "descriptive": "Innholdet er utvidet med ARIA-roller for å forbedre struktur og navigasjon"
+                        },
+                        "audio-descriptions": "Synstolking",
+                        "braille": "Punktskrift",
+                        "color-not-sole-means-of-conveying-information": "Informasjon formidles også på andre måter enn med farge",
+                        "dyslexia-readability": "Tilrettelagt for lesere med dysleksi",
+                        "full-ruby-annotations": "Fullstendige ruby-annotasjoner",
+                        "high-contrast-between-foreground-and-background-audio": "Høy kontrast mellom forgrunns- og bakgrunnslyd",
+                        "high-contrast-between-text-and-background": "Høy kontrast mellom tekst og bakgrunn",
+                        "large-print": "Storskrift",
+                        "page-breaks": {
+                            "compact": "Sideskift er inkludert",
+                            "descriptive": "Sideskift fra den opprinnelige trykte utgaven er inkludert"
+                        },
+                        "ruby-annotations": "Enkelte ruby-annotasjoner",
+                        "sign-language": "Tegnspråk",
+                        "tactile-graphics": {
+                            "compact": "Taktil grafikk inkludert",
+                            "descriptive": "Taktil grafikk er inkludert for å gjøre visuelt innhold tilgjengelig for blinde"
+                        },
+                        "tactile-objects": "Taktile 3D-objekter",
+                        "text-to-speech-hinting": "Inneholder uttaleveiledning for talesyntese",
+                        "title": "Ytterligere informasjon om tilgjengelighet",
+                        "ultra-high-contrast-between-text-and-background": "Svært høy kontrast mellom tekst og bakgrunn",
+                        "visible-page-numbering": "Synlige sidetall",
+                        "without-background-sounds": "Uten bakgrunnslyd"
+                    },
+                    "conformance": {
+                        "a": {
+                            "compact": "Denne publikasjonen oppfyller minimumskravene til tilgjengelighet",
+                            "descriptive": "Publikasjonen inneholder en samsvarserklæring om at den oppfyller EPUB Accessibility og WCAG 2 nivå A"
+                        },
+                        "aa": {
+                            "compact": "Denne publikasjonen oppfyller anerkjente krav til tilgjengelighet",
+                            "descriptive": "Publikasjonen inneholder en samsvarserklæring om at den oppfyller EPUB Accessibility og WCAG 2 nivå AA"
+                        },
+                        "aaa": {
+                            "compact": "Denne publikasjonen overgår anerkjente krav til tilgjengelighet",
+                            "descriptive": "Publikasjonen inneholder en samsvarserklæring om at den oppfyller EPUB Accessibility og WCAG 2 nivå AAA"
+                        },
+                        "certifier": "Publikasjonen er sertifisert av ",
+                        "certifier-credentials": "Sertifiseringsorganets kvalifikasjoner er ",
+                        "details": {
+                            "certification-info": "Publikasjonen ble sertifisert ",
+                            "certifier-report": "Se sertifiseringsrapporten for mer informasjon",
+                            "claim": "Publikasjonen oppgir at den oppfyller",
+                            "epub-accessibility-1-0": "EPUB Accessibility 1.0",
+                            "epub-accessibility-1-1": "EPUB Accessibility 1.1",
+                            "level-a": "Nivå A",
+                            "level-aa": "Nivå AA",
+                            "level-aaa": "Nivå AAA",
+                            "wcag-2-0": {
+                                "compact": "WCAG 2.0",
+                                "descriptive": "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.0"
+                            },
+                            "wcag-2-1": {
+                                "compact": "WCAG 2.1",
+                                "descriptive": "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.1"
+                            },
+                            "wcag-2-2": {
+                                "compact": "WCAG 2.2",
+                                "descriptive": "Retningslinjer for tilgjengelig webinnhold (WCAG) 2.2"
+                            }
+                        },
+                        "details-title": "Detaljert informasjon om samsvar",
+                        "no": "Ingen informasjon er tilgjengelig",
+                        "title": "Samsvar",
+                        "unknown-standard": "Det kan ikke fastslås om publikasjonen følger anerkjente standarder for tilgjengelighet"
+                    },
+                    "hazards": {
+                        "flashing": {
+                            "compact": "Blinkende innhold",
+                            "descriptive": "Publikasjonen inneholder blinkende innhold som kan utløse anfall hos lysfølsomme personer"
+                        },
+                        "flashing-none": {
+                            "compact": "Ingen fare knyttet til blinking",
+                            "descriptive": "Publikasjonen inneholder ikke blinkende innhold som kan utløse anfall hos lysfølsomme personer"
+                        },
+                        "flashing-unknown": {
+                            "compact": "Ukjent om publikasjonen inneholder skadelig blinking",
+                            "descriptive": "Det er ukjent om publikasjonen inneholder blinking som kan utløse anfall hos lysfølsomme personer"
+                        },
+                        "motion": {
+                            "compact": "Bevegelsessimulering",
+                            "descriptive": "Publikasjonen inneholder bevegelsessimuleringer som kan føre til bevegelsessyke"
+                        },
+                        "motion-none": {
+                            "compact": "Ingen fare knyttet til simulert bevegelse",
+                            "descriptive": "Publikasjonen inneholder ikke simulert bevegelse som kan føre til bevegelsessyke"
+                        },
+                        "motion-unknown": {
+                            "compact": "Ukjent om simulert bevegelse kan gi ubehag",
+                            "descriptive": "Det er ukjent om publikasjonen inneholder simulert bevegelse som kan føre til bevegelsessyke"
+                        },
+                        "no-metadata": "Ingen informasjon er tilgjengelig",
+                        "none": {
+                            "compact": "Ingen kjente risikofaktorer",
+                            "descriptive": "Publikasjonen inneholder ingen kjente risikofaktorer"
+                        },
+                        "sound": {
+                            "compact": "Ubehagelige lyder",
+                            "descriptive": "Publikasjonen inneholder lyder som kan gi ubehag hos lydfølsomme personer"
+                        },
+                        "sound-none": {
+                            "compact": "Ingen fare knyttet til lyd",
+                            "descriptive": "Publikasjonen inneholder ikke lyder som kan gi ubehag hos lydfølsomme personer"
+                        },
+                        "sound-unknown": {
+                            "compact": "Ukjent om lyder kan gi ubehag",
+                            "descriptive": "Det er ukjent om publikasjonen inneholder lyder som kan gi ubehag hos lydfølsomme personer"
+                        },
+                        "title": "Risikofaktorer",
+                        "unknown": "Det er ukjent om publikasjonen inneholder risikofaktorer"
+                    },
+                    "legal-considerations": {
+                        "exempt": {
+                            "compact": "Utgiveren påberoper seg unntak fra tilgjengelighetskrav i enkelte jurisdiksjoner",
+                            "descriptive": "Utgiveren oppgir at publikasjonen er unntatt fra tilgjengelighetskrav i enkelte jurisdiksjoner"
+                        },
+                        "no-metadata": "Ingen informasjon er tilgjengelig",
+                        "title": "Juridiske forhold"
+                    },
+                    "navigation": {
+                        "index": {
+                            "compact": "Register",
+                            "descriptive": "Register med lenker til de aktuelle oppføringene"
+                        },
+                        "no-metadata": "Ingen informasjon er tilgjengelig",
+                        "page-navigation": {
+                            "compact": "Gå til side",
+                            "descriptive": "Sideliste for navigasjon til sider fra den trykte utgaven"
+                        },
+                        "structural": {
+                            "compact": "Overskrifter",
+                            "descriptive": "Elementer som overskrifter, tabeller osv. gjør strukturert navigasjon mulig"
+                        },
+                        "title": "Navigasjon",
+                        "toc": {
+                            "compact": "Innholdsfortegnelse",
+                            "descriptive": "Innholdsfortegnelse med lenker til alle kapitlene i teksten"
+                        }
+                    },
+                    "rich-content": {
+                        "accessible-chemistry-as-latex": {
+                            "compact": "Kjemiske formler i LaTeX",
+                            "descriptive": "Kjemiske formler i et tilgjengelig format (LaTeX)"
+                        },
+                        "accessible-chemistry-as-mathml": {
+                            "compact": "Kjemiske formler i MathML",
+                            "descriptive": "Kjemiske formler i et tilgjengelig format (MathML)"
+                        },
+                        "accessible-math-as-latex": {
+                            "compact": "Matematikk i LaTeX",
+                            "descriptive": "Matematiske formler i et tilgjengelig format (LaTeX)"
+                        },
+                        "accessible-math-described": "Tekstbeskrivelser av matematikk er inkludert",
+                        "closed-captions": {
+                            "compact": "Videoer har skjult teksting",
+                            "descriptive": "Videoene i publikasjonen har skjult teksting"
+                        },
+                        "extended-descriptions": "Informasjonsrike bilder har utvidede beskrivelser",
+                        "math-as-mathml": {
+                            "compact": "Matematikk i MathML",
+                            "descriptive": "Matematiske formler i et tilgjengelig format (MathML)"
+                        },
+                        "open-captions": {
+                            "compact": "Videoer har åpen teksting",
+                            "descriptive": "Videoene i publikasjonen har åpen teksting"
+                        },
+                        "title": "Rikt innhold",
+                        "transcript": "Transkripsjon er inkludert",
+                        "unknown": "Ingen informasjon er tilgjengelig"
+                    },
+                    "ways-of-reading": {
+                        "nonvisual-reading": {
+                            "alt-text": {
+                                "compact": "Har alternativ tekst",
+                                "descriptive": "Bilder har alternative tekstbeskrivelser"
+                            },
+                            "no-metadata": "Ingen informasjon om ikke-visuell lesing er tilgjengelig",
+                            "none": {
+                                "compact": "Kan ikke leses med talesyntese eller dynamisk punktskrift",
+                                "descriptive": "Innholdet kan ikke leses som syntetisk tale eller med dynamisk punktskrift"
+                            },
+                            "not-fully": {
+                                "compact": "Kan ikke leses fullstendig med talesyntese eller dynamisk punktskrift",
+                                "descriptive": "Ikke alt innholdet kan leses som syntetisk tale eller med dynamisk punktskrift"
+                            },
+                            "readable": {
+                                "compact": "Kan leses med talesyntese eller dynamisk punktskrift",
+                                "descriptive": "Alt innhold kan leses med talesyntese eller dynamisk punktskrift på leselist"
+                            }
+                        },
+                        "prerecorded-audio": {
+                            "complementary": {
+                                "compact": "Forhåndsinnspilte lydklipp",
+                                "descriptive": "Forhåndsinnspilte lydklipp er integrert i innholdet"
+                            },
+                            "no-metadata": "Det finnes ingen opplysninger om forhåndsinnspilt lyd",
+                            "only": {
+                                "compact": "Bare forhåndsinnspilt lyd",
+                                "descriptive": "Lydbok uten tekstalternativ"
+                            },
+                            "synchronized": {
+                                "compact": "Forhåndsinnspilt lyd synkronisert med tekst",
+                                "descriptive": "Alt innhold er tilgjengelig som forhåndsinnspilt lyd synkronisert med teksten"
+                            }
+                        },
+                        "title": "Måter å lese på",
+                        "visual-adjustments": {
+                            "modifiable": {
+                                "compact": "Utseendet kan tilpasses",
+                                "descriptive": "Tekstens utseende og sideoppsettet kan tilpasses innenfor lesesystemets muligheter (skrifttype og skriftstørrelse, avstand mellom avsnitt, setninger, ord og bokstaver samt bakgrunns- og tekstfarge)"
+                            },
+                            "unknown": "Ingen informasjon om muligheten for å tilpasse utseendet er tilgjengelig",
+                            "unmodifiable": {
+                                "compact": "Utseendet kan ikke endres",
+                                "descriptive": "Teksten og sideoppsettet kan ikke endres fordi visningen gjengir den trykte utgaven. Leseprogrammet kan likevel tilby zoom."
+                            }
+                        }
+                    }
+                }
+            },
+            "altIdentifier": "Alternativ identifikator",
+            "altIdentifierCount_one": "{{ count }} alternativ identifikator",
+            "altIdentifierCount_other": "{{ count }} alternative identifikatorer",
+            "altIdentifierMultiple": "Alternative identifikatorer",
+            "artist": "Kunstner",
+            "artistCount_one": "{{ count }} kunstner",
+            "artistCount_other": "{{ count }} kunstnere",
+            "artistMultiple": "Kunstnere",
+            "author": "Forfatter",
+            "authorCount_one": "{{ count }} forfatter",
+            "authorCount_other": "{{ count }} forfattere",
+            "authorMultiple": "Forfattere",
+            "collection": "Forlagsserie",
+            "collectionCount_one": "{{ count }} forlagsserie",
+            "collectionCount_other": "{{ count }} forlagsserier",
+            "collectionMultiple": "Forlagsserier",
+            "colorist": "Fargelegger",
+            "coloristCount_one": "{{ count }} fargelegger",
+            "coloristCount_other": "{{ count }} fargeleggere",
+            "coloristMultiple": "Fargeleggere",
+            "contributor": "Bidragsyter",
+            "contributorCount_one": "{{ count }} bidragsyter",
+            "contributorCount_other": "{{ count }} bidragsytere",
+            "contributorMultiple": "Bidragsytere",
+            "description": "beskrivelse",
+            "duration": "varighet",
+            "editor": "Redaktør",
+            "editorCount_one": "{{ count }} redaktør",
+            "editorCount_other": "{{ count }} redaktører",
+            "editorMultiple": "Redaktører",
+            "identifier": "Identifikator",
+            "identifierCount_one": "{{ count }} identifikator",
+            "identifierCount_other": "{{ count }} identifikatorer",
+            "identifierMultiple": "Identifikatorer",
+            "illustrator": "Illustratør",
+            "illustratorCount_one": "{{ count }} illustratør",
+            "illustratorCount_other": "{{ count }} illustratører",
+            "illustratorMultiple": "Illustratører",
+            "imprint": "Forlagsmerke",
+            "imprintCount_one": "{{ count }} forlagsmerke",
+            "imprintCount_other": "{{ count }} forlagsmerker",
+            "imprintMultiple": "Forlagsmerker",
+            "inker": "Tusjer",
+            "inkerCount_one": "{{ count }} tusjer",
+            "inkerCount_other": "{{ count }} tusjere",
+            "inkerMultiple": "Tusjere",
+            "language": "Språk",
+            "languageCount_one": "{{ count }} språk",
+            "languageCount_other": "{{ count }} språk",
+            "languageMultiple": "Språk",
+            "letterer": "Tekster",
+            "lettererCount_one": "{{ count }} tekster",
+            "lettererCount_other": "{{ count }} tekstere",
+            "lettererMultiple": "Tekstere",
+            "modified": "endringsdato",
+            "narrator": "Innleser",
+            "narratorCount_one": "{{ count }} innleser",
+            "narratorCount_other": "{{ count }} innlesere",
+            "narratorMultiple": "Innlesere",
+            "numberOfPages": "antall trykte sider",
+            "penciler": "Blyanttegner",
+            "pencilerCount_one": "{{ count }} blyanttegner",
+            "pencilerCount_other": "{{ count }} blyanttegnere",
+            "pencilerMultiple": "Blyanttegnere",
+            "published": "utgivelsesdato",
+            "publisher": "Utgiver",
+            "publisherCount_one": "{{ count }} utgiver",
+            "publisherCount_other": "{{ count }} utgivere",
+            "publisherMultiple": "Utgivere",
+            "series": "Serie",
+            "seriesCount_one": "{{ count }} serie",
+            "seriesCount_other": "{{ count }} serier",
+            "seriesMultiple": "Serie",
+            "subject": "Emne",
+            "subjectCount_one": "{{ count }} emne",
+            "subjectCount_other": "{{ count }} emner",
+            "subjectMultiple": "Emner",
+            "subtitle": "undertittel",
+            "title": "tittel",
+            "translator": "Oversetter",
+            "translatorCount_one": "{{ count }} oversetter",
+            "translatorCount_other": "{{ count }} oversettere",
+            "translatorMultiple": "Oversettere"
+        }
+    }
+}
