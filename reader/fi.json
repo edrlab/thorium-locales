@@ -23,6 +23,9 @@
             "showAll": "Näytä kaikki",
             "sortBy": "Luokittele",
             "toggle": "Vaihda"
+        },
+        "colors": {
+            "blue": "Sininen"
         }
     },
     "reader": {
