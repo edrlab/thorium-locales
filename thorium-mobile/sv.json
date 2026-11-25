@@ -324,13 +324,13 @@
                 "compact": "Lyssna"
             },
             "markAsFinished": {
-                "compact": "Markera som avslutad"
+                "compact": "Markera som läst"
             },
             "markAsNotStarted": {
                 "compact": "Markera som ej påbörjad"
             },
             "markAsUnfinished": {
-                "compact": "Markera som ej avslutad"
+                "compact": "Markera som oläst"
             },
             "read": {
                 "compact": "Läs"
