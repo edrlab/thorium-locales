@@ -25,7 +25,14 @@
             "toggle": "Vaihda"
         },
         "colors": {
-            "blue": "Sininen"
+            "blue": "Sininen",
+            "gray": "Harmaa",
+            "green": "Vihreä",
+            "orange": "Oranssi",
+            "pink": "Vaaleanpunainen",
+            "purple": "Violetti",
+            "red": "Punainen",
+            "yellow": "Keltainen"
         }
     },
     "reader": {
