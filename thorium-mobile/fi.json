@@ -23,7 +23,7 @@
         },
         "emptyState": {
             "description": {
-                "bookshelf": "Kirjahyllysi on tällä hetkellä tyhjä.\nTuo EPUB-, PDF-, LCPL- tai CBZ-tiedosto tai lisää luettelo.",
+                "bookshelf": "Kirjahyllysi on tällä hetkellä tyhjä.\nTuo EPUB-, PDF-, äänikirja-, LCPL- tai CBZ-tiedosto tai lisää luettelo.",
                 "filter": "Mikään julkaisu kirjahyllyssäsi ei vastaa tätä suodatinta.",
                 "kind": "Mikään julkaisu ei vastaa valittua tyyppiä. Kokeile näyttää kaikki tyypit, jotta näet enemmän teoksia kirjahyllyssä."
             },
@@ -137,7 +137,7 @@
         },
         "tips": {
             "add": {
-                "message": "Lisää mikä tahansa verkkosivusto luetteloksi, niin voit helposti selata ja ladata e-kirjoja, sarjakuvia ja mangaa.",
+                "message": "Lisää mikä tahansa verkkosivusto luetteloksi, niin voit helposti selata ja ladata e-kirjoja, äänikirjoja, sarjakuvia ja mangaa.",
                 "title": "Tuetut luettelot"
             }
         },
