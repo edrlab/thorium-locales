@@ -21,7 +21,7 @@
                 "incorrectPassphrase": "Felaktigt lösenord."
             },
             "info": {
-                "body": "Denna publikation skyddas av LCP (licensierat innehållsskydd), en DRM-teknik som förhindrar obehörig kopiering samtidigt som du håller din läsupplevelse enkel. LCP är en öppen standard som balanserar användarvänlighet med förlagens behov.",
+                "body": "Denna publikation skyddas av LCP (Licensed Content Protection), en DRM-teknik som förhindrar otillåten kopiering samtidigt som du får en enkel läsupplevelse. LCP är en öppen standard som balanserar användarvänlighet med förlagens behov.",
                 "more": "Lär dig mer…",
                 "title": "Vad är LCP?"
             },

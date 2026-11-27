@@ -1,8 +1,406 @@
 {
+    "about": {
+        "acknowledgments": {
+            "actions": {
+                "openWebsite": {
+                    "compact": "Nettsted"
+                }
+            },
+            "title": "Tredjepartsprogramvare"
+        },
+        "copyright": "Opphavsrett {{ year }} European Digital Reading Lab.\nAlle rettigheter forbeholdt.",
+        "title": "Om",
+        "version": "Versjon {{ version }} ({{ build }})"
+    },
+    "bookshelf": {
+        "actions": {
+            "filter": {
+                "compact": "Filter"
+            },
+            "sort": {
+                "compact": "Sorter etter"
+            }
+        },
+        "emptyState": {
+            "description": {
+                "bookshelf": "Bokhyllen din er tom.\nImporter EPUB-, PDF-, lydbok-, LCPL- eller CBZ-filer, eller legg til en katalog.",
+                "filter": "Ingen publikasjoner i bokhyllen passer til dette filteret."
+            },
+            "title": "Fant ingen publikasjoner"
+        },
+        "filter": {
+            "all": "Alle",
+            "currentlyListening": "Lytter til nå",
+            "currentlyReading": "Leser nå",
+            "finished": "Ferdiglest",
+            "notStartedYet": "Ikke påbegynt",
+            "recentlyAdded": "Nylig lagt til",
+            "samples": "Leseprøver",
+            "type": "Type"
+        },
+        "sidebar": {
+            "section": {
+                "explore": "Utforsk"
+            }
+        },
+        "sort": {
+            "author": "Forfatter",
+            "finished": "Dato fullført",
+            "lastAdded": "Sist lagt til",
+            "lastRead": "Sist lest",
+            "title": "Tittel"
+        },
+        "title": "Bokhylle",
+        "view": {
+            "grid": "Gallerivisning",
+            "list": "Liste",
+            "title": "Visningsmodus"
+        }
+    },
+    "browser": {
+        "actions": {
+            "home": {
+                "compact": "Startside"
+            },
+            "next": {
+                "compact": "Neste"
+            },
+            "openInBrowser": {
+                "compact": "Åpne i nettleseren"
+            },
+            "previous": {
+                "compact": "Forrige"
+            },
+            "reload": {
+                "compact": "Oppdater"
+            },
+            "stop": {
+                "compact": "Stopp"
+            }
+        }
+    },
+    "catalogs": {
+        "actions": {
+            "add": {
+                "compact": "Legg til",
+                "descriptive": "Legg til katalog"
+            },
+            "browse": {
+                "compact": "Bla gjennom",
+                "descriptive": "Bla i katalogen"
+            },
+            "edit": {
+                "compact": "Rediger",
+                "descriptive": "Rediger katalog"
+            },
+            "info": {
+                "compact": "Informasjon"
+            },
+            "remove": {
+                "compact": "Fjern",
+                "confirmation": "Vil du fjerne katalogen «{{ name }}»?",
+                "descriptive": "Fjern katalog"
+            }
+        },
+        "dialogs": {
+            "add": {
+                "title": "Legg til katalog"
+            },
+            "edit": {
+                "title": "Rediger katalog"
+            },
+            "errors": {
+                "invalidName": "Skriv inn et gyldig navn.",
+                "invalidUrl": "Skriv inn en gyldig nettadresse.",
+                "unsupportedCatalog": "Denne katalogtypen støttes ikke."
+            },
+            "fields": {
+                "color": {
+                    "compact": "Farge"
+                },
+                "name": {
+                    "compact": "Navn"
+                },
+                "url": {
+                    "compact": "Nettadresse",
+                    "placeholder": "https://catalog.com"
+                },
+                "useSystemBrowser": {
+                    "compact": "Åpne katalogen i nettleseren"
+                }
+            }
+        },
+        "emptyState": {
+            "description": "Legg til kataloger for å bla i og laste ned publikasjoner.",
+            "title": "Ingen kataloger ennå"
+        },
+        "tips": {
+            "add": {
+                "message": "Legg til et nettsted som katalog for å bla i og laste ned e-bøker, lydbøker, tegneserier og manga.",
+                "title": "Kataloger som støttes"
+            }
+        },
+        "title": "Kataloger",
+        "user": {
+            "bookshelf": {
+                "compact": "Bokhylle"
+            }
+        }
+    },
+    "common": {
+        "actions": {
+            "cancel": "Avbryt",
+            "close": "Lukk",
+            "collapse": "Skjul",
+            "collapseAll": "Skjul alle",
+            "delete": "Slett",
+            "expand": "Utvid",
+            "expandAll": "Utvid alle",
+            "filter": "Filter",
+            "retry": "Prøv igjen",
+            "search": "Søk",
+            "showMoreOptions": "Flere alternativer",
+            "sortBy": "Sorter etter"
+        },
+        "authentication": {
+            "actions": {
+                "signIn": {
+                    "compact": "Logg inn"
+                }
+            },
+            "errors": {
+                "incorrectCredentials": "Feil brukernavn eller passord. Prøv igjen."
+            },
+            "fields": {
+                "password": {
+                    "compact": "Passord"
+                },
+                "username": {
+                    "compact": "Brukernavn"
+                }
+            },
+            "title": "Logg inn på {{ host }}"
+        },
+        "confirmation": {
+            "title": "Er du sikker?"
+        },
+        "error": {
+            "actions": {
+                "showDetails": {
+                    "compact": "Detaljer"
+                }
+            },
+            "cancelled": "Handlingen ble avbrutt.",
+            "outOfMemory": "Det er for lite ledig minne. Lukk andre apper eller prøv igjen senere.",
+            "title": "Feil",
+            "unexpected": "Noe gikk galt. Prøv igjen."
+        },
+        "estimatedNumber": "ca. {{ number }}",
+        "file": {
+            "errors": {
+                "corrupted": "Kunne ikke åpne innholdet. Filen kan være skadet eller ha et format som ikke støttes. Prøv en annen fil.",
+                "forbidden": "Kunne ikke åpne filen. Tilgang nektet.",
+                "formatNotSupported": "Filtypen støttes ikke. Prøv en annen fil.",
+                "insufficientSpace": "Det er for lite ledig diskplass. Frigjør plass og prøv igjen.",
+                "notFound": "Kunne ikke åpne filen fordi den ikke ble funnet.",
+                "protocolNotSupported": "Publikasjonen kan ikke åpnes fra denne plasseringen. Prøv å laste den ned først, eller kontakt bokhandelen for å få hjelp."
+            }
+        },
+        "http": {
+            "errors": {
+                "default": "Noe gikk galt. Kontroller internettforbindelsen eller prøv igjen senere.",
+                "forbidden": "Du har ikke tilgang til dette innholdet.",
+                "malformedResponse": "Kunne ikke laste inn innholdet. Det er et problem med serveren. Prøv igjen senere.",
+                "methodNotSupported": "Serveren støtter ikke den nødvendige innlastingsmetoden.",
+                "notFound": "Fant ikke innholdet.",
+                "offline": "Du er frakoblet. Kontroller internettforbindelsen.",
+                "security": "Kunne ikke opprette en sikker tilkobling. Prøv igjen senere.",
+                "timeout": "Tilkoblingen fikk tidsavbrudd. Prøv igjen.",
+                "unauthorized": "Logg inn for å få tilgang til innholdet.",
+                "unreachable": "Kunne ikke koble til serveren."
+            }
+        },
+        "quote": {
+            "end": "{{ quote }}…",
+            "start": "…{{ quote }}"
+        }
+    },
+    "home": {
+        "emptyState": {
+            "emptyBookshelf": {
+                "title": "Velkommen til Thorium Reader"
+            },
+            "emptyHome": {
+                "description": "Du har lest ferdig alle publikasjonene i bokhyllen.",
+                "title": "Alt er lest"
+            }
+        },
+        "settings": {
+            "splitRecentlyRead": {
+                "compact": "Vis det du nylig har lyttet til, separat"
+            }
+        },
+        "title": "Hjem"
+    },
+    "importer": {
+        "actions": {
+            "hide": {
+                "compact": "Skjul"
+            },
+            "pause": {
+                "compact": "Sett på pause"
+            },
+            "resume": {
+                "compact": "Fortsett"
+            }
+        },
+        "emptyState": {
+            "downloads": {
+                "description": "Du har ingen aktive nedlastinger akkurat nå.",
+                "title": "Ingen aktive nedlastinger"
+            }
+        },
+        "events": {
+            "batchAdded_one": "La til {{ count }} publikasjon",
+            "batchAdded_other": "La til {{ count }} publikasjoner",
+            "batchMixed": {
+                "added_one": "{{ count }} lagt til",
+                "added_other": "{{ count }} lagt til",
+                "combined": "{{ added }}, {{ failed }}",
+                "failed_one": "{{ count }} mislyktes",
+                "failed_other": "{{ count }} mislyktes"
+            },
+            "batchRunning_one": "Importerer {{ count }} publikasjon …",
+            "batchRunning_other": "Importerer {{ count }} publikasjoner …",
+            "taskAdded": "La til «{{ title }}»",
+            "taskFailed": "Kunne ikke legge til «{{ title }}»",
+            "taskRunning": "Importerer «{{ title }}» …"
+        },
+        "status": {
+            "added": "Lagt til",
+            "cancelled": "Avbrutt",
+            "downloading": "Laster ned …",
+            "failed": "Mislyktes",
+            "paused": "På pause",
+            "processing": "Importerer …",
+            "queued": "Venter …"
+        },
+        "title": {
+            "batch": "Importer",
+            "downloads": "Nedlastinger"
+        }
+    },
+    "intents": {
+        "openBook": {
+            "title": "Åpne bok"
+        },
+        "openBookshelf": {
+            "description": "Åpner appen og viser bokhyllen din.",
+            "title": "Åpne bokhyllen"
+        }
+    },
+    "links": {
+        "aboutApp": "Om denne appen",
+        "aboutUs": "Om oss",
+        "community": {
+            "blog": "Blogg",
+            "discord": "Bli med i fellesskapet på Discord",
+            "patreon": "Støtt oss på Patreon",
+            "title": "Hold deg oppdatert",
+            "youtube": "Følg oss på YouTube"
+        },
+        "help": "Hjelp og tilbakemeldinger",
+        "info": "Informasjon",
+        "privacyPolicy": "Personvernerklæring",
+        "termsOfUse": "Bruksvilkår"
+    },
+    "publication": {
+        "actions": {
+            "add": {
+                "compact": "Importer"
+            },
+            "listen": {
+                "compact": "Lytt"
+            },
+            "markAsFinished": {
+                "compact": "Merk som ferdig"
+            },
+            "markAsNotStarted": {
+                "compact": "Merk som ikke påbegynt"
+            },
+            "markAsUnfinished": {
+                "compact": "Merk som uferdig"
+            },
+            "read": {
+                "compact": "Les"
+            },
+            "remove": {
+                "compact": "Fjern",
+                "confirmation": "Vil du fjerne «{{ title }}»?"
+            },
+            "rename": {
+                "compact": "Gi nytt navn",
+                "descriptive": "Gi publikasjonen nytt navn"
+            }
+        },
+        "labels": {
+            "emptyContributors": "Ingen",
+            "sample": "Leseprøve",
+            "unknownTitle": "Ukjent tittel"
+        }
+    },
+    "reader": {
+        "settings": {
+            "annotations": {
+                "showNoteOnNewBookmark": {
+                    "compact": "Åpne notatdialogen når et bokmerke opprettes"
+                },
+                "title": "Bokmerker og markeringer"
+            },
+            "progression": {
+                "animatePageTurns": {
+                    "compact": "Animer sidevending"
+                },
+                "displayCurrentProgression": {
+                    "compact": "Vis lesefremdrift"
+                },
+                "displayPrintPagination": {
+                    "compact": "Vis sidetall fra den trykte utgaven"
+                },
+                "progressionStyle": {
+                    "compact": "Visning av lesefremdrift"
+                },
+                "title": "Lesefremdrift"
+            },
+            "screen": {
+                "alwaysShowStatusBar": {
+                    "compact": "Vis alltid statuslinjen"
+                },
+                "displayOrientationLock": {
+                    "compact": "Vis knappen for rotasjonslås når skjermen roteres"
+                },
+                "preventScreenTimeout": {
+                    "compact": "Hold skjermen på"
+                },
+                "title": "Skjerm"
+            },
+            "title": "Leseinnstillinger"
+        }
+    },
     "settings": {
+        "miniPlayer": {
+            "always": "Vis alltid",
+            "hidden": "Skjult",
+            "title": "Minispiller",
+            "whenPlaying": "Vis under avspilling"
+        },
+        "systemSettings": "Systeminnstillinger",
         "theme": {
             "dark": "Mørk",
-            "light": "Lys"
-        }
+            "light": "Lys",
+            "system": "Systemets standardvalg",
+            "title": "Tema"
+        },
+        "title": "Innstillinger"
     }
 }

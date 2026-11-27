@@ -1,1 +1,536 @@
-{}
+{
+    "common": {
+        "actions": {
+            "cancel": "Avbryt",
+            "clear": "Tøm",
+            "close": "Lukk",
+            "collapse": "Skjul",
+            "collapseAll": "Skjul alle",
+            "decrease": "Reduser",
+            "disable": "Deaktiver",
+            "enable": "Aktiver",
+            "exit": "Avslutt",
+            "expand": "Utvid",
+            "expandAll": "Utvid alle",
+            "filter": "Filter",
+            "hide": "Skjul",
+            "hideAll": "Skjul alle",
+            "increase": "Øk",
+            "open": "Åpne",
+            "reset": "Tilbakestill",
+            "search": "Søk",
+            "show": "Vis",
+            "showAll": "Vis alle",
+            "sortBy": "Sorter etter",
+            "toggle": "Slå av eller på"
+        },
+        "colors": {
+            "blue": "Blå",
+            "gray": "Grå",
+            "green": "Grønn",
+            "orange": "Oransje",
+            "pink": "Rosa",
+            "purple": "Lilla",
+            "red": "Rød",
+            "yellow": "Gul"
+        }
+    },
+    "reader": {
+        "actions": {
+            "goBackward": "Gå bakover",
+            "goForward": "Gå fremover",
+            "goToExtendedDescription": {
+                "compact": "Utvidet beskrivelse"
+            },
+            "goToNextChapter": {
+                "compact": "Neste",
+                "descriptive": "Neste kapittel"
+            },
+            "goToNextPage": {
+                "compact": "Neste",
+                "descriptive": "Neste side"
+            },
+            "goToNextResource": {
+                "compact": "Neste",
+                "descriptive": "Neste ressurs"
+            },
+            "goToNextSentence": {
+                "compact": "Neste",
+                "descriptive": "Neste setning"
+            },
+            "goToNextTrack": {
+                "compact": "Neste",
+                "descriptive": "Neste spor"
+            },
+            "goToPosition": {
+                "compact": "Gå til …",
+                "descriptive": "Gå til posisjon"
+            },
+            "goToPreviousChapter": {
+                "compact": "Forrige",
+                "descriptive": "Forrige kapittel"
+            },
+            "goToPreviousPage": {
+                "compact": "Forrige",
+                "descriptive": "Forrige side"
+            },
+            "goToPreviousResource": {
+                "compact": "Forrige",
+                "descriptive": "Forrige ressurs"
+            },
+            "goToPreviousSentence": {
+                "compact": "Forrige",
+                "descriptive": "Forrige setning"
+            },
+            "goToPreviousTrack": {
+                "compact": "Forrige",
+                "descriptive": "Forrige spor"
+            },
+            "goToReadAloudPosition": {
+                "compact": "Tilbake til gjeldende setning",
+                "descriptive": "Gå tilbake til setningen som leses høyt"
+            },
+            "readAloud": {
+                "compact": "Les høyt"
+            },
+            "rotateImage": {
+                "compact": "Roter"
+            },
+            "stopReadAloud": {
+                "compact": "Stopp høytlesingen"
+            }
+        },
+        "annotations": {
+            "actions": {
+                "editNote": {
+                    "compact": "Rediger notat"
+                }
+            },
+            "bookmarks": {
+                "actions": {
+                    "add": {
+                        "compact": "Legg til bokmerke"
+                    },
+                    "delete": {
+                        "compact": "Slett bokmerke",
+                        "confirmation": "Vil du slette dette bokmerket?"
+                    }
+                },
+                "emptyState": {
+                    "description": "Bokmerker du legger til mens du leser, vises i denne listen.",
+                    "title": "Ingen bokmerker"
+                },
+                "events": {
+                    "added": "Bokmerke lagt til"
+                },
+                "title": "Bokmerker"
+            },
+            "note": {
+                "title": "Notat"
+            },
+            "sort": {
+                "lastAdded": {
+                    "compact": "Sist lagt til"
+                },
+                "lastEdited": {
+                    "compact": "Sist redigert"
+                },
+                "progression": {
+                    "compact": "Lesefremdrift"
+                }
+            }
+        },
+        "playback": {
+            "actions": {
+                "collapsePlayer": {
+                    "descriptive": "Minimer spilleren"
+                },
+                "expandPlayer": {
+                    "descriptive": "Utvid spilleren"
+                },
+                "next": "Neste",
+                "pause": "Sett på pause",
+                "play": "Spill av",
+                "previous": "Forrige",
+                "skipBackward": {
+                    "compact": "Spol tilbake",
+                    "descriptive": "Hopp bakover"
+                },
+                "skipBackwardBy": {
+                    "descriptive": "Hopp {{ duration }} bakover"
+                },
+                "skipForward": {
+                    "compact": "Fremover",
+                    "descriptive": "Hopp fremover"
+                },
+                "skipForwardBy": {
+                    "descriptive": "Hopp {{ duration }} fremover"
+                }
+            },
+            "errors": {
+                "ttsLanguageNotSupported": "Talesyntesestemmen støtter ikke dette språket."
+            },
+            "preferences": {
+                "audio": {
+                    "skipBackwardInterval": "Hopplengde bakover",
+                    "skipForwardInterval": "Hopplengde fremover",
+                    "skipInterval": "Hopplengde",
+                    "title": "Avspillingsvalg",
+                    "volume": "Lydstyrke"
+                },
+                "autoPlay": {
+                    "label": "Kontinuerlig avspilling",
+                    "title": "Automatisk avspilling"
+                },
+                "playbackRate": {
+                    "compact": "Hastighet",
+                    "descriptive": "Avspillingshastighet",
+                    "value": "{{ rate }}×"
+                },
+                "readAloud": {
+                    "abbreviations": {
+                        "after": "Med den fullstendige formen",
+                        "inline": "Fullstendig form",
+                        "never": "Som skrevet",
+                        "title": "Forkortelser"
+                    },
+                    "additionalLanguages": "Flere språk",
+                    "autoPause": {
+                        "block": "Etter hvert avsnitt",
+                        "none": "Av",
+                        "page": "Etter hver side",
+                        "spread": "Etter hvert oppslag",
+                        "title": "Sett automatisk på pause",
+                        "utterance": "Etter hver setning"
+                    },
+                    "bibliography": {
+                        "after": "Etter setningen",
+                        "inline": "Der det henvises til dem",
+                        "never": "Aldri",
+                        "title": "Litteraturhenvisninger"
+                    },
+                    "glossary": {
+                        "after": "Etter setningen",
+                        "inline": "Der det henvises til dem",
+                        "never": "Aldri",
+                        "title": "Ordforklaringer"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "authored": "Som angitt av utgiveren",
+                            "custom": "Tilpasset",
+                            "mask": "Fokus",
+                            "none": "Ingen",
+                            "sentence": "Setning",
+                            "sentenceAndWord": "Setning og ord",
+                            "title": "Forhåndsvalg for markering",
+                            "word": "Ord"
+                        },
+                        "sentenceStyle": "Setningsmarkering",
+                        "styles": {
+                            "highlight": "Utheving",
+                            "highlightUnderline": "Marker og understrek",
+                            "mask": "Ton ned resten",
+                            "none": "Ingen",
+                            "outline": "Omriss",
+                            "textColor": "Tekstfarge",
+                            "underline": "Understreking"
+                        },
+                        "title": "Utheving",
+                        "wordStyle": "Ordmarkering"
+                    },
+                    "keepCentered": {
+                        "label": "Hold setningen som leses høyt, midt på skjermen ved rulling",
+                        "title": "Hold midt på skjermen"
+                    },
+                    "language": {
+                        "always": "Alltid, også for uttrykk inne i en setning",
+                        "blockLevel": "For avsnitt på andre språk",
+                        "none": "Aldri",
+                        "title": "Bytt stemme ved språkskifte"
+                    },
+                    "languageOverride": {
+                        "declared": "Som angitt ({{ language }})",
+                        "title": "Publikasjonens språk",
+                        "undeclared": "Ikke angitt"
+                    },
+                    "notes": {
+                        "after": "Etter setningen",
+                        "inline": "Der det henvises til dem",
+                        "never": "Aldri",
+                        "title": "Noter"
+                    },
+                    "pageBreaks": {
+                        "after": "Etter setningen",
+                        "inline": "Der de står",
+                        "never": "Aldri",
+                        "title": "Sideskift"
+                    },
+                    "pauseDuration": "Pause mellom setninger",
+                    "pitch": "Tonehøyde",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Automatisk pause",
+                            "custom": "Tilpasset",
+                            "default": "Standard",
+                            "fast": "Rask",
+                            "slow": "Langsom",
+                            "title": "Forhåndsvalg for rytme"
+                        },
+                        "title": "Rytme"
+                    },
+                    "title": "Innstillinger for høytlesing",
+                    "verbosity": {
+                        "few": "Få",
+                        "most": "Mange",
+                        "none": "Ingen",
+                        "some": "Noen",
+                        "title": "Opplesingsmeldinger"
+                    },
+                    "voice": {
+                        "prerecorded": "Innspilt stemme",
+                        "system": "Systemets standardvalg",
+                        "title": "Stemme"
+                    }
+                },
+                "sleepTimer": {
+                    "compact": "Tidsur",
+                    "custom": {
+                        "duration": "Spilletid",
+                        "endTime": "Sluttid",
+                        "until": "Frem til {{ time }}"
+                    },
+                    "descriptive": "Innsovningstimer",
+                    "off": "Av",
+                    "presets": {
+                        "custom": "Tilpasset",
+                        "endOfChapter": "Slutten av kapitlet",
+                        "endOfNextChapter": "Slutten av neste kapittel",
+                        "endOfResource": "Slutten av ressursen"
+                    }
+                }
+            },
+            "trackN": "Spor {{ index }}"
+        },
+        "preferences": {
+            "brightness": "Lysstyrke",
+            "columns": {
+                "auto": "Automatisk",
+                "dual": {
+                    "compact": "2 kolonner",
+                    "descriptive": "To spalter"
+                },
+                "single": {
+                    "compact": "1 kolonne",
+                    "descriptive": "Én spalte"
+                },
+                "title": "Kolonner"
+            },
+            "fit": {
+                "auto": {
+                    "compact": "Automatisk"
+                },
+                "page": {
+                    "compact": "Side"
+                },
+                "title": "Tilpass",
+                "width": {
+                    "compact": "Bredde"
+                }
+            },
+            "fontFamily": {
+                "humanist": {
+                    "compact": "Humanistisk",
+                    "descriptive": "Humanistisk grotesk"
+                },
+                "modern": {
+                    "compact": "Moderne",
+                    "descriptive": "Moderne antikva"
+                },
+                "monospace": "Fast tegnbredde",
+                "oldStyle": {
+                    "compact": "Gammelstil",
+                    "descriptive": "Gammelstilantikva"
+                },
+                "publisher": "Utgiverens skrifttype",
+                "sans": "Uten seriffer",
+                "serif": "Med seriffer",
+                "specialized": "Spesialtilpasset",
+                "title": "Skriftfamilie"
+            },
+            "fontSize": "Skriftstørrelse",
+            "fontWeight": {
+                "bold": "Fetere",
+                "normal": "Normal",
+                "title": "Skrifttykkelse"
+            },
+            "hyphens": {
+                "label": "Aktiver orddeling",
+                "title": "Orddeling"
+            },
+            "layout": {
+                "paginated": "Sideinndelt",
+                "scrolled": "Rullbar",
+                "title": "Layout"
+            },
+            "letterSpacing": "Tegnavstand",
+            "ligatures": {
+                "label": "Aktiver ligaturer",
+                "title": "Ligaturer"
+            },
+            "lineHeight": {
+                "default": "Standard",
+                "large": "Luftig",
+                "medium": "Balansert",
+                "small": "Tett",
+                "title": "Linjeavstand"
+            },
+            "noRuby": {
+                "label": "Skjul ruby-annotasjoner",
+                "title": "Ruby-annotasjoner"
+            },
+            "offsetFirstPage": "Vis første side alene",
+            "paragraphIndent": "Avsnittsinnrykk",
+            "paragraphSpacing": "Avsnittsmellomrom",
+            "publisherStyles": {
+                "label": "Bruk opprinnelig formatering",
+                "title": "Utgiverens stiler"
+            },
+            "readingDirection": {
+                "default": {
+                    "compact": "Standard",
+                    "descriptive": "Bruk opprinnelig leseretning"
+                },
+                "ltr": {
+                    "compact": "Høyre",
+                    "descriptive": "Fra venstre mot høyre"
+                },
+                "rtl": {
+                    "compact": "Venstre",
+                    "descriptive": "Fra høyre mot venstre"
+                },
+                "title": "Leseretning"
+            },
+            "spacing": {
+                "presets": {
+                    "accessible": "Tilgjengelig",
+                    "balanced": "Balansert",
+                    "custom": "Tilpasset",
+                    "default": "Standard",
+                    "loose": "Luftig",
+                    "tight": "Tett",
+                    "title": "Forhåndsvalg"
+                },
+                "title": "Avstand"
+            },
+            "spread": {
+                "always": {
+                    "compact": "Dobbeltside"
+                },
+                "auto": {
+                    "compact": "Automatisk"
+                },
+                "never": {
+                    "compact": "Enkeltside"
+                },
+                "title": "Oppslag"
+            },
+            "text": "Tekst",
+            "textAlign": {
+                "default": "Standard",
+                "justify": "Like marger",
+                "left": "Venstre",
+                "right": "Høyre",
+                "title": "Tekstjustering"
+            },
+            "textNormalization": {
+                "label": "Fjern all tekstformatering",
+                "title": "Tekstnormalisering"
+            },
+            "themes": {
+                "auto": "Automatisk",
+                "contrast1": "Kontrast 1",
+                "contrast2": "Kontrast 2",
+                "contrast3": "Kontrast 3",
+                "dark": "Mørk",
+                "gray": "Grå",
+                "light": "Lys",
+                "paper": "Papir",
+                "sepia": "Sepia",
+                "title": "Temaer"
+            },
+            "title": "Visningsinnstillinger",
+            "wordSpacing": "Ordavstand",
+            "zoom": "Zoom"
+        },
+        "progression": {
+            "page": {
+                "descriptive": "Side {{ index }}"
+            },
+            "pagesLeft": {
+                "descriptive_one": "{{ count }} side igjen",
+                "descriptive_other": "{{ count }} sider igjen"
+            },
+            "pagesLeftInChapter": {
+                "descriptive_one": "{{ count }} side igjen i kapitlet",
+                "descriptive_other": "{{ count }} sider igjen i kapitlet"
+            },
+            "pagesLeftInPublication": {
+                "descriptive_one": "{{ count }} side igjen i publikasjonen",
+                "descriptive_other": "{{ count }} sider igjen i publikasjonen"
+            },
+            "percentage": "{{ percentage }} %",
+            "position": {
+                "descriptive": "Posisjon {{ index }}"
+            },
+            "positionsLeft": {
+                "compact_one": "{{ count }} igjen",
+                "compact_other": "{{ count }} igjen",
+                "descriptive_one": "{{ count }} posisjon igjen",
+                "descriptive_other": "{{ count }} posisjoner igjen"
+            },
+            "positionsLeftInChapter": {
+                "compact_one": "{{ count }} igjen i kapitlet",
+                "compact_other": "{{ count }} igjen i kapitlet",
+                "descriptive_one": "{{ count }} posisjon igjen i kapitlet",
+                "descriptive_other": "{{ count }} posisjoner igjen i kapitlet"
+            },
+            "positionsLeftInPublication": {
+                "compact_one": "{{ count }} igjen i publikasjonen",
+                "compact_other": "{{ count }} igjen i publikasjonen",
+                "descriptive_one": "{{ count }} posisjon igjen i publikasjonen",
+                "descriptive_other": "{{ count }} posisjoner igjen i publikasjonen"
+            },
+            "range": "{{ start }}–{{ end }}",
+            "timeLeftInPublication": {
+                "compact": "{{ duration }} igjen",
+                "descriptive": "{{ duration }} igjen i publikasjonen"
+            },
+            "xOfY": {
+                "compact": "{{ x }} av {{ y }}",
+                "descriptive": "{{ x }} av {{ y }} ({{ z }})"
+            }
+        },
+        "search": {
+            "actions": {
+                "next": {
+                    "compact": "Neste treff"
+                },
+                "previous": {
+                    "compact": "Forrige treff"
+                }
+            },
+            "placeholder": "Søk etter ord eller uttrykk",
+            "result_one": "{{ current }} av {{ count }} treff",
+            "result_other": "{{ current }} av {{ count }} treff",
+            "title": "Søk"
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "Forfatteren har ikke lagt ved noen innholdsfortegnelse.",
+                "title": "Denne boken mangler innholdsfortegnelse"
+            },
+            "title": "Innholdsfortegnelse"
+        }
+    }
+}

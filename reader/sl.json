@@ -189,11 +189,106 @@
                 },
                 "readAloud": {
                     "abbreviations": {
-                        "after": "Z njihovo širitvijo"
+                        "after": "Z njihovo širitvijo",
+                        "inline": "Razširjeno",
+                        "never": "Kot je zapisano",
+                        "title": "Okrajšave"
                     },
+                    "additionalLanguages": "Dodatni jeziki",
+                    "autoPause": {
+                        "block": "Za vsakim odstavkom",
+                        "none": "Izklopljeno",
+                        "page": "Za vsako stranjo",
+                        "spread": "Za vsako dvojno stranjo",
+                        "title": "Samodejno zaustavi",
+                        "utterance": "Za vsakim stavkom"
+                    },
+                    "bibliography": {
+                        "after": "Za stavkom",
+                        "inline": "Kje so omenjeni",
+                        "never": "Nikoli",
+                        "title": "Bibliografski sklici"
+                    },
+                    "glossary": {
+                        "after": "Za stavkom",
+                        "inline": "Kje so omenjeni",
+                        "never": "Nikoli",
+                        "title": "Definicije v glosarju"
+                    },
+                    "highlight": {
+                        "presets": {
+                            "authored": "Avtorstvo",
+                            "custom": "Po meri",
+                            "mask": "Osredetočeno",
+                            "none": "Brez",
+                            "sentence": "Stavek",
+                            "sentenceAndWord": "Stavek in beseda",
+                            "title": "Poudari prednastavitve",
+                            "word": "Beseda"
+                        },
+                        "sentenceStyle": "Poudarek stavka",
+                        "styles": {
+                            "highlight": "Poudari",
+                            "highlightUnderline": "Poudari in podčrtaj",
+                            "mask": "Zatemni preostalo",
+                            "none": "Brez",
+                            "outline": "Oris",
+                            "textColor": "Barva besedila",
+                            "underline": "Podčrtaj"
+                        },
+                        "title": "Poudari",
+                        "wordStyle": "Poudari besedo"
+                    },
+                    "keepCentered": {
+                        "label": "Naj stavek, ki se bere, med pomikanjem ostane na sredini zaslona",
+                        "title": "Naj ostane na sredini"
+                    },
+                    "language": {
+                        "always": "Vedno, vključno z vstavljenimi frazami",
+                        "blockLevel": "Za odlomke v drugem jeziku",
+                        "none": "Nikoli",
+                        "title": "Spremeni glas za druge jezike"
+                    },
+                    "languageOverride": {
+                        "declared": "Kot navedeno ({{ language }})",
+                        "title": "Jezik publikacije",
+                        "undeclared": "Ni navedeno"
+                    },
+                    "notes": {
+                        "after": "Po stavku",
+                        "inline": "Kje so omenjeni",
+                        "never": "Nikoli",
+                        "title": "Opombe"
+                    },
+                    "pageBreaks": {
+                        "after": "Za stavkom",
+                        "inline": "Kjer se pojavljajo",
+                        "never": "Nikoli",
+                        "title": "Prelomi strani"
+                    },
+                    "pauseDuration": "Premor med stavki",
                     "pitch": "Višina glasu",
+                    "prosody": {
+                        "presets": {
+                            "autoPause": "Samodejni premor",
+                            "custom": "Po meri",
+                            "default": "Privzeto",
+                            "fast": "Hitro",
+                            "slow": "Počasi",
+                            "title": "Prednastavitve ritmov"
+                        },
+                        "title": "Ritem"
+                    },
                     "title": "Nastavitve branja na glas",
+                    "verbosity": {
+                        "few": "Malo",
+                        "most": "Veliko",
+                        "none": "Brez",
+                        "some": "Nekaj",
+                        "title": "Obvestila"
+                    },
                     "voice": {
+                        "prerecorded": "Vnaprej posnet glas",
                         "system": "Sistemsko privzeto",
                         "title": "Glas"
                     }

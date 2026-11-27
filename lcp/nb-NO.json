@@ -1,1 +1,72 @@
-{}
+{
+    "lcp": {
+        "actions": {
+            "renew": {
+                "compact": "Forny lån",
+                "descriptive": "Forny lånet"
+            },
+            "return": {
+                "compact": "Returner",
+                "confirmation": "Vil du levere tilbake «{{ title }}»?",
+                "descriptive": "Lever tilbake publikasjonen"
+            }
+        },
+        "dialog": {
+            "actions": {
+                "cancel": "Avbryt",
+                "continue": "Fortsett",
+                "recoverPassphrase": "Glemt passordet?"
+            },
+            "errors": {
+                "incorrectPassphrase": "Feil passord."
+            },
+            "info": {
+                "body": "Publikasjonen er beskyttet med LCP (Licensed Content Protection), en teknologi for rettighetsstyring som hindrer uautorisert kopiering og samtidig gjør det enkelt å lese. LCP er en åpen standard som ivaretar både lesernes og utgivernes behov.",
+                "more": "Les mer …",
+                "title": "Hva er LCP?"
+            },
+            "message": "Du trenger et LCP-passord fra biblioteket eller bokhandelen for å åpne publikasjonen. Skriv det inn én gang for å lese på denne enheten.",
+            "passphrase": {
+                "hint": "**Hint:** {{ hint }}",
+                "placeholder": "Passord"
+            },
+            "title": "Skriv inn passord"
+        },
+        "errors": {
+            "alreadyReturnedOrExpired": "Publikasjonen er allerede levert tilbake, eller lånetiden er utløpt.",
+            "copyForbidden": "Du har overskredet grensen for hvor mange tegn du kan kopiere.",
+            "invalidLicense": "Kunne ikke bekrefte lisensen for publikasjonen. Kontakt lisensleverandøren for å få hjelp.",
+            "invalidRenewalPeriod": "Lånet kan ikke fornyes til den valgte datoen. Prøv en annen dato.",
+            "missingPassphrase": "Du trenger et passord for å åpne publikasjonen. Kontakt lisensleverandøren for å få passordet.",
+            "renewFailed": "Kunne ikke fornye lånet. Kontakt leverandøren for å få hjelp.",
+            "returnFailed": "Kunne ikke levere tilbake publikasjonen. Kontakt leverandøren for å få hjelp.",
+            "statusCancelled": "Du avsluttet tilgangen til publikasjonen {{ date }}. Kontakt lisensleverandøren hvis du vil gjenopprette tilgangen.",
+            "statusExpiredEnd": "Lånet utløp {{ date }}. Kontakt biblioteket for å låne publikasjonen igjen.",
+            "statusExpiredStart": "Publikasjonen blir tilgjengelig {{ date }}.",
+            "statusReturned": "Du leverte tilbake publikasjonen {{ date }}. Kontakt biblioteket for å låne den igjen.",
+            "statusRevoked_one": "Leverandøren trakk tilbake tilgangen til publikasjonen {{ date }}. Den ble åpnet på {{ count }} enhet. Kontakt leverandøren for mer informasjon.",
+            "statusRevoked_other": "Leverandøren trakk tilbake tilgangen til publikasjonen {{ date }}. Den ble åpnet på {{ count }} enheter. Kontakt leverandøren for mer informasjon."
+        },
+        "labels": {
+            "expired": "Utløpt",
+            "expiresIn": {
+                "days": {
+                    "descriptive_one": "Forfaller om {{ count }} dag",
+                    "descriptive_other": "Forfaller om {{ count }} dager"
+                },
+                "hours": {
+                    "descriptive_one": "Forfaller om {{ count }} time",
+                    "descriptive_other": "Forfaller om {{ count }} timer"
+                },
+                "minutes": {
+                    "descriptive_one": "Forfaller om {{ count }} minutt",
+                    "descriptive_other": "Forfaller om {{ count }} minutter"
+                },
+                "months": {
+                    "descriptive_one": "Forfaller om {{ count }} måned",
+                    "descriptive_other": "Forfaller om {{ count }} måneder"
+                }
+            }
+        }
+    }
+}

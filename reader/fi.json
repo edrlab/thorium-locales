@@ -23,6 +23,16 @@
             "showAll": "Näytä kaikki",
             "sortBy": "Luokittele",
             "toggle": "Vaihda"
+        },
+        "colors": {
+            "blue": "Sininen",
+            "gray": "Harmaa",
+            "green": "Vihreä",
+            "orange": "Oranssi",
+            "pink": "Vaaleanpunainen",
+            "purple": "Violetti",
+            "red": "Punainen",
+            "yellow": "Keltainen"
         }
     },
     "reader": {
